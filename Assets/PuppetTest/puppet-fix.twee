@@ -1,0 +1,1194 @@
+﻿:: stare back
+You stare back at the puppet. The puppet blinks.
+
+[[put it down]]
+[[make it speak]]
+
+
+:: leave
+You back away slowly, overwhelmed by the churning of your stomach and the rapid beating of your heart. Your co-star's expression is desperate, and you give her the most apologetic look you can manage before backing out the door.
+
+Closing the door gives you some measure of relief, but not enough. Your hands still tremble at the thought of going back to your own dressing room to share in your co-star's fate.
+
+The stage manager passes again, holding up five fingers. //Places in five//. She gives you a grim look, then flicks her gaze meaningfully towards the door of your dressing room.
+
+It's time.
+
+[[return to your dressing room|return to your dressing room 4]]
+
+
+:: take a minute to collect yourself
+You pause to rest, leaning back against your dressing room door. The sweat on your skin begins to evaporate, and a chill sets in. You feel strangely empty.
+
+[[re-enter the dressing room]]
+[[walk down the hall]]
+[[stay and try to relax]]
+
+
+:: stay and try to relax
+The hallway seems so cold now. Too cold, almost. You glance back at the dressing room, and a chill runs down your back, rucking up goosebumps as it goes.
+
+A stage hand walks by, and asks you if you're alright. You say yes. She accepts the lie with a concerned smile, and moves on. You are alone again. 
+
+[[re-enter the dressing room]]
+[[walk down the hall]]
+[[hold your ground]]
+
+
+:: return to your dressing room 4
+The door clicks shut behind you, and you are alone with it.
+
+You know it can't do or say anything on its own, but its plastic eyes still seem to bore into you.
+
+It's time to put it on. A deep, desperate part of you wants to cry, but you've long since distanced yourself from that urge.
+
+The show's about to start.
+
+[[put on the puppet]]
+[[run]]
+
+
+:: Start
+The puppet stares at you. Its insides are soft against your hand.
+
+You wonder whether tonight will be any different.
+
+[[stare back]]
+[[put it down]]
+
+
+:: put on the puppet [penultimate]
+You move forward. The puppet's eyes remain fixed on you, and continue to be so as you pull the puppet onto your hand with motions that are robotic in their familiarity.
+
+The puppet swivels towards you as soon as it's in place.
+
+[[the show must go on|the show must go on 7]]
+
+
+:: the show must go on 7 [end]
+It's just a few steps to get to the door, a few more to reach the end of the hall, and then you're onstage.
+
+Stage hands scurry this way and that, doing last-minute check on the set and its lighting. The stage manager passes by, and she lifts her eyebrows at you and gestures towards your starting position.
+
+You hit your mark with all the dignity you have left. You are an actor, you tell yourself. You can do this.
+
+(You have to do this.)
+
+The curtains lift before you expect them to, as always, and under the hot stage lights you turn to face your co-star, as always, and you can't remember when, exactly, she took her place on stage. The bags under her eyes seem deeper every day, and some distant part of you wants to express sympathy. She's newer to this show than you are. The puppets only started in on her a week ago. She already looks years older than she did when she started. You wonder how much older you look, now.
+
+The familiar words pour forth from your mouth, in a familiar voice that is still not your own. Your body goes through the motions, and these days you can't be sure if the movements are yours, or the puppet's.
+
+Either way, ''the show must go on.''
+
+
+:: attempt to comfort her
+"It's going to be alright," you say, keeping your eyes fixed on hers. The puppet on her right hand twitches. "It's just one more show."
+
+"And then another," she says. Her voice is hoarse. "I can't keep doing this. //Yes you can//," she says suddenly, voice pitching low and raspy. Her puppet moves towards her ear. She squeezes her eyes shut as the puppet continues, "And you will. You think it matters how you feel? //The show must go on.//"
+
+[[step in]]
+[[leave]]
+
+
+:: leave the dressing room
+You escape to the hallway. The air seems thinner and cooler here. You breathe in and out slowly, deeply.
+
+The stage manager passes by, and calls for places in twenty minutes.
+
+[[re-enter the dressing room]]
+[[walk down the hall]]
+[[take a minute to collect yourself]]
+
+
+:: StoryTitle
+the puppeteer
+
+
+:: put it down
+You put the puppet down. It lies on the vanity of your dressing room. You will have to pick it back up again. The show is starting soon.
+
+[[pick it up]]
+[[leave the dressing room]]
+
+
+:: go inside
+"I'm coming in," you call, and the muttering picks up furiously as you turn the doorknob and push the door open.
+
+The room is indentical to yours, but mirrored. Your co-star sits in front of a dressing table that is exactly like yours, holding a puppet that you know is exactly like yours.
+
+"Hello," your co-star says. Her eyes are open wide, and a trickle of sweat makes its way down the side of her face.
+
+Her puppet's eyes bore into yours.
+
+[[remain pleasant]]
+[[attempt to comfort her]]
+
+
+:: the show must go on 8 [end]
+"Of course," you say tiredly. The show must go on. Where would you be without it? Still spending your days waiting tables, no doubt. After all, no one wants to hire an actor whose experience amounts to nothing at all, and whose skills are mediocre at best. But this job...this job pays well. And glowing reviews of the show come pouring in every day, along with heartfelt letters about your performance as the lead character.
+
+Someday, those letters might include a job offer. You know the actor before you got a job on a primetime TV show. If you just hold in there, and play your cards right, that could be you. You know your co-star is hoping for the same thing. It's the only reason you keep coming back--the hope that, someday, you'll be called to something better. Something that isn't being controlled by a piece of felt on your hand.
+
+Someday.
+
+For now, you shuffle to the stage, and take your place. The puppet stares at you for a moment, cloth features smug and knowing, and then it turns to face the audience.
+
+The curtain will be going up soon, and ''the show must go on.''
+
+
+:: hold your ground
+The hallway stretches out on either side, and the air around you moves slowly, stirred by a dusty fan at one end. One of the overhead lights flickers. Another is broken entirely.
+
+The dressing room door is queerly warm against your back. Your muscles seize up. The show is starting soon; you can't delay any more.
+
+[[re-enter the dressing room]]
+
+
+:: run [penultimate]
+You can't do it. Not again. Not this time.
+
+Your skin feels live-wired as you run filt-tilt at the door, intent on finally getting out and staying out. With a triumphant shout, you pull open the door.
+
+Your co-star stands just outside the threshold of your dressing room. Her face is downcast, eyes drooping and fixed on the floor, but the puppet on her hand stares intently at you.
+
+It drifts forward. You take a step back.
+
+"The show must go on," it says through your co-star's mouth.
+
+[[the show must go on|the show must go on 8]]
+[[fight for your life]]
+
+
+:: make it speak
+You open and close the puppet's mouth. Your mouth moves in time with it.
+
+"I've missed you," your mouth says, in a voice that isn't yours.
+
+With a shaking hand, you clamp the puppet's mouth shut, and your voice becomes your own again.
+
+[[put it down|put it down 2]]
+[[leave the dressing room|leave the dressing room 3]]
+
+
+
+:: remain pleasant
+"Ready for the show?" you ask, keeping your voice as level as possible under the puppet's scrutiny.
+
+Your co-star's eyes glance toward her puppet, then avert themselves to the floor. "Yes," she says. Her voice breaks on the word. Neither of you comment on it.
+
+"//Weak//," she hisses, puppet's mouth moving in time. "Stop snivelling. The show's about to start."
+
+The puppet has drawn close to her, close enough for its pipe-cleaner curls to brush against your co-star's cheek. She flinches away from the contact.
+
+[[step in|step in 2]]
+[[leave]]
+
+
+:: re-enter the dressing room
+The door clicks shut behind you, and the fear returns. There's no time left.
+
+The puppet lies on the dressing table. Its gaze in the mirror seems to follow you.
+
+[[pick it up]]
+
+
+:: step in
+"That doesn't mean you can treat her like this," you say. The puppet turns towards you slowly, and it takes everything you have to hold your ground.
+
+"Says who?" it rasps out through your co-star's mouth. "You?"
+
+"Yes," you say, but your voice cracks.
+
+The puppet laughs, a jagged, rumbling noise that sends chills down your spine. Your co-star looks as terrified to be making the sound as you are to be hearing it.
+
+"You have your own battles to fight," the puppet says. "Don't waste your time on this one. The show's about to start."
+
+[[fight the puppet]]
+[[give up]]
+
+
+
+:: fight the puppet [penultimate]
+You swing your fist at the puppet, and it makes contact. You've never thrown a real punch before, and for a moment, you bask in triumph. Then, you register the pain spreading from your knuckles, and realize that you've broken at least one finger.
+
+"Excuse me," a voice calls from the hallway. The newest security guard stands in the doorway, holding the puppet from your dressing room. "The curtain's about to go up, and you forgot this."
+
+You stare at him, frozen for several long seconds. 
+
+"The, uh, the stage manager sent me," he says, looking increasingly uncomfortable. "She said, 'places now'."
+
+From his perspective, the puppet in his hand must look so harmless. You remember when you still used to see it that way.
+
+The security guard steps forward, and holds out the puppet.
+
+[[the show must go on|the show must go on 11]]
+
+
+:: knock
+Your knuckles rap on the door three times. "It's me," you call. "How's it going in there?"
+
+Two voices mutter furiously, too low for you to hear. There's a brief silence, then: "Fine," your co-star calls.
+
+[[go inside]]
+[[continue down the hallway]]
+[[return to your dressing room|re-enter the dressing room]]
+
+
+:: StoryAuthor
+sam riordan
+
+
+:: pick it up
+You slide your hand back inside the puppet. Its googly eyes seem almost smug.
+
+[[stare back|stare back 2]]
+[[make it speak]]
+[[put it down|put it down 2]]
+
+
+:: fight for your life [penultimate]
+You grit your teeth and charge the puppet and the body it's attached to.
+
+The puppet meets you halfway, ramming its head into your cheekbone. The force of the blow sends you stumbling back, and you fall to the ground, disoriented. Pain blooms across the right half of your face.
+
+You look up, and lock eyes with the puppet just before it delivers another blow to your cheek. This time, something //cracks//, and the pain is unbearable.
+
+By the time you've regained your senses, the puppet has been taken from your vanity and shoved onto your hand. You stare down at it, clutching your cheek with your other hand.
+
+"It's time," the puppet says.
+
+[[the show must go on|the show must go on 9]]
+
+
+:: the show must go on 9 [end]
+The fight goes out of you at those words. Why did you think this time might be different? It's never different.
+
+When you arrive onstage, the stage manager gives your rapidly-bruising cheekbone a concerned look, but her lips thin out as she tells you that the curtain's going up in a few minutes. There isn't enough time for the make-up crew to hide the bruise. You'll be performing the show with it blooming across your cheek. Everyone in the audience will see.
+
+You can't bring yourself to care. Maybe you would have cared, once, but after months of working on this show, it seems hard to feel anything anymore. You wonder absently if the puppet is responsible for that, too. Your co-star takes her place across from you, and you can see the same emptiness growing behind her eyes. You open your mouth to say something. Something comforting, something heartfelt for the first time in months--
+
+But then the curtains lift, and your lips shape words that aren't yours, and your body goes through the motions. 
+
+''The show must go on.''
+
+
+:: walk down the hall
+Your co-star's dressing room is just down the hall. You can see the light filtering out from under the door. It takes only a few steps to reach it, but with each one your feet grow heavier.
+
+Two muttering voices can be heard through the door.
+
+[[knock]]
+[[continue down the hallway]]
+[[return to your dressing room|re-enter the dressing room]]
+
+
+:: stare back 2
+You look deep into the puppet's eyes. One of them closes, then opens again, torturously slowly. Sweat beads across your forehead.
+
+[[leave the dressing room|leave the dressing room 3]]
+[[put it down|put it down 2]]
+[[make it speak]]
+
+
+:: put it on
+With shaking hands, you pick up the puppet, and slide it on. Its insides are soft, and you are hyperaware of all the places it touches your arm. Around your hand, its mouth is damp from your clammy palm.
+
+Your wrist rotates against your will, and the puppet turns to face you.
+
+"It's almost time," you say, as the puppet's mouth moves in tandem. The words tripping past your lips are not your own. You clamp your mouth shut, but the low, gravelly voice slips past anyway. "It's almost time for the show to start."
+
+[[leave the dressing room|leave the dressing room 3]]
+
+
+:: don't take the puppet [penultimate]
+You lift your gaze from the puppet, and when your co-star's eyes meet yours, she wilts.
+
+"Please don't," she says, already bowing her head, and you're not sure who it's addressed at. 
+
+A sharp hit to your right cheek knocks you to the floor. You scramble backwards and clutch your cheek as it starts to bleed.
+
+"You can't make me," you bite out, and the puppet advances again, until it's inches from your face.
+
+"The show's about to start," it says. The puppet lurches forward, knocking you into your dressing room's vanity. You struggle, but the puppet pins your arm down on the countertop, and your co-star slides the second puppet onto your free hand. The puppet on your hand turns to face you, and you regard it with empty eyes.
+
+"Get up," it says. "It's time to put on a show."
+
+[[the show must go on|the show must go on 3]]
+
+
+:: step in 2
+"Hey," you say. The puppet turns its attention to you, and you fight the lump that rises in your throat. "Don't talk to her like that."
+
+The puppet stares at you for several long seconds. Sweat beads across your brow, and you have to work hard to keep yourself still.
+
+"Was that a threat?" it asks, finally.
+
+Your co-star's eyes widen. She shakes her head at you as subtly as she can.
+
+[[fight the puppet]]
+[[leave|give up]]
+
+
+:: the show must go on 11 [end]
+The puppet slides onto your hand too easily, for how emotionally exhausting it is. You shove the feeling of panic down and escape to the hallway.
+
+But you can't rest. The show is about to start. Your co-star follows closely behind you as you walk down the hall and up onto the stage, letting your feet carry you thoughtlessly.
+
+You reach your mark just as the curtain starts to lift, and then your mouth is saying words that aren't yours, and the audience is laughing, and the show goes on, as it always does, no matter how tired and sad and desperate you feel to escape it.
+
+''The show must go on.''
+
+
+:: the show must go on 3 [end]
+The walk onto the stage seems oddly anticlimactic. Even after all this time, it still seems like something should //happen// when you walk onstage. But nothing ever does. 
+
+The stage hands part around you, and you weave through the pieces of scenery to reach your mark. Behind you, you hear your co-star mumbling back and forth with her puppet, but you don't have the energy to try to make out the words. You spent it all trying to escape.
+
+The curtain will be rising any moment. 
+
+''The show must go on.''
+
+
+:: give up [penultimate]
+"...No," you say lamely. "I just meant...nevermind."
+
+The puppet tilts its head up, victorious. "Better go get ready," it says. "The show's about to start."
+
+You know exactly where the puppet is, and you know it's waiting for you.
+
+[[the show must go on|the show must go on 11]]
+
+
+:: leave the dressing room 2 EXTRY EXTRY READ ALL ABOUT IT
+You slip away into the hallway again--but this time, the fear does not leave you when you cross the threshold. Even the slow-moving air out here feels stifling.
+
+The puppet is behind you. You can feel it staring. A wooden door is not enough to keep you from its gaze. You're not sure the whole building would be.
+
+The stage manager passes by again, and holds up ten fingers as she passes by, mouthing "places". The show is starting soon.
+
+
+
+
+:: put it down 2
+You tug at the puppet's head, but its torso clenches tight around your arm. You give up your feeble attempts to remove it.
+
+The edges of the puppet's mouth turn upwards, shifting against your hand.
+
+[[leave the dressing room|leave the dressing room 3]]
+[[make it speak|make it speak 2]]
+
+
+:: leave the dressing room 3
+You step out into the hallway on shaking legs. The air here is cool, but inside the puppet your hand is fever-hot and sweaty.
+
+The stage manager hurries past you, glancing meaningfully at you, then in the direction of the stage.
+
+[[walk down the hall|walk down the hall 2]]
+[[make a break for the back door]]
+
+
+:: continue down the hallway
+You leave the dressing room and its muttering inhabitants behind and venture on down the hall. It curves right, and when you round the corner, the stage comes into view. Stage hands mill to and fro across the empty expanse, checking lighting and sound equipment and double-checking props and scenery.
+
+A hand claps your shoulder, and you nearly jump out of your skin.
+
+"Places in five," the stage manager says, and removes her hand. She averts her eyes. "You better go put it on."
+
+She can't look at you. None of them can.
+
+[[return to your dressing room]]
+[[stay put]]
+[[make a run for it]]
+
+
+:: stay put [penultimate]
+You stay rooted in place, paralyzed by the thought of what you'll have to do.
+
+The sound of light footsteps draws your attention, and you look up to see your co-star approaching. Her eyes are red-rimmed and wet. Her puppet bobs in time with her steps, its pipe-cleaner curls swaying.
+
+In her other hand is the other puppet. //Your// puppet.
+
+"I'm sorry," she says, in a broken voice. "I didn't have a choice."
+
+Red-purple bruises are starting to bloom across her neck. You can't find it within yourself to blame her for giving in to her puppet's demands.
+
+"Please," she says. "Take it. Or it'll hurt you, too." Her gaze flicks towards the puppet on her left hand. Yours moves to her other hand, which still clutches the second puppet.
+
+[[take the puppet]]
+[[don't take the puppet]]
+
+
+:: return to your dressing room
+The walk back to your dressing room seems to take an eternity. With each step, the air gets heavier, until you're nearly suffocating.
+
+When you finally enter the room, the uptick in oxygen is so overwhelming it makes your head spin. The room warps around you, and at the center of it all is the puppet, staring smugly across the room.
+
+[[put it on]]
+
+
+:: take the puppet [end]
+You stare down at the puppet, and give in to futility. 
+
+The puppet, when it slides onto your arm, is still moist with your sweat. 
+
+You look back up at your co-star. She regards you with tired, tired eyes. You wonder if you look the same way.
+
+"I'll see you onstage," she says quietly. A promise. The audience will be looking at the puppet, but she knows. She'll be the only one looking at you.
+
+"I'll see you, too," you say, and her responding smile is grim.
+
+The puppets are silent as you and your co-star walk down the hallway and up onto the stage.
+
+It's easy, to stop caring, stop fighting, stop wishing things could be different. To let that little dying ember of hope inside you flicker out. //It's better to just be numb//, you think, as the curtain starts to rise. And maybe it is. Because no matter your personal feelings on the matter, no matter how much you scream and whine and try to fight it, ''the show must go on.''
+
+
+:: SAM FUCKED UP AND MADE AN EXTRA
+You panic, and run back out into the hallway. There isn't much time, but you can't bear to stay in there with it any longer. You allow yourself to close your eyes, slump back against the door, and sink to the ground, taking deep gulps of air.
+
+When you finally gather yourself enough to open your eyes, the stage manager looms over you.
+
+
+:: walk down the hall 2
+The walls seem to close in on you with each step you take, and when they start to swim in front of you, you force yourself to stop and breathe. 
+
+//In, out. In, out.//
+
+Finally, you open your eyes. The walls are stationary. Your co-star's room is just ahead. Beyond it, the hall curves right, and leads to the stage.
+
+The puppet's head is turned to face you. You do your best to ignore it.
+
+[[check on your co-star]]
+[[move on towards the stage]]
+
+
+:: make it speak 2
+"Not so fast," the puppet says. You hardly recognize your own voice. "We have a show to put on."
+
+The puppet's mouth moves easily, felt soft and yielding against your fingers. Your free hand clenches tight at your side, white-knuckled and trembling. It's a relief when your vocal chords stop their involuntary shaking in your throat.
+
+[[leave the dressing room|leave the dressing room 3]]
+
+
+:: give up 2 [penultimate]
+You stop scratching, but the damage is done. The puppet's light-colored felt clashes violently against your increasingly red arm. There isn't enough time to cover this up before the show starts.
+
+The show is starting very soon now.
+
+[[the show must go on|the show must go on 5]]
+
+
+:: the show must go on 5 [end]
+A shadow falls over you, and when you look up, the stage manager looms in front of you, staring disapprovingly down at the scratch marks on your arm. She sighs.
+
+"There isn't time to clean that up," she says, and she almost sounds sympathetic. "Curtain's about to go up. You need to get onstage."
+
+She offers a hand to help you up, but you ignore it and get to your feet on your own. The stage manager really does look sorry, now, but you can't find it in yourself to care. You stride past her onto the stage, finding your mark among the wood scenery.
+
+Your co-star is already at her place. She looks drained, spent. You imagine you must look the same way. You have just enough time to share a commiserating look, and then the curtain goes up, and the show begins.
+
+If this were any other show, you think absently, it would matter that the leading actor's arm was covered in scratches, bleeding sluggishly. But this is not another show. In this show, you could have a heart attack in the middle of the show, and the audience's attention would still be fixed on the puppet. You know this because your last co-star died that way. The puppet kept her alive and moving until the show ended, and then her body slumped to the floor, and her eyes went empty, and the puppet was carefully removed by stage hands wearing rubber gloves before she was taken to the hospital, where she was officially pronounced dead. But you'd already known that she was gone. You'd known from the moment her eyes flew open wide in panic and terror, then fluttered and stopped moving.
+
+Too much stress, the doctors had said, put a strain on her heart that wore it down over time.
+
+Someday, you think, you might go that way yourself. But until then, you know, you will keep coming back, keep getting your paycheck, still hating yourself every time you step back into the theatre.
+
+You know you'll be back, though. After all, ''the show must go on''.
+
+
+:: StorySettings
+jquery:off
+hash:off
+bookmark:on
+modernizr:off
+undo:off
+obfuscate:off
+exitprompt:off
+blankcss:on
+
+
+
+:: make a run for it
+//This is it,// you think. If you don't leave now, you don't know that you'll ever be able to.
+
+You eye the door off stage right, leading to the alley outside the theatre. It seems like such a short walk from here to there. And with everyone so busy, maybe no one will notice.
+
+With carefully casual strides, you walk off the stage and towards the side exit. With each step towards freedom, you become bolder, faster. You're nearly there!
+
+You have one hand on the door when someone else's clamps down on your shoulder. You freeze, goosebumps rising across your arms. A peek over your shoulder reveals that you've been caught by the newest security guard--the replacement for the most recent guard to have a mental breakdown and quit.
+
+In his hand is the puppet.
+
+[[stare at him in shock]]
+[[fight him]]
+
+
+:: check on your co-star
+Furious muttering filters through your co-star's door, but you're used to that by now. You knock anyway, and when the muttering stops, you slowly open the door and let yourself in.
+
+Your co-star sits in front of her vanity, in a dressing room that mirrors yours. A puppet sits next to her elbow, pipe-cleaner hair curling up towards the ceiling like snakes.
+
+Your co-star's eyes meet yours, and the bags under her eyes are a familiar purple-grey. You've been seeing that same color in the mirror for months now.
+
+Then her eyes catch on the puppet on your hand, and her face loses all its color. Her eyes fly wide open, and she scrambles out of her chair, backing away from you.
+
+[[apologize]]
+
+
+:: move on towards the stage
+You force yourself to continue down the hall, and the stage comes into view. Stage hands mill to and fro across the empty expanse, checking lighting and sound equipment and double-checking props and scenery.
+
+Behind you, someone clears their throat. You hold your breath, and turn around slowly.
+
+The stage manager shifts uncomfortably, arms crossed against her chest. You think you see her eyes flicker briefly towards the puppet, but it might have been a trick of the light. For her sake, you hope it was.
+
+"Places in five," she says, staring resolutely to the left, away from you and the puppet.
+
+[[ask the stage manager for help]]
+[[get to your starting place]]
+[[talk to the puppet]]
+
+
+
+
+:: fight him
+The sight of the puppet makes a tide of desperate fear rise up within you, and it's this fear that carries you forward into a left hook at the security guard's face.
+
+He catches it easily, looking concerned. You doubt he's ever had to defend himself against one of his clients before.
+
+All the fight goes out of you when he slips the puppet onto the fist you threw at him.
+
+"I may be new to this job," he says, "but I've seen stage fright before." He smiles, pats you on the shoulder. "Don't worry! I'm sure you'll do fine."
+
+He pats you once more, in a way that you're sure is supposed to be reassuring, and leaves you alone with the puppet.
+
+"I'm not coming off," the puppet says through your mouth, and you close your eyes against the hair-raising sensation of the puppet's felt insides tightening vise-like around your arm.
+
+[[attack the puppet]]
+[[return to the stage]]
+
+
+:: attack the puppet
+The panic returns full-fold. Your heart races double-time, and with a sharp cry, you set upon the puppet. Your fingers pull frantically at the place where its felt meets your flesh, trying to find purchase. 
+
+The puppet laughs, forcing a raspy, uneven rumbling sound through your mouth. Your vocal chords ache with the strain of it.
+
+Your desperate attempts to claw the puppet off only succeed in creating red welts across your skin.
+
+[[give up|give up 2]]
+[[punch the puppet]]
+
+
+:: ask the stage manager for help
+You take a step closer to the stage manager. She flinches backwards.
+
+"Please," you say. Her eyes flick first to the puppet, then to you when she sees its mouth isn't moving. "I can't do this."
+
+Her face crumples in sympathy even as she looks away again. "Places in five," she parrots, and hurries away.
+
+[[get to your starting place]]
+[[talk to the puppet|talk to the puppet 2]]
+
+
+
+:: make a break for the back door
+Your feet move with instinctual panic, pivoting and running for the back door. If you can just make it to the back door, if you can just reach the glowing red EXIT sign--
+
+Your body jerks backwards, hitting the floor with a loud THUMP and knocking the breath from your lungs. Your shoulder throbs where your arm was wrenched backwards. You look up.
+
+The puppet's mouth is clenched around the handle of a door. It releases its grip and turns to stare down at you.
+
+Tears well up in your eyes.
+
+"Oh, stop it," the puppet says. "We've got a show to do."
+
+[[get up]]
+[[try to remove the puppet]]
+[[wallow on the floor]]
+
+
+:: wallow on the floor
+You clench your teeth against the sobs, but they sneak out anyway.
+
+"What--a--baby," you rasp out. That your sobs interrupt the puppet's speech is a small victory. "Stop it!"
+
+You rattle out a laugh, opening your eyes against the tears just to see the frustrated look on the puppet's face.
+
+[[try to remove the puppet]]
+[[get up]]
+
+
+:: you need an ambulance [end]
+"I need an ambulance," you grit out, voice hoarse from screaming.
+
+Your co-star's face is drawn and pale. She looks away.
+
+You look around the circle. No one can meet your eyes. You want to scream, but your voice is ruined.
+
+"Help me," you say, looking around at the gathered faces. None of their eyes will meet yours.
+
+"It's an award-winning show," someone says quietly, from within the gathered crowd.
+
+"If it closes, we'll be out of work," someone else says.
+
+You look to your co-star. She looks so much older than twenty.
+
+"A Hollywood director is coming to the show next week," she says to the floor. "He's looking for someone to star in his next film."
+
+That's it, then.
+
+You close your eyes, and as the adrenaline ebbs, you become aware of just how //tired// you are. You've been tired for months, sleepless and haunted, but this is a different sort of tired. A tiredness that goes bone-deep, and makes you feel like dissolving into the earth.
+
+The puppet lies a few feet in front of you. It seems so silly, now, to be afraid of a child's toy. But you can still remember the way it felt, to be trapped by it, to have its words push their way up your throat and out your mouth. To live each day afraid of your own hand, and what would happen when you went in to work. You used to dream about having a job like this--starring in an award-winning show, drawing packed houses night after night. Now, you have nightmares.
+
+You wonder if you still will, if you survive this.
+
+Your eyes start to drift closed, weighted down by something heavier than sleep.
+
+
+
+''You've escaped.''
+
+
+:: punch the puppet [penultimate]
+In your desperation, you lash out unthinkingly. Your free hand balls into a fist and slams towards the puppet's face.
+
+The puppet's mouth opens, and catches your fist. When it starts to close, you know you've made a terrible mistake. You try to wrench your hand away, but it won't budge.
+
+Your hand inside the puppet moves against your will, squeezing tighter and tighter. The bones in your fist creak, and the pain builds and builds until you hear something //crack//.
+
+No one comes running when you give an involuntary shriek at the pain. The puppet releases your hand, and you hold it up your face, trembling. The bone of your index finger is broken, creating an odd lumpy shape beneath your rapidly purpling skin.
+
+Tears well up in your eyes; the pain is overwhelming, and you feel as though you might faint.
+
+"Are you ready, now?" your mouth says. "The show's about to start."
+
+[[the show must go on]]
+[[not this time]]
+
+
+:: not this time [penultimate]
+You look frantically around the backstage area. Props, costumes, set pieces, rigging...rigging. 
+
+Yes. Those chains are thick enough.
+
+The puppet seems to sense your plan, and a litany of words tumble from your lips as you stride towards the weighted chains behind the stage. Stage hands stop and stare as you loop one of the loose chain riggings around your arm, just below the puppet, all while the puppet shrieks through your mouth.
+
+You activate the pulley, and the chain pulls taught, jerking you a foot into the air before it forcibly straightens itself. The scream that leaves your mouth is both yours and the puppet's as the chain cuts through your skin, and snaps bone. You collapse to the ground, clutching your arm just above its newly ragged, bloody end.
+
+When you finally collect yourself enough to open your eyes, the first thing you see is the puppet lying in front of you, slowly being dyed red.
+
+The rest of the production crew stand around you, watching with expressions that range from horrified to nauseous.
+
+Your co-star steps forward, led by the puppet on her right hand.
+
+[[you need an ambulance]]
+
+
+:: cycling code [script]
+version.extensions.cyclinglinkMacro={major:3,minor:3,revision:0};
+macros.cyclinglink={handler:function(a,b,c){var rl="cyclingLink";
+function toggleText(w){w.classList.remove("cyclingLinkInit");
+w.classList.toggle(rl+"Enabled");w.classList.toggle(rl+"Disabled");
+w.style.display=((w.style.display=="none")?"inline":"none")}switch(c[c.length-1]){case"end":var end=true;
+c.pop();break;case"out":var out=true;c.pop();break}var v="";if(c.length&&c[0][0]=="$"){v=c[0].slice(1);
+c.shift()}var h=state.history[0].variables;if(out&&h[v]===""){return
+}var l=Wikifier.createInternalLink(a,null);l.className="internalLink cyclingLink";
+l.setAttribute("data-cycle",0);for(var i=0;i<c.length;i++){var on=(i==Math.max(c.indexOf(h[v]),0));
+var d=insertElement(null,"span",null,"cyclingLinkInit cyclingLink"+((on)?"En":"Dis")+"abled");
+if(on){h[v]=c[i];l.setAttribute("data-cycle",i)}else{d.style.display="none"
+}insertText(d,c[i]);if(on&&end&&i==c.length-1){l.parentNode.replaceChild(d,l)
+}else{l.appendChild(d)}}l.onclick=function(){var t=this.childNodes;
+var u=this.getAttribute("data-cycle")-0;var m=t.length;toggleText(t[u]);
+u=(u+1);if(!(out&&u==m)){u%=m;if(v){h[v]=c[u]}}else{h[v]=""}if((end||out)&&u==m-(end?1:0)){if(end){var n=this.removeChild(t[u]);
+n.className=rl+"End";n.style.display="inline";this.parentNode.replaceChild(n,this)
+}else{this.parentNode.removeChild(this);return}return}toggleText(t[u]);
+this.setAttribute("data-cycle",u)}}};
+
+
+:: talk to the puppet
+You take a deep breath, and let it out slowly. The next time you open your mouth, the puppet's mouth moves, too.
+
+"Better get to places, hm?" the puppet says. "Curtain's about to go up."
+
+It isn't a request.
+
+[[get to your starting place]]
+
+
+:: stare at him in shock
+It's too much. You're tired, in every sense of the word, and without the rush of adrenaline all your desperation crumbles away, leaving you empty.
+
+"You almost forgot this," the security guard says, and gently lifts the hand at your side to slide the puppet onto it.
+
+You stare down at its plastic eyes, and feel everything you've been repressing bubble up in the back of your throat, until you're choking on it.
+
+You lean back against the door and try not to cry.
+
+[[cry]]
+[[return to the stage]]
+
+
+:: return to the stage [penultimate]
+Your shoulders sag as you look back towards the stage. Your co-star stands at her mark, puppet held aloft. You imagine your face must be as tired and gray as hers is.
+
+The trudge back to the stage is a formality. You've already admitted defeat. 
+
+The puppet is quiet and still as you take your place onstage. It knows it's won, the same way it always does. You aren't worth its time anymore.
+
+The show is about to start.
+
+[[the show must go on|the show must go on 4]]
+
+
+
+
+:: talk to the puppet 2
+"Oh, boo hoo," the puppet says. "Now get to your place. It's almost time."
+
+[[get to your starting place]]
+
+
+:: get to your starting place [penultimate]
+The world moves too fast around you as you walk to your starting position. It seems like you're the only one who can feel how heavy the air is--or maybe everyone else is just running from it, the way you want to.
+
+You take your place on stage, and hit your mark, holding the puppet aloft. The stage is almost empty, now.
+
+Your co-star stands across from you, at her mark. Her eyes are drooping and bloodshot, and tear tracks are still drying on her cheeks. You didn't see her approach. You wonder what else you've missed during your slow trek across the stage.
+
+[[the show must go on|the show must go on 12]]
+
+
+:: apologize
+"I'm sorry," you stutter, "I wasn't thinking."
+
+"Get out!" she hisses, taking another step back. Her eyes dart towards the puppet on her vanity. "I still have time. Don't make me!"
+
+The puppet on your hand moves forward.
+
+[[let it]]
+[[leave|leave 2]]
+
+
+:: try to remove the puppet
+You grasp and pull at the edge of the puppet's torso, clawing at the place where it meets your skin, but your fingers can't find purchase under the fabric. There's no tape, no glue, nothing but the puppet's will holding it to your arm.
+
+You've never be able to get it off this way, but even now there's a small part of you that thinks this time might be different.
+
+It isn't.
+
+[[get up]]
+[[just lie there]]
+
+
+:: get up
+You get to your feet slowly, with the support of only one hand for balance. Once up, you lean to the side against the wall and try to even out your breathing. You wipe your free hand against your pants leg to clean it, then rub your eyes and breathe in and out slowly with increasing steadiness.
+
+The puppet hovers just in front of your face, judging.
+
+[[speak to it]]
+[[walk back the way you came]]
+
+
+:: the show must go on [end]
+//The show must go on//, you think dully. The show must go on. You need to pay your bills, and who else would hire you? You know from experience that the answer is no one.
+
+You take your place onstage, flexing the fingers of your aching hand. The puppet's eyes are on you, but you ignore it. You won't give it the satisfaction.
+
+''The show must go on.''
+
+
+:: CSS [stylesheet]
+body {
+	background-color: rgb(10,0,0);
+	color: rgb(255,250,250);
+	font-family: Courier,serif;
+	font-size: 100%;
+	margin: 5% 0% 5% 7%;
+}
+#sidebar {
+	left: 5px;
+	bottom: 5em;
+	margin: 0;
+	padding: 0 1em 0 0;
+	font: bold 1.1em Courier,serif;
+	width: 20%;
+}
+
+#sidebar ul {
+	padding: 0;
+}
+#sidebar li {
+	color: #333;
+	text-align: right;
+	background-repeat: no-repeat;
+	margin-bottom: 0em;
+	line-height: 1.4em;
+	list-style: none;
+}
+#sidebar li a {
+	color: #333;
+	text-decoration: none;
+}
+#sidebar li a:hover, #sidebar #title a:hover, #snapback:hover, #restart:hover {
+	color: rgb(150,10,10);
+	cursor: pointer;
+	text-decoration: none;
+}
+#sidebar #title {
+	font-size: 200%;
+}
+#sidebar #title, #sidebar #title:hover, #sidebar #title a {
+	color: rgb(100,100,100);
+}
+#sidebar #storySubtitle {
+	font-size: 150%;
+}
+#storyAuthor {
+	font-size: 80%;
+}
+#sidebar #storyMenu {
+	line-height: 2.5em;
+	margin-bottom: .5em;
+	color: #999;
+	cursor: auto;
+}
+#sidebar #credits {
+	display: none;
+	padding-top: 2em;
+	font-weight: normal;
+	font-size: 80%;
+}
+#sidebar #credits:hover {
+	display: none;
+	color: #333;
+}
+#sidebar #credits a {
+	display: none;
+	text-decoration: none;
+}
+#passages {
+	padding-left: 0em;
+}
+
+.menu {
+	background-color: #343434;
+	color: #fff;
+	opacity: .9;
+	border: 1px solid #fff;
+	text-align: left;
+	font: 1.1em Courier;
+	line-height: 2em;
+}
+.menu div {
+	padding: 0.4em;
+}
+.menu div:hover {
+	cursor: pointer;
+	background-color: #fff;
+	color: #343434;
+}
+.passage {
+	margin-left: 100;
+	font-size: 1.2em;
+	max-width: 90%;
+	line-height: 175%;
+	margin-bottom: 2em;
+	text-align: left;
+}
+.passage a {
+	font-weight: bold;
+	color: rgb(100,0,0);
+	text-decoration: none;
+}
+.passage a:hover {
+	color: rgb(200,0,0);
+	text-decoration: none;
+}
+.content > ul {
+	padding-top: 1.3em;
+}
+.passage ul, .passage ol {
+	margin-left: 0;
+	padding-left: 0%;
+}
+.passage li {
+	margin-right: 7%;
+}
+.passage table {
+	border-collapse: collapse;
+	font-size: 200%;
+}
+.passage th,.passage td,.passage tr,.passage caption {
+	padding: 0%;
+}
+.passage hr {
+	height: 1px;
+}
+.passage center {
+	max-width:25%;
+	margin: 10px;
+}
+.marked {
+	margin-right: 2px;
+	padding: 3px;
+}
+.disabled {
+	font-weight: bold;
+	color: #333;
+}
+@media screen and (max-width: 640px) {
+	body {
+		margin: 0%;
+	}
+	#sidebar {
+		width:100%;
+		margin: 0;
+		border-bottom: 1px solid #333;
+	}
+	#passages {
+		padding-top: 2em;
+		border-left: 0;
+	}
+}
+
+
+:: the show must go on 4 [end]
+You exhale shakily as you hit your mark on the stage. The stage hums with activity around you, but it's drowned out by the blood rushing in your ears.
+
+"One more show," you whisper, a familiar lie. It's what's gotten you through the past several months.
+
+"One more show," your co-star echoes, just loud enough to be heard. You share a grim smile with her, and turn to face the audience as the curtain lifts.
+
+''The show must go on.''
+
+
+:: cry [penultimate]
+One tear escapes, and after that, it seems pointless to hold the rest back. Soon, you're curled into a ball, sobbing openly. You can only imagine what the stage hands must think.
+
+A hand rests against your shoulder, grounding you. You take a deep breath, and open your eyes, prepared to face whoever has come to bring you around.
+
+Your own hand sits against your shoulder, cradling the puppet so that its head faces you. Panic courses through you, but the pressure on your shoulder keeps you from moving.
+
+"The show's about to start," the puppet says.
+
+[[the show must go on|the show must go on 4]]
+
+
+:: walk back the way you came [penultimate]
+The walls seem to close in around you, even as you try to keep a level head.
+
+Too soon, you turn to corner at the end of the hall, and come face-to-face with the stage.
+
+Your mark is across the stage, and you weave around several set pieces to get to it. Your feet have just come to a halt when a weeping noise draws your attention.
+
+Two security guards stride onto the stage, escorting your co-star to her starting position. Her make-up is running down her face in streaks. Her sobs are quiet, but gut-wrenching. The puppet on her hand regards you calmly from its place on her hand.
+
+[[the show must go on|the show must go on 13]]
+
+
+:: the show must go on 12 [end]
+A brief scan of the stage reveals a stage hand desperately pumping his inhaler, and an older security guard patting the newest one on the back. 
+
+You try to remember the last time someone showed you similar kindness, and fail to come up with anything. All anyone seems to do these days is avoid looking you in the eye.
+
+But that doesn't matter. All that matters is that the show goes on, and you get paid, and you save up enough money to finally make it out of here.
+
+''The show must go on.''
+
+
+:: just lie there
+You close your eyes and allow yourself to relax to the point of bonelessness. What's the point in getting up? There'll be a show to do, and then another show after that, and another show after that, until you have to wear the puppet even when you're not in the theatre.
+
+You can feel your throat working against your will, and brace yourself for the inevitable.
+
+"If you won't get up, I'll make you," your mouth says, in a voice that isn't yours.
+
+[[get up]]
+[[disregard the threat]]
+
+
+:: speak to it
+"I hate you," you say, voice shakier than you'd like. 
+
+"The show's starting soon," the puppet says. It's smiling, and your mouth smiles in kind when it speaks through you. You feel, mildly, like throwing up, through this mouth you're forced to share.
+
+But the puppet's right. The show's starting soon.
+
+[[walk to the stage|walk back the way you came]]
+
+
+:: end page red [stylesheet end]
+body {
+	background-color: rgb(50,0,0);
+
+}
+
+
+:: let it
+The puppet's momentum carries you forward, and you let yourself be led across the room towards your co-star. Her lower lip starts to tremble. When you finally come to a stop, several steps in front of her, her eyes are watery and wide with fear.
+
+She's backed up against the wall. There's nowhere for her to go.
+
+The puppet's face is inches from hers.
+
+"The show is starting soon," your mouth says, in a voice that is almost as familiar as your own. The puppet turns towards you. You know what you have to do.
+
+[[get the other puppet]]
+[[leave |leave 2]]
+
+
+:: leave 2 [penultimate]
+You dart outside and close the door behind yourself before you or the puppet can do anything too damaging. Still, your co-star's terrified expression haunts the insides of your eyelids.
+
+You run your free hand across your face, trying to get a hold of yourself.
+
+Someone clears their throat, and you look up to see the newest security guard standing in front of you. He's only been working here a week.
+
+He doesn't know, yet. Not really.
+
+He gestures towards the door, and without thinking, you move out of his way. It's only when he enters your co-star's dressing room that you realize your mistake.
+
+You stand, frozen, as the sounds of a struggle filter through the door.
+
+The security guard finally emerges, looking grave, and tugs your co-star out into the hall behind him. She's weeping openly, now.
+
+[[the show must go on|the show must go on 6]]
+
+
+:: the show must go on 13 [end]
+//She doesn't deserve this//, you think. Then again, none of you do. No one deserves to live in fear, to spend each day terrified of what you might do against your will.
+
+You would say the paycheck isn't worth it, but it clearly is. Could there be any other reason to come back day after day? There are talent scouts, true. You know that all anyone working on this show wants is to get their big break and get out of here. The printer in the building is only ever used to print resumes, now, yours included.
+
+You send them out daily, and attend auditions and callbacks on the weekends. No one has called you back yet, but you cling desperately to the thought that one will, eventually.
+
+And until then, ''the show must go on.''
+
+
+:: penultimate page redder [stylesheet penultimate]
+body {
+	background-color: rgb(35,0,0);
+
+}
+
+
+:: disregard the threat
+The corners of your mouth turn up in a grim smile. If nothing else, you can defy the puppet in this small way. Your legs are still your own.
+
+"Alright," your mouth says. "You've forced my hand."
+
+The next thing you feel is an impact to your face, like a brick hitting your cheek.
+
+"Get up," the puppet says. You've never heard your voice sound so low and unyielding.
+
+[[get up|get up 2]]
+[[resist]]
+
+
+:: get the other puppet [penultimate]
+Your co-star cowers against the wall as you lift the puppet from her dressing table.
+
+"I'm sorry," you say again. You step forward, and grab her trembling hand. In a moment, the puppet is in its place, and your co-star's cheeks are wet with tears. "I'm sorry," you say.
+
+The look she gives you is weary, and hateful. Then her gaze slides down to the puppet on her hand, and the fire goes out of her.
+
+"It's time we get to our places," the puppet says through her mouth.
+
+[[the show must go on|the show must go on 6]]
+
+
+:: get up 2 [penultimate]
+Your cheek throbs as you slowly get to your feet. You turn slowly to face the way you came from, and see the stage manager standing at the other end of the hall. Her expression is grim.
+
+You stare her down as you walk back down the hall. At the last second, she looks away, and you knock your undamaged shoulder against hers as you pass. 
+
+[[the show must go on|the show must go on 2]]
+
+
+:: the show must go on 6 [end]
+You hold out a hand, and your co-star accepts it with the grace of one walking to the gallows.
+
+"It's just a show," you breathe, and you're not sure whether the words are for her or you. Neither of your hands loosen their grips on each other, anyway.
+
+"//Finally//," the stage manager sighs as you walk onstage. "Curtain's about to go up. Get to your places."
+
+It's easy enough to navigate the scenery and stage hands to get to your mark. The stage hands go out of their way to avoid you--some even double back the way they came, faces pale and downturned. You can't find it in yourself to blame them. You'd probably act the same way in their place.
+
+You thought it would be more glamorous, starring in your first show. More fun, more fulfilling. And, sure, the first week on the job had gone well enough, even if no one seemed able to meet your eyes, or look at or directly reference your puppet. The pay check had certainly made up for the dour atmosphere. You didn't question the way the puppet's voice seemed to come naturally to you whenever you moved the puppet's mouth, or the way its eyes seemed to follow you around the room.
+
+Then the puppet spoke without your help, forcing its words through your mouth, and you'd known. Suddenly, it made sense that no one wanted to look at you or the puppet, and that your co-star always looked to be on the verge of tears until the curtain went up.
+
+Once the audience's eyes were on her, she came to life under the puppet's guidance, and the same was true for you. It didn't matter that you felt the emptiness inside of you growing each day. It didn't matter that your co-star's eyes were permanently red-rimmed. It only mattered that the right lines spilled forth from your mouth, and you hit the right marks onstage. As the puppets were so fond of saying, ''the show must go on.''
+
+
+:: resist
+You grit your teeth and ball your free hand into a fist. //Not this time//, you think. This time, you won't give up. You won't be a slave to the puppet anymore.
+
+The weight of your own hand, layered in felt, presses down against your throat.
+
+You can't breathe. //You can't breathe.//
+
+[[get up|get up 3]]
+[[scream]]
+
+
+:: get up 3 [penultimate]
+You scramble to your feet, gasping for air as the puppet releases its hold on your throat. Your head swims, and you stumble sideways into the wall, resting your weight against it as you fight desperately for air.
+
+"It's time," the puppet says, once your breathing has slowed.
+
+[[the show must go on|the show must go on 2]]
+
+
+:: the show must go on 2 [end]
+Your breathing slows further as you walk to the stage, until you've reached an almost zen-like state of calm, even as your mind races and the puppet's felt itches against your hand.
+
+//In, out. In, out.//
+
+Your co-star is already in her starting position, waiting for the curtain to rise. She's older than you, almost thirty, and she's been at this much longer than you have. She gives you a sympathetic look at you hit your mark. The actor who came before you died, she said, although she refused to say how. The rest of the crew refuse to speak to you at all, except to tell you when to be onstage.
+
+You've only been working on this show for a month, but it feels like an eternity, performing night after night.
+
+''The show must go on.''
+
+
+:: scream
+The last of your breath escapes from your lungs in a desperate scream. Without any air left, you can feel your body shutting down. Your vision starts to go black.
+
+[[you black out]]
+
+
+:: you black out [penultimate]
+You come to slowly, and at first all you can see and hear is muted, as if sensed from a great distance. As you regain consciousness further, you realize that the most prominent voice is coming from your own mouth.
+
+Your eyes need no time to adjust. It's as if--as if they've never been closed. And maybe they haven't, you think, noting with creeping panic that the puppet is still on your hand, moving. Its felt is damp with sweat, dragging against your hand in a way that makes your spine crawl.
+
+Then the rest of your surroundings sink in.
+
+You are on a stage. You are on //the// stage, standing opposite your co-star, and your voice and body are performing a scene in the second act of the show. Your co-star stands on the other side of the stage, and her mouth moves alongside the puppet's even as her eyes grow wide and stare into yours.
+
+The audience claps.
+
+[[the show must go on|the show must go on 10]]
+
+
+:: the show must go on 10 [end]
+//The show is going well//, you think, distantly, feeling as though you're a stranger in your own body.
+
+The show is going //very// well.
+
+You wish it wasn't, suddenly. You wish that the set would fall apart, that someone in the audience would have a stroke and need an ambulance, that you could rip the puppet off your hand and run screaming into the audience and out of the theater.
+
+Well, you can do at least one of those things.
+
+You try to lift your hand. Nothing happens.
+
+Sweat prickles on the back of your neck. It's never been this bad before. It's always just been the one hand, and the voice, not--
+
+You try to blink. Nothing happens.
+
+This is it, then. This is how you lose yourself to the puppet. The show will go on whether you like it or not, now.
+
+''The show must go on.''
+
+
