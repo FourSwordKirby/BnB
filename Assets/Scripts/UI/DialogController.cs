@@ -5,11 +5,9 @@ using System.Collections;
 using System.Collections.Generic;
 
 
-public class Dialog : MonoBehaviour
+public class DialogController : MonoBehaviour
 {
-    public List<DialogOption> options;
-    public DialogBox dialogBox;
-    public Image loveInterestImage;
+    public DialogUI dialogUI;
 
     public LoveInterest loadedLoveInterest;
     private TwineStory currentStory;
@@ -24,11 +22,6 @@ public class Dialog : MonoBehaviour
         }
     }
 
-    private void displayEmotion(LoveInterest.Emotion emotion)
-    {
-        loveInterestImage.sprite = loadedLoveInterest.getEmotionSprite(emotion);
-    }
-
     public void selectOption(int option)
     {
         string optionText;
@@ -36,13 +29,13 @@ public class Dialog : MonoBehaviour
         switch (option)
         {
             case 1:
-                optionText = options[0].optionText.text;
+                optionText = "Option1";
                 break;
             case 2:
-                optionText = options[0].optionText.text;
+                optionText = "Option2";
                 break; 
             case 3:
-                optionText = options[0].optionText.text;
+                optionText = "Option3";
                 break;
             default:
                 optionText = "Error, dialog option should have been 1, 2 or 3";
@@ -67,17 +60,20 @@ public class Dialog : MonoBehaviour
 
 		if (output is TwineText) {
 			var text = (TwineText)output;
-			dialogBox.displayDialog ("Test", text.Text);
+			dialogUI.displayDialog ("Test", text.Text);
 		}
 	}
 
 	void Start() {
 		// TODO: This is just here for testing
+        currentStory = loadedLoveInterest.LoveInterestStory;
 
 		/* Register UnityTwine callback functions */
 		currentStory.OnOutput += Story_OnOutput;
 		currentStory.OnStateChanged += Story_OnStateChanged;
 
 		currentStory.Begin();
+
+        dialogUI.displayLoveInterest(loadedLoveInterest, LoveInterest.Emotion.Happy);
 	}
 }

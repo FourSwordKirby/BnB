@@ -31,7 +31,7 @@ public class DialogUI : MonoBehaviour
         options[optionNumber].displayOption(optionText);
     }
 
-    public void displayText(string name, string text, DisplaySpeed speed = DisplaySpeed.fast)
+    public void displayDialog(string name, string text, DisplaySpeed speed = DisplaySpeed.fast)
     {
         dialogBox.displayDialog(name, text, speed);
     }
