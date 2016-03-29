@@ -11,8 +11,8 @@ public class Dialog : MonoBehaviour
     public DialogBox dialogBox;
     public Image loveInterestImage;
 
-    private LoveInterest loadedLoveInterest;
-    public TwineStory currentStory;
+    public LoveInterest loadedLoveInterest;
+    private TwineStory currentStory;
     private bool atDecision;
     private bool storyCompleted;
 
