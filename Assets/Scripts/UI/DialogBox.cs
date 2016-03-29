@@ -5,8 +5,9 @@ using System.Collections;
 
 public class DialogBox : MonoBehaviour {
     public Text dialogField;
-
-    private string dialog = "what";
+    public Text speakerField;
+    
+    private string dialog = "";
     private int dialogTracker = 0;
 
     private float textDisplaySpeed;
@@ -37,9 +38,10 @@ public class DialogBox : MonoBehaviour {
         };
 	}
 
-    public void displayDialog(string name, string dialog, DisplaySpeed displaySpeed = DisplaySpeed.fast)
+    public void displayDialog(string speaker, string dialog, DisplaySpeed displaySpeed = DisplaySpeed.fast)
     {
         this.gameObject.SetActive(true);
+        this.speakerField.text = speaker;
         this.dialog = dialog;
         this.dialogTracker = 0;
 

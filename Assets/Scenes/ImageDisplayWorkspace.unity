@@ -120,6 +120,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogUI: {fileID: 2083263126}
   loadedLoveInterest: {fileID: 1042179432}
+  IgnoreEmptyLines: 1
 --- !u!4 &1215142764
 Transform:
   m_ObjectHideFlags: 0
@@ -215,7 +216,16 @@ Prefab:
       propertyPath: loadedLoveInterest
       value: 
       objectReference: {fileID: 1042179432}
-    m_RemovedComponents: []
+    - target: {fileID: 22472164, guid: e10c4fa56eb233444ae4c3247a0c9dec, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -161
+      objectReference: {fileID: 0}
+    - target: {fileID: 22472164, guid: e10c4fa56eb233444ae4c3247a0c9dec, type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 90
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 11407648, guid: e10c4fa56eb233444ae4c3247a0c9dec, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: e10c4fa56eb233444ae4c3247a0c9dec, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1597296353
