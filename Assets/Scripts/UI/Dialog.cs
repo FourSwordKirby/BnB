@@ -61,6 +61,8 @@ public class Dialog : MonoBehaviour
 
 	void story_OnOutput(TwineOutput output) {
 		Debug.Log (currentStory.CurrentPassageName + ":");
+		Debug.Log (output.Text);
+		Debug.Log (output);
 
 	}
 }
