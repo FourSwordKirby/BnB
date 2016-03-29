@@ -9,6 +9,7 @@ public class Dialog : MonoBehaviour
 {
     public List<DialogOption> options;
     public DialogBox dialogBox;
+    public Image loveInterestImage;
 
     public TwineStory currentStory;
     private bool atDecision;
@@ -20,6 +21,11 @@ public class Dialog : MonoBehaviour
         {
             Debug.Log("Advancing!");
         }
+    }
+
+    private void displayEmotion()
+    {
+        loveInterestImage.sprite = 
     }
 
     public void selectOption(int option)

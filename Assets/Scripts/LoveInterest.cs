@@ -1,11 +1,24 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 using UnityTwine;
 
-
+//Basically just a struct to get and set the current status of the love interest.
 public class LoveInterest : MonoBehaviour {
 
+    //This is a collection of stories associated with this love interest.
     public TwineStory LoveInterestStory;
+
+    //These describe emotions which the love interest will display
+    public enum Emotion
+    {
+        Neutral,
+        Happy,
+        Flattered,
+        Angry,
+        Sad
+    }
+    public List<Sprite> loveInterestSprites;
 
     //These are variables which are publically available and other characters can reference/acknowledge these
     public enum Rank
@@ -15,7 +28,6 @@ public class LoveInterest : MonoBehaviour {
         B, 
         C
     }
-
     public Rank relationshipRank { get; private set; }
     public bool specialEventTriggered { get; private set; }
     public bool giftReceived { get; private set; }
@@ -27,5 +39,32 @@ public class LoveInterest : MonoBehaviour {
     /// </summary>
     private int affinityRating;
 
-	// This shouldbe an interface with which to interact with this love interest's specific story
+
+    public Sprite getEmotionSprite(Emotion emotion)
+    {
+        return loveInterestSprites[(int)emotion];
+    }
+
+    public void increaseRank(int rank)
+    {
+        if (rank > 0)
+            relationshipRank += rank;
+        else
+            Debug.Log("rank increase must be positive");
+    }
+    public void decreaseRank(int rank)
+    {
+        if (rank > 0)
+            relationshipRank -= rank;
+        else
+            Debug.Log("rank increase must be positive");
+    }
+    public void receiveGift()
+    {
+        giftReceived = true;
+    }
+    public void triggerEvent()
+    {
+        specialEventTriggered = true;
+    }
 }
