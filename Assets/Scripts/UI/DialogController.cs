@@ -14,6 +14,8 @@ public class DialogController : MonoBehaviour
     private bool atDecision;
     private bool storyCompleted;
 
+	private string text;
+
     public void advanceStory()
     {
         if (!atDecision)
@@ -48,6 +50,10 @@ public class DialogController : MonoBehaviour
 
     }
 
+	void Clear() {
+		// TODO: Clear dialog output
+	}
+
 	void Story_OnStateChanged(TwineStoryState state) {
 		Debug.Log ("Now in state " + state);
 		
@@ -60,7 +66,7 @@ public class DialogController : MonoBehaviour
 
 		if (output is TwineText) {
 			var text = (TwineText)output;
-			dialogUI.displayDialog ("Test", text.Text);
+			dialogUI.displayDialog ("TestName", text.Text);
 		}
 	}
 
