@@ -1,11 +1,12 @@
 ﻿using UnityEngine;
+using UnityTwine;
 using System.Collections;
 using System.Collections.Generic;
 
 
 public class GameManager : MonoBehaviour {
-    public List<LoveInterest> LoveInterests;
 
+    public List<LoveInterest> LoveInterests;
     public int currentDay;
 
     public enum Room

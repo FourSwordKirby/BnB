@@ -1,71 +1,47 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using UnityTwine;
 using System.Collections;
+using System.Collections.Generic;
 
 
-public class Dialog : MonoBehaviour {
-    public Text dialogField;
+public class Dialog : MonoBehaviour
+{
+    public List<DialogOption> options;
+    public DialogBox dialogBox;
 
-    private string dialog = "";
-    private int dialogTracker = 0;
+    public TwineStory currentStory;
+    private bool atDecision;
+    private bool storyCompleted;
 
-    private float textDisplaySpeed;
-    private float textDisplayTimer;
-
-    private const  float FAST_DISPLAY_SPEED = 0.0f;
-    private const float SLOW_DISPLAY_SPEED = 0.03f;
-
-    // Use this for initialization
-	void Start () {
-  	    this.dialogField.text = "";
-	}
-	// Update is called once per frame
-	void Update () {
-        //Do something where text appears according to the textDisplaySpeed
-        if (textDisplayTimer> 0)
-        {
-            textDisplayTimer -= Time.deltaTime;
-            return;
-        }
-
-        if (this.dialogField.text != dialog)
-        {
-            this.dialogField.text += dialog[dialogTracker];
-            dialogTracker++;
-
-            textDisplayTimer = textDisplaySpeed;
-        };
-	}
-
-    public void displayDialog(string name, string dialog, DisplaySpeed displaySpeed = DisplaySpeed.fast)
+    public void advanceStory()
     {
-        this.gameObject.SetActive(true);
-        this.name = name;
-        this.dialog = dialog;
-        this.dialogTracker = 0;
-
-        //Prevents the name from flickering
-        this.dialogField.text = "";
-
-        if (displaySpeed == DisplaySpeed.immediate)
+        if (!atDecision)
         {
-            this.dialogField.text = dialog;
-        }
-        else if (displaySpeed == DisplaySpeed.fast)
-        {
-            textDisplaySpeed = FAST_DISPLAY_SPEED;
-        }
-        else if (displaySpeed == DisplaySpeed.slow)
-        {
-            textDisplaySpeed = SLOW_DISPLAY_SPEED;
+            Debug.Log("Advancing!");
         }
     }
 
-    public void closeDialog()
+    public void selectOption(int option)
     {
-        this.gameObject.SetActive(false);
-        this.name = "";
-        this.dialog = "";
-        this.dialogTracker = 0;
+        string optionText;
+
+        switch (option)
+        {
+            case 1:
+                optionText = options[0].optionText.text;
+                break;
+            case 2:
+                optionText = options[0].optionText.text;
+                break; 
+            case 3:
+                optionText = options[0].optionText.text;
+                break;
+            default:
+                optionText = "Error, dialog option should have been 1, 2 or 3";
+                break;
+        }
+        
+        Debug.Log("You chose " + optionText);
     }
 }
