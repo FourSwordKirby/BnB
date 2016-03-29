@@ -24,33 +24,19 @@ public class DialogController : MonoBehaviour
 
     public void selectOption(int option)
     {
-        string optionText;
-
-        switch (option)
+        if (option >= currentStory.Links.Count)
         {
-            case 1:
-                optionText = "Option1";
-                break;
-            case 2:
-                optionText = "Option2";
-                break; 
-            case 3:
-                optionText = "Option3";
-                break;
-            default:
-                optionText = "Error, dialog option should have been 1, 2 or 3";
-                break;
+            Debug.Log("This option is not in range");
+            return;
         }
-        
-        Debug.Log("You chose " + optionText);
 
-		//currentStory.Advance (SOMETHING);
+        Debug.Log("You chose " + currentStory.Links[option].Text);
 
+		currentStory.Advance (currentStory.Links[option]);
     }
 
 	void Story_OnStateChanged(TwineStoryState state) {
-		Debug.Log ("Now in state " + state);
-		
+		//Debug.Log ("Now in state " + state);
 	}
 
 	void Story_OnOutput(TwineOutput output) {
