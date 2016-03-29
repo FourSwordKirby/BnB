@@ -11,6 +11,7 @@ public class Dialog : MonoBehaviour
     public DialogBox dialogBox;
     public Image loveInterestImage;
 
+    private LoveInterest loadedLoveInterest;
     public TwineStory currentStory;
     private bool atDecision;
     private bool storyCompleted;
@@ -23,9 +24,9 @@ public class Dialog : MonoBehaviour
         }
     }
 
-    private void displayEmotion()
+    private void displayEmotion(LoveInterest.Emotion emotion)
     {
-        loveInterestImage.sprite = 
+        loveInterestImage.sprite = loadedLoveInterest.getEmotionSprite(emotion);
     }
 
     public void selectOption(int option)
