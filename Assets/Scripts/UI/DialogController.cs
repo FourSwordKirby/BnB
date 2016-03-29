@@ -14,7 +14,9 @@ public class DialogController : MonoBehaviour
     private bool atDecision;
     private bool storyCompleted;
 
-	private string text;
+	public bool IgnoreEmptyLines = true;
+
+	private string currentText;
 
     public void advanceStory()
     {
@@ -56,13 +58,21 @@ public class DialogController : MonoBehaviour
 
 	void Story_OnStateChanged(TwineStoryState state) {
 		Debug.Log ("Now in state " + state);
+		if (state == TwineStoryState.Idle) {
+			dialogUI.displayDialog ("TestName", this.currentText);
+		}
 		
 	}
 
 	void Story_OnOutput(TwineOutput output) {
 		if (output is TwineText) {
 			var text = (TwineText)output;
-			dialogUI.displayDialog ("TestName", text.Text);
+			if (IgnoreEmptyLines && text.Text.Trim ().Length < 1)
+				return;
+
+			this.currentText += text.Text;
+
+
 		}
 	}
 
