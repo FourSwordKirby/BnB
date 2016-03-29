@@ -66,13 +66,13 @@ public class DialogController : MonoBehaviour
 
 	void Start() {
 		// TODO: This is just here for testing
-        currentStory = loadedLoveInterest.LoveInterestStory;
+        this.currentStory = loadedLoveInterest.LoveInterestStory;
 
 		/* Register UnityTwine callback functions */
-		currentStory.OnOutput += Story_OnOutput;
-		currentStory.OnStateChanged += Story_OnStateChanged;
+		this.currentStory.OnOutput += Story_OnOutput;
+		this.currentStory.OnStateChanged += Story_OnStateChanged;
 
-		currentStory.Begin();
+		this.currentStory.Begin();
 
         dialogUI.displayLoveInterest(loadedLoveInterest, LoveInterest.Emotion.Happy);
 	}
