@@ -35,6 +35,8 @@ public class DialogBox : MonoBehaviour {
 
             textDisplayTimer = textDisplaySpeed;
         };
+
+		Debug.Log (this.dialogField.text);
 	}
 
     public void displayDialog(string name, string dialog, DisplaySpeed displaySpeed = DisplaySpeed.fast)
@@ -43,6 +45,7 @@ public class DialogBox : MonoBehaviour {
         this.name = name;
         this.dialog = dialog;
         this.dialogTracker = 0;
+		Debug.Log ("DIALOG GIVE/GOTTEN: " + dialog);
 
         //Prevents the name from flickering
         this.dialogField.text = "";

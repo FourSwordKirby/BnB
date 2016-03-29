@@ -55,15 +55,29 @@ public class Dialog : MonoBehaviour
 
     }
 
-	void story_OnStateChanged() {
-		Debug.Log ("Now in state " + currentStory.State);
+	void Story_OnStateChanged(TwineStoryState state) {
+		Debug.Log ("Now in state " + state);
 		
 	}
 
-	void story_OnOutput(TwineOutput output) {
+	void Story_OnOutput(TwineOutput output) {
 		Debug.Log (currentStory.CurrentPassageName + ":");
 		Debug.Log (output.Text);
 		Debug.Log (output);
 
+		if (output is TwineText) {
+			var text = (TwineText)output;
+			dialogBox.displayDialog ("Test", text.Text);
+		}
+	}
+
+	void Start() {
+		// TODO: This is just here for testing
+
+		/* Register UnityTwine callback functions */
+		currentStory.OnOutput += Story_OnOutput;
+		currentStory.OnStateChanged += Story_OnStateChanged;
+
+		currentStory.Begin();
 	}
 }

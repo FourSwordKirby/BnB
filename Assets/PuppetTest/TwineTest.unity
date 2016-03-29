@@ -166,55 +166,55 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22453728, guid: c4ae6fc83f0d4f64091afc0dccd76dd6, type: 2}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 22453728, guid: c4ae6fc83f0d4f64091afc0dccd76dd6, type: 2}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 22453728, guid: c4ae6fc83f0d4f64091afc0dccd76dd6, type: 2}
       propertyPath: m_SizeDelta.x
-      value: 154
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 22453728, guid: c4ae6fc83f0d4f64091afc0dccd76dd6, type: 2}
       propertyPath: m_SizeDelta.y
-      value: 37
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 22453732, guid: c4ae6fc83f0d4f64091afc0dccd76dd6, type: 2}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 22453732, guid: c4ae6fc83f0d4f64091afc0dccd76dd6, type: 2}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 22453732, guid: c4ae6fc83f0d4f64091afc0dccd76dd6, type: 2}
       propertyPath: m_SizeDelta.y
-      value: 74
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 22453730, guid: c4ae6fc83f0d4f64091afc0dccd76dd6, type: 2}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 22453730, guid: c4ae6fc83f0d4f64091afc0dccd76dd6, type: 2}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 22453730, guid: c4ae6fc83f0d4f64091afc0dccd76dd6, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -94
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 22453730, guid: c4ae6fc83f0d4f64091afc0dccd76dd6, type: 2}
       propertyPath: m_SizeDelta.y
-      value: 37
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 22453732, guid: c4ae6fc83f0d4f64091afc0dccd76dd6, type: 2}
       propertyPath: m_SizeDelta.x
-      value: 156
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 22453730, guid: c4ae6fc83f0d4f64091afc0dccd76dd6, type: 2}
       propertyPath: m_SizeDelta.x
-      value: 154
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11453716, guid: c4ae6fc83f0d4f64091afc0dccd76dd6, type: 2}
       propertyPath: StartStory
