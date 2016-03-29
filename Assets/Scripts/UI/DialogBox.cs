@@ -6,7 +6,7 @@ using System.Collections;
 public class DialogBox : MonoBehaviour {
     public Text dialogField;
 
-    private string dialog = "";
+    private string dialog = "what";
     private int dialogTracker = 0;
 
     private float textDisplaySpeed;
@@ -16,7 +16,7 @@ public class DialogBox : MonoBehaviour {
     private const float SLOW_DISPLAY_SPEED = 0.03f;
 
     // Use this for initialization
-	void Start () {
+	void Awake () {
   	    this.dialogField.text = "";
 	}
 	// Update is called once per frame
@@ -35,17 +35,13 @@ public class DialogBox : MonoBehaviour {
 
             textDisplayTimer = textDisplaySpeed;
         };
-
-		Debug.Log (this.dialogField.text);
 	}
 
     public void displayDialog(string name, string dialog, DisplaySpeed displaySpeed = DisplaySpeed.fast)
     {
         this.gameObject.SetActive(true);
-        this.name = name;
         this.dialog = dialog;
         this.dialogTracker = 0;
-		Debug.Log ("DIALOG GIVE/GOTTEN: " + dialog);
 
         //Prevents the name from flickering
         this.dialogField.text = "";
@@ -67,8 +63,7 @@ public class DialogBox : MonoBehaviour {
     public void closeDialog()
     {
         this.gameObject.SetActive(false);
-        this.name = "";
-        this.dialog = "";
+        //this.dialog = "";
         this.dialogTracker = 0;
     }
 }
