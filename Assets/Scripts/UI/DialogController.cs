@@ -54,10 +54,6 @@ public class DialogController : MonoBehaviour
 	}
 
 	void Story_OnOutput(TwineOutput output) {
-		Debug.Log (currentStory.CurrentPassageName + ":");
-		Debug.Log (output.Text);
-		Debug.Log (output);
-
 		if (output is TwineText) {
 			var text = (TwineText)output;
 			dialogUI.displayDialog ("Test", text.Text);

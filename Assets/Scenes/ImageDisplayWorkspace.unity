@@ -211,6 +211,10 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 11462986, guid: e10c4fa56eb233444ae4c3247a0c9dec, type: 2}
+      propertyPath: loadedLoveInterest
+      value: 
+      objectReference: {fileID: 1042179432}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e10c4fa56eb233444ae4c3247a0c9dec, type: 2}
   m_IsPrefabParent: 0
