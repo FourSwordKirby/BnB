@@ -43,5 +43,18 @@ public class Dialog : MonoBehaviour
         }
         
         Debug.Log("You chose " + optionText);
+
+		//currentStory.Advance (SOMETHING);
+
     }
+
+	void story_OnStateChanged() {
+		Debug.Log ("Now in state " + currentStory.State);
+		
+	}
+
+	void story_OnOutput(TwineOutput output) {
+		Debug.Log (currentStory.CurrentPassageName + ":");
+
+	}
 }
