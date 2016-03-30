@@ -11,18 +11,38 @@ public class DialogController : MonoBehaviour
 
     public LoveInterest loadedLoveInterest;
     private TwineStory currentStory;
-    private bool atDecision;
     private bool storyCompleted;
 
 	public bool IgnoreEmptyLines = true;
 
-	private string currentText;
+    private List<string> lines;
+    private int currentLine;
+    private string currentText;
 
     public void advanceStory()
     {
-        if (!atDecision)
+        if (currentLine < lines.Count)
         {
-            Debug.Log("Advancing!");
+            dialogUI.displayDialog("name", lines[currentLine]);
+            currentLine++;
+        }
+        else
+        {
+            displayOptions();
+        }
+    }
+
+    private void displayOptions()
+    {
+        for (int i = 0; i < 3; i++)
+        {
+            if (i < currentStory.Links.Count)
+            {
+                dialogUI.enableOption(i);
+                dialogUI.displayOption(currentStory.Links[i].Text, i);
+            }
+            else
+                dialogUI.disableOption(i);
         }
     }
 
@@ -45,7 +65,7 @@ public class DialogController : MonoBehaviour
 
 	void Story_OnStateChanged(TwineStoryState state) {
 		if (state == TwineStoryState.Idle) {
-			dialogUI.displayDialog ("TestName", this.currentText);
+			//dialogUI.displayDialog ("", this.currentText);
 		}
 		
 		//Debug.Log ("Now in state " + state);
@@ -57,11 +77,17 @@ public class DialogController : MonoBehaviour
 			if (IgnoreEmptyLines && text.Text.Trim ().Length < 1)
 				return;
 
-			this.currentText += text.Text;
-
-
+            lines.Add(text.Text);
+			//this.currentText += text.Text;
 		}
 	}
+
+    void Awake()
+    {
+        //Initializing internal variables
+        this.lines = new List<string>();
+        this.currentLine = 0;
+    }
 
 	void Start() {
 		// TODO: This is just here for testing
@@ -75,4 +101,12 @@ public class DialogController : MonoBehaviour
 
         dialogUI.displayLoveInterest(loadedLoveInterest, LoveInterest.Emotion.Happy);
 	}
+
+    void Update()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            advanceStory();
+        }
+    }
 }

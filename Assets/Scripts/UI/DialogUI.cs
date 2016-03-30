@@ -26,7 +26,17 @@ public class DialogUI : MonoBehaviour
         loveInterestImages[(int) position].sprite = loveInterest.getEmotionSprite(emotion);
     }
 
-    public void displayOptions(string optionText, int optionNumber)
+    public void enableOption(int optionNumber)
+    {
+        options[optionNumber].gameObject.SetActive(true);
+    }
+
+    public void disableOption(int optionNumber)
+    {
+        options[optionNumber].gameObject.SetActive(false);
+    }
+
+    public void displayOption(string optionText, int optionNumber)
     {
         options[optionNumber].displayOption(optionText);
     }
