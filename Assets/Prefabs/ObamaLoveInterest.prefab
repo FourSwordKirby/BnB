@@ -24,7 +24,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 442826}
-  - 114: {fileID: 11431396}
+  - 114: {fileID: 11417246}
   m_Layer: 0
   m_Name: Story
   m_TagString: Untagged
@@ -57,7 +57,7 @@ Transform:
   - {fileID: 442826}
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!114 &11431396
+--- !u!114 &11417246
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -65,7 +65,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 169322}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7e8bae9c635f4329b0e2b13e241f77f, type: 3}
+  m_Script: {fileID: 11500000, guid: 673adbf7f8eac934cb3700531053d0a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   AutoPlay: 1
@@ -82,7 +82,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba2c38a12153b634f9316c3554c898ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LoveInterestStory: {fileID: 11431396}
+  LoveInterestStory: {fileID: 11417246}
   loveInterestSprites:
   - {fileID: 21300000, guid: 65490c2fd33a7254cbe04b287611987c, type: 3}
   - {fileID: 21300000, guid: 0fc386137a246e242b1355a420285dd8, type: 3}
