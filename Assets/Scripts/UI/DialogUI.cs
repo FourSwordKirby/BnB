@@ -17,7 +17,7 @@ public class DialogUI : MonoBehaviour
         NearLeft,
         Center,
         NearRight,
-        Right
+        FarRight
     }
 
 

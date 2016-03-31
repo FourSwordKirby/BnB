@@ -62,12 +62,74 @@ public class DialogController : MonoBehaviour
         }
     }
 
-	private DialogState ParseInstructions(string instructions) {
+	private string TrimTag(string tag) {
+		//Debug.Log ("Tag to be trimmed: " + tag);
+		return tag.Substring (2, tag.IndexOf (">") - 2);
+	}
+		
+	private GameManager.LoveInterest ParseName(string tagName) {
 
-		/* [# characters, <char 1 name>, <char 1 position>, <char 1 emotion>, <char 2 name>.....etc] */
+		switch (tagName) {
+		case "beau":
+			return GameManager.LoveInterest.Beauregard;
+			// TODO: add other cases as Sam writes them
+		default:
+			Debug.Log ("ERROR: Malformed Tag Name input: " + tagName);
+			break;
+		}
+		return GameManager.LoveInterest.Beauregard;
+	}
 
-		// TODO: Parse a string of instructions from a twee to a usable DialogState data structure
-		DialogState state = new DialogState();
+	private DialogUI.ImagePositon ParsePos(string tagPos) {
+
+		switch (tagPos) {
+		case "farleft":
+			return DialogUI.ImagePositon.FarLeft;
+		case "nearleft":
+			return DialogUI.ImagePositon.NearLeft;
+		case "center":
+			return DialogUI.ImagePositon.Center;
+		case "nearright":
+			return DialogUI.ImagePositon.NearRight;
+		case "farright":
+			return DialogUI.ImagePositon.FarRight;
+			// TODO: add other cases as Sam writes them
+		default:
+			Debug.Log ("ERROR: Malformed Tag Pos input: " + tagPos);
+			break;
+		}
+		return DialogUI.ImagePositon.Center;
+	}
+
+	private LoveInterest.Emotion ParseEmo(string tagEmo) {
+
+//		Neutral,
+//		Happy,
+//		Flattered,
+//		Angry,
+//		Sad
+
+		switch (tagEmo) {
+		case "neutral":
+			return LoveInterest.Emotion.Neutral;
+		case "smile":
+			return LoveInterest.Emotion.Happy;
+		case "blush":
+			return LoveInterest.Emotion.Flattered;
+		case "angry":
+			return LoveInterest.Emotion.Angry;
+		case "frown":
+			return LoveInterest.Emotion.Sad;
+			// TODO: add other cases as Sam writes them
+		default:
+			Debug.Log ("ERROR: Malformed Tag Emotion input: " + tagEmo);
+			break;
+		}
+		return LoveInterest.Emotion.Neutral;
+	}
+
+	private void ApplyInstructions(string instructions) {
+		Debug.Log ("Instructions: " + instructions);
 
 		string[] instrList = instructions.Split(',');
 
@@ -80,18 +142,13 @@ public class DialogController : MonoBehaviour
 		Debug.Log ("Number characters for this scene: " + numCharacters);
 
 		for (int i = 0; i < numCharacters; i++) {
-			string name = instrList [3 * i + 1];
-			string position = instrList [3 * i + 2];
-			string emotion = instrList [3 * i + 2];
-			// TODO: way way more code to parse info into state that we want it
+			GameManager.LoveInterest name = ParseName(TrimTag(instrList [3 * i + 1]));
+			DialogUI.ImagePositon position = ParsePos(TrimTag(instrList [3 * i + 2]));
+			LoveInterest.Emotion emotion = ParseEmo(TrimTag(instrList [3 * i + 3]));
+			// TODO: Change it to display any love interest, not just loeaded one
+			dialogUI.displayLoveInterest (loadedLoveInterest, emotion, position);
+			// TODO: Now display it
 		}
-
-		return state;
-	}
-
-	private void ApplyInstructions(string instructions) {
-		Debug.Log ("Instructions: " + instructions);
-		// TODO: Apply instructions from a DialogState data struct to the current scene
 	}
 
     private void DisplayOptions()

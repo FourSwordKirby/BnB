@@ -19,6 +19,16 @@ public class GameManager : MonoBehaviour {
         Pasture
     }
 
+	public enum LoveInterest
+	{
+		Beauregard,
+		Henrietta,
+		Lucille,
+		John,
+		Patrice,
+		Noelle,
+	}
+
     public enum Gifts
     {
         Oats,
