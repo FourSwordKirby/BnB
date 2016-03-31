@@ -19,7 +19,6 @@ public class DialogController : MonoBehaviour
     private List<string> lines;
     private int currentLine;
     private string currentText;
-	private bool newPassage = true;
 
     public delegate void OnDisplayComplete();
     public OnDisplayComplete CleanupFunction;
@@ -144,9 +143,9 @@ public class DialogController : MonoBehaviour
 		}
 		if (state == TwineStoryState.Idle) {
 			//dialogUI.displayDialog ("", this.currentText);
+			advanceStory ();
 		}
 		if (state == TwineStoryState.Playing) {
-			newPassage = true;
 			Clear ();
 
 			// TODO: Clear output date from previous state
@@ -170,11 +169,6 @@ public class DialogController : MonoBehaviour
 
 			lines.Add (text.Text);
 
-			// Frojo to Roger: this is kind of ugly but works for now?
-			if (newPassage && !IsInstruction(text.Text)) {
-				newPassage = false;
-				advanceStory ();
-			}
 		}
 	}
 
