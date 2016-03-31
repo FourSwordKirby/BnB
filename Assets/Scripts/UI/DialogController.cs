@@ -27,6 +27,12 @@ public class DialogController : MonoBehaviour
     {
         if (currentLine < lines.Count)
         {
+            if (!dialogUI.dialogCompleted())
+            {
+                dialogUI.resolveDialog();
+                return;
+            }
+
             string line;
             string instructions;
             do
@@ -34,7 +40,6 @@ public class DialogController : MonoBehaviour
                 line = "";
                 instructions = "";
 
-                Debug.Log(currentLine);
                 line = lines[currentLine];
 
                 //Uncomment this area when instructions are put on a seperate line from the dialog

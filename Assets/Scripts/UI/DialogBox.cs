@@ -20,7 +20,9 @@ public class DialogBox : MonoBehaviour {
     // Use this for initialization
 	void Awake () {
   	    this.dialogField.text = "";
+        dialogCompleted = true;
 	}
+
 	// Update is called once per frame
 	void Update () {
         //Do something where text appears according to the textDisplaySpeed
@@ -44,6 +46,8 @@ public class DialogBox : MonoBehaviour {
 
     public void displayDialog(string speaker, string dialog, DisplaySpeed displaySpeed = DisplaySpeed.fast)
     {
+        dialogCompleted = false;
+
         this.gameObject.SetActive(true);
         this.speakerField.text = speaker;
         this.dialog = dialog;
@@ -71,6 +75,11 @@ public class DialogBox : MonoBehaviour {
         this.gameObject.SetActive(false);
         //this.dialog = "";
         this.dialogTracker = 0;
+    }
+
+    public void resolveDialog()
+    {
+       this.dialogField.text = dialog;
     }
 }
 
