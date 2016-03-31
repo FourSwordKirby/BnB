@@ -3,6 +3,7 @@ using UnityEngine.UI;
 using UnityTwine;
 using System.Collections;
 using System.Collections.Generic;
+using System;
 
 
 public class DialogController : MonoBehaviour
@@ -58,8 +59,30 @@ public class DialogController : MonoBehaviour
     }
 
 	private DialogState ParseInstructions(string instructions) {
+
+		/* [# characters, <char 1 name>, <char 1 position>, <char 1 emotion>, <char 2 name>.....etc] */
+
 		// TODO: Parse a string of instructions from a twee to a usable DialogState data structure
-		return new DialogState();
+		DialogState state = new DialogState();
+
+		string[] instrList = instructions.Split(',');
+
+		int numCharacters;
+		if (!Int32.TryParse(instrList[0].Substring(1), out numCharacters)) {
+			// TODO: Handle error somehow
+			Debug.Log("ERROR! Malformed input!");
+		}
+
+		Debug.Log ("Number characters for this scene: " + numCharacters);
+
+		for (int i = 0; i < numCharacters; i++) {
+			string name = instrList [3 * i + 1];
+			string position = instrList [3 * i + 2];
+			string emotion = instrList [3 * i + 2];
+			// TODO: way way more code to parse info into state that we want it
+		}
+
+		return state;
 	}
 
 	private void ApplyInstructions(DialogState state) {

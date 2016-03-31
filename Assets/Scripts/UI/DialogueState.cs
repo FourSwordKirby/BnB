@@ -8,23 +8,19 @@ public class DialogState {
 
 	public enum Character
 	{
+		None,
 		A,
 		Beauregard,
 		C,
 		D,
-		E
+		E,
 	}
 
-	public Character FarLeftCharacter;
-	public Character NearLeftCharacter;
-	public Character CenterCharacter;
-	public Character NearRightCharacter;
-	public Character FarRightCharacter;
-
-
-
-
-
+	public Character FarLeftCharacter = Character.None;
+	public Character NearLeftCharacter = Character.None;
+	public Character CenterCharacter = Character.None;
+	public Character NearRightCharacter= Character.None;
+	public Character FarRightCharacter = Character.None;
 
 	public DialogState () {
 
