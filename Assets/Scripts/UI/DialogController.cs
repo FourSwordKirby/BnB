@@ -39,7 +39,7 @@ public class DialogController : MonoBehaviour
                 if (line[0] == '[')
                 {
                     instructions = line.Substring(line.IndexOf("["), line.IndexOf("]"));
-                    //ApplyInstructions(instructions);
+                    //ApplyInstructions(ParseInstructions(instructions));
                     currentLine++;
                 }*/
             } while (instructions != "");
@@ -56,6 +56,15 @@ public class DialogController : MonoBehaviour
             DisplayOptions();
         }
     }
+
+	private DialogState ParseInstructions(string instructions) {
+		// TODO: Parse a string of instructions from a twee to a usable DialogState data structure
+		return new DialogState();
+	}
+
+	private void ApplyInstructions(DialogState state) {
+		// TODO: Apply instructions from a DialogState data struct to the current scene
+	}
 
     private void DisplayOptions()
     {
