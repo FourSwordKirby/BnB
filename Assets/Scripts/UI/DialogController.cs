@@ -21,6 +21,9 @@ public class DialogController : MonoBehaviour
     private string currentText;
 	private bool newPassage = true;
 
+    public delegate void OnDisplayComplete();
+    public OnDisplayComplete CleanupFunction;
+
     public void advanceStory()
     {
         if (currentLine < lines.Count)
@@ -54,9 +57,9 @@ public class DialogController : MonoBehaviour
             dialogUI.displayDialog(speakerName, dialog);
             currentLine++;
         }
-        else
+        if (currentLine == lines.Count)
         {
-            DisplayOptions();
+            CleanupFunction = DisplayOptions;
         }
     }
 
@@ -136,7 +139,6 @@ public class DialogController : MonoBehaviour
 	void Story_OnStateChanged(TwineStoryState state) {
 		Debug.Log ("Now in state " + state);
 
-
 		if (state == TwineStoryState.Complete) {
 			// TODO: What do we do when no more links?
 		}
@@ -158,7 +160,7 @@ public class DialogController : MonoBehaviour
 	}
 
 	void Story_OnOutput(TwineOutput output) {
-		Debug.Log ("Recieved output " + output.Text);
+		//Debug.Log ("Recieved output " + output);
 
 		if (output is TwineText) {
 			
@@ -201,6 +203,13 @@ public class DialogController : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             advanceStory();
+        }
+
+        if (dialogUI.dialogCompleted() && CleanupFunction != null)
+        {
+            Debug.Log("made it here");
+            CleanupFunction();
+            CleanupFunction = null;
         }
     }
 }
