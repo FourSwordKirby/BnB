@@ -6,8 +6,8 @@ using System.Collections.Generic;
 
 public class GameManager : MonoBehaviour {
 
-    public List<LoveInterest> LoveInterests;
-    public int currentDay;
+    public static List<LoveInterest> LoveInterests;
+    public static int currentDay;
 
     public enum Room
     {
@@ -19,7 +19,7 @@ public class GameManager : MonoBehaviour {
         Pasture
     }
 
-	public enum LoveInterest
+	public enum LoveInterestName
 	{
 		Beauregard,
 		Henrietta,
@@ -37,5 +37,14 @@ public class GameManager : MonoBehaviour {
         Yarn,
         Picture
     }
-		
+
+    public void Awake()
+    {
+        LoveInterests = new List<LoveInterest>(GameObject.FindObjectsOfType<LoveInterest>());
+    }
+
+    public static LoveInterest getLoveInterest(GameManager.LoveInterestName name)
+    {
+        return LoveInterests[(int)name];
+    }
 }

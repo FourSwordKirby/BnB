@@ -9,6 +9,7 @@ public class DialogUI : MonoBehaviour
 {
     public List<DialogOption> options;
     public DialogBox dialogBox;
+    public Image background;
 
     public List<Image> loveInterestImages;
     public enum ImagePositon
@@ -20,6 +21,10 @@ public class DialogUI : MonoBehaviour
         FarRight
     }
 
+    public void displayBackground(Sprite backgroundSprite)
+    {
+        background.sprite = backgroundSprite;
+    }
 
     public void displayLoveInterest(LoveInterest loveInterest, LoveInterest.Emotion emotion, ImagePositon position = ImagePositon.Center)
     {

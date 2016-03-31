@@ -170,22 +170,6 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 22483674, guid: e10c4fa56eb233444ae4c3247a0c9dec, type: 2}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 22483674, guid: e10c4fa56eb233444ae4c3247a0c9dec, type: 2}
-      propertyPath: m_SizeDelta.y
-      value: 80
-      objectReference: {fileID: 0}
-    - target: {fileID: 22483674, guid: e10c4fa56eb233444ae4c3247a0c9dec, type: 2}
-      propertyPath: m_AnchoredPosition.x
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 22483674, guid: e10c4fa56eb233444ae4c3247a0c9dec, type: 2}
-      propertyPath: m_SizeDelta.x
-      value: 440
-      objectReference: {fileID: 0}
     - target: {fileID: 11462986, guid: e10c4fa56eb233444ae4c3247a0c9dec, type: 2}
       propertyPath: loadedLoveInterest
       value: 
@@ -460,7 +444,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa1110a68d856cd47ac5915030b2fb13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LoveInterests: []
+  LoveInterests: 
   currentDay: 1
 --- !u!224 &1727275658 stripped
 RectTransform:

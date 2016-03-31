@@ -72,17 +72,17 @@ public class DialogController : MonoBehaviour
 		return tag.Substring (2, tag.IndexOf (">") - 2);
 	}
 		
-	private GameManager.LoveInterest ParseName(string tagName) {
+	private GameManager.LoveInterestName ParseName(string tagName) {
 
 		switch (tagName) {
 		case "beau":
-			return GameManager.LoveInterest.Beauregard;
+			return GameManager.LoveInterestName.Beauregard;
 			// TODO: add other cases as Sam writes them
 		default:
 			Debug.Log ("ERROR: Malformed Tag Name input: " + tagName);
 			break;
 		}
-		return GameManager.LoveInterest.Beauregard;
+		return GameManager.LoveInterestName.Beauregard;
 	}
 
 	private DialogUI.ImagePositon ParsePos(string tagPos) {
@@ -106,15 +106,8 @@ public class DialogController : MonoBehaviour
 		return DialogUI.ImagePositon.Center;
 	}
 
-	private LoveInterest.Emotion ParseEmo(string tagEmo) {
-
-//		Neutral,
-//		Happy,
-//		Flattered,
-//		Angry,
-//		Sad
-
-		switch (tagEmo) {
+	private LoveInterest.Emotion ParseEmotion(string tagEmotion) {
+		switch (tagEmotion) {
 		case "neutral":
 			return LoveInterest.Emotion.Neutral;
 		case "smile":
@@ -127,7 +120,7 @@ public class DialogController : MonoBehaviour
 			return LoveInterest.Emotion.Sad;
 			// TODO: add other cases as Sam writes them
 		default:
-			Debug.Log ("ERROR: Malformed Tag Emotion input: " + tagEmo);
+			Debug.Log ("ERROR: Malformed Tag Emotion input: " + tagEmotion);
 			break;
 		}
 		return LoveInterest.Emotion.Neutral;
@@ -147,11 +140,11 @@ public class DialogController : MonoBehaviour
 		Debug.Log ("Number characters for this scene: " + numCharacters);
 
 		for (int i = 0; i < numCharacters; i++) {
-			GameManager.LoveInterest name = ParseName(TrimTag(instrList [3 * i + 1]));
+			GameManager.LoveInterestName name = ParseName(TrimTag(instrList [3 * i + 1]));
 			DialogUI.ImagePositon position = ParsePos(TrimTag(instrList [3 * i + 2]));
-			LoveInterest.Emotion emotion = ParseEmo(TrimTag(instrList [3 * i + 3]));
-			// TODO: Change it to display any love interest, not just loeaded one
-			dialogUI.displayLoveInterest (loadedLoveInterest, emotion, position);
+			LoveInterest.Emotion emotion = ParseEmotion(TrimTag(instrList [3 * i + 3]));
+			// TODO: Change it to display any love interest, not just loaded one
+            dialogUI.displayLoveInterest(GameManager.getLoveInterest(name), emotion, position);
 			// TODO: Now display it
 		}
 	}
