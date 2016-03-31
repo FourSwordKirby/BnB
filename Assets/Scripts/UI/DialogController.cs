@@ -36,15 +36,17 @@ public class DialogController : MonoBehaviour
                 line = lines[currentLine];
 
                 //Uncomment this area when instructions are put on a seperate line from the dialog
-                /*
-                if (line[0] == '[')
+                
+				if (IsInstruction(line))
                 {
                     instructions = line.Substring(line.IndexOf("["), line.IndexOf("]"));
-                    //ApplyInstructions(ParseInstructions(instructions));
+					ApplyInstructions(instructions);
                     currentLine++;
-                }*/
-            } while (instructions != "");
+                }
+				Debug.Log("var instructions = " + instructions);
+			} while (instructions != "");
             
+			//line = lines [currentLine];
 
             string speakerName = line.Substring(0, line.IndexOf(":"));
             string dialog = line.Substring(line.IndexOf(":") + 2);
@@ -85,7 +87,8 @@ public class DialogController : MonoBehaviour
 		return state;
 	}
 
-	private void ApplyInstructions(DialogState state) {
+	private void ApplyInstructions(string instructions) {
+		Debug.Log ("Instructions: " + instructions);
 		// TODO: Apply instructions from a DialogState data struct to the current scene
 	}
 
@@ -150,8 +153,12 @@ public class DialogController : MonoBehaviour
 		//Debug.Log ("Now in state " + state);
 	}
 
+	private bool IsInstruction(string line) {
+		return line [0] == '[';
+	}
+
 	void Story_OnOutput(TwineOutput output) {
-		Debug.Log ("Recieved output " + output);
+		Debug.Log ("Recieved output " + output.Text);
 
 		if (output is TwineText) {
 			
@@ -162,7 +169,7 @@ public class DialogController : MonoBehaviour
 			lines.Add (text.Text);
 
 			// Frojo to Roger: this is kind of ugly but works for now?
-			if (newPassage) {
+			if (newPassage && !IsInstruction(text.Text)) {
 				newPassage = false;
 				advanceStory ();
 			}

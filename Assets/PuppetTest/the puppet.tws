@@ -1,4619 +1,0 @@
-(dp0
-S'buildDestination'
-p1
-VC:\u005cUsers\u005cSam\u005cDesktop\u005ccollege things\u005cexp game design\u005cpuppeteer super final.html
-p2
-sS'saveDestination'
-p3
-S'C:\\Users\\Sam\\Desktop\\college things\\exp game design\\the puppet.tws'
-p4
-sS'metadata'
-p5
-(dp6
-sS'target'
-p7
-S'sugarcane'
-p8
-sS'storyPanel'
-p9
-(dp10
-S'widgets'
-p11
-(lp12
-(dp13
-S'selected'
-p14
-I00
-sS'pos'
-p15
-(lp16
-I10
-aI150
-asS'passage'
-p17
-(itiddlywiki
-Tiddler
-p18
-(dp20
-S'text'
-p21
-Vthe puppeteer
-p22
-sS'title'
-p23
-VStoryTitle
-p24
-sS'modified'
-p25
-ctime
-struct_time
-p26
-((I2015
-I9
-I7
-I11
-I50
-I5
-I0
-I250
-I1
-tp27
-(dp28
-tp29
-Rp30
-sS'tags'
-p31
-(lp32
-sS'created'
-p33
-g26
-((I2015
-I9
-I3
-I9
-I47
-I46
-I3
-I246
-I1
-tp34
-(dp35
-tp36
-Rp37
-sbsa(dp38
-g14
-I00
-sg15
-(lp39
-I10
-aI290
-asg17
-(itiddlywiki
-Tiddler
-p40
-(dp41
-g21
-Vsam riordan
-p42
-sg23
-VStoryAuthor
-p43
-sg25
-g26
-((I2015
-I9
-I21
-I21
-I0
-I23
-I0
-I264
-I1
-tp44
-(dp45
-tp46
-Rp47
-sg31
-(lp48
-sg33
-g26
-((I2015
-I9
-I3
-I9
-I47
-I46
-I3
-I246
-I1
-tp49
-(dp50
-tp51
-Rp52
-sbsa(dp53
-g14
-I00
-sg15
-(lp54
-F317.0510433868788
-aF10.299304408747432
-asg17
-(itiddlywiki
-Tiddler
-p55
-(dp56
-g21
-VYou stare back at the puppet. The puppet blinks.\u000a\u000a[[put it down]]\u000a[[make it speak]]
-p57
-sg23
-Vstare back
-p58
-sg25
-g26
-((I2015
-I9
-I3
-I9
-I50
-I19
-I3
-I246
-I1
-tp59
-(dp60
-tp61
-Rp62
-sg31
-(lp63
-sg33
-g26
-((I2015
-I9
-I3
-I9
-I49
-I34
-I3
-I246
-I1
-tp64
-(dp65
-tp66
-Rp67
-sbsa(dp68
-g14
-I00
-sg15
-(lp69
-F193.66666666666654
-aF154.66666666666669
-asg17
-(itiddlywiki
-Tiddler
-p70
-(dp71
-g21
-VYou put the puppet down. It lies on the vanity of your dressing room. You will have to pick it back up again. The show is starting soon.\u000a\u000a[[pick it up]]\u000a[[leave the dressing room]]
-p72
-sg23
-Vput it down
-p73
-sg25
-g26
-((I2015
-I9
-I3
-I18
-I0
-I19
-I3
-I246
-I1
-tp74
-(dp75
-tp76
-Rp77
-sg31
-(lp78
-sg33
-g26
-((I2015
-I9
-I3
-I9
-I49
-I34
-I3
-I246
-I1
-tp79
-(dp80
-tp81
-Rp82
-sbsa(dp83
-g14
-I00
-sg15
-(lp84
-F398.6666666666672
-aF179.33333333333331
-asg17
-(itiddlywiki
-Tiddler
-p85
-(dp86
-g21
-VYou open and close the puppet's mouth. Your mouth moves in time with it.\u000a\u000a"I've missed you," your mouth says, in a voice that isn't yours.\u000a\u000aWith a shaking hand, you clamp the puppet's mouth shut, and your voice becomes your own again.\u000a\u000a[[put it down|put it down 2]]\u000a[[leave the dressing room|leave the dressing room 3]]\u000a
-p87
-sg23
-Vmake it speak
-p88
-sg25
-g26
-((I2015
-I9
-I21
-I0
-I24
-I58
-I0
-I264
-I1
-tp89
-(dp90
-tp91
-Rp92
-sg31
-(lp93
-sg33
-g26
-((I2015
-I9
-I3
-I9
-I50
-I26
-I3
-I246
-I1
-tp94
-(dp95
-tp96
-Rp97
-sbsa(dp98
-g14
-I00
-sg15
-(lp99
-F601.9999999999999
-aF46.33333333333332
-asg17
-(itiddlywiki
-Tiddler
-p100
-(dp101
-g21
-VYou escape to the hallway. The air seems thinner and cooler here. You breathe in and out slowly, deeply.\u000a\u000aThe stage manager passes by, and calls for places in twenty minutes.\u000a\u000a[[re-enter the dressing room]]\u000a[[walk down the hall]]\u000a[[take a minute to collect yourself]]
-p102
-sg23
-Vleave the dressing room
-p103
-sg25
-g26
-((I2015
-I9
-I4
-I22
-I12
-I55
-I4
-I247
-I1
-tp104
-(dp105
-tp106
-Rp107
-sg31
-(lp108
-sg33
-g26
-((I2015
-I9
-I3
-I18
-I0
-I22
-I3
-I246
-I1
-tp109
-(dp110
-tp111
-Rp112
-sbsa(dp113
-g14
-I00
-sg15
-(lp114
-F202.49999999999991
-aF290.0
-asg17
-(itiddlywiki
-Tiddler
-p115
-(dp116
-g21
-VYou slide your hand back inside the puppet. Its googly eyes seem almost smug.\u000a\u000a[[stare back|stare back 2]]\u000a[[make it speak]]\u000a[[put it down|put it down 2]]
-p117
-sg23
-Vpick it up
-p118
-sg25
-g26
-((I2015
-I9
-I7
-I11
-I54
-I8
-I0
-I250
-I1
-tp119
-(dp120
-tp121
-Rp122
-sg31
-(lp123
-sg33
-g26
-((I2015
-I9
-I3
-I18
-I0
-I22
-I3
-I246
-I1
-tp124
-(dp125
-tp126
-Rp127
-sbsa(dp128
-g14
-I00
-sg15
-(lp129
-F480.0
-aF335.0833333333331
-asg17
-(itiddlywiki
-Tiddler
-p130
-(dp131
-g21
-VYou look deep into the puppet's eyes. One of them closes, then opens again, torturously slowly. Sweat beads across your forehead.\u000a\u000a[[leave the dressing room|leave the dressing room 3]]\u000a[[put it down|put it down 2]]\u000a[[make it speak]]
-p132
-sg23
-Vstare back 2
-p133
-sg25
-g26
-((I2015
-I9
-I7
-I11
-I51
-I21
-I0
-I250
-I1
-tp134
-(dp135
-tp136
-Rp137
-sg31
-(lp138
-sg33
-g26
-((I2015
-I9
-I4
-I12
-I17
-I48
-I4
-I247
-I1
-tp139
-(dp140
-tp141
-Rp142
-sbsa(dp143
-g14
-I00
-sg15
-(lp144
-F13.08333333333446
-aF421.9166666666667
-asg17
-(itiddlywiki
-Tiddler
-p145
-(dp146
-g21
-VYou slip away into the hallway again--but this time, the fear does not leave you when you cross the threshold. Even the slow-moving air out here feels stifling.\u000a\u000aThe puppet is behind you. You can feel it staring. A wooden door is not enough to keep you from its gaze. You're not sure the whole building would be.\u000a\u000aThe stage manager passes by again, and holds up ten fingers as she passes by, mouthing "places". The show is starting soon.\u000a\u000a[[re-enter the dressing room|re-enter the dressing room 2]\u000a
-p147
-sg23
-Vleave the dressing room 2 EXTRY EXTRY READ ALL ABOUT IT
-p148
-sg25
-g26
-((I2015
-I9
-I7
-I18
-I42
-I38
-I0
-I250
-I1
-tp149
-(dp150
-tp151
-Rp152
-sg31
-(lp153
-sg33
-g26
-((I2015
-I9
-I4
-I12
-I19
-I56
-I4
-I247
-I1
-tp154
-(dp155
-tp156
-Rp157
-sbsa(dp158
-g14
-I00
-sg15
-(lp159
-F617.6666666666658
-aF215.83333333333331
-asg17
-(itiddlywiki
-Tiddler
-p160
-(dp161
-g21
-VThe door clicks shut behind you, and the fear returns. There's no time left.\u000a\u000aThe puppet lies on the dressing table. Its gaze in the mirror seems to follow you.\u000a\u000a[[pick it up]]
-p162
-sg23
-Vre-enter the dressing room
-p163
-sg25
-g26
-((I2015
-I9
-I7
-I19
-I8
-I45
-I0
-I250
-I1
-tp164
-(dp165
-tp166
-Rp167
-sg31
-(lp168
-sg33
-g26
-((I2015
-I9
-I4
-I12
-I29
-I36
-I4
-I247
-I1
-tp169
-(dp170
-tp171
-Rp172
-sbsa(dp173
-g14
-I00
-sg15
-(lp174
-F777.3333333333331
-aF13.416666666666616
-asg17
-(itiddlywiki
-Tiddler
-p175
-(dp176
-g21
-VYou pause to rest, leaning back against your dressing room door. The sweat on your skin begins to evaporate, and a chill sets in. You feel strangely empty.\u000a\u000a[[re-enter the dressing room]]\u000a[[walk down the hall]]\u000a[[stay and try to relax]]
-p177
-sg23
-Vtake a minute to collect yourself
-p178
-sg25
-g26
-((I2015
-I9
-I4
-I22
-I15
-I6
-I4
-I247
-I1
-tp179
-(dp180
-tp181
-Rp182
-sg31
-(lp183
-sg33
-g26
-((I2015
-I9
-I4
-I12
-I29
-I36
-I4
-I247
-I1
-tp184
-(dp185
-tp186
-Rp187
-sbsa(dp188
-g14
-I00
-sg15
-(lp189
-F848.7499999999997
-aF327.49999999999983
-asg17
-(itiddlywiki
-Tiddler
-p190
-(dp191
-g21
-VYour co-star's dressing room is just down the hall. You can see the light filtering out from under the door. It takes only a few steps to reach it, but with each one your feet grow heavier.\u000a\u000aTwo muttering voices can be heard through the door.\u000a\u000a[[knock]]\u000a[[continue down the hallway]]\u000a[[return to your dressing room|re-enter the dressing room]]
-p192
-sg23
-Vwalk down the hall
-p193
-sg25
-g26
-((I2015
-I9
-I7
-I18
-I58
-I22
-I0
-I250
-I1
-tp194
-(dp195
-tp196
-Rp197
-sg31
-(lp198
-sg33
-g26
-((I2015
-I9
-I4
-I12
-I29
-I36
-I4
-I247
-I1
-tp199
-(dp200
-tp201
-Rp202
-sbsa(dp203
-g14
-I00
-sg15
-(lp204
-F960.9166666666669
-aF13.666666666666702
-asg17
-(itiddlywiki
-Tiddler
-p205
-(dp206
-g21
-VThe hallway seems so cold now. Too cold, almost. You glance back at the dressing room, and a chill runs down your back, rucking up goosebumps as it goes.\u000a\u000aA stage hand walks by, and asks you if you're alright. You say yes. She accepts the lie with a concerned smile, and moves on. You are alone again. \u000a\u000a[[re-enter the dressing room]]\u000a[[walk down the hall]]\u000a[[hold your ground]]
-p207
-sg23
-Vstay and try to relax
-p208
-sg25
-g26
-((I2015
-I9
-I4
-I22
-I25
-I2
-I4
-I247
-I1
-tp209
-(dp210
-tp211
-Rp212
-sg31
-(lp213
-sg33
-g26
-((I2015
-I9
-I4
-I22
-I15
-I12
-I4
-I247
-I1
-tp214
-(dp215
-tp216
-Rp217
-sbsa(dp218
-g14
-I00
-sg15
-(lp219
-F1002.6666666666656
-aF165.99999999999994
-asg17
-(itiddlywiki
-Tiddler
-p220
-(dp221
-g21
-VThe hallway stretches out on either side, and the air around you moves slowly, stirred by a dusty fan at one end. One of the overhead lights flickers. Another is broken entirely.\u000a\u000aThe dressing room door is queerly warm against your back. Your muscles seize up. The show is starting soon; you can't delay any more.\u000a\u000a[[re-enter the dressing room]]
-p222
-sg23
-Vhold your ground
-p223
-sg25
-g26
-((I2015
-I9
-I4
-I22
-I25
-I13
-I4
-I247
-I1
-tp224
-(dp225
-tp226
-Rp227
-sg31
-(lp228
-sg33
-g26
-((I2015
-I9
-I4
-I22
-I25
-I5
-I4
-I247
-I1
-tp229
-(dp230
-tp231
-Rp232
-sbsa(dp233
-g14
-I00
-sg15
-(lp234
-F1138.3333333333342
-aF242.3333333333335
-asg17
-(itiddlywiki
-Tiddler
-p235
-(dp236
-g21
-VYour knuckles rap on the door three times. "It's me," you call. "How's it going in there?"\u000a\u000aTwo voices mutter furiously, too low for you to hear. There's a brief silence, then: "Fine," your co-star calls.\u000a\u000a[[go inside]]\u000a[[continue down the hallway]]\u000a[[return to your dressing room|re-enter the dressing room]]
-p237
-sg23
-Vknock
-p238
-sg25
-g26
-((I2015
-I9
-I7
-I18
-I4
-I28
-I0
-I250
-I1
-tp239
-(dp240
-tp241
-Rp242
-sg31
-(lp243
-sg33
-g26
-((I2015
-I9
-I4
-I22
-I28
-I18
-I4
-I247
-I1
-tp244
-(dp245
-tp246
-Rp247
-sbsa(dp248
-g14
-I00
-sg15
-(lp249
-F932.9999999999994
-aF479.3333333333336
-asg17
-(itiddlywiki
-Tiddler
-p250
-(dp251
-g21
-VYou leave the dressing room and its muttering inhabitants behind and venture on down the hall. It curves right, and when you round the corner, the stage comes into view. Stage hands mill to and fro across the empty expanse, checking lighting and sound equipment and double-checking props and scenery.\u000a\u000aA hand claps your shoulder, and you nearly jump out of your skin.\u000a\u000a"Places in five," the stage manager says, and removes her hand. She averts her eyes. "You better go put it on."\u000a\u000aShe can't look at you. None of them can.\u000a\u000a[[return to your dressing room]]\u000a[[stay put]]\u000a[[make a run for it]]
-p252
-sg23
-Vcontinue down the hallway
-p253
-sg25
-g26
-((I2015
-I9
-I7
-I17
-I58
-I43
-I0
-I250
-I1
-tp254
-(dp255
-tp256
-Rp257
-sg31
-(lp258
-sg33
-g26
-((I2015
-I9
-I4
-I22
-I28
-I18
-I4
-I247
-I1
-tp259
-(dp260
-tp261
-Rp262
-sbsa(dp263
-g14
-I00
-sg15
-(lp264
-F387.5833333333336
-aF479.4166666666665
-asg17
-(itiddlywiki
-Tiddler
-p265
-(dp266
-g21
-VYou step out into the hallway on shaking legs. The air here is cool, but inside the puppet your hand is fever-hot and sweaty.\u000a\u000aThe stage manager hurries past you, glancing meaningfully at you, then in the direction of the stage.\u000a\u000a[[walk down the hall|walk down the hall 2]]\u000a[[make a break for the back door]]
-p267
-sg23
-Vleave the dressing room 3
-p268
-sg25
-g26
-((I2015
-I9
-I7
-I13
-I23
-I12
-I0
-I250
-I1
-tp269
-(dp270
-tp271
-Rp272
-sg31
-(lp273
-sg33
-g26
-((I2015
-I9
-I4
-I22
-I29
-I3
-I4
-I247
-I1
-tp274
-(dp275
-tp276
-Rp277
-sbsa(dp278
-g14
-I00
-sg15
-(lp279
-F11.833333333334473
-aF555.4166666666664
-asg17
-(itiddlywiki
-Tiddler
-p280
-(dp281
-g21
-VYou panic, and run back out into the hallway. There isn't much time, but you can't bear to stay in there with it any longer. You allow yourself to close your eyes, slump back against the door, and sink to the ground, taking deep gulps of air.\u000a\u000aWhen you finally gather yourself enough to open your eyes, the stage manager looms over you.
-p282
-sg23
-VSAM FUCKED UP AND MADE AN EXTRA
-p283
-sg25
-g26
-((I2015
-I9
-I7
-I18
-I40
-I41
-I0
-I250
-I1
-tp284
-(dp285
-tp286
-Rp287
-sg31
-(lp288
-sg33
-g26
-((I2015
-I9
-I5
-I23
-I31
-I49
-I5
-I248
-I1
-tp289
-(dp290
-tp291
-Rp292
-sbsa(dp293
-g14
-I00
-sg15
-(lp294
-F219.91666666666652
-aF450.83333333333326
-asg17
-(itiddlywiki
-Tiddler
-p295
-(dp296
-g21
-VYou tug at the puppet's head, but its torso clenches tight around your arm. You give up your feeble attempts to remove it.\u000a\u000aThe edges of the puppet's mouth turn upwards, shifting against your hand.\u000a\u000a[[leave the dressing room|leave the dressing room 3]]\u000a[[make it speak|make it speak 2]]
-p297
-sg23
-Vput it down 2
-p298
-sg25
-g26
-((I2015
-I9
-I14
-I15
-I31
-I53
-I0
-I257
-I1
-tp299
-(dp300
-tp301
-Rp302
-sg31
-(lp303
-sg33
-g26
-((I2015
-I9
-I7
-I11
-I51
-I24
-I0
-I250
-I1
-tp304
-(dp305
-tp306
-Rp307
-sbsa(dp308
-g14
-I00
-sg15
-(lp309
-F229.66666666666663
-aF593.9999999999999
-asg17
-(itiddlywiki
-Tiddler
-p310
-(dp311
-g21
-V"Not so fast," the puppet says. You hardly recognize your own voice. "We have a show to put on."\u000a\u000aThe puppet's mouth moves easily, felt soft and yielding against your fingers. Your free hand clenches tight at your side, white-knuckled and trembling. It's a relief when your vocal chords stop their involuntary shaking in your throat.\u000a\u000a[[leave the dressing room|leave the dressing room 3]]
-p312
-sg23
-Vmake it speak 2
-p313
-sg25
-g26
-((I2015
-I9
-I7
-I12
-I19
-I23
-I0
-I250
-I1
-tp314
-(dp315
-tp316
-Rp317
-sg31
-(lp318
-sg33
-g26
-((I2015
-I9
-I7
-I11
-I53
-I31
-I0
-I250
-I1
-tp319
-(dp320
-tp321
-Rp322
-sbsa(dp323
-g14
-I00
-sg15
-(lp324
-F587.3418405644793
-aF568.6666666666669
-asg17
-(itiddlywiki
-Tiddler
-p325
-(dp326
-g21
-VThe walls seem to close in on you with each step you take, and when they start to swim in front of you, you force yourself to stop and breathe. \u000a\u000a//In, out. In, out.//\u000a\u000aFinally, you open your eyes. The walls are stationary. Your co-star's room is just ahead. Beyond it, the hall curves right, and leads to the stage.\u000a\u000aThe puppet's head is turned to face you. You do your best to ignore it.\u000a\u000a[[check on your co-star]]\u000a[[move on towards the stage]]
-p327
-sg23
-Vwalk down the hall 2
-p328
-sg25
-g26
-((I2015
-I9
-I21
-I0
-I28
-I24
-I0
-I264
-I1
-tp329
-(dp330
-tp331
-Rp332
-sg31
-(lp333
-sg33
-g26
-((I2015
-I9
-I7
-I13
-I13
-I57
-I0
-I250
-I1
-tp334
-(dp335
-tp336
-Rp337
-sbsa(dp338
-g14
-I00
-sg15
-(lp339
-F667.6666666666657
-aF717.0000000000009
-asg17
-(itiddlywiki
-Tiddler
-p340
-(dp341
-g21
-VYou force yourself to continue down the hall, and the stage comes into view. Stage hands mill to and fro across the empty expanse, checking lighting and sound equipment and double-checking props and scenery.\u000a\u000aBehind you, someone clears their throat. You hold your breath, and turn around slowly.\u000a\u000aThe stage manager shifts uncomfortably, arms crossed against her chest. You think you see her eyes flicker briefly towards the puppet, but it might have been a trick of the light. For her sake, you hope it was.\u000a\u000a"Places in five," she says, staring resolutely to the left, away from you and the puppet.\u000a\u000a[[ask the stage manager for help]]\u000a[[get to your starting place]]\u000a[[talk to the puppet]]\u000a\u000a
-p342
-sg23
-Vmove on towards the stage
-p343
-sg25
-g26
-((I2015
-I9
-I7
-I20
-I10
-I27
-I0
-I250
-I1
-tp344
-(dp345
-tp346
-Rp347
-sg31
-(lp348
-sg33
-g26
-((I2015
-I9
-I7
-I13
-I20
-I4
-I0
-I250
-I1
-tp349
-(dp350
-tp351
-Rp352
-sbsa(dp353
-g14
-I00
-sg15
-(lp354
-F852.6666666666662
-aF708.6666666666657
-asg17
-(itiddlywiki
-Tiddler
-p355
-(dp356
-g21
-VFurious muttering filters through your co-star's door, but you're used to that by now. You knock anyway, and when the muttering stops, you slowly open the door and let yourself in.\u000a\u000aYour co-star sits in front of her vanity, in a dressing room that mirrors yours. A puppet sits next to her elbow, pipe-cleaner hair curling up towards the ceiling like snakes.\u000a\u000aYour co-star's eyes meet yours, and the bags under her eyes are a familiar purple-grey. You've been seeing that same color in the mirror for months now.\u000a\u000aThen her eyes catch on the puppet on your hand, and her face loses all its color. Her eyes fly wide open, and she scrambles out of her chair, backing away from you.\u000a\u000a[[apologize]]
-p357
-sg23
-Vcheck on your co-star
-p358
-sg25
-g26
-((I2015
-I9
-I16
-I13
-I5
-I55
-I2
-I259
-I1
-tp359
-(dp360
-tp361
-Rp362
-sg31
-(lp363
-sg33
-g26
-((I2015
-I9
-I7
-I13
-I20
-I4
-I0
-I250
-I1
-tp364
-(dp365
-tp366
-Rp367
-sbsa(dp368
-g14
-I00
-sg15
-(lp369
-F350.3333333333337
-aF748.3333333333329
-asg17
-(itiddlywiki
-Tiddler
-p370
-(dp371
-g21
-VYour feet move with instinctual panic, pivoting and running for the back door. If you can just make it to the back door, if you can just reach the glowing red EXIT sign--\u000a\u000aYour body jerks backwards, hitting the floor with a loud THUMP and knocking the breath from your lungs. Your shoulder throbs where your arm was wrenched backwards. You look up.\u000a\u000aThe puppet's mouth is clenched around the handle of a door. It releases its grip and turns to stare down at you.\u000a\u000aTears well up in your eyes.\u000a\u000a"Oh, stop it," the puppet says. "We've got a show to do."\u000a\u000a[[get up]]\u000a[[try to remove the puppet]]\u000a[[wallow on the floor]]
-p372
-sg23
-Vmake a break for the back door
-p373
-sg25
-g26
-((I2015
-I9
-I16
-I12
-I19
-I9
-I2
-I259
-I1
-tp374
-(dp375
-tp376
-Rp377
-sg31
-(lp378
-sg33
-g26
-((I2015
-I9
-I7
-I13
-I23
-I14
-I0
-I250
-I1
-tp379
-(dp380
-tp381
-Rp382
-sbsa(dp383
-g14
-I00
-sg15
-(lp384
-F192.4166666666666
-aF772.9166666666669
-asg17
-(itiddlywiki
-Tiddler
-p385
-(dp386
-g21
-VYou clench your teeth against the sobs, but they sneak out anyway.\u000a\u000a"What--a--baby," you rasp out. That your sobs interrupt the puppet's speech is a small victory. "Stop it!"\u000a\u000aYou rattle out a laugh, opening your eyes against the tears just to see the frustrated look on the puppet's face.\u000a\u000a[[try to remove the puppet]]\u000a[[get up]]
-p387
-sg23
-Vwallow on the floor
-p388
-sg25
-g26
-((I2015
-I9
-I7
-I20
-I14
-I38
-I0
-I250
-I1
-tp389
-(dp390
-tp391
-Rp392
-sg31
-(lp393
-sg33
-g26
-((I2015
-I9
-I7
-I13
-I32
-I10
-I0
-I250
-I1
-tp394
-(dp395
-tp396
-Rp397
-sbsa(dp398
-g14
-I00
-sg15
-(lp399
-F363.66666666666737
-aF937.3333333333318
-asg17
-(itiddlywiki
-Tiddler
-p400
-(dp401
-g21
-VYou get to your feet slowly, with the support of only one hand for balance. Once up, you lean to the side against the wall and try to even out your breathing. You wipe your free hand against your pants leg to clean it, then rub your eyes and breathe in and out slowly with increasing steadiness.\u000a\u000aThe puppet hovers just in front of your face, judging.\u000a\u000a[[speak to it]]\u000a[[walk back the way you came]]
-p402
-sg23
-Vget up
-p403
-sg25
-g26
-((I2015
-I9
-I9
-I20
-I32
-I34
-I2
-I252
-I1
-tp404
-(dp405
-tp406
-Rp407
-sg31
-(lp408
-sg33
-g26
-((I2015
-I9
-I7
-I13
-I32
-I10
-I0
-I250
-I1
-tp409
-(dp410
-tp411
-Rp412
-sbsa(dp413
-g14
-I00
-sg15
-(lp414
-F198.2500000000002
-aF938.1666666666654
-asg17
-(itiddlywiki
-Tiddler
-p415
-(dp416
-g21
-VYou grasp and pull at the edge of the puppet's torso, clawing at the place where it meets your skin, but your fingers can't find purchase under the fabric. There's no tape, no glue, nothing but the puppet's will holding it to your arm.\u000a\u000aYou've never be able to get it off this way, but even now there's a small part of you that thinks this time might be different.\u000a\u000aIt isn't.\u000a\u000a[[get up]]\u000a[[just lie there]]
-p417
-sg23
-Vtry to remove the puppet
-p418
-sg25
-g26
-((I2015
-I9
-I7
-I20
-I18
-I33
-I0
-I250
-I1
-tp419
-(dp420
-tp421
-Rp422
-sg31
-(lp423
-sg33
-g26
-((I2015
-I9
-I7
-I13
-I32
-I10
-I0
-I250
-I1
-tp424
-(dp425
-tp426
-Rp427
-sbsa(dp428
-g14
-I00
-sg15
-(lp429
-F1297.0000000000011
-aF156.24999999999952
-asg17
-(itiddlywiki
-Tiddler
-p430
-(dp431
-g21
-V"I'm coming in," you call, and the muttering picks up furiously as you turn the doorknob and push the door open.\u000a\u000aThe room is indentical to yours, but mirrored. Your co-star sits in front of a dressing table that is exactly like yours, holding a puppet that you know is exactly like yours.\u000a\u000a"Hello," your co-star says. Her eyes are open wide, and a trickle of sweat makes its way down the side of her face.\u000a\u000aHer puppet's eyes bore into yours.\u000a\u000a[[remain pleasant]]\u000a[[attempt to comfort her]]
-p432
-sg23
-Vgo inside
-p433
-sg25
-g26
-((I2015
-I9
-I9
-I14
-I42
-I26
-I2
-I252
-I1
-tp434
-(dp435
-tp436
-Rp437
-sg31
-(lp438
-sg33
-g26
-((I2015
-I9
-I7
-I17
-I44
-I44
-I0
-I250
-I1
-tp439
-(dp440
-tp441
-Rp442
-sbsa(dp443
-g14
-I00
-sg15
-(lp444
-F1123.4999999999982
-aF523.7500000000005
-asg17
-(itiddlywiki
-Tiddler
-p445
-(dp446
-g21
-VYou stay rooted in place, paralyzed by the thought of what you'll have to do.\u000a\u000aThe sound of light footsteps draws your attention, and you look up to see your co-star approaching. Her eyes are red-rimmed and wet. Her puppet bobs in time with her steps, its pipe-cleaner curls swaying.\u000a\u000aIn her other hand is the other puppet. //Your// puppet.\u000a\u000a"I'm sorry," she says, in a broken voice. "I didn't have a choice."\u000a\u000aRed-purple bruises are starting to bloom across her neck. You can't find it within yourself to blame her for giving in to her puppet's demands.\u000a\u000a"Please," she says. "Take it. Or it'll hurt you, too." Her gaze flicks towards the puppet on her left hand. Yours moves to her other hand, which still clutches the second puppet.\u000a\u000a[[take the puppet]]\u000a[[don't take the puppet]]
-p447
-sg23
-Vstay put
-p448
-sg25
-g26
-((I2015
-I9
-I21
-I11
-I11
-I49
-I0
-I264
-I1
-tp449
-(dp450
-tp451
-Rp452
-sg31
-(lp453
-Vpenultimate
-p454
-asg33
-g26
-((I2015
-I9
-I7
-I17
-I58
-I49
-I0
-I250
-I1
-tp455
-(dp456
-tp457
-Rp458
-sbsa(dp459
-g14
-I00
-sg15
-(lp460
-F1119.083333333331
-aF696.6666666666658
-asg17
-(itiddlywiki
-Tiddler
-p461
-(dp462
-g21
-V//This is it,// you think. If you don't leave now, you don't know that you'll ever be able to.\u000a\u000aYou eye the door off stage right, leading to the alley outside the theatre. It seems like such a short walk from here to there. And with everyone so busy, maybe no one will notice.\u000a\u000aWith carefully casual strides, you walk off the stage and towards the side exit. With each step towards freedom, you become bolder, faster. You're nearly there!\u000a\u000aYou have one hand on the door when someone else's clamps down on your shoulder. You freeze, goosebumps rising across your arms. A peek over your shoulder reveals that you've been caught by the newest security guard--the replacement for the most recent guard to have a mental breakdown and quit.\u000a\u000aIn his hand is the puppet.\u000a\u000a[[stare at him in shock]]\u000a[[fight him]]
-p463
-sg23
-Vmake a run for it
-p464
-sg25
-g26
-((I2015
-I9
-I9
-I15
-I24
-I43
-I2
-I252
-I1
-tp465
-(dp466
-tp467
-Rp468
-sg31
-(lp469
-sg33
-g26
-((I2015
-I9
-I7
-I17
-I58
-I49
-I0
-I250
-I1
-tp470
-(dp471
-tp472
-Rp473
-sbsa(dp474
-g14
-I00
-sg15
-(lp475
-F773.2499999999984
-aF544.1666666666669
-asg17
-(itiddlywiki
-Tiddler
-p476
-(dp477
-g21
-VThe walk back to your dressing room seems to take an eternity. With each step, the air gets heavier, until you're nearly suffocating.\u000a\u000aWhen you finally enter the room, the uptick in oxygen is so overwhelming it makes your head spin. The room warps around you, and at the center of it all is the puppet, staring smugly across the room.\u000a\u000a[[put it on]]
-p478
-sg23
-Vreturn to your dressing room
-p479
-sg25
-g26
-((I2015
-I9
-I7
-I18
-I47
-I58
-I0
-I250
-I1
-tp480
-(dp481
-tp482
-Rp483
-sg31
-(lp484
-sg33
-g26
-((I2015
-I9
-I7
-I17
-I58
-I49
-I0
-I250
-I1
-tp485
-(dp486
-tp487
-Rp488
-sbsa(dp489
-g14
-I00
-sg15
-(lp490
-F645.7499999999969
-aF387.08333333333326
-asg17
-(itiddlywiki
-Tiddler
-p491
-(dp492
-g21
-VWith shaking hands, you pick up the puppet, and slide it on. Its insides are soft, and you are hyperaware of all the places it touches your arm. Around your hand, its mouth is damp from your clammy palm.\u000a\u000aYour wrist rotates against your will, and the puppet turns to face you.\u000a\u000a"It's almost time," you say, as the puppet's mouth moves in tandem. The words tripping past your lips are not your own. You clamp your mouth shut, but the low, gravelly voice slips past anyway. "It's almost time for the show to start."\u000a\u000a[[leave the dressing room|leave the dressing room 3]]
-p493
-sg23
-Vput it on
-p494
-sg25
-g26
-((I2015
-I9
-I9
-I14
-I38
-I35
-I2
-I252
-I1
-tp495
-(dp496
-tp497
-Rp498
-sg31
-(lp499
-sg33
-g26
-((I2015
-I9
-I7
-I18
-I2
-I45
-I0
-I250
-I1
-tp500
-(dp501
-tp502
-Rp503
-sbsa(dp504
-g14
-I00
-sg15
-(lp505
-F1463.6666666666658
-aF199.99999999999952
-asg17
-(itiddlywiki
-Tiddler
-p506
-(dp507
-g21
-V"Ready for the show?" you ask, keeping your voice as level as possible under the puppet's scrutiny.\u000a\u000aYour co-star's eyes glance toward her puppet, then avert themselves to the floor. "Yes," she says. Her voice breaks on the word. Neither of you comment on it.\u000a\u000a"//Weak//," she hisses, puppet's mouth moving in time. "Stop snivelling. The show's about to start."\u000a\u000aThe puppet has drawn close to her, close enough for its pipe-cleaner curls to brush against your co-star's cheek. She flinches away from the contact.\u000a\u000a[[step in|step in 2]]\u000a[[leave]]
-p508
-sg23
-Vremain pleasant
-p509
-sg25
-g26
-((I2015
-I9
-I8
-I21
-I29
-I8
-I1
-I251
-I1
-tp510
-(dp511
-tp512
-Rp513
-sg31
-(lp514
-sg33
-g26
-((I2015
-I9
-I7
-I18
-I12
-I37
-I0
-I250
-I1
-tp515
-(dp516
-tp517
-Rp518
-sbsa(dp519
-g14
-I00
-sg15
-(lp520
-F1476.9999999999977
-aF34.99999999999943
-asg17
-(itiddlywiki
-Tiddler
-p521
-(dp522
-g21
-V"It's going to be alright," you say, keeping your eyes fixed on hers. The puppet on her right hand twitches. "It's just one more show."\u000a\u000a"And then another," she says. Her voice is hoarse. "I can't keep doing this. //Yes you can//," she says suddenly, voice pitching low and raspy. Her puppet moves towards her ear. She squeezes her eyes shut as the puppet continues, "And you will. You think it matters how you feel? //The show must go on.//"\u000a\u000a[[step in]]\u000a[[leave]]
-p523
-sg23
-Vattempt to comfort her
-p524
-sg25
-g26
-((I2015
-I9
-I7
-I20
-I11
-I55
-I0
-I250
-I1
-tp525
-(dp526
-tp527
-Rp528
-sg31
-(lp529
-sg33
-g26
-((I2015
-I9
-I7
-I18
-I12
-I37
-I0
-I250
-I1
-tp530
-(dp531
-tp532
-Rp533
-sbsa(dp534
-g14
-I00
-sg15
-(lp535
-F1680.3333333333346
-aF221.66666666666686
-asg17
-(itiddlywiki
-Tiddler
-p536
-(dp537
-g21
-V"That doesn't mean you can treat her like this," you say. The puppet turns towards you slowly, and it takes everything you have to hold your ground.\u000a\u000a"Says who?" it rasps out through your co-star's mouth. "You?"\u000a\u000a"Yes," you say, but your voice cracks.\u000a\u000aThe puppet laughs, a jagged, rumbling noise that sends chills down your spine. Your co-star looks as terrified to be making the sound as you are to be hearing it.\u000a\u000a"You have your own battles to fight," the puppet says. "Don't waste your time on this one. The show's about to start."\u000a\u000a[[fight the puppet]]\u000a[[give up]]\u000a
-p538
-sg23
-Vstep in
-p539
-sg25
-g26
-((I2015
-I9
-I9
-I15
-I0
-I30
-I2
-I252
-I1
-tp540
-(dp541
-tp542
-Rp543
-sg31
-(lp544
-sg33
-g26
-((I2015
-I9
-I7
-I18
-I17
-I3
-I0
-I250
-I1
-tp545
-(dp546
-tp547
-Rp548
-sbsa(dp549
-g14
-I00
-sg15
-(lp550
-F510.33333333333377
-aF738.3333333333343
-asg17
-(itiddlywiki
-Tiddler
-p551
-(dp552
-g21
-VYou take a step closer to the stage manager. She flinches backwards.\u000a\u000a"Please," you say. Her eyes flick first to the puppet, then to you when she sees its mouth isn't moving. "I can't do this."\u000a\u000aHer face crumples in sympathy even as she looks away again. "Places in five," she parrots, and hurries away.\u000a\u000a[[get to your starting place]]\u000a[[talk to the puppet|talk to the puppet 2]]\u000a
-p553
-sg23
-Vask the stage manager for help
-p554
-sg25
-g26
-((I2015
-I9
-I14
-I15
-I48
-I27
-I0
-I257
-I1
-tp555
-(dp556
-tp557
-Rp558
-sg31
-(lp559
-sg33
-g26
-((I2015
-I9
-I7
-I20
-I10
-I32
-I0
-I250
-I1
-tp560
-(dp561
-tp562
-Rp563
-sbsa(dp564
-g14
-I00
-sg15
-(lp565
-F816.9999999999985
-aF863.3333333333337
-asg17
-(itiddlywiki
-Tiddler
-p566
-(dp567
-g21
-VYou take a deep breath, and let it out slowly. The next time you open your mouth, the puppet's mouth moves, too.\u000a\u000a"Better get to places, hm?" the puppet says. "Curtain's about to go up."\u000a\u000aIt isn't a request.\u000a\u000a[[get to your starting place]]
-p568
-sg23
-Vtalk to the puppet
-p569
-sg25
-g26
-((I2015
-I9
-I14
-I15
-I57
-I22
-I0
-I257
-I1
-tp570
-(dp571
-tp572
-Rp573
-sg31
-(lp574
-sg33
-g26
-((I2015
-I9
-I7
-I20
-I10
-I32
-I0
-I250
-I1
-tp575
-(dp576
-tp577
-Rp578
-sbsa(dp579
-g14
-I00
-sg15
-(lp580
-F670.3333333333323
-aF915.0
-asg17
-(itiddlywiki
-Tiddler
-p581
-(dp582
-g21
-VThe world moves too fast around you as you walk to your starting position. It seems like you're the only one who can feel how heavy the air is--or maybe everyone else is just running from it, the way you want to.\u000a\u000aYou take your place on stage, and hit your mark, holding the puppet aloft. The stage is almost empty, now.\u000a\u000aYour co-star stands across from you, at her mark. Her eyes are drooping and bloodshot, and tear tracks are still drying on her cheeks. You didn't see her approach. You wonder what else you've missed during your slow trek across the stage.\u000a\u000a[[the show must go on|the show must go on 12]]
-p583
-sg23
-Vget to your starting place
-p584
-sg25
-g26
-((I2015
-I9
-I21
-I11
-I10
-I53
-I0
-I264
-I1
-tp585
-(dp586
-tp587
-Rp588
-sg31
-(lp589
-Vpenultimate
-p590
-asg33
-g26
-((I2015
-I9
-I7
-I20
-I10
-I32
-I0
-I250
-I1
-tp591
-(dp592
-tp593
-Rp594
-sbsa(dp595
-g14
-I00
-sg15
-(lp596
-F1681.3333333333303
-aF6.666666666668528
-asg17
-(itiddlywiki
-Tiddler
-p597
-(dp598
-g21
-VYou back away slowly, overwhelmed by the churning of your stomach and the rapid beating of your heart. Your co-star's expression is desperate, and you give her the most apologetic look you can manage before backing out the door.\u000a\u000aClosing the door gives you some measure of relief, but not enough. Your hands still tremble at the thought of going back to your own dressing room to share in your co-star's fate.\u000a\u000aThe stage manager passes again, holding up five fingers. //Places in five//. She gives you a grim look, then flicks her gaze meaningfully towards the door of your dressing room.\u000a\u000aIt's time.\u000a\u000a[[return to your dressing room|return to your dressing room 4]]
-p599
-sg23
-Vleave
-p600
-sg25
-g26
-((I2015
-I9
-I9
-I14
-I52
-I31
-I2
-I252
-I1
-tp601
-(dp602
-tp603
-Rp604
-sg31
-(lp605
-sg33
-g26
-((I2015
-I9
-I7
-I20
-I11
-I57
-I0
-I250
-I1
-tp606
-(dp607
-tp608
-Rp609
-sbsa(dp610
-g14
-I00
-sg15
-(lp611
-F200.33333333333312
-aF1086.6666666666665
-asg17
-(itiddlywiki
-Tiddler
-p612
-(dp613
-g21
-VYou close your eyes and allow yourself to relax to the point of bonelessness. What's the point in getting up? There'll be a show to do, and then another show after that, and another show after that, until you have to wear the puppet even when you're not in the theatre.\u000a\u000aYou can feel your throat working against your will, and brace yourself for the inevitable.\u000a\u000a"If you won't get up, I'll make you," your mouth says, in a voice that isn't yours.\u000a\u000a[[get up]]\u000a[[disregard the threat]]
-p614
-sg23
-Vjust lie there
-p615
-sg25
-g26
-((I2015
-I9
-I7
-I20
-I22
-I49
-I0
-I250
-I1
-tp616
-(dp617
-tp618
-Rp619
-sg31
-(lp620
-sg33
-g26
-((I2015
-I9
-I7
-I20
-I18
-I35
-I0
-I250
-I1
-tp621
-(dp622
-tp623
-Rp624
-sbsa(dp625
-g14
-I00
-sg15
-(lp626
-F203.66666666666652
-aF1254.9999999999982
-asg17
-(itiddlywiki
-Tiddler
-p627
-(dp628
-g21
-VThe corners of your mouth turn up in a grim smile. If nothing else, you can defy the puppet in this small way. Your legs are still your own.\u000a\u000a"Alright," your mouth says. "You've forced my hand."\u000a\u000aThe next thing you feel is an impact to your face, like a brick hitting your cheek.\u000a\u000a"Get up," the puppet says. You've never heard your voice sound so low and unyielding.\u000a\u000a[[get up|get up 2]]\u000a[[resist]]
-p629
-sg23
-Vdisregard the threat
-p630
-sg25
-g26
-((I2015
-I9
-I7
-I20
-I26
-I11
-I0
-I250
-I1
-tp631
-(dp632
-tp633
-Rp634
-sg31
-(lp635
-sg33
-g26
-((I2015
-I9
-I7
-I20
-I21
-I3
-I0
-I250
-I1
-tp636
-(dp637
-tp638
-Rp639
-sbsa(dp640
-g14
-I00
-sg15
-(lp641
-F203.66666666666657
-aF1416.6666666666656
-asg17
-(itiddlywiki
-Tiddler
-p642
-(dp643
-g21
-VYou grit your teeth and ball your free hand into a fist. //Not this time//, you think. This time, you won't give up. You won't be a slave to the puppet anymore.\u000a\u000aThe weight of your own hand, layered in felt, presses down against your throat.\u000a\u000aYou can't breathe. //You can't breathe.//\u000a\u000a[[get up|get up 3]]\u000a[[scream]]
-p644
-sg23
-Vresist
-p645
-sg25
-g26
-((I2015
-I9
-I16
-I7
-I59
-I10
-I2
-I259
-I1
-tp646
-(dp647
-tp648
-Rp649
-sg31
-(lp650
-sg33
-g26
-((I2015
-I9
-I7
-I20
-I26
-I14
-I0
-I250
-I1
-tp651
-(dp652
-tp653
-Rp654
-sbsa(dp655
-g14
-I00
-sg15
-(lp656
-F373.66666666666714
-aF1260.0000000000002
-asg17
-(itiddlywiki
-Tiddler
-p657
-(dp658
-g21
-VYour cheek throbs as you slowly get to your feet. You turn slowly to face the way you came from, and see the stage manager standing at the other end of the hall. Her expression is grim.\u000a\u000aYou stare her down as you walk back down the hall. At the last second, she looks away, and you knock your undamaged shoulder against hers as you pass. \u000a\u000a[[the show must go on|the show must go on 2]]
-p659
-sg23
-Vget up 2
-p660
-sg25
-g26
-((I2015
-I9
-I21
-I11
-I10
-I42
-I0
-I264
-I1
-tp661
-(dp662
-tp663
-Rp664
-sg31
-(lp665
-Vpenultimate
-p666
-asg33
-g26
-((I2015
-I9
-I7
-I20
-I26
-I14
-I0
-I250
-I1
-tp667
-(dp668
-tp669
-Rp670
-sbsa(dp671
-g14
-I00
-sg15
-(lp672
-F377.0000000000006
-aF1416.666666666665
-asg17
-(itiddlywiki
-Tiddler
-p673
-(dp674
-g21
-VYou scramble to your feet, gasping for air as the puppet releases its hold on your throat. Your head swims, and you stumble sideways into the wall, resting your weight against it as you fight desperately for air.\u000a\u000a"It's time," the puppet says, once your breathing has slowed.\u000a\u000a[[the show must go on|the show must go on 2]]
-p675
-sg23
-Vget up 3
-p676
-sg25
-g26
-((I2015
-I9
-I21
-I11
-I10
-I36
-I0
-I264
-I1
-tp677
-(dp678
-tp679
-Rp680
-sg31
-(lp681
-Vpenultimate
-p682
-asg33
-g26
-((I2015
-I9
-I7
-I20
-I29
-I10
-I0
-I250
-I1
-tp683
-(dp684
-tp685
-Rp686
-sbsa(dp687
-g14
-I00
-sg15
-(lp688
-F508.66666666666697
-aF1064.9999999999993
-asg17
-(itiddlywiki
-Tiddler
-p689
-(dp690
-g21
-VThe walls seem to close in around you, even as you try to keep a level head.\u000a\u000aToo soon, you turn to corner at the end of the hall, and come face-to-face with the stage.\u000a\u000aYour mark is across the stage, and you weave around several set pieces to get to it. Your feet have just come to a halt when a weeping noise draws your attention.\u000a\u000aTwo security guards stride onto the stage, escorting your co-star to her starting position. Her make-up is running down her face in streaks. Her sobs are quiet, but gut-wrenching. The puppet on her hand regards you calmly from its place on her hand.\u000a\u000a[[the show must go on|the show must go on 13]]
-p691
-sg23
-Vwalk back the way you came
-p692
-sg25
-g26
-((I2015
-I9
-I21
-I11
-I10
-I56
-I0
-I264
-I1
-tp693
-(dp694
-tp695
-Rp696
-sg31
-(lp697
-Vpenultimate
-p698
-asg33
-g26
-((I2015
-I9
-I7
-I21
-I4
-I53
-I0
-I250
-I1
-tp699
-(dp700
-tp701
-Rp702
-sbsa(dp703
-g14
-I00
-sg15
-(lp704
-F355.3333333333338
-aF1085.0
-asg17
-(itiddlywiki
-Tiddler
-p705
-(dp706
-g21
-V"I hate you," you say, voice shakier than you'd like. \u000a\u000a"The show's starting soon," the puppet says. It's smiling, and your mouth smiles in kind when it speaks through you. You feel, mildly, like throwing up, through this mouth you're forced to share.\u000a\u000aBut the puppet's right. The show's starting soon.\u000a\u000a[[walk to the stage|walk back the way you came]]
-p707
-sg23
-Vspeak to it
-p708
-sg25
-g26
-((I2015
-I9
-I16
-I13
-I5
-I10
-I2
-I259
-I1
-tp709
-(dp710
-tp711
-Rp712
-sg31
-(lp713
-sg33
-g26
-((I2015
-I9
-I7
-I21
-I4
-I53
-I0
-I250
-I1
-tp714
-(dp715
-tp716
-Rp717
-sbsa(dp718
-g14
-I00
-sg15
-(lp719
-F1926.9999999999995
-aF943.3333333333331
-asg17
-(itiddlywiki
-Tiddler
-p720
-(dp721
-g21
-V//The show must go on//, you think dully. The show must go on. You need to pay your bills, and who else would hire you? You know from experience that the answer is no one.\u000a\u000aYou take your place onstage, flexing the fingers of your aching hand. The puppet's eyes are on you, but you ignore it. You won't give it the satisfaction.\u000a\u000a''The show must go on.''
-p722
-sg23
-Vthe show must go on
-p723
-sg25
-g26
-((I2015
-I9
-I21
-I11
-I7
-I48
-I0
-I264
-I1
-tp724
-(dp725
-tp726
-Rp727
-sg31
-(lp728
-Vend
-p729
-asg33
-g26
-((I2015
-I9
-I7
-I21
-I38
-I35
-I0
-I250
-I1
-tp730
-(dp731
-tp732
-Rp733
-sbsa(dp734
-g14
-I00
-sg15
-(lp735
-F1374.9999999999982
-aF1058.3333333333323
-asg17
-(itiddlywiki
-Tiddler
-p736
-(dp737
-g21
-VOne tear escapes, and after that, it seems pointless to hold the rest back. Soon, you're curled into a ball, sobbing openly. You can only imagine what the stage hands must think.\u000a\u000aA hand rests against your shoulder, grounding you. You take a deep breath, and open your eyes, prepared to face whoever has come to bring you around.\u000a\u000aYour own hand sits against your shoulder, cradling the puppet so that its head faces you. Panic courses through you, but the pressure on your shoulder keeps you from moving.\u000a\u000a"The show's about to start," the puppet says.\u000a\u000a[[the show must go on|the show must go on 4]]
-p738
-sg23
-Vcry
-p739
-sg25
-g26
-((I2015
-I9
-I21
-I11
-I11
-I9
-I0
-I264
-I1
-tp740
-(dp741
-tp742
-Rp743
-sg31
-(lp744
-Vpenultimate
-p745
-asg33
-g26
-((I2015
-I9
-I7
-I21
-I38
-I35
-I0
-I250
-I1
-tp746
-(dp747
-tp748
-Rp749
-sbsa(dp750
-g14
-I00
-sg15
-(lp751
-F1316.6666666666658
-aF723.3333333333322
-asg17
-(itiddlywiki
-Tiddler
-p752
-(dp753
-g21
-VThe sight of the puppet makes a tide of desperate fear rise up within you, and it's this fear that carries you forward into a left hook at the security guard's face.\u000a\u000aHe catches it easily, looking concerned. You doubt he's ever had to defend himself against one of his clients before.\u000a\u000aAll the fight goes out of you when he slips the puppet onto the fist you threw at him.\u000a\u000a"I may be new to this job," he says, "but I've seen stage fright before." He smiles, pats you on the shoulder. "Don't worry! I'm sure you'll do fine."\u000a\u000aHe pats you once more, in a way that you're sure is supposed to be reassuring, and leaves you alone with the puppet.\u000a\u000a"I'm not coming off," the puppet says through your mouth, and you close your eyes against the hair-raising sensation of the puppet's felt insides tightening vise-like around your arm.\u000a\u000a[[attack the puppet]]\u000a[[return to the stage]]
-p754
-sg23
-Vfight him
-p755
-sg25
-g26
-((I2015
-I9
-I8
-I17
-I54
-I4
-I1
-I251
-I1
-tp756
-(dp757
-tp758
-Rp759
-sg31
-(lp760
-sg33
-g26
-((I2015
-I9
-I7
-I21
-I39
-I58
-I0
-I250
-I1
-tp761
-(dp762
-tp763
-Rp764
-sbsa(dp765
-g14
-I00
-sg15
-(lp766
-F1211.9999999999986
-aF876.6666666666652
-asg17
-(itiddlywiki
-Tiddler
-p767
-(dp768
-g21
-VIt's too much. You're tired, in every sense of the word, and without the rush of adrenaline all your desperation crumbles away, leaving you empty.\u000a\u000a"You almost forgot this," the security guard says, and gently lifts the hand at your side to slide the puppet onto it.\u000a\u000aYou stare down at its plastic eyes, and feel everything you've been repressing bubble up in the back of your throat, until you're choking on it.\u000a\u000aYou lean back against the door and try not to cry.\u000a\u000a[[cry]]\u000a[[return to the stage]]
-p769
-sg23
-Vstare at him in shock
-p770
-sg25
-g26
-((I2015
-I9
-I8
-I17
-I54
-I19
-I1
-I251
-I1
-tp771
-(dp772
-tp773
-Rp774
-sg31
-(lp775
-sg33
-g26
-((I2015
-I9
-I7
-I21
-I39
-I58
-I0
-I250
-I1
-tp776
-(dp777
-tp778
-Rp779
-sbsa(dp780
-g14
-I00
-sg15
-(lp781
-F1305.4439273382377
-aF546.9574638442676
-asg17
-(itiddlywiki
-Tiddler
-p782
-(dp783
-g21
-VYou stare down at the puppet, and give in to futility. \u000a\u000aThe puppet, when it slides onto your arm, is still moist with your sweat. \u000a\u000aYou look back up at your co-star. She regards you with tired, tired eyes. You wonder if you look the same way.\u000a\u000a"I'll see you onstage," she says quietly. A promise. The audience will be looking at the puppet, but she knows. She'll be the only one looking at you.\u000a\u000a"I'll see you, too," you say, and her responding smile is grim.\u000a\u000aThe puppets are silent as you and your co-star walk down the hallway and up onto the stage.\u000a\u000aIt's easy, to stop caring, stop fighting, stop wishing things could be different. To let that little dying ember of hope inside you flicker out. //It's better to just be numb//, you think, as the curtain starts to rise. And maybe it is. Because no matter your personal feelings on the matter, no matter how much you scream and whine and try to fight it, ''the show must go on.''
-p784
-sg23
-Vtake the puppet
-p785
-sg25
-g26
-((I2015
-I9
-I21
-I11
-I7
-I57
-I0
-I264
-I1
-tp786
-(dp787
-tp788
-Rp789
-sg31
-(lp790
-Vend
-p791
-asg33
-g26
-((I2015
-I9
-I7
-I22
-I5
-I42
-I0
-I250
-I1
-tp792
-(dp793
-tp794
-Rp795
-sbsa(dp796
-g14
-I00
-sg15
-(lp797
-F1283.666666666664
-aF385.33333333333366
-asg17
-(itiddlywiki
-Tiddler
-p798
-(dp799
-g21
-VYou lift your gaze from the puppet, and when your co-star's eyes meet yours, she wilts.\u000a\u000a"Please don't," she says, already bowing her head, and you're not sure who it's addressed at. \u000a\u000aA sharp hit to your right cheek knocks you to the floor. You scramble backwards and clutch your cheek as it starts to bleed.\u000a\u000a"You can't make me," you bite out, and the puppet advances again, until it's inches from your face.\u000a\u000a"The show's about to start," it says. The puppet lurches forward, knocking you into your dressing room's vanity. You struggle, but the puppet pins your arm down on the countertop, and your co-star slides the second puppet onto your free hand. The puppet on your hand turns to face you, and you regard it with empty eyes.\u000a\u000a"Get up," it says. "It's time to put on a show."\u000a\u000a[[the show must go on|the show must go on 3]]
-p800
-sg23
-Vdon't take the puppet
-p801
-sg25
-g26
-((I2015
-I9
-I21
-I11
-I11
-I46
-I0
-I264
-I1
-tp802
-(dp803
-tp804
-Rp805
-sg31
-(lp806
-Vpenultimate
-p807
-asg33
-g26
-((I2015
-I9
-I7
-I22
-I5
-I42
-I0
-I250
-I1
-tp808
-(dp809
-tp810
-Rp811
-sbsa(dp812
-g14
-I00
-sg15
-(lp813
-F1489.3333333333328
-aF726.6666666666657
-asg17
-(itiddlywiki
-Tiddler
-p814
-(dp815
-g21
-VThe panic returns full-fold. Your heart races double-time, and with a sharp cry, you set upon the puppet. Your fingers pull frantically at the place where its felt meets your flesh, trying to find purchase. \u000a\u000aThe puppet laughs, forcing a raspy, uneven rumbling sound through your mouth. Your vocal chords ache with the strain of it.\u000a\u000aYour desperate attempts to claw the puppet off only succeed in creating red welts across your skin.\u000a\u000a[[give up|give up 2]]\u000a[[punch the puppet]]
-p816
-sg23
-Vattack the puppet
-p817
-sg25
-g26
-((I2015
-I9
-I9
-I15
-I18
-I39
-I2
-I252
-I1
-tp818
-(dp819
-tp820
-Rp821
-sg31
-(lp822
-sg33
-g26
-((I2015
-I9
-I7
-I22
-I9
-I40
-I0
-I250
-I1
-tp823
-(dp824
-tp825
-Rp826
-sbsa(dp827
-g14
-I00
-sg15
-(lp828
-F548.6666666666638
-aF1414.6666666666667
-asg17
-(itiddlywiki
-Tiddler
-p829
-(dp830
-g21
-VYour breathing slows further as you walk to the stage, until you've reached an almost zen-like state of calm, even as your mind races and the puppet's felt itches against your hand.\u000a\u000a//In, out. In, out.//\u000a\u000aYour co-star is already in her starting position, waiting for the curtain to rise. She's older than you, almost thirty, and she's been at this much longer than you have. She gives you a sympathetic look at you hit your mark. The actor who came before you died, she said, although she refused to say how. The rest of the crew refuse to speak to you at all, except to tell you when to be onstage.\u000a\u000aYou've only been working on this show for a month, but it feels like an eternity, performing night after night.\u000a\u000a''The show must go on.''
-p831
-sg23
-Vthe show must go on 2
-p832
-sg25
-g26
-((I2015
-I9
-I21
-I11
-I7
-I11
-I0
-I264
-I1
-tp833
-(dp834
-tp835
-Rp836
-sg31
-(lp837
-Vend
-p838
-asg33
-g26
-((I2015
-I9
-I7
-I23
-I56
-I53
-I0
-I250
-I1
-tp839
-(dp840
-tp841
-Rp842
-sbsa(dp843
-g14
-I00
-sg15
-(lp844
-F1436.9999999999989
-aF388.33333333333366
-asg17
-(itiddlywiki
-Tiddler
-p845
-(dp846
-g21
-VThe walk onto the stage seems oddly anticlimactic. Even after all this time, it still seems like something should //happen// when you walk onstage. But nothing ever does. \u000a\u000aThe stage hands part around you, and you weave through the pieces of scenery to reach your mark. Behind you, you hear your co-star mumbling back and forth with her puppet, but you don't have the energy to try to make out the words. You spent it all trying to escape.\u000a\u000aThe curtain will be rising any moment. \u000a\u000a''The show must go on.''
-p847
-sg23
-Vthe show must go on 3
-p848
-sg25
-g26
-((I2015
-I9
-I21
-I11
-I8
-I0
-I0
-I264
-I1
-tp849
-(dp850
-tp851
-Rp852
-sg31
-(lp853
-Vend
-p854
-asg33
-g26
-((I2015
-I9
-I7
-I23
-I57
-I8
-I0
-I250
-I1
-tp855
-(dp856
-tp857
-Rp858
-sbsa(dp859
-g14
-I00
-sg15
-(lp860
-F1411.9999999999998
-aF874.6666666666658
-asg17
-(itiddlywiki
-Tiddler
-p861
-(dp862
-g21
-VYour shoulders sag as you look back towards the stage. Your co-star stands at her mark, puppet held aloft. You imagine your face must be as tired and gray as hers is.\u000a\u000aThe trudge back to the stage is a formality. You've already admitted defeat. \u000a\u000aThe puppet is quiet and still as you take your place onstage. It knows it's won, the same way it always does. You aren't worth its time anymore.\u000a\u000aThe show is about to start.\u000a\u000a[[the show must go on|the show must go on 4]]\u000a\u000a
-p863
-sg23
-Vreturn to the stage
-p864
-sg25
-g26
-((I2015
-I9
-I21
-I11
-I11
-I12
-I0
-I264
-I1
-tp865
-(dp866
-tp867
-Rp868
-sg31
-(lp869
-Vpenultimate
-p870
-asg33
-g26
-((I2015
-I9
-I8
-I17
-I54
-I6
-I1
-I251
-I1
-tp871
-(dp872
-tp873
-Rp874
-sbsa(dp875
-g14
-I00
-sg15
-(lp876
-F1677.0000000000027
-aF381.6666666666669
-asg17
-(itiddlywiki
-Tiddler
-p877
-(dp878
-g21
-V"Hey," you say. The puppet turns its attention to you, and you fight the lump that rises in your throat. "Don't talk to her like that."\u000a\u000aThe puppet stares at you for several long seconds. Sweat beads across your brow, and you have to work hard to keep yourself still.\u000a\u000a"Was that a threat?" it asks, finally.\u000a\u000aYour co-star's eyes widen. She shakes her head at you as subtly as she can.\u000a\u000a[[fight the puppet]]\u000a[[leave|give up]]
-p879
-sg23
-Vstep in 2
-p880
-sg25
-g26
-((I2015
-I9
-I9
-I15
-I7
-I21
-I2
-I252
-I1
-tp881
-(dp882
-tp883
-Rp884
-sg31
-(lp885
-sg33
-g26
-((I2015
-I9
-I8
-I21
-I29
-I13
-I1
-I251
-I1
-tp886
-(dp887
-tp888
-Rp889
-sbsa(dp890
-g14
-I00
-sg15
-(lp891
-F993.6666666666661
-aF931.6666666666658
-asg17
-(itiddlywiki
-Tiddler
-p892
-(dp893
-g21
-V"I'm sorry," you stutter, "I wasn't thinking."\u000a\u000a"Get out!" she hisses, taking another step back. Her eyes dart towards the puppet on her vanity. "I still have time. Don't make me!"\u000a\u000aThe puppet on your hand moves forward.\u000a\u000a[[let it]]\u000a[[leave|leave 2]]
-p894
-sg23
-Vapologize
-p895
-sg25
-g26
-((I2015
-I9
-I8
-I23
-I0
-I44
-I1
-I251
-I1
-tp896
-(dp897
-tp898
-Rp899
-sg31
-(lp900
-sg33
-g26
-((I2015
-I9
-I8
-I21
-I41
-I48
-I1
-I251
-I1
-tp901
-(dp902
-tp903
-Rp904
-sbsa(dp905
-g14
-I00
-sg15
-(lp906
-F933.3333333333327
-aF1103.333333333333
-asg17
-(itiddlywiki
-Tiddler
-p907
-(dp908
-g21
-VThe puppet's momentum carries you forward, and you let yourself be led across the room towards your co-star. Her lower lip starts to tremble. When you finally come to a stop, several steps in front of her, her eyes are watery and wide with fear.\u000a\u000aShe's backed up against the wall. There's nowhere for her to go.\u000a\u000aThe puppet's face is inches from hers.\u000a\u000a"The show is starting soon," your mouth says, in a voice that is almost as familiar as your own. The puppet turns towards you. You know what you have to do.\u000a\u000a[[get the other puppet]]\u000a[[leave |leave 2]]
-p909
-sg23
-Vlet it
-p910
-sg25
-g26
-((I2015
-I9
-I16
-I13
-I23
-I23
-I2
-I259
-I1
-tp911
-(dp912
-tp913
-Rp914
-sg31
-(lp915
-sg33
-g26
-((I2015
-I9
-I8
-I23
-I0
-I47
-I1
-I251
-I1
-tp916
-(dp917
-tp918
-Rp919
-sbsa(dp920
-g14
-I00
-sg15
-(lp921
-F1098.6666666666686
-aF1113.3333333333335
-asg17
-(itiddlywiki
-Tiddler
-p922
-(dp923
-g21
-VYou dart outside and close the door behind yourself before you or the puppet can do anything too damaging. Still, your co-star's terrified expression haunts the insides of your eyelids.\u000a\u000aYou run your free hand across your face, trying to get a hold of yourself.\u000a\u000aSomeone clears their throat, and you look up to see the newest security guard standing in front of you. He's only been working here a week.\u000a\u000aHe doesn't know, yet. Not really.\u000a\u000aHe gestures towards the door, and without thinking, you move out of his way. It's only when he enters your co-star's dressing room that you realize your mistake.\u000a\u000aYou stand, frozen, as the sounds of a struggle filter through the door.\u000a\u000aThe security guard finally emerges, looking grave, and tugs your co-star out into the hall behind him. She's weeping openly, now.\u000a\u000a[[the show must go on|the show must go on 6]]
-p924
-sg23
-Vleave 2
-p925
-sg25
-g26
-((I2015
-I9
-I21
-I11
-I10
-I47
-I0
-I264
-I1
-tp926
-(dp927
-tp928
-Rp929
-sg31
-(lp930
-Vpenultimate
-p931
-asg33
-g26
-((I2015
-I9
-I8
-I23
-I0
-I47
-I1
-I251
-I1
-tp932
-(dp933
-tp934
-Rp935
-sbsa(dp936
-g14
-I00
-sg15
-(lp937
-F890.3333333333323
-aF1253.3333333333335
-asg17
-(itiddlywiki
-Tiddler
-p938
-(dp939
-g21
-VYour co-star cowers against the wall as you lift the puppet from her dressing table.\u000a\u000a"I'm sorry," you say again. You step forward, and grab her trembling hand. In a moment, the puppet is in its place, and your co-star's cheeks are wet with tears. "I'm sorry," you say.\u000a\u000aThe look she gives you is weary, and hateful. Then her gaze slides down to the puppet on her hand, and the fire goes out of her.\u000a\u000a"It's time we get to our places," the puppet says through her mouth.\u000a\u000a[[the show must go on|the show must go on 6]]
-p940
-sg23
-Vget the other puppet
-p941
-sg25
-g26
-((I2015
-I9
-I21
-I11
-I10
-I49
-I0
-I264
-I1
-tp942
-(dp943
-tp944
-Rp945
-sg31
-(lp946
-Vpenultimate
-p947
-asg33
-g26
-((I2015
-I9
-I8
-I23
-I7
-I6
-I1
-I251
-I1
-tp948
-(dp949
-tp950
-Rp951
-sbsa(dp952
-g14
-I00
-sg15
-(lp953
-F1866.9999999999995
-aF9.99999999999992
-asg17
-(itiddlywiki
-Tiddler
-p954
-(dp955
-g21
-VThe door clicks shut behind you, and you are alone with it.\u000a\u000aYou know it can't do or say anything on its own, but its plastic eyes still seem to bore into you.\u000a\u000aIt's time to put it on. A deep, desperate part of you wants to cry, but you've long since distanced yourself from that urge.\u000a\u000aThe show's about to start.\u000a\u000a[[put on the puppet]]\u000a[[run]]
-p956
-sg23
-Vreturn to your dressing room 4
-p957
-sg25
-g26
-((I2015
-I9
-I15
-I23
-I21
-I14
-I1
-I258
-I1
-tp958
-(dp959
-tp960
-Rp961
-sg31
-(lp962
-sg33
-g26
-((I2015
-I9
-I9
-I14
-I52
-I42
-I2
-I252
-I1
-tp963
-(dp964
-tp965
-Rp966
-sbsa(dp967
-g14
-I00
-sg15
-(lp968
-F1872.0000000000018
-aF390.00000000000006
-asg17
-(itiddlywiki
-Tiddler
-p969
-(dp970
-g21
-V"...No," you say lamely. "I just meant...nevermind."\u000a\u000aThe puppet tilts its head up, victorious. "Better go get ready," it says. "The show's about to start."\u000a\u000aYou know exactly where the puppet is, and you know it's waiting for you.\u000a\u000a[[the show must go on|the show must go on 11]]
-p971
-sg23
-Vgive up
-p972
-sg25
-g26
-((I2015
-I9
-I21
-I11
-I11
-I40
-I0
-I264
-I1
-tp973
-(dp974
-tp975
-Rp976
-sg31
-(lp977
-Vpenultimate
-p978
-asg33
-g26
-((I2015
-I9
-I9
-I15
-I0
-I40
-I2
-I252
-I1
-tp979
-(dp980
-tp981
-Rp982
-sbsa(dp983
-g14
-I00
-sg15
-(lp984
-F1873.6666666666683
-aF228.66666666666652
-asg17
-(itiddlywiki
-Tiddler
-p985
-(dp986
-g21
-VYou swing your fist at the puppet, and it makes contact. You've never thrown a real punch before, and for a moment, you bask in triumph. Then, you register the pain spreading from your knuckles, and realize that you've broken at least one finger.\u000a\u000a"Excuse me," a voice calls from the hallway. The newest security guard stands in the doorway, holding the puppet from your dressing room. "The curtain's about to go up, and you forgot this."\u000a\u000aYou stare at him, frozen for several long seconds. \u000a\u000a"The, uh, the stage manager sent me," he says, looking increasingly uncomfortable. "She said, 'places now'."\u000a\u000aFrom his perspective, the puppet in his hand must look so harmless. You remember when you still used to see it that way.\u000a\u000aThe security guard steps forward, and holds out the puppet.\u000a\u000a[[the show must go on|the show must go on 11]]
-p987
-sg23
-Vfight the puppet
-p988
-sg25
-g26
-((I2015
-I9
-I21
-I11
-I11
-I43
-I0
-I264
-I1
-tp989
-(dp990
-tp991
-Rp992
-sg31
-(lp993
-Vpenultimate
-p994
-asg33
-g26
-((I2015
-I9
-I9
-I15
-I0
-I40
-I2
-I252
-I1
-tp995
-(dp996
-tp997
-Rp998
-sbsa(dp999
-g14
-I00
-sg15
-(lp1000
-F1730.3333333333346
-aF660.9999999999995
-asg17
-(itiddlywiki
-Tiddler
-p1001
-(dp1002
-g21
-VYou stop scratching, but the damage is done. The puppet's light-colored felt clashes violently against your increasingly red arm. There isn't enough time to cover this up before the show starts.\u000a\u000aThe show is starting very soon now.\u000a\u000a[[the show must go on|the show must go on 5]]
-p1003
-sg23
-Vgive up 2
-p1004
-sg25
-g26
-((I2015
-I9
-I21
-I11
-I11
-I23
-I0
-I264
-I1
-tp1005
-(dp1006
-tp1007
-Rp1008
-sg31
-(lp1009
-Vpenultimate
-p1010
-asg33
-g26
-((I2015
-I9
-I9
-I15
-I18
-I50
-I2
-I252
-I1
-tp1011
-(dp1012
-tp1013
-Rp1014
-sbsa(dp1015
-g14
-I00
-sg15
-(lp1016
-F1730.3333333333346
-aF800.9999999999994
-asg17
-(itiddlywiki
-Tiddler
-p1017
-(dp1018
-g21
-VIn your desperation, you lash out unthinkingly. Your free hand balls into a fist and slams towards the puppet's face.\u000a\u000aThe puppet's mouth opens, and catches your fist. When it starts to close, you know you've made a terrible mistake. You try to wrench your hand away, but it won't budge.\u000a\u000aYour hand inside the puppet moves against your will, squeezing tighter and tighter. The bones in your fist creak, and the pain builds and builds until you hear something //crack//.\u000a\u000aNo one comes running when you give an involuntary shriek at the pain. The puppet releases your hand, and you hold it up your face, trembling. The bone of your index finger is broken, creating an odd lumpy shape beneath your rapidly purpling skin.\u000a\u000aTears well up in your eyes; the pain is overwhelming, and you feel as though you might faint.\u000a\u000a"Are you ready, now?" your mouth says. "The show's about to start."\u000a\u000a[[the show must go on]]\u000a[[not this time]]
-p1019
-sg23
-Vpunch the puppet
-p1020
-sg25
-g26
-((I2015
-I9
-I21
-I11
-I11
-I20
-I0
-I264
-I1
-tp1021
-(dp1022
-tp1023
-Rp1024
-sg31
-(lp1025
-Vpenultimate
-p1026
-asg33
-g26
-((I2015
-I9
-I9
-I15
-I18
-I51
-I2
-I252
-I1
-tp1027
-(dp1028
-tp1029
-Rp1030
-sbsa(dp1031
-g14
-I00
-sg15
-(lp1032
-F1595.0000000000014
-aF1018.3333333333328
-asg17
-(itiddlywiki
-Tiddler
-p1033
-(dp1034
-g21
-VYou exhale shakily as you hit your mark on the stage. The stage hums with activity around you, but it's drowned out by the blood rushing in your ears.\u000a\u000a"One more show," you whisper, a familiar lie. It's what's gotten you through the past several months.\u000a\u000a"One more show," your co-star echoes, just loud enough to be heard. You share a grim smile with her, and turn to face the audience as the curtain lifts.\u000a\u000a''The show must go on.''
-p1035
-sg23
-Vthe show must go on 4
-p1036
-sg25
-g26
-((I2015
-I9
-I21
-I11
-I7
-I44
-I0
-I264
-I1
-tp1037
-(dp1038
-tp1039
-Rp1040
-sg31
-(lp1041
-Vend
-p1042
-asg33
-g26
-((I2015
-I9
-I9
-I15
-I25
-I44
-I2
-I252
-I1
-tp1043
-(dp1044
-tp1045
-Rp1046
-sbsa(dp1047
-g14
-I00
-sg15
-(lp1048
-F1920.3333333333346
-aF664.9999999999993
-asg17
-(itiddlywiki
-Tiddler
-p1049
-(dp1050
-g21
-VA shadow falls over you, and when you look up, the stage manager looms in front of you, staring disapprovingly down at the scratch marks on your arm. She sighs.\u000a\u000a"There isn't time to clean that up," she says, and she almost sounds sympathetic. "Curtain's about to go up. You need to get onstage."\u000a\u000aShe offers a hand to help you up, but you ignore it and get to your feet on your own. The stage manager really does look sorry, now, but you can't find it in yourself to care. You stride past her onto the stage, finding your mark among the wood scenery.\u000a\u000aYour co-star is already at her place. She looks drained, spent. You imagine you must look the same way. You have just enough time to share a commiserating look, and then the curtain goes up, and the show begins.\u000a\u000aIf this were any other show, you think absently, it would matter that the leading actor's arm was covered in scratches, bleeding sluggishly. But this is not another show. In this show, you could have a heart attack in the middle of the show, and the audience's attention would still be fixed on the puppet. You know this because your last co-star died that way. The puppet kept her alive and moving until the show ended, and then her body slumped to the floor, and her eyes went empty, and the puppet was carefully removed by stage hands wearing rubber gloves before she was taken to the hospital, where she was officially pronounced dead. But you'd already known that she was gone. You'd known from the moment her eyes flew open wide in panic and terror, then fluttered and stopped moving.\u000a\u000aToo much stress, the doctors had said, put a strain on her heart that wore it down over time.\u000a\u000aSomeday, you think, you might go that way yourself. But until then, you know, you will keep coming back, keep getting your paycheck, still hating yourself every time you step back into the theatre.\u000a\u000aYou know you'll be back, though. After all, ''the show must go on''.
-p1051
-sg23
-Vthe show must go on 5
-p1052
-sg25
-g26
-((I2015
-I9
-I21
-I11
-I7
-I54
-I0
-I264
-I1
-tp1053
-(dp1054
-tp1055
-Rp1056
-sg31
-(lp1057
-Vend
-p1058
-asg33
-g26
-((I2015
-I9
-I9
-I15
-I34
-I1
-I2
-I252
-I1
-tp1059
-(dp1060
-tp1061
-Rp1062
-sbsa(dp1063
-g14
-I00
-sg15
-(lp1064
-F1926.0000000000014
-aF796.6666666666663
-asg17
-(itiddlywiki
-Tiddler
-p1065
-(dp1066
-g21
-VYou look frantically around the backstage area. Props, costumes, set pieces, rigging...rigging. \u000a\u000aYes. Those chains are thick enough.\u000a\u000aThe puppet seems to sense your plan, and a litany of words tumble from your lips as you stride towards the weighted chains behind the stage. Stage hands stop and stare as you loop one of the loose chain riggings around your arm, just below the puppet, all while the puppet shrieks through your mouth.\u000a\u000aYou activate the pulley, and the chain pulls taught, jerking you a foot into the air before it forcibly straightens itself. The scream that leaves your mouth is both yours and the puppet's as the chain cuts through your skin, and snaps bone. You collapse to the ground, clutching your arm just above its newly ragged, bloody end.\u000a\u000aWhen you finally collect yourself enough to open your eyes, the first thing you see is the puppet lying in front of you, slowly being dyed red.\u000a\u000aThe rest of the production crew stand around you, watching with expressions that range from horrified to nauseous.\u000a\u000aYour co-star steps forward, led by the puppet on her right hand.\u000a\u000a[[you need an ambulance]]
-p1067
-sg23
-Vnot this time
-p1068
-sg25
-g26
-((I2015
-I9
-I21
-I11
-I11
-I16
-I0
-I264
-I1
-tp1069
-(dp1070
-tp1071
-Rp1072
-sg31
-(lp1073
-Vpenultimate
-p1074
-asg33
-g26
-((I2015
-I9
-I9
-I15
-I42
-I47
-I2
-I252
-I1
-tp1075
-(dp1076
-tp1077
-Rp1078
-sbsa(dp1079
-g14
-I00
-sg15
-(lp1080
-F2110.3333333333303
-aF786.6666666666662
-asg17
-(itiddlywiki
-Tiddler
-p1081
-(dp1082
-g21
-V"I need an ambulance," you grit out, voice hoarse from screaming.\u000a\u000aYour co-star's face is drawn and pale. She looks away.\u000a\u000aYou look around the circle. No one can meet your eyes. You want to scream, but your voice is ruined.\u000a\u000a"Help me," you say, looking around at the gathered faces. None of their eyes will meet yours.\u000a\u000a"It's an award-winning show," someone says quietly, from within the gathered crowd.\u000a\u000a"If it closes, we'll be out of work," someone else says.\u000a\u000aYou look to your co-star. She looks so much older than twenty.\u000a\u000a"A Hollywood director is coming to the show next week," she says to the floor. "He's looking for someone to star in his next film."\u000a\u000aThat's it, then.\u000a\u000aYou close your eyes, and as the adrenaline ebbs, you become aware of just how //tired// you are. You've been tired for months, sleepless and haunted, but this is a different sort of tired. A tiredness that goes bone-deep, and makes you feel like dissolving into the earth.\u000a\u000aThe puppet lies a few feet in front of you. It seems so silly, now, to be afraid of a child's toy. But you can still remember the way it felt, to be trapped by it, to have its words push their way up your throat and out your mouth. To live each day afraid of your own hand, and what would happen when you went in to work. You used to dream about having a job like this--starring in an award-winning show, drawing packed houses night after night. Now, you have nightmares.\u000a\u000aYou wonder if you still will, if you survive this.\u000a\u000aYour eyes start to drift closed, weighted down by something heavier than sleep.\u000a\u000a\u000a\u000a''You've escaped.''
-p1083
-sg23
-Vyou need an ambulance
-p1084
-sg25
-g26
-((I2015
-I9
-I21
-I11
-I7
-I51
-I0
-I264
-I1
-tp1085
-(dp1086
-tp1087
-Rp1088
-sg31
-(lp1089
-Vend
-p1090
-asg33
-g26
-((I2015
-I9
-I9
-I15
-I57
-I3
-I2
-I252
-I1
-tp1091
-(dp1092
-tp1093
-Rp1094
-sbsa(dp1095
-g14
-I00
-sg15
-(lp1096
-F518.666666666667
-aF901.3333333333334
-asg17
-(itiddlywiki
-Tiddler
-p1097
-(dp1098
-g21
-V"Oh, boo hoo," the puppet says. "Now get to your place. It's almost time."\u000a\u000a[[get to your starting place]]
-p1099
-sg23
-Vtalk to the puppet 2
-p1100
-sg25
-g26
-((I2015
-I9
-I14
-I15
-I50
-I28
-I0
-I257
-I1
-tp1101
-(dp1102
-tp1103
-Rp1104
-sg31
-(lp1105
-sg33
-g26
-((I2015
-I9
-I14
-I15
-I48
-I30
-I0
-I257
-I1
-tp1106
-(dp1107
-tp1108
-Rp1109
-sbsa(dp1110
-g14
-I00
-sg15
-(lp1111
-F1080.333333333335
-aF1305.0
-asg17
-(itiddlywiki
-Tiddler
-p1112
-(dp1113
-g21
-VYou hold out a hand, and your co-star accepts it with the grace of one walking to the gallows.\u000a\u000a"It's just a show," you breathe, and you're not sure whether the words are for her or you. Neither of your hands loosen their grips on each other, anyway.\u000a\u000a"//Finally//," the stage manager sighs as you walk onstage. "Curtain's about to go up. Get to your places."\u000a\u000aIt's easy enough to navigate the scenery and stage hands to get to your mark. The stage hands go out of their way to avoid you--some even double back the way they came, faces pale and downturned. You can't find it in yourself to blame them. You'd probably act the same way in their place.\u000a\u000aYou thought it would be more glamorous, starring in your first show. More fun, more fulfilling. And, sure, the first week on the job had gone well enough, even if no one seemed able to meet your eyes, or look at or directly reference your puppet. The pay check had certainly made up for the dour atmosphere. You didn't question the way the puppet's voice seemed to come naturally to you whenever you moved the puppet's mouth, or the way its eyes seemed to follow you around the room.\u000a\u000aThen the puppet spoke without your help, forcing its words through your mouth, and you'd known. Suddenly, it made sense that no one wanted to look at you or the puppet, and that your co-star always looked to be on the verge of tears until the curtain went up.\u000a\u000aOnce the audience's eyes were on her, she came to life under the puppet's guidance, and the same was true for you. It didn't matter that you felt the emptiness inside of you growing each day. It didn't matter that your co-star's eyes were permanently red-rimmed. It only mattered that the right lines spilled forth from your mouth, and you hit the right marks onstage. As the puppets were so fond of saying, ''the show must go on.''
-p1114
-sg23
-Vthe show must go on 6
-p1115
-sg25
-g26
-((I2015
-I9
-I21
-I11
-I7
-I23
-I0
-I264
-I1
-tp1116
-(dp1117
-tp1118
-Rp1119
-sg31
-(lp1120
-Vend
-p1121
-asg33
-g26
-((I2015
-I9
-I15
-I23
-I0
-I8
-I1
-I258
-I1
-tp1122
-(dp1123
-tp1124
-Rp1125
-sbsa(dp1126
-g14
-I00
-sg15
-(lp1127
-F2101.999999999997
-aF163.3333333333333
-asg17
-(itiddlywiki
-Tiddler
-p1128
-(dp1129
-g21
-VYou can't do it. Not again. Not this time.\u000a\u000aYour skin feels live-wired as you run filt-tilt at the door, intent on finally getting out and staying out. With a triumphant shout, you pull open the door.\u000a\u000aYour co-star stands just outside the threshold of your dressing room. Her face is downcast, eyes drooping and fixed on the floor, but the puppet on her hand stares intently at you.\u000a\u000aIt drifts forward. You take a step back.\u000a\u000a"The show must go on," it says through your co-star's mouth.\u000a\u000a[[the show must go on|the show must go on 8]]\u000a[[fight for your life]]
-p1130
-sg23
-Vrun
-p1131
-sg25
-g26
-((I2015
-I9
-I21
-I11
-I11
-I33
-I0
-I264
-I1
-tp1132
-(dp1133
-tp1134
-Rp1135
-sg31
-(lp1136
-Vpenultimate
-p1137
-asg33
-g26
-((I2015
-I9
-I15
-I23
-I21
-I33
-I1
-I258
-I1
-tp1138
-(dp1139
-tp1140
-Rp1141
-sbsa(dp1142
-g14
-I00
-sg15
-(lp1143
-F2100.34184056448
-aF16.666666666666636
-asg17
-(itiddlywiki
-Tiddler
-p1144
-(dp1145
-g21
-VYou move forward. The puppet's eyes remain fixed on you, and continue to be so as you pull the puppet onto your hand with motions that are robotic in their familiarity.\u000a\u000aThe puppet swivels towards you as soon as it's in place.\u000a\u000a[[the show must go on|the show must go on 7]]
-p1146
-sg23
-Vput on the puppet
-p1147
-sg25
-g26
-((I2015
-I9
-I21
-I11
-I11
-I36
-I0
-I264
-I1
-tp1148
-(dp1149
-tp1150
-Rp1151
-sg31
-(lp1152
-Vpenultimate
-p1153
-asg33
-g26
-((I2015
-I9
-I15
-I23
-I21
-I33
-I1
-I258
-I1
-tp1154
-(dp1155
-tp1156
-Rp1157
-sbsa(dp1158
-g14
-I00
-sg15
-(lp1159
-F2283.666666666667
-aF13.333333333333245
-asg17
-(itiddlywiki
-Tiddler
-p1160
-(dp1161
-g21
-VIt's just a few steps to get to the door, a few more to reach the end of the hall, and then you're onstage.\u000a\u000aStage hands scurry this way and that, doing last-minute check on the set and its lighting. The stage manager passes by, and she lifts her eyebrows at you and gestures towards your starting position.\u000a\u000aYou hit your mark with all the dignity you have left. You are an actor, you tell yourself. You can do this.\u000a\u000a(You have to do this.)\u000a\u000aThe curtains lift before you expect them to, as always, and under the hot stage lights you turn to face your co-star, as always, and you can't remember when, exactly, she took her place on stage. The bags under her eyes seem deeper every day, and some distant part of you wants to express sympathy. She's newer to this show than you are. The puppets only started in on her a week ago. She already looks years older than she did when she started. You wonder how much older you look, now.\u000a\u000aThe familiar words pour forth from your mouth, in a familiar voice that is still not your own. Your body goes through the motions, and these days you can't be sure if the movements are yours, or the puppet's.\u000a\u000aEither way, ''the show must go on.''
-p1162
-sg23
-Vthe show must go on 7
-p1163
-sg25
-g26
-((I2015
-I9
-I21
-I11
-I8
-I14
-I0
-I264
-I1
-tp1164
-(dp1165
-tp1166
-Rp1167
-sg31
-(lp1168
-Vend
-p1169
-asg33
-g26
-((I2015
-I9
-I16
-I7
-I47
-I40
-I2
-I259
-I1
-tp1170
-(dp1171
-tp1172
-Rp1173
-sbsa(dp1174
-g14
-I00
-sg15
-(lp1175
-F2278.6666666666647
-aF289.99999999999994
-asg17
-(itiddlywiki
-Tiddler
-p1176
-(dp1177
-g21
-VYou grit your teeth and charge the puppet and the body it's attached to.\u000a\u000aThe puppet meets you halfway, ramming its head into your cheekbone. The force of the blow sends you stumbling back, and you fall to the ground, disoriented. Pain blooms across the right half of your face.\u000a\u000aYou look up, and lock eyes with the puppet just before it delivers another blow to your cheek. This time, something //cracks//, and the pain is unbearable.\u000a\u000aBy the time you've regained your senses, the puppet has been taken from your vanity and shoved onto your hand. You stare down at it, clutching your cheek with your other hand.\u000a\u000a"It's time," the puppet says.\u000a\u000a[[the show must go on|the show must go on 9]]
-p1178
-sg23
-Vfight for your life
-p1179
-sg25
-g26
-((I2015
-I9
-I21
-I11
-I11
-I31
-I0
-I264
-I1
-tp1180
-(dp1181
-tp1182
-Rp1183
-sg31
-(lp1184
-Vpenultimate
-p1185
-asg33
-g26
-((I2015
-I9
-I16
-I7
-I56
-I53
-I2
-I259
-I1
-tp1186
-(dp1187
-tp1188
-Rp1189
-sbsa(dp1190
-g14
-I00
-sg15
-(lp1191
-F2275.3333333333303
-aF154.99999999999994
-asg17
-(itiddlywiki
-Tiddler
-p1192
-(dp1193
-g21
-V"Of course," you say tiredly. The show must go on. Where would you be without it? Still spending your days waiting tables, no doubt. After all, no one wants to hire an actor whose experience amounts to nothing at all, and whose skills are mediocre at best. But this job...this job pays well. And glowing reviews of the show come pouring in every day, along with heartfelt letters about your performance as the lead character.\u000a\u000aSomeday, those letters might include a job offer. You know the actor before you got a job on a primetime TV show. If you just hold in there, and play your cards right, that could be you. You know your co-star is hoping for the same thing. It's the only reason you keep coming back--the hope that, someday, you'll be called to something better. Something that isn't being controlled by a piece of felt on your hand.\u000a\u000aSomeday.\u000a\u000aFor now, you shuffle to the stage, and take your place. The puppet stares at you for a moment, cloth features smug and knowing, and then it turns to face the audience.\u000a\u000aThe curtain will be going up soon, and ''the show must go on.''
-p1194
-sg23
-Vthe show must go on 8
-p1195
-sg25
-g26
-((I2015
-I9
-I21
-I11
-I8
-I10
-I0
-I264
-I1
-tp1196
-(dp1197
-tp1198
-Rp1199
-sg31
-(lp1200
-Vend
-p1201
-asg33
-g26
-((I2015
-I9
-I16
-I7
-I56
-I53
-I2
-I259
-I1
-tp1202
-(dp1203
-tp1204
-Rp1205
-sbsa(dp1206
-g14
-I00
-sg15
-(lp1207
-F200.33333333333303
-aF1561.6666666666663
-asg17
-(itiddlywiki
-Tiddler
-p1208
-(dp1209
-g21
-VThe last of your breath escapes from your lungs in a desperate scream. Without any air left, you can feel your body shutting down. Your vision starts to go black.\u000a\u000a[[you black out]]
-p1210
-sg23
-Vscream
-p1211
-sg25
-g26
-((I2015
-I9
-I16
-I8
-I1
-I0
-I2
-I259
-I1
-tp1212
-(dp1213
-tp1214
-Rp1215
-sg31
-(lp1216
-sg33
-g26
-((I2015
-I9
-I16
-I7
-I59
-I13
-I2
-I259
-I1
-tp1217
-(dp1218
-tp1219
-Rp1220
-sbsa(dp1221
-g14
-I00
-sg15
-(lp1222
-F375.62533692722315
-aF1564.47888589398
-asg17
-(itiddlywiki
-Tiddler
-p1223
-(dp1224
-g21
-VYou come to slowly, and at first all you can see and hear is muted, as if sensed from a great distance. As you regain consciousness further, you realize that the most prominent voice is coming from your own mouth.\u000a\u000aYour eyes need no time to adjust. It's as if--as if they've never been closed. And maybe they haven't, you think, noting with creeping panic that the puppet is still on your hand, moving. Its felt is damp with sweat, dragging against your hand in a way that makes your spine crawl.\u000a\u000aThen the rest of your surroundings sink in.\u000a\u000aYou are on a stage. You are on //the// stage, standing opposite your co-star, and your voice and body are performing a scene in the second act of the show. Your co-star stands on the other side of the stage, and her mouth moves alongside the puppet's even as her eyes grow wide and stare into yours.\u000a\u000aThe audience claps.\u000a\u000a[[the show must go on|the show must go on 10]]
-p1225
-sg23
-Vyou black out
-p1226
-sg25
-g26
-((I2015
-I9
-I21
-I11
-I10
-I39
-I0
-I264
-I1
-tp1227
-(dp1228
-tp1229
-Rp1230
-sg31
-(lp1231
-Vpenultimate
-p1232
-asg33
-g26
-((I2015
-I9
-I16
-I8
-I1
-I17
-I2
-I259
-I1
-tp1233
-(dp1234
-tp1235
-Rp1236
-sbsa(dp1237
-g14
-I00
-sg15
-(lp1238
-F2438.6666666666647
-aF294.99999999999994
-asg17
-(itiddlywiki
-Tiddler
-p1239
-(dp1240
-g21
-VThe fight goes out of you at those words. Why did you think this time might be different? It's never different.\u000a\u000aWhen you arrive onstage, the stage manager gives your rapidly-bruising cheekbone a concerned look, but her lips thin out as she tells you that the curtain's going up in a few minutes. There isn't enough time for the make-up crew to hide the bruise. You'll be performing the show with it blooming across your cheek. Everyone in the audience will see.\u000a\u000aYou can't bring yourself to care. Maybe you would have cared, once, but after months of working on this show, it seems hard to feel anything anymore. You wonder absently if the puppet is responsible for that, too. Your co-star takes her place across from you, and you can see the same emptiness growing behind her eyes. You open your mouth to say something. Something comforting, something heartfelt for the first time in months--\u000a\u000aBut then the curtains lift, and your lips shape words that aren't yours, and your body goes through the motions. \u000a\u000a''The show must go on.''
-p1241
-sg23
-Vthe show must go on 9
-p1242
-sg25
-g26
-((I2015
-I9
-I21
-I11
-I8
-I7
-I0
-I264
-I1
-tp1243
-(dp1244
-tp1245
-Rp1246
-sg31
-(lp1247
-Vend
-p1248
-asg33
-g26
-((I2015
-I9
-I16
-I8
-I8
-I13
-I2
-I259
-I1
-tp1249
-(dp1250
-tp1251
-Rp1252
-sbsa(dp1253
-g14
-I00
-sg15
-(lp1254
-F549.792003593891
-aF1571.9788858939805
-asg17
-(itiddlywiki
-Tiddler
-p1255
-(dp1256
-g21
-V//The show is going well//, you think, distantly, feeling as though you're a stranger in your own body.\u000a\u000aThe show is going //very// well.\u000a\u000aYou wish it wasn't, suddenly. You wish that the set would fall apart, that someone in the audience would have a stroke and need an ambulance, that you could rip the puppet off your hand and run screaming into the audience and out of the theater.\u000a\u000aWell, you can do at least one of those things.\u000a\u000aYou try to lift your hand. Nothing happens.\u000a\u000aSweat prickles on the back of your neck. It's never been this bad before. It's always just been the one hand, and the voice, not--\u000a\u000aYou try to blink. Nothing happens.\u000a\u000aThis is it, then. This is how you lose yourself to the puppet. The show will go on whether you like it or not, now.\u000a\u000a''The show must go on.''
-p1257
-sg23
-Vthe show must go on 10
-p1258
-sg25
-g26
-((I2015
-I9
-I21
-I11
-I7
-I39
-I0
-I264
-I1
-tp1259
-(dp1260
-tp1261
-Rp1262
-sg31
-(lp1263
-Vend
-p1264
-asg33
-g26
-((I2015
-I9
-I16
-I11
-I8
-I14
-I2
-I259
-I1
-tp1265
-(dp1266
-tp1267
-Rp1268
-sbsa(dp1269
-g14
-I00
-sg15
-(lp1270
-F2076.999999999997
-aF382.0085072311469
-asg17
-(itiddlywiki
-Tiddler
-p1271
-(dp1272
-g21
-VThe puppet slides onto your hand too easily, for how emotionally exhausting it is. You shove the feeling of panic down and escape to the hallway.\u000a\u000aBut you can't rest. The show is about to start. Your co-star follows closely behind you as you walk down the hall and up onto the stage, letting your feet carry you thoughtlessly.\u000a\u000aYou reach your mark just as the curtain starts to lift, and then your mouth is saying words that aren't yours, and the audience is laughing, and the show goes on, as it always does, no matter how tired and sad and desperate you feel to escape it.\u000a\u000a''The show must go on.''
-p1273
-sg23
-Vthe show must go on 11
-p1274
-sg25
-g26
-((I2015
-I9
-I21
-I11
-I8
-I4
-I0
-I264
-I1
-tp1275
-(dp1276
-tp1277
-Rp1278
-sg31
-(lp1279
-Vend
-p1280
-asg33
-g26
-((I2015
-I9
-I16
-I12
-I47
-I7
-I2
-I259
-I1
-tp1281
-(dp1282
-tp1283
-Rp1284
-sbsa(dp1285
-g14
-I00
-sg15
-(lp1286
-F760.3333333333325
-aF1073.3333333333328
-asg17
-(itiddlywiki
-Tiddler
-p1287
-(dp1288
-g21
-VA brief scan of the stage reveals a stage hand desperately pumping his inhaler, and an older security guard patting the newest one on the back. \u000a\u000aYou try to remember the last time someone showed you similar kindness, and fail to come up with anything. All anyone seems to do these days is avoid looking you in the eye.\u000a\u000aBut that doesn't matter. All that matters is that the show goes on, and you get paid, and you save up enough money to finally make it out of here.\u000a\u000a''The show must go on.''
-p1289
-sg23
-Vthe show must go on 12
-p1290
-sg25
-g26
-((I2015
-I9
-I21
-I11
-I7
-I30
-I0
-I264
-I1
-tp1291
-(dp1292
-tp1293
-Rp1294
-sg31
-(lp1295
-Vend
-p1296
-asg33
-g26
-((I2015
-I9
-I16
-I13
-I4
-I24
-I2
-I259
-I1
-tp1297
-(dp1298
-tp1299
-Rp1300
-sbsa(dp1301
-g14
-I00
-sg15
-(lp1302
-F620.3333333333325
-aF1203.333333333333
-asg17
-(itiddlywiki
-Tiddler
-p1303
-(dp1304
-g21
-V//She doesn't deserve this//, you think. Then again, none of you do. No one deserves to live in fear, to spend each day terrified of what you might do against your will.\u000a\u000aYou would say the paycheck isn't worth it, but it clearly is. Could there be any other reason to come back day after day? There are talent scouts, true. You know that all anyone working on this show wants is to get their big break and get out of here. The printer in the building is only ever used to print resumes, now, yours included.\u000a\u000aYou send them out daily, and attend auditions and callbacks on the weekends. No one has called you back yet, but you cling desperately to the thought that one will, eventually.\u000a\u000aAnd until then, ''the show must go on.''
-p1305
-sg23
-Vthe show must go on 13
-p1306
-sg25
-g26
-((I2015
-I9
-I21
-I11
-I7
-I34
-I0
-I264
-I1
-tp1307
-(dp1308
-tp1309
-Rp1310
-sg31
-(lp1311
-Vend
-p1312
-asg33
-g26
-((I2015
-I9
-I16
-I13
-I10
-I21
-I2
-I259
-I1
-tp1313
-(dp1314
-tp1315
-Rp1316
-sbsa(dp1317
-g14
-I00
-sg15
-(lp1318
-F13.666666666666707
-aF690.0000000000003
-asg17
-(itiddlywiki
-Tiddler
-p1319
-(dp1320
-g21
-S'jquery:off\nhash:off\nbookmark:on\nmodernizr:off\nundo:off\nobfuscate:off\nexitprompt:off\nblankcss:on\n'
-p1321
-sg23
-VStorySettings
-p1322
-sg25
-g26
-((I2015
-I9
-I21
-I0
-I3
-I37
-I0
-I264
-I1
-tp1323
-(dp1324
-tp1325
-Rp1326
-sg31
-(lp1327
-sg33
-g26
-((I2015
-I9
-I18
-I19
-I52
-I1
-I4
-I261
-I1
-tp1328
-(dp1329
-tp1330
-Rp1331
-sbsa(dp1332
-g14
-I00
-sg15
-(lp1333
-F17.000000000000014
-aF819.9999999999999
-asg17
-(itiddlywiki
-Tiddler
-p1334
-(dp1335
-g21
-Vversion.extensions.cyclinglinkMacro={major:3,minor:3,revision:0};\u000amacros.cyclinglink={handler:function(a,b,c){var rl="cyclingLink";\u000afunction toggleText(w){w.classList.remove("cyclingLinkInit");\u000aw.classList.toggle(rl+"Enabled");w.classList.toggle(rl+"Disabled");\u000aw.style.display=((w.style.display=="none")?"inline":"none")}switch(c[c.length-1]){case"end":var end=true;\u000ac.pop();break;case"out":var out=true;c.pop();break}var v="";if(c.length&&c[0][0]=="$"){v=c[0].slice(1);\u000ac.shift()}var h=state.history[0].variables;if(out&&h[v]===""){return\u000a}var l=Wikifier.createInternalLink(a,null);l.className="internalLink cyclingLink";\u000al.setAttribute("data-cycle",0);for(var i=0;i<c.length;i++){var on=(i==Math.max(c.indexOf(h[v]),0));\u000avar d=insertElement(null,"span",null,"cyclingLinkInit cyclingLink"+((on)?"En":"Dis")+"abled");\u000aif(on){h[v]=c[i];l.setAttribute("data-cycle",i)}else{d.style.display="none"\u000a}insertText(d,c[i]);if(on&&end&&i==c.length-1){l.parentNode.replaceChild(d,l)\u000a}else{l.appendChild(d)}}l.onclick=function(){var t=this.childNodes;\u000avar u=this.getAttribute("data-cycle")-0;var m=t.length;toggleText(t[u]);\u000au=(u+1);if(!(out&&u==m)){u%=m;if(v){h[v]=c[u]}}else{h[v]=""}if((end||out)&&u==m-(end?1:0)){if(end){var n=this.removeChild(t[u]);\u000an.className=rl+"End";n.style.display="inline";this.parentNode.replaceChild(n,this)\u000a}else{this.parentNode.removeChild(this);return}return}toggleText(t[u]);\u000athis.setAttribute("data-cycle",u)}}};
-p1336
-sg23
-Vcycling code
-p1337
-sg25
-g26
-((I2015
-I9
-I18
-I19
-I59
-I40
-I4
-I261
-I1
-tp1338
-(dp1339
-tp1340
-Rp1341
-sg31
-(lp1342
-Vscript
-p1343
-asg33
-g26
-((I2015
-I9
-I18
-I19
-I54
-I57
-I4
-I261
-I1
-tp1344
-(dp1345
-tp1346
-Rp1347
-sbsa(dp1348
-g14
-I00
-sg15
-(lp1349
-F22.641144973227355
-aF966.3526497522856
-asg17
-(itiddlywiki
-Tiddler
-p1350
-(dp1351
-g21
-Vbody {\u000a	background-color: rgb(10,0,0);\u000a	color: rgb(255,250,250);\u000a	font-family: Courier,serif;\u000a	font-size: 100%;\u000a	margin: 5% 0% 5% 7%;\u000a}\u000a#sidebar {\u000a	left: 5px;\u000a	bottom: 5em;\u000a	margin: 0;\u000a	padding: 0 1em 0 0;\u000a	font: bold 1.1em Courier,serif;\u000a	width: 20%;\u000a}\u000a\u000a#sidebar ul {\u000a	padding: 0;\u000a}\u000a#sidebar li {\u000a	color: #333;\u000a	text-align: right;\u000a	background-repeat: no-repeat;\u000a	margin-bottom: 0em;\u000a	line-height: 1.4em;\u000a	list-style: none;\u000a}\u000a#sidebar li a {\u000a	color: #333;\u000a	text-decoration: none;\u000a}\u000a#sidebar li a:hover, #sidebar #title a:hover, #snapback:hover, #restart:hover {\u000a	color: rgb(150,10,10);\u000a	cursor: pointer;\u000a	text-decoration: none;\u000a}\u000a#sidebar #title {\u000a	font-size: 200%;\u000a}\u000a#sidebar #title, #sidebar #title:hover, #sidebar #title a {\u000a	color: rgb(100,100,100);\u000a}\u000a#sidebar #storySubtitle {\u000a	font-size: 150%;\u000a}\u000a#storyAuthor {\u000a	font-size: 80%;\u000a}\u000a#sidebar #storyMenu {\u000a	line-height: 2.5em;\u000a	margin-bottom: .5em;\u000a	color: #999;\u000a	cursor: auto;\u000a}\u000a#sidebar #credits {\u000a	display: none;\u000a	padding-top: 2em;\u000a	font-weight: normal;\u000a	font-size: 80%;\u000a}\u000a#sidebar #credits:hover {\u000a	display: none;\u000a	color: #333;\u000a}\u000a#sidebar #credits a {\u000a	display: none;\u000a	text-decoration: none;\u000a}\u000a#passages {\u000a	padding-left: 0em;\u000a}\u000a\u000a.menu {\u000a	background-color: #343434;\u000a	color: #fff;\u000a	opacity: .9;\u000a	border: 1px solid #fff;\u000a	text-align: left;\u000a	font: 1.1em Courier;\u000a	line-height: 2em;\u000a}\u000a.menu div {\u000a	padding: 0.4em;\u000a}\u000a.menu div:hover {\u000a	cursor: pointer;\u000a	background-color: #fff;\u000a	color: #343434;\u000a}\u000a.passage {\u000a	margin-left: 100;\u000a	font-size: 1.2em;\u000a	max-width: 90%;\u000a	line-height: 175%;\u000a	margin-bottom: 2em;\u000a	text-align: left;\u000a}\u000a.passage a {\u000a	font-weight: bold;\u000a	color: rgb(100,0,0);\u000a	text-decoration: none;\u000a}\u000a.passage a:hover {\u000a	color: rgb(200,0,0);\u000a	text-decoration: none;\u000a}\u000a.content > ul {\u000a	padding-top: 1.3em;\u000a}\u000a.passage ul, .passage ol {\u000a	margin-left: 0;\u000a	padding-left: 0%;\u000a}\u000a.passage li {\u000a	margin-right: 7%;\u000a}\u000a.passage table {\u000a	border-collapse: collapse;\u000a	font-size: 200%;\u000a}\u000a.passage th,.passage td,.passage tr,.passage caption {\u000a	padding: 0%;\u000a}\u000a.passage hr {\u000a	height: 1px;\u000a}\u000a.passage center {\u000a	max-width:25%;\u000a	margin: 10px;\u000a}\u000a.marked {\u000a	margin-right: 2px;\u000a	padding: 3px;\u000a}\u000a.disabled {\u000a	font-weight: bold;\u000a	color: #333;\u000a}\u000a@media screen and (max-width: 640px) {\u000a	body {\u000a		margin: 0%;\u000a	}\u000a	#sidebar {\u000a		width:100%;\u000a		margin: 0;\u000a		border-bottom: 1px solid #333;\u000a	}\u000a	#passages {\u000a		padding-top: 2em;\u000a		border-left: 0;\u000a	}\u000a}
-p1352
-sg23
-VCSS
-p1353
-sg25
-g26
-((I2015
-I10
-I4
-I23
-I18
-I1
-I6
-I277
-I1
-tp1354
-(dp1355
-tp1356
-Rp1357
-sg31
-(lp1358
-Vstylesheet
-p1359
-asg33
-g26
-((I2015
-I9
-I18
-I20
-I1
-I25
-I4
-I261
-I1
-tp1360
-(dp1361
-tp1362
-Rp1363
-sbsa(dp1364
-g14
-I00
-sg15
-(lp1365
-F16.58159435520192
-aF16.58159435520192
-asg17
-(itiddlywiki
-Tiddler
-p1366
-(dp1367
-g21
-VThe puppet stares at you. Its insides are soft against your hand.\u000a\u000aYou wonder whether tonight will be any different.\u000a\u000a[[stare back]]\u000a[[put it down]]
-p1368
-sg23
-VStart
-p1369
-sg25
-g26
-((I2015
-I9
-I21
-I0
-I31
-I27
-I0
-I264
-I1
-tp1370
-(dp1371
-tp1372
-Rp1373
-sg31
-(lp1374
-sg33
-g26
-((I2015
-I9
-I21
-I0
-I4
-I12
-I0
-I264
-I1
-tp1375
-(dp1376
-tp1377
-Rp1378
-sbsa(dp1379
-g14
-I00
-sg15
-(lp1380
-F24.306260321271537
-aF1098.4161537306682
-asg17
-(itiddlywiki
-Tiddler
-p1381
-(dp1382
-g21
-Vbody {\u000a	background-color: rgb(50,0,0);\u000a\u000a}
-p1383
-sg23
-Vend page red
-p1384
-sg25
-g26
-((I2015
-I9
-I21
-I11
-I9
-I45
-I0
-I264
-I1
-tp1385
-(dp1386
-tp1387
-Rp1388
-sg31
-(lp1389
-Vstylesheet
-p1390
-aVend
-p1391
-asg33
-g26
-((I2015
-I9
-I21
-I11
-I8
-I30
-I0
-I264
-I1
-tp1392
-(dp1393
-tp1394
-Rp1395
-sbsa(dp1396
-g14
-I00
-sg15
-(lp1397
-F27.24515838462541
-aF1241.7324726017087
-asg17
-(itiddlywiki
-Tiddler
-p1398
-(dp1399
-g21
-Vbody {\u000a	background-color: rgb(35,0,0);\u000a\u000a}
-p1400
-sg23
-Vpenultimate page redder
-p1401
-sg25
-g26
-((I2015
-I9
-I21
-I11
-I12
-I21
-I0
-I264
-I1
-tp1402
-(dp1403
-tp1404
-Rp1405
-sg31
-(lp1406
-Vstylesheet
-p1407
-aVpenultimate
-p1408
-asg33
-g26
-((I2015
-I9
-I21
-I11
-I8
-I30
-I0
-I264
-I1
-tp1409
-(dp1410
-tp1411
-Rp1412
-sbsasS'scale'
-p1413
-F0.6030783159800817
-sS'snapping'
-p1414
-I00
-ss.
