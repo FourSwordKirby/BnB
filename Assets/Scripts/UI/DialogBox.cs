@@ -6,7 +6,8 @@ using System.Collections;
 public class DialogBox : MonoBehaviour {
     public Text dialogField;
     public Text speakerField;
-    
+    public bool dialogCompleted;
+
     private string dialog = "";
     private int dialogTracker = 0;
 
@@ -35,7 +36,10 @@ public class DialogBox : MonoBehaviour {
             dialogTracker++;
 
             textDisplayTimer = textDisplaySpeed;
-        };
+            dialogCompleted = false;
+        }
+        else
+            dialogCompleted = true;
 	}
 
     public void displayDialog(string speaker, string dialog, DisplaySpeed displaySpeed = DisplaySpeed.fast)

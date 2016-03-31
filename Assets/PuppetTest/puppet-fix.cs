@@ -7,7 +7,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityTwine;
 
-public class puppet-fix: TwineStory
+public class puppetFix: TwineStory
 {
 	public override TwineVar this[string name]
 	{
