@@ -50,4 +50,9 @@ public class DialogUI : MonoBehaviour
     {
         dialogBox.displayDialog(name, text, speed);
     }
+
+    public void resolveDialog()
+    {
+        dialogBox.resolveDialog();
+    }
 }
