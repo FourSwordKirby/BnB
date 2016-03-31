@@ -18,6 +18,7 @@ public class DialogController : MonoBehaviour
     private List<string> lines;
     private int currentLine;
     private string currentText;
+	private bool newPassage = true;
 
     public void advanceStory()
     {
@@ -25,26 +26,37 @@ public class DialogController : MonoBehaviour
         {
             dialogUI.displayDialog("name", lines[currentLine]);
             currentLine++;
+
+
         }
         else
         {
-            displayOptions();
+            DisplayOptions();
         }
     }
 
-    private void displayOptions()
+    private void DisplayOptions()
     {
         for (int i = 0; i < 3; i++)
         {
             if (i < currentStory.Links.Count)
             {
                 dialogUI.enableOption(i);
+				Debug.Log ("Displaying option " + i + ": " + currentStory.Links [i].Text);
                 dialogUI.displayOption(currentStory.Links[i].Text, i);
             }
             else
                 dialogUI.disableOption(i);
         }
     }
+
+	private void HideOptions()
+	{
+		for (int i = 0; i < 3; i++)
+		{
+			dialogUI.disableOption(i);
+		}
+	}
 
     public void selectOption(int option)
     {
@@ -60,25 +72,46 @@ public class DialogController : MonoBehaviour
     }
 
 	void Clear() {
-		// TODO: Clear dialog output
+		HideOptions ();
+		// TODO: Clear dialogue box
 	}
 
 	void Story_OnStateChanged(TwineStoryState state) {
+		Debug.Log ("Now in state " + state);
+
+
+		if (state == TwineStoryState.Complete) {
+			// TODO: What do we do when no more links?
+		}
 		if (state == TwineStoryState.Idle) {
 			//dialogUI.displayDialog ("", this.currentText);
+		}
+		if (state == TwineStoryState.Playing) {
+			newPassage = true;
+			Clear ();
+
+			// TODO: Clear output date from previous state
 		}
 		
 		//Debug.Log ("Now in state " + state);
 	}
 
 	void Story_OnOutput(TwineOutput output) {
+		Debug.Log ("Recieved output " + output);
+
 		if (output is TwineText) {
+			
 			var text = (TwineText)output;
 			if (IgnoreEmptyLines && text.Text.Trim ().Length < 1)
 				return;
 
-            lines.Add(text.Text);
-			//this.currentText += text.Text;
+			lines.Add (text.Text);
+
+			// Frojo to Roger: this is kind of ugly but works for now?
+			if (newPassage) {
+				newPassage = false;
+				advanceStory ();
+			}
 		}
 	}
 
