@@ -24,10 +24,32 @@ public class DialogController : MonoBehaviour
     {
         if (currentLine < lines.Count)
         {
-            dialogUI.displayDialog("name", lines[currentLine]);
+            string line;
+            string instructions;
+            do
+            {
+                line = "";
+                instructions = "";
+
+                Debug.Log(currentLine);
+                line = lines[currentLine];
+
+                //Uncomment this area when instructions are put on a seperate line from the dialog
+                /*
+                if (line[0] == '[')
+                {
+                    instructions = line.Substring(line.IndexOf("["), line.IndexOf("]"));
+                    //ApplyInstructions(instructions);
+                    currentLine++;
+                }*/
+            } while (instructions != "");
+            
+
+            string speakerName = line.Substring(0, line.IndexOf(":"));
+            string dialog = line.Substring(line.IndexOf(":") + 2);
+
+            dialogUI.displayDialog(speakerName, dialog);
             currentLine++;
-
-
         }
         else
         {
