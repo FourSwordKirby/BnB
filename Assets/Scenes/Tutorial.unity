@@ -85,6 +85,48 @@ NavMeshSettings:
     cellSize: 0.16666667
     manualCellSize: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &34051462
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 34051463}
+  - 114: {fileID: 34051464}
+  m_Layer: 0
+  m_Name: TutorialStoryB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &34051463
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 34051462}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1632717645}
+  m_RootOrder: 1
+--- !u!114 &34051464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 34051462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f83119ef801b44d49d19e2a294cdf11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoPlay: 0
+  StartPassage: Start
+  AdditionalHooks: []
 --- !u!114 &151779479 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11416248, guid: fea20f6881a127243a2ca5793fe43dab,
@@ -174,6 +216,10 @@ Prefab:
       propertyPath: loadedLoveInterest
       value: 
       objectReference: {fileID: 151779479}
+    - target: {fileID: 11462986, guid: e10c4fa56eb233444ae4c3247a0c9dec, type: 2}
+      propertyPath: currentStory
+      value: 
+      objectReference: {fileID: 1992663288}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e10c4fa56eb233444ae4c3247a0c9dec, type: 2}
   m_IsPrefabParent: 0
@@ -405,6 +451,54 @@ Prefab:
     - {fileID: 11417246, guid: 0934b392f59bf405698e6e38edfd2e92, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 0934b392f59bf405698e6e38edfd2e92, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1297016144
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1297016145}
+  - 114: {fileID: 1297016146}
+  m_Layer: 0
+  m_Name: TutorialStoryA
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1297016145
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1297016144}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1632717645}
+  m_RootOrder: 0
+--- !u!114 &1297016146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1297016144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bb4128e8f66d4c85bfed71fe609e3a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoPlay: 0
+  StartPassage: Start
+  AdditionalHooks: []
+--- !u!114 &1324042582 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11462986, guid: e10c4fa56eb233444ae4c3247a0c9dec,
+    type: 2}
+  m_PrefabInternal: {fileID: 517424137}
+  m_Script: {fileID: 11500000, guid: 11f2553e1f5ef83419953757afe61e99, type: 3}
 --- !u!1 &1343823892
 GameObject:
   m_ObjectHideFlags: 0
@@ -430,7 +524,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 281.5, y: 86.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1632717645}
   m_Father: {fileID: 0}
   m_RootOrder: 2
 --- !u!114 &1343823894
@@ -444,8 +539,52 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa1110a68d856cd47ac5915030b2fb13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LoveInterests: 
-  currentDay: 1
+  currentRoom: 0
+--- !u!1 &1632717644
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1632717645}
+  - 114: {fileID: 1632717646}
+  m_Layer: 0
+  m_Name: ScriptedTutorial
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1632717645
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1632717644}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1297016145}
+  - {fileID: 34051463}
+  m_Father: {fileID: 1343823893}
+  m_RootOrder: 0
+--- !u!114 &1632717646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1632717644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54d3f62b75a2148c08c62b68acec8d27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 1343823894}
+  dialogController: {fileID: 1324042582}
+  tutorialA: {fileID: 1297016146}
+  tutorialB: {fileID: 34051464}
 --- !u!224 &1727275658 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 22454932, guid: e10c4fa56eb233444ae4c3247a0c9dec,
@@ -469,6 +608,12 @@ MonoBehaviour:
   AutoPlay: 0
   StartPassage: Start
   AdditionalHooks: []
+--- !u!114 &1992663288 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11447918, guid: fea20f6881a127243a2ca5793fe43dab,
+    type: 2}
+  m_PrefabInternal: {fileID: 2128494238}
+  m_Script: {fileID: 11500000, guid: 900c31b8333374287bfbd113ded20943, type: 3}
 --- !u!1001 &2128494238
 Prefab:
   m_ObjectHideFlags: 0

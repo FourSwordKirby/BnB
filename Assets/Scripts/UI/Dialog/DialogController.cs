@@ -11,7 +11,7 @@ public class DialogController : MonoBehaviour
     public DialogUI dialogUI;
 
     public LoveInterest loadedLoveInterest;
-    private TwineStory currentStory;
+    public TwineStory currentStory;
     private bool storyCompleted;
 
 	public bool IgnoreEmptyLines = true;
@@ -236,7 +236,7 @@ public class DialogController : MonoBehaviour
 
 	void Start() {
 		// TODO: This is just here for testing
-        this.currentStory = loadedLoveInterest.LoveInterestStory;
+        //this.currentStory = loadedLoveInterest.LoveInterestStory;
 
 		/* Register UnityTwine callback functions */
 		this.currentStory.OnOutput += Story_OnOutput;
@@ -245,6 +245,18 @@ public class DialogController : MonoBehaviour
 		this.currentStory.Begin();
 
         dialogUI.displayLoveInterest(loadedLoveInterest, LoveInterest.Emotion.Happy);
+	}
+
+	public void SetupAndBeginStory(TwineStory story) {
+
+		this.currentStory = story;
+		
+		/* Register UnityTwine callback functions */
+		this.currentStory.OnOutput += Story_OnOutput;
+		this.currentStory.OnStateChanged += Story_OnStateChanged;
+
+		this.currentStory.Begin();
+
 	}
 
     void Update()

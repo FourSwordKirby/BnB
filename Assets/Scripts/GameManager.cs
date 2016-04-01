@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour {
 
     public static List<LoveInterest> LoveInterests;
     public static int currentDay;
+	public Room currentRoom;
 
     public enum Room
     {
