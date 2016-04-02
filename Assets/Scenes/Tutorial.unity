@@ -124,7 +124,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f83119ef801b44d49d19e2a294cdf11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AutoPlay: 0
+  AutoPlay: 1
   StartPassage: Start
   AdditionalHooks: []
 --- !u!114 &151779479 stripped
@@ -219,7 +219,15 @@ Prefab:
     - target: {fileID: 11462986, guid: e10c4fa56eb233444ae4c3247a0c9dec, type: 2}
       propertyPath: currentStory
       value: 
-      objectReference: {fileID: 1992663288}
+      objectReference: {fileID: 0}
+    - target: {fileID: 476450, guid: e10c4fa56eb233444ae4c3247a0c9dec, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22461076, guid: e10c4fa56eb233444ae4c3247a0c9dec, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e10c4fa56eb233444ae4c3247a0c9dec, type: 2}
   m_IsPrefabParent: 0
@@ -309,6 +317,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!114 &893759216 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11407238, guid: fea20f6881a127243a2ca5793fe43dab,
+    type: 2}
+  m_PrefabInternal: {fileID: 2128494238}
+  m_Script: {fileID: 11500000, guid: 900c31b8333374287bfbd113ded20943, type: 3}
 --- !u!1 &912570757
 GameObject:
   m_ObjectHideFlags: 0
@@ -490,7 +504,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bb4128e8f66d4c85bfed71fe609e3a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AutoPlay: 0
+  AutoPlay: 1
   StartPassage: Start
   AdditionalHooks: []
 --- !u!114 &1324042582 stripped
@@ -581,10 +595,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54d3f62b75a2148c08c62b68acec8d27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameManager: {fileID: 1343823894}
   dialogController: {fileID: 1324042582}
-  tutorialA: {fileID: 1297016146}
-  tutorialB: {fileID: 34051464}
+  tutorialA: {fileID: 893759216}
+  tutorialB: {fileID: 0}
 --- !u!224 &1727275658 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 22454932, guid: e10c4fa56eb233444ae4c3247a0c9dec,
@@ -608,12 +621,6 @@ MonoBehaviour:
   AutoPlay: 0
   StartPassage: Start
   AdditionalHooks: []
---- !u!114 &1992663288 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 11447918, guid: fea20f6881a127243a2ca5793fe43dab,
-    type: 2}
-  m_PrefabInternal: {fileID: 2128494238}
-  m_Script: {fileID: 11500000, guid: 900c31b8333374287bfbd113ded20943, type: 3}
 --- !u!1001 &2128494238
 Prefab:
   m_ObjectHideFlags: 0

@@ -50,7 +50,6 @@ public class DialogController : MonoBehaviour
 					ApplyInstructions(instructions);
                     currentLine++;
                 }
-				Debug.Log("var instructions = " + instructions);
 			} while (instructions != "");
             
 			//line = lines [currentLine];
@@ -191,8 +190,6 @@ public class DialogController : MonoBehaviour
 	}
 
 	void Story_OnStateChanged(TwineStoryState state) {
-		Debug.Log ("Now in state " + state);
-
 		if (state == TwineStoryState.Complete) {
 			// TODO: What do we do when no more links?
 		}
@@ -214,8 +211,6 @@ public class DialogController : MonoBehaviour
 	}
 
 	void Story_OnOutput(TwineOutput output) {
-		//Debug.Log ("Recieved output " + output);
-
 		if (output is TwineText) {
 			
 			var text = (TwineText)output;
@@ -231,7 +226,6 @@ public class DialogController : MonoBehaviour
     {
         //Initializing internal variables
         this.lines = new List<string>();
-        this.currentLine = 0;
     }
 
 	void Start() {
@@ -239,16 +233,17 @@ public class DialogController : MonoBehaviour
         //this.currentStory = loadedLoveInterest.LoveInterestStory;
 
 		/* Register UnityTwine callback functions */
-		this.currentStory.OnOutput += Story_OnOutput;
+		/*
+        this.currentStory.OnOutput += Story_OnOutput;
 		this.currentStory.OnStateChanged += Story_OnStateChanged;
 
 		this.currentStory.Begin();
 
         dialogUI.displayLoveInterest(loadedLoveInterest, LoveInterest.Emotion.Happy);
+         */
 	}
 
 	public void SetupAndBeginStory(TwineStory story) {
-
 		this.currentStory = story;
 		
 		/* Register UnityTwine callback functions */
@@ -268,7 +263,6 @@ public class DialogController : MonoBehaviour
 
         if (dialogUI.dialogCompleted() && CleanupFunction != null)
         {
-            Debug.Log("made it here");
             CleanupFunction();
             CleanupFunction = null;
         }

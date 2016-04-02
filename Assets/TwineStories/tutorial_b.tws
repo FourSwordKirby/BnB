@@ -1,0 +1,527 @@
+(dp0
+S'buildDestination'
+p1
+VC:\u005cUsers\u005cSam\u005cDesktop\u005ccollege things\u005cgame design\u005cbatb dating sim\u005cbeastlytutorial2.html
+p2
+sS'saveDestination'
+p3
+VC:\u005cUsers\u005cSam\u005cDesktop\u005ccollege things\u005cgame design\u005cbatb dating sim\u005ctutorial_b.tws
+p4
+sS'metadata'
+p5
+(dp6
+sS'target'
+p7
+S'jonah'
+p8
+sS'storyPanel'
+p9
+(dp10
+S'widgets'
+p11
+(lp12
+(dp13
+S'selected'
+p14
+I00
+sS'pos'
+p15
+(lp16
+I295
+aI76
+asS'passage'
+p17
+(itiddlywiki
+Tiddler
+p18
+(dp20
+S'text'
+p21
+V[1, <beau>, <center>, <smile>]\u000aBEAUREGARD: There you are, sire! Excellent. Now we can get you ready to woo a fair maiden.\u000a\u000aBEAST: Look at me, Beauregard. I'm a monster. There's no way any of those women will want me.\u000a\u000a[1, <beau>, <center>, <frown>]\u000aBEAUREGARD: Well, not with that attitude. You'll have to be significantly more well-mannered if you want to win their affections. Come, practice on me.\u000a\u000aBEAST: What?\u000a\u000a[1, <beau>, <center>, <neutral>]\u000aBEAUREGARD: Like this. \u000a\u000a[1, <beau>, <center>, <blush>]\u000aBEAUREGARD: //I'm a young woman from a small village, here to meet the man who could be my future husband...if he plays his cards right.//\u000a\u000aBEAST: Beau, this is ridiculous.\u000a\u000a[1, <beau>, <center>, <frown>]\u000aBEAUREGARD: We're running out of time, sire! Or would you rather face the women downstairs as you are now, having not spoken to a woman in ten years?\u000a\u000aBEAST: ...Fine.\u000a\u000a[1, <beau>, <center>, <neutral>]\u000aBEAUREGARD: Now then. \u000a\u000a[1, <beau>, <center>, <blush>]\u000aBEAUREGARD: //My name's Olivia. What's yours?//\u000a\u000a[[Prince Adam.]]\u000a[[Adam. Just Adam.]]\u000a[[Beast.]]
+p22
+sS'title'
+p23
+VStart
+p24
+sS'modified'
+p25
+ctime
+struct_time
+p26
+((I2016
+I4
+I1
+I13
+I9
+I48
+I4
+I92
+I1
+tp27
+(dp28
+tp29
+Rp30
+sS'tags'
+p31
+(lp32
+VbeauFROWN
+p33
+asS'created'
+p34
+g26
+((I2016
+I3
+I29
+I17
+I53
+I42
+I1
+I89
+I1
+tp35
+(dp36
+tp37
+Rp38
+sbsa(dp39
+g14
+I00
+sg15
+(lp40
+I10
+aI150
+asg17
+(itiddlywiki
+Tiddler
+p41
+(dp42
+g21
+S'Untitled Story'
+p43
+sg23
+S'StoryTitle'
+p44
+sg25
+g26
+((I2016
+I3
+I29
+I17
+I53
+I42
+I1
+I89
+I1
+tp45
+(dp46
+tp47
+Rp48
+sg31
+(lp49
+sg34
+g48
+sbsa(dp50
+g14
+I00
+sg15
+(lp51
+I10
+aI290
+asg17
+(itiddlywiki
+Tiddler
+p52
+(dp53
+g21
+S'Anonymous'
+p54
+sg23
+S'StoryAuthor'
+p55
+sg25
+g26
+((I2016
+I3
+I29
+I17
+I53
+I42
+I1
+I89
+I1
+tp56
+(dp57
+tp58
+Rp59
+sg31
+(lp60
+sg34
+g59
+sbsa(dp61
+g14
+I00
+sg15
+(lp62
+F295.0
+aF248.0
+asg17
+(itiddlywiki
+Tiddler
+p63
+(dp64
+g21
+VBEAUREGARD: [1, <beau>, <center>, <smile>]\u000a//A pleasure to meet you, your majesty! //\u000a\u000aBEAUREGARD: [1, <beau>, <center>, <blush>]\u000a//So, what is it like, living in a castle?//\u000a\u000a[[I certainly enjoy it. I hope you will, too.]]\u000a[[It's alright. Better than living in a straw hut, I suppose.]]\u000a[[Living in a castle alone, because I'm too beastly for anyone to look at? It's fantastic.]]
+p65
+sg23
+VPrince Adam.
+p66
+sg25
+g26
+((I2016
+I3
+I31
+I23
+I36
+I36
+I3
+I91
+I1
+tp67
+(dp68
+tp69
+Rp70
+sg31
+(lp71
+VbeauSMILE
+p72
+asg34
+g26
+((I2016
+I3
+I29
+I17
+I55
+I21
+I1
+I89
+I1
+tp73
+(dp74
+tp75
+Rp76
+sbsa(dp77
+g14
+I00
+sg15
+(lp78
+F441.0
+aF249.0
+asg17
+(itiddlywiki
+Tiddler
+p79
+(dp80
+g21
+V[1, <beau>, <center>, <smile>]\u000aBEAUREGARD: //Oh, so humble! A pleasure to meet you, Adam.// \u000a\u000a[1, <beau>, <center>, <blush>]\u000aBEAUREGARD: //So, what is it like, living in a castle?//\u000a\u000a[[I certainly enjoy it. I hope you will, too.]]\u000a[[It's alright. Better than living in a straw hut, I suppose.]]\u000a[[Living in a castle alone, because I'm too beastly for anyone to look at? It's fantastic.]]
+p81
+sg23
+VAdam. Just Adam.
+p82
+sg25
+g26
+((I2016
+I3
+I31
+I23
+I36
+I43
+I3
+I91
+I1
+tp83
+(dp84
+tp85
+Rp86
+sg31
+(lp87
+VbeauSMILE
+p88
+asg34
+g26
+((I2016
+I3
+I29
+I17
+I55
+I21
+I1
+I89
+I1
+tp89
+(dp90
+tp91
+Rp92
+sbsa(dp93
+g14
+I00
+sg15
+(lp94
+F507.0
+aF76.0
+asg17
+(itiddlywiki
+Tiddler
+p95
+(dp96
+g21
+V[1, <beau>, <center>, <angry>]\u000aBEAUREGARD: Don't be ridiculous, sire! I won't have you introducing yourself with that //silly// nickname you came up with. It's depressing.\u000a\u000a[[Fine. Prince Adam, then.|Prince Adam.]]\u000a[[Then my name is Adam. Just Adam.|Adam. Just Adam.]]\u000a[[Being like this is depressing. The name suits me.]]
+p97
+sg23
+VBeast.
+p98
+sg25
+g26
+((I2016
+I3
+I31
+I23
+I36
+I23
+I3
+I91
+I1
+tp99
+(dp100
+tp101
+Rp102
+sg31
+(lp103
+VbeauANGRY
+p104
+asg34
+g26
+((I2016
+I3
+I29
+I17
+I55
+I21
+I1
+I89
+I1
+tp105
+(dp106
+tp107
+Rp108
+sbsa(dp109
+g14
+I00
+sg15
+(lp110
+F587.0
+aF249.0
+asg17
+(itiddlywiki
+Tiddler
+p111
+(dp112
+g21
+V[1, <beau>, <center>, <frown>]\u000aBEAUREGARD: Ugh! You're impossible. Let's just keep going. \u000a\u000a[1, <beau>, <center>, <neutral>]\u000aBEAUREGARD: Ahem. \u000a\u000a[1, <beau>, <center>, <blush>]\u000aBEAUREGARD: //So, what is it like, living in a castle?//\u000a\u000a[[I certainly enjoy it. I hope you will, too.]]\u000a[[It's alright. Better than living in a straw hut, I suppose.]]\u000a[[Living in a castle alone, because I'm too beastly for anyone to look at? It's fantastic.]]
+p113
+sg23
+VBeing like this is depressing. The name suits me.
+p114
+sg25
+g26
+((I2016
+I3
+I31
+I23
+I36
+I49
+I3
+I91
+I1
+tp115
+(dp116
+tp117
+Rp118
+sg31
+(lp119
+VbeauFROWN
+p120
+asg34
+g26
+((I2016
+I3
+I29
+I18
+I20
+I57
+I1
+I89
+I1
+tp121
+(dp122
+tp123
+Rp124
+sbsa(dp125
+g14
+I00
+sg15
+(lp126
+F584.0
+aF496.0
+asg17
+(itiddlywiki
+Tiddler
+p127
+(dp128
+g21
+V[1, <beau>, <center>, <frown>]\u000aBEAUREGARD: Ugh! Fine. I don't know why I bother. \u000a\u000aBEAUREGARD: There's no point in delaying it any longer, sire, foul mood or no. \u000a\u000aBEAUREGARD: Come on, then. I'll meet you downstairs in the great hall.
+p129
+sg23
+VLiving in a castle alone, because I'm too beastly for anyone to look at? It's fantastic.
+p130
+sg25
+g26
+((I2016
+I3
+I31
+I23
+I37
+I2
+I3
+I91
+I1
+tp131
+(dp132
+tp133
+Rp134
+sg31
+(lp135
+sg34
+g26
+((I2016
+I3
+I30
+I1
+I41
+I53
+I2
+I90
+I1
+tp136
+(dp137
+tp138
+Rp139
+sbsa(dp140
+g14
+I00
+sg15
+(lp141
+F438.0
+aF496.0
+asg17
+(itiddlywiki
+Tiddler
+p142
+(dp143
+g21
+V[1, <beau>, <center>, <neutral>]\u000aBEAUREGARD: Please, sire, try to control your enthusiasm. \u000a\u000aBEAUREGARD: Well, I'd say this is as good a time as any to face the ladies downstairs, don't you think? \u000a\u000aBEAUREGARD: I'll be waiting for you downstairs, in the great hall.
+p144
+sg23
+VIt's alright. Better than living in a straw hut, I suppose.
+p145
+sg25
+g26
+((I2016
+I3
+I31
+I23
+I36
+I58
+I3
+I91
+I1
+tp146
+(dp147
+tp148
+Rp149
+sg31
+(lp150
+VbeauFROWN
+p151
+asg34
+g26
+((I2016
+I3
+I30
+I1
+I41
+I53
+I2
+I90
+I1
+tp152
+(dp153
+tp154
+Rp155
+sbsa(dp156
+g14
+I00
+sg15
+(lp157
+F293.0
+aF495.0
+asg17
+(itiddlywiki
+Tiddler
+p158
+(dp159
+g21
+V[1, <beau>, <center>, <smile>]\u000aBEAUREGARD: Very good, sire! If I were a young lady, I'm sure I'd feel very charmed.\u000a\u000aBEAUREGARD: I'm quite sure you're ready to face your suitors. Shall we, then?\u000a\u000aBEAUREGARD: I'll be waiting for you downstairs, in the great hall. Good luck, sire!
+p160
+sg23
+VI certainly enjoy it. I hope you will, too.
+p161
+sg25
+g26
+((I2016
+I3
+I31
+I23
+I36
+I54
+I3
+I91
+I1
+tp162
+(dp163
+tp164
+Rp165
+sg31
+(lp166
+VbeauSMILE
+p167
+asg34
+g26
+((I2016
+I3
+I30
+I1
+I41
+I53
+I2
+I90
+I1
+tp168
+(dp169
+tp170
+Rp171
+sbsasS'scale'
+p172
+I1
+sS'snapping'
+p173
+I00
+ss.

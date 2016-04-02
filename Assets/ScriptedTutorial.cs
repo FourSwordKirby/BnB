@@ -4,23 +4,22 @@ using UnityTwine;
 
 public class ScriptedTutorial : MonoBehaviour {
 
-	public GameManager gameManager;
 	public DialogController dialogController;
 
 	public TwineStory tutorialA;
 	public TwineStory tutorialB;
 
 	// Use this for initialization
-	void Start () {	
-	
+	void Start () {
+        Begin();
 	}
 
 	void Begin () {
 		// Set room to outside
-		DialogController.SetupAndBeginStory (tutorialA);
+		dialogController.SetupAndBeginStory (tutorialA);
 
-		// After Tutorial A is done, change room to parlor
-		DialogController.SetupAndBeginStory(tutorialB);
+		// After Tutorial A is done, the player should go to the parlor to talk to Beau and continue the game
+		// dialogController.SetupAndBeginStory(tutorialB);
 	}
 	
 	// Update is called once per frame
