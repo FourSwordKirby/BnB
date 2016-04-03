@@ -5,9 +5,15 @@ using UnityTwine;
 public class ScriptedTutorial : MonoBehaviour {
 
 	public DialogController dialogController;
+	public GameManager gameManager;
+
+	public Room bedroom;
+	public Room parlor;
 
 	public TwineStory tutorialA;
 	public TwineStory tutorialB;
+
+	private bool firstTimeInParlor = true;
 
 	// Use this for initialization
 	void Start () {
@@ -15,7 +21,8 @@ public class ScriptedTutorial : MonoBehaviour {
 	}
 
 	void Begin () {
-		// Set room to outside
+		gameManager.LoadRoom (bedroom);
+			
 		dialogController.SetupAndBeginStory (tutorialA);
 
 		// After Tutorial A is done, the player should go to the parlor to talk to Beau and continue the game
@@ -24,6 +31,13 @@ public class ScriptedTutorial : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+		if (gameManager.currentRoom == parlor) {
+			Debug.Log ("In parlor!");
+			if (firstTimeInParlor) {
+				Debug.Log ("First time in partlor!");
+				firstTimeInParlor = false;
+				dialogController.SetupAndBeginStory (tutorialB);
+			}
+		}
 	}
 }
