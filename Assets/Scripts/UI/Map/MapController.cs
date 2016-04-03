@@ -4,6 +4,9 @@ using System.Collections.Generic;
 
 public class MapController : MonoBehaviour {
     public Mansion mansion;
+	public GameManager gameManager;
     public List<RoomDisplay> roomDisplays;
+
+
 
 }

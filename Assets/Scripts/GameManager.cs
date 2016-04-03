@@ -39,6 +39,11 @@ public class GameManager : MonoBehaviour {
         Picture
     }
 
+	public void MoveToRoom(Room room) {
+		currentRoom = room;
+		// TODO: Tell background controller to load room
+	}
+
     public void Awake()
     {
         LoveInterests = new List<LoveInterest>(GameObject.FindObjectsOfType<LoveInterest>());
