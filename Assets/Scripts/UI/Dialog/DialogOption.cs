@@ -5,12 +5,7 @@ using System.Collections;
 
 public class DialogOption : MonoBehaviour {
 
-    public Text optionText { get; private set; }
-
-    void Start()
-    {
-        this.optionText = this.GetComponent<Text>();
-    }
+    public Text optionText;
 
     public void displayOption(string option)
     {
