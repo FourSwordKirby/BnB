@@ -168,6 +168,18 @@ Prefab:
       propertyPath: m_Name
       value: Kitchen
       objectReference: {fileID: 0}
+    - target: {fileID: 11488696, guid: 145ddd089a6e64c3cbf4eb94fefde3d0, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 738593731}
+    - target: {fileID: 11488696, guid: 145ddd089a6e64c3cbf4eb94fefde3d0, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RoomClicked
+      objectReference: {fileID: 0}
+    - target: {fileID: 11488696, guid: 145ddd089a6e64c3cbf4eb94fefde3d0, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1133819438}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 145ddd089a6e64c3cbf4eb94fefde3d0, type: 2}
   m_IsPrefabParent: 0
@@ -301,6 +313,22 @@ Prefab:
       propertyPath: m_Name
       value: Library
       objectReference: {fileID: 0}
+    - target: {fileID: 11449136, guid: 145ddd089a6e64c3cbf4eb94fefde3d0, type: 2}
+      propertyPath: room
+      value: 
+      objectReference: {fileID: 1109174144}
+    - target: {fileID: 11488696, guid: 145ddd089a6e64c3cbf4eb94fefde3d0, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 738593731}
+    - target: {fileID: 11488696, guid: 145ddd089a6e64c3cbf4eb94fefde3d0, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RoomClicked
+      objectReference: {fileID: 0}
+    - target: {fileID: 11488696, guid: 145ddd089a6e64c3cbf4eb94fefde3d0, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1109174144}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 145ddd089a6e64c3cbf4eb94fefde3d0, type: 2}
   m_IsPrefabParent: 0
@@ -315,6 +343,12 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 2128494238}
   m_Script: {fileID: 11500000, guid: ba2c38a12153b634f9316c3554c898ee, type: 3}
+--- !u!114 &209578718 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11485486, guid: c7b9a94ddc8f45d43bf6fce2e3b48c60,
+    type: 2}
+  m_PrefabInternal: {fileID: 1881282106}
+  m_Script: {fileID: 11500000, guid: e18b4fb8b7c74e744b01b17fef4d9e8b, type: 3}
 --- !u!1001 &248868628
 Prefab:
   m_ObjectHideFlags: 0
@@ -398,6 +432,18 @@ Prefab:
       propertyPath: m_Name
       value: Bedroom
       objectReference: {fileID: 0}
+    - target: {fileID: 11488696, guid: 145ddd089a6e64c3cbf4eb94fefde3d0, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 738593731}
+    - target: {fileID: 11488696, guid: 145ddd089a6e64c3cbf4eb94fefde3d0, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RoomClicked
+      objectReference: {fileID: 0}
+    - target: {fileID: 11488696, guid: 145ddd089a6e64c3cbf4eb94fefde3d0, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 2141531993}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 145ddd089a6e64c3cbf4eb94fefde3d0, type: 2}
   m_IsPrefabParent: 0
@@ -495,6 +541,22 @@ Prefab:
       propertyPath: m_Name
       value: WineCellar
       objectReference: {fileID: 0}
+    - target: {fileID: 11449136, guid: 145ddd089a6e64c3cbf4eb94fefde3d0, type: 2}
+      propertyPath: room
+      value: 
+      objectReference: {fileID: 209578718}
+    - target: {fileID: 11488696, guid: 145ddd089a6e64c3cbf4eb94fefde3d0, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 738593731}
+    - target: {fileID: 11488696, guid: 145ddd089a6e64c3cbf4eb94fefde3d0, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RoomClicked
+      objectReference: {fileID: 0}
+    - target: {fileID: 11488696, guid: 145ddd089a6e64c3cbf4eb94fefde3d0, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 209578718}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 145ddd089a6e64c3cbf4eb94fefde3d0, type: 2}
   m_IsPrefabParent: 0
@@ -503,6 +565,12 @@ RectTransform:
   m_PrefabParentObject: {fileID: 22412050, guid: 145ddd089a6e64c3cbf4eb94fefde3d0,
     type: 2}
   m_PrefabInternal: {fileID: 328363845}
+--- !u!114 &362675297 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11419572, guid: c7b9a94ddc8f45d43bf6fce2e3b48c60,
+    type: 2}
+  m_PrefabInternal: {fileID: 1881282106}
+  m_Script: {fileID: 11500000, guid: e18b4fb8b7c74e744b01b17fef4d9e8b, type: 3}
 --- !u!1 &489052746
 GameObject:
   m_ObjectHideFlags: 0
@@ -834,6 +902,18 @@ Prefab:
       propertyPath: m_Name
       value: Porch
       objectReference: {fileID: 0}
+    - target: {fileID: 11488696, guid: 145ddd089a6e64c3cbf4eb94fefde3d0, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 738593731}
+    - target: {fileID: 11488696, guid: 145ddd089a6e64c3cbf4eb94fefde3d0, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RoomClicked
+      objectReference: {fileID: 0}
+    - target: {fileID: 11488696, guid: 145ddd089a6e64c3cbf4eb94fefde3d0, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1723142992}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 145ddd089a6e64c3cbf4eb94fefde3d0, type: 2}
   m_IsPrefabParent: 0
@@ -925,6 +1005,22 @@ Prefab:
       propertyPath: m_Name
       value: Parlor
       objectReference: {fileID: 0}
+    - target: {fileID: 11488696, guid: 145ddd089a6e64c3cbf4eb94fefde3d0, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 738593731}
+    - target: {fileID: 11488696, guid: 145ddd089a6e64c3cbf4eb94fefde3d0, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RoomClicked
+      objectReference: {fileID: 0}
+    - target: {fileID: 11449136, guid: 145ddd089a6e64c3cbf4eb94fefde3d0, type: 2}
+      propertyPath: room
+      value: 
+      objectReference: {fileID: 362675297}
+    - target: {fileID: 11488696, guid: 145ddd089a6e64c3cbf4eb94fefde3d0, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 362675297}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 145ddd089a6e64c3cbf4eb94fefde3d0, type: 2}
   m_IsPrefabParent: 0
@@ -1316,11 +1412,29 @@ RectTransform:
   m_PrefabParentObject: {fileID: 22412050, guid: 145ddd089a6e64c3cbf4eb94fefde3d0,
     type: 2}
   m_PrefabInternal: {fileID: 1927819761}
+--- !u!114 &1109174144 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11492742, guid: c7b9a94ddc8f45d43bf6fce2e3b48c60,
+    type: 2}
+  m_PrefabInternal: {fileID: 1881282106}
+  m_Script: {fileID: 11500000, guid: e18b4fb8b7c74e744b01b17fef4d9e8b, type: 3}
 --- !u!224 &1130001941 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 22427442, guid: e8c3591ee5acd57419b769e15cc8630b,
     type: 2}
   m_PrefabInternal: {fileID: 1227574083}
+--- !u!114 &1133819438 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11460824, guid: c7b9a94ddc8f45d43bf6fce2e3b48c60,
+    type: 2}
+  m_PrefabInternal: {fileID: 1881282106}
+  m_Script: {fileID: 11500000, guid: e18b4fb8b7c74e744b01b17fef4d9e8b, type: 3}
+--- !u!114 &1144087266 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11471912, guid: c7b9a94ddc8f45d43bf6fce2e3b48c60,
+    type: 2}
+  m_PrefabInternal: {fileID: 1881282106}
+  m_Script: {fileID: 11500000, guid: e18b4fb8b7c74e744b01b17fef4d9e8b, type: 3}
 --- !u!1001 &1227574083
 Prefab:
   m_ObjectHideFlags: 0
@@ -1628,6 +1742,12 @@ MonoBehaviour:
   dialogController: {fileID: 1324042582}
   tutorialA: {fileID: 307597277}
   tutorialB: {fileID: 0}
+--- !u!114 &1723142992 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11491536, guid: c7b9a94ddc8f45d43bf6fce2e3b48c60,
+    type: 2}
+  m_PrefabInternal: {fileID: 1881282106}
+  m_Script: {fileID: 11500000, guid: e18b4fb8b7c74e744b01b17fef4d9e8b, type: 3}
 --- !u!224 &1727275658 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 22454932, guid: e10c4fa56eb233444ae4c3247a0c9dec,
@@ -1854,6 +1974,18 @@ Prefab:
       propertyPath: m_Name
       value: Drawing
       objectReference: {fileID: 0}
+    - target: {fileID: 11488696, guid: 145ddd089a6e64c3cbf4eb94fefde3d0, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 738593731}
+    - target: {fileID: 11488696, guid: 145ddd089a6e64c3cbf4eb94fefde3d0, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RoomClicked
+      objectReference: {fileID: 0}
+    - target: {fileID: 11488696, guid: 145ddd089a6e64c3cbf4eb94fefde3d0, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1144087266}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 145ddd089a6e64c3cbf4eb94fefde3d0, type: 2}
   m_IsPrefabParent: 0
@@ -1949,6 +2081,11 @@ Prefab:
       propertyPath: unlocked
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11430658, guid: c7b9a94ddc8f45d43bf6fce2e3b48c60, type: 2}
+      propertyPath: background
+      value: 
+      objectReference: {fileID: 21300000, guid: 6462915b94c442140b8a761d12ffe546,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c7b9a94ddc8f45d43bf6fce2e3b48c60, type: 2}
   m_IsPrefabParent: 0
@@ -2194,3 +2331,9 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 47b20e8dfd9e961489a6713333911f81, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &2141531993 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11430658, guid: c7b9a94ddc8f45d43bf6fce2e3b48c60,
+    type: 2}
+  m_PrefabInternal: {fileID: 1881282106}
+  m_Script: {fileID: 11500000, guid: e18b4fb8b7c74e744b01b17fef4d9e8b, type: 3}

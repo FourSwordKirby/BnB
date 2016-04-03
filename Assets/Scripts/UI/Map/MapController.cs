@@ -22,8 +22,9 @@ public class MapController : MonoBehaviour {
 	public void RoomClicked(Room room) {
 		if (room.unlocked) {
 			gameManager.LoadRoom (room);
+			hideMap();
 		} else {
-			
+			// TODO: Some feedback to player telling them you can't do this
 		}
 		// hideMap();
 	}
