@@ -20,7 +20,11 @@ public class MapController : MonoBehaviour {
     }
 
 	public void RoomClicked(Room room) {
-		gameManager.LoadRoom (room);
+		if (room.unlocked) {
+			gameManager.LoadRoom (room);
+		} else {
+			
+		}
 		// hideMap();
 	}
 }

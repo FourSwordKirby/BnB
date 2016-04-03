@@ -1852,7 +1852,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 125822, guid: 145ddd089a6e64c3cbf4eb94fefde3d0, type: 2}
       propertyPath: m_Name
-      value: DrawingRoom
+      value: Drawing
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 145ddd089a6e64c3cbf4eb94fefde3d0, type: 2}
@@ -1903,11 +1903,51 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 151298, guid: c7b9a94ddc8f45d43bf6fce2e3b48c60, type: 2}
       propertyPath: m_Name
-      value: Room1
+      value: Dining
       objectReference: {fileID: 0}
     - target: {fileID: 196984, guid: c7b9a94ddc8f45d43bf6fce2e3b48c60, type: 2}
       propertyPath: m_Name
-      value: Room2
+      value: Pasture
+      objectReference: {fileID: 0}
+    - target: {fileID: 196178, guid: c7b9a94ddc8f45d43bf6fce2e3b48c60, type: 2}
+      propertyPath: m_Name
+      value: Library
+      objectReference: {fileID: 0}
+    - target: {fileID: 190910, guid: c7b9a94ddc8f45d43bf6fce2e3b48c60, type: 2}
+      propertyPath: m_Name
+      value: WineCellar
+      objectReference: {fileID: 0}
+    - target: {fileID: 198784, guid: c7b9a94ddc8f45d43bf6fce2e3b48c60, type: 2}
+      propertyPath: m_Name
+      value: Kitchen
+      objectReference: {fileID: 0}
+    - target: {fileID: 185922, guid: c7b9a94ddc8f45d43bf6fce2e3b48c60, type: 2}
+      propertyPath: m_Name
+      value: Parlor
+      objectReference: {fileID: 0}
+    - target: {fileID: 129002, guid: c7b9a94ddc8f45d43bf6fce2e3b48c60, type: 2}
+      propertyPath: m_Name
+      value: Porch
+      objectReference: {fileID: 0}
+    - target: {fileID: 102302, guid: c7b9a94ddc8f45d43bf6fce2e3b48c60, type: 2}
+      propertyPath: m_Name
+      value: Drawing
+      objectReference: {fileID: 0}
+    - target: {fileID: 149292, guid: c7b9a94ddc8f45d43bf6fce2e3b48c60, type: 2}
+      propertyPath: m_Name
+      value: Bedroom
+      objectReference: {fileID: 0}
+    - target: {fileID: 11452024, guid: c7b9a94ddc8f45d43bf6fce2e3b48c60, type: 2}
+      propertyPath: unlocked
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11419572, guid: c7b9a94ddc8f45d43bf6fce2e3b48c60, type: 2}
+      propertyPath: unlocked
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11430658, guid: c7b9a94ddc8f45d43bf6fce2e3b48c60, type: 2}
+      propertyPath: unlocked
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c7b9a94ddc8f45d43bf6fce2e3b48c60, type: 2}
