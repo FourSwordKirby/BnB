@@ -37,7 +37,7 @@ p18
 (dp20
 S'text'
 p21
-V[1, <beau>, <center>, <smile>]\u000aBEAUREGARD: There you are, sire! Excellent. Now we can get you ready to woo a fair maiden.\u000a\u000aBEAST: Look at me, Beauregard. I'm a monster. There's no way any of those women will want me.\u000a\u000a[1, <beau>, <center>, <frown>]\u000aBEAUREGARD: Well, not with that attitude. You'll have to be significantly more well-mannered if you want to win their affections. Come, practice on me.\u000a\u000aBEAST: What?\u000a\u000a[1, <beau>, <center>, <neutral>]\u000aBEAUREGARD: Like this. \u000a\u000a[1, <beau>, <center>, <blush>]\u000aBEAUREGARD: //I'm a young woman from a small village, here to meet the man who could be my future husband...if he plays his cards right.//\u000a\u000aBEAST: Beau, this is ridiculous.\u000a\u000a[1, <beau>, <center>, <frown>]\u000aBEAUREGARD: We're running out of time, sire! Or would you rather face the women downstairs as you are now, having not spoken to a woman in ten years?\u000a\u000aBEAST: ...Fine.\u000a\u000a[1, <beau>, <center>, <neutral>]\u000aBEAUREGARD: Now then. \u000a\u000a[1, <beau>, <center>, <blush>]\u000aBEAUREGARD: //My name's Olivia. What's yours?//\u000a\u000a[[Prince Adam.]]\u000a[[Adam. Just Adam.]]\u000a[[Beast.]]
+V%1, <beau>, <center>, <smile>%\u000aBEAUREGARD: There you are, sire! Excellent. Now we can get you ready to woo a fair maiden.\u000a\u000aBEAST: Look at me, Beauregard. I'm a monster. There's no way any of those women will want me.\u000a\u000a%1, <beau>, <center>, <frown>%\u000aBEAUREGARD: Well, not with that attitude. You'll have to be significantly more well-mannered if you want to win their affections. Come, practice on me.\u000a\u000aBEAST: What?\u000a\u000a%1, <beau>, <center>, <neutral>%\u000aBEAUREGARD: Like this. \u000a\u000a%1, <beau>, <center>, <blush>%\u000aBEAUREGARD: //I'm a young woman from a small village, here to meet the man who could be my future husband...if he plays his cards right.//\u000a\u000aBEAST: Beau, this is ridiculous.\u000a\u000a%1, <beau>, <center>, <frown>%\u000aBEAUREGARD: We're running out of time, sire! Or would you rather face the women downstairs as you are now, having not spoken to a woman in ten years?\u000a\u000aBEAST: ...Fine.\u000a\u000a%1, <beau>, <center>, <neutral>%\u000aBEAUREGARD: Now then. \u000a\u000a%1, <beau>, <center>, <blush>%\u000aBEAUREGARD: //My name's Olivia. What's yours?//\u000a\u000a[[Prince Adam.]]\u000a[[Adam. Just Adam.]]\u000a[[Beast.]]
 p22
 sS'title'
 p23
@@ -50,12 +50,12 @@ struct_time
 p26
 ((I2016
 I4
-I1
+I3
 I13
-I9
-I48
-I4
-I92
+I32
+I7
+I6
+I94
 I1
 tp27
 (dp28
@@ -169,7 +169,7 @@ Tiddler
 p63
 (dp64
 g21
-VBEAUREGARD: [1, <beau>, <center>, <smile>]\u000a//A pleasure to meet you, your majesty! //\u000a\u000aBEAUREGARD: [1, <beau>, <center>, <blush>]\u000a//So, what is it like, living in a castle?//\u000a\u000a[[I certainly enjoy it. I hope you will, too.]]\u000a[[It's alright. Better than living in a straw hut, I suppose.]]\u000a[[Living in a castle alone, because I'm too beastly for anyone to look at? It's fantastic.]]
+VBEAUREGARD: %1, <beau>, <center>, <smile>%\u000a//A pleasure to meet you, your majesty! //\u000a\u000aBEAUREGARD: %1, <beau>, <center>, <blush>%\u000a//So, what is it like, living in a castle?//\u000a\u000a[[I certainly enjoy it. I hope you will, too.]]\u000a[[It's alright. Better than living in a straw hut, I suppose.]]\u000a[[Living in a castle alone, because I'm too beastly for anyone to look at? It's fantastic.]]
 p65
 sg23
 VPrince Adam.
@@ -177,13 +177,13 @@ p66
 sg25
 g26
 ((I2016
+I4
 I3
-I31
-I23
-I36
-I36
-I3
-I91
+I13
+I33
+I1
+I6
+I94
 I1
 tp67
 (dp68
@@ -221,7 +221,7 @@ Tiddler
 p79
 (dp80
 g21
-V[1, <beau>, <center>, <smile>]\u000aBEAUREGARD: //Oh, so humble! A pleasure to meet you, Adam.// \u000a\u000a[1, <beau>, <center>, <blush>]\u000aBEAUREGARD: //So, what is it like, living in a castle?//\u000a\u000a[[I certainly enjoy it. I hope you will, too.]]\u000a[[It's alright. Better than living in a straw hut, I suppose.]]\u000a[[Living in a castle alone, because I'm too beastly for anyone to look at? It's fantastic.]]
+V%1, <beau>, <center>, <smile>%\u000aBEAUREGARD: //Oh, so humble! A pleasure to meet you, Adam.// \u000a\u000a%1, <beau>, <center>, <blush>%\u000aBEAUREGARD: //So, what is it like, living in a castle?//\u000a\u000a[[I certainly enjoy it. I hope you will, too.]]\u000a[[It's alright. Better than living in a straw hut, I suppose.]]\u000a[[Living in a castle alone, because I'm too beastly for anyone to look at? It's fantastic.]]
 p81
 sg23
 VAdam. Just Adam.
@@ -229,13 +229,13 @@ p82
 sg25
 g26
 ((I2016
+I4
 I3
-I31
-I23
-I36
-I43
-I3
-I91
+I13
+I33
+I20
+I6
+I94
 I1
 tp83
 (dp84
@@ -273,7 +273,7 @@ Tiddler
 p95
 (dp96
 g21
-V[1, <beau>, <center>, <angry>]\u000aBEAUREGARD: Don't be ridiculous, sire! I won't have you introducing yourself with that //silly// nickname you came up with. It's depressing.\u000a\u000a[[Fine. Prince Adam, then.|Prince Adam.]]\u000a[[Then my name is Adam. Just Adam.|Adam. Just Adam.]]\u000a[[Being like this is depressing. The name suits me.]]
+V%1, <beau>, <center>, <angry>%\u000aBEAUREGARD: Don't be ridiculous, sire! I won't have you introducing yourself with that //silly// nickname you came up with. It's depressing.\u000a\u000a[[Fine. Prince Adam, then.|Prince Adam.]]\u000a[[Then my name is Adam. Just Adam.|Adam. Just Adam.]]\u000a[[Being like this is depressing. The name suits me.]]
 p97
 sg23
 VBeast.
@@ -281,13 +281,13 @@ p98
 sg25
 g26
 ((I2016
+I4
 I3
-I31
-I23
-I36
-I23
-I3
-I91
+I13
+I32
+I41
+I6
+I94
 I1
 tp99
 (dp100
@@ -325,7 +325,7 @@ Tiddler
 p111
 (dp112
 g21
-V[1, <beau>, <center>, <frown>]\u000aBEAUREGARD: Ugh! You're impossible. Let's just keep going. \u000a\u000a[1, <beau>, <center>, <neutral>]\u000aBEAUREGARD: Ahem. \u000a\u000a[1, <beau>, <center>, <blush>]\u000aBEAUREGARD: //So, what is it like, living in a castle?//\u000a\u000a[[I certainly enjoy it. I hope you will, too.]]\u000a[[It's alright. Better than living in a straw hut, I suppose.]]\u000a[[Living in a castle alone, because I'm too beastly for anyone to look at? It's fantastic.]]
+V%1, <beau>, <center>, <frown>%\u000aBEAUREGARD: Ugh! You're impossible. Let's just keep going. \u000a\u000a%1, <beau>, <center>, <neutral>%\u000aBEAUREGARD: Ahem. \u000a\u000a%1, <beau>, <center>, <blush>%\u000aBEAUREGARD: //So, what is it like, living in a castle?//\u000a\u000a[[I certainly enjoy it. I hope you will, too.]]\u000a[[It's alright. Better than living in a straw hut, I suppose.]]\u000a[[Living in a castle alone, because I'm too beastly for anyone to look at? It's fantastic.]]
 p113
 sg23
 VBeing like this is depressing. The name suits me.
@@ -333,13 +333,13 @@ p114
 sg25
 g26
 ((I2016
+I4
 I3
-I31
-I23
-I36
-I49
-I3
-I91
+I13
+I33
+I43
+I6
+I94
 I1
 tp115
 (dp116
@@ -377,7 +377,7 @@ Tiddler
 p127
 (dp128
 g21
-V[1, <beau>, <center>, <frown>]\u000aBEAUREGARD: Ugh! Fine. I don't know why I bother. \u000a\u000aBEAUREGARD: There's no point in delaying it any longer, sire, foul mood or no. \u000a\u000aBEAUREGARD: Come on, then. I'll meet you downstairs in the great hall.
+V%1, <beau>, <center>, <frown>%\u000aBEAUREGARD: Ugh! Fine. I don't know why I bother. \u000a\u000aBEAUREGARD: There's no point in delaying it any longer, sire, foul mood or no. \u000a\u000aBEAUREGARD: Come on, then. I'll meet you downstairs in the great hall.
 p129
 sg23
 VLiving in a castle alone, because I'm too beastly for anyone to look at? It's fantastic.
@@ -385,13 +385,13 @@ p130
 sg25
 g26
 ((I2016
+I4
 I3
-I31
-I23
-I37
-I2
-I3
-I91
+I13
+I34
+I14
+I6
+I94
 I1
 tp131
 (dp132
@@ -427,7 +427,7 @@ Tiddler
 p142
 (dp143
 g21
-V[1, <beau>, <center>, <neutral>]\u000aBEAUREGARD: Please, sire, try to control your enthusiasm. \u000a\u000aBEAUREGARD: Well, I'd say this is as good a time as any to face the ladies downstairs, don't you think? \u000a\u000aBEAUREGARD: I'll be waiting for you downstairs, in the great hall.
+V%1, <beau>, <center>, <neutral>%\u000aBEAUREGARD: Please, sire, try to control your enthusiasm. \u000a\u000aBEAUREGARD: Well, I'd say this is as good a time as any to face the ladies downstairs, don't you think? \u000a\u000aBEAUREGARD: I'll be waiting for you downstairs, in the great hall.
 p144
 sg23
 VIt's alright. Better than living in a straw hut, I suppose.
@@ -435,13 +435,13 @@ p145
 sg25
 g26
 ((I2016
+I4
 I3
-I31
-I23
-I36
-I58
-I3
-I91
+I13
+I34
+I5
+I6
+I94
 I1
 tp146
 (dp147
@@ -479,7 +479,7 @@ Tiddler
 p158
 (dp159
 g21
-V[1, <beau>, <center>, <smile>]\u000aBEAUREGARD: Very good, sire! If I were a young lady, I'm sure I'd feel very charmed.\u000a\u000aBEAUREGARD: I'm quite sure you're ready to face your suitors. Shall we, then?\u000a\u000aBEAUREGARD: I'll be waiting for you downstairs, in the great hall. Good luck, sire!
+V%1, <beau>, <center>, <smile>%\u000aBEAUREGARD: Very good, sire! If I were a young lady, I'm sure I'd feel very charmed.\u000a\u000aBEAUREGARD: I'm quite sure you're ready to face your suitors. Shall we, then?\u000a\u000aBEAUREGARD: I'll be waiting for you downstairs, in the great hall. Good luck, sire!
 p160
 sg23
 VI certainly enjoy it. I hope you will, too.
@@ -487,13 +487,13 @@ p161
 sg25
 g26
 ((I2016
+I4
 I3
-I31
-I23
-I36
-I54
-I3
-I91
+I13
+I33
+I55
+I6
+I94
 I1
 tp162
 (dp163
