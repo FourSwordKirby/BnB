@@ -21,5 +21,6 @@ public class MapController : MonoBehaviour {
 
 	public void RoomClicked(Room room) {
 		gameManager.LoadRoom (room);
+		// hideMap();
 	}
 }
