@@ -46,7 +46,7 @@ public class DialogController : MonoBehaviour
                 
 				if (IsInstruction(line))
                 {
-                    instructions = line.Substring(line.IndexOf("["), line.IndexOf("]"));
+                    instructions = line.Substring(line.IndexOf("%"), line.Substring(1).IndexOf("%")+1);
 					ApplyInstructions(instructions);
                     currentLine++;
                 }
@@ -67,7 +67,7 @@ public class DialogController : MonoBehaviour
     }
 
 	private string TrimTag(string tag) {
-		//Debug.Log ("Tag to be trimmed: " + tag);
+		Debug.Log ("Tag to be trimmed: " + tag);
 		return tag.Substring (2, tag.IndexOf (">") - 2);
 	}
 		
@@ -190,10 +190,8 @@ public class DialogController : MonoBehaviour
 	}
 
 	void Story_OnStateChanged(TwineStoryState state) {
-		if (state == TwineStoryState.Complete) {
-			// TODO: What do we do when no more links?
-		}
-		if (state == TwineStoryState.Idle) {
+        if (state == TwineStoryState.Complete || state == TwineStoryState.Idle)
+        {
 			//dialogUI.displayDialog ("", this.currentText);
 			advanceStory ();
 		}
@@ -207,7 +205,7 @@ public class DialogController : MonoBehaviour
 	}
 
 	private bool IsInstruction(string line) {
-		return line [0] == '[';
+		return line [0] == '%';
 	}
 
 	void Story_OnOutput(TwineOutput output) {
@@ -216,9 +214,7 @@ public class DialogController : MonoBehaviour
 			var text = (TwineText)output;
 			if (IgnoreEmptyLines && text.Text.Trim ().Length < 1)
 				return;
-
 			lines.Add (text.Text);
-
 		}
 	}
 
@@ -251,7 +247,6 @@ public class DialogController : MonoBehaviour
 		this.currentStory.OnStateChanged += Story_OnStateChanged;
 
 		this.currentStory.Begin();
-
 	}
 
     void Update()
