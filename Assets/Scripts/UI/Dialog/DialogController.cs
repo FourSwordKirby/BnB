@@ -41,9 +41,7 @@ public class DialogController : MonoBehaviour
                 instructions = "";
 
                 line = lines[currentLine];
-
-                //Uncomment this area when instructions are put on a seperate line from the dialog
-                
+				                
 				if (IsInstruction(line))
                 {
                     instructions = line.Substring(line.IndexOf("%"), line.Substring(1).IndexOf("%")+1);
@@ -62,12 +60,15 @@ public class DialogController : MonoBehaviour
         }
         if (currentLine == lines.Count)
         {
-            CleanupFunction = DisplayOptions;
+			if (currentStory.State == TwineStoryState.Complete)
+				storyCompleted = true;
+			else
+            	CleanupFunction = DisplayOptions;
         }
     }
 
 	private string TrimTag(string tag) {
-		Debug.Log ("Tag to be trimmed: " + tag);
+		//Debug.Log ("Tag to be trimmed: " + tag);
 		return tag.Substring (2, tag.IndexOf (">") - 2);
 	}
 		
@@ -126,7 +127,7 @@ public class DialogController : MonoBehaviour
 	}
 
 	private void ApplyInstructions(string instructions) {
-		Debug.Log ("Instructions: " + instructions);
+		//Debug.Log ("Instructions: " + instructions);
 
 		string[] instrList = instructions.Split(',');
 
@@ -136,7 +137,9 @@ public class DialogController : MonoBehaviour
 			Debug.Log("ERROR! Malformed input!");
 		}
 
-		Debug.Log ("Number characters for this scene: " + numCharacters);
+		//Debug.Log ("Number characters for this scene: " + numCharacters);
+
+		dialogUI.clearLoveInterests ();
 
 		for (int i = 0; i < numCharacters; i++) {
 			GameManager.LoveInterestName name = ParseName(TrimTag(instrList [3 * i + 1]));
@@ -189,16 +192,21 @@ public class DialogController : MonoBehaviour
 		// TODO: Clear dialogue box
 	}
 
+	void CloseConversation() {
+		HideOptions ();
+		dialogUI.clearLoveInterests ();
+		dialogUI.closeDialogBox ();
+	}
+
 	void Story_OnStateChanged(TwineStoryState state) {
-        if (state == TwineStoryState.Complete || state == TwineStoryState.Idle)
-        {
+		//Debug.Log ("State change: " + state);
+		if (state == TwineStoryState.Idle || state == TwineStoryState.Complete) {
 			//dialogUI.displayDialog ("", this.currentText);
 			advanceStory ();
-		}
-		if (state == TwineStoryState.Playing) {
+			//CleanupFunction = Close 
+		} else if (state == TwineStoryState.Playing) {
 			Clear ();
-
-			// TODO: Clear output date from previous state
+			// TODO: Clear output data from previous state
 		}
 		
 		//Debug.Log ("Now in state " + state);
@@ -241,6 +249,8 @@ public class DialogController : MonoBehaviour
 
 	public void SetupAndBeginStory(TwineStory story) {
 		this.currentStory = story;
+
+		storyCompleted = false;
 		
 		/* Register UnityTwine callback functions */
 		this.currentStory.OnOutput += Story_OnOutput;
@@ -253,6 +263,9 @@ public class DialogController : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
+			if (storyCompleted) {
+				CloseConversation ();
+			}
             advanceStory();
         }
 

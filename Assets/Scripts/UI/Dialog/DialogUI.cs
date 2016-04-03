@@ -3,6 +3,7 @@ using UnityEngine.UI;
 using UnityTwine;
 using System.Collections;
 using System.Collections.Generic;
+using System;
 
 
 public class DialogUI : MonoBehaviour
@@ -12,6 +13,8 @@ public class DialogUI : MonoBehaviour
     public Image background;
 
     public List<Image> loveInterestImages;
+	public Sprite uimask;
+
     public enum ImagePositon
     {
         FarLeft,
@@ -30,6 +33,16 @@ public class DialogUI : MonoBehaviour
     {
         loveInterestImages[(int) position].sprite = loveInterest.getEmotionSprite(emotion);
     }
+
+	public void clearLoveInterests() {
+
+		/* The voodoo for loop guard is just the number of possible values for the
+		 * enum of ImagePosition
+		 */
+		for (int i = 0; i < Enum.GetNames (typeof(ImagePositon)).Length; i++) {
+			loveInterestImages [i].sprite = uimask;
+		}
+	}
 
     public void enableOption(int optionNumber)
     {
@@ -60,4 +73,8 @@ public class DialogUI : MonoBehaviour
     {
         dialogBox.resolveDialog();
     }
+
+	public void closeDialogBox() {
+		dialogBox.closeDialog ();
+	}
 }
