@@ -1,0 +1,62 @@
+﻿:: Start
+%<1>, <lucy>, <center>, <neutral>%
+LUCILLE: Good morning. I'm Lucille.
+
+BEAST: Good morning. You can refer to me as...
+
+[[Adam.]]
+[[Prince Adam.]]
+[[The Beast.]]
+
+
+:: StoryTitle
+Untitled Story
+
+
+:: Prince Adam.
+%<1>, <lucy>, <center>, <thinking>%
+LUCILLE: Hmm. Alright.
+
+LUCILLE: I look forward to learning more about the castle.
+
+[[Please, look around as much as you like.]]
+[[Don't go poking your nose where it doesn't belong.]]
+
+
+:: Adam.
+LUCILLE: Adam. Interesting.
+
+LUCILLE: I look forward to learning more about the castle.
+
+[[Please, look around as much as you like.]]
+[[Don't go poking your nose where it doesn't belong.]]
+
+
+:: The Beast.
+%<1>, <lucy>, <center>, <thinking>%
+LUCILLE: 'The Beast', hmm? Very interesting.
+
+LUCILLE: I look forward to learning more about the castle.
+
+[[Please, look around as much as you like.]]
+[[Don't go poking your nose where it doesn't belong.]]
+
+
+:: StoryAuthor
+Anonymous
+
+
+:: Don't go poking your nose where it doesn't belong.
+#<lucyapproval>, <-5>#
+%<1>, <lucy>, <center>, <frown>%
+
+LUCILLE: So I'm a prisoner rather than a guest. Fine, then. I'm sure I'll see you again later, unfortunately.
+
+
+:: Please, look around as much as you like.
+#<lucyapproval>, <+5>#
+%<1>, <lucy>, <center>, <smile>%
+
+LUCILLE: I certainly will. Thank you.
+
+
