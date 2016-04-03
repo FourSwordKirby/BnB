@@ -516,6 +516,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mansion: {fileID: 0}
   roomDisplays: []
+--- !u!114 &747658263 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11457964, guid: c7b9a94ddc8f45d43bf6fce2e3b48c60,
+    type: 2}
+  m_PrefabInternal: {fileID: 1881282106}
+  m_Script: {fileID: 11500000, guid: bf484b3c1e365bd4896ada2b373b92fd, type: 3}
 --- !u!1 &886560779
 GameObject:
   m_ObjectHideFlags: 0
@@ -1059,7 +1065,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa1110a68d856cd47ac5915030b2fb13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mansion: {fileID: 0}
+  mansion: {fileID: 747658263}
   currentRoom: 0
 --- !u!1 &1632717644
 GameObject:
