@@ -1,0 +1,65 @@
+﻿:: Start
+%<1>, <noelle>, <center>, <smile>%
+NOELLE: Good morning, sire. My name is Noelle.
+
+BEAST: Good morning. You can refer to me as...
+
+[[Adam.]]
+[[Prince Adam.]]
+[[The Beast.]]
+
+
+:: StoryTitle
+Untitled Story
+
+
+:: Prince Adam.
+NOELLE: What a lovely name. It's a pleasure to meet you, sire.
+
+NOELLE: Thank you for inviting me to the castle. This is all so exciting!
+
+[[I hope you enjoy yourself.]]
+[[It wasn't my decision.]]
+
+
+:: Adam.
+NOELLE: Adam. Lovely.
+
+NOELLE: Thank you for inviting me to the castle. This is all so exciting!
+
+[[I hope you enjoy yourself.]]
+[[It wasn't my decision.]]
+
+
+:: The Beast.
+#<noelleapproval>, <-5>#
+%<1>, <noelle>, <center>, <scared>%
+NOELLE: O-oh. Alright. Um, yes.
+
+%<1>, <noelle>, <center>, <smile>%
+NOELLE: Thank you for inviting me to the castle. This is all so exciting!
+
+[[I hope you enjoy yourself.]]
+[[It wasn't my decision.]]
+
+
+:: StoryAuthor
+Anonymous
+
+
+:: I hope you enjoy yourself.
+#<noelleapproval>, <+5>#
+
+NOELLE: I'm sure I will, sire. Thank you.
+
+NOELLE: I look forward to our next conversation.
+
+
+:: It wasn't my decision.
+#<noelleapproval>, <-5>#
+
+NOELLE: ...Well. I'm sorry you feel inconvenienced by our presence, then.
+
+NOELLE: If you'll excuse me, I think I need some fresh air.
+
+

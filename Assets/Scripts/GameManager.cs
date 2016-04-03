@@ -8,7 +8,12 @@ public class GameManager : MonoBehaviour {
 
     public static List<LoveInterest> LoveInterests;
     public static int currentDay;
+    public Mansion mansion;
 	public Room currentRoom;
+
+    public static DialogController dialogControls;
+    public static MapController mapControls;
+    public static BackgroundController backgroundControls;
 
     public enum Room
     {
@@ -52,5 +57,11 @@ public class GameManager : MonoBehaviour {
     public static LoveInterest getLoveInterest(GameManager.LoveInterestName name)
     {
         return LoveInterests[(int)name];
+    }
+
+    public void LoadRoom(Room room)
+    {
+        this.currentRoom = room;
+        backgroundControls.displayRoom(mansion.Rooms[(int)room].background);
     }
 }
