@@ -31,7 +31,7 @@ public class LoveInterest : MonoBehaviour {
     public Rank relationshipRank { get; private set; }
     public bool specialEventTriggered { get; private set; }
     public bool giftReceived { get; private set; }
-    public GameManager.Room currentRoom { get; private set; }
+    public GameManager.RoomName currentRoom { get; private set; }
 
     /// <summary>
     /// This is your actual affinity rating.

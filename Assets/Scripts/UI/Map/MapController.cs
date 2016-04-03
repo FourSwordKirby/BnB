@@ -7,6 +7,9 @@ public class MapController : MonoBehaviour {
 	public GameManager gameManager;
     public List<RoomDisplay> roomDisplays;
 
+	public void RoomClicked(Room room) {
+		// GameManager.MoveToRoom(roomDisplay.name);
+	}
 
 
 }

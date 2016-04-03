@@ -15,7 +15,7 @@ public class GameManager : MonoBehaviour {
     public static MapController mapControls;
     public static BackgroundController backgroundControls;
 
-    public enum Room
+    public enum RoomName
     {
         Drawing,
         Parlor,
@@ -44,9 +44,10 @@ public class GameManager : MonoBehaviour {
         Picture
     }
 
-	public void MoveToRoom(Room room) {
-		currentRoom = room;
-		// TODO: Tell background controller to load room
+	public void MoveToRoom(RoomName roomName) {
+		Room room = mansion.Rooms [roomName];
+		this.currentRoom = room;
+		backgroundControls.displayRoom (room.background);
 	}
 
     public void Awake()
