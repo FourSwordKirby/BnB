@@ -18,4 +18,8 @@ public class MapController : MonoBehaviour {
     {
         mapDisplay.gameObject.SetActive(false);
     }
+
+	public void RoomClicked(Room room) {
+		gameManager.LoadRoom (room);
+	}
 }

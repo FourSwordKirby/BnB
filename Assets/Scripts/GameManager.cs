@@ -11,9 +11,9 @@ public class GameManager : MonoBehaviour {
     public Mansion mansion;
 	public Room currentRoom;
 
-    public static DialogController dialogControls;
-    public static MapController mapControls;
-    public static BackgroundController backgroundControls;
+    public DialogController dialogControls;
+    public MapController mapControls;
+    public BackgroundController backgroundControls;
 
     public enum RoomName
     {
@@ -44,12 +44,6 @@ public class GameManager : MonoBehaviour {
         Picture
     }
 
-	public void MoveToRoom(RoomName roomName) {
-		Room room = mansion.Rooms [roomName];
-		this.currentRoom = room;
-		backgroundControls.displayRoom (room.background);
-	}
-
     public void Awake()
     {
         LoveInterests = new List<LoveInterest>(GameObject.FindObjectsOfType<LoveInterest>());
@@ -62,7 +56,8 @@ public class GameManager : MonoBehaviour {
 
     public void LoadRoom(Room room)
     {
+		Debug.Log ("Loading room!");
         this.currentRoom = room;
-        backgroundControls.displayRoom(mansion.Rooms[(int)room].background);
+        backgroundControls.displayRoom(room.background);
     }
 }
