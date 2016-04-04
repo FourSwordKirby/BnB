@@ -9,8 +9,8 @@ using System;
 public class DialogController : MonoBehaviour
 {
     public DialogUI dialogUI;
+    public GameManager gameManager;
 
-    public LoveInterest loadedLoveInterest;
     public TwineStory currentStory;
     private bool storyCompleted;
 
@@ -25,14 +25,14 @@ public class DialogController : MonoBehaviour
 
     public void advanceStory()
     {
+        if (!dialogUI.dialogCompleted())
+        {
+            dialogUI.resolveDialog();
+            return;
+        }
+
         if (currentLine < lines.Count)
         {
-            if (!dialogUI.dialogCompleted())
-            {
-                dialogUI.resolveDialog();
-                return;
-            }
-
             string line;
             string instructions;
             do
@@ -145,9 +145,8 @@ public class DialogController : MonoBehaviour
 			GameManager.LoveInterestName name = ParseName(TrimTag(instrList [3 * i + 1]));
 			DialogUI.ImagePositon position = ParsePos(TrimTag(instrList [3 * i + 2]));
 			LoveInterest.Emotion emotion = ParseEmotion(TrimTag(instrList [3 * i + 3]));
-			// TODO: Change it to display any love interest, not just loaded one
+
             dialogUI.displayLoveInterest(GameManager.getLoveInterest(name), emotion, position);
-			// TODO: Now display it
 		}
 	}
 
@@ -196,6 +195,7 @@ public class DialogController : MonoBehaviour
 		HideOptions ();
 		dialogUI.clearLoveInterests ();
 		dialogUI.closeDialogBox ();
+        gameManager.mapControls.displayControls();
 	}
 
 	void Story_OnStateChanged(TwineStoryState state) {
@@ -247,7 +247,10 @@ public class DialogController : MonoBehaviour
          */
 	}
 
-	public void SetupAndBeginStory(TwineStory story) {
+	public void StartConversation(TwineStory story) {
+        //Visual cleanup
+        gameManager.mapControls.hideControls();
+
 		this.currentStory = story;
 
 		storyCompleted = false;
@@ -263,7 +266,7 @@ public class DialogController : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-			if (storyCompleted) {
+			if (storyCompleted && dialogUI.dialogCompleted()) {
 				CloseConversation ();
 			}
             advanceStory();

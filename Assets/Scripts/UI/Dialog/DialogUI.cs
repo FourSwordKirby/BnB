@@ -13,7 +13,6 @@ public class DialogUI : MonoBehaviour
     public Image background;
 
     public List<Image> loveInterestImages;
-	public Sprite uimask;
 
     public enum ImagePositon
     {
@@ -31,6 +30,7 @@ public class DialogUI : MonoBehaviour
 
     public void displayLoveInterest(LoveInterest loveInterest, LoveInterest.Emotion emotion, ImagePositon position = ImagePositon.Center)
     {
+        loveInterestImages[(int)position].enabled = true;
         loveInterestImages[(int) position].sprite = loveInterest.getEmotionSprite(emotion);
     }
 
@@ -40,7 +40,7 @@ public class DialogUI : MonoBehaviour
 		 * enum of ImagePosition
 		 */
 		for (int i = 0; i < Enum.GetNames (typeof(ImagePositon)).Length; i++) {
-			loveInterestImages [i].sprite = uimask;
+            loveInterestImages[i].enabled = false;
 		}
 	}
 

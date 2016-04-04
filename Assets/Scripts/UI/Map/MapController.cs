@@ -19,7 +19,17 @@ public class MapController : MonoBehaviour {
         mapDisplay.gameObject.SetActive(false);
     }
 
+    public void displayControls()
+    {
+        this.gameObject.SetActive(true);
+    }
+    public void hideControls()
+    {
+        this.gameObject.SetActive(false);
+    }
+
 	public void RoomClicked(Room room) {
+        Debug.Log(room);
 		if (room.unlocked) {
 			gameManager.LoadRoom (room);
 			hideMap();

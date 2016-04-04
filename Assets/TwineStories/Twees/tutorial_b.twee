@@ -18,7 +18,7 @@ BEAUREGARD: //I'm a young woman from a small village, here to meet the man who c
 BEAST: Beau, this is ridiculous.
 
 %1, <beau>, <center>, <frown>%
-BEAUREGARD: We're running out of time, sire! Or would you rather face the women downstairs as you are now, having not spoken to a woman in ten years?
+BEAUREGARD: We're running out of time, sire! Or would you rather face the women out there as you are now, having not spoken to a woman in ten years?
 
 BEAST: ...Fine.
 
@@ -95,7 +95,7 @@ BEAUREGARD: Very good, sire! If I were a young lady, I'm sure I'd feel very char
 
 BEAUREGARD: I'm quite sure you're ready to face your suitors. Shall we, then?
 
-BEAUREGARD: I'll be waiting for you downstairs, in the great hall. Good luck, sire!
+BEAUREGARD: I'll be waiting for you out in the great hall. Good luck, sire!
 
 
 :: It's alright. Better than living in a straw hut, I suppose. [beauFROWN]
@@ -104,7 +104,7 @@ BEAUREGARD: Please, sire, try to control your enthusiasm.
 
 BEAUREGARD: Well, I'd say this is as good a time as any to face the ladies downstairs, don't you think? 
 
-BEAUREGARD: I'll be waiting for you downstairs, in the great hall.
+BEAUREGARD: I'll be waiting for you out in the great hall.
 
 
 :: Living in a castle alone, because I'm too beastly for anyone to look at? It's fantastic.
@@ -113,6 +113,6 @@ BEAUREGARD: Ugh! Fine. I don't know why I bother.
 
 BEAUREGARD: There's no point in delaying it any longer, sire, foul mood or no. 
 
-BEAUREGARD: Come on, then. I'll meet you downstairs in the great hall.
+BEAUREGARD: Come on, then. I'll meet you out in the great hall.
 
 

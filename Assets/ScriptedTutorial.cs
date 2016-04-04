@@ -23,7 +23,7 @@ public class ScriptedTutorial : MonoBehaviour {
 	void Begin () {
 		gameManager.LoadRoom (bedroom);
 			
-		dialogController.SetupAndBeginStory (tutorialA);
+		dialogController.StartConversation (tutorialA);
 
 		// After Tutorial A is done, the player should go to the parlor to talk to Beau and continue the game
 		// dialogController.SetupAndBeginStory(tutorialB);
@@ -36,7 +36,7 @@ public class ScriptedTutorial : MonoBehaviour {
 			if (firstTimeInParlor) {
 				Debug.Log ("First time in partlor!");
 				firstTimeInParlor = false;
-				dialogController.SetupAndBeginStory (tutorialB);
+				dialogController.StartConversation (tutorialB);
 			}
 		}
 	}

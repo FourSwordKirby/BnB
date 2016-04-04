@@ -1,0 +1,76 @@
+﻿:: Start
+%<1>, <pat>, <center>, <neutral>%
+PATRICE: Good morning, your highness! I'm Patrice. But you can just call me Pat--everyone does.
+
+BEAST: You can call me...
+
+[[Adam.]]
+[[Prince Adam.]]
+[[The Beast.]]
+
+
+:: StoryTitle
+Untitled Story
+
+
+:: Prince Adam.
+%<1>, <pat>, <center>, <surprise>%
+PATRICE: Oh, of course! I would never presume to call you otherwise.
+
+%<1>, <pat>, <center>, <smile>%
+PATRICE: Thank you for sending me that invitation. Things like this don't often happen to me.
+
+[[Really? I find that surprising.]]
+[[Of course. I've never found the lives of commoners to be particularly interesting.]]
+
+
+:: Adam.
+#<patapproval>, <+5>#
+%<1>, <pat>, <center>, <smile>%
+PATRICE: Adam. What a lovely name.
+
+PATRICE: Thank you for sending me that invitation. Things like this don't often happen to me.
+
+[[Really? I find that surprising.]]
+[[Of course. I've never found the lives of commoners to be particularly interesting.]]
+
+
+:: The Beast.
+#<patapproval>, <-5>#
+%<1>, <pat>, <center>, <scared>%
+PATRICE: ....Oh.
+
+PATRICE: Um. Of course, your highness. Er, Beast. Your...beastliness?
+
+%<1>, <pat>, <center>, <neutral>%
+PATRICE: Thank you for sending me that invitation. Things like this don't often happen to me.
+
+[[Really? I find that surprising.]]
+[[Of course. I've never found the lives of commoners to be particularly interesting.]]
+
+
+:: StoryAuthor
+Anonymous
+
+
+:: Really? I find that surprising.
+#<patapproval>, <+5>#
+%<1>, <pat>, <center>, <blush>%
+PATRICE: That's very kind of you to say, sire, but I'm afraid my life compared to yours must seem very dull.
+
+%<1>, <pat>, <center>, <smile>%
+PATRICE: This castle is beautiful. I've never seen anything like it!
+
+PATRICE: I really am glad to be here, sire. Thank you.
+
+
+
+:: Of course. I've never found the lives of commoners to be particularly interesting.
+#<patapproval>, <-5>#
+%<1>, <pat>, <center>, <frown>%
+PATRICE: ...Of course, your majesty. I'm sure we must seem very dull in comparison.
+
+%<1>, <pat>, <center>, <neutral>%
+PATRICE: I really am glad to be here, sire. Thank you.
+
+

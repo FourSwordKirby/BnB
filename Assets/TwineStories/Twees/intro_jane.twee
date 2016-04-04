@@ -1,0 +1,69 @@
+﻿:: Start
+%<1>, <john>, <center>, <neutral>%
+JANE: Hello, your highness. I'm Jane. 
+
+BEAST: Good morning. My name is...
+
+[[Adam.]]
+[[Prince Adam.]]
+[[The Beast.]]
+
+
+:: StoryTitle
+Untitled Story
+
+
+:: Prince Adam.
+%<1>, <john>, <center>, <eyebrow>%
+JANE: Prince, huh? I can work with that.
+
+%<1>, <john>, <center>, <neutral>%
+JANE: So what is it you do in a huge castle like this all day, anyway?
+
+[[Sit around moping, according to my butler.]]
+[[A lot of reading, unfortunately.]]
+
+
+:: Adam.
+#<johnapproval>, <+5>#
+%<1>, <john>, <center>, <eyebrow>%
+JANE: //Adam//. Huh. That's...surprisingly normal, I have to admit.
+
+%<1>, <john>, <center>, <neutral>%
+JANE: So what is it you do in a huge castle like this all day, anyway?
+
+[[Sit around moping, according to my butler.]]
+[[A lot of reading, unfortunately.]]
+
+
+:: The Beast.
+%<1>, <john>, <center>, <eyebrow>%
+JANE: Jeez, okay. That's one way to make an impression.
+
+%<1>, <john>, <center>, <neutral>%
+JANE: So what is it you do in a huge castle like this all day, anyway?
+
+[[Sit around moping, according to my butler.]]
+[[A lot of reading, unfortunately.]]
+
+
+:: StoryAuthor
+Anonymous
+
+
+:: A lot of reading, unfortunately.
+#<johnapproval>, <+5>#
+%<1>, <john>, <center>, <smile>%
+JOHN: Ha! I hear you. 
+
+JOHN: Well, I won't keep you from your other ladies-in-waiting any longer. It was nice to meet you.
+
+
+:: Sit around moping, according to my butler.
+#<johnapproval>, <+5>#
+%<1>, <john>, <center>, <smile>%
+JOHN: Ha! That's a good one. I'll have to remember that. 
+
+JOHN: Well, I won't keep you from your other ladies-in-waiting any longer. It was nice to meet you.
+
+

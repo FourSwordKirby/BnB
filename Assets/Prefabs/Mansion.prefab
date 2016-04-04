@@ -10,7 +10,7 @@ GameObject:
   - 4: {fileID: 447370}
   - 114: {fileID: 11471912}
   m_Layer: 0
-  m_Name: Room (8)
+  m_Name: Drawing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26,7 +26,7 @@ GameObject:
   - 4: {fileID: 490102}
   - 114: {fileID: 11491536}
   m_Layer: 0
-  m_Name: Room (7)
+  m_Name: Porch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42,7 +42,7 @@ GameObject:
   - 4: {fileID: 476160}
   - 114: {fileID: 11430658}
   m_Layer: 0
-  m_Name: Room (9)
+  m_Name: Bedroom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -58,7 +58,7 @@ GameObject:
   - 4: {fileID: 499606}
   - 114: {fileID: 11452024}
   m_Layer: 0
-  m_Name: Room (1)
+  m_Name: Dining
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -90,7 +90,7 @@ GameObject:
   - 4: {fileID: 422022}
   - 114: {fileID: 11419572}
   m_Layer: 0
-  m_Name: Room (6)
+  m_Name: Parlor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -106,7 +106,7 @@ GameObject:
   - 4: {fileID: 436244}
   - 114: {fileID: 11485486}
   m_Layer: 0
-  m_Name: Room (4)
+  m_Name: WineCellar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -122,7 +122,7 @@ GameObject:
   - 4: {fileID: 476246}
   - 114: {fileID: 11492742}
   m_Layer: 0
-  m_Name: Room (3)
+  m_Name: Library
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -138,7 +138,7 @@ GameObject:
   - 4: {fileID: 440020}
   - 114: {fileID: 11464586}
   m_Layer: 0
-  m_Name: Room (2)
+  m_Name: Pasture
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -154,7 +154,7 @@ GameObject:
   - 4: {fileID: 438736}
   - 114: {fileID: 11460824}
   m_Layer: 0
-  m_Name: Room (5)
+  m_Name: Kitchen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -301,7 +301,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inhabitants: []
-  background: {fileID: 21300000, guid: 27fefa7865960b8498765f653ee408f8, type: 3}
+  background: {fileID: 21300000, guid: 9d39865eb5ba46048bf4409e4ac72dcf, type: 3}
+  unlocked: 1
 --- !u!114 &11430658
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -314,7 +315,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inhabitants: []
-  background: {fileID: 21300000, guid: c9569d7a3ce947544b7be0f75e6f38f4, type: 3}
+  background: {fileID: 21300000, guid: 6462915b94c442140b8a761d12ffe546, type: 3}
+  unlocked: 1
 --- !u!114 &11452024
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -328,6 +330,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inhabitants: []
   background: {fileID: 21300000, guid: c3b7399f4db8b204ca765655f94329e8, type: 3}
+  unlocked: 0
 --- !u!114 &11457964
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -362,6 +365,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inhabitants: []
   background: {fileID: 21300000, guid: c13e54b8a79965f4fb8e17872868f21d, type: 3}
+  unlocked: 0
 --- !u!114 &11464586
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -375,6 +379,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inhabitants: []
   background: {fileID: 21300000, guid: fa2fb8c4fd9f8544c9c18223814a2f99, type: 3}
+  unlocked: 0
 --- !u!114 &11471912
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -388,6 +393,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inhabitants: []
   background: {fileID: 21300000, guid: 6908303aa0d3e1644afbcb7a1650c23e, type: 3}
+  unlocked: 0
 --- !u!114 &11485486
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -401,6 +407,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inhabitants: []
   background: {fileID: 21300000, guid: 1c3e221f4bc6a1d479c4161aaa43c1ea, type: 3}
+  unlocked: 0
 --- !u!114 &11491536
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -414,6 +421,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inhabitants: []
   background: {fileID: 21300000, guid: 07dd518ec2ac3ee4ebef7bc6cd927e44, type: 3}
+  unlocked: 0
 --- !u!114 &11492742
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -427,6 +435,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inhabitants: []
   background: {fileID: 21300000, guid: e73fa8a8981cbf548b5c3ba3a725c5bf, type: 3}
+  unlocked: 0
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

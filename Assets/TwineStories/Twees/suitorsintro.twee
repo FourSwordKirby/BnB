@@ -1,0 +1,29 @@
+﻿:: Start
+[1, <beau>, <center>, <frown>]
+BEAUREGARD: There you are! I thought I was going to have to drag you in here by the scruff of your neck.
+
+[1, <beau>, <center>, <neutral>]
+BEAUREGARD: As long as you stay hidden behind the one-way mirrors set up across the castle, no one will see you.
+
+[1, <beau>, <center>, <smile>]
+BEAUREGARD: It's a good thing your great-grandfather was so paranoid about spies and invaders!
+
+BEAUREGARD: Now, are you ready?
+
+BEAST: As ready as I'll ever be, I suppose.
+
+[1, <beau>, <center>, <frown>]
+BEAUREGARD: Such enthusiasm. Remember, keep a light tone when you speak to these women! You're going to end up married to one of them.
+
+[1, <beau>, <center>, <neutral>]
+BEAUREGARD: I'll leave you to it now, sire.
+
+
+:: StoryTitle
+Untitled Story
+
+
+:: StoryAuthor
+Anonymous
+
+
