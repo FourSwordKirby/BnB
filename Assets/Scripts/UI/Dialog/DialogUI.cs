@@ -64,6 +64,21 @@ public class DialogUI : MonoBehaviour
         return dialogBox.dialogCompleted;
     }
 
+    public void displayNormal()
+    {
+        dialogBox.dialogField.fontStyle = FontStyle.Normal;
+    }
+
+    public void displayItalics()
+    {
+        dialogBox.dialogField.fontStyle = FontStyle.Italic;
+    }
+
+    public void displayBold()
+    {
+        dialogBox.dialogField.fontStyle = FontStyle.Bold;
+    }
+
     public void displayDialog(string name, string text, DisplaySpeed speed = DisplaySpeed.fast)
     {
         dialogBox.displayDialog(name, text, speed);
@@ -72,6 +87,11 @@ public class DialogUI : MonoBehaviour
     public void resolveDialog()
     {
         dialogBox.resolveDialog();
+    }
+
+    public void clearDialogBox()
+    {
+        dialogBox.displayDialog("", "");
     }
 
 	public void closeDialogBox() {

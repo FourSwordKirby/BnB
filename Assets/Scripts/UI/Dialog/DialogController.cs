@@ -49,11 +49,17 @@ public class DialogController : MonoBehaviour
                     currentLine++;
                 }
 			} while (instructions != "");
-            
-			//line = lines [currentLine];
 
             string speakerName = line.Substring(0, line.IndexOf(":"));
             string dialog = line.Substring(line.IndexOf(":") + 2);
+
+            if (dialog.IndexOf("//") >= 0)
+            {
+                dialog = dialog.Substring(dialog.IndexOf("//") + 2, dialog.IndexOf("//", 2)-2);
+                dialogUI.displayItalics();
+            }
+            else
+                dialogUI.displayNormal();
 
             dialogUI.displayDialog(speakerName, dialog);
             currentLine++;
@@ -194,7 +200,7 @@ public class DialogController : MonoBehaviour
 	void CloseConversation() {
 		HideOptions ();
 		dialogUI.clearLoveInterests ();
-		dialogUI.closeDialogBox ();
+        dialogUI.clearDialogBox();
         gameManager.mapControls.displayControls();
 	}
 
