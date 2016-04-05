@@ -270,6 +270,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   room: {fileID: 0}
+  UIbutton: {fileID: 11471374}
 --- !u!114 &11405040
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -282,6 +283,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   room: {fileID: 0}
+  UIbutton: {fileID: 11470870}
 --- !u!114 &11411036
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -321,6 +323,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   room: {fileID: 0}
+  UIbutton: {fileID: 11467878}
 --- !u!114 &11419112
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -439,7 +442,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.3897059, g: 0.3897059, b: 0.3897059, a: 1}
     m_PressedColor: {r: 0.19117647, g: 0.19117647, b: 0.19117647, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 1, g: 0, b: 0, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -508,6 +511,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   room: {fileID: 0}
+  UIbutton: {fileID: 11454584}
 --- !u!114 &11440360
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -520,6 +524,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   room: {fileID: 0}
+  UIbutton: {fileID: 11454756}
 --- !u!114 &11445792
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -559,6 +564,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   room: {fileID: 0}
+  UIbutton: {fileID: 11485532}
 --- !u!114 &11454584
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -581,7 +587,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.3897059, g: 0.3897059, b: 0.3897059, a: 1}
     m_PressedColor: {r: 0.19117647, g: 0.19117647, b: 0.19117647, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 1, g: 0, b: 0, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -633,7 +639,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.3897059, g: 0.3897059, b: 0.3897059, a: 1}
     m_PressedColor: {r: 0.19117647, g: 0.19117647, b: 0.19117647, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 1, g: 0, b: 0, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -799,7 +805,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.3897059, g: 0.3897059, b: 0.3897059, a: 1}
     m_PressedColor: {r: 0.19117647, g: 0.19117647, b: 0.19117647, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 1, g: 0, b: 0, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -841,6 +847,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   room: {fileID: 0}
+  UIbutton: {fileID: 11494802}
 --- !u!114 &11470870
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -863,7 +870,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.3897059, g: 0.3897059, b: 0.3897059, a: 1}
     m_PressedColor: {r: 0.19117647, g: 0.19117647, b: 0.19117647, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 1, g: 0, b: 0, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -915,7 +922,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.3897059, g: 0.3897059, b: 0.3897059, a: 1}
     m_PressedColor: {r: 0.19117647, g: 0.19117647, b: 0.19117647, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 0.6911765, g: 0.6911765, b: 0.6911765, a: 0.547}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -1046,7 +1053,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.3897059, g: 0.3897059, b: 0.3897059, a: 1}
     m_PressedColor: {r: 0.19117647, g: 0.19117647, b: 0.19117647, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 1, g: 0, b: 0, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -1088,6 +1095,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   room: {fileID: 0}
+  UIbutton: {fileID: 11479812}
 --- !u!114 &11485532
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1110,7 +1118,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.3897059, g: 0.3897059, b: 0.3897059, a: 1}
     m_PressedColor: {r: 0.19117647, g: 0.19117647, b: 0.19117647, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 1, g: 0, b: 0, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -1216,7 +1224,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.3897059, g: 0.3897059, b: 0.3897059, a: 1}
     m_PressedColor: {r: 0.19117647, g: 0.19117647, b: 0.19117647, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 1, g: 0, b: 0, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -1310,6 +1318,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   room: {fileID: 0}
+  UIbutton: {fileID: 11454756}
 --- !u!222 &22213044
 CanvasRenderer:
   m_ObjectHideFlags: 1

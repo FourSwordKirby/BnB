@@ -5,11 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/TitleScreenScene.unity
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SudokuScene.unity
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/TutorialScene.unity
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/VictoryScene.unity
+  - enabled: 1
+    path: Assets/Scenes/TutorialDev.unity
