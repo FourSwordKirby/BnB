@@ -46,6 +46,8 @@ public class ScriptedTutorial : MonoBehaviour {
                 {
                     firstTimeInParlor = false;
                     dialogController.StartConversation(tutorialB);
+
+					// TODO: After tutorial done, deactivate tutorial
                 }
             }
             else if (gameManager.currentRoom != bedroom) ;
