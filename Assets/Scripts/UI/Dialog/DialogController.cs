@@ -12,6 +12,9 @@ public class DialogController : MonoBehaviour
     public GameManager gameManager;
 
     public TwineStory currentStory;
+
+    public AudioClip clickSound;
+    
     private bool storyCompleted;
 
 	public bool IgnoreEmptyLines = true;
@@ -189,6 +192,7 @@ public class DialogController : MonoBehaviour
 
         Debug.Log("You chose " + currentStory.Links[option].Text);
 
+        AudioSource.PlayClipAtPoint(clickSound, Vector3.zero);
 		currentStory.Advance (currentStory.Links[option]);
     }
 
@@ -254,6 +258,7 @@ public class DialogController : MonoBehaviour
 	}
 
 	public void StartConversation(TwineStory story) {
+
         //Visual cleanup
         gameManager.mapControls.hideControls();
 

@@ -8,6 +8,10 @@ public class MapController : MonoBehaviour {
 	public GameManager gameManager;
     public List<RoomDisplay> roomDisplays;
 
+    public AudioClip doorClose;
+    public AudioClip bigDoorClose;
+    public AudioClip footsteps;
+
     public Image mapDisplay;
 
     public void displayMap()

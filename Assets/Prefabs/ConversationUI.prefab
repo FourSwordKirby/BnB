@@ -810,6 +810,7 @@ MonoBehaviour:
   dialogUI: {fileID: 11484676}
   gameManager: {fileID: 0}
   currentStory: {fileID: 0}
+  clickSound: {fileID: 8300000, guid: f52d0ac78f1440740a72f21ba2b74ba5, type: 3}
   IgnoreEmptyLines: 1
 --- !u!114 &11468142
 MonoBehaviour:
@@ -1202,8 +1203,8 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3, y: -2}
-  m_SizeDelta: {x: 374, y: 32}
+  m_AnchoredPosition: {x: -2, y: -2}
+  m_SizeDelta: {x: 700, y: 32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &22404702
 RectTransform:
@@ -1293,8 +1294,8 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3, y: 0.6}
-  m_SizeDelta: {x: 374, y: 25}
+  m_AnchoredPosition: {x: -2, y: 0.6}
+  m_SizeDelta: {x: 700, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &22450350
 RectTransform:
@@ -1404,8 +1405,8 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3, y: -0.8}
-  m_SizeDelta: {x: 374, y: 25}
+  m_AnchoredPosition: {x: -2, y: -0.8}
+  m_SizeDelta: {x: 700, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &22470218
 RectTransform:
