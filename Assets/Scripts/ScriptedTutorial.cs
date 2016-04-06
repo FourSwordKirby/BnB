@@ -50,7 +50,7 @@ public class ScriptedTutorial : MonoBehaviour {
 					// TODO: After tutorial done, deactivate tutorial
                 }
             }
-            else if (gameManager.currentRoom != bedroom) ;
+            else if (gameManager.currentRoom != bedroom)
             {
                 if (wrongRoomCount  == 0)
                 {

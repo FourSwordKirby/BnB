@@ -65,6 +65,7 @@ public class DialogController : MonoBehaviour
                 dialog = line;
             }
 
+            /*
             if (dialog.IndexOf("//") >= 0)
             {
                 dialog = dialog.Substring(dialog.IndexOf("//") + 2, dialog.IndexOf("//", 2)-2);
@@ -72,6 +73,7 @@ public class DialogController : MonoBehaviour
             }
             else
                 dialogUI.displayNormal();
+             */
 
             dialogUI.displayDialog(speakerName, dialog);
             currentLine++;
