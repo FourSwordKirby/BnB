@@ -53,8 +53,17 @@ public class DialogController : MonoBehaviour
                 }
 			} while (instructions != "");
 
-            string speakerName = line.Substring(0, line.IndexOf(":"));
-            string dialog = line.Substring(line.IndexOf(":") + 2);
+            string speakerName = "";
+            string dialog = "";
+            if (line.IndexOf(":") >= 0)
+            {
+                speakerName = line.Substring(0, line.IndexOf(":"));
+                dialog = line.Substring(line.IndexOf(":") + 2);
+            }
+            else
+            {
+                dialog = line;
+            }
 
             if (dialog.IndexOf("//") >= 0)
             {
