@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour {
     public DialogController dialogControls;
     public MapController mapControls;
     public BackgroundController backgroundControls;
+    public LoveInterestSelectController loveInterestControls;
 
     public enum RoomName
     {
