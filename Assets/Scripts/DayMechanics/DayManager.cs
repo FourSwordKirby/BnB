@@ -50,6 +50,7 @@ public class DayManager : MonoBehaviour {
 
 		gameManager.LoadRoom (bedroom);
 
+		// TODO: Have day-starting convo with beau
 		// dialogController.StartConversation (MorningBeau);
 
 
@@ -60,11 +61,10 @@ public class DayManager : MonoBehaviour {
 
 		// TODO: Choose suitor
 
-		// S
 
 		gameManager.LoadRoom (dining);
 
-		//dialogController.StartConversation (Dinner);
+		//dialogController.StartConversation (<SuitorDinnerConvo>);
 
 
 	}
