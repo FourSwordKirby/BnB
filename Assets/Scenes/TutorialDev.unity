@@ -264,10 +264,6 @@ Prefab:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 1343823894}
-    - target: {fileID: 176370, guid: e10c4fa56eb233444ae4c3247a0c9dec, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e10c4fa56eb233444ae4c3247a0c9dec, type: 2}
   m_IsPrefabParent: 0
@@ -915,10 +911,6 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 133124, guid: e8c3591ee5acd57419b769e15cc8630b, type: 2}
-      propertyPath: m_Name
-      value: BackgroundImage
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8c3591ee5acd57419b769e15cc8630b, type: 2}
   m_IsPrefabParent: 0
@@ -1054,6 +1046,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa1110a68d856cd47ac5915030b2fb13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  loveInterests:
+  - {fileID: 1660471619}
+  currentDay: 0
   mansion: {fileID: 747658263}
   currentRoom: {fileID: 0}
   dialogControls: {fileID: 1324042582}
@@ -1128,6 +1123,12 @@ MonoBehaviour:
   tutorialB: {fileID: 34051464}
   wrongRoom1: {fileID: 1144533702}
   wrongRoom2: {fileID: 962748809}
+--- !u!114 &1660471619 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11416248, guid: fea20f6881a127243a2ca5793fe43dab,
+    type: 2}
+  m_PrefabInternal: {fileID: 70924741}
+  m_Script: {fileID: 11500000, guid: ba2c38a12153b634f9316c3554c898ee, type: 3}
 --- !u!114 &1723142992 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11491536, guid: c7b9a94ddc8f45d43bf6fce2e3b48c60,

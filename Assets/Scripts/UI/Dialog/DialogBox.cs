@@ -78,7 +78,6 @@ public class DialogBox : MonoBehaviour {
         }
         //Prevents the name from flickering
         this.dialogField.text = taggedText;
-        Debug.Log(taggedText);
 
 
         if (displaySpeed == DisplaySpeed.immediate)

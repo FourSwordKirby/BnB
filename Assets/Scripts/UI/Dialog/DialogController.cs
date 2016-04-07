@@ -201,7 +201,9 @@ public class DialogController : MonoBehaviour
         string name = loveVar.Split('_')[0];
         string value = loveVar.Split('_')[1];
 
-        LoveInterest loveInterest = ParseName(name);
+        Debug.Log(name);
+     
+        LoveInterest loveInterest = gameManager.getLoveInterest(ParseName(name));
         if (value == "approval")
         {
             return loveInterest.approvalRaiting;
