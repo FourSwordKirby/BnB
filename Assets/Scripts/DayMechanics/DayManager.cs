@@ -46,7 +46,7 @@ public class DayManager : MonoBehaviour {
 
 		/* Housekeeping for keeping track of info */
 		remainingConvoPts = 2;
-		dayNumber++;
+		gameManager.currentDay++;
 
 		gameManager.LoadRoom (bedroom);
 

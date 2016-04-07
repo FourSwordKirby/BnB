@@ -9,6 +9,10 @@ public class LoveInterest : MonoBehaviour {
     //This is a collection of stories associated with this love interest.
     public TwineStory LoveInterestStory;
 
+	public TwineStory DinnerStory;
+
+	public int approvalRaiting;
+
     //These describe emotions which the love interest will display
     public enum Emotion
     {
