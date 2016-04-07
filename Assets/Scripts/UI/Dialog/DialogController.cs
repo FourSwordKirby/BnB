@@ -166,13 +166,49 @@ public class DialogController : MonoBehaviour
         {
             if (i < currentStory.Links.Count)
             {
-                dialogUI.enableOption(i);
-				Debug.Log ("Displaying option " + i + ": " + currentStory.Links [i].Text);
-                dialogUI.displayOption(currentStory.Links[i].Text, i);
+                if (PassesRestriction(currentStory.Links[i].Text))
+                {
+                    dialogUI.enableOption(i);
+                    Debug.Log("Displaying option " + i + ": " + currentStory.Links[i].Text);
+                    dialogUI.displayOption(currentStory.Links[i].Text, i);
+                }
             }
             else
                 dialogUI.disableOption(i);
         }
+    }
+
+    private bool PassesRestriction(string option)
+    {
+        if (option[0] == '%')
+        {
+            string restriction = option.Substring(option.IndexOf('%') + 1, option.Substring(1).IndexOf('%') - 1);
+
+            string[] instrList = restriction.Split(',');
+
+            int restrictionVar = ParseVariable(instrList[0]);
+            int lowerApproval = int.Parse(TrimTag(instrList[1]));
+            int upperApproval = int.Parse(TrimTag(instrList[2]));
+
+            return (lowerApproval <= restrictionVar && restrictionVar <= upperApproval);
+        }
+        else
+            return true;
+    }
+
+    private int ParseVariable(string loveVar)
+    {
+        string name = loveVar.Split('_')[0];
+        string value = loveVar.Split('_')[1];
+
+        LoveInterest loveInterest = ParseName(name);
+        if (value == "approval")
+        {
+            return loveInterest.approvalRaiting;
+        }
+
+        Debug.Log("AN ERROR HAPPENED OH NO");
+        return 0;
     }
 
 	private void HideOptions()
