@@ -98,6 +98,18 @@ public class DialogController : MonoBehaviour
 		case "beau":
 			return GameManager.LoveInterestName.Beauregard;
 			// TODO: add other cases as Sam writes them
+		case "lucille":
+			return GameManager.LoveInterestName.Lucille;
+			// TODO: add other cases as Sam writes them
+		case "noelle":
+			return GameManager.LoveInterestName.Noelle;
+			// TODO: add other cases as Sam writes them
+		case "henrietta":
+			return GameManager.LoveInterestName.Henrietta;
+			// TODO: add other cases as Sam writes them
+		case "jane":
+			return GameManager.LoveInterestName.John;
+			// TODO: add other cases as Sam writes them
 		default:
 			Debug.Log ("ERROR: Malformed Tag Name input: " + tagName);
 			break;
@@ -147,7 +159,7 @@ public class DialogController : MonoBehaviour
 	}
 
 	private void ApplyInstructions(string instructions) {
-		//Debug.Log ("Instructions: " + instructions);
+		Debug.Log ("Instructions: " + instructions);
 
 		string[] instrList = instructions.Split(',');
 
