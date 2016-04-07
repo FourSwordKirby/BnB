@@ -53,16 +53,19 @@ public class DayManager : MonoBehaviour {
 		// TODO: Have day-starting convo with beau
 		// dialogController.StartConversation (MorningBeau);
 
-
-
 	}
 
-	void DinnerEvent() {
+	void DinnerTime() {
 
-		// TODO: Choose suitor
+		// dialogController.StartConversation(TimeForDinnerBeau);
 
+		// gameManager.LoadRoom(bedroom);
 
-		gameManager.LoadRoom (dining);
+		// dialogController.StartConversation(ChooseDinnerSuitor);
+
+		// LoveInterest suitor = ChooseSuitor();
+
+		// gameManager.LoadRoom (dining);
 
 		//dialogController.StartConversation (<SuitorDinnerConvo>);
 
@@ -77,7 +80,7 @@ public class DayManager : MonoBehaviour {
 		}
 
 		if (remainingConvoPts == 0) {
-			// TODO: Dinner time!
+			// DinnerEvent();
 		}
 	
 	}
