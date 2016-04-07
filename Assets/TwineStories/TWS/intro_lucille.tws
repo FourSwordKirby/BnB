@@ -12,7 +12,7 @@ p5
 (dp6
 sS'target'
 p7
-S'sugarcane'
+S'jonah'
 p8
 sS'storyPanel'
 p9
@@ -37,7 +37,7 @@ p18
 (dp20
 S'text'
 p21
-V%<1>, <lucy>, <center>, <neutral>%\u000aLUCILLE: Good morning. I'm Lucille.\u000a\u000aBEAST: Good morning. You can refer to me as...\u000a\u000a[[Adam.]]\u000a[[Prince Adam.]]\u000a[[The Beast.]]
+V%<1>, <lucy>, <center>, <neutral>%\u000aLUCILLE: 'Morning. I'm Lucille. I hope you don't expect me to curtsy.\u000a\u000aBEAST: Good morning. You can call me...\u000a\u000a[[Adam.|l1]]\u000a[[Prince Adam.|l2]]\u000a[[The Beast.|l3]]
 p22
 sS'title'
 p23
@@ -50,12 +50,12 @@ struct_time
 p26
 ((I2016
 I4
-I3
-I13
-I46
-I2
 I6
-I94
+I11
+I6
+I4
+I2
+I97
 I1
 tp27
 (dp28
@@ -85,29 +85,29 @@ g14
 I00
 sg15
 (lp39
-I10
-aI150
+F253.0
+aF213.0
 asg17
 (itiddlywiki
 Tiddler
 p40
 (dp41
 g21
-S'Untitled Story'
+V#<approval>, <+5>#\u000aLUCILLE: Adam. Huh. Less poncy than I would've expected.\u000a\u000aLUCILLE: So are us girls supposed to just stand around in this big echo-y hall all day, or will there be food? I traveled a long way to get here.\u000a\u000a[[Of course. It's the least I can do.]]\u000a[[Didn't you eat before leaving home?]]\u000a[[Typical of a peasant to ask for charity.]]
 p42
 sg23
-S'StoryTitle'
+Vl1
 p43
 sg25
 g26
 ((I2016
 I4
-I3
-I12
-I57
-I45
 I6
-I94
+I11
+I8
+I2
+I2
+I97
 I1
 tp44
 (dp45
@@ -116,179 +116,105 @@ Rp47
 sg31
 (lp48
 sg33
-g47
-sbsa(dp49
-g14
-I00
-sg15
-(lp50
-I10
-aI290
-asg17
-(itiddlywiki
-Tiddler
-p51
-(dp52
-g21
-S'Anonymous'
-p53
-sg23
-S'StoryAuthor'
-p54
-sg25
 g26
 ((I2016
 I4
 I3
-I12
-I57
-I45
+I13
+I6
+I18
 I6
 I94
 I1
-tp55
+tp49
+(dp50
+tp51
+Rp52
+sbsa(dp53
+g14
+I00
+sg15
+(lp54
+F398.0
+aF214.0
+asg17
+(itiddlywiki
+Tiddler
+p55
 (dp56
-tp57
-Rp58
-sg31
-(lp59
-sg33
-g58
-sbsa(dp60
-g14
-I00
-sg15
-(lp61
-F399.0
-aF217.0
-asg17
-(itiddlywiki
-Tiddler
-p62
-(dp63
 g21
-VLUCILLE: Adam. Interesting.\u000a\u000aLUCILLE: I look forward to learning more about the castle.\u000a\u000a[[Please, look around as much as you like.]]\u000a[[Don't go poking your nose where it doesn't belong.]]
-p64
+V#<approval>, <-5>#\u000a%<1>, <lucy>, <center>, <frown>%\u000aLUCILLE: Hmpfh. Poncy as expected.\u000a\u000aLUCILLE: So are us girls supposed to just stand around in this big echo-y hall all day, or will there be food? I traveled a long way to get here.\u000a\u000a[[Of course. It's the least I can do.]]\u000a[[Didn't you eat before leaving home?]]\u000a[[Typical of a peasant to ask for charity.]]
+p57
 sg23
-VAdam.
-p65
+Vl2
+p58
 sg25
+g26
+((I2016
+I4
+I6
+I10
+I30
+I32
+I2
+I97
+I1
+tp59
+(dp60
+tp61
+Rp62
+sg31
+(lp63
+sg33
 g26
 ((I2016
 I4
 I3
 I13
-I46
-I47
+I6
+I18
 I6
 I94
 I1
+tp64
+(dp65
 tp66
-(dp67
-tp68
-Rp69
-sg31
-(lp70
-sg33
-g26
-((I2016
-I4
-I3
-I13
-I6
-I18
-I6
-I94
-I1
-tp71
-(dp72
-tp73
-Rp74
-sbsa(dp75
+Rp67
+sbsa(dp68
 g14
 I00
 sg15
-(lp76
-F259.0
-aF217.0
-asg17
-(itiddlywiki
-Tiddler
-p77
-(dp78
-g21
-V%<1>, <lucy>, <center>, <thinking>%\u000aLUCILLE: Hmm. Alright.\u000a\u000aLUCILLE: I look forward to learning more about the castle.\u000a\u000a[[Please, look around as much as you like.]]\u000a[[Don't go poking your nose where it doesn't belong.]]
-p79
-sg23
-VPrince Adam.
-p80
-sg25
-g26
-((I2016
-I4
-I3
-I13
-I46
-I21
-I6
-I94
-I1
-tp81
-(dp82
-tp83
-Rp84
-sg31
-(lp85
-sg33
-g26
-((I2016
-I4
-I3
-I13
-I6
-I18
-I6
-I94
-I1
-tp86
-(dp87
-tp88
-Rp89
-sbsa(dp90
-g14
-I00
-sg15
-(lp91
+(lp69
 F544.0
 aF215.0
 asg17
 (itiddlywiki
 Tiddler
-p92
-(dp93
+p70
+(dp71
 g21
-V%<1>, <lucy>, <center>, <thinking>%\u000aLUCILLE: 'The Beast', hmm? Very interesting.\u000a\u000aLUCILLE: I look forward to learning more about the castle.\u000a\u000a[[Please, look around as much as you like.]]\u000a[[Don't go poking your nose where it doesn't belong.]]
-p94
+V%<1>, <lucy>, <center>, <smile>%\u000aLUCILLE: 'The Beast'? Hah. You royal types are all so dramatic.\u000a\u000aLUCILLE: So are us girls supposed to just stand around in this big echo-y hall all day, or will there be food? I traveled a long way to get here.\u000a\u000a[[Of course. It's the least I can do.]]\u000a[[Didn't you eat before leaving home?]]\u000a[[Typical of a peasant to ask for charity.]]
+p72
 sg23
-VThe Beast.
-p95
+Vl3
+p73
 sg25
 g26
 ((I2016
 I4
-I3
-I13
-I47
-I45
 I6
-I94
+I10
+I31
+I38
+I2
+I97
 I1
-tp96
-(dp97
-tp98
-Rp99
+tp74
+(dp75
+tp76
+Rp77
 sg31
-(lp100
+(lp78
 sg33
 g26
 ((I2016
@@ -300,114 +226,314 @@ I18
 I6
 I94
 I1
-tp101
-(dp102
-tp103
-Rp104
-sbsa(dp105
+tp79
+(dp80
+tp81
+Rp82
+sbsa(dp83
 g14
 I00
 sg15
-(lp106
-F465.0
-aF380.0
+(lp84
+F253.0
+aF385.0
 asg17
 (itiddlywiki
 Tiddler
-p107
-(dp108
+p85
+(dp86
 g21
-V#<lucyapproval>, <+5>#\u000a%<1>, <lucy>, <center>, <smile>%\u000a\u000aLUCILLE: I certainly will. Thank you.
-p109
+V%<1>, <lucy>, <center>, <neutral>%\u000aLUCILLE: Yes. It is.\u000a\u000aLUCILLE: You know what you're getting yourself into, right? I mean, the cow should be a pretty big tip off. It's an insult.\u000a\u000aLUCILLE: People aren't too happy with you right now. That tends to happen when you force women to come to a strange place as candidates for marriage to a man they don't know.\u000a\u000a[[My butler is the one who sent that summons.]]\u000a[[I have as little choice in this as you do.]]\u000a[[I'm used to people being unhappy with me.]]
+p87
 sg23
-VPlease, look around as much as you like.
-p110
+VOf course. It's the least I can do.
+p88
 sg25
 g26
 ((I2016
 I4
-I3
-I13
-I50
-I48
 I6
-I94
+I11
+I3
+I38
+I2
+I97
 I1
-tp111
-(dp112
-tp113
-Rp114
+tp89
+(dp90
+tp91
+Rp92
 sg31
-(lp115
+(lp93
 sg33
 g26
 ((I2016
 I4
-I3
-I13
-I43
-I14
 I6
-I94
+I10
+I25
+I43
+I2
+I97
 I1
-tp116
-(dp117
-tp118
-Rp119
-sbsa(dp120
+tp94
+(dp95
+tp96
+Rp97
+sbsa(dp98
+g14
+I00
+sg15
+(lp99
+F400.0
+aF385.0
+asg17
+(itiddlywiki
+Tiddler
+p100
+(dp101
+g21
+V%<1>, <lucy>, <center>, <frown>%\u000aLUCILLE: Oh, sure, I ate before leaving home. Two days ago.\u000a\u000aLUCILLE: You know what you're getting yourself into, right? I mean, the cow should be a pretty big tip off. It's an insult.\u000a\u000aLUCILLE: People aren't too happy with you right now. That tends to happen when you force women to come to a strange place as candidates for marriage to a man they don't know.\u000a\u000a[[My butler is the one who sent that summons.]]\u000a[[I have as little choice in this as you do.]]\u000a[[I'm used to people being unhappy with me.]]
+p102
+sg23
+VDidn't you eat before leaving home?
+p103
+sg25
+g26
+((I2016
+I4
+I6
+I11
+I14
+I7
+I2
+I97
+I1
+tp104
+(dp105
+tp106
+Rp107
+sg31
+(lp108
+sg33
+g26
+((I2016
+I4
+I6
+I10
+I25
+I43
+I2
+I97
+I1
+tp109
+(dp110
+tp111
+Rp112
+sbsa(dp113
+g14
+I00
+sg15
+(lp114
+F544.0
+aF385.0
+asg17
+(itiddlywiki
+Tiddler
+p115
+(dp116
+g21
+V#<approval>, <-5>#\u000a%<1>, <lucy>, <center>, <frown>%\u000aLUCILLE: Right. That's me. The girl making selfish requests after volunteering to travel to a creepy castle so no one else had to.\u000a\u000aLUCILLE: You know what you're getting yourself into, right? I mean, the cow should be a pretty big tip off. It's an insult.\u000a\u000aLUCILLE: People aren't too happy with you right now. That tends to happen when you force women to come to a strange place as candidates for marriage to a man they don't know.\u000a\u000a[[My butler is the one who sent that summons.]]\u000a[[I have as little choice in this as you do.]]\u000a[[I'm used to people being unhappy with me.]]
+p117
+sg23
+VTypical of a peasant to ask for charity.
+p118
+sg25
+g26
+((I2016
+I4
+I6
+I11
+I10
+I15
+I2
+I97
+I1
+tp119
+(dp120
+tp121
+Rp122
+sg31
+(lp123
+sg33
+g26
+((I2016
+I4
+I6
+I10
+I25
+I43
+I2
+I97
+I1
+tp124
+(dp125
+tp126
+Rp127
+sbsa(dp128
 g14
 I01
 sg15
-(lp121
-F328.0
-aF378.0
+(lp129
+F547.0
+aF566.0
 asg17
 (itiddlywiki
 Tiddler
-p122
-(dp123
+p130
+(dp131
 g21
-V#<lucyapproval>, <-5>#\u000a%<1>, <lucy>, <center>, <frown>%\u000a\u000aLUCILLE: So I'm a prisoner rather than a guest. Fine, then. I'm sure I'll see you again later, unfortunately.
-p124
+V%<1>, <lucy>, <center>, <neutral>%\u000aLUCILLE: Hm. Well. Not much I can say in response to that, is there?\u000a\u000aLUCILLE: So if you'll excuse me, I've got some very important standing-around to get back to.\u000a\u000a
+p132
 sg23
-VDon't go poking your nose where it doesn't belong.
-p125
+VI'm used to people being unhappy with me.
+p133
 sg25
 g26
 ((I2016
 I4
-I3
-I13
-I52
-I9
 I6
-I94
+I11
+I33
+I10
+I2
+I97
 I1
-tp126
-(dp127
-tp128
-Rp129
+tp134
+(dp135
+tp136
+Rp137
 sg31
-(lp130
+(lp138
 sg33
 g26
 ((I2016
 I4
-I3
-I13
-I43
-I14
 I6
-I94
+I10
+I59
+I55
+I2
+I97
 I1
-tp131
-(dp132
-tp133
-Rp134
+tp139
+(dp140
+tp141
+Rp142
+sbsa(dp143
+g14
+I00
+sg15
+(lp144
+F254.0
+aF565.0
+asg17
+(itiddlywiki
+Tiddler
+p145
+(dp146
+g21
+V#<approval>, <-5>#\u000a%<1>, <lucy>, <center>, <frown>%\u000aLUCILLE: Oh, right. It's all the servant's fault. Typical.\u000a\u000aLUCILLE: Excuse me. I've got some very important standing-around to get back to.\u000a\u000a
+p147
+sg23
+VMy butler is the one who sent that summons.
+p148
+sg25
+g26
+((I2016
+I4
+I6
+I11
+I6
+I38
+I2
+I97
+I1
+tp149
+(dp150
+tp151
+Rp152
+sg31
+(lp153
+sg33
+g26
+((I2016
+I4
+I6
+I10
+I59
+I55
+I2
+I97
+I1
+tp154
+(dp155
+tp156
+Rp157
+sbsa(dp158
+g14
+I00
+sg15
+(lp159
+F402.0
+aF565.0
+asg17
+(itiddlywiki
+Tiddler
+p160
+(dp161
+g21
+V#<approval>, <-5>#\u000a%<1>, <lucy>, <center>, <frown>%\u000aLUCILLE: Right. I should've expected as much. Cryptic and condescending seems to be the way things go around here.\u000a\u000aLUCILLE: Excuse me. I've got some very important standing-around to get back to.\u000a\u000a
+p162
+sg23
+VI have as little choice in this as you do.
+p163
+sg25
+g26
+((I2016
+I4
+I6
+I11
+I24
+I26
+I2
+I97
+I1
+tp164
+(dp165
+tp166
+Rp167
+sg31
+(lp168
+sg33
+g26
+((I2016
+I4
+I6
+I10
+I59
+I55
+I2
+I97
+I1
+tp169
+(dp170
+tp171
+Rp172
 sbsasS'scale'
-p135
+p173
 I1
 sS'snapping'
-p136
+p174
 I00
 ss.

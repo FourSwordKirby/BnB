@@ -69,16 +69,6 @@ public class DialogUI : MonoBehaviour
         dialogBox.dialogField.fontStyle = FontStyle.Normal;
     }
 
-    public void displayItalics()
-    {
-        dialogBox.dialogField.fontStyle = FontStyle.Italic;
-    }
-
-    public void displayBold()
-    {
-        dialogBox.dialogField.fontStyle = FontStyle.Bold;
-    }
-
     public void displayDialog(string name, string text, DisplaySpeed speed = DisplaySpeed.fast)
     {
         dialogBox.displayDialog(name, text, speed);

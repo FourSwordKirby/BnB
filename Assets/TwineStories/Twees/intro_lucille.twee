@@ -1,62 +1,114 @@
 ﻿:: Start
 %<1>, <lucy>, <center>, <neutral>%
-LUCILLE: Good morning. I'm Lucille.
+LUCILLE: 'Morning. I'm Lucille. I hope you don't expect me to curtsy.
 
-BEAST: Good morning. You can refer to me as...
+BEAST: Good morning. You can call me...
 
-[[Adam.]]
-[[Prince Adam.]]
-[[The Beast.]]
-
-
-:: StoryTitle
-Untitled Story
+[[Adam.|l1]]
+[[Prince Adam.|l2]]
+[[The Beast.|l3]]
 
 
-:: Prince Adam.
-%<1>, <lucy>, <center>, <thinking>%
-LUCILLE: Hmm. Alright.
+:: l1
+#<approval>, <+5>#
+LUCILLE: Adam. Huh. Less poncy than I would've expected.
 
-LUCILLE: I look forward to learning more about the castle.
+LUCILLE: So are us girls supposed to just stand around in this big echo-y hall all day, or will there be food? I traveled a long way to get here.
 
-[[Please, look around as much as you like.]]
-[[Don't go poking your nose where it doesn't belong.]]
-
-
-:: Adam.
-LUCILLE: Adam. Interesting.
-
-LUCILLE: I look forward to learning more about the castle.
-
-[[Please, look around as much as you like.]]
-[[Don't go poking your nose where it doesn't belong.]]
+[[Of course. It's the least I can do.]]
+[[Didn't you eat before leaving home?]]
+[[Typical of a peasant to ask for charity.]]
 
 
-:: The Beast.
-%<1>, <lucy>, <center>, <thinking>%
-LUCILLE: 'The Beast', hmm? Very interesting.
-
-LUCILLE: I look forward to learning more about the castle.
-
-[[Please, look around as much as you like.]]
-[[Don't go poking your nose where it doesn't belong.]]
-
-
-:: StoryAuthor
-Anonymous
-
-
-:: Don't go poking your nose where it doesn't belong.
-#<lucyapproval>, <-5>#
+:: l2
+#<approval>, <-5>#
 %<1>, <lucy>, <center>, <frown>%
+LUCILLE: Hmpfh. Poncy as expected.
 
-LUCILLE: So I'm a prisoner rather than a guest. Fine, then. I'm sure I'll see you again later, unfortunately.
+LUCILLE: So are us girls supposed to just stand around in this big echo-y hall all day, or will there be food? I traveled a long way to get here.
+
+[[Of course. It's the least I can do.]]
+[[Didn't you eat before leaving home?]]
+[[Typical of a peasant to ask for charity.]]
 
 
-:: Please, look around as much as you like.
-#<lucyapproval>, <+5>#
+:: l3
 %<1>, <lucy>, <center>, <smile>%
+LUCILLE: 'The Beast'? Hah. You royal types are all so dramatic.
 
-LUCILLE: I certainly will. Thank you.
+LUCILLE: So are us girls supposed to just stand around in this big echo-y hall all day, or will there be food? I traveled a long way to get here.
+
+[[Of course. It's the least I can do.]]
+[[Didn't you eat before leaving home?]]
+[[Typical of a peasant to ask for charity.]]
+
+
+:: Of course. It's the least I can do.
+%<1>, <lucy>, <center>, <neutral>%
+LUCILLE: Yes. It is.
+
+LUCILLE: You know what you're getting yourself into, right? I mean, the cow should be a pretty big tip off. It's an insult.
+
+LUCILLE: People aren't too happy with you right now. That tends to happen when you force women to come to a strange place as candidates for marriage to a man they don't know.
+
+[[My butler is the one who sent that summons.]]
+[[I have as little choice in this as you do.]]
+[[I'm used to people being unhappy with me.]]
+
+
+:: Didn't you eat before leaving home?
+%<1>, <lucy>, <center>, <frown>%
+LUCILLE: Oh, sure, I ate before leaving home. Two days ago.
+
+LUCILLE: You know what you're getting yourself into, right? I mean, the cow should be a pretty big tip off. It's an insult.
+
+LUCILLE: People aren't too happy with you right now. That tends to happen when you force women to come to a strange place as candidates for marriage to a man they don't know.
+
+[[My butler is the one who sent that summons.]]
+[[I have as little choice in this as you do.]]
+[[I'm used to people being unhappy with me.]]
+
+
+:: Typical of a peasant to ask for charity.
+#<approval>, <-5>#
+%<1>, <lucy>, <center>, <frown>%
+LUCILLE: Right. That's me. The girl making selfish requests after volunteering to travel to a creepy castle so no one else had to.
+
+LUCILLE: You know what you're getting yourself into, right? I mean, the cow should be a pretty big tip off. It's an insult.
+
+LUCILLE: People aren't too happy with you right now. That tends to happen when you force women to come to a strange place as candidates for marriage to a man they don't know.
+
+[[My butler is the one who sent that summons.]]
+[[I have as little choice in this as you do.]]
+[[I'm used to people being unhappy with me.]]
+
+
+:: My butler is the one who sent that summons.
+#<approval>, <-5>#
+%<1>, <lucy>, <center>, <frown>%
+LUCILLE: Oh, right. It's all the servant's fault. Typical.
+
+LUCILLE: Excuse me. I've got some very important standing-around to get back to.
+
+
+
+
+:: I have as little choice in this as you do.
+#<approval>, <-5>#
+%<1>, <lucy>, <center>, <frown>%
+LUCILLE: Right. I should've expected as much. Cryptic and condescending seems to be the way things go around here.
+
+LUCILLE: Excuse me. I've got some very important standing-around to get back to.
+
+
+
+
+:: I'm used to people being unhappy with me.
+%<1>, <lucy>, <center>, <neutral>%
+LUCILLE: Hm. Well. Not much I can say in response to that, is there?
+
+LUCILLE: So if you'll excuse me, I've got some very important standing-around to get back to.
+
+
 
 

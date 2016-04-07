@@ -37,7 +37,7 @@ p18
 (dp20
 S'text'
 p21
-V%<1>, <noelle>, <center>, <smile>%\u000aNOELLE: Good morning, sire. My name is Noelle.\u000a\u000aBEAST: Good morning. You can refer to me as...\u000a\u000a[[Adam.]]\u000a[[Prince Adam.]]\u000a[[The Beast.]]
+V%<1>, <noelle>, <center>, <smile>%\u000aNOELLE: Good morning, sire. My name is Noelle.\u000a\u000aBEAST: Good morning. You can refer to me as...\u000a\u000a[[Adam.|n1]]\u000a[[Prince Adam.|n2]]\u000a[[The Beast.|n3]]
 p22
 sS'title'
 p23
@@ -50,12 +50,12 @@ struct_time
 p26
 ((I2016
 I4
-I3
-I13
-I30
-I21
-I6
-I94
+I4
+I12
+I45
+I25
+I0
+I95
 I1
 tp27
 (dp28
@@ -85,29 +85,29 @@ g14
 I00
 sg15
 (lp39
-I10
-aI150
+F402.0
+aF217.0
 asg17
 (itiddlywiki
 Tiddler
 p40
 (dp41
 g21
-S'Untitled Story'
+VNOELLE: Adam. Lovely.\u000a\u000aNOELLE: Thank you for inviting me to the castle. This is all so exciting!\u000a\u000a[[I hope you enjoy yourself.]]\u000a[[It wasn't my decision.]]\u000a[[I'm sorry to put you in this position.]]
 p42
 sg23
-S'StoryTitle'
+Vn1
 p43
 sg25
 g26
 ((I2016
 I4
-I3
-I12
-I57
-I45
 I6
-I94
+I12
+I31
+I9
+I2
+I97
 I1
 tp44
 (dp45
@@ -116,80 +116,6 @@ Rp47
 sg31
 (lp48
 sg33
-g47
-sbsa(dp49
-g14
-I00
-sg15
-(lp50
-I10
-aI290
-asg17
-(itiddlywiki
-Tiddler
-p51
-(dp52
-g21
-S'Anonymous'
-p53
-sg23
-S'StoryAuthor'
-p54
-sg25
-g26
-((I2016
-I4
-I3
-I12
-I57
-I45
-I6
-I94
-I1
-tp55
-(dp56
-tp57
-Rp58
-sg31
-(lp59
-sg33
-g58
-sbsa(dp60
-g14
-I00
-sg15
-(lp61
-F399.0
-aF217.0
-asg17
-(itiddlywiki
-Tiddler
-p62
-(dp63
-g21
-VNOELLE: Adam. Lovely.\u000a\u000aNOELLE: Thank you for inviting me to the castle. This is all so exciting!\u000a\u000a[[I hope you enjoy yourself.]]\u000a[[It wasn't my decision.]]
-p64
-sg23
-VAdam.
-p65
-sg25
-g26
-((I2016
-I4
-I3
-I13
-I38
-I9
-I6
-I94
-I1
-tp66
-(dp67
-tp68
-Rp69
-sg31
-(lp70
-sg33
 g26
 ((I2016
 I4
@@ -200,45 +126,45 @@ I18
 I6
 I94
 I1
-tp71
-(dp72
-tp73
-Rp74
-sbsa(dp75
+tp49
+(dp50
+tp51
+Rp52
+sbsa(dp53
 g14
 I00
 sg15
-(lp76
+(lp54
 F259.0
 aF217.0
 asg17
 (itiddlywiki
 Tiddler
-p77
-(dp78
+p55
+(dp56
 g21
-VNOELLE: What a lovely name. It's a pleasure to meet you, sire.\u000a\u000aNOELLE: Thank you for inviting me to the castle. This is all so exciting!\u000a\u000a[[I hope you enjoy yourself.]]\u000a[[It wasn't my decision.]]
-p79
+VNOELLE: What a lovely name. It's a pleasure to meet you, sire.\u000a\u000aNOELLE: Thank you for inviting me to the castle. This is all so exciting!\u000a\u000a[[I hope you enjoy yourself.]]\u000a[[It wasn't my decision.]]\u000a[[I'm sorry to put you in this position.]]\u000a
+p57
 sg23
-VPrince Adam.
-p80
+Vn2
+p58
 sg25
 g26
 ((I2016
 I4
-I3
-I13
-I37
-I49
 I6
-I94
+I12
+I31
+I13
+I2
+I97
 I1
-tp81
-(dp82
-tp83
-Rp84
+tp59
+(dp60
+tp61
+Rp62
 sg31
-(lp85
+(lp63
 sg33
 g26
 ((I2016
@@ -250,45 +176,45 @@ I18
 I6
 I94
 I1
-tp86
-(dp87
-tp88
-Rp89
-sbsa(dp90
+tp64
+(dp65
+tp66
+Rp67
+sbsa(dp68
 g14
 I00
 sg15
-(lp91
+(lp69
 F544.0
-aF215.0
+aF218.0
 asg17
 (itiddlywiki
 Tiddler
-p92
-(dp93
+p70
+(dp71
 g21
-V#<noelleapproval>, <-5>#\u000a%<1>, <noelle>, <center>, <scared>%\u000aNOELLE: O-oh. Alright. Um, yes.\u000a\u000a%<1>, <noelle>, <center>, <smile>%\u000aNOELLE: Thank you for inviting me to the castle. This is all so exciting!\u000a\u000a[[I hope you enjoy yourself.]]\u000a[[It wasn't my decision.]]
-p94
+V#<noelleapproval>, <-5>#\u000a%<1>, <noelle>, <center>, <scared>%\u000aNOELLE: O-oh. Alright. Um, yes. Yes, of course.\u000a\u000a%<1>, <noelle>, <center>, <smile>%\u000aNOELLE: Thank you for inviting me to the castle. This is all so exciting!\u000a\u000a[[I hope you enjoy yourself.]]\u000a[[It wasn't my decision.]]\u000a[[I'm sorry to put you in this position.]]
+p72
 sg23
-VThe Beast.
-p95
+Vn3
+p73
 sg25
 g26
 ((I2016
 I4
-I3
-I13
-I38
-I36
 I6
-I94
+I12
+I30
+I44
+I2
+I97
 I1
-tp96
-(dp97
-tp98
-Rp99
+tp74
+(dp75
+tp76
+Rp77
 sg31
-(lp100
+(lp78
 sg33
 g26
 ((I2016
@@ -300,45 +226,45 @@ I18
 I6
 I94
 I1
-tp101
-(dp102
-tp103
-Rp104
-sbsa(dp105
+tp79
+(dp80
+tp81
+Rp82
+sbsa(dp83
 g14
 I00
 sg15
-(lp106
-F326.0
-aF397.0
+(lp84
+F255.0
+aF378.0
 asg17
 (itiddlywiki
 Tiddler
-p107
-(dp108
+p85
+(dp86
 g21
-V#<noelleapproval>, <+5>#\u000a\u000aNOELLE: I'm sure I will, sire. Thank you.\u000a\u000aNOELLE: I look forward to our next conversation.
-p109
+V#<noelleapproval>, <+5>#\u000aNOELLE: I'm sure I will, sire. Thank you.\u000a\u000aNOELLE: I hope you find one of us a pleasing option. I'm sure you must have had plenty of suitors in the past.\u000a\u000a[[Certainly none as beautiful as you.]]\u000a[[None, actually. I wish I'd been so lucky.]]\u000a[[I don't exactly attract people. Quite the opposite, usually.]]
+p87
 sg23
 VI hope you enjoy yourself.
-p110
+p88
 sg25
 g26
 ((I2016
 I4
-I3
-I13
-I38
-I54
 I6
-I94
+I12
+I44
+I13
+I2
+I97
 I1
-tp111
-(dp112
-tp113
-Rp114
+tp89
+(dp90
+tp91
+Rp92
 sg31
-(lp115
+(lp93
 sg33
 g26
 ((I2016
@@ -350,45 +276,45 @@ I0
 I6
 I94
 I1
-tp116
-(dp117
-tp118
-Rp119
-sbsa(dp120
+tp94
+(dp95
+tp96
+Rp97
+sbsa(dp98
 g14
 I00
 sg15
-(lp121
-F472.0
-aF396.0
+(lp99
+F400.0
+aF378.0
 asg17
 (itiddlywiki
 Tiddler
-p122
-(dp123
+p100
+(dp101
 g21
-V#<noelleapproval>, <-5>#\u000a\u000aNOELLE: ...Well. I'm sorry you feel inconvenienced by our presence, then.\u000a\u000aNOELLE: If you'll excuse me, I think I need some fresh air.
-p124
+V#<noelleapproval>, <-5>#\u000aNOELLE: ...Well. I'm sorry you feel inconvenienced by our presence, then.\u000a\u000aNOELLE: I'm sure it gets exhausting having to constantly host suitors. Being a prince must be hard work, with so many people vying for your hand.\u000a\u000a[[Certainly none as beautiful as you.]]\u000a[[None, actually. I wish I'd been so lucky.]]\u000a[[I don't exactly attract people. Quite the opposite, usually.]]
+p102
 sg23
 VIt wasn't my decision.
-p125
+p103
 sg25
 g26
 ((I2016
 I4
-I3
-I13
-I39
-I7
 I6
-I94
+I12
+I43
+I15
+I2
+I97
 I1
-tp126
-(dp127
-tp128
-Rp129
+tp104
+(dp105
+tp106
+Rp107
 sg31
-(lp130
+(lp108
 sg33
 g26
 ((I2016
@@ -400,14 +326,214 @@ I0
 I6
 I94
 I1
-tp131
-(dp132
-tp133
-Rp134
+tp109
+(dp110
+tp111
+Rp112
+sbsa(dp113
+g14
+I00
+sg15
+(lp114
+F544.0
+aF378.0
+asg17
+(itiddlywiki
+Tiddler
+p115
+(dp116
+g21
+V#<noelleapproval>, <+5>#\u000a%<1>, <noelle>, <center>, <scared>%\u000aNOELLE: .....\u000a\u000aNOELLE: I don't--\u000a\u000a%<1>, <noelle>, <center>, <smile>%\u000aNOELLE: I'm sure I don't know what you're talking about, your highness. Why wouldn't I be happy to be meeting the man who might one day be my husband?\u000a\u000aNOELLE: But then, I'm sure you must have had plenty of suitors in the past.\u000a\u000a[[Certainly none as beautiful as you.]]\u000a[[None, actually. I wish I'd been so lucky.]]\u000a[[I don't exactly attract people. Quite the opposite, usually.]]
+p117
+sg23
+VI'm sorry to put you in this position.
+p118
+sg25
+g26
+((I2016
+I4
+I6
+I12
+I42
+I16
+I2
+I97
+I1
+tp119
+(dp120
+tp121
+Rp122
+sg31
+(lp123
+sg33
+g26
+((I2016
+I4
+I6
+I12
+I30
+I51
+I2
+I97
+I1
+tp124
+(dp125
+tp126
+Rp127
+sbsa(dp128
+g14
+I00
+sg15
+(lp129
+F400.0
+aF532.0
+asg17
+(itiddlywiki
+Tiddler
+p130
+(dp131
+g21
+VNOELLE: I must say I find that surprising, given the splendor of this magnificent castle. But I suppose not everyone has such good taste.\u000a\u000aNOELLE: Now, if you'll excuse me, I'm feeling a bit tired and would like to sit down. It's been a pleasure talking to you, sire.
+p132
+sg23
+VNone, actually. I wish I'd been so lucky.
+p133
+sg25
+g26
+((I2016
+I4
+I6
+I12
+I47
+I34
+I2
+I97
+I1
+tp134
+(dp135
+tp136
+Rp137
+sg31
+(lp138
+sg33
+g26
+((I2016
+I4
+I6
+I12
+I42
+I33
+I2
+I97
+I1
+tp139
+(dp140
+tp141
+Rp142
+sbsa(dp143
+g14
+I00
+sg15
+(lp144
+F543.0
+aF534.0
+asg17
+(itiddlywiki
+Tiddler
+p145
+(dp146
+g21
+V#<noelleapproval>, <-5>#\u000a%<1>, <noelle>, <center>, <scared>%\u000aNOELLE: ...Oh.\u000a\u000a%<1>, <noelle>, <center>, <smile>%\u000aNOELLE: Well, I'm sorry to hear that. I must admit, I'm surprised no one has courted you before for the castle alone. It's truly magnificent.\u000a\u000aNOELLE: Now, if you'll excuse me, I'm feeling a bit tired and would like to sit down. 
+p147
+sg23
+VI don't exactly attract people. Quite the opposite, usually.
+p148
+sg25
+g26
+((I2016
+I4
+I6
+I12
+I49
+I39
+I2
+I97
+I1
+tp149
+(dp150
+tp151
+Rp152
+sg31
+(lp153
+sg33
+g26
+((I2016
+I4
+I6
+I12
+I42
+I33
+I2
+I97
+I1
+tp154
+(dp155
+tp156
+Rp157
+sbsa(dp158
+g14
+I00
+sg15
+(lp159
+F255.0
+aF532.0
+asg17
+(itiddlywiki
+Tiddler
+p160
+(dp161
+g21
+VNOELLE: Oh, sire. You're too kind. I'm just a simple village girl. I'm sure I look ridiculous against the backdrop of all this finery.\u000a\u000aNOELLE: Now, if you'll excuse me, I'm feeling a bit tired and would like to sit down. It's been a pleasure talking to you, sire.
+p162
+sg23
+VCertainly none as beautiful as you.
+p163
+sg25
+g26
+((I2016
+I4
+I6
+I12
+I47
+I45
+I2
+I97
+I1
+tp164
+(dp165
+tp166
+Rp167
+sg31
+(lp168
+sg33
+g26
+((I2016
+I4
+I6
+I12
+I42
+I33
+I2
+I97
+I1
+tp169
+(dp170
+tp171
+Rp172
 sbsasS'scale'
-p135
+p173
 I1
 sS'snapping'
-p136
+p174
 I00
 ss.

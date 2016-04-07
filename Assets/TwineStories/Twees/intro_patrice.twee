@@ -9,10 +9,6 @@ BEAST: You can call me...
 [[The Beast.]]
 
 
-:: StoryTitle
-Untitled Story
-
-
 :: Prince Adam.
 %<1>, <pat>, <center>, <surprise>%
 PATRICE: Oh, of course! I would never presume to call you otherwise.
@@ -20,6 +16,7 @@ PATRICE: Oh, of course! I would never presume to call you otherwise.
 %<1>, <pat>, <center>, <smile>%
 PATRICE: Thank you for sending me that invitation. Things like this don't often happen to me.
 
+[[Well, starting today, I hope to change that.]]
 [[Really? I find that surprising.]]
 [[Of course. I've never found the lives of commoners to be particularly interesting.]]
 
@@ -31,6 +28,7 @@ PATRICE: Adam. What a lovely name.
 
 PATRICE: Thank you for sending me that invitation. Things like this don't often happen to me.
 
+[[Well, starting today, I hope to change that.]]
 [[Really? I find that surprising.]]
 [[Of course. I've never found the lives of commoners to be particularly interesting.]]
 
@@ -45,12 +43,22 @@ PATRICE: Um. Of course, your highness. Er, Beast. Your...beastliness?
 %<1>, <pat>, <center>, <neutral>%
 PATRICE: Thank you for sending me that invitation. Things like this don't often happen to me.
 
+[[Well, starting today, I hope to change that.]]
 [[Really? I find that surprising.]]
 [[Of course. I've never found the lives of commoners to be particularly interesting.]]
 
 
-:: StoryAuthor
-Anonymous
+:: Well, starting today, I hope to change that.
+#<patapproval>, <+10>#
+%<1>, <pat>, <center>, <blush>%
+PATRICE: Th-thank you, your highness. You'll never know how much your kindness means to me.
+
+%<1>, <pat>, <center>, <neutral>%
+PATRICE: I hope it's not too much trouble, but I was wondering if you had any paper and ink I could use? There are some letters I'd like to write to people back home.
+
+[[Of course. You'll find a writing desk in the sitting parlor. It's just behind you.]]
+[[I've never much seen the point in writing letters, but you're welcome to occupy yourself however you like.]]
+[[I'd prefer you didn't have any contact with the outside world. It might be...distracting.]]
 
 
 :: Really? I find that surprising.
@@ -58,11 +66,12 @@ Anonymous
 %<1>, <pat>, <center>, <blush>%
 PATRICE: That's very kind of you to say, sire, but I'm afraid my life compared to yours must seem very dull.
 
-%<1>, <pat>, <center>, <smile>%
-PATRICE: This castle is beautiful. I've never seen anything like it!
+%<1>, <pat>, <center>, <neutral>%
+PATRICE: I hope it's not too much trouble, but I was wondering if you had any paper and ink I could use? There are some letters I'd like to write to people back home.
 
-PATRICE: I really am glad to be here, sire. Thank you.
-
+[[Of course. You'll find a writing desk in the sitting parlor. It's just behind you.]]
+[[I've never much seen the point in writing letters, but you're welcome to occupy yourself however you like.]]
+[[I'd prefer you didn't have any contact with the outside world. It might be...distracting.]]
 
 
 :: Of course. I've never found the lives of commoners to be particularly interesting.
@@ -71,6 +80,41 @@ PATRICE: I really am glad to be here, sire. Thank you.
 PATRICE: ...Of course, your majesty. I'm sure we must seem very dull in comparison.
 
 %<1>, <pat>, <center>, <neutral>%
-PATRICE: I really am glad to be here, sire. Thank you.
+PATRICE: I hope it's not too much trouble, but I was wondering if you had any paper and ink I could use? There are some letters I'd like to write to people back home.
+
+[[Of course. You'll find a writing desk in the sitting parlor. It's just behind you.]]
+[[I've never much seen the point in writing letters, but you're welcome to occupy yourself however you like.]]
+[[I'd prefer you didn't have any contact with the outside world. It might be...distracting.]]
+
+
+:: Of course. You'll find a writing desk in the sitting parlor. It's just behind you.
+#<patapproval>, <+5>#
+%<1>, <pat>, <center>, <smile>%
+PATRICE: Thank you, sire. I really do appreciate it. I promise I'll leave everything just as I found it.
+
+PATRICE: This castle is so beautiful. I've never seen anything like it!
+
+PATRICE: I really am glad to be here, sire. Thank you. I won't keep you any longer.
+
+
+:: I've never much seen the point in writing letters, but you're welcome to occupy yourself however you like.
+%<1>, <pat>, <center>, <neutral>%
+PATRICE: ...Oh. Well, to each their own, I suppose.
+
+%<1>, <pat>, <center>, <smile>%
+PATRICE: Personally, I can't imagine living in such a grand castle. It's all a bit much to take in!
+
+PATRICE: I really am glad to be here, sire. Thank you. I won't keep you any longer.
+
+
+:: I'd prefer you didn't have any contact with the outside world. It might be...distracting.
+#<patapproval>, <-5>#
+%<1>, <pat>, <center>, <frown>%
+PATRICE: That's...
+
+%<1>, <pat>, <center>, <smile>%
+PATRICE: I mean, of course. Right. I won't bring it up again.
+
+PATRICE: I really am glad to be here, sire. Thank you. I won't keep you any longer.
 
 

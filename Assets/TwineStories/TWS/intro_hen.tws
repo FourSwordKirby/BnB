@@ -5,7 +5,7 @@ S''
 p2
 sS'saveDestination'
 p3
-VC:\u005cUsers\u005cSam\u005cDesktop\u005ccollege things\u005cgame design\u005cbatb dating sim\u005cintro_hen.tws
+S'C:\\Users\\Sam\\Desktop\\college things\\game design\\batb dating sim\\intro_hen.tws'
 p4
 sS'metadata'
 p5
@@ -37,7 +37,7 @@ p18
 (dp20
 S'text'
 p21
-V%<1>, <hen>, <center>, <neutral>%\u000aHENRIETTA: MOOOOOOOOOOOOOOOOOOOOOOO.\u000a\u000aBEAST: Yes, um. Well, my name is...\u000a\u000a[[Adam.]]\u000a[[Prince Adam.|Adam.]]\u000a[[The Beast.|Adam.]]
+V%<1>, <hen>, <center>, <neutral>%\u000aHENRIETTA: MOOOOOOOOOOOOOOOOOOOOOOO.\u000a\u000aBEAST: Yes, um. Well, my name is...\u000a\u000a[[Adam.|hen]]\u000a[[Prince Adam.|hen]]\u000a[[The Beast.|hen]]
 p22
 sS'title'
 p23
@@ -50,12 +50,12 @@ struct_time
 p26
 ((I2016
 I4
-I3
-I14
-I59
-I28
-I6
-I94
+I4
+I12
+I39
+I41
+I0
+I95
 I1
 tp27
 (dp28
@@ -85,29 +85,29 @@ g14
 I00
 sg15
 (lp39
-I10
-aI150
+F399.0
+aF217.0
 asg17
 (itiddlywiki
 Tiddler
 p40
 (dp41
 g21
-S'Untitled Story'
+VHENRIETTA: MMMMMMOOOOOOOOOOOOOOOOO.\u000a\u000aBEAST: Er....right. Nice meeting you, too.
 p42
 sg23
-S'StoryTitle'
+Vhen
 p43
 sg25
 g26
 ((I2016
 I4
-I3
+I4
 I12
-I57
-I45
-I6
-I94
+I39
+I48
+I0
+I95
 I1
 tp44
 (dp45
@@ -115,80 +115,6 @@ tp46
 Rp47
 sg31
 (lp48
-sg33
-g47
-sbsa(dp49
-g14
-I00
-sg15
-(lp50
-I10
-aI290
-asg17
-(itiddlywiki
-Tiddler
-p51
-(dp52
-g21
-S'Anonymous'
-p53
-sg23
-S'StoryAuthor'
-p54
-sg25
-g26
-((I2016
-I4
-I3
-I12
-I57
-I45
-I6
-I94
-I1
-tp55
-(dp56
-tp57
-Rp58
-sg31
-(lp59
-sg33
-g58
-sbsa(dp60
-g14
-I01
-sg15
-(lp61
-F399.0
-aF217.0
-asg17
-(itiddlywiki
-Tiddler
-p62
-(dp63
-g21
-VHENRIETTA: MMMMMMOOOOOOOOOOOOOOOOO.\u000a\u000aBEAST: Er....right. Nice meeting you, too.
-p64
-sg23
-VAdam.
-p65
-sg25
-g26
-((I2016
-I4
-I3
-I15
-I0
-I22
-I6
-I94
-I1
-tp66
-(dp67
-tp68
-Rp69
-sg31
-(lp70
 sg33
 g26
 ((I2016
@@ -200,14 +126,14 @@ I18
 I6
 I94
 I1
-tp71
-(dp72
-tp73
-Rp74
+tp49
+(dp50
+tp51
+Rp52
 sbsasS'scale'
-p75
+p53
 I1
 sS'snapping'
-p76
+p54
 I00
 ss.
