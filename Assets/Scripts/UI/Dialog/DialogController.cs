@@ -270,9 +270,6 @@ public class DialogController : MonoBehaviour
 
 	public void StartConversation(TwineStory story) {
 
-        //Visual cleanup
-        gameManager.mapControls.hideControls();
-
 		this.currentStory = story;
 
 		storyCompleted = false;
