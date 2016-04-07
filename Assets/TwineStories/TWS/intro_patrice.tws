@@ -5,14 +5,14 @@ S''
 p2
 sS'saveDestination'
 p3
-VC:\u005cUsers\u005cSam\u005cDesktop\u005ccollege things\u005cgame design\u005cbatb dating sim\u005cintro_patrice.tws
+S'C:\\Users\\Sam\\Desktop\\college things\\game design\\batb dating sim\\intro_patrice.tws'
 p4
 sS'metadata'
 p5
 (dp6
 sS'target'
 p7
-S'sugarcane'
+S'jonah'
 p8
 sS'storyPanel'
 p9
@@ -85,29 +85,29 @@ g14
 I00
 sg15
 (lp39
-I10
-aI150
+F399.0
+aF217.0
 asg17
 (itiddlywiki
 Tiddler
 p40
 (dp41
 g21
-S'Untitled Story'
+V#<patapproval>, <+5>#\u000a%<1>, <pat>, <center>, <smile>%\u000aPATRICE: Adam. What a lovely name.\u000a\u000aPATRICE: Thank you for sending me that invitation. Things like this don't often happen to me.\u000a\u000a[[Well, starting today, I hope to change that.]]\u000a[[Really? I find that surprising.]]\u000a[[Of course. I've never found the lives of commoners to be particularly interesting.]]
 p42
 sg23
-S'StoryTitle'
+VAdam.
 p43
 sg25
 g26
 ((I2016
 I4
-I3
-I12
-I57
-I45
 I6
-I94
+I11
+I57
+I57
+I2
+I97
 I1
 tp44
 (dp45
@@ -116,80 +116,6 @@ Rp47
 sg31
 (lp48
 sg33
-g47
-sbsa(dp49
-g14
-I00
-sg15
-(lp50
-I10
-aI290
-asg17
-(itiddlywiki
-Tiddler
-p51
-(dp52
-g21
-S'Anonymous'
-p53
-sg23
-S'StoryAuthor'
-p54
-sg25
-g26
-((I2016
-I4
-I3
-I12
-I57
-I45
-I6
-I94
-I1
-tp55
-(dp56
-tp57
-Rp58
-sg31
-(lp59
-sg33
-g58
-sbsa(dp60
-g14
-I00
-sg15
-(lp61
-F399.0
-aF217.0
-asg17
-(itiddlywiki
-Tiddler
-p62
-(dp63
-g21
-V#<patapproval>, <+5>#\u000a%<1>, <pat>, <center>, <smile>%\u000aPATRICE: Adam. What a lovely name.\u000a\u000aPATRICE: Thank you for sending me that invitation. Things like this don't often happen to me.\u000a\u000a[[Really? I find that surprising.]]\u000a[[Of course. I've never found the lives of commoners to be particularly interesting.]]
-p64
-sg23
-VAdam.
-p65
-sg25
-g26
-((I2016
-I4
-I3
-I14
-I5
-I17
-I6
-I94
-I1
-tp66
-(dp67
-tp68
-Rp69
-sg31
-(lp70
-sg33
 g26
 ((I2016
 I4
@@ -200,45 +126,45 @@ I18
 I6
 I94
 I1
-tp71
-(dp72
-tp73
-Rp74
-sbsa(dp75
+tp49
+(dp50
+tp51
+Rp52
+sbsa(dp53
 g14
 I00
 sg15
-(lp76
-F259.0
+(lp54
+F255.0
 aF217.0
 asg17
 (itiddlywiki
 Tiddler
-p77
-(dp78
+p55
+(dp56
 g21
-V%<1>, <pat>, <center>, <surprise>%\u000aPATRICE: Oh, of course! I would never presume to call you otherwise.\u000a\u000a%<1>, <pat>, <center>, <smile>%\u000aPATRICE: Thank you for sending me that invitation. Things like this don't often happen to me.\u000a\u000a[[Really? I find that surprising.]]\u000a[[Of course. I've never found the lives of commoners to be particularly interesting.]]
-p79
+V%<1>, <pat>, <center>, <surprise>%\u000aPATRICE: Oh, of course! I would never presume to call you otherwise.\u000a\u000a%<1>, <pat>, <center>, <smile>%\u000aPATRICE: Thank you for sending me that invitation. Things like this don't often happen to me.\u000a\u000a[[Well, starting today, I hope to change that.]]\u000a[[Really? I find that surprising.]]\u000a[[Of course. I've never found the lives of commoners to be particularly interesting.]]
+p57
 sg23
 VPrince Adam.
-p80
+p58
 sg25
 g26
 ((I2016
 I4
-I3
-I14
-I5
-I27
 I6
-I94
+I11
+I57
+I50
+I2
+I97
 I1
-tp81
-(dp82
-tp83
-Rp84
+tp59
+(dp60
+tp61
+Rp62
 sg31
-(lp85
+(lp63
 sg33
 g26
 ((I2016
@@ -250,45 +176,45 @@ I18
 I6
 I94
 I1
-tp86
-(dp87
-tp88
-Rp89
-sbsa(dp90
+tp64
+(dp65
+tp66
+Rp67
+sbsa(dp68
 g14
 I00
 sg15
-(lp91
+(lp69
 F544.0
-aF215.0
+aF217.0
 asg17
 (itiddlywiki
 Tiddler
-p92
-(dp93
+p70
+(dp71
 g21
-V#<patapproval>, <-5>#\u000a%<1>, <pat>, <center>, <scared>%\u000aPATRICE: ....Oh.\u000a\u000aPATRICE: Um. Of course, your highness. Er, Beast. Your...beastliness?\u000a\u000a%<1>, <pat>, <center>, <neutral>%\u000aPATRICE: Thank you for sending me that invitation. Things like this don't often happen to me.\u000a\u000a[[Really? I find that surprising.]]\u000a[[Of course. I've never found the lives of commoners to be particularly interesting.]]
-p94
+V#<patapproval>, <-5>#\u000a%<1>, <pat>, <center>, <scared>%\u000aPATRICE: ....Oh.\u000a\u000aPATRICE: Um. Of course, your highness. Er, Beast. Your...beastliness?\u000a\u000a%<1>, <pat>, <center>, <neutral>%\u000aPATRICE: Thank you for sending me that invitation. Things like this don't often happen to me.\u000a\u000a[[Well, starting today, I hope to change that.]]\u000a[[Really? I find that surprising.]]\u000a[[Of course. I've never found the lives of commoners to be particularly interesting.]]
+p72
 sg23
 VThe Beast.
-p95
+p73
 sg25
 g26
 ((I2016
 I4
-I3
-I14
-I9
-I34
 I6
-I94
+I11
+I57
+I31
+I2
+I97
 I1
-tp96
-(dp97
-tp98
-Rp99
+tp74
+(dp75
+tp76
+Rp77
 sg31
-(lp100
+(lp78
 sg33
 g26
 ((I2016
@@ -300,45 +226,45 @@ I18
 I6
 I94
 I1
-tp101
-(dp102
-tp103
-Rp104
-sbsa(dp105
+tp79
+(dp80
+tp81
+Rp82
+sbsa(dp83
 g14
 I00
 sg15
-(lp106
-F326.0
-aF377.0
+(lp84
+F397.0
+aF379.0
 asg17
 (itiddlywiki
 Tiddler
-p107
-(dp108
+p85
+(dp86
 g21
-V#<patapproval>, <+5>#\u000a%<1>, <pat>, <center>, <blush>%\u000aPATRICE: That's very kind of you to say, sire, but I'm afraid my life compared to yours must seem very dull.\u000a\u000a%<1>, <pat>, <center>, <smile>%\u000aPATRICE: This castle is beautiful. I've never seen anything like it!\u000a\u000aPATRICE: I really am glad to be here, sire. Thank you.\u000a
-p109
+V#<patapproval>, <+5>#\u000a%<1>, <pat>, <center>, <blush>%\u000aPATRICE: That's very kind of you to say, sire, but I'm afraid my life compared to yours must seem very dull.\u000a\u000a%<1>, <pat>, <center>, <neutral>%\u000aPATRICE: I hope it's not too much trouble, but I was wondering if you had any paper and ink I could use? There are some letters I'd like to write to people back home.\u000a\u000a[[Of course. You'll find a writing desk in the sitting parlor. It's just behind you.]]\u000a[[I've never much seen the point in writing letters, but you're welcome to occupy yourself however you like.]]\u000a[[I'd prefer you didn't have any contact with the outside world. It might be...distracting.]]
+p87
 sg23
 VReally? I find that surprising.
-p110
+p88
 sg25
 g26
 ((I2016
 I4
-I3
-I14
-I11
-I7
 I6
-I94
+I12
+I15
+I58
+I2
+I97
 I1
-tp111
-(dp112
-tp113
-Rp114
+tp89
+(dp90
+tp91
+Rp92
 sg31
-(lp115
+(lp93
 sg33
 g26
 ((I2016
@@ -350,45 +276,45 @@ I15
 I6
 I94
 I1
-tp116
-(dp117
-tp118
-Rp119
-sbsa(dp120
+tp94
+(dp95
+tp96
+Rp97
+sbsa(dp98
 g14
 I00
 sg15
-(lp121
-F473.0
-aF377.0
+(lp99
+F544.0
+aF379.0
 asg17
 (itiddlywiki
 Tiddler
-p122
-(dp123
+p100
+(dp101
 g21
-V#<patapproval>, <-5>#\u000a%<1>, <pat>, <center>, <frown>%\u000aPATRICE: ...Of course, your majesty. I'm sure we must seem very dull in comparison.\u000a\u000a%<1>, <pat>, <center>, <neutral>%\u000aPATRICE: I really am glad to be here, sire. Thank you.
-p124
+V#<patapproval>, <-5>#\u000a%<1>, <pat>, <center>, <frown>%\u000aPATRICE: ...Of course, your majesty. I'm sure we must seem very dull in comparison.\u000a\u000a%<1>, <pat>, <center>, <neutral>%\u000aPATRICE: I hope it's not too much trouble, but I was wondering if you had any paper and ink I could use? There are some letters I'd like to write to people back home.\u000a\u000a[[Of course. You'll find a writing desk in the sitting parlor. It's just behind you.]]\u000a[[I've never much seen the point in writing letters, but you're welcome to occupy yourself however you like.]]\u000a[[I'd prefer you didn't have any contact with the outside world. It might be...distracting.]]
+p102
 sg23
 VOf course. I've never found the lives of commoners to be particularly interesting.
-p125
+p103
 sg25
 g26
 ((I2016
 I4
-I3
-I14
-I12
-I49
 I6
-I94
+I12
+I22
+I32
+I2
+I97
 I1
-tp126
-(dp127
-tp128
-Rp129
+tp104
+(dp105
+tp106
+Rp107
 sg31
-(lp130
+(lp108
 sg33
 g26
 ((I2016
@@ -400,14 +326,214 @@ I57
 I6
 I94
 I1
-tp131
-(dp132
-tp133
-Rp134
+tp109
+(dp110
+tp111
+Rp112
+sbsa(dp113
+g14
+I00
+sg15
+(lp114
+F253.0
+aF379.0
+asg17
+(itiddlywiki
+Tiddler
+p115
+(dp116
+g21
+V#<patapproval>, <+10>#\u000a%<1>, <pat>, <center>, <blush>%\u000aPATRICE: Th-thank you, your highness. You'll never know how much your kindness means to me.\u000a\u000a%<1>, <pat>, <center>, <neutral>%\u000aPATRICE: I hope it's not too much trouble, but I was wondering if you had any paper and ink I could use? There are some letters I'd like to write to people back home.\u000a\u000a[[Of course. You'll find a writing desk in the sitting parlor. It's just behind you.]]\u000a[[I've never much seen the point in writing letters, but you're welcome to occupy yourself however you like.]]\u000a[[I'd prefer you didn't have any contact with the outside world. It might be...distracting.]]
+p117
+sg23
+VWell, starting today, I hope to change that.
+p118
+sg25
+g26
+((I2016
+I4
+I6
+I12
+I4
+I8
+I2
+I97
+I1
+tp119
+(dp120
+tp121
+Rp122
+sg31
+(lp123
+sg33
+g26
+((I2016
+I4
+I6
+I11
+I57
+I36
+I2
+I97
+I1
+tp124
+(dp125
+tp126
+Rp127
+sbsa(dp128
+g14
+I00
+sg15
+(lp129
+F542.0
+aF543.0
+asg17
+(itiddlywiki
+Tiddler
+p130
+(dp131
+g21
+V#<patapproval>, <-5>#\u000a%<1>, <pat>, <center>, <frown>%\u000aPATRICE: That's...\u000a\u000a%<1>, <pat>, <center>, <smile>%\u000aPATRICE: I mean, of course. Right. I won't bring it up again.\u000a\u000aPATRICE: I really am glad to be here, sire. Thank you. I won't keep you any longer.
+p132
+sg23
+VI'd prefer you didn't have any contact with the outside world. It might be...distracting.
+p133
+sg25
+g26
+((I2016
+I4
+I6
+I12
+I23
+I29
+I2
+I97
+I1
+tp134
+(dp135
+tp136
+Rp137
+sg31
+(lp138
+sg33
+g26
+((I2016
+I4
+I6
+I12
+I2
+I25
+I2
+I97
+I1
+tp139
+(dp140
+tp141
+Rp142
+sbsa(dp143
+g14
+I00
+sg15
+(lp144
+F251.0
+aF543.0
+asg17
+(itiddlywiki
+Tiddler
+p145
+(dp146
+g21
+V#<patapproval>, <+5>#\u000a%<1>, <pat>, <center>, <smile>%\u000aPATRICE: Thank you, sire. I really do appreciate it. I promise I'll leave everything just as I found it.\u000a\u000aPATRICE: This castle is so beautiful. I've never seen anything like it!\u000a\u000aPATRICE: I really am glad to be here, sire. Thank you. I won't keep you any longer.
+p147
+sg23
+VOf course. You'll find a writing desk in the sitting parlor. It's just behind you.
+p148
+sg25
+g26
+((I2016
+I4
+I6
+I12
+I20
+I12
+I2
+I97
+I1
+tp149
+(dp150
+tp151
+Rp152
+sg31
+(lp153
+sg33
+g26
+((I2016
+I4
+I6
+I12
+I2
+I25
+I2
+I97
+I1
+tp154
+(dp155
+tp156
+Rp157
+sbsa(dp158
+g14
+I00
+sg15
+(lp159
+F395.0
+aF543.0
+asg17
+(itiddlywiki
+Tiddler
+p160
+(dp161
+g21
+V%<1>, <pat>, <center>, <neutral>%\u000aPATRICE: ...Oh. Well, to each their own, I suppose.\u000a\u000a%<1>, <pat>, <center>, <smile>%\u000aPATRICE: Personally, I can't imagine living in such a grand castle. It's all a bit much to take in!\u000a\u000aPATRICE: I really am glad to be here, sire. Thank you. I won't keep you any longer.
+p162
+sg23
+VI've never much seen the point in writing letters, but you're welcome to occupy yourself however you like.
+p163
+sg25
+g26
+((I2016
+I4
+I6
+I12
+I20
+I0
+I2
+I97
+I1
+tp164
+(dp165
+tp166
+Rp167
+sg31
+(lp168
+sg33
+g26
+((I2016
+I4
+I6
+I12
+I2
+I25
+I2
+I97
+I1
+tp169
+(dp170
+tp171
+Rp172
 sbsasS'scale'
-p135
+p173
 I1
 sS'snapping'
-p136
+p174
 I00
 ss.

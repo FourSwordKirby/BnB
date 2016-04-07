@@ -65,16 +65,6 @@ public class DialogController : MonoBehaviour
                 dialog = line;
             }
 
-            /*
-            if (dialog.IndexOf("//") >= 0)
-            {
-                dialog = dialog.Substring(dialog.IndexOf("//") + 2, dialog.IndexOf("//", 2)-2);
-                dialogUI.displayItalics();
-            }
-            else
-                dialogUI.displayNormal();
-             */
-
             dialogUI.displayDialog(speakerName, dialog);
             currentLine++;
         }

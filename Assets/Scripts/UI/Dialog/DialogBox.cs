@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using System.Text.RegularExpressions;
 
 
 public class DialogBox : MonoBehaviour {
@@ -34,7 +35,10 @@ public class DialogBox : MonoBehaviour {
 
         if (this.dialogField.text != dialog)
         {
-            this.dialogField.text += dialog[dialogTracker];
+            char[] dialogCharArray = new char[dialog.Length];
+            dialogCharArray = this.dialogField.text.ToCharArray();
+            dialogCharArray[dialogTracker] = dialog[dialogTracker];
+            this.dialogField.text = new string(dialogCharArray);
             dialogTracker++;
 
             textDisplayTimer = textDisplaySpeed;
@@ -53,8 +57,29 @@ public class DialogBox : MonoBehaviour {
         this.dialog = dialog;
         this.dialogTracker = 0;
 
+        string taggedText = "";
+        for(int i = 0; i < dialog.Length; i++)
+        {
+            if (dialog[i] == '<')
+            {
+                string insertTag = "";
+                while (dialog[i] != '>')
+                {
+                    insertTag += dialog[i];
+                    i++;
+                }
+                insertTag += dialog[i];
+                taggedText += insertTag;
+            }
+            else
+            {
+                taggedText += " ";
+            }
+        }
         //Prevents the name from flickering
-        this.dialogField.text = "";
+        this.dialogField.text = taggedText;
+        Debug.Log(taggedText);
+
 
         if (displaySpeed == DisplaySpeed.immediate)
         {

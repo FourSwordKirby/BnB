@@ -4,16 +4,12 @@ JANE: Hello, your highness. I'm Jane.
 
 BEAST: Good morning. My name is...
 
-[[Adam.]]
-[[Prince Adam.]]
-[[The Beast.]]
+[[Adam.|j1a]]
+[[Prince Adam.|j1b]]
+[[The Beast.|j1c]]
 
 
-:: StoryTitle
-Untitled Story
-
-
-:: Prince Adam.
+:: j1b
 %<1>, <john>, <center>, <eyebrow>%
 JANE: Prince, huh? I can work with that.
 
@@ -22,21 +18,23 @@ JANE: So what is it you do in a huge castle like this all day, anyway?
 
 [[Sit around moping, according to my butler.]]
 [[A lot of reading, unfortunately.]]
+[[Mostly just wait for a pretty girl like you to come along.]]
 
 
-:: Adam.
+:: j1a
 #<johnapproval>, <+5>#
 %<1>, <john>, <center>, <eyebrow>%
-JANE: //Adam//. Huh. That's...surprisingly normal, I have to admit.
+JANE: Adam. Huh. That's...surprisingly normal, I have to admit.
 
 %<1>, <john>, <center>, <neutral>%
 JANE: So what is it you do in a huge castle like this all day, anyway?
 
 [[Sit around moping, according to my butler.]]
 [[A lot of reading, unfortunately.]]
+[[Mostly just wait for a pretty girl like you to come along.]]
 
 
-:: The Beast.
+:: j1c
 %<1>, <john>, <center>, <eyebrow>%
 JANE: Jeez, okay. That's one way to make an impression.
 
@@ -45,25 +43,68 @@ JANE: So what is it you do in a huge castle like this all day, anyway?
 
 [[Sit around moping, according to my butler.]]
 [[A lot of reading, unfortunately.]]
-
-
-:: StoryAuthor
-Anonymous
+[[Mostly just wait for a pretty girl like you to come along.]]
 
 
 :: A lot of reading, unfortunately.
 #<johnapproval>, <+5>#
 %<1>, <john>, <center>, <smile>%
-JOHN: Ha! I hear you. 
+JANE: Ha! I hear you. My sister's really into books, but I never understood it.
 
-JOHN: Well, I won't keep you from your other ladies-in-waiting any longer. It was nice to meet you.
+JANE: I can't wait to see your kitchen. It must be huge compared to the one we have at home!
+
+[[I'd be happy to show it to you.]]
+[[The kitchen is for servants, not potential princesses.]]
+[[I'm sure the kitchen at your house must have been much cozier, though.]]
+
 
 
 :: Sit around moping, according to my butler.
 #<johnapproval>, <+5>#
 %<1>, <john>, <center>, <smile>%
-JOHN: Ha! That's a good one. I'll have to remember that. 
+JANE: Ha! That's a good one. Sounds like something my sister would say. 
 
-JOHN: Well, I won't keep you from your other ladies-in-waiting any longer. It was nice to meet you.
+JANE: I can't wait to see your kitchen. It must be huge compared to the one we have at home!
+
+[[I'd be happy to show it to you.]]
+[[The kitchen is for servants, not potential princesses.]]
+[[I'm sure the kitchen at your house must have been much cozier, though.]]
+
+
+
+:: Mostly just wait for a pretty girl like you to come along.
+%<1>, <john>, <center>, <scared>%
+JANE: Right. A girl. Yes.
+
+JANE: I can't wait to see your kitchen. It must be huge compared to the one we have at home!
+
+[[I'd be happy to show it to you.]]
+[[The kitchen is for servants, not potential princesses.]]
+[[I'm sure the kitchen at your house must have been much cozier, though.]]
+
+
+:: I'd be happy to show it to you.
+#<johnapproval>, <+5>#
+%<1>, <john>, <center>, <smile>%
+JANE: That'd be great. I look forward to it.
+
+JANE: Well, I won't keep you from your other ladies-in-waiting any longer. It was nice to meet you.
+
+
+:: The kitchen is for servants, not potential princesses.
+#<johnapproval>, <-5>#
+%<1>, <john>, <center>, <eyebrow>%
+JANE: I guess that doesn't make me much of a potential princess then, does it?
+
+JANE: Well, I won't keep you from your other ladies-in-waiting any longer. It was nice to meet you.
+
+
+:: I'm sure the kitchen at your house must have been much cozier, though.
+#<johnapproval>, <+5>#
+%<1>, <john>, <center>, <blush>%
+JANE: It was. We didn't have much but what we did was good. It was home. 
+
+%<1>, <john>, <center>, <smile>%
+JANE: Well, I won't keep you from your other ladies-in-waiting any longer. It was nice to meet you.
 
 

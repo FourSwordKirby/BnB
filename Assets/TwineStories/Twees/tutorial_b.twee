@@ -13,7 +13,7 @@ BEAST: What?
 BEAUREGARD: Like this. 
 
 %1, <beau>, <center>, <blush>%
-BEAUREGARD: //I'm a young woman from a small village, here to meet the man who could be my future husband...if he plays his cards right.//
+BEAUREGARD: <i>I'm a young woman from a small village, here to meet the man who could be my future husband...if he plays his cards right.</i>
 
 BEAST: Beau, this is ridiculous.
 
@@ -26,7 +26,7 @@ BEAST: ...Fine.
 BEAUREGARD: Now then. 
 
 %1, <beau>, <center>, <blush>%
-BEAUREGARD: //My name's Olivia. What's yours?//
+BEAUREGARD: <i>My name's Olivia. What's yours?</i>
 
 [[Prince Adam.]]
 [[Adam. Just Adam.]]
@@ -35,7 +35,7 @@ BEAUREGARD: //My name's Olivia. What's yours?//
 
 :: Beast. [beauANGRY]
 %1, <beau>, <center>, <angry>%
-BEAUREGARD: Don't be ridiculous, sire! I won't have you introducing yourself with that //silly// nickname you came up with. It's depressing.
+BEAUREGARD: Don't be ridiculous, sire! I won't have you introducing yourself with that <i>silly</i> nickname you came up with. It's depressing.
 
 [[Fine. Prince Adam, then.|Prince Adam.]]
 [[Then my name is Adam. Just Adam.|Adam. Just Adam.]]
@@ -48,10 +48,12 @@ Untitled Story
 
 :: Prince Adam. [beauSMILE]
 %1, <beau>, <center>, <smile>%
-BEAUREGARD: //A pleasure to meet you, your majesty! //
+BEAUREGARD: 
+<i>A pleasure to meet you, your majesty!</i>
 
 %1, <beau>, <center>, <blush>%
-BEAUREGARD: //So, what is it like, living in a castle?//
+BEAUREGARD: 
+<i>So, what is it like, living in a castle?</i>
 
 [[I certainly enjoy it. I hope you will, too.]]
 [[It's alright. Better than living in a straw hut, I suppose.]]
@@ -60,10 +62,10 @@ BEAUREGARD: //So, what is it like, living in a castle?//
 
 :: Adam. Just Adam. [beauSMILE]
 %1, <beau>, <center>, <smile>%
-BEAUREGARD: //Oh, so humble! A pleasure to meet you, Adam.// 
+BEAUREGARD: <i>Oh, so humble! A pleasure to meet you, Adam.</i> 
 
 %1, <beau>, <center>, <blush>%
-BEAUREGARD: //So, what is it like, living in a castle?//
+BEAUREGARD: <i>So, what is it like, living in a castle?</i>
 
 [[I certainly enjoy it. I hope you will, too.]]
 [[It's alright. Better than living in a straw hut, I suppose.]]
@@ -78,7 +80,7 @@ BEAUREGARD: Ugh! You're impossible. Let's just keep going.
 BEAUREGARD: Ahem. 
 
 %1, <beau>, <center>, <blush>%
-BEAUREGARD: //So, what is it like, living in a castle?//
+BEAUREGARD: <i>So, what is it like, living in a castle?</i>
 
 [[I certainly enjoy it. I hope you will, too.]]
 [[It's alright. Better than living in a straw hut, I suppose.]]

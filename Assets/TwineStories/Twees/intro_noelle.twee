@@ -4,62 +4,104 @@ NOELLE: Good morning, sire. My name is Noelle.
 
 BEAST: Good morning. You can refer to me as...
 
-[[Adam.]]
-[[Prince Adam.]]
-[[The Beast.]]
+[[Adam.|n1]]
+[[Prince Adam.|n2]]
+[[The Beast.|n3]]
 
 
-:: StoryTitle
-Untitled Story
-
-
-:: Prince Adam.
+:: n2
 NOELLE: What a lovely name. It's a pleasure to meet you, sire.
 
 NOELLE: Thank you for inviting me to the castle. This is all so exciting!
 
 [[I hope you enjoy yourself.]]
 [[It wasn't my decision.]]
+[[I'm sorry to put you in this position.]]
 
 
-:: Adam.
+
+:: n1
 NOELLE: Adam. Lovely.
 
 NOELLE: Thank you for inviting me to the castle. This is all so exciting!
 
 [[I hope you enjoy yourself.]]
 [[It wasn't my decision.]]
+[[I'm sorry to put you in this position.]]
 
 
-:: The Beast.
+:: n3
 #<noelleapproval>, <-5>#
 %<1>, <noelle>, <center>, <scared>%
-NOELLE: O-oh. Alright. Um, yes.
+NOELLE: O-oh. Alright. Um, yes. Yes, of course.
 
 %<1>, <noelle>, <center>, <smile>%
 NOELLE: Thank you for inviting me to the castle. This is all so exciting!
 
 [[I hope you enjoy yourself.]]
 [[It wasn't my decision.]]
-
-
-:: StoryAuthor
-Anonymous
+[[I'm sorry to put you in this position.]]
 
 
 :: I hope you enjoy yourself.
 #<noelleapproval>, <+5>#
-
 NOELLE: I'm sure I will, sire. Thank you.
 
-NOELLE: I look forward to our next conversation.
+NOELLE: I hope you find one of us a pleasing option. I'm sure you must have had plenty of suitors in the past.
+
+[[Certainly none as beautiful as you.]]
+[[None, actually. I wish I'd been so lucky.]]
+[[I don't exactly attract people. Quite the opposite, usually.]]
 
 
 :: It wasn't my decision.
 #<noelleapproval>, <-5>#
-
 NOELLE: ...Well. I'm sorry you feel inconvenienced by our presence, then.
 
-NOELLE: If you'll excuse me, I think I need some fresh air.
+NOELLE: I'm sure it gets exhausting having to constantly host suitors. Being a prince must be hard work, with so many people vying for your hand.
+
+[[Certainly none as beautiful as you.]]
+[[None, actually. I wish I'd been so lucky.]]
+[[I don't exactly attract people. Quite the opposite, usually.]]
+
+
+:: I'm sorry to put you in this position.
+#<noelleapproval>, <+5>#
+%<1>, <noelle>, <center>, <scared>%
+NOELLE: .....
+
+NOELLE: I don't--
+
+%<1>, <noelle>, <center>, <smile>%
+NOELLE: I'm sure I don't know what you're talking about, your highness. Why wouldn't I be happy to be meeting the man who might one day be my husband?
+
+NOELLE: But then, I'm sure you must have had plenty of suitors in the past.
+
+[[Certainly none as beautiful as you.]]
+[[None, actually. I wish I'd been so lucky.]]
+[[I don't exactly attract people. Quite the opposite, usually.]]
+
+
+:: Certainly none as beautiful as you.
+NOELLE: Oh, sire. You're too kind. I'm just a simple village girl. I'm sure I look ridiculous against the backdrop of all this finery.
+
+NOELLE: Now, if you'll excuse me, I'm feeling a bit tired and would like to sit down. It's been a pleasure talking to you, sire.
+
+
+:: None, actually. I wish I'd been so lucky.
+NOELLE: I must say I find that surprising, given the splendor of this magnificent castle. But I suppose not everyone has such good taste.
+
+NOELLE: Now, if you'll excuse me, I'm feeling a bit tired and would like to sit down. It's been a pleasure talking to you, sire.
+
+
+:: I don't exactly attract people. Quite the opposite, usually.
+#<noelleapproval>, <-5>#
+%<1>, <noelle>, <center>, <scared>%
+NOELLE: ...Oh.
+
+%<1>, <noelle>, <center>, <smile>%
+NOELLE: Well, I'm sorry to hear that. I must admit, I'm surprised no one has courted you before for the castle alone. It's truly magnificent.
+
+NOELLE: Now, if you'll excuse me, I'm feeling a bit tired and would like to sit down. 
 
 

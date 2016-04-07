@@ -5,7 +5,7 @@ S''
 p2
 sS'saveDestination'
 p3
-VC:\u005cUsers\u005cSam\u005cDesktop\u005ccollege things\u005cgame design\u005cbatb dating sim\u005cintro_jane.tws
+S'C:\\Users\\Sam\\Desktop\\college things\\game design\\batb dating sim\\intro_jane.tws'
 p4
 sS'metadata'
 p5
@@ -27,7 +27,7 @@ I00
 sS'pos'
 p15
 (lp16
-I399
+I400
 aI64
 asS'passage'
 p17
@@ -37,7 +37,7 @@ p18
 (dp20
 S'text'
 p21
-V%<1>, <john>, <center>, <neutral>%\u000aJANE: Hello, your highness. I'm Jane. \u000a\u000aBEAST: Good morning. My name is...\u000a\u000a[[Adam.]]\u000a[[Prince Adam.]]\u000a[[The Beast.]]
+V%<1>, <john>, <center>, <neutral>%\u000aJANE: Hello, your highness. I'm Jane. \u000a\u000aBEAST: Good morning. My name is...\u000a\u000a[[Adam.|j1a]]\u000a[[Prince Adam.|j1b]]\u000a[[The Beast.|j1c]]
 p22
 sS'title'
 p23
@@ -50,12 +50,12 @@ struct_time
 p26
 ((I2016
 I4
-I3
-I14
-I28
-I51
-I6
-I94
+I4
+I12
+I42
+I44
+I0
+I95
 I1
 tp27
 (dp28
@@ -85,29 +85,29 @@ g14
 I00
 sg15
 (lp39
-I10
-aI150
+F401.0
+aF217.0
 asg17
 (itiddlywiki
 Tiddler
 p40
 (dp41
 g21
-S'Untitled Story'
+V#<johnapproval>, <+5>#\u000a%<1>, <john>, <center>, <eyebrow>%\u000aJANE: Adam. Huh. That's...surprisingly normal, I have to admit.\u000a\u000a%<1>, <john>, <center>, <neutral>%\u000aJANE: So what is it you do in a huge castle like this all day, anyway?\u000a\u000a[[Sit around moping, according to my butler.]]\u000a[[A lot of reading, unfortunately.]]\u000a[[Mostly just wait for a pretty girl like you to come along.]]
 p42
 sg23
-S'StoryTitle'
+Vj1a
 p43
 sg25
 g26
 ((I2016
 I4
-I3
-I12
-I57
-I45
 I6
-I94
+I11
+I40
+I29
+I2
+I97
 I1
 tp44
 (dp45
@@ -116,80 +116,6 @@ Rp47
 sg31
 (lp48
 sg33
-g47
-sbsa(dp49
-g14
-I00
-sg15
-(lp50
-I10
-aI290
-asg17
-(itiddlywiki
-Tiddler
-p51
-(dp52
-g21
-S'Anonymous'
-p53
-sg23
-S'StoryAuthor'
-p54
-sg25
-g26
-((I2016
-I4
-I3
-I12
-I57
-I45
-I6
-I94
-I1
-tp55
-(dp56
-tp57
-Rp58
-sg31
-(lp59
-sg33
-g58
-sbsa(dp60
-g14
-I00
-sg15
-(lp61
-F399.0
-aF217.0
-asg17
-(itiddlywiki
-Tiddler
-p62
-(dp63
-g21
-V#<johnapproval>, <+5>#\u000a%<1>, <john>, <center>, <eyebrow>%\u000aJANE: //Adam//. Huh. That's...surprisingly normal, I have to admit.\u000a\u000a%<1>, <john>, <center>, <neutral>%\u000aJANE: So what is it you do in a huge castle like this all day, anyway?\u000a\u000a[[Sit around moping, according to my butler.]]\u000a[[A lot of reading, unfortunately.]]
-p64
-sg23
-VAdam.
-p65
-sg25
-g26
-((I2016
-I4
-I3
-I14
-I43
-I47
-I6
-I94
-I1
-tp66
-(dp67
-tp68
-Rp69
-sg31
-(lp70
-sg33
 g26
 ((I2016
 I4
@@ -200,45 +126,45 @@ I18
 I6
 I94
 I1
-tp71
-(dp72
-tp73
-Rp74
-sbsa(dp75
+tp49
+(dp50
+tp51
+Rp52
+sbsa(dp53
 g14
 I00
 sg15
-(lp76
+(lp54
 F259.0
 aF217.0
 asg17
 (itiddlywiki
 Tiddler
-p77
-(dp78
+p55
+(dp56
 g21
-V%<1>, <john>, <center>, <eyebrow>%\u000aJANE: Prince, huh? I can work with that.\u000a\u000a%<1>, <john>, <center>, <neutral>%\u000aJANE: So what is it you do in a huge castle like this all day, anyway?\u000a\u000a[[Sit around moping, according to my butler.]]\u000a[[A lot of reading, unfortunately.]]
-p79
+V%<1>, <john>, <center>, <eyebrow>%\u000aJANE: Prince, huh? I can work with that.\u000a\u000a%<1>, <john>, <center>, <neutral>%\u000aJANE: So what is it you do in a huge castle like this all day, anyway?\u000a\u000a[[Sit around moping, according to my butler.]]\u000a[[A lot of reading, unfortunately.]]\u000a[[Mostly just wait for a pretty girl like you to come along.]]
+p57
 sg23
-VPrince Adam.
-p80
+Vj1b
+p58
 sg25
 g26
 ((I2016
 I4
-I3
-I14
-I43
-I38
 I6
-I94
+I11
+I40
+I51
+I2
+I97
 I1
-tp81
-(dp82
-tp83
-Rp84
+tp59
+(dp60
+tp61
+Rp62
 sg31
-(lp85
+(lp63
 sg33
 g26
 ((I2016
@@ -250,45 +176,45 @@ I18
 I6
 I94
 I1
-tp86
-(dp87
-tp88
-Rp89
-sbsa(dp90
+tp64
+(dp65
+tp66
+Rp67
+sbsa(dp68
 g14
 I00
 sg15
-(lp91
+(lp69
 F544.0
 aF215.0
 asg17
 (itiddlywiki
 Tiddler
-p92
-(dp93
+p70
+(dp71
 g21
-V%<1>, <john>, <center>, <eyebrow>%\u000aJANE: Jeez, okay. That's one way to make an impression.\u000a\u000a%<1>, <john>, <center>, <neutral>%\u000aJANE: So what is it you do in a huge castle like this all day, anyway?\u000a\u000a[[Sit around moping, according to my butler.]]\u000a[[A lot of reading, unfortunately.]]
-p94
+V%<1>, <john>, <center>, <eyebrow>%\u000aJANE: Jeez, okay. That's one way to make an impression.\u000a\u000a%<1>, <john>, <center>, <neutral>%\u000aJANE: So what is it you do in a huge castle like this all day, anyway?\u000a\u000a[[Sit around moping, according to my butler.]]\u000a[[A lot of reading, unfortunately.]]\u000a[[Mostly just wait for a pretty girl like you to come along.]]
+p72
 sg23
-VThe Beast.
-p95
+Vj1c
+p73
 sg25
 g26
 ((I2016
 I4
-I3
-I14
-I49
-I27
 I6
-I94
+I11
+I40
+I47
+I2
+I97
 I1
-tp96
-(dp97
-tp98
-Rp99
+tp74
+(dp75
+tp76
+Rp77
 sg31
-(lp100
+(lp78
 sg33
 g26
 ((I2016
@@ -300,95 +226,45 @@ I18
 I6
 I94
 I1
-tp101
-(dp102
-tp103
-Rp104
-sbsa(dp105
-g14
-I01
-sg15
-(lp106
-F465.0
-aF379.0
-asg17
-(itiddlywiki
-Tiddler
-p107
-(dp108
-g21
-V#<johnapproval>, <+5>#\u000a%<1>, <john>, <center>, <smile>%\u000aJOHN: Ha! That's a good one. I'll have to remember that. \u000a\u000aJOHN: Well, I won't keep you from your other ladies-in-waiting any longer. It was nice to meet you.
-p109
-sg23
-VSit around moping, according to my butler.
-p110
-sg25
-g26
-((I2016
-I4
-I3
-I14
-I57
-I14
-I6
-I94
-I1
-tp111
-(dp112
-tp113
-Rp114
-sg31
-(lp115
-sg33
-g26
-((I2016
-I4
-I3
-I14
-I37
-I15
-I6
-I94
-I1
-tp116
-(dp117
-tp118
-Rp119
-sbsa(dp120
+tp79
+(dp80
+tp81
+Rp82
+sbsa(dp83
 g14
 I00
 sg15
-(lp121
-F323.0
-aF379.0
+(lp84
+F402.0
+aF377.0
 asg17
 (itiddlywiki
 Tiddler
-p122
-(dp123
+p85
+(dp86
 g21
-V#<johnapproval>, <+5>#\u000a%<1>, <john>, <center>, <smile>%\u000aJOHN: Ha! I hear you. \u000a\u000aJOHN: Well, I won't keep you from your other ladies-in-waiting any longer. It was nice to meet you.
-p124
+V#<johnapproval>, <+5>#\u000a%<1>, <john>, <center>, <smile>%\u000aJANE: Ha! That's a good one. Sounds like something my sister would say. \u000a\u000aJANE: I can't wait to see your kitchen. It must be huge compared to the one we have at home!\u000a\u000a[[I'd be happy to show it to you.]]\u000a[[The kitchen is for servants, not potential princesses.]]\u000a[[I'm sure the kitchen at your house must have been much cozier, though.]]\u000a
+p87
 sg23
-VA lot of reading, unfortunately.
-p125
+VSit around moping, according to my butler.
+p88
 sg25
 g26
 ((I2016
 I4
-I3
-I14
-I56
-I52
 I6
-I94
+I11
+I52
+I24
+I2
+I97
 I1
-tp126
-(dp127
-tp128
-Rp129
+tp89
+(dp90
+tp91
+Rp92
 sg31
-(lp130
+(lp93
 sg33
 g26
 ((I2016
@@ -400,14 +276,264 @@ I15
 I6
 I94
 I1
-tp131
-(dp132
-tp133
-Rp134
+tp94
+(dp95
+tp96
+Rp97
+sbsa(dp98
+g14
+I00
+sg15
+(lp99
+F258.0
+aF377.0
+asg17
+(itiddlywiki
+Tiddler
+p100
+(dp101
+g21
+V#<johnapproval>, <+5>#\u000a%<1>, <john>, <center>, <smile>%\u000aJANE: Ha! I hear you. My sister's really into books, but I never understood it.\u000a\u000aJANE: I can't wait to see your kitchen. It must be huge compared to the one we have at home!\u000a\u000a[[I'd be happy to show it to you.]]\u000a[[The kitchen is for servants, not potential princesses.]]\u000a[[I'm sure the kitchen at your house must have been much cozier, though.]]\u000a
+p102
+sg23
+VA lot of reading, unfortunately.
+p103
+sg25
+g26
+((I2016
+I4
+I6
+I11
+I52
+I19
+I2
+I97
+I1
+tp104
+(dp105
+tp106
+Rp107
+sg31
+(lp108
+sg33
+g26
+((I2016
+I4
+I3
+I14
+I37
+I15
+I6
+I94
+I1
+tp109
+(dp110
+tp111
+Rp112
+sbsa(dp113
+g14
+I01
+sg15
+(lp114
+F545.0
+aF377.0
+asg17
+(itiddlywiki
+Tiddler
+p115
+(dp116
+g21
+V%<1>, <john>, <center>, <scared>%\u000aJANE: Right. A girl. Yes.\u000a\u000aJANE: I can't wait to see your kitchen. It must be huge compared to the one we have at home!\u000a\u000a[[I'd be happy to show it to you.]]\u000a[[The kitchen is for servants, not potential princesses.]]\u000a[[I'm sure the kitchen at your house must have been much cozier, though.]]
+p117
+sg23
+VMostly just wait for a pretty girl like you to come along.
+p118
+sg25
+g26
+((I2016
+I4
+I6
+I12
+I24
+I41
+I2
+I97
+I1
+tp119
+(dp120
+tp121
+Rp122
+sg31
+(lp123
+sg33
+g26
+((I2016
+I4
+I6
+I11
+I40
+I34
+I2
+I97
+I1
+tp124
+(dp125
+tp126
+Rp127
+sbsa(dp128
+g14
+I00
+sg15
+(lp129
+F547.0
+aF521.0
+asg17
+(itiddlywiki
+Tiddler
+p130
+(dp131
+g21
+V#<johnapproval>, <+5>#\u000a%<1>, <john>, <center>, <blush>%\u000aJANE: It was. We didn't have much but what we did was good. It was home. \u000a\u000a%<1>, <john>, <center>, <smile>%\u000aJANE: Well, I won't keep you from your other ladies-in-waiting any longer. It was nice to meet you.
+p132
+sg23
+VI'm sure the kitchen at your house must have been much cozier, though.
+p133
+sg25
+g26
+((I2016
+I4
+I6
+I11
+I55
+I17
+I2
+I97
+I1
+tp134
+(dp135
+tp136
+Rp137
+sg31
+(lp138
+sg33
+g26
+((I2016
+I4
+I6
+I11
+I51
+I42
+I2
+I97
+I1
+tp139
+(dp140
+tp141
+Rp142
+sbsa(dp143
+g14
+I00
+sg15
+(lp144
+F403.0
+aF522.0
+asg17
+(itiddlywiki
+Tiddler
+p145
+(dp146
+g21
+V#<johnapproval>, <-5>#\u000a%<1>, <john>, <center>, <eyebrow>%\u000aJANE: I guess that doesn't make me much of a potential princess then, does it?\u000a\u000aJANE: Well, I won't keep you from your other ladies-in-waiting any longer. It was nice to meet you.
+p147
+sg23
+VThe kitchen is for servants, not potential princesses.
+p148
+sg25
+g26
+((I2016
+I4
+I6
+I11
+I54
+I10
+I2
+I97
+I1
+tp149
+(dp150
+tp151
+Rp152
+sg31
+(lp153
+sg33
+g26
+((I2016
+I4
+I6
+I11
+I51
+I42
+I2
+I97
+I1
+tp154
+(dp155
+tp156
+Rp157
+sbsa(dp158
+g14
+I00
+sg15
+(lp159
+F259.0
+aF519.0
+asg17
+(itiddlywiki
+Tiddler
+p160
+(dp161
+g21
+V#<johnapproval>, <+5>#\u000a%<1>, <john>, <center>, <smile>%\u000aJANE: That'd be great. I look forward to it.\u000a\u000aJANE: Well, I won't keep you from your other ladies-in-waiting any longer. It was nice to meet you.
+p162
+sg23
+VI'd be happy to show it to you.
+p163
+sg25
+g26
+((I2016
+I4
+I6
+I11
+I53
+I27
+I2
+I97
+I1
+tp164
+(dp165
+tp166
+Rp167
+sg31
+(lp168
+sg33
+g26
+((I2016
+I4
+I6
+I11
+I51
+I42
+I2
+I97
+I1
+tp169
+(dp170
+tp171
+Rp172
 sbsasS'scale'
-p135
+p173
 I1
 sS'snapping'
-p136
+p174
 I00
 ss.
