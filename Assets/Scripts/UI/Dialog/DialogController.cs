@@ -156,7 +156,7 @@ public class DialogController : MonoBehaviour
 			DialogUI.ImagePositon position = ParsePos(TrimTag(instrList [3 * i + 2]));
 			LoveInterest.Emotion emotion = ParseEmotion(TrimTag(instrList [3 * i + 3]));
 
-            dialogUI.displayLoveInterest(GameManager.getLoveInterest(name), emotion, position);
+            dialogUI.displayLoveInterest(gameManager.getLoveInterest(name), emotion, position);
 		}
 	}
 
