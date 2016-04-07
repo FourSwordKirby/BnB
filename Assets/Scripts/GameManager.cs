@@ -61,4 +61,5 @@ public class GameManager : MonoBehaviour {
         this.currentRoom = room;
         backgroundControls.displayRoom(room.background);
     }
+    //Need to put common functions that occur all the time here (like changing rooms, displaying dialog, etc.)
 }
