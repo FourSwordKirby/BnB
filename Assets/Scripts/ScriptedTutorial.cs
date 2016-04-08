@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 using UnityTwine;
 
 public class ScriptedTutorial : MonoBehaviour {
@@ -15,6 +16,8 @@ public class ScriptedTutorial : MonoBehaviour {
 
     public TwineStory wrongRoom1;
     public TwineStory wrongRoom2;
+
+    public List<TwineStory> SuitorIntros;
 
 
     private static Room previousRoom; //Used to detect a room change
