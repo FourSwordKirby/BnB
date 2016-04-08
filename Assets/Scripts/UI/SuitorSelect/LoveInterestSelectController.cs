@@ -4,7 +4,6 @@ using System.Collections;
 using System.Collections.Generic;
 
 public class LoveInterestSelectController : MonoBehaviour {
-    public GameManager gameManager;
     public List<LoveInterestIcon> loveInterestIcons;
 
     public enum RoomPosition
@@ -32,6 +31,7 @@ public class LoveInterestSelectController : MonoBehaviour {
 
     public void LoveInterestClicked(LoveInterest loveInterest)
     {
+        //We are going to want to have the game manager display the story of this love interest?
         Debug.Log(loveInterest);
     }
 }

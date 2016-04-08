@@ -5,7 +5,6 @@ using UnityTwine;
 public class ScriptedTutorial : MonoBehaviour {
 
 	public DialogController dialogController;
-	public GameManager gameManager;
 
 	public Room bedroom;
 	public Room parlor;
@@ -18,7 +17,7 @@ public class ScriptedTutorial : MonoBehaviour {
     public TwineStory wrongRoom2;
 
 
-    private Room previousRoom; //Used to detect a room change
+    private static Room previousRoom; //Used to detect a room change
 	private bool firstTimeInParlor = true;
     private int wrongRoomCount = 0;
 
@@ -28,9 +27,9 @@ public class ScriptedTutorial : MonoBehaviour {
 	}
 
 	void Begin () {
-		gameManager.LoadRoom (bedroom);
-        previousRoom = gameManager.currentRoom;
-		dialogController.StartConversation (tutorialA);
+		GameManager.LoadRoom (bedroom);
+        previousRoom = GameManager.currentRoom;
+		GameManager.StartConversation (tutorialA);
 
 		// After Tutorial A is done, the player should go to the parlor to talk to Beau and continue the game
 		// dialogController.SetupAndBeginStory(tutorialB);
@@ -38,9 +37,9 @@ public class ScriptedTutorial : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if(previousRoom != gameManager.currentRoom)
+        if(previousRoom != GameManager.currentRoom)
         {
-            if (gameManager.currentRoom == parlor)
+            if (GameManager.currentRoom == parlor)
             {
                 if (firstTimeInParlor)
                 {
@@ -50,7 +49,7 @@ public class ScriptedTutorial : MonoBehaviour {
 					// TODO: After tutorial done, deactivate tutorial
                 }
             }
-            else if (gameManager.currentRoom != bedroom)
+            else if (GameManager.currentRoom != bedroom)
             {
                 if (wrongRoomCount  == 0)
                 {
@@ -65,6 +64,6 @@ public class ScriptedTutorial : MonoBehaviour {
             }
         }
 		
-        previousRoom = gameManager.currentRoom;
+        previousRoom = GameManager.currentRoom;
 	}
 }

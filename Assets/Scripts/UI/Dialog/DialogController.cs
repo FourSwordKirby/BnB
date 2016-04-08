@@ -235,27 +235,21 @@ public class DialogController : MonoBehaviour
 		currentStory.Advance (currentStory.Links[option]);
     }
 
-	void Clear() {
-		HideOptions ();
-		// TODO: Clear dialogue box
-	}
-
-	void CloseConversation() {
+	public void CloseConversation() {
 		HideOptions ();
 		dialogUI.clearLoveInterests ();
         dialogUI.clearDialogBox();
-        gameManager.mapControls.displayControls();
 	}
 
 	void Story_OnStateChanged(TwineStoryState state) {
-		//Debug.Log ("State change: " + state);
+		Debug.Log ("State change: " + state);
 		if (state == TwineStoryState.Idle || state == TwineStoryState.Complete) {
 			//dialogUI.displayDialog ("", this.currentText);
 			advanceStory ();
 			//CleanupFunction = Close 
 		} else if (state == TwineStoryState.Playing) {
-			Clear ();
-			// TODO: Clear output data from previous state
+            //Make sure we don't display options prematurely
+            HideOptions();
 		}
 		
 		//Debug.Log ("Now in state " + state);
@@ -281,21 +275,6 @@ public class DialogController : MonoBehaviour
         this.lines = new List<string>();
     }
 
-	void Start() {
-		// TODO: This is just here for testing
-        //this.currentStory = loadedLoveInterest.LoveInterestStory;
-
-		/* Register UnityTwine callback functions */
-		/*
-        this.currentStory.OnOutput += Story_OnOutput;
-		this.currentStory.OnStateChanged += Story_OnStateChanged;
-
-		this.currentStory.Begin();
-
-        dialogUI.displayLoveInterest(loadedLoveInterest, LoveInterest.Emotion.Happy);
-         */
-	}
-
 	public void StartConversation(TwineStory story) {
 
 		this.currentStory = story;
@@ -314,7 +293,7 @@ public class DialogController : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
 			if (storyCompleted && dialogUI.dialogCompleted()) {
-				CloseConversation ();
+                GameManager.EndConversation();
 			}
             advanceStory();
         }

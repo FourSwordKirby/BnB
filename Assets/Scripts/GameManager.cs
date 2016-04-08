@@ -7,15 +7,16 @@ using System.Collections.Generic;
 public class GameManager : MonoBehaviour {
 
     public List<LoveInterest> loveInterests;
-
-    public int currentDay;
     public Mansion mansion;
-	public Room currentRoom;
 
-    public DialogController dialogControls;
-    public MapController mapControls;
-    public BackgroundController backgroundControls;
-    public LoveInterestSelectController loveInterestControls;
+    public static int currentDay;
+    public static Room currentRoom;
+
+
+    public static DialogController dialogControls;
+    public static MapController mapControls;
+    public static BackgroundController backgroundControls;
+    public static LoveInterestSelectController loveInterestControls;
 
     public enum RoomName
     {
@@ -49,6 +50,10 @@ public class GameManager : MonoBehaviour {
     public void Awake()
     {
         //loveInterests = new List<LoveInterest>(GameObject.FindObjectsOfType<LoveInterest>());
+        dialogControls = GameObject.FindObjectOfType<DialogController>();
+        mapControls = GameObject.FindObjectOfType<MapController>();
+        backgroundControls = GameObject.FindObjectOfType<BackgroundController>();
+        loveInterestControls = GameObject.FindObjectOfType<LoveInterestSelectController>();
     }
 
     public LoveInterest getLoveInterest(GameManager.LoveInterestName name)
@@ -56,11 +61,29 @@ public class GameManager : MonoBehaviour {
         return loveInterests[(int)name];
     }
 
-    public void LoadRoom(Room room)
+    public static void LoadRoom(Room room)
     {
 		Debug.Log ("Loading room!");
-        this.currentRoom = room;
+        currentRoom = room;
         backgroundControls.displayRoom(room.background);
     }
+    
     //Need to put common functions that occur all the time here (like changing rooms, displaying dialog, etc.)
+    public static void StartConversation(TwineStory story)
+    {
+        dialogControls.StartConversation(story);
+        mapControls.hideControls();
+    }
+
+    public static void EndConversation()
+    {
+        dialogControls.CloseConversation();
+        mapControls.displayControls();
+    }
+
+
+    public static void AdvanceDay()
+    {
+        currentDay++;
+    }
 }

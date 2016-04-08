@@ -520,12 +520,6 @@ RectTransform:
   m_PrefabParentObject: {fileID: 22449396, guid: f14574a473c2a2947879155cdd5862ab,
     type: 2}
   m_PrefabInternal: {fileID: 531550085}
---- !u!114 &738593731 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 11428654, guid: f14574a473c2a2947879155cdd5862ab,
-    type: 2}
-  m_PrefabInternal: {fileID: 531550085}
-  m_Script: {fileID: 11500000, guid: 1263172b2b71ff44b81b64dca823b70e, type: 3}
 --- !u!114 &747658263 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11457964, guid: c7b9a94ddc8f45d43bf6fce2e3b48c60,
@@ -761,12 +755,6 @@ MonoBehaviour:
   AutoPlay: 0
   StartPassage: Start
   AdditionalHooks: []
---- !u!114 &1083923972 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 11414396, guid: e8c3591ee5acd57419b769e15cc8630b,
-    type: 2}
-  m_PrefabInternal: {fileID: 1227574083}
-  m_Script: {fileID: 11500000, guid: 28de903703577734690c0bc597b1e4e8, type: 3}
 --- !u!114 &1109174144 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11492742, guid: c7b9a94ddc8f45d43bf6fce2e3b48c60,
@@ -953,7 +941,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f15008727956346648bbd61f4bc40d33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameManager: {fileID: 1343823894}
   dialogController: {fileID: 1324042582}
   bedroom: {fileID: 2141531993}
   dining: {fileID: 1591357585}
@@ -1048,19 +1035,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   loveInterests:
   - {fileID: 1660471619}
-  currentDay: 0
   mansion: {fileID: 747658263}
-  currentRoom: {fileID: 0}
-  dialogControls: {fileID: 1324042582}
-  mapControls: {fileID: 738593731}
-  backgroundControls: {fileID: 1083923972}
-  loveInterestControls: {fileID: 1378954240}
---- !u!114 &1378954240 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 11428926, guid: 88ed3aaaab6c0094080d9725cbd3b0e3,
-    type: 2}
-  m_PrefabInternal: {fileID: 649106518}
-  m_Script: {fileID: 11500000, guid: 9cc6314a9e85f304c93ee0af7e2d1147, type: 3}
 --- !u!224 &1389968362 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 22430140, guid: 88ed3aaaab6c0094080d9725cbd3b0e3,
@@ -1116,7 +1091,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogController: {fileID: 1324042582}
-  gameManager: {fileID: 1343823894}
   bedroom: {fileID: 2141531993}
   parlor: {fileID: 362675297}
   tutorialA: {fileID: 1297016146}
@@ -1207,6 +1181,11 @@ Prefab:
       propertyPath: unlocked
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11464586, guid: c7b9a94ddc8f45d43bf6fce2e3b48c60, type: 2}
+      propertyPath: background
+      value: 
+      objectReference: {fileID: 21300000, guid: d4c166951c94f2a4283faf3794c5411b,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c7b9a94ddc8f45d43bf6fce2e3b48c60, type: 2}
   m_IsPrefabParent: 0

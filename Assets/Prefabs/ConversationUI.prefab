@@ -1090,13 +1090,13 @@ MonoBehaviour:
   - {fileID: 11412522}
   - {fileID: 11476504}
   dialogBox: {fileID: 11471814}
-  background: {fileID: 0}
   loveInterestImages:
   - {fileID: 11419706}
   - {fileID: 11462788}
   - {fileID: 11479980}
   - {fileID: 11487358}
   - {fileID: 11401410}
+  advanceIcon: {fileID: 11413694}
 --- !u!114 &11487358
 MonoBehaviour:
   m_ObjectHideFlags: 1

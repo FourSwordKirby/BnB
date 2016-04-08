@@ -5,7 +5,6 @@ using System.Collections.Generic;
 
 public class MapController : MonoBehaviour {
     public Mansion mansion;
-	public GameManager gameManager;
     public List<RoomDisplay> roomDisplays;
 
     public AudioClip doorClose;
@@ -35,7 +34,7 @@ public class MapController : MonoBehaviour {
 	public void RoomClicked(Room room) {
         Debug.Log(room);
 		if (room.unlocked) {
-			gameManager.LoadRoom (room);
+			GameManager.LoadRoom (room);
 			hideMap();
 		} else {
 			// TODO: Some feedback to player telling them you can't do this

@@ -2,8 +2,6 @@
 using System.Collections;
 
 public class DayManager : MonoBehaviour {
-
-	public GameManager gameManager;
 	public DialogController dialogController;
 
 	public Room bedroom;
@@ -46,9 +44,8 @@ public class DayManager : MonoBehaviour {
 
 		/* Housekeeping for keeping track of info */
 		remainingConvoPts = 2;
-		gameManager.currentDay++;
-
-		gameManager.LoadRoom (bedroom);
+		GameManager.AdvanceDay();
+		GameManager.LoadRoom (bedroom);
 
 		// TODO: Have day-starting convo with beau
 		// dialogController.StartConversation (MorningBeau);
