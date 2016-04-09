@@ -47,7 +47,7 @@ public class ScriptedTutorial : MonoBehaviour {
                 if (firstTimeInParlor)
                 {
                     firstTimeInParlor = false;
-                    dialogController.StartConversation(tutorialB);
+                    GameManager.StartConversation(tutorialB);
 
 					// TODO: After tutorial done, deactivate tutorial
                 }
@@ -57,12 +57,12 @@ public class ScriptedTutorial : MonoBehaviour {
                 if (wrongRoomCount  == 0)
                 {
                     wrongRoomCount++;
-                    dialogController.StartConversation(wrongRoom1);
+                    GameManager.StartConversation(wrongRoom1);
                 }
                 else if (wrongRoomCount == 1)
                 {
                     wrongRoomCount++;
-                    dialogController.StartConversation(wrongRoom2);
+                    GameManager.StartConversation(wrongRoom2);
                 }
             }
         }
