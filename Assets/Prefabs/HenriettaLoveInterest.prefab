@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   designation: 1
-  LoveInterestStory: {fileID: 0}
+  currentStory: {fileID: 0}
   DinnerStory: {fileID: 0}
   approvalRaiting: 0
   loveInterestSprites:
@@ -106,6 +106,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: abd8b340f833b2f43b7370445dcb753c, type: 3}
   - {fileID: 21300000, guid: 82c0846fce6488a4aaf7b27f68a16a3e, type: 3}
   - {fileID: 21300000, guid: 52f26990c9c44eb48829a445b71b4b0d, type: 3}
+  - {fileID: 21300000, guid: 4735b524a5f01504296da22ad79b692b, type: 3}
   - {fileID: 21300000, guid: 4735b524a5f01504296da22ad79b692b, type: 3}
 --- !u!114 &11416762
 MonoBehaviour:
