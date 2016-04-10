@@ -27,4 +27,19 @@ public class AdvanceIcon : MonoBehaviour {
             dir = 1;
         }
     }
+
+    public void DisplayIcon()
+    {
+        if (this.iconImage.enabled == false)
+        {
+            this.iconImage.enabled = true;
+            blinkTime = blinkLength + 0.01f;
+            iconImage.color = new Color(1.0f, 1.0f, 1.0f, 0.3f);
+        }
+    }
+
+    public void Hide()
+    {
+        this.iconImage.enabled = false;
+    }
 }

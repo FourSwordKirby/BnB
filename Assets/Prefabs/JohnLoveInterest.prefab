@@ -10,7 +10,7 @@ GameObject:
   - 4: {fileID: 459734}
   - 114: {fileID: 11416248}
   m_Layer: 0
-  m_Name: LoveInterest
+  m_Name: JohnLoveInterest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -97,13 +97,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba2c38a12153b634f9316c3554c898ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  designation: 3
   LoveInterestStory: {fileID: 0}
+  DinnerStory: {fileID: 0}
+  approvalRaiting: 0
   loveInterestSprites:
-  - {fileID: 21300000, guid: a61f1b2246e86484782d7a9ab2dac6cf, type: 3}
-  - {fileID: 21300000, guid: 776ebcfad1dbb8740a04abbdc1c947ae, type: 3}
-  - {fileID: 21300000, guid: 16c0db1cb1c9b7c44b998245eebf1ca0, type: 3}
-  - {fileID: 21300000, guid: e05ff827387c1624eb3fa5a2e2ef2555, type: 3}
-  - {fileID: 21300000, guid: 1f490f6e5680d09418aaa59b79852e24, type: 3}
+  - {fileID: 21300000, guid: 863ef133c43302c4181adc7541107224, type: 3}
+  - {fileID: 21300000, guid: ab086b773e5427847abad68e2b144f4e, type: 3}
+  - {fileID: 21300000, guid: f2921f2dd3b7df042abafbd919584a69, type: 3}
+  - {fileID: 21300000, guid: 11200f4a8f199614f88ff8016a146816, type: 3}
+  - {fileID: 21300000, guid: 18f4a5776532e5547904ad277a861869, type: 3}
 --- !u!114 &11416762
 MonoBehaviour:
   m_ObjectHideFlags: 1

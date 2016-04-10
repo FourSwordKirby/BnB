@@ -51,6 +51,13 @@ public class DialogController : MonoBehaviour
 					ApplyInstructions(instructions);
                     currentLine++;
                 }
+
+                if (IsReaction(line))
+                {
+                    instructions = line.Substring(line.IndexOf("#") + 1, line.Substring(1).IndexOf("#") - 1);
+                    ApplyReaction(instructions);
+                    currentLine++;
+                }
 			} while (instructions != "");
 
             string speakerName = "";
@@ -148,6 +155,11 @@ public class DialogController : MonoBehaviour
 		return LoveInterest.Emotion.Neutral;
 	}
 
+    private bool IsInstruction(string line)
+    {
+        return line[0] == '%';
+    }
+
 	private void ApplyInstructions(string instructions) {
 		Debug.Log ("Instructions: " + instructions);
 
@@ -171,6 +183,23 @@ public class DialogController : MonoBehaviour
             dialogUI.displayLoveInterest(gameManager.getLoveInterest(name), emotion, position);
 		}
 	}
+
+    private bool IsReaction(string line)
+    {
+        return line[0] == '#';
+    }
+
+    private void ApplyReaction(string reaction)
+    {
+        string[] instrList = reaction.Split(',');
+
+        int restrictionVar = ParseVariable(instrList[0]);
+        int variableChange = int.Parse(instrList[1]);
+
+        restrictionVar += variableChange;
+
+        SetVariable(instrList[0], restrictionVar);
+    }
 
     private void DisplayOptions()
     {
@@ -212,8 +241,8 @@ public class DialogController : MonoBehaviour
     {
         string name = loveVar.Split('_')[0];
         string value = loveVar.Split('_')[1];
-
-        LoveInterest loveInterest = ParseName(name);
+     
+        LoveInterest loveInterest = gameManager.getLoveInterest(ParseName(name));
         if (value == "approval")
         {
             return loveInterest.approvalRaiting;
@@ -221,6 +250,22 @@ public class DialogController : MonoBehaviour
 
         Debug.Log("AN ERROR HAPPENED OH NO");
         return 0;
+    }
+
+    private void SetVariable(string loveVar, int loveVal)
+    {
+        string name = loveVar.Split('_')[0];
+        string value = loveVar.Split('_')[1];
+
+        Debug.Log(name);
+
+        LoveInterest loveInterest = gameManager.getLoveInterest(ParseName(name));
+        if (value == "approval")
+        {
+            loveInterest.approvalRaiting = loveVal;
+        }
+
+        Debug.Log("AN ERROR HAPPENED OH NO");
     }
 
 	private void HideOptions()
@@ -245,34 +290,26 @@ public class DialogController : MonoBehaviour
 		currentStory.Advance (currentStory.Links[option]);
     }
 
-	void Clear() {
-		HideOptions ();
-		// TODO: Clear dialogue box
-	}
+	public void CloseConversation() {
+        //Used to ensure we don't screw up and throw an error going to a previous story
+        currentStory.Reset();
 
-	void CloseConversation() {
 		HideOptions ();
 		dialogUI.clearLoveInterests ();
         dialogUI.clearDialogBox();
-        gameManager.mapControls.displayControls();
 	}
 
 	void Story_OnStateChanged(TwineStoryState state) {
-		//Debug.Log ("State change: " + state);
 		if (state == TwineStoryState.Idle || state == TwineStoryState.Complete) {
 			//dialogUI.displayDialog ("", this.currentText);
 			advanceStory ();
 			//CleanupFunction = Close 
 		} else if (state == TwineStoryState.Playing) {
-			Clear ();
-			// TODO: Clear output data from previous state
+            //Make sure we don't display options prematurely
+            HideOptions();
 		}
 		
 		//Debug.Log ("Now in state " + state);
-	}
-
-	private bool IsInstruction(string line) {
-		return line [0] == '%';
 	}
 
 	void Story_OnOutput(TwineOutput output) {
@@ -290,21 +327,6 @@ public class DialogController : MonoBehaviour
         //Initializing internal variables
         this.lines = new List<string>();
     }
-
-	void Start() {
-		// TODO: This is just here for testing
-        //this.currentStory = loadedLoveInterest.LoveInterestStory;
-
-		/* Register UnityTwine callback functions */
-		/*
-        this.currentStory.OnOutput += Story_OnOutput;
-		this.currentStory.OnStateChanged += Story_OnStateChanged;
-
-		this.currentStory.Begin();
-
-        dialogUI.displayLoveInterest(loadedLoveInterest, LoveInterest.Emotion.Happy);
-         */
-	}
 
 	public void StartConversation(TwineStory story) {
 
@@ -324,7 +346,7 @@ public class DialogController : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
 			if (storyCompleted && dialogUI.dialogCompleted()) {
-				CloseConversation ();
+                GameManager.EndConversation();
 			}
             advanceStory();
         }

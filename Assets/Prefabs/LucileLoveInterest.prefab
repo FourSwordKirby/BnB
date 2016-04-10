@@ -1,14 +1,14 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &101100
+--- !u!1 &107422
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 464966}
-  - 114: {fileID: 11411424}
+  - 4: {fileID: 485024}
+  - 114: {fileID: 11455622}
   m_Layer: 0
   m_Name: LucileLoveInterest
   m_TagString: Untagged
@@ -16,31 +16,15 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &115508
+--- !u!1 &115014
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 469022}
-  - 114: {fileID: 11498720}
-  m_Layer: 0
-  m_Name: TutorialAStory
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &137984
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 462326}
-  - 114: {fileID: 11463364}
+  - 4: {fileID: 459430}
+  - 114: {fileID: 11401628}
   m_Layer: 0
   m_Name: TutorialBStory
   m_TagString: Untagged
@@ -48,15 +32,31 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &165334
+--- !u!1 &137278
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 401376}
-  - 114: {fileID: 11416364}
+  - 4: {fileID: 411686}
+  - 114: {fileID: 11426492}
+  m_Layer: 0
+  m_Name: TutorialAStory
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &173970
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 452742}
+  - 114: {fileID: 11432940}
   m_Layer: 0
   m_Name: TestStory
   m_TagString: Untagged
@@ -64,95 +64,63 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &401376
+--- !u!4 &411686
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 165334}
+  m_GameObject: {fileID: 137278}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 204.96623, y: 183.84775, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 464966}
+  m_Father: {fileID: 485024}
+  m_RootOrder: 0
+--- !u!4 &452742
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 173970}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 204.96623, y: 183.84775, z: -1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 485024}
   m_RootOrder: 2
---- !u!4 &462326
+--- !u!4 &459430
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 137984}
+  m_GameObject: {fileID: 115014}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 204.96623, y: 183.84775, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 464966}
+  m_Father: {fileID: 485024}
   m_RootOrder: 1
---- !u!4 &464966
+--- !u!4 &485024
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 101100}
+  m_GameObject: {fileID: 107422}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 134.3958, y: 34.045036, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 469022}
-  - {fileID: 462326}
-  - {fileID: 401376}
+  - {fileID: 411686}
+  - {fileID: 459430}
+  - {fileID: 452742}
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!4 &469022
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 115508}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 204.96623, y: 183.84775, z: -1}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 464966}
-  m_RootOrder: 0
---- !u!114 &11411424
+--- !u!114 &11401628
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 101100}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ba2c38a12153b634f9316c3554c898ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LoveInterestStory: {fileID: 11416364}
-  loveInterestSprites:
-  - {fileID: 21300000, guid: b4a7d6038f22f6743a74d2416e35bd70, type: 3}
-  - {fileID: 21300000, guid: eba58a618f838104c97d29aebdb2c260, type: 3}
-  - {fileID: 21300000, guid: 2dfd10b6e3250a54f8ee5c241e78ccc9, type: 3}
-  - {fileID: 21300000, guid: 947b9249e19c0c04f95047d24fe6ea4d, type: 3}
-  - {fileID: 21300000, guid: 080cfaeb93fd24d4989e24b3d25722b9, type: 3}
---- !u!114 &11416364
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 165334}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 900c31b8333374287bfbd113ded20943, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AutoPlay: 0
-  StartPassage: Start
-  AdditionalHooks: []
---- !u!114 &11463364
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 137984}
+  m_GameObject: {fileID: 115014}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7f83119ef801b44d49d19e2a294cdf11, type: 3}
@@ -161,12 +129,12 @@ MonoBehaviour:
   AutoPlay: 0
   StartPassage: Start
   AdditionalHooks: []
---- !u!114 &11498720
+--- !u!114 &11426492
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 115508}
+  m_GameObject: {fileID: 137278}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2bb4128e8f66d4c85bfed71fe609e3a2, type: 3}
@@ -175,39 +143,46 @@ MonoBehaviour:
   AutoPlay: 0
   StartPassage: Start
   AdditionalHooks: []
+--- !u!114 &11432940
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 173970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11455622
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 107422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba2c38a12153b634f9316c3554c898ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  designation: 2
+  LoveInterestStory: {fileID: 0}
+  DinnerStory: {fileID: 0}
+  approvalRaiting: 0
+  loveInterestSprites:
+  - {fileID: 21300000, guid: b4a7d6038f22f6743a74d2416e35bd70, type: 3}
+  - {fileID: 21300000, guid: eba58a618f838104c97d29aebdb2c260, type: 3}
+  - {fileID: 21300000, guid: 2dfd10b6e3250a54f8ee5c241e78ccc9, type: 3}
+  - {fileID: 21300000, guid: 947b9249e19c0c04f95047d24fe6ea4d, type: 3}
+  - {fileID: 21300000, guid: 080cfaeb93fd24d4989e24b3d25722b9, type: 3}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 0}
-      propertyPath: loveInterestSprites.Array.data[0]
-      value: 
-      objectReference: {fileID: 21300000, guid: b4a7d6038f22f6743a74d2416e35bd70,
-        type: 3}
-    - target: {fileID: 0}
-      propertyPath: loveInterestSprites.Array.data[1]
-      value: 
-      objectReference: {fileID: 21300000, guid: eba58a618f838104c97d29aebdb2c260,
-        type: 3}
-    - target: {fileID: 0}
-      propertyPath: loveInterestSprites.Array.data[3]
-      value: 
-      objectReference: {fileID: 21300000, guid: 947b9249e19c0c04f95047d24fe6ea4d,
-        type: 3}
-    - target: {fileID: 0}
-      propertyPath: loveInterestSprites.Array.data[4]
-      value: 
-      objectReference: {fileID: 21300000, guid: 080cfaeb93fd24d4989e24b3d25722b9,
-        type: 3}
-    - target: {fileID: 0}
-      propertyPath: loveInterestSprites.Array.data[2]
-      value: 
-      objectReference: {fileID: 21300000, guid: 2dfd10b6e3250a54f8ee5c241e78ccc9,
-        type: 3}
+    m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 101100}
+  m_RootGameObject: {fileID: 107422}
   m_IsPrefabParent: 1

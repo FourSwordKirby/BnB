@@ -10,9 +10,9 @@ public class DialogUI : MonoBehaviour
 {
     public List<DialogOption> options;
     public DialogBox dialogBox;
-    public Image background;
 
     public List<Image> loveInterestImages;
+    public AdvanceIcon advanceIcon;
 
     public enum ImagePositon
     {
@@ -23,9 +23,21 @@ public class DialogUI : MonoBehaviour
         FarRight
     }
 
-    public void displayBackground(Sprite backgroundSprite)
+    private float displayDelay = 0.5f;
+
+    public void Update()
     {
-        background.sprite = backgroundSprite;
+        if (!dialogCompleted())
+        {
+            displayDelay = 0.5f;
+            advanceIcon.Hide();
+        }
+        else if (dialogBox.dialogField.text != "" && options.Find(x => x.gameObject.activeSelf == true) == null)
+        {
+            displayDelay -= Time.deltaTime;
+            if (displayDelay < 0)
+                advanceIcon.DisplayIcon();
+        }
     }
 
     public void displayLoveInterest(LoveInterest loveInterest, LoveInterest.Emotion emotion, ImagePositon position = ImagePositon.Center)
@@ -82,9 +94,11 @@ public class DialogUI : MonoBehaviour
     public void clearDialogBox()
     {
         dialogBox.displayDialog("", "");
+        advanceIcon.Hide();
     }
 
 	public void closeDialogBox() {
 		dialogBox.closeDialog ();
+        advanceIcon.Hide();
 	}
 }

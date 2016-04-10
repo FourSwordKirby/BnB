@@ -1,21 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &102302
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 447370}
-  - 114: {fileID: 11471912}
-  m_Layer: 0
-  m_Name: Drawing
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &129002
 GameObject:
   m_ObjectHideFlags: 0
@@ -58,7 +42,7 @@ GameObject:
   - 4: {fileID: 499606}
   - 114: {fileID: 11452024}
   m_Layer: 0
-  m_Name: Dining
+  m_Name: GreatHall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -91,6 +75,22 @@ GameObject:
   - 114: {fileID: 11419572}
   m_Layer: 0
   m_Name: Parlor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &188926
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 494174}
+  - 114: {fileID: 11472110}
+  m_Layer: 0
+  m_Name: Dining
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -182,15 +182,15 @@ Transform:
   m_LocalPosition: {x: 134.3958, y: 34.045036, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 499606}
+  - {fileID: 494174}
   - {fileID: 440020}
   - {fileID: 476246}
   - {fileID: 436244}
   - {fileID: 438736}
   - {fileID: 422022}
   - {fileID: 490102}
-  - {fileID: 447370}
   - {fileID: 476160}
+  - {fileID: 499606}
   m_Father: {fileID: 0}
   m_RootOrder: 0
 --- !u!4 &436244
@@ -229,18 +229,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 434506}
   m_RootOrder: 1
---- !u!4 &447370
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 102302}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 434506}
-  m_RootOrder: 7
 --- !u!4 &476160
 Transform:
   m_ObjectHideFlags: 1
@@ -252,7 +240,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 434506}
-  m_RootOrder: 8
+  m_RootOrder: 7
 --- !u!4 &476246
 Transform:
   m_ObjectHideFlags: 1
@@ -277,6 +265,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 434506}
   m_RootOrder: 6
+--- !u!4 &494174
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 188926}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 434506}
+  m_RootOrder: 0
 --- !u!4 &499606
 Transform:
   m_ObjectHideFlags: 1
@@ -288,7 +288,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 434506}
-  m_RootOrder: 0
+  m_RootOrder: 8
 --- !u!114 &11419572
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -329,8 +329,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inhabitants: []
-  background: {fileID: 21300000, guid: c3b7399f4db8b204ca765655f94329e8, type: 3}
-  unlocked: 0
+  background: {fileID: 21300000, guid: fa2fb8c4fd9f8544c9c18223814a2f99, type: 3}
+  unlocked: 1
 --- !u!114 &11457964
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -343,15 +343,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Rooms:
-  - {fileID: 11452024}
+  - {fileID: 11472110}
   - {fileID: 11464586}
   - {fileID: 11492742}
   - {fileID: 11485486}
   - {fileID: 11460824}
   - {fileID: 11419572}
   - {fileID: 11491536}
-  - {fileID: 11471912}
-  - {fileID: 11430658}
+  - {fileID: 11452024}
 --- !u!114 &11460824
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -364,8 +363,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inhabitants: []
-  background: {fileID: 21300000, guid: c13e54b8a79965f4fb8e17872868f21d, type: 3}
-  unlocked: 0
+  background: {fileID: 21300000, guid: 3c1eb3aebfd71eb49b7e13dc40521d22, type: 3}
+  unlocked: 1
 --- !u!114 &11464586
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -378,22 +377,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inhabitants: []
-  background: {fileID: 21300000, guid: fa2fb8c4fd9f8544c9c18223814a2f99, type: 3}
-  unlocked: 0
---- !u!114 &11471912
+  background: {fileID: 21300000, guid: d4c166951c94f2a4283faf3794c5411b, type: 3}
+  unlocked: 1
+--- !u!114 &11472110
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 102302}
+  m_GameObject: {fileID: 188926}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e18b4fb8b7c74e744b01b17fef4d9e8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   inhabitants: []
-  background: {fileID: 21300000, guid: 6908303aa0d3e1644afbcb7a1650c23e, type: 3}
-  unlocked: 0
+  background: {fileID: 21300000, guid: c3b7399f4db8b204ca765655f94329e8, type: 3}
+  unlocked: 1
 --- !u!114 &11485486
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -406,8 +405,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inhabitants: []
-  background: {fileID: 21300000, guid: 1c3e221f4bc6a1d479c4161aaa43c1ea, type: 3}
-  unlocked: 0
+  background: {fileID: 21300000, guid: 09acb12058f6ea64f9be90247d5a02cb, type: 3}
+  unlocked: 1
 --- !u!114 &11491536
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -420,8 +419,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inhabitants: []
-  background: {fileID: 21300000, guid: 07dd518ec2ac3ee4ebef7bc6cd927e44, type: 3}
-  unlocked: 0
+  background: {fileID: 21300000, guid: 422d6056b2e9196448f5d2dcd29dddac, type: 3}
+  unlocked: 1
 --- !u!114 &11492742
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -435,7 +434,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inhabitants: []
   background: {fileID: 21300000, guid: e73fa8a8981cbf548b5c3ba3a725c5bf, type: 3}
-  unlocked: 0
+  unlocked: 1
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
