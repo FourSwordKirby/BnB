@@ -1,0 +1,89 @@
+(dp0
+S'buildDestination'
+p1
+S''
+p2
+sS'saveDestination'
+p3
+VC:\u005cUsers\u005cSam\u005cDesktop\u005ccollege things\u005cgame design\u005cbatb dating sim\u005ctutorial_end.tws
+p4
+sS'metadata'
+p5
+(dp6
+sS'target'
+p7
+S'sugarcane'
+p8
+sS'storyPanel'
+p9
+(dp10
+S'widgets'
+p11
+(lp12
+(dp13
+S'selected'
+p14
+I01
+sS'pos'
+p15
+(lp16
+I308
+aI64
+asS'passage'
+p17
+(itiddlywiki
+Tiddler
+p18
+(dp20
+S'text'
+p21
+V%1, <beau>, <center>, <smile>%\u000aBEAUREGARD: Well then! Now that you've all been acquainted with his highness, I think you ought to make yourselves at home. \u000a\u000aBEAUREGARD: Please, feel free to go wherever you like. The castle is your home now, at least for this week.\u000a\u000a%1, <beau>, <center>, <neutral>%\u000aBEAUREGARD: I think that went well, sire! Better than expected, at least. None of them have left yet!\u000a\u000aBEAST: I had no idea you were so <i>confident</i> in my abilities.\u000a\u000a%1, <beau>, <center>, <frown>%\u000aBEAUREGARD: Oh, really, sire. You musn't take it so personally. Everyone needs a good dose of the truth sometimes.\u000a\u000a%1, <beau>, <center>, <neutral>%\u000aBEAUREGARD: Now, before you go out and catch yourself a bride, there's something you should know.\u000a\u000aBEAUREGARD: Light conversation is all well and good, but should you talk to your suitors about something more personal, you may lose track of time. Two deeper conversations, and poof! You'll find that it's dinnertime already.\u000a\u000a%1, <beau>, <center>, <smile>%\u000aBEAUREGARD: Now go forth and woo yourself a fair maiden! 
+p22
+sS'title'
+p23
+VStart
+p24
+sS'modified'
+p25
+ctime
+struct_time
+p26
+((I2016
+I4
+I10
+I12
+I43
+I32
+I6
+I101
+I1
+tp27
+(dp28
+tp29
+Rp30
+sS'tags'
+p31
+(lp32
+sS'created'
+p33
+g26
+((I2016
+I4
+I10
+I12
+I31
+I35
+I6
+I101
+I1
+tp34
+(dp35
+tp36
+Rp37
+sbsasS'scale'
+p38
+I1
+sS'snapping'
+p39
+I00
+ss.

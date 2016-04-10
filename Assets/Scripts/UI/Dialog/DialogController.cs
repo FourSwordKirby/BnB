@@ -54,7 +54,7 @@ public class DialogController : MonoBehaviour
 
                 if (IsReaction(line))
                 {
-                    instructions = line.Substring(line.IndexOf("#") + 1, line.Substring(1).IndexOf("#") - 1);
+                    instructions = line.Substring(line.IndexOf("#") + 1, line.Substring(1).IndexOf("#"));
                     ApplyReaction(instructions);
                     currentLine++;
                 }
@@ -95,18 +95,16 @@ public class DialogController : MonoBehaviour
 		case "beau":
 			return GameManager.LoveInterestName.Beauregard;
 			// TODO: add other cases as Sam writes them
-		case "lucille":
-			return GameManager.LoveInterestName.Lucille;
-			// TODO: add other cases as Sam writes them
-		case "noelle":
-			return GameManager.LoveInterestName.Noelle;
-			// TODO: add other cases as Sam writes them
-		case "henrietta":
-			return GameManager.LoveInterestName.Henrietta;
-			// TODO: add other cases as Sam writes them
-		case "jane":
-			return GameManager.LoveInterestName.John;
-			// TODO: add other cases as Sam writes them
+        case "hen":
+            return GameManager.LoveInterestName.Henrietta;
+        case "john":
+            return GameManager.LoveInterestName.John;
+        case "lucy":
+            return GameManager.LoveInterestName.Lucille;
+        case "pat":
+            return GameManager.LoveInterestName.Patrice;
+        case "noelle":
+            return GameManager.LoveInterestName.Noelle;
 		default:
 			Debug.Log ("ERROR: Malformed Tag Name input: " + tagName);
 			break;
@@ -147,6 +145,8 @@ public class DialogController : MonoBehaviour
 			return LoveInterest.Emotion.Angry;
 		case "frown":
 			return LoveInterest.Emotion.Sad;
+        case "scared":
+            return LoveInterest.Emotion.Scared;
 			// TODO: add other cases as Sam writes them
 		default:
 			Debug.Log ("ERROR: Malformed Tag Emotion input: " + tagEmotion);
@@ -191,7 +191,9 @@ public class DialogController : MonoBehaviour
 
     private void ApplyReaction(string reaction)
     {
+        Debug.Log(reaction);
         string[] instrList = reaction.Split(',');
+
 
         int restrictionVar = ParseVariable(instrList[0]);
         int variableChange = int.Parse(instrList[1]);
@@ -210,7 +212,7 @@ public class DialogController : MonoBehaviour
                 if (PassesRestriction(currentStory.Links[i].Text))
                 {
                     dialogUI.enableOption(i);
-                    Debug.Log("Displaying option " + i + ": " + currentStory.Links[i].Text);
+                    //Debug.Log("Displaying option " + i + ": " + currentStory.Links[i].Text);
                     dialogUI.displayOption(currentStory.Links[i].Text, i);
                 }
             }
@@ -257,15 +259,16 @@ public class DialogController : MonoBehaviour
         string name = loveVar.Split('_')[0];
         string value = loveVar.Split('_')[1];
 
-        Debug.Log(name);
-
         LoveInterest loveInterest = gameManager.getLoveInterest(ParseName(name));
         if (value == "approval")
         {
             loveInterest.approvalRaiting = loveVal;
+            return;
         }
-
-        Debug.Log("AN ERROR HAPPENED OH NO");
+        else
+        {
+            Debug.Log("ERROR OCCURED PARSING THE STRING");
+        }
     }
 
 	private void HideOptions()
@@ -284,7 +287,7 @@ public class DialogController : MonoBehaviour
             return;
         }
 
-        Debug.Log("You chose " + currentStory.Links[option].Text);
+        //Debug.Log("You chose " + currentStory.Links[option].Text);
 
         AudioSource.PlayClipAtPoint(clickSound, Vector3.zero);
 		currentStory.Advance (currentStory.Links[option]);

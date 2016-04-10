@@ -88,7 +88,7 @@ PATRICE: I hope it's not too much trouble, but I was wondering if you had any pa
 
 
 :: Of course. You'll find a writing desk in the sitting parlor. It's just behind you.
-#patapproval, +5#
+#pat_approval, +5#
 %1, <pat>, <center>, <smile>%
 PATRICE: Thank you, sire. I really do appreciate it. I promise I'll leave everything just as I found it.
 
@@ -108,7 +108,7 @@ PATRICE: I really am glad to be here, sire. Thank you. I won't keep you any long
 
 
 :: I'd prefer you didn't have any contact with the outside world. It might be...distracting.
-#patapproval, -5#
+#pat_approval, -5#
 %1, <pat>, <center>, <frown>%
 PATRICE: That's...
 

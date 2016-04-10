@@ -52,7 +52,7 @@ public class intro_noelle: TwineStory
 
 	IEnumerable<TwineOutput> passageExecute_0()
 	{
-		yield return new TwineText(@"%<1>, <noelle>, <center>, <smile>%");
+		yield return new TwineText(@"%1, <noelle>, <center>, <smile>%");
 		yield return new TwineText(@"NOELLE: Good morning, sire. My name is Noelle.");
 		yield return new TwineText(@"");
 		yield return new TwineText(@"BEAST: Good morning. You can refer to me as...");
@@ -110,11 +110,11 @@ public class intro_noelle: TwineStory
 
 	IEnumerable<TwineOutput> passageExecute_3()
 	{
-		yield return new TwineText(@"#<noelleapproval>, <-5>#");
-		yield return new TwineText(@"%<1>, <noelle>, <center>, <scared>%");
+		yield return new TwineText(@"#noelle_approval, -5#");
+		yield return new TwineText(@"%1, <noelle>, <center>, <scared>%");
 		yield return new TwineText(@"NOELLE: O-oh. Alright. Um, yes. Yes, of course.");
 		yield return new TwineText(@"");
-		yield return new TwineText(@"%<1>, <noelle>, <center>, <smile>%");
+		yield return new TwineText(@"%1, <noelle>, <center>, <smile>%");
 		yield return new TwineText(@"NOELLE: Thank you for inviting me to the castle. This is all so exciting!");
 		yield return new TwineText(@"");
 		yield return new TwineLink(@"I hope you enjoy yourself.", @"I hope you enjoy yourself.", @"I hope you enjoy yourself.", null, null);
@@ -132,7 +132,7 @@ public class intro_noelle: TwineStory
 
 	IEnumerable<TwineOutput> passageExecute_4()
 	{
-		yield return new TwineText(@"#<noelleapproval>, <+5>#");
+		yield return new TwineText(@"#noelle_approval, +5#");
 		yield return new TwineText(@"NOELLE: I'm sure I will, sire. Thank you.");
 		yield return new TwineText(@"");
 		yield return new TwineText(@"NOELLE: I hope you find one of us a pleasing option. I'm sure you must have had plenty of suitors in the past.");
@@ -152,7 +152,7 @@ public class intro_noelle: TwineStory
 
 	IEnumerable<TwineOutput> passageExecute_5()
 	{
-		yield return new TwineText(@"#<noelleapproval>, <-5>#");
+		yield return new TwineText(@"#noelle_approval, -5#");
 		yield return new TwineText(@"NOELLE: ...Well. I'm sorry you feel inconvenienced by our presence, then.");
 		yield return new TwineText(@"");
 		yield return new TwineText(@"NOELLE: I'm sure it gets exhausting having to constantly host suitors. Being a prince must be hard work, with so many people vying for your hand.");
@@ -172,13 +172,13 @@ public class intro_noelle: TwineStory
 
 	IEnumerable<TwineOutput> passageExecute_6()
 	{
-		yield return new TwineText(@"#<noelleapproval>, <+5>#");
-		yield return new TwineText(@"%<1>, <noelle>, <center>, <scared>%");
+		yield return new TwineText(@"#noelle_approval, +5#");
+		yield return new TwineText(@"%1, <noelle>, <center>, <scared>%");
 		yield return new TwineText(@"NOELLE: .....");
 		yield return new TwineText(@"");
 		yield return new TwineText(@"NOELLE: I don't--");
 		yield return new TwineText(@"");
-		yield return new TwineText(@"%<1>, <noelle>, <center>, <smile>%");
+		yield return new TwineText(@"%1, <noelle>, <center>, <smile>%");
 		yield return new TwineText(@"NOELLE: I'm sure I don't know what you're talking about, your highness. Why wouldn't I be happy to be meeting the man who might one day be my husband?");
 		yield return new TwineText(@"");
 		yield return new TwineText(@"NOELLE: But then, I'm sure you must have had plenty of suitors in the past.");
@@ -213,7 +213,7 @@ public class intro_noelle: TwineStory
 
 	IEnumerable<TwineOutput> passageExecute_8()
 	{
-		yield return new TwineText(@"NOELLE: I must say I find that surprising, given the splendor of this magnificent castle. But I suppose not everyone has such good taste.");
+		yield return new TwineText(@"NOELLE: I must say I find that surprising, given the splendor of this castle. But I suppose not everyone has such good taste.");
 		yield return new TwineText(@"");
 		yield return new TwineText(@"NOELLE: Now, if you'll excuse me, I'm feeling a bit tired and would like to sit down. It's been a pleasure talking to you, sire.");	
 	}
@@ -228,11 +228,11 @@ public class intro_noelle: TwineStory
 
 	IEnumerable<TwineOutput> passageExecute_9()
 	{
-		yield return new TwineText(@"#<noelleapproval>, <-5>#");
-		yield return new TwineText(@"%<1>, <noelle>, <center>, <scared>%");
+		yield return new TwineText(@"#noelle_approval, -5#");
+		yield return new TwineText(@"%1, <noelle>, <center>, <scared>%");
 		yield return new TwineText(@"NOELLE: ...Oh.");
 		yield return new TwineText(@"");
-		yield return new TwineText(@"%<1>, <noelle>, <center>, <smile>%");
+		yield return new TwineText(@"%1, <noelle>, <center>, <smile>%");
 		yield return new TwineText(@"NOELLE: Well, I'm sorry to hear that. I must admit, I'm surprised no one has courted you before for the castle alone. It's truly magnificent.");
 		yield return new TwineText(@"");
 		yield return new TwineText(@"NOELLE: Now, if you'll excuse me, I'm feeling a bit tired and would like to sit down.");	
