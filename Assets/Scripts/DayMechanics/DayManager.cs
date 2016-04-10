@@ -1,8 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityTwine;
 
 public class DayManager : MonoBehaviour {
-	public DialogController dialogController;
+	private DialogController dialogController;
 
 	public Room bedroom;
 	public Room dining;
@@ -10,10 +11,13 @@ public class DayManager : MonoBehaviour {
 	private int remainingConvoPts;
 	private int dayNumber;
 
+	public TwineStory morningBeauStory;
+
 
 
 	// Use this for initialization
 	void Start () {
+		dialogController = FindObjectOfType<DialogController> ();
 	
 	}
 
@@ -40,7 +44,7 @@ public class DayManager : MonoBehaviour {
 	 * 
 	 */
 
-	void BeginDay() {
+	public void BeginDay() {
 
 		/* Housekeeping for keeping track of info */
 		remainingConvoPts = 2;
@@ -48,7 +52,7 @@ public class DayManager : MonoBehaviour {
 		GameManager.LoadRoom (bedroom);
 
 		// TODO: Have day-starting convo with beau
-		// dialogController.StartConversation (MorningBeau);
+		dialogController.StartConversation (morningBeauStory);
 
 	}
 

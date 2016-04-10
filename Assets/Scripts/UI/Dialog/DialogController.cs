@@ -62,8 +62,8 @@ public class DialogController : MonoBehaviour
 
             string speakerName = "";
             string dialog = "";
-            if (line.IndexOf(":") >= 0)
-            {
+			if (line.IndexOf(":") >= 0 && line.IndexOf(":") <= "BEAUREGARD".Length)
+			{
                 speakerName = line.Substring(0, line.IndexOf(":"));
                 dialog = line.Substring(line.IndexOf(":") + 2);
             }
@@ -300,6 +300,7 @@ public class DialogController : MonoBehaviour
 	}
 
 	void Story_OnStateChanged(TwineStoryState state) {
+		
 		if (state == TwineStoryState.Idle || state == TwineStoryState.Complete) {
 			//dialogUI.displayDialog ("", this.currentText);
 			advanceStory ();
@@ -313,7 +314,9 @@ public class DialogController : MonoBehaviour
 	}
 
 	void Story_OnOutput(TwineOutput output) {
+
 		if (output is TwineText) {
+			//Debug.Log ("Text: " + output.Text);
 			
 			var text = (TwineText)output;
 			if (IgnoreEmptyLines && text.Text.Trim ().Length < 1)
@@ -329,6 +332,8 @@ public class DialogController : MonoBehaviour
     }
 
 	public void StartConversation(TwineStory story) {
+
+		Debug.Log ("Starting story: " + story);
 
 		this.currentStory = story;
 

@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviour {
     public static MapController mapControls;
     public static BackgroundController backgroundControls;
     public static LoveInterestSelectController loveInterestControls;
+	public static DayManager dayControls;
 
     public enum RoomName
     {
@@ -54,6 +55,7 @@ public class GameManager : MonoBehaviour {
         mapControls = GameObject.FindObjectOfType<MapController>();
         backgroundControls = GameObject.FindObjectOfType<BackgroundController>();
         loveInterestControls = GameObject.FindObjectOfType<LoveInterestSelectController>();
+		dayControls = GameObject.FindObjectOfType<DayManager>();
     }
 
     public LoveInterest getLoveInterest(GameManager.LoveInterestName name)
@@ -103,4 +105,9 @@ public class GameManager : MonoBehaviour {
     {
         currentDay++;
     }
+
+	public static void StartDay()
+	{
+		dayControls.BeginDay ();
+	}
 }

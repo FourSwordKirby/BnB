@@ -6,6 +6,7 @@ public class TestParsing : MonoBehaviour {
 
 	public DialogController dialogController;
 	public GameManager gameManager;
+	public DayManager dayManager;
 
 	public Room bedroom;
 
@@ -14,13 +15,13 @@ public class TestParsing : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		Begin();
+		GameManager.StartDay ();
 	}
 
 	void Begin () {
 		GameManager.LoadRoom (bedroom);
 
-		dialogController.StartConversation (testScript);
+		//dialogController.StartConversation (testScript);
 
 		// After Tutorial A is done, the player should go to the parlor to talk to Beau and continue the game
 		// dialogController.SetupAndBeginStory(tutorialB);
