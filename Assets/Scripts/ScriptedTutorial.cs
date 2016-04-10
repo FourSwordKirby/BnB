@@ -79,29 +79,40 @@ public class ScriptedTutorial : MonoBehaviour {
                 {
                     firstTimeInGreatHall = false;
                     GameManager.StartConversation(suitorIntro);
-                    suitorIntroStart = true;
-                }
-            }
-            else if (suitorIntroStart)
-            {
-                if (GameManager.loveInterestControls.gameObject.activeSelf == true)
-                {
-                    inConversation = false;
-                }
-                if (!inConversation && GameManager.loveInterestControls.gameObject.activeSelf == false)
-                {
-                    inConversation = true;
-                    introsCompleted++;
-                    Debug.Log(introsCompleted);
-                }
+                    foreach(LoveInterest suitor in gameManager.loveInterests.Where(x => x.designation != GameManager.LoveInterestName.Beauregard))
+                    {
+                        Debug.Log(suitor.designation);
+                        Debug.Log((int)suitor.designation-1);
 
-                if (introsCompleted >= 5)
-                {
-                    introsCompleted = int.MinValue;
-                    GameManager.StartConversation(tutorialEnd);
+                        suitor.currentStory = SuitorIntros[(int)suitor.designation-1];
+                    }
+
+                    suitorIntroStart = true;
+                    GameManager.mapControls.hideControls();
                 }
             }
         }
+        if (suitorIntroStart)
+        {
+            if (GameManager.loveInterestControls.gameObject.activeSelf == false)
+            {
+                inConversation = true;
+            }
+            if (inConversation && GameManager.loveInterestControls.gameObject.activeSelf == true)
+            {
+                inConversation = false;
+                introsCompleted++;
+            }
+            Debug.Log(introsCompleted);
+
+            if (introsCompleted > 5)
+            {
+                introsCompleted = int.MinValue;
+                GameManager.StartConversation(tutorialEnd);
+                GameManager.mapControls.displayControls();
+            }
+        }
+
 		
         previousRoom = GameManager.currentRoom;
 	}
