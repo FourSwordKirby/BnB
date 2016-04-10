@@ -1391,10 +1391,10 @@ MonoBehaviour:
   suitorIntro: {fileID: 1268921657}
   SuitorIntros:
   - {fileID: 1917341688}
-  - {fileID: 1938997573}
-  - {fileID: 389358773}
   - {fileID: 93912640}
+  - {fileID: 389358773}
   - {fileID: 689035320}
+  - {fileID: 1938997573}
   tutorialEnd: {fileID: 1143652499}
 --- !u!114 &1660471619 stripped
 MonoBehaviour:

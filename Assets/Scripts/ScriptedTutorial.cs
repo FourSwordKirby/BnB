@@ -79,7 +79,16 @@ public class ScriptedTutorial : MonoBehaviour {
                 {
                     firstTimeInGreatHall = false;
                     GameManager.StartConversation(suitorIntro);
+                    foreach(LoveInterest suitor in gameManager.loveInterests.Where(x => x.designation != GameManager.LoveInterestName.Beauregard))
+                    {
+                        Debug.Log(suitor.designation);
+                        Debug.Log((int)suitor.designation-1);
+
+                        suitor.currentStory = SuitorIntros[(int)suitor.designation-1];
+                    }
+
                     suitorIntroStart = true;
+                    GameManager.mapControls.hideControls();
                 }
             }
         }
@@ -94,12 +103,13 @@ public class ScriptedTutorial : MonoBehaviour {
                 inConversation = false;
                 introsCompleted++;
             }
+            Debug.Log(introsCompleted);
 
-
-            if (introsCompleted >= 5)
+            if (introsCompleted > 5)
             {
                 introsCompleted = int.MinValue;
                 GameManager.StartConversation(tutorialEnd);
+                GameManager.mapControls.displayControls();
             }
         }
 
