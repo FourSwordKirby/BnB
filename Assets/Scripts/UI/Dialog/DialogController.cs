@@ -290,15 +290,6 @@ public class DialogController : MonoBehaviour
 		currentStory.Advance (currentStory.Links[option]);
     }
 
-	public void CloseConversation() {
-        //Used to ensure we don't screw up and throw an error going to a previous story
-        currentStory.Reset();
-
-		HideOptions ();
-		dialogUI.clearLoveInterests ();
-        dialogUI.clearDialogBox();
-	}
-
 	void Story_OnStateChanged(TwineStoryState state) {
 		
 		if (state == TwineStoryState.Idle || state == TwineStoryState.Complete) {
@@ -345,6 +336,15 @@ public class DialogController : MonoBehaviour
 
 		this.currentStory.Begin();
 	}
+    public void CloseConversation()
+    {
+        //Used to ensure we don't screw up and throw an error going to a previous story
+        currentStory.Reset();
+
+        HideOptions();
+        dialogUI.clearLoveInterests();
+        dialogUI.clearDialogBox();
+    }
 
     void Update()
     {
