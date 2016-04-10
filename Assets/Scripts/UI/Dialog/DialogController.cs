@@ -51,6 +51,13 @@ public class DialogController : MonoBehaviour
 					ApplyInstructions(instructions);
                     currentLine++;
                 }
+
+                if (IsReaction(line))
+                {
+                    instructions = line.Substring(line.IndexOf("#") + 1, line.Substring(1).IndexOf("#") - 1);
+                    ApplyReaction(instructions);
+                    currentLine++;
+                }
 			} while (instructions != "");
 
             string speakerName = "";
@@ -136,6 +143,11 @@ public class DialogController : MonoBehaviour
 		return LoveInterest.Emotion.Neutral;
 	}
 
+    private bool IsInstruction(string line)
+    {
+        return line[0] == '%';
+    }
+
 	private void ApplyInstructions(string instructions) {
 		//Debug.Log ("Instructions: " + instructions);
 
@@ -159,6 +171,23 @@ public class DialogController : MonoBehaviour
             dialogUI.displayLoveInterest(gameManager.getLoveInterest(name), emotion, position);
 		}
 	}
+
+    private bool IsReaction(string line)
+    {
+        return line[0] == '#';
+    }
+
+    private void ApplyReaction(string reaction)
+    {
+        string[] instrList = reaction.Split(',');
+
+        int restrictionVar = ParseVariable(instrList[0]);
+        int variableChange = int.Parse(instrList[1]);
+
+        restrictionVar += variableChange;
+
+        SetVariable(instrList[0], restrictionVar);
+    }
 
     private void DisplayOptions()
     {
@@ -200,8 +229,6 @@ public class DialogController : MonoBehaviour
     {
         string name = loveVar.Split('_')[0];
         string value = loveVar.Split('_')[1];
-
-        Debug.Log(name);
      
         LoveInterest loveInterest = gameManager.getLoveInterest(ParseName(name));
         if (value == "approval")
@@ -211,6 +238,22 @@ public class DialogController : MonoBehaviour
 
         Debug.Log("AN ERROR HAPPENED OH NO");
         return 0;
+    }
+
+    private void SetVariable(string loveVar, int loveVal)
+    {
+        string name = loveVar.Split('_')[0];
+        string value = loveVar.Split('_')[1];
+
+        Debug.Log(name);
+
+        LoveInterest loveInterest = gameManager.getLoveInterest(ParseName(name));
+        if (value == "approval")
+        {
+            loveInterest.approvalRaiting = loveVal;
+        }
+
+        Debug.Log("AN ERROR HAPPENED OH NO");
     }
 
 	private void HideOptions()
@@ -236,13 +279,15 @@ public class DialogController : MonoBehaviour
     }
 
 	public void CloseConversation() {
+        //Used to ensure we don't screw up and throw an error going to a previous story
+        currentStory.Reset();
+
 		HideOptions ();
 		dialogUI.clearLoveInterests ();
         dialogUI.clearDialogBox();
 	}
 
 	void Story_OnStateChanged(TwineStoryState state) {
-		Debug.Log ("State change: " + state);
 		if (state == TwineStoryState.Idle || state == TwineStoryState.Complete) {
 			//dialogUI.displayDialog ("", this.currentText);
 			advanceStory ();
@@ -253,10 +298,6 @@ public class DialogController : MonoBehaviour
 		}
 		
 		//Debug.Log ("Now in state " + state);
-	}
-
-	private bool IsInstruction(string line) {
-		return line [0] == '%';
 	}
 
 	void Story_OnOutput(TwineOutput output) {

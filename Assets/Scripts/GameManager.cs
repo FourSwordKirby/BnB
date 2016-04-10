@@ -66,6 +66,21 @@ public class GameManager : MonoBehaviour {
 		Debug.Log ("Loading room!");
         currentRoom = room;
         backgroundControls.displayRoom(room.background);
+
+        //used to randomly display the love interests
+
+        List<LoveInterestSelectController.RoomPosition> positions = new List<LoveInterestSelectController.RoomPosition>
+                                                                {LoveInterestSelectController.RoomPosition.FarLeft,
+                                                                 LoveInterestSelectController.RoomPosition.NearLeft,
+                                                                 LoveInterestSelectController.RoomPosition.Center,
+                                                                 LoveInterestSelectController.RoomPosition.NearRight,
+                                                                 LoveInterestSelectController.RoomPosition.FarRight};
+        foreach (LoveInterest suitor in room.inhabitants)
+        {
+            LoveInterestSelectController.RoomPosition position = positions[Random.Range(0, positions.Count)];
+            loveInterestControls.showLoveInterest(suitor, position);
+            positions.Remove(position);
+        }
     }
     
     //Need to put common functions that occur all the time here (like changing rooms, displaying dialog, etc.)
@@ -73,12 +88,14 @@ public class GameManager : MonoBehaviour {
     {
         dialogControls.StartConversation(story);
         mapControls.hideControls();
+        loveInterestControls.hideLoveInterests();
     }
 
     public static void EndConversation()
     {
         dialogControls.CloseConversation();
         mapControls.displayControls();
+        loveInterestControls.displayLoveInterests();
     }
 
 

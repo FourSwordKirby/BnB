@@ -17,6 +17,7 @@ public class LoveInterestSelectController : MonoBehaviour {
 
     public void showLoveInterest(LoveInterest loveInterest, RoomPosition position)
     {
+        loveInterestIcons[(int)position].gameObject.SetActive(true);
         loveInterestIcons[(int)position].LoadLoveInterest(loveInterest, LoveInterestClicked);
     }
 
@@ -32,6 +33,6 @@ public class LoveInterestSelectController : MonoBehaviour {
     public void LoveInterestClicked(LoveInterest loveInterest)
     {
         //We are going to want to have the game manager display the story of this love interest?
-        Debug.Log(loveInterest);
+        GameManager.StartConversation(loveInterest.currentStory);
     }
 }

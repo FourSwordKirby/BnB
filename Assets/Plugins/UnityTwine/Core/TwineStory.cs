@@ -91,12 +91,13 @@ namespace UnityTwine
 			if (this.State != TwineStoryState.Idle && this.State != TwineStoryState.Complete)
 				throw new InvalidOperationException("Can only reset a story that is Idle or Complete.");
 
-			// Reset twine vars
+			// DON'T Reset twine vars
 			// TODO: don't use reflection, dummy. We need to code generate a dictionary of variables and use that
-			FieldInfo[] fields = this.GetType().GetFields(BindingFlags.Instance | BindingFlags.Public);
+			/*FieldInfo[] fields = this.GetType().GetFields(BindingFlags.Instance | BindingFlags.Public);
 			for (int i = 0; i < fields.Length; i++)
 				if (fields[i].FieldType == typeof(TwineVar))
 					fields[i].SetValue(this, default(TwineVar));
+           */
 
 			this.Init();
 		}

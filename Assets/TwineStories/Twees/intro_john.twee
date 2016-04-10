@@ -1,5 +1,5 @@
 ﻿:: Start
-%<1>, <john>, <center>, <neutral>%
+%1, <john>, <center>, <neutral>%
 JANE: Hello, your highness. I'm Jane. 
 
 BEAST: Good morning. My name is...
@@ -10,10 +10,10 @@ BEAST: Good morning. My name is...
 
 
 :: j1b
-%<1>, <john>, <center>, <eyebrow>%
+%1, <john>, <center>, <eyebrow>%
 JANE: Prince, huh? I can work with that.
 
-%<1>, <john>, <center>, <neutral>%
+%1, <john>, <center>, <neutral>%
 JANE: So what is it you do in a huge castle like this all day, anyway?
 
 [[Sit around moping, according to my butler.]]
@@ -22,11 +22,11 @@ JANE: So what is it you do in a huge castle like this all day, anyway?
 
 
 :: j1a
-#<johnapproval>, <+5>#
-%<1>, <john>, <center>, <eyebrow>%
+#john_approval, +5#
+%1, <john>, <center>, <eyebrow>%
 JANE: Adam. Huh. That's...surprisingly normal, I have to admit.
 
-%<1>, <john>, <center>, <neutral>%
+%1, <john>, <center>, <neutral>%
 JANE: So what is it you do in a huge castle like this all day, anyway?
 
 [[Sit around moping, according to my butler.]]
@@ -35,10 +35,10 @@ JANE: So what is it you do in a huge castle like this all day, anyway?
 
 
 :: j1c
-%<1>, <john>, <center>, <eyebrow>%
+%1, <john>, <center>, <eyebrow>%
 JANE: Jeez, okay. That's one way to make an impression.
 
-%<1>, <john>, <center>, <neutral>%
+%1, <john>, <center>, <neutral>%
 JANE: So what is it you do in a huge castle like this all day, anyway?
 
 [[Sit around moping, according to my butler.]]
@@ -47,8 +47,8 @@ JANE: So what is it you do in a huge castle like this all day, anyway?
 
 
 :: A lot of reading, unfortunately.
-#<johnapproval>, <+5>#
-%<1>, <john>, <center>, <smile>%
+#john_approval, +5#
+%1, <john>, <center>, <smile>%
 JANE: Ha! I hear you. My sister's really into books, but I never understood it.
 
 JANE: I can't wait to see your kitchen. It must be huge compared to the one we have at home!
@@ -60,8 +60,8 @@ JANE: I can't wait to see your kitchen. It must be huge compared to the one we h
 
 
 :: Sit around moping, according to my butler.
-#<johnapproval>, <+5>#
-%<1>, <john>, <center>, <smile>%
+#john_approval, +5#
+%1, <john>, <center>, <smile>%
 JANE: Ha! That's a good one. Sounds like something my sister would say. 
 
 JANE: I can't wait to see your kitchen. It must be huge compared to the one we have at home!
@@ -73,7 +73,7 @@ JANE: I can't wait to see your kitchen. It must be huge compared to the one we h
 
 
 :: Mostly just wait for a pretty girl like you to come along.
-%<1>, <john>, <center>, <scared>%
+%1, <john>, <center>, <scared>%
 JANE: Right. A girl. Yes.
 
 JANE: I can't wait to see your kitchen. It must be huge compared to the one we have at home!
@@ -84,27 +84,27 @@ JANE: I can't wait to see your kitchen. It must be huge compared to the one we h
 
 
 :: I'd be happy to show it to you.
-#<johnapproval>, <+5>#
-%<1>, <john>, <center>, <smile>%
+#john_approval, +5#
+%1, <john>, <center>, <smile>%
 JANE: That'd be great. I look forward to it.
 
 JANE: Well, I won't keep you from your other ladies-in-waiting any longer. It was nice to meet you.
 
 
 :: The kitchen is for servants, not potential princesses.
-#<johnapproval>, <-5>#
-%<1>, <john>, <center>, <eyebrow>%
+#john_approval, -5#
+%1, <john>, <center>, <eyebrow>%
 JANE: I guess that doesn't make me much of a potential princess then, does it?
 
 JANE: Well, I won't keep you from your other ladies-in-waiting any longer. It was nice to meet you.
 
 
 :: I'm sure the kitchen at your house must have been much cozier, though.
-#<johnapproval>, <+5>#
-%<1>, <john>, <center>, <blush>%
+#john_approval, +5#
+%1, <john>, <center>, <blush>%
 JANE: It was. We didn't have much but what we did was good. It was home. 
 
-%<1>, <john>, <center>, <smile>%
+%1, <john>, <center>, <smile>%
 JANE: Well, I won't keep you from your other ladies-in-waiting any longer. It was nice to meet you.
 
 

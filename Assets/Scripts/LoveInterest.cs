@@ -6,8 +6,10 @@ using UnityTwine;
 //Basically just a struct to get and set the current status of the love interest.
 public class LoveInterest : MonoBehaviour {
 
+    public GameManager.LoveInterestName designation;
+
     //This is a collection of stories associated with this love interest.
-    public TwineStory LoveInterestStory;
+    public TwineStory currentStory;
 
 	public TwineStory DinnerStory;
 

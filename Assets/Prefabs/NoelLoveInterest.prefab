@@ -97,15 +97,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba2c38a12153b634f9316c3554c898ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  designation: 5
   LoveInterestStory: {fileID: 0}
   DinnerStory: {fileID: 0}
   approvalRaiting: 0
   loveInterestSprites:
-  - {fileID: 21300000, guid: a61f1b2246e86484782d7a9ab2dac6cf, type: 3}
-  - {fileID: 21300000, guid: 776ebcfad1dbb8740a04abbdc1c947ae, type: 3}
-  - {fileID: 21300000, guid: 16c0db1cb1c9b7c44b998245eebf1ca0, type: 3}
-  - {fileID: 21300000, guid: e05ff827387c1624eb3fa5a2e2ef2555, type: 3}
-  - {fileID: 21300000, guid: 1f490f6e5680d09418aaa59b79852e24, type: 3}
+  - {fileID: 21300000, guid: 941f2a9cb48153546a57b094b3e6c152, type: 3}
+  - {fileID: 21300000, guid: 3c735b0439a36d84fae5142787de6cfd, type: 3}
+  - {fileID: 21300000, guid: a9e3aca81fc67244d97a22f104c02825, type: 3}
+  - {fileID: 21300000, guid: 544f4360ab1d0cf4aaab7e5cedb85958, type: 3}
+  - {fileID: 21300000, guid: cf5dc2e6a8996de4c95a00390e9d5ace, type: 3}
 --- !u!114 &11416762
 MonoBehaviour:
   m_ObjectHideFlags: 1

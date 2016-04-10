@@ -1,14 +1,17 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityTwine;
 
 public class ScriptedTutorial : MonoBehaviour {
 
-	public DialogController dialogController;
+    public GameManager gameManager;
+
 
 	public Room bedroom;
-	public Room parlor;
+    public Room parlor;
+    public Room greatHall;
 
 
 	public TwineStory tutorialA;
@@ -17,12 +20,16 @@ public class ScriptedTutorial : MonoBehaviour {
     public TwineStory wrongRoom1;
     public TwineStory wrongRoom2;
 
+    public TwineStory suitorIntro;
+
     public List<TwineStory> SuitorIntros;
 
 
     private static Room previousRoom; //Used to detect a room change
 	private bool firstTimeInParlor = true;
     private int wrongRoomCount = 0;
+
+    private bool firstTimeInGreatHall = true;
 
 	// Use this for initialization
 	void Start () {
@@ -33,36 +40,41 @@ public class ScriptedTutorial : MonoBehaviour {
 		GameManager.LoadRoom (bedroom);
         previousRoom = GameManager.currentRoom;
 		GameManager.StartConversation (tutorialA);
-
-		// After Tutorial A is done, the player should go to the parlor to talk to Beau and continue the game
-		// dialogController.SetupAndBeginStory(tutorialB);
 	}
 	
 	// Update is called once per frame
 	void Update () {
         if(previousRoom != GameManager.currentRoom)
         {
-            if (GameManager.currentRoom == parlor)
+            if (firstTimeInParlor)
             {
-                if (firstTimeInParlor)
+                if (GameManager.currentRoom == parlor)
                 {
                     firstTimeInParlor = false;
                     GameManager.StartConversation(tutorialB);
 
-					// TODO: After tutorial done, deactivate tutorial
+                    greatHall.inhabitants = gameManager.loveInterests.Where(x => x.designation != GameManager.LoveInterestName.Beauregard).ToList<LoveInterest>();
+                }
+                else if (GameManager.currentRoom != bedroom)
+                {
+                    if (wrongRoomCount == 0)
+                    {
+                        wrongRoomCount++;
+                        GameManager.StartConversation(wrongRoom1);
+                    }
+                    else if (wrongRoomCount == 1)
+                    {
+                        wrongRoomCount++;
+                        GameManager.StartConversation(wrongRoom2);
+                    }
                 }
             }
-            else if (GameManager.currentRoom != bedroom)
+            else if (firstTimeInGreatHall)
             {
-                if (wrongRoomCount  == 0)
+                if (GameManager.currentRoom == greatHall)
                 {
-                    wrongRoomCount++;
-                    GameManager.StartConversation(wrongRoom1);
-                }
-                else if (wrongRoomCount == 1)
-                {
-                    wrongRoomCount++;
-                    GameManager.StartConversation(wrongRoom2);
+                    firstTimeInGreatHall = false;
+                    GameManager.StartConversation(suitorIntro);
                 }
             }
         }

@@ -55,7 +55,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 108008}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 134.3958, y: 34.045036, z: 1}
+  m_LocalPosition: {x: 415.8958, y: 120.54504, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 475262}
@@ -97,7 +97,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba2c38a12153b634f9316c3554c898ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  designation: 0
   LoveInterestStory: {fileID: 0}
+  DinnerStory: {fileID: 0}
+  approvalRaiting: 0
   loveInterestSprites:
   - {fileID: 21300000, guid: a61f1b2246e86484782d7a9ab2dac6cf, type: 3}
   - {fileID: 21300000, guid: 776ebcfad1dbb8740a04abbdc1c947ae, type: 3}
