@@ -1120,9 +1120,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f15008727956346648bbd61f4bc40d33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogController: {fileID: 1324042582}
   bedroom: {fileID: 2141531993}
   dining: {fileID: 0}
+  morningBeauStory: {fileID: 0}
 --- !u!1 &1268921655
 GameObject:
   m_ObjectHideFlags: 0
@@ -1207,12 +1207,6 @@ MonoBehaviour:
   AutoPlay: 0
   StartPassage: Start
   AdditionalHooks: []
---- !u!114 &1324042582 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 11462986, guid: e10c4fa56eb233444ae4c3247a0c9dec,
-    type: 2}
-  m_PrefabInternal: {fileID: 517424137}
-  m_Script: {fileID: 11500000, guid: 11f2553e1f5ef83419953757afe61e99, type: 3}
 --- !u!1 &1343823892
 GameObject:
   m_ObjectHideFlags: 0
@@ -1735,6 +1729,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 11452024, guid: c7b9a94ddc8f45d43bf6fce2e3b48c60, type: 2}
+      propertyPath: background
+      value: 
+      objectReference: {fileID: 21300000, guid: 85a849322ab75a44bab0f468c73058ca,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c7b9a94ddc8f45d43bf6fce2e3b48c60, type: 2}
   m_IsPrefabParent: 0
