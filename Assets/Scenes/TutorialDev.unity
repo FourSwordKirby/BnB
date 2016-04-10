@@ -365,6 +365,27 @@ Prefab:
       value: 
       objectReference: {fileID: 12800000, guid: c78e91b60f784a540b0c83700ed68e17,
         type: 3}
+    - target: {fileID: 11413340, guid: e10c4fa56eb233444ae4c3247a0c9dec, type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 132554641a830db409ef9a29c2fd0a09,
+        type: 3}
+    - target: {fileID: 22447428, guid: e10c4fa56eb233444ae4c3247a0c9dec, type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 22447428, guid: e10c4fa56eb233444ae4c3247a0c9dec, type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 291
+      objectReference: {fileID: 0}
+    - target: {fileID: 22447428, guid: e10c4fa56eb233444ae4c3247a0c9dec, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 174
+      objectReference: {fileID: 0}
+    - target: {fileID: 22447428, guid: e10c4fa56eb233444ae4c3247a0c9dec, type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 1064
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e10c4fa56eb233444ae4c3247a0c9dec, type: 2}
   m_IsPrefabParent: 0
@@ -1122,6 +1143,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bedroom: {fileID: 2141531993}
   dining: {fileID: 0}
+  remainingConvoPts: 0
   morningBeauStory: {fileID: 0}
 --- !u!1 &1268921655
 GameObject:

@@ -7,7 +7,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityTwine;
 
-public class beau_main_new: TwineStory
+public class beau_main2: TwineStory
 {
 	public override TwineVar this[string name]
 	{
@@ -200,7 +200,7 @@ public class beau_main_new: TwineStory
 		yield return new TwineText(@"BEAUREGARD: Is there anything you require of me this morning?");
 		yield return new TwineText(@"");
 		yield return new TwineLink(@"I'd like to ask about one of the women in the castle.", @"I'd like to ask about one of the women in the castle.", @"women", null, null);
-		yield return new TwineLink(@"%gift_available,1,5%There's something I'd like you to get for me.", @"%gift_available,1,5%There's something I'd like you to get for me.", @"There's something I'd like you to get for me.", null, null);
+		yield return new TwineLink(@"%if item", @"known%There's something I'd like you to get for me.", @"There's something I'd like you to get for me.", null, null);
 		yield return new TwineLink(@"No, thank you Beauregard. You're free to go.", @"No, thank you Beauregard. You're free to go.", @"No, thank you Beauregard. You're free to go.", null, null);	
 	}
     
@@ -302,7 +302,7 @@ public class beau_main_new: TwineStory
 		yield return new TwineText(@"BEAUREGARD: Very well, sire. Is there anything else I can help with?");
 		yield return new TwineText(@"");
 		yield return new TwineLink(@"I'd like to ask about one of the women in the castle.", @"I'd like to ask about one of the women in the castle.", @"women", null, null);
-		yield return new TwineLink(@"%gift_available,1,5%There's something I'd like you to get for me.", @"%gift_available,1,5%There's something I'd like you to get for me.", @"There's something I'd like you to get for me.", null, null);
+		yield return new TwineLink(@"%if item", @"known%There's something I'd like you to get for me.", @"There's something I'd like you to get for me.", null, null);
 		yield return new TwineLink(@"No, thank you Beauregard. You're free to go.", @"No, thank you Beauregard. You're free to go.", @"No, thank you Beauregard. You're free to go.", null, null);	
 	}
     
@@ -427,11 +427,11 @@ public class beau_main_new: TwineStory
 	{
 		yield return new TwineText(@"BEAUREGARD: Of course, sire. What in particular did you have in mind?");
 		yield return new TwineText(@"");
-		yield return new TwineLink(@"%noelle_gift, 1, 1%Noelle's mother's will. Her father is keeping it hidden somewhere.", @"%noelle_gift, 1, 1%Noelle's mother's will. Her father is keeping it hidden somewhere.", @"n_i", null, null);
-		yield return new TwineLink(@"%jane_gift, 1, 1%A picture of Jane's family.", @"%jane_gift, 1, 1%A picture of Jane's family.", @"j_i", null, null);
-		yield return new TwineLink(@"%pat_gift, 1, 1%Patrice's son is staying with his grandmother, and no letters seem to be getting through. Could you check on them? Patrice would love a letter from her son.", @"%pat_gift, 1, 1%Patrice's son is staying with his grandmother, and no letters seem to be getting through. Could you check on them? Patrice would love a letter from her son.", @"p_i", null, null);
-		yield return new TwineLink(@"%lucy_gift, 1, 1%Lucille had a fight with her best friend before leaving home. Could you persuade her to forgive Lucille? Perhaps in letter form?", @"%lucy_gift, 1, 1%Lucille had a fight with her best friend before leaving home. Could you persuade her to forgive Lucille? Perhaps in letter form?", @"l_i", null, null);
-		yield return new TwineLink(@"%hen_gift, 1, 1%Henrietta's old home had pastures with a sweeter type of grass. Would you bring some back to the castle for her?", @"%hen_gift, 1, 1%Henrietta's old home had pastures with a sweeter type of grass. Would you bring some back to the castle for her?", @"h_i", null, null);	
+		yield return new TwineLink(@"%noelle_item, 1, 1%Noelle's mother's will. Her father is keeping it hidden somewhere.", @"%noelle_item, 1, 1%Noelle's mother's will. Her father is keeping it hidden somewhere.", @"n_i", null, null);
+		yield return new TwineLink(@"%jane_item, 1, 1%A picture of Jane's family.", @"%jane_item, 1, 1%A picture of Jane's family.", @"j_i", null, null);
+		yield return new TwineLink(@"%pat_item, 1, 1%Patrice's son is staying with his grandmother, and no letters seem to be getting through. Could you check on them? Patrice would love a letter from her son.", @"%pat_item, 1, 1%Patrice's son is staying with his grandmother, and no letters seem to be getting through. Could you check on them? Patrice would love a letter from her son.", @"p_i", null, null);
+		yield return new TwineLink(@"%lucy_item, 1, 1%Lucille had a fight with her best friend before leaving home. Could you persuade her to forgive Lucille? Perhaps in letter form?", @"%lucy_item, 1, 1%Lucille had a fight with her best friend before leaving home. Could you persuade her to forgive Lucille? Perhaps in letter form?", @"l_i", null, null);
+		yield return new TwineLink(@"%hen_item, 1, 1%Henrietta's old home had pastures with a sweeter type of grass. Would you bring some back to the castle for her?", @"%hen_item, 1, 1%Henrietta's old home had pastures with a sweeter type of grass. Would you bring some back to the castle for her?", @"h_i", null, null);	
 	}
     
 	// .............
