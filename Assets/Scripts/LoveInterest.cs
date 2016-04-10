@@ -22,7 +22,8 @@ public class LoveInterest : MonoBehaviour {
         Happy,
         Flattered,
         Angry,
-        Sad
+        Sad,
+        Scared
     }
     public List<Sprite> loveInterestSprites;
 

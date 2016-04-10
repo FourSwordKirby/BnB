@@ -24,12 +24,16 @@ public class ScriptedTutorial : MonoBehaviour {
 
     public List<TwineStory> SuitorIntros;
 
+    public TwineStory tutorialEnd;
 
     private static Room previousRoom; //Used to detect a room change
 	private bool firstTimeInParlor = true;
     private int wrongRoomCount = 0;
 
     private bool firstTimeInGreatHall = true;
+    private bool suitorIntroStart = false;
+    private bool inConversation = false;
+    private int introsCompleted = 0;
 
 	// Use this for initialization
 	void Start () {
@@ -75,10 +79,34 @@ public class ScriptedTutorial : MonoBehaviour {
                 {
                     firstTimeInGreatHall = false;
                     GameManager.StartConversation(suitorIntro);
+                    suitorIntroStart = true;
+                }
+            }
+            else if (suitorIntroStart)
+            {
+                if (GameManager.loveInterestControls.gameObject.activeSelf == true)
+                {
+                    inConversation = false;
+                }
+                if (!inConversation && GameManager.loveInterestControls.gameObject.activeSelf == false)
+                {
+                    inConversation = true;
+                    introsCompleted++;
+                    Debug.Log(introsCompleted);
+                }
+
+                if (introsCompleted >= 5)
+                {
+                    introsCompleted = int.MinValue;
+                    GameManager.StartConversation(tutorialEnd);
                 }
             }
         }
 		
         previousRoom = GameManager.currentRoom;
 	}
+
+    public void tutoiralIncrement()
+    {
+    }
 }
