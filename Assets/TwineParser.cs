@@ -6,36 +6,83 @@ public class TwineParser : MonoBehaviour {
 	// TODO: Eventually this script should probably not need to access the game manager
 	public GameManager gameManager;
 
-	public bool PassesRestriction(string option)
-	{
-		if (option[0] == '%')
-		{
-			string restriction = option.Substring(option.IndexOf('%') + 1, option.Substring(1).IndexOf('%') - 1);
-
-			string[] instrList = restriction.Split(',');
-
-			int restrictionVar = ParseVariable(instrList[0]);
-			int lowerBound = int.Parse(TrimTag(instrList[1]));
-			int upperBound= int.Parse(TrimTag(instrList[2]));
-
-			return (lowerBound <= restrictionVar && restrictionVar <= upperBound);
-		}
-		else
-			return true;
+	public bool HasRestriction (string option) {
+		return option [0] == '%';
 	}
 
-	public int ParseVariable(string loveVar)
-	{
-		string name = loveVar.Split('_')[0];
-		string value = loveVar.Split('_')[1];
+	public string TrimRestriction (string option) {
+		return option.Substring(option.LastIndexOf("%") + 1);
+	}
 
-		LoveInterest loveInterest = gameManager.getLoveInterest(ParseName(name));
+	public bool PassesRestriction(string option)
+	{
+		Debug.Log ("Checking restriction for option: " + option);
+		if (option [0] == '%') {
+			string restriction = option.Substring (option.IndexOf ('%') + 1, option.Substring (1).IndexOf ('%'));
+
+			string[] restrList = restriction.Split (',');
+
+			if (restrList.Length < 3)
+				return false;
+
+			int restrictionVar = ParseVariable (restrList [0]);
+			int lowerBound = int.Parse (restrList [1]);
+			int upperBound = int.Parse (restrList [2]);
+
+			return (lowerBound <= restrictionVar && restrictionVar <= upperBound);
+		} else {
+			Debug.Log ("ERROR: Malformed restriction string");
+			return true;
+		}
+	}
+
+	public int ParseVariable(string varString)
+	{
+		string name = varString.Split('_')[0];
+		string value = varString.Split('_')[1];
+
+//		switch (varString) {
+//		case "lucy_approval":
+//			return gameManager.getLoveInterest (Lu).approvalRaiting;
+//		case "noelle_approval":
+//			return gameManager.getLoveInterest ("noelle").approvalRaiting;
+//		case "beau_approval":
+//			return gameManager.getLoveInterest ("beau").approvalRaiting;
+//		case "hen_approval":
+//			return gameManager.getLoveInterest ("hen").approvalRaiting;
+//		case "john_approval":
+//			return gameManager.getLoveInterest ("john").approvalRaiting;
+//		case "pat_approval":
+//			return gameManager.getLoveInterest ("pat").approvalRaiting;
+//
+//		default:
+//			Debug.Log ("ERROR: Not a valid Twine variable: " + varString);
+//
+//		}
+
 		if (value == "approval")
 		{
+			LoveInterest loveInterest = gameManager.getLoveInterest(ParseName(name));
 			return loveInterest.approvalRaiting;
+		} else if (value == "gift")
+		{
+			LoveInterest loveInterest = gameManager.getLoveInterest(ParseName(name));
+			return loveInterest.canGetGift;
 		}
 
-		Debug.Log("AN ERROR HAPPENED OH NO");
+		/* Otherwise, it's some other kind of variable */
+
+		switch (varString) {
+		case "convo_points":
+			return GameManager.ConvoPointsRemaining();
+		case "gift_available":
+			return GameManager.giftAvailable;
+		default:
+			Debug.Log("ERROR: Not a valid Twine variable: " + varString);
+			break;
+		}
+
+		Debug.Log("ERROR: Not a valid Twine variable: " + varString);
 		return 0;
 	}
 

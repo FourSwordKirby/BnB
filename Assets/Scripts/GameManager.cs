@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour {
 
     public static int currentDay;
     public static Room currentRoom;
+	public static int giftAvailable;
 
 
     public static DialogController dialogControls;
@@ -100,6 +101,9 @@ public class GameManager : MonoBehaviour {
         loveInterestControls.displayLoveInterests();
     }
 
+	public static int ConvoPointsRemaining() {
+		return dayControls.remainingConvoPts;
+	}
 
     public static void AdvanceDay()
     {
@@ -111,3 +115,5 @@ public class GameManager : MonoBehaviour {
 		dayControls.BeginDay ();
 	}
 }
+
+

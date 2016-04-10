@@ -1,0 +1,240 @@
+﻿:: p_i
+BEAUREGARD: As you wish. Everything should be ready tomorrow morning.
+
+BEAUREGARD: Is there anything else you'd like to talk about?
+
+[[%pat_item, 2%Yes. One of the women in the castle.|women]]
+[[%pat_item, 2%No.|No, thank you Beauregard. You're free to go.]]
+
+
+:: h2
+BEAUREGARD: The, erm...<i>lady</i> Henrietta seems to be warming up to you. I'm not sure how, or why, but...keep it up, I suppose?
+
+BEAUREGARD: Is there anyone else you'd like to talk about?
+
+[[Yes.|women]]
+[[No.]]
+
+
+:: j_i
+BEAUREGARD: As you wish. Everything should be ready tomorrow morning.
+
+BEAUREGARD: Is there anything else you'd like to talk about?
+
+[[%jane_item, 2%Yes. One of the women in the castle.|women]]
+[[%jane_item, 2%No.|No, thank you Beauregard. You're free to go.]]
+
+
+:: h1
+BEAUREGARD: Er. She's...she's just a cow, sire. But, if you really are curious, I suppose...she seems to like you about as much as any cow likes a stranger?
+
+BEAUREGARD: Is there anyone else you'd like to talk about?
+
+[[Yes.|women]]
+[[No.]]
+
+
+:: j1
+BEAUREGARD: She doesn't appear very impressed with you yet, sire, but I'm sure that'll change. Might I recommend trying a more humorous approach? The lady Jane loves to laugh.
+
+BEAUREGARD: Is there anyone else you'd like to talk about?
+
+[[Yes.|women]]
+[[No.]]
+
+
+:: j2
+BEAUREGARD: You're getting quite friendly with her, sire! I must say I'm quite proud of you.
+
+BEAUREGARD: Is there anyone else you'd like to talk about?
+
+[[Yes.|women]]
+[[No.]]
+
+
+:: j3
+BEAUREGARD: I don't mean to push, sire, but if you asked lady Jane to marry you, I don't think she'd say no.
+
+BEAUREGARD: Is there anyone else you'd like to talk about?
+
+[[Yes.|women]]
+[[No.]]
+
+
+:: Start
+BEAUREGARD: Good morning, sire!
+
+BEAUREGARD: Is there anything you require of me this morning?
+
+[[I'd like to ask about one of the women in the castle.|women]]
+[[%gift_available,1,5%There's something I'd like you to get for me.|There's something I'd like you to get for me.]]
+[[No, thank you Beauregard. You're free to go.]]
+
+
+:: n_i
+BEAUREGARD: As you wish. Everything should be ready tomorrow morning.
+
+BEAUREGARD: Is there anything else you'd like to talk about?
+
+[[%noelle_item, 2%Yes. One of the women in the castle.|women]]
+[[%noelle_item, 2%No.|No, thank you Beauregard. You're free to go.]]
+
+
+:: StoryTitle
+Untitled Story
+
+
+:: h_i
+BEAUREGARD: As you wish. Everything should be ready tomorrow morning.
+
+BEAUREGARD: Is there anything else you'd like to talk about?
+
+[[%hen_item, 2%Yes. One of the women in the castle.|women]]
+[[%hen_item, 2%No.|No, thank you Beauregard. You're free to go.]]
+
+
+:: h3
+BEAUREGARD: I...I'm confused, sire. I don't understand this...<i>thing</i> between you and the, erm, lady Henrietta, but if this is what makes you happy...Well, I suppose the heart wants what the heart wants.
+
+BEAUREGARD: Is there anyone else you'd like to talk about?
+
+[[Yes.|women]]
+[[No.]]
+
+
+:: l_i
+BEAUREGARD: As you wish. Everything should be ready tomorrow morning.
+
+BEAUREGARD: Is there anything else you'd like to talk about?
+
+[[%lucy_item, 2%Yes. One of the women in the castle.|women]]
+[[%lucy_item, 2%No.|No, thank you Beauregard. You're free to go.]]
+
+
+:: No.
+BEAUREGARD: Very well, sire. Is there anything else I can help with?
+
+[[I'd like to ask about one of the women in the castle.|women]]
+[[%gift_available,1,5%There's something I'd like you to get for me.|There's something I'd like you to get for me.]]
+[[No, thank you Beauregard. You're free to go.]]
+
+
+:: StoryAuthor
+Anonymous
+
+
+:: women
+BEAUREGARD: Of course, sire. Who is it you'd like to talk about?
+
+[[%noelle_approval,0,10%Noelle.|n1]]
+[[%noelle_approval,10,30%Noelle.|n2]]
+[[%noelle_approval,30,70%Noelle.|n3]]
+[[%jane_approval,0,10%Jane.|j1]]
+[[%jane_approval,10,30%Jane.|j2]]
+[[%jane_approval,30,70%Jane.|j3]]
+[[%pat_approval,0,10%Pat.|p1]]
+[[%pat_approval,10,30%Pat.|p2]]
+[[%pat_approval,30,70%Pat.|p3]]
+[[%lucy_approval,0,10%Lucille.|l1]]
+[[%lucy_approval,10,30%Lucille.|l2]]
+[[%lucy_approval,30,70%Lucille.|l3]]
+[[%hen_approval,0,10%Henrietta.|h1]]
+[[%hen_approval,10,30%Henrietta.|h2]]
+[[%hen_approval,30,70%Henrietta.|h3]]
+
+
+:: p2
+BEAUREGARD: You and the lady Patrice seem to be getting along quite nicely! I like her very much indeed, sire. You've done well.
+
+BEAUREGARD: Is there anyone else you'd like to talk about?
+
+[[Yes.|women]]
+[[No.]]
+
+
+:: p3
+BEAUREGARD: The lady Patrice seems quite taken with you! Might I recommend a proposal in the near future?
+
+BEAUREGARD: Is there anyone else you'd like to talk about?
+
+[[Yes.|women]]
+[[No.]]
+
+
+:: No, thank you Beauregard. You're free to go.
+BEAUREGARD: Very well, sire. I wish you a good day, and good luck!
+
+
+:: p1
+BEAUREGARD: I'm not sure how you've managed it, considering her gentle demeanor, but the lady Patrice doesn't seem particularly interested in you. Please, just try not to scare her. She's really very easy to get along with when she's not terrified.
+
+BEAUREGARD: Is there anyone else you'd like to talk about?
+
+[[Yes.|women]]
+[[No.]]
+
+
+:: There's something I'd like you to get for me.
+BEAUREGARD: Of course, sire. What in particular did you have in mind?
+
+[[%noelle_gift, 1, 1%Noelle's mother's will. Her father is keeping it hidden somewhere.|n_i]]
+[[%jane_gift, 1, 1%A picture of Jane's family.|j_i]]
+[[%pat_gift, 1, 1%Patrice's son is staying with his grandmother, and no letters seem to be getting through. Could you check on them? Patrice would love a letter from her son.|p_i]]
+[[%lucy_gift, 1, 1%Lucille had a fight with her best friend before leaving home. Could you persuade her to forgive Lucille? Perhaps in letter form?|l_i]]
+[[%hen_gift, 1, 1%Henrietta's old home had pastures with a sweeter type of grass. Would you bring some back to the castle for her?|h_i]]
+
+
+:: l2
+BEAUREGARD: It seems you two are starting to get along quite nicely! Very impressive, if I may say so, sire. Keep it up!
+
+BEAUREGARD: Is there anyone else you'd like to talk about?
+
+[[Yes.|women]]
+[[No.]]
+
+
+:: l3
+BEAUREGARD: I'm not sure how you've managed it, sire, but the lady Lucille seems quite enamoured of you! Do I see a proposal on the horizon?
+
+BEAUREGARD: Is there anyone else you'd like to talk about?
+
+[[Yes.|women]]
+[[No.]]
+
+
+:: l1
+BEAUREGARD: The lady Lucille is rather difficult to get along with, isn't she? Very prickly. Well, I'm sure you'll find a way soon enough. Personally, I've found honesty to be a particularly effective conversation tool when talking with her.
+
+BEAUREGARD: Is there anyone else you'd like to talk about?
+
+[[Yes.|women]]
+[[No.]]
+
+
+:: n1
+BEAUREGARD: I dont think she likes you very much, sire. But I wouldn't take it to heart; she just seems to be that sort of person. Very guarded, behind that becoming smile. A gentler touch might be help endear you to her.
+
+BEAUREGARD: Is there anyone else you'd like to talk about?
+
+[[Yes.|women]]
+[[No.]]
+
+
+:: n2
+BEAUREGARD: She seems to really be warming up to you! It appears those good manners are finally paying off.
+
+BEAUREGARD: Is there anyone else you'd like to talk about?
+
+[[Yes.|women]]
+[[No.]]
+
+
+:: n3
+BEAUREGARD: She really seems to like you, sire. I'd recommend popping the question soon!
+
+BEAUREGARD: Is there anyone else you'd like to talk about?
+
+[[Yes.|women]]
+[[No.]]
+
+

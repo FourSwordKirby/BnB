@@ -8,7 +8,7 @@ public class DayManager : MonoBehaviour {
 	public Room bedroom;
 	public Room dining;
 
-	private int remainingConvoPts;
+	public int remainingConvoPts;
 	private int dayNumber;
 
 	public TwineStory morningBeauStory;

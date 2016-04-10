@@ -24,6 +24,13 @@ public class DialogController : MonoBehaviour
     private int currentLine;
     private string currentText;
 
+	/* Contains mapping for which displayed option number maps to 
+	 * Twine option number 
+	 */
+	private List<int> validOptionMap;
+
+	private static int numMaxOptions = 5;
+
     public delegate void OnDisplayComplete();
     public OnDisplayComplete CleanupFunction;
 
@@ -130,35 +137,78 @@ public class DialogController : MonoBehaviour
         twineParser.SetVariable(instrList[0], restrictionVar);
     }
 
+	private List<string> FilterValidOptions(List<UnityTwine.TwineLink> options) {
+		List<string> validOptions = new List<string>();
+		this.validOptionMap.Clear ();
+
+		for (int i = 0; i < options.Count; i++) {
+			string optionText = options[i].Text;
+			Debug.Log ("Checking validity of option: " + optionText);
+			if (twineParser.HasRestriction (optionText)) {
+				if (twineParser.PassesRestriction (optionText)) {
+					validOptions.Add (twineParser.TrimRestriction (optionText));
+					validOptionMap.Add (i);
+				}
+			} else {
+				validOptions.Add (optionText);
+				validOptionMap.Add (i);
+			}
+		}
+		return validOptions;
+	}
+
     private void DisplayOptions()
     {
-        for (int i = 0; i < 3; i++)
-        {
-            if (i < currentStory.Links.Count)
-            {
-                if (twineParser.PassesRestriction(currentStory.Links[i].Text))
-                {
-                    dialogUI.enableOption(i);
-                    //Debug.Log("Displaying option " + i + ": " + currentStory.Links[i].Text);
-                    dialogUI.displayOption(currentStory.Links[i].Text, i);
-                }
-            }
-            else
-                dialogUI.disableOption(i);
-        }
+
+		List<string> optionsToDisplay = FilterValidOptions (currentStory.Links);
+
+		if (optionsToDisplay.Count > numMaxOptions)
+			Debug.Log ("ERROR: Cannot display all options");
+
+		Debug.Log ("Num of valid options=" + optionsToDisplay.Count); 
+
+		for (int i = 0; i < optionsToDisplay.Count; i++) {
+			Debug.Log ("An option to display: " + optionsToDisplay [i]);
+			dialogUI.enableOption (i);
+			//Debug.Log("Displaying option " + i + ": " + currentStory.Links[i].Text);
+			dialogUI.displayOption (optionsToDisplay[i], i);
+		}
+//
+//		for (int i = 0; i < currentStory.Links.Count; i++)
+//        {
+//				string optionText = currentStory.Links [i].Text;
+//			if (!twineParser.HasRestriction (optionText) || twineParser.PassesRestriction (optionText)) {
+//				dialogUI.enableOption (i);
+//				//Debug.Log("Displaying option " + i + ": " + currentStory.Links[i].Text);
+//				dialogUI.displayOption (optionText, i);
+//
+//				 
+//					if (twineParser.PassesRestriction (optionText)) {
+//						optionText = twineParser.TrimRestriction (optionText);
+//					}
+//				} else {
+//					dialogUI.enableOption (i);
+//					//Debug.Log("Displaying option " + i + ": " + currentStory.Links[i].Text);
+//					dialogUI.displayOption (currentStory.Links [i].Text, i);
+//				}
+//           
+//            else
+//                dialogUI.disableOption(i);
+//        }
     }
 
 	private void HideOptions()
 	{
-		for (int i = 0; i < 3; i++)
+		for (int i = 0; i < numMaxOptions; i++)
 		{
 			dialogUI.disableOption(i);
 		}
 	}
 
-    public void selectOption(int option)
+    public void selectOption(int dispOptionNum)
     {
-        if (option >= currentStory.Links.Count)
+		int twineOptionNum = validOptionMap [dispOptionNum];
+		if (twineOptionNum  >= currentStory.Links.Count)
         {
             Debug.Log("This option is not in range");
             return;
@@ -167,7 +217,7 @@ public class DialogController : MonoBehaviour
         //Debug.Log("You chose " + currentStory.Links[option].Text);
 
         AudioSource.PlayClipAtPoint(clickSound, Vector3.zero);
-		currentStory.Advance (currentStory.Links[option]);
+		currentStory.Advance (currentStory.Links[twineOptionNum ]);
     }
 
 	void Story_OnStateChanged(TwineStoryState state) {
@@ -200,6 +250,7 @@ public class DialogController : MonoBehaviour
     {
         //Initializing internal variables
         this.lines = new List<string>();
+		this.validOptionMap = new List<int> ();
     }
 
 	public void StartConversation(TwineStory story) {
