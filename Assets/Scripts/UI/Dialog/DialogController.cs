@@ -9,7 +9,8 @@ using System;
 public class DialogController : MonoBehaviour
 {
     public DialogUI dialogUI;
-    public GameManager gameManager;
+	public GameManager gameManager;
+	public TwineParser twineParser;
 
     public TwineStory currentStory;
 
@@ -45,14 +46,14 @@ public class DialogController : MonoBehaviour
 
                 line = lines[currentLine];
 				                
-				if (IsInstruction(line))
+				if (twineParser.IsInstruction(line))
                 {
                     instructions = line.Substring(line.IndexOf("%"), line.Substring(1).IndexOf("%")+1);
 					ApplyInstructions(instructions);
                     currentLine++;
                 }
 
-                if (IsReaction(line))
+                if (twineParser.IsReaction(line))
                 {
                     instructions = line.Substring(line.IndexOf("#") + 1, line.Substring(1).IndexOf("#"));
                     ApplyReaction(instructions);
@@ -84,86 +85,87 @@ public class DialogController : MonoBehaviour
         }
     }
 
-	private string TrimTag(string tag) {
-		//Debug.Log ("Tag to be trimmed: " + tag);
-		return tag.Substring (2, tag.IndexOf (">") - 2);
-	}
-		
-	private GameManager.LoveInterestName ParseName(string tagName) {
-
-		switch (tagName) {
-		case "beau":
-			return GameManager.LoveInterestName.Beauregard;
-			// TODO: add other cases as Sam writes them
-        case "hen":
-            return GameManager.LoveInterestName.Henrietta;
-        case "john":
-            return GameManager.LoveInterestName.John;
-        case "lucy":
-            return GameManager.LoveInterestName.Lucille;
-        case "pat":
-            return GameManager.LoveInterestName.Patrice;
-        case "noelle":
-            return GameManager.LoveInterestName.Noelle;
-		default:
-			Debug.Log ("ERROR: Malformed Tag Name input: " + tagName);
-			break;
-		}
-		return GameManager.LoveInterestName.Beauregard;
-	}
-
-	private DialogUI.ImagePositon ParsePos(string tagPos) {
-
-		switch (tagPos) {
-		case "farleft":
-			return DialogUI.ImagePositon.FarLeft;
-		case "nearleft":
-			return DialogUI.ImagePositon.NearLeft;
-		case "center":
-			return DialogUI.ImagePositon.Center;
-		case "nearright":
-			return DialogUI.ImagePositon.NearRight;
-		case "farright":
-			return DialogUI.ImagePositon.FarRight;
-			// TODO: add other cases as Sam writes them
-		default:
-			Debug.Log ("ERROR: Malformed Tag Pos input: " + tagPos);
-			break;
-		}
-		return DialogUI.ImagePositon.Center;
-	}
-
-	private LoveInterest.Emotion ParseEmotion(string tagEmotion) {
-		switch (tagEmotion) {
-		case "neutral":
-			return LoveInterest.Emotion.Neutral;
-		case "smile":
-			return LoveInterest.Emotion.Happy;
-		case "blush":
-			return LoveInterest.Emotion.Flattered;
-		case "angry":
-			return LoveInterest.Emotion.Angry;
-		case "frown":
-			return LoveInterest.Emotion.Sad;
-        case "scared":
-            return LoveInterest.Emotion.Scared;
-			// TODO: add other cases as Sam writes them
-		default:
-			Debug.Log ("ERROR: Malformed Tag Emotion input: " + tagEmotion);
-			break;
-		}
-		return LoveInterest.Emotion.Neutral;
-	}
-
-    private bool IsInstruction(string line)
-    {
-        return line[0] == '%';
-    }
+//	private string TrimTag(string tag) {
+//		//Debug.Log ("Tag to be trimmed: " + tag);
+//		return tag.Substring (2, tag.IndexOf (">") - 2);
+//	}
+//		
+//	private GameManager.LoveInterestName ParseName(string tagName) {
+//
+//		switch (tagName) {
+//		case "beau":
+//			return GameManager.LoveInterestName.Beauregard;
+//			// TODO: add other cases as Sam writes them
+//        case "hen":
+//            return GameManager.LoveInterestName.Henrietta;
+//        case "john":
+//            return GameManager.LoveInterestName.John;
+//        case "lucy":
+//            return GameManager.LoveInterestName.Lucille;
+//        case "pat":
+//            return GameManager.LoveInterestName.Patrice;
+//        case "noelle":
+//            return GameManager.LoveInterestName.Noelle;
+//		default:
+//			Debug.Log ("ERROR: Malformed Tag Name input: " + tagName);
+//			break;
+//		}
+//		return GameManager.LoveInterestName.Beauregard;
+//	}
+//
+//	private DialogUI.ImagePositon ParsePos(string tagPos) {
+//
+//		switch (tagPos) {
+//		case "farleft":
+//			return DialogUI.ImagePositon.FarLeft;
+//		case "nearleft":
+//			return DialogUI.ImagePositon.NearLeft;
+//		case "center":
+//			return DialogUI.ImagePositon.Center;
+//		case "nearright":
+//			return DialogUI.ImagePositon.NearRight;
+//		case "farright":
+//			return DialogUI.ImagePositon.FarRight;
+//			// TODO: add other cases as Sam writes them
+//		default:
+//			Debug.Log ("ERROR: Malformed Tag Pos input: " + tagPos);
+//			break;
+//		}
+//		return DialogUI.ImagePositon.Center;
+//	}
+//
+//	private LoveInterest.Emotion ParseEmotion(string tagEmotion) {
+//		switch (tagEmotion) {
+//		case "neutral":
+//			return LoveInterest.Emotion.Neutral;
+//		case "smile":
+//			return LoveInterest.Emotion.Happy;
+//		case "blush":
+//			return LoveInterest.Emotion.Flattered;
+//		case "angry":
+//			return LoveInterest.Emotion.Angry;
+//		case "frown":
+//			return LoveInterest.Emotion.Sad;
+//        case "scared":
+//            return LoveInterest.Emotion.Scared;
+//			// TODO: add other cases as Sam writes them
+//		default:
+//			Debug.Log ("ERROR: Malformed Tag Emotion input: " + tagEmotion);
+//			break;
+//		}
+//		return LoveInterest.Emotion.Neutral;
+//	}
+//
+//    private bool IsInstruction(string line)
+//    {
+//        return line[0] == '%';
+//    }
 
 	private void ApplyInstructions(string instructions) {
 		string[] instrList = instructions.Split(',');
 
 		int numCharacters;
+		// TODO Replace this with a twineParser.IsValidInstruction()
 		if (!Int32.TryParse(instrList[0].Substring(1), out numCharacters)) {
 			// TODO: Handle error somehow
 			Debug.Log("ERROR! Malformed input!");
@@ -173,31 +175,35 @@ public class DialogController : MonoBehaviour
 
 		dialogUI.clearLoveInterests ();
 
+
+
 		for (int i = 0; i < numCharacters; i++) {
-			GameManager.LoveInterestName name = ParseName(TrimTag(instrList [3 * i + 1]));
-			DialogUI.ImagePositon position = ParsePos(TrimTag(instrList [3 * i + 2]));
-			LoveInterest.Emotion emotion = ParseEmotion(TrimTag(instrList [3 * i + 3]));
+			GameManager.LoveInterestName name = twineParser.ParseName(twineParser.TrimTag(instrList [3 * i + 1]));
+			DialogUI.ImagePositon position = twineParser.ParsePos(twineParser.TrimTag(instrList [3 * i + 2]));
+			LoveInterest.Emotion emotion = twineParser.ParseEmotion(twineParser.TrimTag(instrList [3 * i + 3]));
+
+
 
             dialogUI.displayLoveInterest(gameManager.getLoveInterest(name), emotion, position);
 		}
 	}
-
-    private bool IsReaction(string line)
-    {
-        return line[0] == '#';
-    }
+//
+//    private bool IsReaction(string line)
+//    {
+//        return line[0] == '#';
+//    }
 
     private void ApplyReaction(string reaction)
     {
         string[] instrList = reaction.Split(',');
 
 
-        int restrictionVar = ParseVariable(instrList[0]);
+        int restrictionVar = twineParser.ParseVariable(instrList[0]);
         int variableChange = int.Parse(instrList[1]);
 
         restrictionVar += variableChange;
 
-        SetVariable(instrList[0], restrictionVar);
+        twineParser.SetVariable(instrList[0], restrictionVar);
     }
 
     private void DisplayOptions()
@@ -206,7 +212,7 @@ public class DialogController : MonoBehaviour
         {
             if (i < currentStory.Links.Count)
             {
-                if (PassesRestriction(currentStory.Links[i].Text))
+                if (twineParser.PassesRestriction(currentStory.Links[i].Text))
                 {
                     dialogUI.enableOption(i);
                     //Debug.Log("Displaying option " + i + ": " + currentStory.Links[i].Text);
@@ -218,55 +224,55 @@ public class DialogController : MonoBehaviour
         }
     }
 
-    private bool PassesRestriction(string option)
-    {
-        if (option[0] == '%')
-        {
-            string restriction = option.Substring(option.IndexOf('%') + 1, option.Substring(1).IndexOf('%') - 1);
+//    private bool PassesRestriction(string option)
+//    {
+//        if (option[0] == '%')
+//        {
+//            string restriction = option.Substring(option.IndexOf('%') + 1, option.Substring(1).IndexOf('%') - 1);
+//
+//            string[] instrList = restriction.Split(',');
+//
+//            int restrictionVar = ParseVariable(instrList[0]);
+//            int lowerBound = int.Parse(TrimTag(instrList[1]));
+//            int upperBound= int.Parse(TrimTag(instrList[2]));
+//
+//            return (lowerBound <= restrictionVar && restrictionVar <= upperBound);
+//        }
+//        else
+//            return true;
+//    }
 
-            string[] instrList = restriction.Split(',');
+//    private int ParseVariable(string loveVar)
+//    {
+//        string name = loveVar.Split('_')[0];
+//        string value = loveVar.Split('_')[1];
+//     
+//        LoveInterest loveInterest = gameManager.getLoveInterest(ParseName(name));
+//        if (value == "approval")
+//        {
+//            return loveInterest.approvalRaiting;
+//        }
+//
+//        Debug.Log("AN ERROR HAPPENED OH NO");
+//        return 0;
+//    }
 
-            int restrictionVar = ParseVariable(instrList[0]);
-            int lowerApproval = int.Parse(TrimTag(instrList[1]));
-            int upperApproval = int.Parse(TrimTag(instrList[2]));
-
-            return (lowerApproval <= restrictionVar && restrictionVar <= upperApproval);
-        }
-        else
-            return true;
-    }
-
-    private int ParseVariable(string loveVar)
-    {
-        string name = loveVar.Split('_')[0];
-        string value = loveVar.Split('_')[1];
-     
-        LoveInterest loveInterest = gameManager.getLoveInterest(ParseName(name));
-        if (value == "approval")
-        {
-            return loveInterest.approvalRaiting;
-        }
-
-        Debug.Log("AN ERROR HAPPENED OH NO");
-        return 0;
-    }
-
-    private void SetVariable(string loveVar, int loveVal)
-    {
-        string name = loveVar.Split('_')[0];
-        string value = loveVar.Split('_')[1];
-
-        LoveInterest loveInterest = gameManager.getLoveInterest(ParseName(name));
-        if (value == "approval")
-        {
-            loveInterest.approvalRaiting = loveVal;
-            return;
-        }
-        else
-        {
-            Debug.Log("ERROR OCCURED PARSING THE STRING");
-        }
-    }
+//    private void SetVariable(string loveVar, int loveVal)
+//    {
+//        string name = loveVar.Split('_')[0];
+//        string value = loveVar.Split('_')[1];
+//
+//        LoveInterest loveInterest = gameManager.getLoveInterest(ParseName(name));
+//        if (value == "approval")
+//        {
+//            loveInterest.approvalRaiting = loveVal;
+//            return;
+//        }
+//        else
+//        {
+//            Debug.Log("ERROR OCCURED PARSING THE STRING");
+//        }
+//    }
 
 	private void HideOptions()
 	{
