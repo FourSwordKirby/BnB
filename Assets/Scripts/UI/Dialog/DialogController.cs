@@ -161,7 +161,7 @@ public class DialogController : MonoBehaviour
     }
 
 	private void ApplyInstructions(string instructions) {
-		//Debug.Log ("Instructions: " + instructions);
+		Debug.Log ("Instructions: " + instructions);
 
 		string[] instrList = instructions.Split(',');
 
