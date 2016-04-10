@@ -82,28 +82,27 @@ public class ScriptedTutorial : MonoBehaviour {
                     suitorIntroStart = true;
                 }
             }
-            else if (suitorIntroStart)
+        }
+        if (suitorIntroStart)
+        {
+            if (GameManager.loveInterestControls.gameObject.activeSelf == false)
             {
-                Debug.Log("suitorUI activity" + GameManager.loveInterestControls.gameObject.active);
-                Debug.Log("suitorUI activity2" + GameManager.loveInterestControls.gameObject.activeSelf);
-                if (GameManager.loveInterestControls.gameObject.active == true)
-                {
-                    inConversation = false;
-                }
-                if (!inConversation && GameManager.loveInterestControls.gameObject.active== false)
-                {
-                    inConversation = true;
-                    introsCompleted++;
-                    Debug.Log(introsCompleted);
-                }
+                inConversation = true;
+            }
+            if (inConversation && GameManager.loveInterestControls.gameObject.activeSelf == true)
+            {
+                inConversation = false;
+                introsCompleted++;
+            }
 
-                if (introsCompleted >= 5)
-                {
-                    introsCompleted = int.MinValue;
-                    GameManager.StartConversation(tutorialEnd);
-                }
+
+            if (introsCompleted >= 5)
+            {
+                introsCompleted = int.MinValue;
+                GameManager.StartConversation(tutorialEnd);
             }
         }
+
 		
         previousRoom = GameManager.currentRoom;
 	}
