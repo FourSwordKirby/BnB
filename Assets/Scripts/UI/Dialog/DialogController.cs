@@ -316,7 +316,7 @@ public class DialogController : MonoBehaviour
 	void Story_OnOutput(TwineOutput output) {
 
 		if (output is TwineText) {
-			//Debug.Log ("Text: " + output.Text);
+			Debug.Log ("Text: " + output.Text);
 			
 			var text = (TwineText)output;
 			if (IgnoreEmptyLines && text.Text.Trim ().Length < 1)
