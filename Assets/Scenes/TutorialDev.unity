@@ -237,7 +237,7 @@ MonoBehaviour:
   DinnerStory: {fileID: 0}
   approvalRaiting: 0
   loveInterestSprites:
-  - {fileID: 21300000, guid: 941f2a9cb48153546a57b094b3e6c152, type: 3}
+  - {fileID: 0}
   - {fileID: 21300000, guid: 3c735b0439a36d84fae5142787de6cfd, type: 3}
   - {fileID: 21300000, guid: a9e3aca81fc67244d97a22f104c02825, type: 3}
   - {fileID: 21300000, guid: 544f4360ab1d0cf4aaab7e5cedb85958, type: 3}
@@ -403,6 +403,11 @@ Prefab:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 1343823894}
+    - target: {fileID: 11477870, guid: e10c4fa56eb233444ae4c3247a0c9dec, type: 2}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: c78e91b60f784a540b0c83700ed68e17,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e10c4fa56eb233444ae4c3247a0c9dec, type: 2}
   m_IsPrefabParent: 0
@@ -1730,11 +1735,11 @@ MonoBehaviour:
   approvalRaiting: 0
   loveInterestSprites:
   - {fileID: 21300000, guid: 863ef133c43302c4181adc7541107224, type: 3}
-  - {fileID: 21300000, guid: ab086b773e5427847abad68e2b144f4e, type: 3}
-  - {fileID: 21300000, guid: f2921f2dd3b7df042abafbd919584a69, type: 3}
-  - {fileID: 21300000, guid: 11200f4a8f199614f88ff8016a146816, type: 3}
-  - {fileID: 21300000, guid: 18f4a5776532e5547904ad277a861869, type: 3}
-  - {fileID: 21300000, guid: 18f4a5776532e5547904ad277a861869, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &2077558327
 GameObject:
   m_ObjectHideFlags: 0

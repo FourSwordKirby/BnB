@@ -161,8 +161,6 @@ public class DialogController : MonoBehaviour
     }
 
 	private void ApplyInstructions(string instructions) {
-		Debug.Log ("Instructions: " + instructions);
-
 		string[] instrList = instructions.Split(',');
 
 		int numCharacters;
@@ -191,7 +189,6 @@ public class DialogController : MonoBehaviour
 
     private void ApplyReaction(string reaction)
     {
-        Debug.Log(reaction);
         string[] instrList = reaction.Split(',');
 
 

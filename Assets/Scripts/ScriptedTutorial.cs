@@ -84,11 +84,13 @@ public class ScriptedTutorial : MonoBehaviour {
             }
             else if (suitorIntroStart)
             {
-                if (GameManager.loveInterestControls.gameObject.activeSelf == true)
+                Debug.Log("suitorUI activity" + GameManager.loveInterestControls.gameObject.active);
+                Debug.Log("suitorUI activity2" + GameManager.loveInterestControls.gameObject.activeSelf);
+                if (GameManager.loveInterestControls.gameObject.active == true)
                 {
                     inConversation = false;
                 }
-                if (!inConversation && GameManager.loveInterestControls.gameObject.activeSelf == false)
+                if (!inConversation && GameManager.loveInterestControls.gameObject.active== false)
                 {
                     inConversation = true;
                     introsCompleted++;
