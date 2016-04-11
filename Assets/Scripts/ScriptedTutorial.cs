@@ -7,7 +7,6 @@ using UnityTwine;
 public class ScriptedTutorial : MonoBehaviour {
 
     public GameManager gameManager;
-	public DayManager dayManager;
 
 	public Room bedroom;
     public Room parlor;
@@ -34,6 +33,7 @@ public class ScriptedTutorial : MonoBehaviour {
     private bool suitorIntroStart = false;
     private bool inConversation = false;
     private int introsCompleted = 0;
+	private bool tutorialCompleted = true;
 
 	// Use this for initialization
 	void Start () {
@@ -50,47 +50,38 @@ public class ScriptedTutorial : MonoBehaviour {
 	void Update () {
         if(previousRoom != GameManager.currentRoom)
         {
-            if (firstTimeInParlor)
-            {
-                if (GameManager.currentRoom == parlor)
-                {
-                    firstTimeInParlor = false;
-                    GameManager.StartConversation(tutorialB);
+			if (firstTimeInParlor) {
+				if (GameManager.currentRoom == parlor) {
+					firstTimeInParlor = false;
+					GameManager.StartConversation (tutorialB);
 
-                    greatHall.inhabitants = gameManager.loveInterests.Where(x => x.designation != GameManager.LoveInterestName.Beauregard).ToList<LoveInterest>();
-                }
-                else if (GameManager.currentRoom != bedroom)
-                {
-                    if (wrongRoomCount == 0)
-                    {
-                        wrongRoomCount++;
-                        GameManager.StartConversation(wrongRoom1);
-                    }
-                    else if (wrongRoomCount == 1)
-                    {
-                        wrongRoomCount++;
-                        GameManager.StartConversation(wrongRoom2);
-                    }
-                }
-            }
-            else if (firstTimeInGreatHall)
-            {
-                if (GameManager.currentRoom == greatHall)
-                {
-                    firstTimeInGreatHall = false;
-                    GameManager.StartConversation(suitorIntro);
-                    foreach(LoveInterest suitor in gameManager.loveInterests.Where(x => x.designation != GameManager.LoveInterestName.Beauregard))
-                    {
-                        Debug.Log(suitor.designation);
-                        Debug.Log((int)suitor.designation-1);
+					greatHall.inhabitants = gameManager.loveInterests.Where (x => x.designation != GameManager.LoveInterestName.Beauregard).ToList<LoveInterest> ();
+				} else if (GameManager.currentRoom != bedroom) {
+					if (wrongRoomCount == 0) {
+						wrongRoomCount++;
+						GameManager.StartConversation (wrongRoom1);
+					} else if (wrongRoomCount == 1) {
+						wrongRoomCount++;
+						GameManager.StartConversation (wrongRoom2);
+					}
+				}
+			} else if (firstTimeInGreatHall) {
+				if (GameManager.currentRoom == greatHall) {
+					firstTimeInGreatHall = false;
+					GameManager.StartConversation (suitorIntro);
+					foreach (LoveInterest suitor in gameManager.loveInterests.Where(x => x.designation != GameManager.LoveInterestName.Beauregard)) {
+						Debug.Log (suitor.designation);
+						Debug.Log ((int)suitor.designation - 1);
 
-                        suitor.currentStory = SuitorIntros[(int)suitor.designation-1];
-                    }
+						suitor.currentStory = SuitorIntros [(int)suitor.designation - 1];
+					}
 
-                    suitorIntroStart = true;
-                    GameManager.mapControls.hideControls();
-                }
-            }
+					suitorIntroStart = true;
+					GameManager.mapControls.hideControls ();
+				}
+			} else if (tutorialCompleted && GameManager.currentRoom == bedroom) {
+				GameManager.StartDay ();
+			}
         }
         if (suitorIntroStart)
         {
@@ -110,6 +101,7 @@ public class ScriptedTutorial : MonoBehaviour {
                 introsCompleted = int.MinValue;
                 GameManager.StartConversation(tutorialEnd);
                 GameManager.mapControls.displayControls();
+				tutorialCompleted = true;
             }
         }
 
