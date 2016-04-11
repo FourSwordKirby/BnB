@@ -38,6 +38,11 @@ public class TwineParser : MonoBehaviour {
 
 	public int ParseVariable(string varString)
 	{
+        if (varString == "points")
+        {
+            return GameManager.dayControls.remainingConvoPts;
+        }
+
 		string name = varString.Split('_')[0];
 		string value = varString.Split('_')[1];
 
@@ -67,15 +72,21 @@ public class TwineParser : MonoBehaviour {
 		return 0;
 	}
 
-	public void SetVariable(string loveVar, int loveVal)
+	public void ApplyVariable(string loveVar, int loveVal)
 	{
+        if (loveVar == "points")
+        {
+            GameManager.dayControls.remainingConvoPts += loveVal;
+            return;
+        }
+
 		string name = loveVar.Split('_')[0];
 		string value = loveVar.Split('_')[1];
 
 		LoveInterest loveInterest = gameManager.getLoveInterest(ParseName(name));
 		if (value == "approval")
 		{
-			loveInterest.approvalRaiting = loveVal;
+			loveInterest.approvalRaiting += loveVal;
 			return;
 		}
 		else

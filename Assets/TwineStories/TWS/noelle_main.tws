@@ -1,0 +1,2189 @@
+(dp0
+S'buildDestination'
+p1
+S''
+p2
+sS'saveDestination'
+p3
+S'C:\\Users\\Sam\\Desktop\\college things\\game design\\batb dating sim\\noelle_main.tws'
+p4
+sS'metadata'
+p5
+(dp6
+sS'target'
+p7
+S'jonah'
+p8
+sS'storyPanel'
+p9
+(dp10
+S'widgets'
+p11
+(lp12
+(dp13
+S'selected'
+p14
+I00
+sS'pos'
+p15
+(lp16
+I767
+aI26
+asS'passage'
+p17
+(itiddlywiki
+Tiddler
+p18
+(dp20
+S'text'
+p21
+V%1, <noelle>, <center>, <smile>%\u000aNOELLE: A pleasure to see you, sire. What would you like to talk about?\u000a\u000a[[One of the other women in the castle.]]\u000a[[%noelle_approval,-30,0%How are you enjoying your stay here?]]\u000a[[%noelle_approval,0,10%How are you enjoying your stay here?]]\u000a[[%noelle_approval,10,50%How are you enjoying your stay here?]]\u000a[[%noelle_approval,50,70%How are you enjoying your stay here?]]\u000a[[Let's talk about you.]]\u000a
+p22
+sS'title'
+p23
+VStart
+p24
+sS'modified'
+p25
+ctime
+struct_time
+p26
+((I2016
+I4
+I8
+I11
+I33
+I45
+I4
+I99
+I1
+tp27
+(dp28
+tp29
+Rp30
+sS'tags'
+p31
+(lp32
+sS'created'
+p33
+g26
+((I2016
+I4
+I7
+I16
+I53
+I57
+I3
+I98
+I1
+tp34
+(dp35
+tp36
+Rp37
+sbsa(dp38
+g14
+I00
+sg15
+(lp39
+F931.0
+aF170.0
+asg17
+(itiddlywiki
+Tiddler
+p40
+(dp41
+g21
+V%1, <noelle>, <center>, <smile>%\u000aNOELLE: Who did you have in mind?\u000a\u000a[[#day, 1, 2#Jane.|j1]]\u000a[[#day, 3, 6#Jane.|j2]]\u000a[[#day, 1, 2#Pat.|p1]]\u000a[[#day, 3, 6#Pat.|p2]]\u000a[[#day, 1, 2#Lucille.|l1]]\u000a[[#day, 3, 6#Lucille.|l2]]\u000a[[#day, 1, 2#Henrietta.|h1]]\u000a[[#day, 3, 6#Henrietta.|h2]]
+p42
+sg23
+VOne of the other women in the castle.
+p43
+sg25
+g26
+((I2016
+I4
+I8
+I12
+I2
+I43
+I4
+I99
+I1
+tp44
+(dp45
+tp46
+Rp47
+sg31
+(lp48
+sg33
+g26
+((I2016
+I4
+I8
+I11
+I2
+I24
+I4
+I99
+I1
+tp49
+(dp50
+tp51
+Rp52
+sbsa(dp53
+g14
+I00
+sg15
+(lp54
+F711.0
+aF189.0
+asg17
+(itiddlywiki
+Tiddler
+p55
+(dp56
+g21
+VNOELLE: Certainly. What would you like to know?\u000a\u000a[[Where are you from?]]\u000a[[What's your family like?]]
+p57
+sg23
+VLet's talk about you.
+p58
+sg25
+g26
+((I2016
+I4
+I8
+I11
+I59
+I39
+I4
+I99
+I1
+tp59
+(dp60
+tp61
+Rp62
+sg31
+(lp63
+sg33
+g26
+((I2016
+I4
+I8
+I11
+I2
+I24
+I4
+I99
+I1
+tp64
+(dp65
+tp66
+Rp67
+sbsa(dp68
+g14
+I00
+sg15
+(lp69
+F341.0
+aF25.0
+asg17
+(itiddlywiki
+Tiddler
+p70
+(dp71
+g21
+VNOELLE: I must admit, this place seemed a bit intimidating when I first arrived. But it's starting to feel more...homey.\u000a\u000aNOELLE: Is there anything else you'd like to talk about?\u000a\u000a[[One of the other women in the castle.]]\u000a[[Let's talk about you.]]
+p72
+sg23
+V%noelle_approval,10,50%How are you enjoying your stay here?
+p73
+sg25
+g26
+((I2016
+I4
+I8
+I11
+I9
+I57
+I4
+I99
+I1
+tp74
+(dp75
+tp76
+Rp77
+sg31
+(lp78
+sg33
+g26
+((I2016
+I4
+I8
+I11
+I3
+I45
+I4
+I99
+I1
+tp79
+(dp80
+tp81
+Rp82
+sbsa(dp83
+g14
+I00
+sg15
+(lp84
+F481.0
+aF25.0
+asg17
+(itiddlywiki
+Tiddler
+p85
+(dp86
+g21
+VNOELLE: The castle is beautiful. I've never been anywhere so...<i>imposing</i> before.\u000a\u000aNOELLE: Is there anything else you'd like to talk about?\u000a\u000a[[One of the other women in the castle.]]\u000a[[Let's talk about you.]]
+p87
+sg23
+V%noelle_approval,0,10%How are you enjoying your stay here?
+p88
+sg25
+g26
+((I2016
+I4
+I8
+I12
+I19
+I20
+I4
+I99
+I1
+tp89
+(dp90
+tp91
+Rp92
+sg31
+(lp93
+sg33
+g26
+((I2016
+I4
+I8
+I11
+I3
+I45
+I4
+I99
+I1
+tp94
+(dp95
+tp96
+Rp97
+sbsa(dp98
+g14
+I00
+sg15
+(lp99
+F201.0
+aF24.0
+asg17
+(itiddlywiki
+Tiddler
+p100
+(dp101
+g21
+V\u000aNOELLE: You've certainly made me feel at home, sire. Thank you. \u000a\u000aNOELLE: I...I never thought I'd be so comfortable here. In a stranger's home. But, then, I suppose we aren't really strangers anymore, are we?\u000a\u000aNOELLE: Is there anything else you'd like to talk about?\u000a\u000a[[One of the other women in the castle.]]\u000a[[Let's talk about you.]]
+p102
+sg23
+V%noelle_approval,50,70%How are you enjoying your stay here?
+p103
+sg25
+g26
+((I2016
+I4
+I8
+I11
+I12
+I20
+I4
+I99
+I1
+tp104
+(dp105
+tp106
+Rp107
+sg31
+(lp108
+sg33
+g26
+((I2016
+I4
+I8
+I11
+I3
+I45
+I4
+I99
+I1
+tp109
+(dp110
+tp111
+Rp112
+sbsa(dp113
+g14
+I00
+sg15
+(lp114
+F623.0
+aF25.0
+asg17
+(itiddlywiki
+Tiddler
+p115
+(dp116
+g21
+VNOELLE: ...I can't think of a <i>single</i> thing to complain about. Staying here has certainly been an...<i>experience</i>, so far. One I don't think I'd care to repeat.\u000a\u000aNOELLE: Is there anything else you'd like to talk about?\u000a\u000a[[One of the other women in the castle.]]\u000a[[Let's talk about you.]]
+p117
+sg23
+V%noelle_approval,-30,0%How are you enjoying your stay here?
+p118
+sg25
+g26
+((I2016
+I4
+I8
+I12
+I20
+I8
+I4
+I99
+I1
+tp119
+(dp120
+tp121
+Rp122
+sg31
+(lp123
+sg33
+g26
+((I2016
+I4
+I8
+I11
+I33
+I47
+I4
+I99
+I1
+tp124
+(dp125
+tp126
+Rp127
+sbsa(dp128
+g14
+I00
+sg15
+(lp129
+F661.0
+aF336.0
+asg17
+(itiddlywiki
+Tiddler
+p130
+(dp131
+g21
+V#points, -1#\u000aNOELLE: I'm from Redding, a large town to the north. My father is a merchant, and often travels to the harbor several towns over.\u000a\u000aNOELLE: It's a beautiful town, Redding. Perfectly charming. Easy to get lost in.\u000a\u000a[[Why would you want to get lost?]]\u000a[[Have you always lived there?]]\u000a[[Have you ever wanted to live anywhere else?]]
+p132
+sg23
+VWhere are you from?
+p133
+sg25
+g26
+((I2016
+I4
+I9
+I1
+I31
+I48
+I5
+I100
+I1
+tp134
+(dp135
+tp136
+Rp137
+sg31
+(lp138
+sg33
+g26
+((I2016
+I4
+I8
+I11
+I35
+I53
+I4
+I99
+I1
+tp139
+(dp140
+tp141
+Rp142
+sbsa(dp143
+g14
+I00
+sg15
+(lp144
+F442.0
+aF189.0
+asg17
+(itiddlywiki
+Tiddler
+p145
+(dp146
+g21
+V#points, -1#\u000a%1, <noelle>, <center>, <neutral>%\u000aNOELLE: There isn't much to tell. My mother died when I was very young, and my father's raised me ever since.\u000a\u000aBEAST: I'm sorry.\u000a\u000aNOELLE: Yes, well. Like I said, I was very young. I barely remember her.\u000a\u000a[[That doesn't mean it isn't awful.]]\u000a[[I suppose it must be easier that way.]]\u000a[[At least you have your father.]]
+p147
+sg23
+VWhat's your family like?
+p148
+sg25
+g26
+((I2016
+I4
+I9
+I0
+I57
+I18
+I5
+I100
+I1
+tp149
+(dp150
+tp151
+Rp152
+sg31
+(lp153
+sg33
+g26
+((I2016
+I4
+I8
+I11
+I35
+I53
+I4
+I99
+I1
+tp154
+(dp155
+tp156
+Rp157
+sbsa(dp158
+g14
+I00
+sg15
+(lp159
+F1217.0
+aF172.0
+asg17
+(itiddlywiki
+Tiddler
+p160
+(dp161
+g21
+V%1, <noelle>, <center>, <smile>%\u000aNOELLE: Pat is a wonderful friend. I've rarely felt so safe and comfortable with another person.\u000a\u000a%1, <noelle>, <center>, <frown>%\u000aNOELLE: Any man who hurts her is less than scum.\u000a\u000a%1, <noelle>, <center>, <smile>%\u000aNOELLE: Is there anything else you'd like to talk about?\u000a\u000a[[One of the other women in the castle.]]\u000a[[%noelle_approval,-30,0%How are you enjoying your stay here?]]\u000a[[%noelle_approval,0,10%How are you enjoying your stay here?]]\u000a[[%noelle_approval,10,50%How are you enjoying your stay here?]]\u000a[[%noelle_approval,50,70%How are you enjoying your stay here?]]\u000a[[Let's talk about you.]]
+p162
+sg23
+Vp2
+p163
+sg25
+g26
+((I2016
+I4
+I8
+I12
+I12
+I2
+I4
+I99
+I1
+tp164
+(dp165
+tp166
+Rp167
+sg31
+(lp168
+sg33
+g26
+((I2016
+I4
+I8
+I11
+I38
+I57
+I4
+I99
+I1
+tp169
+(dp170
+tp171
+Rp172
+sbsa(dp173
+g14
+I00
+sg15
+(lp174
+F1075.0
+aF171.0
+asg17
+(itiddlywiki
+Tiddler
+p175
+(dp176
+g21
+V%1, <noelle>, <center>, <smile>%\u000aNOELLE: I don't know Pat very well yet, but I already feel at ease around her. She's very easy to talk to.\u000a\u000aNOELLE: Is there anything else you'd like to talk about?\u000a\u000a[[One of the other women in the castle.]]\u000a[[%noelle_approval,-30,0%How are you enjoying your stay here?]]\u000a[[%noelle_approval,0,10%How are you enjoying your stay here?]]\u000a[[%noelle_approval,10,50%How are you enjoying your stay here?]]\u000a[[%noelle_approval,50,70%How are you enjoying your stay here?]]\u000a[[Let's talk about you.]]
+p177
+sg23
+Vp1
+p178
+sg25
+g26
+((I2016
+I4
+I8
+I12
+I5
+I43
+I4
+I99
+I1
+tp179
+(dp180
+tp181
+Rp182
+sg31
+(lp183
+sg33
+g26
+((I2016
+I4
+I8
+I11
+I38
+I57
+I4
+I99
+I1
+tp184
+(dp185
+tp186
+Rp187
+sbsa(dp188
+g14
+I00
+sg15
+(lp189
+F1217.0
+aF24.0
+asg17
+(itiddlywiki
+Tiddler
+p190
+(dp191
+g21
+V%1, <noelle>, <center>, <neutral>%\u000aNOELLE: Henrietta may be a cow, but she's a lovely companion. I admit I was wary at first, but I've truly grown to enjoy her company.\u000a\u000aNOELLE: Is there anything else you'd like to talk about?\u000a\u000a[[One of the other women in the castle.]]\u000a[[%noelle_approval,-30,0%How are you enjoying your stay here?]]\u000a[[%noelle_approval,0,10%How are you enjoying your stay here?]]\u000a[[%noelle_approval,10,50%How are you enjoying your stay here?]]\u000a[[%noelle_approval,50,70%How are you enjoying your stay here?]]\u000a[[Let's talk about you.]]
+p192
+sg23
+Vh2
+p193
+sg25
+g26
+((I2016
+I4
+I8
+I11
+I48
+I23
+I4
+I99
+I1
+tp194
+(dp195
+tp196
+Rp197
+sg31
+(lp198
+sg33
+g26
+((I2016
+I4
+I8
+I11
+I38
+I57
+I4
+I99
+I1
+tp199
+(dp200
+tp201
+Rp202
+sbsa(dp203
+g14
+I00
+sg15
+(lp204
+F1073.0
+aF27.0
+asg17
+(itiddlywiki
+Tiddler
+p205
+(dp206
+g21
+V%1, <noelle>, <center>, <neutral>%\u000aNOELLE: Well, I, um. She's--she's a cow, sire. There isn't much to say.\u000a\u000aNOELLE: Is there anything else you'd like to talk about?\u000a\u000a[[One of the other women in the castle.]]\u000a[[%noelle_approval,-30,0%How are you enjoying your stay here?]]\u000a[[%noelle_approval,0,10%How are you enjoying your stay here?]]\u000a[[%noelle_approval,10,50%How are you enjoying your stay here?]]\u000a[[%noelle_approval,50,70%How are you enjoying your stay here?]]\u000a[[Let's talk about you.]]
+p207
+sg23
+Vh1
+p208
+sg25
+g26
+((I2016
+I4
+I8
+I11
+I45
+I31
+I4
+I99
+I1
+tp209
+(dp210
+tp211
+Rp212
+sg31
+(lp213
+sg33
+g26
+((I2016
+I4
+I8
+I11
+I38
+I57
+I4
+I99
+I1
+tp214
+(dp215
+tp216
+Rp217
+sbsa(dp218
+g14
+I00
+sg15
+(lp219
+F1379.0
+aF27.0
+asg17
+(itiddlywiki
+Tiddler
+p220
+(dp221
+g21
+V%1, <noelle>, <center>, <neutral>%\u000aNOELLE: Jane seems a bit odd to me, sire. She doesn't act like any woman I've ever met before.\u000a\u000aNOELLE: Is there anything else you'd like to talk about?\u000a\u000a[[One of the other women in the castle.]]\u000a[[%noelle_approval,-30,0%How are you enjoying your stay here?]]\u000a[[%noelle_approval,0,10%How are you enjoying your stay here?]]\u000a[[%noelle_approval,10,50%How are you enjoying your stay here?]]\u000a[[%noelle_approval,50,70%How are you enjoying your stay here?]]\u000a[[Let's talk about you.]]
+p222
+sg23
+Vj1
+p223
+sg25
+g26
+((I2016
+I4
+I8
+I12
+I2
+I14
+I4
+I99
+I1
+tp224
+(dp225
+tp226
+Rp227
+sg31
+(lp228
+sg33
+g26
+((I2016
+I4
+I8
+I11
+I38
+I57
+I4
+I99
+I1
+tp229
+(dp230
+tp231
+Rp232
+sbsa(dp233
+g14
+I00
+sg15
+(lp234
+F1520.0
+aF25.0
+asg17
+(itiddlywiki
+Tiddler
+p235
+(dp236
+g21
+V%1, <noelle>, <center>, <neutral>%\u000aNOELLE: Jane seems...sad, sometimes, when she thinks no one is looking. \u000a\u000aNOELLE: Is there anything else you'd like to talk about?\u000a\u000a[[One of the other women in the castle.]]\u000a[[%noelle_approval,-30,0%How are you enjoying your stay here?]]\u000a[[%noelle_approval,0,10%How are you enjoying your stay here?]]\u000a[[%noelle_approval,10,50%How are you enjoying your stay here?]]\u000a[[%noelle_approval,50,70%How are you enjoying your stay here?]]\u000a[[Let's talk about you.]]
+p237
+sg23
+Vj2
+p238
+sg25
+g26
+((I2016
+I4
+I8
+I12
+I3
+I29
+I4
+I99
+I1
+tp239
+(dp240
+tp241
+Rp242
+sg31
+(lp243
+sg33
+g26
+((I2016
+I4
+I8
+I11
+I38
+I57
+I4
+I99
+I1
+tp244
+(dp245
+tp246
+Rp247
+sbsa(dp248
+g14
+I00
+sg15
+(lp249
+F1520.0
+aF172.0
+asg17
+(itiddlywiki
+Tiddler
+p250
+(dp251
+g21
+V%1, <noelle>, <center>, <neutral>%\u000aNOELLE: Lucille is still bewildering. I don't know if we'll ever find common ground. She's just so...so...\u000a\u000aNOELLE: ...Anyway.\u000a\u000a%1, <noelle>, <center>, <smile>%\u000aNOELLE: Is there anything else you'd like to talk about?\u000a\u000a[[One of the other women in the castle.]]\u000a[[%noelle_approval,-30,0%How are you enjoying your stay here?]]\u000a[[%noelle_approval,0,10%How are you enjoying your stay here?]]\u000a[[%noelle_approval,10,50%How are you enjoying your stay here?]]\u000a[[%noelle_approval,50,70%How are you enjoying your stay here?]]\u000a[[Let's talk about you.]]
+p252
+sg23
+Vl2
+p253
+sg25
+g26
+((I2016
+I4
+I8
+I12
+I17
+I13
+I4
+I99
+I1
+tp254
+(dp255
+tp256
+Rp257
+sg31
+(lp258
+sg33
+g26
+((I2016
+I4
+I8
+I11
+I38
+I57
+I4
+I99
+I1
+tp259
+(dp260
+tp261
+Rp262
+sbsa(dp263
+g14
+I00
+sg15
+(lp264
+F1377.0
+aF172.0
+asg17
+(itiddlywiki
+Tiddler
+p265
+(dp266
+g21
+V%1, <noelle>, <center>, <frown>%\u000aNOELLE: I must admit, I don't really know what to make of Lucille. We're...very different. It makes her hard to understand.\u000a\u000a%1, <noelle>, <center>, <smile>%\u000aNOELLE: Is there anything else you'd like to talk about?\u000a\u000a[[One of the other women in the castle.]]\u000a[[%noelle_approval,-30,0%How are you enjoying your stay here?]]\u000a[[%noelle_approval,0,10%How are you enjoying your stay here?]]\u000a[[%noelle_approval,10,50%How are you enjoying your stay here?]]\u000a[[%noelle_approval,50,70%How are you enjoying your stay here?]]\u000a[[Let's talk about you.]]
+p267
+sg23
+Vl1
+p268
+sg25
+g26
+((I2016
+I4
+I8
+I12
+I16
+I5
+I4
+I99
+I1
+tp269
+(dp270
+tp271
+Rp272
+sg31
+(lp273
+sg33
+g26
+((I2016
+I4
+I8
+I11
+I38
+I57
+I4
+I99
+I1
+tp274
+(dp275
+tp276
+Rp277
+sbsa(dp278
+g14
+I00
+sg15
+(lp279
+F300.0
+aF188.0
+asg17
+(itiddlywiki
+Tiddler
+p280
+(dp281
+g21
+V%1, <noelle>, <center>, <frown>%\u000aNOELLE: ...Yes. Yes, I suppose I've been...lucky, in that regard. Things could be...much worse.\u000a\u000a%1, <noelle>, <center>, <smile>%\u000aNOELLE: He's always done his best to raise me. Or so he tells me.\u000a\u000a%1, <noelle>, <center>, <smile>%\u000aNOELLE: Excuse me, sire, but I'd prefer we didn't discuss this any further. Could we move on to another topic?\u000a\u000a[[Of course. Where are you from?|Where are you from?]]\u000a[[I'd like to know more about this, actually.]]
+p282
+sg23
+VAt least you have your father.
+p283
+sg25
+g26
+((I2016
+I4
+I9
+I1
+I10
+I28
+I5
+I100
+I1
+tp284
+(dp285
+tp286
+Rp287
+sg31
+(lp288
+sg33
+g26
+((I2016
+I4
+I9
+I0
+I33
+I25
+I5
+I100
+I1
+tp289
+(dp290
+tp291
+Rp292
+sbsa(dp293
+g14
+I00
+sg15
+(lp294
+F160.0
+aF188.0
+asg17
+(itiddlywiki
+Tiddler
+p295
+(dp296
+g21
+V#noelle_approval, +5#\u000a%1, <noelle>, <center>, <scared>%\u000aNOELLE: I...yes. Yes, you're right. \u000a\u000a%1, <noelle>, <center>, <smile>%\u000aNOELLE: Still, at least I have my father. He's always done his best to raise me. Or so he tells me.\u000a\u000aNOELLE: Now if you'll excuse me, sire, I'd prefer we didn't discuss this any further. Could we move on to another topic?\u000a\u000a[[Of course. Where are you from?|Where are you from?]]\u000a[[I'd like to know more about this, actually.]]
+p297
+sg23
+VThat doesn't mean it isn't awful.
+p298
+sg25
+g26
+((I2016
+I4
+I9
+I1
+I10
+I2
+I5
+I100
+I1
+tp299
+(dp300
+tp301
+Rp302
+sg31
+(lp303
+sg33
+g26
+((I2016
+I4
+I9
+I0
+I33
+I25
+I5
+I100
+I1
+tp304
+(dp305
+tp306
+Rp307
+sbsa(dp308
+g14
+I00
+sg15
+(lp309
+F20.0
+aF189.0
+asg17
+(itiddlywiki
+Tiddler
+p310
+(dp311
+g21
+V#noelle_approval, -5#\u000a%1, <noelle>, <center>, <frown>%\u000aNOELLE: Yes. <i>Easier.</i> Of course.\u000a\u000a%1, <noelle>, <center>, <smile>%\u000aNOELLE: Excuse me, sire, but I'd prefer we didn't discuss this any further. Could we move on to another topic?\u000a\u000a[[Of course. Where are you from?|Where are you from?]]\u000a[[I'd like to know more about this, actually.]]
+p312
+sg23
+VI suppose it must be easier that way.
+p313
+sg25
+g26
+((I2016
+I4
+I9
+I1
+I1
+I53
+I5
+I100
+I1
+tp314
+(dp315
+tp316
+Rp317
+sg31
+(lp318
+sg33
+g26
+((I2016
+I4
+I9
+I0
+I33
+I25
+I5
+I100
+I1
+tp319
+(dp320
+tp321
+Rp322
+sbsa(dp323
+g14
+I00
+sg15
+(lp324
+F160.0
+aF330.0
+asg17
+(itiddlywiki
+Tiddler
+p325
+(dp326
+g21
+V#noelle_approval, -5#\u000aNOELLE: ...Of course, your <i>highness</i>. I am at your disposal as always. We can discuss whatever you wish.\u000a\u000a[[Are you really happy with the way your father's raised you?]]\u000a[[How did your mother die?]]\u000a[[I know what it's like to lose your parents.]]
+p327
+sg23
+VI'd like to know more about this, actually.
+p328
+sg25
+g26
+((I2016
+I4
+I9
+I1
+I19
+I38
+I5
+I100
+I1
+tp329
+(dp330
+tp331
+Rp332
+sg31
+(lp333
+sg33
+g26
+((I2016
+I4
+I9
+I0
+I58
+I21
+I5
+I100
+I1
+tp334
+(dp335
+tp336
+Rp337
+sbsa(dp338
+g14
+I00
+sg15
+(lp339
+F300.0
+aF473.0
+asg17
+(itiddlywiki
+Tiddler
+p340
+(dp341
+g21
+V#noelle_approval, +10#\u000a%1, <noelle>, <center>, <scared>%\u000aNOELLE: O-oh. Forgive me, sire, I had no idea.\u000a\u000a%1, <noelle>, <center>, <neutral>%\u000aNOELLE: Please, could we discuss something else now?\u000a\u000a[[Where are you from?]]\u000a[[Actually, I have to go.]]
+p342
+sg23
+VI know what it's like to lose your parents.
+p343
+sg25
+g26
+((I2016
+I4
+I9
+I16
+I52
+I50
+I5
+I100
+I1
+tp344
+(dp345
+tp346
+Rp347
+sg31
+(lp348
+sg33
+g26
+((I2016
+I4
+I9
+I1
+I12
+I36
+I5
+I100
+I1
+tp349
+(dp350
+tp351
+Rp352
+sbsa(dp353
+g14
+I00
+sg15
+(lp354
+F160.0
+aF473.0
+asg17
+(itiddlywiki
+Tiddler
+p355
+(dp356
+g21
+V#noelle_approval, -10#\u000a%1, <noelle>, <center>, <angry>%\u000aNOELLE: How <i>dare</i> you. \u000a\u000aNOELLE: We've barely met, and you find it appropriate to ask me such a question?!\u000a\u000aNOELLE: Either ask me something else, or leave.\u000a\u000a[[Where are you from?]]\u000a[[I'll be leaving, then.]]
+p357
+sg23
+VHow did your mother die?
+p358
+sg25
+g26
+((I2016
+I4
+I9
+I1
+I18
+I21
+I5
+I100
+I1
+tp359
+(dp360
+tp361
+Rp362
+sg31
+(lp363
+sg33
+g26
+((I2016
+I4
+I9
+I1
+I12
+I36
+I5
+I100
+I1
+tp364
+(dp365
+tp366
+Rp367
+sbsa(dp368
+g14
+I00
+sg15
+(lp369
+F20.0
+aF473.0
+asg17
+(itiddlywiki
+Tiddler
+p370
+(dp371
+g21
+V#noelle_approval, -5#\u000a%1, <noelle>, <center>, <frown>%\u000aNOELLE: I don't really think it's appropriate to ask me such a leading question when we've only just met.\u000a\u000aNOELLE: I won't be talking about this any more.\u000a\u000a[[Very well. Where are you from?|Where are you from?]]\u000a[[I'll be leaving, then.]]\u000a
+p372
+sg23
+VAre you really happy with the way your father's raised you?
+p373
+sg25
+g26
+((I2016
+I4
+I9
+I1
+I22
+I8
+I5
+I100
+I1
+tp374
+(dp375
+tp376
+Rp377
+sg31
+(lp378
+sg33
+g26
+((I2016
+I4
+I9
+I1
+I12
+I36
+I5
+I100
+I1
+tp379
+(dp380
+tp381
+Rp382
+sbsa(dp383
+g14
+I00
+sg15
+(lp384
+F190.0
+aF616.0
+asg17
+(itiddlywiki
+Tiddler
+p385
+(dp386
+g21
+VNOELLE: Very well. Goodbye for now.
+p387
+sg23
+VActually, I have to go.
+p388
+sg25
+g26
+((I2016
+I4
+I9
+I1
+I23
+I28
+I5
+I100
+I1
+tp389
+(dp390
+tp391
+Rp392
+sg31
+(lp393
+sg33
+g26
+((I2016
+I4
+I9
+I1
+I15
+I29
+I5
+I100
+I1
+tp394
+(dp395
+tp396
+Rp397
+sbsa(dp398
+g14
+I00
+sg15
+(lp399
+F48.0
+aF616.0
+asg17
+(itiddlywiki
+Tiddler
+p400
+(dp401
+g21
+VNOELLE: Yes, I think that's for the best. We can both...clear our heads before speaking again.\u000a\u000aNOELLE: Goodbye for now.
+p402
+sg23
+VI'll be leaving, then.
+p403
+sg25
+g26
+((I2016
+I4
+I9
+I1
+I23
+I17
+I5
+I100
+I1
+tp404
+(dp405
+tp406
+Rp407
+sg31
+(lp408
+sg33
+g26
+((I2016
+I4
+I9
+I1
+I18
+I23
+I5
+I100
+I1
+tp409
+(dp410
+tp411
+Rp412
+sbsa(dp413
+g14
+I00
+sg15
+(lp414
+F801.0
+aF476.0
+asg17
+(itiddlywiki
+Tiddler
+p415
+(dp416
+g21
+V%1, <noelle>, <center>, <frown>%\u000aNOELLE: I didn't mean it like that, sire. It was just a--a figure of speech. \u000a\u000a%1, <noelle>, <center>, <neutral>%\u000aNOELLE: I just meant that it's nice to blend into crowds, and not be noticed by anyone. To just be one more face in a crowd.\u000a\u000a[[That does sound nice.]]\u000a[[Why would you want to be one of many when you could stand out?]]\u000a[[I wouldn't know what that's like.]]
+p417
+sg23
+VWhy would you want to get lost?
+p418
+sg25
+g26
+((I2016
+I4
+I10
+I1
+I2
+I42
+I6
+I101
+I1
+tp419
+(dp420
+tp421
+Rp422
+sg31
+(lp423
+sg33
+g26
+((I2016
+I4
+I9
+I1
+I31
+I50
+I5
+I100
+I1
+tp424
+(dp425
+tp426
+Rp427
+sbsa(dp428
+g14
+I00
+sg15
+(lp429
+F661.0
+aF476.0
+asg17
+(itiddlywiki
+Tiddler
+p430
+(dp431
+g21
+V%1, <noelle>, <center>, <neutral>%\u000aNOELLE: When I was a child, we lived in Nimes, further east. It's a marger larger town--a city, really. I was very young, so I have very few memories of our time there.\u000a\u000aNOELLE: Will there be anything else, sire?\u000a\u000a[[Let's talk about something else.|Very well. Let's talk about something else.]]\u000a[[Actually, I have to leave.]]
+p432
+sg23
+VHave you always lived there?
+p433
+sg25
+g26
+((I2016
+I4
+I9
+I18
+I1
+I24
+I5
+I100
+I1
+tp434
+(dp435
+tp436
+Rp437
+sg31
+(lp438
+sg33
+g26
+((I2016
+I4
+I9
+I1
+I31
+I50
+I5
+I100
+I1
+tp439
+(dp440
+tp441
+Rp442
+sbsa(dp443
+g14
+I00
+sg15
+(lp444
+F521.0
+aF476.0
+asg17
+(itiddlywiki
+Tiddler
+p445
+(dp446
+g21
+V%1, <noelle>, <center>, <neutral>%\u000aNOELLE: ...\u000a\u000aNOELLE: Yes. Sometimes.\u000a\u000aNOELLE: Sometimes, I imagine myself somewhere completely different, surrounded by people who know nothing about me.\u000a\u000a%1, <noelle>, <center>, <smile>%\u000aNOELLE: ...But I suppose everyone must have dreams like that. Besides, my life is good enough as it is. I want for very little.\u000a\u000a[['Very little' is still something. What is it you want?]]\u000a[[I have the same dream. Every day.]]\u000a[[It must be nice, to live so comfortably.]]
+p447
+sg23
+VHave you ever wanted to live anywhere else?
+p448
+sg25
+g26
+((I2016
+I4
+I9
+I1
+I41
+I46
+I5
+I100
+I1
+tp449
+(dp450
+tp451
+Rp452
+sg31
+(lp453
+sg33
+g26
+((I2016
+I4
+I9
+I1
+I31
+I50
+I5
+I100
+I1
+tp454
+(dp455
+tp456
+Rp457
+sbsa(dp458
+g14
+I00
+sg15
+(lp459
+F352.5
+aF620.0
+asg17
+(itiddlywiki
+Tiddler
+p460
+(dp461
+g21
+V#noelle_approval, +5#\u000a%1, <noelle>, <center>, <scared>%\u000aNOELLE: I...suppose you must.\u000a\u000aNOELLE: Please, can we talk about something else? This topic is a bit too maudlin for my taste.\u000a\u000a[[Very well. Let's talk about something else.]]\u000a[[Actually, I have to leave.]]
+p462
+sg23
+VI have the same dream. Every day.
+p463
+sg25
+g26
+((I2016
+I4
+I9
+I17
+I7
+I57
+I5
+I100
+I1
+tp464
+(dp465
+tp466
+Rp467
+sg31
+(lp468
+sg33
+g26
+((I2016
+I4
+I9
+I1
+I41
+I49
+I5
+I100
+I1
+tp469
+(dp470
+tp471
+Rp472
+sbsa(dp473
+g14
+I00
+sg15
+(lp474
+F491.5
+aF619.0
+asg17
+(itiddlywiki
+Tiddler
+p475
+(dp476
+g21
+V#noelle_approval, -5#\u000a%1, <noelle>, <center>, <smile>%\u000aNOELLE: Yes. Of course. Not that your highness would know anything about that, living in an enormous castle as a prince.\u000a\u000a[[You have a point.]]\u000a[[I don't think it's the same at all. You aren't a monster.]]
+p477
+sg23
+VIt must be nice, to live so comfortably.
+p478
+sg25
+g26
+((I2016
+I4
+I9
+I17
+I12
+I5
+I5
+I100
+I1
+tp479
+(dp480
+tp481
+Rp482
+sg31
+(lp483
+sg33
+g26
+((I2016
+I4
+I9
+I1
+I41
+I49
+I5
+I100
+I1
+tp484
+(dp485
+tp486
+Rp487
+sbsa(dp488
+g14
+I00
+sg15
+(lp489
+F631.5
+aF619.0
+asg17
+(itiddlywiki
+Tiddler
+p490
+(dp491
+g21
+V%1, <noelle>, <center>, <frown>%\u000aNOELLE: ...I don't know. To be someone else, I suppose.\u000a\u000a%1, <noelle>, <center>, <smile>%\u000aNOELLE: But this is just the silly wish of a sheltered little girl. Don't mind me, sire.\u000a\u000a[[No, please, tell me more.]]\u000a[[I know that feeling very well myself.]]\u000a[[Very well. Let's talk about something else.]]
+p492
+sg23
+V'Very little' is still something. What is it you want?
+p493
+sg25
+g26
+((I2016
+I4
+I9
+I16
+I22
+I39
+I5
+I100
+I1
+tp494
+(dp495
+tp496
+Rp497
+sg31
+(lp498
+sg33
+g26
+((I2016
+I4
+I9
+I1
+I41
+I49
+I5
+I100
+I1
+tp499
+(dp500
+tp501
+Rp502
+sbsa(dp503
+g14
+I00
+sg15
+(lp504
+F844.0
+aF820.0
+asg17
+(itiddlywiki
+Tiddler
+p505
+(dp506
+g21
+V#noelle_approval, +5#\u000a%1, <noelle>, <center>, <neutral>%\u000aNOELLE: Oh. I suppose you would.\u000a\u000a%1, <noelle>, <center>, <smile>%\u000aNOELLE: Could we move on to another subject? I'm starting to feel a bit maudlin.\u000a\u000a[[Very well. Let's talk about something else.]]\u000a[[Actually, I have to leave.]]
+p507
+sg23
+VI know that feeling very well myself.
+p508
+sg25
+g26
+((I2016
+I4
+I10
+I0
+I54
+I13
+I6
+I101
+I1
+tp509
+(dp510
+tp511
+Rp512
+sg31
+(lp513
+sg33
+g26
+((I2016
+I4
+I9
+I16
+I22
+I55
+I5
+I100
+I1
+tp514
+(dp515
+tp516
+Rp517
+sbsa(dp518
+g14
+I00
+sg15
+(lp519
+F704.0
+aF820.0
+asg17
+(itiddlywiki
+Tiddler
+p520
+(dp521
+g21
+V%1, <noelle>, <center>, <smile>%\u000aNOELLE: Of course, sire. What would you like to talk about?\u000a\u000a[[One of the other women in the castle.]]\u000a[[%noelle_approval,-30,0%How are you enjoying your stay here?]]\u000a[[%noelle_approval,0,10%How are you enjoying your stay here?]]\u000a[[%noelle_approval,10,50%How are you enjoying your stay here?]]\u000a[[%noelle_approval,50,70%How are you enjoying your stay here?]]\u000a[[Let's talk about you.]]
+p522
+sg23
+VVery well. Let's talk about something else.
+p523
+sg25
+g26
+((I2016
+I4
+I10
+I0
+I54
+I59
+I6
+I101
+I1
+tp524
+(dp525
+tp526
+Rp527
+sg31
+(lp528
+sg33
+g26
+((I2016
+I4
+I9
+I16
+I22
+I55
+I5
+I100
+I1
+tp529
+(dp530
+tp531
+Rp532
+sbsa(dp533
+g14
+I00
+sg15
+(lp534
+F564.0
+aF820.0
+asg17
+(itiddlywiki
+Tiddler
+p535
+(dp536
+g21
+V#noelle_approval, +5#\u000a%1, <noelle>, <center>, <neutral>%\u000aNOELLE: There isn't much to say, sire. Although it is...<i>nice</i> to be asked.\u000a\u000aNOELLE: Could we talk about something else, now?\u000a\u000a[[Very well. Let's talk about something else.]]\u000a[[Actually, I have to leave.]]
+p537
+sg23
+VNo, please, tell me more.
+p538
+sg25
+g26
+((I2016
+I4
+I10
+I0
+I49
+I24
+I6
+I101
+I1
+tp539
+(dp540
+tp541
+Rp542
+sg31
+(lp543
+sg33
+g26
+((I2016
+I4
+I9
+I16
+I22
+I55
+I5
+I100
+I1
+tp544
+(dp545
+tp546
+Rp547
+sbsa(dp548
+g14
+I00
+sg15
+(lp549
+F281.0
+aF820.0
+asg17
+(itiddlywiki
+Tiddler
+p550
+(dp551
+g21
+V#noelle_approval, +5#\u000a%1, <noelle>, <center>, <frown>%\u000aNOELLE: Hm. Well. I suppose I do.\u000a\u000aNOELLE: Men don't often concede to me. I have to admit, it's refreshing to hear.\u000a\u000a%1, <noelle>, <center>, <frown>%\u000aNOELLE: Could we talk about something else, now? I must admit I think we've exhausted this topic.\u000a\u000a[[Very well. Let's talk about something else.]]\u000a[[Actually, I have to leave.]]
+p552
+sg23
+VYou have a point.
+p553
+sg25
+g26
+((I2016
+I4
+I9
+I17
+I33
+I7
+I5
+I100
+I1
+tp554
+(dp555
+tp556
+Rp557
+sg31
+(lp558
+sg33
+g26
+((I2016
+I4
+I9
+I16
+I29
+I10
+I5
+I100
+I1
+tp559
+(dp560
+tp561
+Rp562
+sbsa(dp563
+g14
+I00
+sg15
+(lp564
+F421.0
+aF820.0
+asg17
+(itiddlywiki
+Tiddler
+p565
+(dp566
+g21
+V#noelle_approval, -5#\u000a%1, <noelle>, <center>, <frown>%\u000aNOELLE: No. No, I suppose I'm not. \u000a\u000aNOELLE: Could we talk about something else now, sire? This subject is a bit too maudlin for my tastes.\u000a\u000a[[Very well. Let's talk about something else.]]\u000a[[Actually, I have to leave.]]
+p567
+sg23
+VI don't think it's the same at all. You aren't a monster.
+p568
+sg25
+g26
+((I2016
+I4
+I10
+I0
+I52
+I51
+I6
+I101
+I1
+tp569
+(dp570
+tp571
+Rp572
+sg31
+(lp573
+sg33
+g26
+((I2016
+I4
+I9
+I16
+I29
+I10
+I5
+I100
+I1
+tp574
+(dp575
+tp576
+Rp577
+sbsa(dp578
+g14
+I00
+sg15
+(lp579
+F130.0
+aF822.0
+asg17
+(itiddlywiki
+Tiddler
+p580
+(dp581
+g21
+V%1, <noelle>, <center>, <smile>%\u000aNOELLE: Of course. I hope you have a pleasant day, sire.
+p582
+sg23
+VActually, I have to leave.
+p583
+sg25
+g26
+((I2016
+I4
+I9
+I17
+I9
+I37
+I5
+I100
+I1
+tp584
+(dp585
+tp586
+Rp587
+sg31
+(lp588
+sg33
+g26
+((I2016
+I4
+I9
+I17
+I8
+I2
+I5
+I100
+I1
+tp589
+(dp590
+tp591
+Rp592
+sbsa(dp593
+g14
+I00
+sg15
+(lp594
+F795.0
+aF617.5
+asg17
+(itiddlywiki
+Tiddler
+p595
+(dp596
+g21
+V#noelle_approval, +5#\u000a%1, <noelle>, <center>, <smile>%\u000aNOELLE: I'm glad you see it that way.\u000a\u000aNOELLE: Is there anything else you'd like to talk about?\u000a\u000a[[Yes, there is.|Very well. Let's talk about something else.]]\u000a[[Actually, I have to leave.]]
+p597
+sg23
+VThat does sound nice.
+p598
+sg25
+g26
+((I2016
+I4
+I10
+I1
+I8
+I17
+I6
+I101
+I1
+tp599
+(dp600
+tp601
+Rp602
+sg31
+(lp603
+sg33
+g26
+((I2016
+I4
+I10
+I1
+I2
+I47
+I6
+I101
+I1
+tp604
+(dp605
+tp606
+Rp607
+sbsa(dp608
+g14
+I00
+sg15
+(lp609
+F934.5
+aF617.5
+asg17
+(itiddlywiki
+Tiddler
+p610
+(dp611
+g21
+V#noelle_approval, -5#\u000a%1, <noelle>, <center>, <smile>%\u000aNOELLE: An <i>excellent</i> question, sire. So astute. I see now that you have the wit of a philosopher.\u000a\u000aNOELLE: Will there be anything else, then?\u000a\u000a[[Yes. I'd like to talk about something else.|Very well. Let's talk about something else.]]\u000a[[Actually, I have to leave.]]
+p612
+sg23
+VWhy would you want to be one of many when you could stand out?
+p613
+sg25
+g26
+((I2016
+I4
+I10
+I1
+I10
+I25
+I6
+I101
+I1
+tp614
+(dp615
+tp616
+Rp617
+sg31
+(lp618
+sg33
+g26
+((I2016
+I4
+I10
+I1
+I2
+I47
+I6
+I101
+I1
+tp619
+(dp620
+tp621
+Rp622
+sbsa(dp623
+g14
+I00
+sg15
+(lp624
+F1074.5
+aF616.25
+asg17
+(itiddlywiki
+Tiddler
+p625
+(dp626
+g21
+V%1, <noelle>, <center>, <scared>%\u000aNOELLE: ...Oh.\u000a\u000aNOELLE: Excuse me, sire. I didn't realize.\u000a\u000a[[It's alright.]]\u000a[[It must be nice to forget how hideous I am.]]
+p627
+sg23
+VI wouldn't know what that's like.
+p628
+sg25
+g26
+((I2016
+I4
+I10
+I1
+I13
+I3
+I6
+I101
+I1
+tp629
+(dp630
+tp631
+Rp632
+sg31
+(lp633
+sg33
+g26
+((I2016
+I4
+I10
+I1
+I2
+I47
+I6
+I101
+I1
+tp634
+(dp635
+tp636
+Rp637
+sbsa(dp638
+g14
+I00
+sg15
+(lp639
+F998.25
+aF758.75
+asg17
+(itiddlywiki
+Tiddler
+p640
+(dp641
+g21
+V#noelle_approval, +5#\u000a%1, <noelle>, <center>, <smile>%\u000aNOELLE: Well. I'm glad I haven't offended you overly much.\u000a\u000aNOELLE: Is there anything else you'd like to talk about?\u000a\u000a[[Yes, there is.|Very well. Let's talk about something else.]]\u000a[[Actually, I have to leave.]]
+p642
+sg23
+VIt's alright.
+p643
+sg25
+g26
+((I2016
+I4
+I10
+I1
+I13
+I49
+I6
+I101
+I1
+tp644
+(dp645
+tp646
+Rp647
+sg31
+(lp648
+sg33
+g26
+((I2016
+I4
+I10
+I1
+I13
+I15
+I6
+I101
+I1
+tp649
+(dp650
+tp651
+Rp652
+sbsa(dp653
+g14
+I00
+sg15
+(lp654
+F1138.25
+aF758.75
+asg17
+(itiddlywiki
+Tiddler
+p655
+(dp656
+g21
+V#noelle_approval, -5#\u000a%1, <noelle>, <center>, <smile>%\u000aNOELLE: Yes. It is.\u000a\u000aNOELLE: Thank you, sire, for so conveniently concealing yourself from the women you might marry.\u000a\u000aNOELLE: Will there be anything else, then?\u000a\u000a[[Yes. I'd like to talk about something else.|Very well. Let's talk about something else.]]\u000a[[Actually, I have to leave.]]
+p657
+sg23
+VIt must be nice to forget how hideous I am.
+p658
+sg25
+g26
+((I2016
+I4
+I10
+I1
+I16
+I45
+I6
+I101
+I1
+tp659
+(dp660
+tp661
+Rp662
+sg31
+(lp663
+sg33
+g26
+((I2016
+I4
+I10
+I1
+I13
+I15
+I6
+I101
+I1
+tp664
+(dp665
+tp666
+Rp667
+sbsasS'scale'
+p668
+F0.8
+sS'snapping'
+p669
+I00
+ss.

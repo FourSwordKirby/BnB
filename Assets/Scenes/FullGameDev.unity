@@ -377,22 +377,14 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 11475490, guid: e10c4fa56eb233444ae4c3247a0c9dec, type: 2}
-      propertyPath: gameManager
-      value: 
-      objectReference: {fileID: 1343823894}
     - target: {fileID: 11462986, guid: e10c4fa56eb233444ae4c3247a0c9dec, type: 2}
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 1343823894}
-    - target: {fileID: 22483674, guid: e10c4fa56eb233444ae4c3247a0c9dec, type: 2}
-      propertyPath: m_AnchoredPosition.x
-      value: 148
-      objectReference: {fileID: 0}
-    - target: {fileID: 22483674, guid: e10c4fa56eb233444ae4c3247a0c9dec, type: 2}
-      propertyPath: m_SizeDelta.x
-      value: 884
-      objectReference: {fileID: 0}
+    - target: {fileID: 11475490, guid: e10c4fa56eb233444ae4c3247a0c9dec, type: 2}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 1343823894}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e10c4fa56eb233444ae4c3247a0c9dec, type: 2}
   m_IsPrefabParent: 0
@@ -712,7 +704,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1235006028}
-  m_RootOrder: 1
+  m_RootOrder: 2
 --- !u!114 &867184827
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1256,6 +1248,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 656819651}
+  - {fileID: 1806006672}
   - {fileID: 867184826}
   m_Father: {fileID: 1343823893}
   m_RootOrder: 1
@@ -1275,7 +1268,7 @@ MonoBehaviour:
   dining: {fileID: 0}
   remainingConvoPts: 0
   gameManager: {fileID: 1343823894}
-  morningBeauStory: {fileID: 656819652}
+  morningBeauStory: {fileID: 1806006673}
   NoelleStory: {fileID: 867184827}
 --- !u!114 &1265463713 stripped
 MonoBehaviour:
@@ -1643,7 +1636,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1632717645
 Transform:
   m_ObjectHideFlags: 0
@@ -1760,6 +1753,48 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d456c70dbf4922a498a7a4e99ec02b1c, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1806006671
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1806006672}
+  - 114: {fileID: 1806006673}
+  m_Layer: 0
+  m_Name: MainStoryUncut
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1806006672
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1806006671}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -147.1042, y: -52.454964, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1235006028}
+  m_RootOrder: 1
+--- !u!114 &1806006673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1806006671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abd616c30f23c450b92f0f7ab3f32658, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoPlay: 0
+  StartPassage: Start
+  AdditionalHooks: []
 --- !u!1001 &1887812361
 Prefab:
   m_ObjectHideFlags: 0

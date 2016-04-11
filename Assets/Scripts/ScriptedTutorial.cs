@@ -105,6 +105,7 @@ public class ScriptedTutorial : MonoBehaviour {
         else if (tutorialCompleted && GameManager.loveInterestControls.gameObject.activeSelf == true)
         {
             GameManager.StartDay();
+            Destroy(this.gameObject);
         }
 
         previousRoom = GameManager.currentRoom;

@@ -99,6 +99,7 @@ public class DialogController : MonoBehaviour
 		if (!Int32.TryParse(instrList[0].Substring(1), out numCharacters)) {
 			// TODO: Handle error somehow
 			Debug.Log("ERROR! Malformed input!");
+            return;
 		}
 
 		//Debug.Log ("Number characters for this scene: " + numCharacters);
@@ -133,7 +134,7 @@ public class DialogController : MonoBehaviour
 
         restrictionVar += variableChange;
 
-        twineParser.SetVariable(instrList[0], restrictionVar);
+        twineParser.ApplyVariable(instrList[0], restrictionVar);
     }
 
 	private List<string> FilterValidOptions(List<UnityTwine.TwineLink> options) {
@@ -193,7 +194,7 @@ public class DialogController : MonoBehaviour
         //Debug.Log("You chose " + currentStory.Links[option].Text);
 
         AudioSource.PlayClipAtPoint(clickSound, Vector3.zero);
-		currentStory.Advance (currentStory.Links[twineOptionNum ]);
+		currentStory.Advance (currentStory.Links[twineOptionNum]);
     }
 
 	void Story_OnStateChanged(TwineStoryState state) {

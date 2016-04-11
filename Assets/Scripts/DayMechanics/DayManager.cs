@@ -19,6 +19,7 @@ public class DayManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+        BeginDay();
 	}
 
 

@@ -35,12 +35,12 @@ BEAUREGARD: Is there anything else you'd like to talk about?
 
 
 :: Start
+%1, <beau>, <center>, <smile>%
 BEAUREGARD: Good morning, sire!
 
 BEAUREGARD: Is there anything you require of me this morning?
 
 [[I'd like to ask about one of the women in the castle.|women]]
-%if item=known%[[There's something I'd like you to get for me.]]
 [[No, thank you Beauregard. You're free to go.]]
 
 
@@ -81,6 +81,7 @@ BEAUREGARD: Is there anything else you'd like to talk about?
 
 
 :: women
+%1, <beau>, <center>, <smile>%
 BEAUREGARD: Of course, sire. Who is it you'd like to talk about?
 
 [[%noelle_approval,0,10%Noelle.|n1]]
@@ -151,10 +152,10 @@ BEAUREGARD: Is there anything else you'd like to talk about?
 
 
 :: No.
+%1, <beau>, <center>, <smile>%
 BEAUREGARD: Very well, sire. Is there anything else I can help with?
 
 [[I'd like to ask about one of the women in the castle.|women]]
-%if item=known%[[There's something I'd like you to get for me.]]
 [[No, thank you Beauregard. You're free to go.]]
 
 
@@ -204,6 +205,7 @@ BEAUREGARD: Is there anyone else you'd like to talk about?
 
 
 :: h2
+%1, <beau>, <center>, <neutral>%
 BEAUREGARD: The, erm...<i>lady</i> Henrietta seems to be warming up to you. I'm not sure how, or why, but...keep it up, I suppose?
 
 BEAUREGARD: Is there anyone else you'd like to talk about?
@@ -222,6 +224,7 @@ BEAUREGARD: Is there anyone else you'd like to talk about?
 
 
 :: h3
+%1, <beau>, <center>, <frown>%
 BEAUREGARD: I...I'm confused, sire. I don't understand this...<i>thing</i> between you and the, erm, lady Henrietta, but if this is what makes you happy...Well, I suppose the heart wants what the heart wants.
 
 BEAUREGARD: Is there anyone else you'd like to talk about?
