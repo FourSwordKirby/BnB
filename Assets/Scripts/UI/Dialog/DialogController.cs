@@ -173,28 +173,6 @@ public class DialogController : MonoBehaviour
 			//Debug.Log("Displaying option " + i + ": " + currentStory.Links[i].Text);
 			dialogUI.displayOption (optionsToDisplay[i], i);
 		}
-//
-//		for (int i = 0; i < currentStory.Links.Count; i++)
-//        {
-//				string optionText = currentStory.Links [i].Text;
-//			if (!twineParser.HasRestriction (optionText) || twineParser.PassesRestriction (optionText)) {
-//				dialogUI.enableOption (i);
-//				//Debug.Log("Displaying option " + i + ": " + currentStory.Links[i].Text);
-//				dialogUI.displayOption (optionText, i);
-//
-//				 
-//					if (twineParser.PassesRestriction (optionText)) {
-//						optionText = twineParser.TrimRestriction (optionText);
-//					}
-//				} else {
-//					dialogUI.enableOption (i);
-//					//Debug.Log("Displaying option " + i + ": " + currentStory.Links[i].Text);
-//					dialogUI.displayOption (currentStory.Links [i].Text, i);
-//				}
-//           
-//            else
-//                dialogUI.disableOption(i);
-//        }
     }
 
 	private void HideOptions()
