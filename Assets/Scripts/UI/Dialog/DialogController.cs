@@ -79,7 +79,6 @@ public class DialogController : MonoBehaviour
             {
                 dialog = line;
             }
-
             dialogUI.displayDialog(speakerName, dialog);
             currentLine++;
         }
@@ -168,7 +167,6 @@ public class DialogController : MonoBehaviour
 		Debug.Log ("Num of valid options=" + optionsToDisplay.Count); 
 
 		for (int i = 0; i < optionsToDisplay.Count; i++) {
-			Debug.Log ("An option to display: " + optionsToDisplay [i]);
 			dialogUI.enableOption (i);
 			//Debug.Log("Displaying option " + i + ": " + currentStory.Links[i].Text);
 			dialogUI.displayOption (optionsToDisplay[i], i);
@@ -215,11 +213,10 @@ public class DialogController : MonoBehaviour
 	void Story_OnOutput(TwineOutput output) {
 
 		if (output is TwineText) {
-			Debug.Log ("Text: " + output.Text);
-			
 			var text = (TwineText)output;
 			if (IgnoreEmptyLines && text.Text.Trim ().Length < 1)
 				return;
+            Debug.Log(text.Text);
 			lines.Add (text.Text);
 		}
 	}
@@ -249,6 +246,9 @@ public class DialogController : MonoBehaviour
     {
         //Used to ensure we don't screw up and throw an error going to a previous story
         currentStory.Reset();
+        
+        lines.Clear();
+        currentLine = 0;
 
         HideOptions();
         dialogUI.clearLoveInterests();

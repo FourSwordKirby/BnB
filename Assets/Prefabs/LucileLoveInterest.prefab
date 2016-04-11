@@ -167,8 +167,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   designation: 2
   currentStory: {fileID: 0}
+  mainStory: {fileID: 0}
   DinnerStory: {fileID: 0}
   approvalRaiting: 0
+  canGetGift: 0
   loveInterestSprites:
   - {fileID: 21300000, guid: b4a7d6038f22f6743a74d2416e35bd70, type: 3}
   - {fileID: 21300000, guid: eba58a618f838104c97d29aebdb2c260, type: 3}

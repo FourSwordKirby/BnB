@@ -134,8 +134,10 @@ namespace UnityTwine
 				HooksInvoke(HooksFind("Exit", reverse: true));
 			}
 
-			if (this.State != TwineStoryState.Paused)
-				Enter(passageName);
+            if (this.State != TwineStoryState.Paused)
+            {
+                Enter(passageName);
+            }
 		}
 
 		void Enter(string passageName)

@@ -99,15 +99,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   designation: 5
   currentStory: {fileID: 0}
+  mainStory: {fileID: 0}
   DinnerStory: {fileID: 0}
   approvalRaiting: 0
+  canGetGift: 0
   loveInterestSprites:
-  - {fileID: 21300000, guid: a362f8205856e48acb3e3ab18f2faeda, type: 3}
-  - {fileID: 21300000, guid: 3c735b0439a36d84fae5142787de6cfd, type: 3}
-  - {fileID: 21300000, guid: a9e3aca81fc67244d97a22f104c02825, type: 3}
-  - {fileID: 21300000, guid: 544f4360ab1d0cf4aaab7e5cedb85958, type: 3}
-  - {fileID: 21300000, guid: cf5dc2e6a8996de4c95a00390e9d5ace, type: 3}
-  - {fileID: 21300000, guid: cf5dc2e6a8996de4c95a00390e9d5ace, type: 3}
+  - {fileID: 21300000, guid: 7a21329a797da41979a11c85bb50020c, type: 3}
+  - {fileID: 21300000, guid: c03a644035f254b48b14d4b54ad0bc47, type: 3}
+  - {fileID: 21300000, guid: d19c4cc9b9f0d4cd1afca5685b72d9b0, type: 3}
+  - {fileID: 21300000, guid: b479bbacbce7840e9820065a9e0d6552, type: 3}
+  - {fileID: 21300000, guid: 9f2530b7c555c4b839ed4774872e967f, type: 3}
+  - {fileID: 21300000, guid: 9f2530b7c555c4b839ed4774872e967f, type: 3}
 --- !u!114 &11416762
 MonoBehaviour:
   m_ObjectHideFlags: 1

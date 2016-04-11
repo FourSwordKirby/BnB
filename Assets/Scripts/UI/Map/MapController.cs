@@ -5,6 +5,7 @@ using System.Collections.Generic;
 
 public class MapController : MonoBehaviour {
     public Mansion mansion;
+    public Button activationButton;
     public List<RoomDisplay> roomDisplays;
 
     public AudioClip doorClose;
@@ -22,6 +23,15 @@ public class MapController : MonoBehaviour {
         mapDisplay.gameObject.SetActive(false);
     }
 
+    public void disableControls()
+    {
+        activationButton.interactable = false;
+    }
+    public void enableControls()
+    {
+        activationButton.interactable = true;
+    }
+
     public void displayControls()
     {
         this.gameObject.SetActive(true);
@@ -32,7 +42,6 @@ public class MapController : MonoBehaviour {
     }
 
 	public void RoomClicked(Room room) {
-        Debug.Log(room);
 		if (room.unlocked) {
 			GameManager.LoadRoom (room);
 			hideMap();

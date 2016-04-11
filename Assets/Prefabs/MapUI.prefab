@@ -16,7 +16,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &108660
 GameObject:
   m_ObjectHideFlags: 1
@@ -369,6 +369,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mansion: {fileID: 0}
+  activationButton: {fileID: 11495826}
   roomDisplays: []
   doorClose: {fileID: 0}
   bigDoorClose: {fileID: 0}
@@ -1292,7 +1293,7 @@ RectTransform:
   m_Children:
   - {fileID: 22435288}
   m_Father: {fileID: 22490854}
-  m_RootOrder: 6
+  m_RootOrder: 8
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 288.5, y: 157.65002}
@@ -1326,7 +1327,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 22490854}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: -214, y: -106}
@@ -1360,7 +1361,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 22490854}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -144, y: -22}
@@ -1503,9 +1504,9 @@ RectTransform:
   - {fileID: 22488032}
   - {fileID: 22481330}
   - {fileID: 22481156}
-  - {fileID: 22401692}
   - {fileID: 22420514}
   - {fileID: 22444008}
+  - {fileID: 22401692}
   m_Father: {fileID: 22449396}
   m_RootOrder: 1
   m_AnchorMin: {x: 0, y: 0.5}

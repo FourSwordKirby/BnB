@@ -94,6 +94,7 @@ public class DialogUI : MonoBehaviour
     public void clearDialogBox()
     {
         dialogBox.displayDialog("", "");
+        dialogBox.dialogCompleted = true;
         advanceIcon.Hide();
     }
 

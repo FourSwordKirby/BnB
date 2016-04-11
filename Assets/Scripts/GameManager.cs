@@ -7,7 +7,7 @@ using System.Collections.Generic;
 public class GameManager : MonoBehaviour {
 
     public List<LoveInterest> loveInterests;
-    public Mansion mansion;
+    public static Mansion mansion;
 
     public static int currentDay;
     public static Room currentRoom;
@@ -52,6 +52,8 @@ public class GameManager : MonoBehaviour {
     public void Awake()
     {
         //loveInterests = new List<LoveInterest>(GameObject.FindObjectsOfType<LoveInterest>());
+        mansion = GameObject.FindObjectOfType<Mansion>();
+
         dialogControls = GameObject.FindObjectOfType<DialogController>();
         mapControls = GameObject.FindObjectOfType<MapController>();
         backgroundControls = GameObject.FindObjectOfType<BackgroundController>();
@@ -112,6 +114,11 @@ public class GameManager : MonoBehaviour {
 
 	public static void StartDay()
 	{
+        foreach (Room room in mansion.Rooms)
+        {
+            room.inhabitants = new List<LoveInterest>();
+        }
+
 		dayControls.BeginDay ();
 	}
 }

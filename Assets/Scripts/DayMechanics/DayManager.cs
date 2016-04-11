@@ -3,22 +3,22 @@ using System.Collections;
 using UnityTwine;
 
 public class DayManager : MonoBehaviour {
-	private DialogController dialogController;
-
 	public Room bedroom;
+    public Room library;
 	public Room dining;
 
 	public int remainingConvoPts;
 	private int dayNumber;
 
+    public GameManager gameManager;
 	public TwineStory morningBeauStory;
 
+    //Hardcoded in noelle story
+    public TwineStory NoelleStory;
 
 
 	// Use this for initialization
 	void Start () {
-		dialogController = FindObjectOfType<DialogController> ();
-	
 	}
 
 
@@ -45,6 +45,10 @@ public class DayManager : MonoBehaviour {
 	 */
 
 	public void BeginDay() {
+        //Currently hardcoding the fact that noelle appears in a room with the appropriate story
+        library.inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.Noelle));
+        gameManager.getLoveInterest(GameManager.LoveInterestName.Noelle).currentStory = NoelleStory;
+
 
 		/* Housekeeping for keeping track of info */
 		remainingConvoPts = 2;
@@ -52,7 +56,7 @@ public class DayManager : MonoBehaviour {
 		GameManager.LoadRoom (bedroom);
 
 		// TODO: Have day-starting convo with beau
-		dialogController.StartConversation (morningBeauStory);
+		GameManager.StartConversation (morningBeauStory);
 
 	}
 
