@@ -7,6 +7,7 @@ using System.Collections.Generic;
 public class GameManager : MonoBehaviour {
 
     public List<LoveInterest> loveInterests;
+
     public static Mansion mansion;
 
     public static int currentDay;
@@ -14,6 +15,7 @@ public class GameManager : MonoBehaviour {
 	public static int giftAvailable;
 
 
+    public static AudioManager audioManager;
     public static DialogController dialogControls;
     public static MapController mapControls;
     public static BackgroundController backgroundControls;
@@ -54,6 +56,7 @@ public class GameManager : MonoBehaviour {
         //loveInterests = new List<LoveInterest>(GameObject.FindObjectsOfType<LoveInterest>());
         mansion = GameObject.FindObjectOfType<Mansion>();
 
+        audioManager = GameObject.FindObjectOfType<AudioManager>();
         dialogControls = GameObject.FindObjectOfType<DialogController>();
         mapControls = GameObject.FindObjectOfType<MapController>();
         backgroundControls = GameObject.FindObjectOfType<BackgroundController>();

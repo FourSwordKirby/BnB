@@ -16,10 +16,12 @@ public class DayManager : MonoBehaviour {
     //Hardcoded in noelle story
     public TwineStory NoelleStory;
 
+    public bool newDay;
 
 	// Use this for initialization
 	void Start () {
-        BeginDay();
+        if(newDay)
+            BeginDay();
 	}
 
 

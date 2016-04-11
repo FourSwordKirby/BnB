@@ -113,7 +113,20 @@ public class DialogController : MonoBehaviour
 			DialogUI.ImagePositon position = twineParser.ParsePos(twineParser.TrimTag(instrList [3 * i + 2]));
 			LoveInterest.Emotion emotion = twineParser.ParseEmotion(twineParser.TrimTag(instrList [3 * i + 3]));
 
-
+            //HARDCODED TO PLAY SOUNDS]
+            if (name == GameManager.LoveInterestName.Beauregard)
+            {
+                if (emotion == LoveInterest.Emotion.Flattered)
+                {
+                    Debug.Log("sound?");
+                    GameManager.audioManager.play("BeauFlirt");
+                }
+                if (emotion == LoveInterest.Emotion.Angry)
+                {
+                    Debug.Log("sound?");
+                    GameManager.audioManager.play("BeauAngry");
+                }
+            }
 
             dialogUI.displayLoveInterest(gameManager.getLoveInterest(name), emotion, position);
 		}
@@ -143,7 +156,7 @@ public class DialogController : MonoBehaviour
 
 		for (int i = 0; i < options.Count; i++) {
 			string optionText = options[i].Text;
-			Debug.Log ("Checking validity of option: " + optionText);
+			//Debug.Log ("Checking validity of option: " + optionText);
 			if (twineParser.HasRestriction (optionText)) {
 				if (twineParser.PassesRestriction (optionText)) {
 					validOptions.Add (twineParser.TrimRestriction (optionText));
@@ -165,7 +178,7 @@ public class DialogController : MonoBehaviour
 		if (optionsToDisplay.Count > numMaxOptions)
 			Debug.Log ("ERROR: Cannot display all options");
 
-		Debug.Log ("Num of valid options=" + optionsToDisplay.Count); 
+		//Debug.Log ("Num of valid options=" + optionsToDisplay.Count); 
 
 		for (int i = 0; i < optionsToDisplay.Count; i++) {
 			dialogUI.enableOption (i);
