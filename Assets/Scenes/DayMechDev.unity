@@ -322,11 +322,11 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 11462986, guid: e10c4fa56eb233444ae4c3247a0c9dec, type: 2}
+    - target: {fileID: 11475490, guid: e10c4fa56eb233444ae4c3247a0c9dec, type: 2}
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 1343823894}
-    - target: {fileID: 11475490, guid: e10c4fa56eb233444ae4c3247a0c9dec, type: 2}
+    - target: {fileID: 11462986, guid: e10c4fa56eb233444ae4c3247a0c9dec, type: 2}
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 1343823894}

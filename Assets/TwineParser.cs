@@ -41,25 +41,6 @@ public class TwineParser : MonoBehaviour {
 		string name = varString.Split('_')[0];
 		string value = varString.Split('_')[1];
 
-//		switch (varString) {
-//		case "lucy_approval":
-//			return gameManager.getLoveInterest (Lu).approvalRaiting;
-//		case "noelle_approval":
-//			return gameManager.getLoveInterest ("noelle").approvalRaiting;
-//		case "beau_approval":
-//			return gameManager.getLoveInterest ("beau").approvalRaiting;
-//		case "hen_approval":
-//			return gameManager.getLoveInterest ("hen").approvalRaiting;
-//		case "john_approval":
-//			return gameManager.getLoveInterest ("john").approvalRaiting;
-//		case "pat_approval":
-//			return gameManager.getLoveInterest ("pat").approvalRaiting;
-//
-//		default:
-//			Debug.Log ("ERROR: Not a valid Twine variable: " + varString);
-//
-//		}
-
 		if (value == "approval")
 		{
 			LoveInterest loveInterest = gameManager.getLoveInterest(ParseName(name));

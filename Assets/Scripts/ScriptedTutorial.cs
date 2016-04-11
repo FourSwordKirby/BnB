@@ -7,7 +7,7 @@ using UnityTwine;
 public class ScriptedTutorial : MonoBehaviour {
 
     public GameManager gameManager;
-
+	public DayManager dayManager;
 
 	public Room bedroom;
     public Room parlor;
