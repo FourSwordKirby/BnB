@@ -216,7 +216,6 @@ public class DialogController : MonoBehaviour
 			var text = (TwineText)output;
 			if (IgnoreEmptyLines && text.Text.Trim ().Length < 1)
 				return;
-            Debug.Log(text.Text);
 			lines.Add (text.Text);
 		}
 	}
@@ -246,7 +245,10 @@ public class DialogController : MonoBehaviour
     {
         //Used to ensure we don't screw up and throw an error going to a previous story
         currentStory.Reset();
-        
+        currentStory.OnOutput -= Story_OnOutput;
+        currentStory.OnStateChanged -= Story_OnStateChanged;
+
+
         lines.Clear();
         currentLine = 0;
 
