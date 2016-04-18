@@ -1977,7 +1977,7 @@ Prefab:
     - target: {fileID: 11423784, guid: f14574a473c2a2947879155cdd5862ab, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 1109174144}
+      objectReference: {fileID: 1723142992}
     - target: {fileID: 11411246, guid: f14574a473c2a2947879155cdd5862ab, type: 2}
       propertyPath: room
       value: 
@@ -2266,11 +2266,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 11452024, guid: c7b9a94ddc8f45d43bf6fce2e3b48c60, type: 2}
-      propertyPath: background
-      value: 
-      objectReference: {fileID: 21300000, guid: 85a849322ab75a44bab0f468c73058ca,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c7b9a94ddc8f45d43bf6fce2e3b48c60, type: 2}
   m_IsPrefabParent: 0
