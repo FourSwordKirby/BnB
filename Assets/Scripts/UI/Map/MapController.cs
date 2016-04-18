@@ -14,6 +14,22 @@ public class MapController : MonoBehaviour {
 
     public Image mapDisplay;
 
+    void Update()
+    {
+        foreach (Room room in mansion.Rooms)
+        {
+            for(int i = 0; i < room.inhabitants.Count;i++)
+            {
+                LoveInterest suitor = room.inhabitants[i];
+                roomDisplays[(int)room.roomName].SuitorIcons[i].sprite = suitor.loveInterestIcon;
+            }
+            for (int i = room.inhabitants.Count; i < roomDisplays[(int)room.roomName].SuitorIcons.Count; i++)
+            {
+                roomDisplays[(int)room.roomName].SuitorIcons[i].gameObject.SetActive(false);
+            }
+        }
+    }
+
     public void displayMap()
     {
         mapDisplay.gameObject.SetActive(true);

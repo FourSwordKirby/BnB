@@ -110,6 +110,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: b479bbacbce7840e9820065a9e0d6552, type: 3}
   - {fileID: 21300000, guid: 9f2530b7c555c4b839ed4774872e967f, type: 3}
   - {fileID: 21300000, guid: 9f2530b7c555c4b839ed4774872e967f, type: 3}
+  loveInterestIcon: {fileID: 21300000, guid: b479bbacbce7840e9820065a9e0d6552, type: 3}
 --- !u!114 &11416762
 MonoBehaviour:
   m_ObjectHideFlags: 1

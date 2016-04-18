@@ -274,6 +274,7 @@ MonoBehaviour:
   inhabitants: []
   background: {fileID: 21300000, guid: 9d39865eb5ba46048bf4409e4ac72dcf, type: 3}
   unlocked: 1
+  roomName: 7
 --- !u!114 &11430658
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -288,6 +289,7 @@ MonoBehaviour:
   inhabitants: []
   background: {fileID: 21300000, guid: 6462915b94c442140b8a761d12ffe546, type: 3}
   unlocked: 1
+  roomName: 5
 --- !u!114 &11452024
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -300,8 +302,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inhabitants: []
-  background: {fileID: 21300000, guid: fa2fb8c4fd9f8544c9c18223814a2f99, type: 3}
+  background: {fileID: 21300000, guid: 85a849322ab75a44bab0f468c73058ca, type: 3}
   unlocked: 1
+  roomName: 0
 --- !u!114 &11457964
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -336,6 +339,7 @@ MonoBehaviour:
   inhabitants: []
   background: {fileID: 21300000, guid: 3c1eb3aebfd71eb49b7e13dc40521d22, type: 3}
   unlocked: 1
+  roomName: 4
 --- !u!114 &11464586
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -350,6 +354,7 @@ MonoBehaviour:
   inhabitants: []
   background: {fileID: 21300000, guid: d4c166951c94f2a4283faf3794c5411b, type: 3}
   unlocked: 1
+  roomName: 1
 --- !u!114 &11485486
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -364,6 +369,7 @@ MonoBehaviour:
   inhabitants: []
   background: {fileID: 21300000, guid: 09acb12058f6ea64f9be90247d5a02cb, type: 3}
   unlocked: 1
+  roomName: 3
 --- !u!114 &11491536
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -378,6 +384,7 @@ MonoBehaviour:
   inhabitants: []
   background: {fileID: 21300000, guid: 422d6056b2e9196448f5d2dcd29dddac, type: 3}
   unlocked: 1
+  roomName: 6
 --- !u!114 &11492742
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -392,6 +399,7 @@ MonoBehaviour:
   inhabitants: []
   background: {fileID: 21300000, guid: 82b5b600ce782e64398f3a6f3b02a1ed, type: 3}
   unlocked: 1
+  roomName: 2
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

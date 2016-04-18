@@ -6,4 +6,5 @@ public class Room : MonoBehaviour {
     public List<LoveInterest> inhabitants;
     public Sprite background;
 	public bool unlocked;
+    public GameManager.RoomName roomName;
 }

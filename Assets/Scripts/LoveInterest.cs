@@ -30,6 +30,8 @@ public class LoveInterest : MonoBehaviour {
         Scared
     }
     public List<Sprite> loveInterestSprites;
+    public Sprite loveInterestIcon;
+
 
     //These are variables which are publically available and other characters can reference/acknowledge these
     public enum Rank

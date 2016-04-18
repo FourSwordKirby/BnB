@@ -24,12 +24,14 @@ public class GameManager : MonoBehaviour {
 
     public enum RoomName
     {
-        Drawing,
-        Parlor,
+        GreatHall,
+        Pasture,
         Library,
+        WineCellar,
         Kitchen,
-        Dining,
-        Pasture
+        Bedroom,
+        Porch,
+        Parlor
     }
 
 	public enum LoveInterestName
