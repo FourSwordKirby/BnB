@@ -22,6 +22,7 @@ public class MapController : MonoBehaviour {
             {
                 LoveInterest suitor = room.inhabitants[i];
                 roomDisplays[(int)room.roomName].SuitorIcons[i].sprite = suitor.loveInterestIcon;
+                roomDisplays[(int)room.roomName].SuitorIcons[i].gameObject.SetActive(true);
             }
             for (int i = room.inhabitants.Count; i < roomDisplays[(int)room.roomName].SuitorIcons.Count; i++)
             {

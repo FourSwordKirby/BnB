@@ -15,7 +15,7 @@ public class GameManager : MonoBehaviour {
 	public static int giftAvailable;
 
 
-    public static AudioManager audioManager;
+    public static SFXManager audioManager;
     public static DialogController dialogControls;
     public static MapController mapControls;
     public static BackgroundController backgroundControls;
@@ -58,7 +58,7 @@ public class GameManager : MonoBehaviour {
         //loveInterests = new List<LoveInterest>(GameObject.FindObjectsOfType<LoveInterest>());
         mansion = GameObject.FindObjectOfType<Mansion>();
 
-        audioManager = GameObject.FindObjectOfType<AudioManager>();
+        audioManager = GameObject.FindObjectOfType<SFXManager>();
         dialogControls = GameObject.FindObjectOfType<DialogController>();
         mapControls = GameObject.FindObjectOfType<MapController>();
         backgroundControls = GameObject.FindObjectOfType<BackgroundController>();
@@ -73,7 +73,6 @@ public class GameManager : MonoBehaviour {
 
     public static void LoadRoom(Room room)
     {
-		Debug.Log ("Loading room!");
         currentRoom = room;
         backgroundControls.displayRoom(room.background);
 
@@ -85,6 +84,8 @@ public class GameManager : MonoBehaviour {
                                                                  LoveInterestSelectController.RoomPosition.Center,
                                                                  LoveInterestSelectController.RoomPosition.NearRight,
                                                                  LoveInterestSelectController.RoomPosition.FarRight};
+        loveInterestControls.clearLoveInterests();
+
         foreach (LoveInterest suitor in room.inhabitants)
         {
             LoveInterestSelectController.RoomPosition position = positions[Random.Range(0, positions.Count)];

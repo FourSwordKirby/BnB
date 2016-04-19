@@ -21,6 +21,12 @@ public class LoveInterestSelectController : MonoBehaviour {
         loveInterestIcons[(int)position].LoadLoveInterest(loveInterest, LoveInterestClicked);
     }
 
+    public void clearLoveInterests()
+    {
+        foreach(LoveInterestIcon icon in loveInterestIcons)
+            icon.gameObject.SetActive(false);
+    }
+
     public void displayLoveInterests()
     {
         this.gameObject.SetActive(true);

@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class AudioManager : MonoBehaviour {
+public class SFXManager : MonoBehaviour {
 
     public List<AudioClip> soundEffects;
 

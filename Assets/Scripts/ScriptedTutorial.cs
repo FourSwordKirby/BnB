@@ -44,6 +44,8 @@ public class ScriptedTutorial : MonoBehaviour {
 		GameManager.LoadRoom (bedroom);
         previousRoom = GameManager.currentRoom;
 		GameManager.StartConversation (tutorialA);
+
+        parlor.inhabitants = gameManager.loveInterests.Where(x => x.designation == GameManager.LoveInterestName.Beauregard).ToList<LoveInterest>();;
 	}
 	
 	// Update is called once per frame
@@ -53,6 +55,9 @@ public class ScriptedTutorial : MonoBehaviour {
 			if (firstTimeInParlor) {
 				if (GameManager.currentRoom == parlor) {
 					GameManager.StartConversation (tutorialB);
+
+                    parlor.inhabitants.RemoveAll(x => true);
+                    GameManager.loveInterestControls.clearLoveInterests();
 
                     greatHall.inhabitants = gameManager.loveInterests.Where(x => x.designation != GameManager.LoveInterestName.Beauregard).ToList<LoveInterest>();
 
