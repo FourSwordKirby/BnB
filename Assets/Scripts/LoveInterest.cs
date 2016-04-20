@@ -30,6 +30,7 @@ public class LoveInterest : MonoBehaviour {
         Sad,
         Scared
     }
+    public Sprite fullBodySprite;
     public List<Sprite> loveInterestSprites;
     public Sprite loveInterestIcon;
 

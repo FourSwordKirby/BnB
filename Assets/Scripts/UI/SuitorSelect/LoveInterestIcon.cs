@@ -11,7 +11,7 @@ public class LoveInterestIcon: MonoBehaviour
     {
         UIbutton.onClick.RemoveAllListeners();
 
-        UIbutton.image.sprite = loveInterest.loveInterestSprites[0];
+        UIbutton.image.sprite = loveInterest.fullBodySprite;
         UIbutton.onClick.AddListener(() => {LoveInterestClicked(loveInterest); });
     }
 }

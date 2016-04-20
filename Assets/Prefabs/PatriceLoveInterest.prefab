@@ -102,14 +102,16 @@ MonoBehaviour:
   mainStory: {fileID: 0}
   DinnerStory: {fileID: 0}
   approvalRaiting: 0
-  canGetGift: 0
+  giftStatus: 0
+  convoTracker: 0
+  fullBodySprite: {fileID: 21300000, guid: f1d8cd2eb0156c74f8255e3bdd2bf84d, type: 3}
   loveInterestSprites:
   - {fileID: 21300000, guid: 09c1d5bfde2417247940a733b8d11b27, type: 3}
   - {fileID: 21300000, guid: 6b0594e58ebc42b4f87cc5d2eb19eb0d, type: 3}
   - {fileID: 21300000, guid: afa5a41b2ecd2df4d8717e2f867b2489, type: 3}
   - {fileID: 21300000, guid: 719f432e20cd2bb4cbaa1ebe13fce8ad, type: 3}
   - {fileID: 21300000, guid: fc6388645d07d944db198db13e6d24a3, type: 3}
-  - {fileID: 21300000, guid: 09c1d5bfde2417247940a733b8d11b27, type: 3}
+  - {fileID: 21300000, guid: 30c8996b019667649b9705a2e98cecd3, type: 3}
   loveInterestIcon: {fileID: 21300000, guid: 37783f1d096f82b40809981d24a208a0, type: 3}
 --- !u!114 &11416762
 MonoBehaviour:
