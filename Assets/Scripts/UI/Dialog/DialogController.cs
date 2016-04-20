@@ -66,6 +66,13 @@ public class DialogController : MonoBehaviour
                     ApplyReaction(instructions);
                     currentLine++;
                 }
+
+                if (twineParser.IsSound(line))
+                {
+                    instructions = line.Substring(line.IndexOf("$") + 1, line.Substring(1).IndexOf("$"));
+                    ApplySound(instructions);
+                    currentLine++;
+                }
 			} while (instructions != "");
 
             string speakerName = "";
@@ -113,29 +120,9 @@ public class DialogController : MonoBehaviour
 			DialogUI.ImagePositon position = twineParser.ParsePos(twineParser.TrimTag(instrList [3 * i + 2]));
 			LoveInterest.Emotion emotion = twineParser.ParseEmotion(twineParser.TrimTag(instrList [3 * i + 3]));
 
-            //HARDCODED TO PLAY SOUNDS]
-            if (name == GameManager.LoveInterestName.Beauregard)
-            {
-                if (emotion == LoveInterest.Emotion.Flattered)
-                {
-                    Debug.Log("sound?");
-                    GameManager.audioManager.play("BeauFlirt");
-                }
-                if (emotion == LoveInterest.Emotion.Angry)
-                {
-                    Debug.Log("sound?");
-                    GameManager.audioManager.play("BeauAngry");
-                }
-            }
-
             dialogUI.displayLoveInterest(gameManager.getLoveInterest(name), emotion, position);
 		}
 	}
-//
-//    private bool IsReaction(string line)
-//    {
-//        return line[0] == '#';
-//    }
 
     private void ApplyReaction(string reaction)
     {
@@ -169,6 +156,11 @@ public class DialogController : MonoBehaviour
 		}
 		return validOptions;
 	}
+
+    private void ApplySound(string soundName)
+    {
+        GameManager.audioManager.play(soundName);
+    }
 
     private void DisplayOptions()
     {
