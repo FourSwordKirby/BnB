@@ -128,8 +128,4 @@ public class ScriptedTutorial : MonoBehaviour {
 
         previousRoom = GameManager.currentRoom;
 	}
-
-    public void tutoiralIncrement()
-    {
-    }
 }

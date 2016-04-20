@@ -1,0 +1,117 @@
+﻿:: Start
+%1, <beau>, <center>, <smile>%
+BEAUREGARD: I'm so sorry to interrupt, but it's time for dinner, sire! 
+
+BEAUREGARD: Oh, how the time flies! Who woud you like to dine with this evening, sire?
+
+[[Noelle.]]
+[[Jane.]]
+[[Patrice.]]
+[[Lucille.]]
+[[Henrietta.]]
+
+
+:: No one.
+%1, <beau>, <center>, <frown>%
+BEAUREGARD: Oh, yes. Ha ha. Very funny, sire. As if I would let you squander an opportunity like this!
+
+BEAUREGARD: Now, choose a dining companion or I'll do it for you!
+
+[[Noelle.]]
+[[Jane.]]
+[[Patrice.]]
+[[Lucille.]]
+[[Henrietta.]]
+
+
+:: Henrietta.
+%1, <beau>, <center>, <frown>%
+BEAUREGARD: Oh. The...lovely Miss Henrietta. Right. 
+
+%1, <beau>, <center>, <neutral>%
+BEAUREGARD: Well, I'll, um. I suppose I'll set out some...hay? And remove the chair from the other end of the table...Oh, goodness.
+
+[[<i>The table is set.</i>|hen1]]
+
+
+:: Lucille.
+%1, <beau>, <center>, <neutral>%
+BEAUREGARD: Miss Lucille. Well. That's certainly an...interesting choice.
+
+BEAUREGARD: I'll be sure to provide the table with plenty of wine tonight, sire. I hope the evening proves pleasant.
+
+[[<i>The table is set.</i>|lucy1]]
+
+
+:: Noelle.
+%1, <beau>, <center>, <smile>%
+BEAUREGARD: Ah, Miss Noelle. Perfect.
+
+BEAUREGARD: I'll get everything ready for you two. I'm sure it will be a perfectly pleasant evening!
+
+[[<i>The table is set.</i>|noe1]]
+
+
+:: Patrice.
+%1, <beau>, <center>, <smile>%
+BEAUREGARD: Miss Patrice. A fine choice, sire.
+
+BEAUREGARD: I'll make sure everything is just perfect for this evening!
+
+[[<i>The table is set.</i>|pat1]]
+
+
+:: Jane.
+%1, <beau>, <center>, <smile>%
+BEAUREGARD: Miss Jane! Lovely.
+
+BEAUREGARD: You dinner for two will be ready momentarily, sire!
+
+[[<i>The table is set.</i>|john1]]
+
+
+:: hen1
+#hen_approval, +5#
+<i>The evening is calm, and pleasant. The dining room's comfortable silence is broken only by the rhythmic sounds of a cow chewing her cud.
+
+You might be imagining it, but there seems to be a happy gleam to Miss Henrietta's eyes.
+
+You walk Henrietta back to the pastures outside as gallantly as a beast walking alongside a cow  can.</i>
+
+
+:: lucy1
+#lucy_approval, +5#
+<i>It's a good thing Beauregard provided plenty of wine--despite her daily excursions to the wine cellar, Lucille goes straight for the glass bottles and starts knocking back drink after drink.
+
+As expected, her conversation is dry and acerbic--at least, it is at the start of the night. As the courses progress, you find that her comments have lost their biting edge. Maybe it's just the wine that loosens the tight corners of her mouth, but you dare to think it might actually be your company.
+
+When you part ways for the night, her insults sound almost fond to your ears.</i>
+
+
+:: noe1
+#noelle_approval, +5#
+<i>As usual, the lady Noelle is the very picture of grace and poise. She handles herself with the air of one graciously bestowing her presence upon unworthy surroundings.
+
+Nevertheless, you can't help but think she seems to become more comfortable over the course of the night. But then, you suppose making idle conversation about harmless topics while maintaining a comfortable physical distance would put anyone at ease. 
+
+At the end of the night, you bid her a gallant farewell, and her smile appears almost genuine.</i>
+
+
+:: pat1
+#pat_approval, +5#
+<i>Pat is as kind and complimentary as always. Each course seems to amaze her more than the last, and it's clear that her pleased exclamations are sincere.
+
+Pat always seems weighed down by something, distanced from the present by a problem no one else knows about. But tonight, bit by bit, her shoulders lift, and her expression lightens. When Beauregard's fancifully prepared dessert course makes her clap her hands and laugh delightedly, she looks years younger.
+
+You bow to her before she leaves for bed, and the smile she gives you is that of a bashful young girl.</i>
+
+
+:: john1
+#john_approval, +5#
+<i>Jane has the uncanny ability to make even the smallest of things into grand jokes, and over the course of the evening, this ability starts to rub off on you. 
+
+Eating with your ungainly claws becomes a source of laughter rather than embarrassment. Your struggle with a spoonful of soup makes both ends of the table turn red in the face from laughing--not that your skin is really visible under all the fur.
+
+You're still laughing as you part ways.</i>
+
+

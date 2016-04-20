@@ -99,8 +99,9 @@ public class TwineParser : MonoBehaviour {
         {
             case "convo_points":
                 return GameManager.dayControls.remainingConvoPts;
+            case "day":
+                return GameManager.dayControls.dayNumber;
             default:
-                Debug.Log("ERROR: Not a valid Twine variable: " + varString);
                 break;
         }
 
@@ -124,7 +125,6 @@ public class TwineParser : MonoBehaviour {
             return loveInterest.convoTracker;
         }
 
-        Debug.Log("ERROR: Not a valid Twine variable: " + varString);
         return 0;
     }
 
@@ -134,10 +134,9 @@ public class TwineParser : MonoBehaviour {
         switch (varString)
         {
             case "convo_points":
-                GameManager.dayControls.remainingConvoPts = loveVal;
+                GameManager.dayControls.remainingConvoPts = Mathf.Clamp(loveVal, 0, 2);
                 return;
             default:
-                Debug.Log("ERROR: Not a valid Twine variable: " + varString);
                 break;
         }
 
@@ -160,8 +159,6 @@ public class TwineParser : MonoBehaviour {
             LoveInterest loveInterest = gameManager.getLoveInterest(ParseName(name));
             loveInterest.convoTracker = loveVal;
         }
-
-        Debug.Log("ERROR: Not a valid Twine variable: " + varString);
     }
 
 	public bool HasRestriction (string option) {

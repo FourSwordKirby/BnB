@@ -143,7 +143,6 @@ public class DialogController : MonoBehaviour
 
 		for (int i = 0; i < options.Count; i++) {
 			string optionText = options[i].Text;
-			//Debug.Log ("Checking validity of option: " + optionText);
 			if (twineParser.HasRestriction (optionText)) {
 				if (twineParser.PassesRestriction (optionText)) {
 					validOptions.Add (twineParser.TrimRestriction (optionText));
@@ -164,7 +163,6 @@ public class DialogController : MonoBehaviour
 
     private void DisplayOptions()
     {
-
 		List<string> optionsToDisplay = FilterValidOptions (currentStory.Links);
 
 		if (optionsToDisplay.Count > numMaxOptions)

@@ -110,14 +110,14 @@ NOELLE: Is there anything else you'd like to talk about?
 %1, <noelle>, <center>, <smile>%
 NOELLE: Who did you have in mind?
 
-[[#day, 1, 2#Jane.|j1]]
-[[#day, 3, 6#Jane.|j2]]
-[[#day, 1, 2#Pat.|p1]]
-[[#day, 3, 6#Pat.|p2]]
-[[#day, 1, 2#Lucille.|l1]]
-[[#day, 3, 6#Lucille.|l2]]
-[[#day, 1, 2#Henrietta.|h1]]
-[[#day, 3, 6#Henrietta.|h2]]
+[[%day, 1, 2%Jane.|j1]]
+[[%day, 3, 6%Jane.|j2]]
+[[%day, 1, 2%Pat.|p1]]
+[[%day, 3, 6%Pat.|p2]]
+[[%day, 1, 2%Lucille.|l1]]
+[[%day, 3, 6%Lucille.|l2]]
+[[%day, 1, 2%Henrietta.|h1]]
+[[%day, 3, 6%Henrietta.|h2]]
 
 
 :: p1
@@ -184,6 +184,17 @@ NOELLE: Is there anything else you'd like to talk about?
 [[Let's talk about you.]]
 
 
+:: men
+%1, <noelle>, <center>, <neutral>%
+NOELLE: It seems that way because it <i>is</i> that way.
+
+NOELLE: My father is a man like any other. He has flaws. More than most, perhaps.
+
+[[What kind of flaws?]]
+[[You don't think very highly of men in general, then.]]
+[[Do human flaws really merit such disdain?]]
+
+
 :: I suppose it must be easier that way.
 #noelle_approval, -5#
 %1, <noelle>, <center>, <frown>%
@@ -192,7 +203,7 @@ NOELLE: Yes. <i>Easier.</i> Of course.
 %1, <noelle>, <center>, <smile>%
 NOELLE: Excuse me, sire, but I'd prefer we didn't discuss this any further. Could we move on to another topic?
 
-[[Of course. Where are you from?|Where are you from?]]
+[[Very well. Let's talk about something else.]]
 [[I'd like to know more about this, actually.]]
 
 
@@ -206,7 +217,7 @@ NOELLE: Still, at least I have my father. He's always done his best to raise me.
 
 NOELLE: Now if you'll excuse me, sire, I'd prefer we didn't discuss this any further. Could we move on to another topic?
 
-[[Of course. Where are you from?|Where are you from?]]
+[[Very well. Let's talk about something else.]]
 [[I'd like to know more about this, actually.]]
 
 
@@ -220,12 +231,12 @@ NOELLE: He's always done his best to raise me. Or so he tells me.
 %1, <noelle>, <center>, <smile>%
 NOELLE: Excuse me, sire, but I'd prefer we didn't discuss this any further. Could we move on to another topic?
 
-[[Of course. Where are you from?|Where are you from?]]
+[[Very well. Let's talk about something else.]]
 [[I'd like to know more about this, actually.]]
 
 
-:: What's your family like?
-#points, -1#
+:: family
+#convo_points, -1#
 %1, <noelle>, <center>, <neutral>%
 NOELLE: There isn't much to tell. My mother died when I was very young, and my father's raised me ever since.
 
@@ -241,8 +252,12 @@ NOELLE: Yes, well. Like I said, I was very young. I barely remember her.
 :: Let's talk about you.
 NOELLE: Certainly. What would you like to know?
 
-[[Where are you from?]]
-[[What's your family like?]]
+[[%noelle_convo, 0, 1%Where are you from?|from]]
+[[%noelle_convo, 0, 1%What is your family like?|family]]
+[[%noelle_convo, 2, 3%If you could go anywhere in the world, where would you go?|world]]
+[[%noelle_convo, 2, 3%You don't seem to think very highly of your father.|men]]
+[[%noelle_convo, 4, 4%You smile often, but it never seems to reach your eyes.|unhappy]]
+[[%noelle_convo, 5, 5%What has your father done that's so unforgiveable?|father]]
 
 
 :: I'd like to know more about this, actually.
@@ -254,8 +269,37 @@ NOELLE: ...Of course, your <i>highness</i>. I am at your disposal as always. We 
 [[I know what it's like to lose your parents.]]
 
 
-:: Where are you from?
-#points, -1#
+:: You don't think very highly of men in general, then.
+%1, <noelle>, <center>, <neutral>%
+NOELLE: Is it so surprising that a woman such as myself might have a negative opinion of the members of your sex?
+
+NOELLE: I suppose, as a man yourself, you may not realize how often we women are at your mercy.
+
+[[I rather like having you at my mercy.]]
+[[I've never thought of it that way before.]]
+[[I'm certainly not doing a very good job of disproving your point, am I?]]
+
+
+:: What kind of flaws?
+%1, <noelle>, <center>, <frown>%
+NOELLE: The normal kind. Selfishness, callousness, ruthlessness.
+
+NOELLE: He's a very good businessman.
+
+[[But not a very good man.]]
+[[Shouldn't you be proud to have such a successful father?]]
+[[At least you have a father.]]
+
+
+:: Do human flaws really merit such disdain?
+%1, <noelle>, <center>, <frown>%
+NOELLE: I said the flaws of any <i>man</i>, not <i>human</i>. 
+
+NOELLE: I've found that very few <i>women</i> are so afflicted.
+
+
+:: from
+#convo_points, -1#
 NOELLE: I'm from Redding, a large town to the north. My father is a merchant, and often travels to the harbor several towns over.
 
 NOELLE: It's a beautiful town, Redding. Perfectly charming. Easy to get lost in.
@@ -272,7 +316,7 @@ NOELLE: I don't really think it's appropriate to ask me such a leading question 
 
 NOELLE: I won't be talking about this any more.
 
-[[Very well. Where are you from?|Where are you from?]]
+[[Very well. Let's talk about something else.]]
 [[I'll be leaving, then.]]
 
 
@@ -286,19 +330,19 @@ NOELLE: We've barely met, and you find it appropriate to ask me such a question?
 
 NOELLE: Either ask me something else, or leave.
 
-[[Where are you from?]]
+[[Very well. Let's talk about something else.]]
 [[I'll be leaving, then.]]
 
 
 :: I know what it's like to lose your parents.
 #noelle_approval, +10#
 %1, <noelle>, <center>, <scared>%
-NOELLE: O-oh. Forgive me, sire, I had no idea.
+NOELLE: O-oh. Well. I suppose that makes your invasion of privacy a little less insulting.
 
 %1, <noelle>, <center>, <neutral>%
 NOELLE: Please, could we discuss something else now?
 
-[[Where are you from?]]
+[[Very well. Let's talk about something else.]]
 [[Actually, I have to go.]]
 
 
@@ -338,6 +382,37 @@ NOELLE: I just meant that it's nice to blend into crowds, and not be noticed by 
 [[That does sound nice.]]
 [[Why would you want to be one of many when you could stand out?]]
 [[I wouldn't know what that's like.]]
+
+
+:: I rather like having you at my mercy.
+#noelle_approval, -15#
+%1, <noelle>, <center>, <frown>%
+NOELLE: Of course you do. I don't know why I expected anything different. 
+
+NOELLE: It's good to know that no matter what he might look like, a man is always the same under the skin: selfish and totally unconcerned with the feelings of women.
+
+
+:: I've never thought of it that way before.
+NOELLE: And do you feel enlightened, now that you have?
+
+
+:: I'm certainly not doing a very good job of disproving your point, am I?
+%1, <noelle>, <center>, <smile>%
+NOELLE: No, you're not. But at least you're self-aware about it. I wish I could say as much for every other man I've met.
+
+
+
+
+:: Shouldn't you be proud to have such a successful father?
+
+
+
+:: But not a very good man.
+
+
+
+:: At least you have a father.
+
 
 
 :: I'll be leaving, then.
@@ -501,5 +576,17 @@ NOELLE: Could we move on to another subject? I'm starting to feel a bit maudlin.
 
 [[Very well. Let's talk about something else.]]
 [[Actually, I have to leave.]]
+
+
+:: world
+
+
+
+:: unhappy
+
+
+
+:: father
+
 
 

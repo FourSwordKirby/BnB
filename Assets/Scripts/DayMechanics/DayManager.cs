@@ -8,10 +8,11 @@ public class DayManager : MonoBehaviour {
 	public Room dining;
 
 	public int remainingConvoPts;
-	private int dayNumber;
+	public int dayNumber;
 
     public GameManager gameManager;
 	public TwineStory morningBeauStory;
+    public TwineStory eveningBeauStory;
 
     //Hardcoded in noelle story
     public TwineStory NoelleStory;
@@ -55,41 +56,24 @@ public class DayManager : MonoBehaviour {
 
 		/* Housekeeping for keeping track of info */
 		remainingConvoPts = 2;
-		GameManager.AdvanceDay();
 		GameManager.LoadRoom (bedroom);
 
 		// TODO: Have day-starting convo with beau
 		GameManager.StartConversation (morningBeauStory);
-
 	}
 
-	void DinnerTime() {
-
-		// dialogController.StartConversation(TimeForDinnerBeau);
-
-		// gameManager.LoadRoom(bedroom);
-
-		// dialogController.StartConversation(ChooseDinnerSuitor);
-
-		// LoveInterest suitor = ChooseSuitor();
-
+	void StartDinner() {
+        GameManager.dialogControls.StartConversation(eveningBeauStory);
 		// gameManager.LoadRoom (dining);
 
 		//dialogController.StartConversation (<SuitorDinnerConvo>);
-
-
 	}
 	
 	// Update is called once per frame
 	void Update () {
-
-		if (remainingConvoPts < 0) {
-			Debug.Log ("ERROR: Remaining conversation points dipped below 0!");
-		}
-
-		if (remainingConvoPts == 0) {
-			// DinnerEvent();
-		}
-	
+		if (GameManager.dialogControls.dialogUI.dialogBox.dialogField.text == "" && remainingConvoPts == 0) {
+            StartDinner();
+            remainingConvoPts --;
+		}	
 	}
 }

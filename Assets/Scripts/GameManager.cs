@@ -10,7 +10,6 @@ public class GameManager : MonoBehaviour {
 
     public static Mansion mansion;
 
-    public static int currentDay;
     public static Room currentRoom;
 	public static int giftAvailable;
 
@@ -112,11 +111,6 @@ public class GameManager : MonoBehaviour {
 	public static int ConvoPointsRemaining() {
 		return dayControls.remainingConvoPts;
 	}
-
-    public static void AdvanceDay()
-    {
-        currentDay++;
-    }
 
 	public static void StartDay()
 	{

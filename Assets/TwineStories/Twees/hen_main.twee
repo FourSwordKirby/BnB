@@ -16,6 +16,7 @@ BEAST: Good to see you, too. Now, then...
 [[I'd like to hear your opinion of the other women staying in the castle.|women]]
 [[How are you enjoying your stay here?|stay1]]
 [[Let's talk about you.|you]]
+[[%hen_gift, 4, 4%I have a gift for you.|gift]]
 
 
 
@@ -130,6 +131,10 @@ BEAST: Of course. I don't know why I expected anything different.
 [[Let's talk more about you.|you]]
 
 
+:: gift
+#
+
+
 :: animal
 #convo_points, -1#
 #hen_convo, +1#
@@ -148,11 +153,11 @@ HENRIETTA: MMMOOOOOOO.
 #hen_convo, +1#
 HENRIETTA: MMMMOOOOOOOOOO.
 
-BEAST: Huh. I...haven't heard of that particular province.
+BEAST: That sounds...lovely.
 
-HENRIETTA: MMMMMOOOOOOOOOOOO!
+HENRIETTA: MMMMMOOOO.
 
-BEAST: No, no, I'll take your word for it.
+BEAST: No, I'm not just saying that.
 
 [[Let's talk about something lighter.|light]]
 [[Let's talk more about you.|you]]
