@@ -1,0 +1,789 @@
+(dp0
+S'buildDestination'
+p1
+VC:\u005cUsers\u005cSam\u005cDesktop\u005ccollege things\u005cgame design\u005cbatb dating sim\u005chentest.html
+p2
+sS'saveDestination'
+p3
+VC:\u005cUsers\u005cSam\u005cDesktop\u005ccollege things\u005cgame design\u005cbatb dating sim\u005chen_main.tws
+p4
+sS'metadata'
+p5
+(dp6
+sS'target'
+p7
+S'sugarcane'
+p8
+sS'storyPanel'
+p9
+(dp10
+S'widgets'
+p11
+(lp12
+(dp13
+S'selected'
+p14
+I00
+sS'pos'
+p15
+(lp16
+I767
+aI26
+asS'passage'
+p17
+(itiddlywiki
+Tiddler
+p18
+(dp20
+S'text'
+p21
+V%1, <hen>, <center>, <neutral>%\u000aHENRIETTA: MMMMMOOOOOOOOOOOOO.\u000a\u000aBEAST: Good to see you, too. Now, then...\u000a\u000a[[I'd like to hear your opinion of the other women staying in the castle.|women]]\u000a[[How are you enjoying your stay here?|stay1]]\u000a[[Let's talk about you.|you]]\u000a
+p22
+sS'title'
+p23
+VStart
+p24
+sS'modified'
+p25
+ctime
+struct_time
+p26
+((I2016
+I4
+I20
+I11
+I34
+I38
+I2
+I111
+I1
+tp27
+(dp28
+tp29
+Rp30
+sS'tags'
+p31
+(lp32
+sS'created'
+p33
+g26
+((I2016
+I4
+I7
+I16
+I53
+I57
+I3
+I98
+I1
+tp34
+(dp35
+tp36
+Rp37
+sbsa(dp38
+g14
+I00
+sg15
+(lp39
+F909.75
+aF186.25
+asg17
+(itiddlywiki
+Tiddler
+p40
+(dp41
+g21
+VHENRIETTA: MMOOOOO.\u000a\u000a[[Jane.|j1]]\u000a[[Pat.|p1]]\u000a[[Noelle.|n1]]\u000a[[Lucille.|l1]]\u000a
+p42
+sg23
+Vwomen
+p43
+sg25
+g26
+((I2016
+I4
+I20
+I11
+I1
+I43
+I2
+I111
+I1
+tp44
+(dp45
+tp46
+Rp47
+sg31
+(lp48
+sg33
+g26
+((I2016
+I4
+I8
+I11
+I2
+I24
+I4
+I99
+I1
+tp49
+(dp50
+tp51
+Rp52
+sbsa(dp53
+g14
+I00
+sg15
+(lp54
+F683.5
+aF385.25
+asg17
+(itiddlywiki
+Tiddler
+p55
+(dp56
+g21
+VHENRIETTA: MMMOOOOOOO.\u000a\u000a[[%hen_convo, 0, 1%Where are you from?|from]]\u000a[[%hen_convo, 0, 1%What's your family like?|fam]]\u000a[[%hen_convo, 2, 3%Have you always been a cow?|cow]]\u000a[[%hen_convo, 2, 3%If you could be any other animal, what would you choose to be?|animal]]\u000a[[%hen_convo, 4, 4%What's your farm like?|farm]]\u000a[[%hen_convo, 5, 5%Have you ever been in love?|love]]\u000a[[Let's talk about something lighter.|light]]
+p57
+sg23
+Vyou
+p58
+sg25
+g26
+((I2016
+I4
+I20
+I11
+I57
+I29
+I2
+I111
+I1
+tp59
+(dp60
+tp61
+Rp62
+sg31
+(lp63
+sg33
+g26
+((I2016
+I4
+I8
+I11
+I2
+I24
+I4
+I99
+I1
+tp64
+(dp65
+tp66
+Rp67
+sbsa(dp68
+g14
+I00
+sg15
+(lp69
+F455.5
+aF30.0
+asg17
+(itiddlywiki
+Tiddler
+p70
+(dp71
+g21
+VHENRIETTA: MMMMMMMMMMOOOOOOOOOOOO.\u000a\u000aBEAST: ...Right. \u000a\u000a[[I want to hear your opinion of the other women staying in the castle.|women]]\u000a[[Let's talk about you.|you]]
+p72
+sg23
+Vstay1
+p73
+sg25
+g26
+((I2016
+I4
+I20
+I10
+I56
+I5
+I2
+I111
+I1
+tp74
+(dp75
+tp76
+Rp77
+sg31
+(lp78
+sg33
+g26
+((I2016
+I4
+I8
+I11
+I33
+I47
+I4
+I99
+I1
+tp79
+(dp80
+tp81
+Rp82
+sbsa(dp83
+g14
+I00
+sg15
+(lp84
+F454.75
+aF382.25
+asg17
+(itiddlywiki
+Tiddler
+p85
+(dp86
+g21
+V#convo_points, -1#\u000a#hen_convo, +1#\u000aHENRIETTA: MMMMOOOOOOOOOO.\u000a\u000aBEAST: Huh. I...haven't heard of that particular province.\u000a\u000aHENRIETTA: MMMMMOOOOOOOOOOOO!\u000a\u000aBEAST: No, no, I'll take your word for it.\u000a\u000a[[Let's talk about something lighter.|light]]\u000a[[Let's talk more about you.|you]]
+p87
+sg23
+Vfrom
+p88
+sg25
+g26
+((I2016
+I4
+I20
+I11
+I55
+I24
+I2
+I111
+I1
+tp89
+(dp90
+tp91
+Rp92
+sg31
+(lp93
+sg33
+g26
+((I2016
+I4
+I8
+I11
+I35
+I53
+I4
+I99
+I1
+tp94
+(dp95
+tp96
+Rp97
+sbsa(dp98
+g14
+I00
+sg15
+(lp99
+F453.25
+aF189.0
+asg17
+(itiddlywiki
+Tiddler
+p100
+(dp101
+g21
+V#convo_points, -1#\u000a#hen_convo, +1#\u000a%1, <hen>, <center>, <neutral>%\u000aHENRIETTA: MMMOOOOO. MMMMMMMMMMOOOOOOOOOOOOO.\u000a\u000aBEAST: Well. Yes, I suppose I should've assumed they'd all be cows, too.\u000a\u000aBEAST: Let's discuss something else.\u000a\u000a[[I want to hear your opinion of the other women staying in the castle.|women]]\u000a[[How are you enjoying your stay here?|stay1]]\u000a[[Let's talk about you.|you]]
+p102
+sg23
+Vfam
+p103
+sg25
+g26
+((I2016
+I4
+I20
+I11
+I55
+I40
+I2
+I111
+I1
+tp104
+(dp105
+tp106
+Rp107
+sg31
+(lp108
+sg33
+g26
+((I2016
+I4
+I8
+I11
+I35
+I53
+I4
+I99
+I1
+tp109
+(dp110
+tp111
+Rp112
+sbsa(dp113
+g14
+I00
+sg15
+(lp114
+F1077.5
+aF186.0
+asg17
+(itiddlywiki
+Tiddler
+p115
+(dp116
+g21
+VHENRIETTA: MMMMMMMMMOOOO.\u000a\u000aHENRIETTA: ...Good to hear. Let's discuss something else.\u000a\u000a[[I want to hear your opinion of the other women staying in the castle.|women]]\u000a[[How are you enjoying your stay here?|stay1]]\u000a[[Let's talk about you.|you]]
+p117
+sg23
+Vp1
+p118
+sg25
+g26
+((I2016
+I4
+I20
+I11
+I14
+I10
+I2
+I111
+I1
+tp119
+(dp120
+tp121
+Rp122
+sg31
+(lp123
+sg33
+g26
+((I2016
+I4
+I8
+I11
+I38
+I57
+I4
+I99
+I1
+tp124
+(dp125
+tp126
+Rp127
+sbsa(dp128
+g14
+I00
+sg15
+(lp129
+F1073.0
+aF27.0
+asg17
+(itiddlywiki
+Tiddler
+p130
+(dp131
+g21
+VHENRIETTA: MMOOOOOO.\u000a\u000aBEAST: Of course. I completely agree. Now, let's discuss something else.\u000a\u000a[[I want to hear your opinion of the other women staying in the castle.|women]]\u000a[[How are you enjoying your stay here?|stay1]]\u000a[[Let's talk about you.|you]]
+p132
+sg23
+Vl1
+p133
+sg25
+g26
+((I2016
+I4
+I20
+I11
+I15
+I0
+I2
+I111
+I1
+tp134
+(dp135
+tp136
+Rp137
+sg31
+(lp138
+sg33
+g26
+((I2016
+I4
+I8
+I11
+I38
+I57
+I4
+I99
+I1
+tp139
+(dp140
+tp141
+Rp142
+sbsa(dp143
+g14
+I00
+sg15
+(lp144
+F1234.0
+aF27.0
+asg17
+(itiddlywiki
+Tiddler
+p145
+(dp146
+g21
+VHENRIETTA: MMMMMMMMMOOOOOO.\u000a\u000aBEAST: Really? Hm. I suppose so. Now, let's discuss something else.\u000a\u000a[[I want to hear your opinion of the other women staying in the castle.|women]]\u000a[[How are you enjoying your stay here?|stay1]]\u000a[[Let's talk about you.|you]]
+p147
+sg23
+Vj1
+p148
+sg25
+g26
+((I2016
+I4
+I20
+I11
+I15
+I40
+I2
+I111
+I1
+tp149
+(dp150
+tp151
+Rp152
+sg31
+(lp153
+sg33
+g26
+((I2016
+I4
+I8
+I11
+I38
+I57
+I4
+I99
+I1
+tp154
+(dp155
+tp156
+Rp157
+sbsa(dp158
+g14
+I00
+sg15
+(lp159
+F1235.75
+aF187.0
+asg17
+(itiddlywiki
+Tiddler
+p160
+(dp161
+g21
+VHENRIETTA: MMMMMOOOOOOOO.\u000a\u000aBEAST: Well. That's surprising. Now, let's discuss something else.\u000a\u000a[[I want to hear your opinion of the other women staying in the castle.|women]]\u000a[[How are you enjoying your stay here?|stay1]]\u000a[[Let's talk about you.|you]]
+p162
+sg23
+Vn1
+p163
+sg25
+g26
+((I2016
+I4
+I20
+I11
+I20
+I10
+I2
+I111
+I1
+tp164
+(dp165
+tp166
+Rp167
+sg31
+(lp168
+sg33
+g26
+((I2016
+I4
+I8
+I11
+I38
+I57
+I4
+I99
+I1
+tp169
+(dp170
+tp171
+Rp172
+sbsa(dp173
+g14
+I00
+sg15
+(lp174
+F683.25
+aF592.5
+asg17
+(itiddlywiki
+Tiddler
+p175
+(dp176
+g21
+V#convo_points, -1#\u000a#hen_convo, +1#\u000aHENRIETTA: MMMMOOOOOOOOOO.\u000a\u000aBEAST: Huh. I...haven't heard of that particular province.\u000a\u000aHENRIETTA: MMMMMOOOOOOOOOOOO!\u000a\u000aBEAST: No, no, I'll take your word for it.\u000a\u000a[[Let's talk about something lighter.|light]]\u000a[[Let's talk more about you.|you]]
+p177
+sg23
+Vfarm
+p178
+sg25
+g26
+((I2016
+I4
+I20
+I11
+I56
+I10
+I2
+I111
+I1
+tp179
+(dp180
+tp181
+Rp182
+sg31
+(lp183
+sg33
+g26
+((I2016
+I4
+I20
+I11
+I7
+I34
+I2
+I111
+I1
+tp184
+(dp185
+tp186
+Rp187
+sbsa(dp188
+g14
+I00
+sg15
+(lp189
+F453.75
+aF592.5
+asg17
+(itiddlywiki
+Tiddler
+p190
+(dp191
+g21
+V#convo_points, -1#\u000a#hen_convo, +1#\u000aHENRIETTA: MMMMOOOOOOO.\u000a\u000aBEAST: No, no, I'm sorry! I didn't mean to be insensitive.\u000a\u000aHENRIETTA: MMMOOOOOOO.\u000a\u000a[[Let's talk about something lighter.|light]]\u000a[[Let's talk more about you.|you]]
+p192
+sg23
+Vanimal
+p193
+sg25
+g26
+((I2016
+I4
+I20
+I12
+I3
+I14
+I2
+I111
+I1
+tp194
+(dp195
+tp196
+Rp197
+sg31
+(lp198
+sg33
+g26
+((I2016
+I4
+I20
+I11
+I7
+I34
+I2
+I111
+I1
+tp199
+(dp200
+tp201
+Rp202
+sbsa(dp203
+g14
+I00
+sg15
+(lp204
+F912.0
+aF593.25
+asg17
+(itiddlywiki
+Tiddler
+p205
+(dp206
+g21
+V#convo_points, -1#\u000a#hen_convo, +1#\u000aHENRIETTA: MMMMOOOOOOO.\u000a\u000aBEAST: Oh, my. That sounds awful. I'm so sorry.\u000a\u000aHENRIETTA: MMMMMOOOOOOOOOOOO.\u000a\u000aBEAST: You're right. It's better to have loved and lost than never loved at all.\u000a\u000a[[Let's talk about something lighter.|light]]\u000a[[Let's talk more about you.|you]]
+p207
+sg23
+Vlove
+p208
+sg25
+g26
+((I2016
+I4
+I20
+I11
+I56
+I54
+I2
+I111
+I1
+tp209
+(dp210
+tp211
+Rp212
+sg31
+(lp213
+sg33
+g26
+((I2016
+I4
+I20
+I11
+I7
+I34
+I2
+I111
+I1
+tp214
+(dp215
+tp216
+Rp217
+sbsa(dp218
+g14
+I00
+sg15
+(lp219
+F909.5
+aF380.75
+asg17
+(itiddlywiki
+Tiddler
+p220
+(dp221
+g21
+V#convo_points, -1#\u000a#hen_convo, +1#\u000aHENRIETTA: MMMMOOOOOOOO.\u000a\u000aBEAST: Of course. I don't know why I expected anything different.\u000a\u000a[[Let's talk about something lighter.|light]]\u000a[[Let's talk more about you.|you]]
+p222
+sg23
+Vcow
+p223
+sg25
+g26
+((I2016
+I4
+I20
+I11
+I59
+I42
+I2
+I111
+I1
+tp224
+(dp225
+tp226
+Rp227
+sg31
+(lp228
+sg33
+g26
+((I2016
+I4
+I20
+I11
+I7
+I34
+I2
+I111
+I1
+tp229
+(dp230
+tp231
+Rp232
+sbsa(dp233
+g14
+I00
+sg15
+(lp234
+F680.0
+aF186.25
+asg17
+(itiddlywiki
+Tiddler
+p235
+(dp236
+g21
+VBEAST: I was thinking we could talk about...\u000a\u000a[[One of the other women in the castle.|women]]\u000a[[How you feel about the castle.|stay1]]\u000a[[You.|you]]
+p237
+sg23
+Vlight
+p238
+sg25
+g26
+((I2016
+I4
+I20
+I11
+I12
+I44
+I2
+I111
+I1
+tp239
+(dp240
+tp241
+Rp242
+sg31
+(lp243
+sg33
+g26
+((I2016
+I4
+I20
+I11
+I10
+I36
+I2
+I111
+I1
+tp244
+(dp245
+tp246
+Rp247
+sbsasS'scale'
+p248
+F0.8
+sS'snapping'
+p249
+I00
+ss.

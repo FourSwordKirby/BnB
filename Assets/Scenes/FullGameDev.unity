@@ -319,6 +319,48 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 2102601702}
   m_Script: {fileID: 11500000, guid: e18b4fb8b7c74e744b01b17fef4d9e8b, type: 3}
+--- !u!1 &293256109
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 293256110}
+  - 114: {fileID: 293256111}
+  m_Layer: 0
+  m_Name: HenMain
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &293256110
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 293256109}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1235006028}
+  m_RootOrder: 3
+--- !u!114 &293256111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 293256109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bf30afa7d905fc4cb26a1ca302ad72a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoPlay: 0
+  StartPassage: Start
+  AdditionalHooks: []
 --- !u!114 &362675297 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11419572, guid: c7b9a94ddc8f45d43bf6fce2e3b48c60,
@@ -870,7 +912,8 @@ MonoBehaviour:
   mainStory: {fileID: 0}
   DinnerStory: {fileID: 0}
   approvalRaiting: 0
-  canGetGift: 0
+  giftStatus: 0
+  convoTracker: 0
   loveInterestSprites:
   - {fileID: 21300000, guid: b4a7d6038f22f6743a74d2416e35bd70, type: 3}
   - {fileID: 21300000, guid: eba58a618f838104c97d29aebdb2c260, type: 3}
@@ -1551,7 +1594,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1235006028
 Transform:
   m_ObjectHideFlags: 0
@@ -1565,6 +1608,7 @@ Transform:
   - {fileID: 656819651}
   - {fileID: 1806006672}
   - {fileID: 867184826}
+  - {fileID: 293256110}
   m_Father: {fileID: 1343823893}
   m_RootOrder: 1
 --- !u!114 &1235006029
@@ -1679,7 +1723,8 @@ MonoBehaviour:
   mainStory: {fileID: 0}
   DinnerStory: {fileID: 0}
   approvalRaiting: 0
-  canGetGift: 0
+  giftStatus: 0
+  convoTracker: 0
   loveInterestSprites:
   - {fileID: 21300000, guid: 7a21329a797da41979a11c85bb50020c, type: 3}
   - {fileID: 21300000, guid: c03a644035f254b48b14d4b54ad0bc47, type: 3}
@@ -1774,7 +1819,8 @@ MonoBehaviour:
   mainStory: {fileID: 0}
   DinnerStory: {fileID: 0}
   approvalRaiting: 0
-  canGetGift: 0
+  giftStatus: 0
+  convoTracker: 0
   loveInterestSprites:
   - {fileID: 21300000, guid: 863ef133c43302c4181adc7541107224, type: 3}
   - {fileID: 21300000, guid: 863ef133c43302c4181adc7541107224, type: 3}
@@ -1827,7 +1873,8 @@ MonoBehaviour:
   mainStory: {fileID: 0}
   DinnerStory: {fileID: 0}
   approvalRaiting: 0
-  canGetGift: 0
+  giftStatus: 0
+  convoTracker: 0
   loveInterestSprites:
   - {fileID: 0}
   - {fileID: 21300000, guid: eba58a618f838104c97d29aebdb2c260, type: 3}
@@ -1933,7 +1980,8 @@ MonoBehaviour:
   mainStory: {fileID: 0}
   DinnerStory: {fileID: 0}
   approvalRaiting: 0
-  canGetGift: 0
+  giftStatus: 0
+  convoTracker: 0
   loveInterestSprites:
   - {fileID: 21300000, guid: 2c0f46f89cee6e64db9c06d9cf836763, type: 3}
   - {fileID: 21300000, guid: 2c0f46f89cee6e64db9c06d9cf836763, type: 3}
@@ -1956,7 +2004,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1632717645
 Transform:
   m_ObjectHideFlags: 0
