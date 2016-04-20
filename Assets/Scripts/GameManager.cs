@@ -14,7 +14,8 @@ public class GameManager : MonoBehaviour {
 	public static int giftAvailable;
 
 
-    public static SFXManager audioManager;
+    public static SFXManager sfxManager;
+    public static BGMManager bgmManager;
     public static DialogController dialogControls;
     public static MapController mapControls;
     public static BackgroundController backgroundControls;
@@ -57,7 +58,8 @@ public class GameManager : MonoBehaviour {
         //loveInterests = new List<LoveInterest>(GameObject.FindObjectsOfType<LoveInterest>());
         mansion = GameObject.FindObjectOfType<Mansion>();
 
-        audioManager = GameObject.FindObjectOfType<SFXManager>();
+        sfxManager = GameObject.FindObjectOfType<SFXManager>();
+        bgmManager = GameObject.FindObjectOfType<BGMManager>();
         dialogControls = GameObject.FindObjectOfType<DialogController>();
         mapControls = GameObject.FindObjectOfType<MapController>();
         backgroundControls = GameObject.FindObjectOfType<BackgroundController>();

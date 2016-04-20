@@ -158,7 +158,7 @@ public class DialogController : MonoBehaviour
 
     private void ApplySound(string soundName)
     {
-        GameManager.audioManager.play(soundName);
+        GameManager.sfxManager.play(soundName);
     }
 
     private void DisplayOptions()

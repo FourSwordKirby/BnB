@@ -317,14 +317,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Rooms:
+  - {fileID: 11452024}
   - {fileID: 11464586}
   - {fileID: 11492742}
   - {fileID: 11485486}
   - {fileID: 11460824}
-  - {fileID: 11419572}
-  - {fileID: 11491536}
   - {fileID: 11430658}
-  - {fileID: 11452024}
+  - {fileID: 11491536}
+  - {fileID: 11419572}
 --- !u!114 &11460824
 MonoBehaviour:
   m_ObjectHideFlags: 1

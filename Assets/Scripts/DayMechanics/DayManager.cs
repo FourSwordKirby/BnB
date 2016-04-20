@@ -4,7 +4,7 @@ using UnityTwine;
 
 public class DayManager : MonoBehaviour {
 	public Room bedroom;
-    public Room library;
+    public Mansion mansion;
 	public Room dining;
 
 	public int remainingConvoPts;
@@ -16,6 +16,9 @@ public class DayManager : MonoBehaviour {
 
     //Hardcoded in noelle story
     public TwineStory NoelleStory;
+    public TwineStory HenStory;
+    public TwineStory PatStory;
+    public TwineStory JohnStory;
 
     public bool newDay;
 
@@ -50,8 +53,20 @@ public class DayManager : MonoBehaviour {
 
 	public void BeginDay() {
         //Currently hardcoding the fact that noelle appears in a room with the appropriate story
+        mansion.Rooms[(int)GameManager.RoomName.Library].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.Noelle));
+        mansion.Rooms[(int)GameManager.RoomName.Kitchen].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.John));
+        mansion.Rooms[(int)GameManager.RoomName.Parlor].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.Patrice));
+        mansion.Rooms[(int)GameManager.RoomName.Pasture].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.Henrietta));
+        /*
         library.inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.Noelle));
+        library.inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.Noelle));
+        library.inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.Noelle));
+        */
+        
         gameManager.getLoveInterest(GameManager.LoveInterestName.Noelle).currentStory = NoelleStory;
+        gameManager.getLoveInterest(GameManager.LoveInterestName.Henrietta).currentStory = HenStory;
+        gameManager.getLoveInterest(GameManager.LoveInterestName.Patrice).currentStory = PatStory;
+        gameManager.getLoveInterest(GameManager.LoveInterestName.John).currentStory = JohnStory;
 
 
 		/* Housekeeping for keeping track of info */
