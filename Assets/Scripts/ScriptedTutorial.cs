@@ -22,6 +22,7 @@ public class ScriptedTutorial : MonoBehaviour {
     public TwineStory suitorIntro;
 
     public List<TwineStory> SuitorIntros;
+    public List<TwineStory> TutorialCompletedIntros;
 
     public TwineStory tutorialEnd;
 
@@ -94,10 +95,22 @@ public class ScriptedTutorial : MonoBehaviour {
             if (inConversation && GameManager.loveInterestControls.gameObject.activeSelf == true)
             {
                 inConversation = false;
-                introsCompleted++;
-            }
+                if (SuitorIntros.Contains(GameManager.dialogControls.currentStory))
+                {
+                    int i = SuitorIntros.IndexOf(GameManager.dialogControls.currentStory);
+                    SuitorIntros[i] = null;
+                    gameManager.loveInterests[i+1].currentStory = TutorialCompletedIntros[i];
+                    introsCompleted++;
+                }
 
-            if (introsCompleted > 5)
+                /*
+                foreach (GameManager.love)
+                {
+                    suitor.currentStory = SuitorIntros[(int)suitor.designation - 1];
+                }
+                 */
+            }
+            if (introsCompleted >= 5)
             {
                 Debug.Log("ending tutorial");
                 introsCompleted = int.MinValue;

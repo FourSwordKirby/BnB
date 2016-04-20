@@ -1113,7 +1113,7 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   twineParser: {fileID: 11475490}
   currentStory: {fileID: 0}
-  clickSound: {fileID: 8300000, guid: f52d0ac78f1440740a72f21ba2b74ba5, type: 3}
+  clickSound: {fileID: 8300000, guid: 62eac45dc572c4045876451be9825085, type: 3}
   IgnoreEmptyLines: 1
 --- !u!114 &11464530
 MonoBehaviour:

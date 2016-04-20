@@ -521,11 +521,11 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 11475490, guid: e10c4fa56eb233444ae4c3247a0c9dec, type: 2}
+    - target: {fileID: 11462986, guid: e10c4fa56eb233444ae4c3247a0c9dec, type: 2}
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 1343823894}
-    - target: {fileID: 11462986, guid: e10c4fa56eb233444ae4c3247a0c9dec, type: 2}
+    - target: {fileID: 11475490, guid: e10c4fa56eb233444ae4c3247a0c9dec, type: 2}
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 1343823894}
@@ -1594,7 +1594,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1235006028
 Transform:
   m_ObjectHideFlags: 0
@@ -2004,7 +2004,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1632717645
 Transform:
   m_ObjectHideFlags: 0
@@ -2054,6 +2054,12 @@ MonoBehaviour:
   - {fileID: 389358773}
   - {fileID: 689035320}
   - {fileID: 1938997573}
+  TutorialCompletedIntros:
+  - {fileID: 1144533702}
+  - {fileID: 1144533702}
+  - {fileID: 1144533702}
+  - {fileID: 1144533702}
+  - {fileID: 1144533702}
   tutorialEnd: {fileID: 1143652499}
   firstTimeInParlor: 1
   wrongRoomCount: 0
