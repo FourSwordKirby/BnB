@@ -31,6 +31,7 @@ LUCILLE: What now?
 
 
 :: stay1
+%1, <lucy>, <center>, <frown>%
 LUCILLE: The place is certainly poncy enough for a prince to live in. I hate it.
 
 LUCILLE: What now?
@@ -45,9 +46,9 @@ LUCILLE: Alright, so you found me. What do you want?
 
 [[I want to hear your opinion of the other women staying in the castle.|women]]
 [[%lucy_approval,-30,0%How are you enjoying your stay here?|stay1]]
-[[%lucy_approval,0,10%How are you enjoying your stay here?|stay2]]
-[[%lucy_approval,10,50%How are you enjoying your stay here?|stay3]]
-[[%lucy_approval,50,70%How are you enjoying your stay here?|stay4]]
+[[%lucy_approval,1,30%How are you enjoying your stay here?|stay2]]
+[[%lucy_approval,31,50%How are you enjoying your stay here?|stay3]]
+[[%lucy_approval,51,70%How are you enjoying your stay here?|stay4]]
 [[Let's talk about you.|you]]
 
 
@@ -183,332 +184,461 @@ LUCILLE: What now?
 [[Let's talk about you.|you]]
 
 
-:: You don't seem to think very highly of your father.
-%1, <lucy>, <center>, <neutral>%
-LUCILLE: It seems that way because it <i>is</i> that way.
-
-LUCILLE: My father is a man like any other. He has flaws. More than most, perhaps.
-
-[[What kind of flaws?]]
-[[You don't think very highly of men in general, then.]]
-[[Do human flaws really merit such disdain?]]
-
-
-:: I suppose it must be easier that way.
-#lucy_approval, -5#
-%1, <lucy>, <center>, <frown>%
-LUCILLE: Yes. <i>Easier.</i> Of course.
-
-%1, <lucy>, <center>, <smile>%
-LUCILLE: Excuse me, sire, but I'd prefer we didn't discuss this any further. Could we move on to another topic?
-
-[[Very well. Let's talk about something else.]]
-[[I'd like to know more about this, actually.]]
-
-
-:: That doesn't mean it isn't awful.
-#lucy_approval, +5#
-%1, <lucy>, <center>, <scared>%
-LUCILLE: I...yes. Yes, you're right. 
-
-%1, <lucy>, <center>, <smile>%
-LUCILLE: Still, at least I have my father. He's always done his best to raise me. Or so he tells me.
-
-LUCILLE: Now if you'll excuse me, sire, I'd prefer we didn't discuss this any further. Could we move on to another topic?
-
-[[Very well. Let's talk about something else.]]
-[[I'd like to know more about this, actually.]]
-
-
-:: At least you have your father.
-%1, <lucy>, <center>, <frown>%
-LUCILLE: ...Yes. Yes, I suppose I've been...lucky, in that regard. Things could be...much worse.
-
-%1, <lucy>, <center>, <smile>%
-LUCILLE: He's always done his best to raise me. Or so he tells me.
-
-%1, <lucy>, <center>, <smile>%
-LUCILLE: Excuse me, sire, but I'd prefer we didn't discuss this any further. Could we move on to another topic?
-
-[[Very well. Let's talk about something else.]]
-[[I'd like to know more about this, actually.]]
-
-
 :: fam
 #convo_points, -1#
 %1, <lucy>, <center>, <neutral>%
-LUCILLE: There isn't much to tell. My mother died when I was very young, and my father's raised me ever since.
+LUCILLE: Nothing interesting to say on that subject. I've got a mother and a father, same as most people.
 
-BEAST: I'm sorry.
-
-LUCILLE: Yes, well. Like I said, I was very young. I barely remember her.
-
-[[That doesn't mean it isn't awful.]]
-[[I suppose it must be easier that way.]]
-[[At least you have your father.]]
+[[That's it? No siblings?]]
+[[That must be nice.]]
+[[Tell me about them.]]
 
 
 :: you
 LUCILLE: Alright, fine. But make it quick.
 
-[[Where are you from?]]
-[[What's your family like?|fam]]
-[[If you could go anywhere in the world, where would you go?]]
-[[You don't seem to think very highly of your father.]]
-[[You smile often, but it never seems to reach your eyes.]]
-[[What has your father done that's so unforgiveable?]]
+[[%lucy_convo, 0, 1%Where are you from?|from]]
+[[%lucy_convo, 0, 1%What's your family like?|fam]]
+[[%lucy_convo, 2, 3%If you could go anywhere in the world, where would you go?|world]]
+[[%lucy_convo, 2, 3%Is there a reason you drink so much?|drink]]
+[[Were you like this as a kid?|kid]]
+[[%lucy_convo, 2, 3%What were your friends like, back home?|friends]]
 
 
-:: I'd like to know more about this, actually.
-#lucy_approval, -5#
-LUCILLE: ...Of course, your <i>highness</i>. I am at your disposal as always. We can discuss whatever you wish.
 
-[[Are you really happy with the way your father's raised you?]]
-[[How did your mother die?]]
-[[I know what it's like to lose your parents.]]
-
-
-:: You don't think very highly of men in general, then.
+:: Tell me about them.
 %1, <lucy>, <center>, <neutral>%
-LUCILLE: Is it so surprising that a woman such as myself might have a negative opinion of the members of your sex?
+LUCILLE: I thought I already had.
 
-LUCILLE: I suppose, as a man yourself, you may not realize how often we women are at your mercy.
+LUCILLE: But fine, since you asked--my mum's a nice, upright citizen, and my father's a hard-working farmer.
 
-[[I rather like having you at my mercy.]]
-[[I've never thought of it that way before.]]
-[[I'm certainly not doing a very good job of disproving your point, am I?]]
+LUCILLE: What about you, Prince Lonesome?
+
+[[Wow. You really got me, there.|sarcasm1]]
+[[I was just curious.|That wasn't an attack. I was just curious.]]
+[[Do you always have to be so rude?]]
 
 
-:: What kind of flaws?
+:: That must be nice.
+%1, <lucy>, <center>, <neutral>%
+LUCILLE: Oh, did talking about my family hit a sore spot? Maybe you shouldn't have asked, then.
+
+[[Wow. You really got me, there.|sarcasm1]]
+[[I was just curious.|That wasn't an attack. I was just curious.]]
+[[Do you always have to be so rude?]]
+
+
+:: That's it? No siblings?
 %1, <lucy>, <center>, <frown>%
-LUCILLE: The normal kind. Selfishness, callousness, ruthlessness.
+LUCILLE: Sorry if that seems boring to you. But I haven't seen any other poncy gits running around here, either. So you have no room to talk.
 
-LUCILLE: He's a very good businessman.
-
-[[But not a very good man.]]
-[[Shouldn't you be proud to have such a successful father?]]
-[[At least you have a father.]]
+[[Wow. Bringing up how alone I am. You really got me.|sarcasm1]]
+[[That wasn't an attack. I was just curious.]]
+[[You must be really close to your parents, then.]]
 
 
-:: Do human flaws really merit such disdain?
-%1, <lucy>, <center>, <frown>%
-LUCILLE: I said the flaws of any <i>man</i>, not <i>human</i>. 
-
-LUCILLE: I've found that very few <i>women</i> are so afflicted.
-
-
-:: Where are you from?
+:: drink
 #convo_points, -1#
-LUCILLE: I'm from Redding, a large town to the north. My father is a merchant, and often travels to the harbor several towns over.
+%1, <lucy>, <center>, <neutral>%
+LUCILLE: You mean other than the fact that I'm at the mercy of a complete stranger? No, none at all.
 
-LUCILLE: It's a beautiful town, Redding. Perfectly charming. Easy to get lost in.
+[[The sarcasm's a little much, don't you think?]]
+[[A straight answer would be nice.]]
+[[At least my wine cellar is being put to good use.]]
 
-[[Why would you want to get lost?]]
-[[Have you always lived there?]]
+
+:: from
+#convo_points, -1#
+%1, <lucy>, <center>, <neutral>%
+LUCILLE: Oldbridge. You probably haven't heard of it. It's mostly just a bunch of farms.
+
+[[You're a farm girl, then!]]
+[[And there's an old bridge somewhere among those farms?]]
 [[Have you ever wanted to live anywhere else?]]
 
 
-:: Are you really happy with the way your father's raised you?
+:: At least my wine cellar is being put to good use.
+#lucy_approval, +5#
+%1, <lucy>, <center>, <smile>%
+LUCILLE: You're telling me! There are some great vintages in here. 
+
+LUCILLE: Didn't you ever drink any of this stuff? How long have you been living here?
+
+[[I tried once. My anatomy doesn't react well to alcohol.]]
+[[Too long.]]
+
+
+
+
+
+:: The sarcasm's a little much, don't you think?
 #lucy_approval, -5#
 %1, <lucy>, <center>, <frown>%
-LUCILLE: I don't really think it's appropriate to ask me such a leading question when we've only just met.
+LUCILLE: Sorry, is your <i>prisoner's</i> behavior rubbing you the wrong way?
 
-LUCILLE: I won't be talking about this any more.
+LUCILLE: If you want to blame someone for my being here, you should try looking in a mirror sometime. Although, I can't blame you for not wanting to.
 
-[[Very well. Let's talk about something else.]]
-[[I'll be leaving, then.]]
-
-
-
-:: How did your mother die?
-#lucy_approval, -10#
-%1, <lucy>, <center>, <angry>%
-LUCILLE: How <i>dare</i> you. 
-
-LUCILLE: We've barely met, and you find it appropriate to ask me such a question?!
-
-LUCILLE: Either ask me something else, or leave.
-
-[[Very well. Let's talk about something else.]]
-[[I'll be leaving, then.]]
+[[I've had years to get used to this face.|Too long.]]
+[[Actually, my butler's to blame.|It was his idea.]]
 
 
-:: I know what it's like to lose your parents.
-#lucy_approval, +10#
-%1, <lucy>, <center>, <scared>%
-LUCILLE: O-oh. Well. I suppose that makes your invasion of privacy a little less insulting.
 
+
+:: A straight answer would be nice.
+#lucy_approval, -5#
 %1, <lucy>, <center>, <neutral>%
-LUCILLE: Please, could we discuss something else now?
+LUCILLE: We all want things. Most of us just get used to disappointment.
 
-[[Very well. Let's talk about something else.]]
-[[Actually, I have to go.]]
+LUCILLE: After all, not all of us have butlers at our beck and call, ready to grant our every whim.
+
+LUCILLE: Like forcing young women to come to a stranger's castle, for instance.
+
+[[It was his idea.]]
+[[It was a rash decision. I've been alone for so long...|Too long.]]
+
+
+
+
+
+:: Do you always have to be so rude?
+#lucy_approval, -5#
+%1, <lucy>, <center>, <smile>%
+LUCILLE: Sure do. Someone has to.
+
+LUCILLE: It has the added effect of keeping people the hell away from me.
+
+[[I can relate to that.]]
+[[So you don't want us to be...closer?|You mean all this time together isn't bringing us...closer?]]
+
+
+:: sarcasm1
+#lucy_approval, +5#
+%1, <lucy>, <center>, <smile>%
+LUCILLE: Hah. So there's a sense of humor under all that fur after all.
+
+[[Making jokes about my fur, now? Seems like you're getting comfortable.]]
+[[I was afraid I was getting rusty.]]
+
+
+:: That wasn't an attack. I was just curious.
+#lucy_approval, -5#
+%1, <lucy>, <center>, <frown>%
+LUCILLE: Wow. You're a real buzzkill, huh? My mom'd love you. Well, maybe she would without all the fur.
+
+[[Making jokes about my fur, now? Seems like you're getting comfortable.]]
+[[I'm not used to talking to people.|I was afraid I was getting rusty.]]
+
+
+:: You must be really close to your parents, then.
+%1, <lucy>, <center>, <neutral>%
+LUCILLE: As if people stuck alone in one place for years are bound to be best friends? Hmph.
+
+LUCILLE: To answer your not-question: no. I'm not very close to my parents. I like my privacy.
+
+[[I can relate to that.]]
+[[Must be nice to have parents.]]
+[[You mean all this time together isn't bringing us...closer?]]
+
+
+:: You're a farm girl, then!
+%1, <lucy>, <center>, <frown>%
+LUCILLE: Oh, yes, ha ha. Laugh all you want. I know it's funny, the idea of me working the fields. I was never suited for it.
+
+LUCILLE: That's why I left home. Or, well, part of the reason.
+
+[[What's the rest of the reason?]]
+[[So you <i>never</i> enjoyed life on a farm?]]
+[[What would you rather be, then, instead of a farmer?]]
+
+
+:: And there's an old bridge somewhere among those farms?
+#lucy_approval, +5#
+%1, <lucy>, <center>, <smile>%
+LUCILLE: Sure enough. A big crumbling wooden thing. Its river is almost all dried up, so now it just sits over a field in the Landburys' fields.
+
+LUCILLE: Made a fine play spot for me as a kid. I never did like farm work.
+
+LUCILLE: That's why I left home. Or, well, part of the reason.
+
+[[What's the rest of the reason?]]
+[[So you <i>never</i> enjoyed life on a farm?]]
+[[What would you rather be, then, instead of a farmer?]]
 
 
 :: Have you ever wanted to live anywhere else?
-%1, <lucy>, <center>, <neutral>%
-LUCILLE: ...
-
-LUCILLE: Yes. Sometimes.
-
-LUCILLE: Sometimes, I imagine myself somewhere completely different, surrounded by people who know nothing about me.
-
 %1, <lucy>, <center>, <smile>%
-LUCILLE: ...But I suppose everyone must have dreams like that. Besides, my life is good enough as it is. I want for very little.
+LUCILLE: Of course. What kid doesn't?
 
-[['Very little' is still something. What is it you want?]]
-[[I have the same dream. Every day.]]
-[[It must be nice, to live so comfortably.]]
+LUCILLE: I never really fit in on the farm. Wasn't a homebody like all the other kids--most of them, anyway.
+
+LUCILLE: That's why I left home. Or, well, part of the reason.
+
+[[What's the rest of the reason?]]
+[[So you <i>never</i> enjoyed life on a farm?]]
+[[What would you rather be, then, instead of a farmer?]]
 
 
-:: Have you always lived there?
+:: else
+%1, <lucy>, <center>, <smile>%
+LUCILLE: Of course, sire. What would you like to talk about?
+
+[[I want to hear your opinion of the other women staying in the castle.|women]]
+[[%lucy_approval,-30,0%How are you enjoying your stay here?|stay1]]
+[[%lucy_approval,1,30%How are you enjoying your stay here?|stay2]]
+[[%lucy_approval,31,50%How are you enjoying your stay here?|stay3]]
+[[%lucy_approval,51,70%How are you enjoying your stay here?|stay4]]
+[[Let's talk about you.|you]]
+
+
+:: %lucy_approval, 1, 30%Am I that bad to be around?
 %1, <lucy>, <center>, <neutral>%
-LUCILLE: When I was a child, we lived in Nimes, further east. It's a marger larger town--a city, really. I was very young, so I have very few memories of our time there.
+LUCILLE: Alright, fine. Maybe I was a <i>little</i> harsh.
 
-LUCILLE: Will there be anything else, sire?
+LUCILLE: That doesn't mean I don't pity your butler.
 
-[[Let's talk about something else.|Very well. Let's talk about something else.]]
+LUCILLE: Can we talk about something else now?
+
+[[Sure.|else]]
 [[Actually, I have to leave.]]
 
 
-:: Why would you want to get lost?
+:: What's the rest of the reason?
+%1, <lucy>, <center>, <neutral>%
+LUCILLE: Look at me. I'm not a young little spring chicken any more, and there aren't many eligible men walking around rural towns like Oldbridge.
+
+LUCILLE: I was starting to become a financial sink for my parents to pour their money into. Or, at least, it felt that way.
+
+LUCILLE: Our town had to send a girl, and I volunteered. Seemed like the best thing for everyone.
+
+[[No one objected?]]
+[[That's awfully altruistic.]]
+[[I'm not sure I could've done that.]]
+
+
+:: So you <i>never</i> enjoyed life on a farm?
 %1, <lucy>, <center>, <frown>%
-LUCILLE: I didn't mean it like that, sire. It was just a--a figure of speech. 
+LUCILLE: Well...
 
 %1, <lucy>, <center>, <neutral>%
-LUCILLE: I just meant that it's nice to blend into crowds, and not be noticed by anyone. To just be one more face in a crowd.
+LUCILLE: Maybe once or twice. The sky out there...it's amazing. Stretches on for miles.
 
-[[That does sound nice.]]
-[[Why would you want to be one of many when you could stand out?]]
-[[I wouldn't know what that's like.]]
-
-
-:: I rather like having you at my mercy.
-#lucy_approval, -15#
 %1, <lucy>, <center>, <frown>%
-LUCILLE: Of course you do. I don't know why I expected anything different. 
+LUCILLE: Of course, then I had to volunteer to come to this shithole. It's impossible to find your way outside. This place is like a maze.
 
-LUCILLE: It's good to know that no matter what he might look like, a man is always the same under the skin: selfish and totally unconcerned with the feelings of women.
-
-
-:: I've never thought of it that way before.
-LUCILLE: And do you feel enlightened, now that you have?
+[[No one objected to you volunteering?|No one objected?]]
+[[You volunteered? That's awfully altruistic.|That's awfully altruistic.]]
+[[I'm not sure if I would've volunteered, in your position.|I'm not sure I could've done that.]]
 
 
-:: I'm certainly not doing a very good job of disproving your point, am I?
-%1, <lucy>, <center>, <smile>%
-LUCILLE: No, you're not. But at least you're self-aware about it. I wish I could say as much for every other man I've met.
+:: What would you rather be, then, instead of a farmer?
+%1, <lucy>, <center>, <neutral>%
+LUCILLE: Who knows?
+
+LUCILLE: I never really had high goals like the few other people who left Oldbridge did. Maybe that's why I didn't make it out until now.
+
+LUCILLE: Or maybe I was just lazy enough to volunteer so I could get out of doing farmwork for a week. Either way, I'm here.
+
+[[No one objected to you volunteering?|No one objected?]]
+[[You volunteered? That's awfully altruistic.|That's awfully altruistic.]]
+[[I'm not sure if I would've volunteered, in your position.|I'm not sure I could've done that.]]
+
+
+:: I tried once. My anatomy doesn't react well to alcohol.
+%1, <lucy>, <center>, <neutral>%
+LUCILLE: Oh, right. You've got...different bits inside. 
+
+LUCILLE: If you ask me, that's the worst curse imaginable.
+
+[[You have no idea.]]
+[[Beauregard makes it easier.|He does make it easier.]]
+[[I've missed female company more.|It's not the same as having...female company.]]
 
 
 
+:: Too long.
+%1, <lucy>, <center>, <neutral>%
+LUCILLE: Oh, right. Of course you've spent years alone in this castle, with no one else to talk to.
 
-:: Shouldn't you be proud to have such a successful father?
+LUCILLE: Except, oh, I don't know--your butler?
 
+LUCILLE: Don't try to pull the tragic act when you've had another human literally waiting on you hand and foot. Or paw, whatever.
 
-
-:: But not a very good man.
-
-
-
-:: At least you have a father.
-
-
-
-:: I'll be leaving, then.
-LUCILLE: Yes, I think that's for the best. We can both...clear our heads before speaking again.
-
-LUCILLE: Goodbye for now.
+[[Beauregard has been my butler since birth.]]
+[[He does make it easier.]]
+[[It's not the same as having...female company.]]
 
 
-:: Actually, I have to go.
-LUCILLE: Very well. Goodbye for now.
-
-
-:: I have the same dream. Every day.
-#lucy_approval, +5#
-%1, <lucy>, <center>, <scared>%
-LUCILLE: I...suppose you must.
-
-LUCILLE: Please, can we talk about something else? This topic is a bit too maudlin for my taste.
-
-[[Very well. Let's talk about something else.]]
-[[Actually, I have to leave.]]
-
-
-:: It must be nice, to live so comfortably.
+:: It was his idea.
 #lucy_approval, -5#
-%1, <lucy>, <center>, <smile>%
-LUCILLE: Yes. Of course. Not that your highness would know anything about that, living in an enormous castle as a prince.
-
-[[You have a point.]]
-[[I don't think it's the same at all. You aren't a monster.]]
-
-
-:: 'Very little' is still something. What is it you want?
 %1, <lucy>, <center>, <frown>%
-LUCILLE: ...I don't know. To be someone else, I suppose.
+LUCILLE: Right, right! And you're just the lucky beneficiary. 
 
+LUCILLE: Give me a break.
+
+[[I'm grateful for Beauregard's company every day.|He does make it easier.]]
+[[I'm glad he made the decision to bring you here.|It's not the same as having...female company.]]
+
+
+
+
+
+
+
+:: You mean all this time together isn't bringing us...closer?
 %1, <lucy>, <center>, <smile>%
-LUCILLE: But this is just the silly wish of a sheltered little girl. Don't mind me, sire.
+LUCILLE: Ha! No. And if that's your idea of a line, you've got a lot of work to do before you have a hope of impressing me.
 
-[[No, please, tell me more.]]
-[[I know that feeling very well myself.]]
-[[Very well. Let's talk about something else.]]
+LUCILLE: It has the added effect of keeping people the hell away from me.
 
-
-:: That does sound nice.
-#lucy_approval, +5#
-%1, <lucy>, <center>, <smile>%
-LUCILLE: I'm glad you see it that way.
-
-LUCILLE: What now?
-
-[[Yes, there is.|Very well. Let's talk about something else.]]
-[[Actually, I have to leave.]]
+[[I can relate to that.]]
+[[So I do have a hope of impressing you, eventually.]]
 
 
-:: Why would you want to be one of many when you could stand out?
-#lucy_approval, -5#
-%1, <lucy>, <center>, <smile>%
-LUCILLE: An <i>excellent</i> question, sire. So astute. I see now that you have the wit of a philosopher.
-
-LUCILLE: Will there be anything else, then?
-
-[[Yes. I'd like to talk about something else.|Very well. Let's talk about something else.]]
-[[Actually, I have to leave.]]
-
-
-:: I wouldn't know what that's like.
-%1, <lucy>, <center>, <scared>%
-LUCILLE: ...Oh.
-
-LUCILLE: Excuse me, sire. I didn't realize.
-
-[[It's alright.]]
-[[It must be nice to forget how hideous I am.]]
-
-
-:: It's alright.
+:: Making jokes about my fur, now? Seems like you're getting comfortable.
 #lucy_approval, +5#
 %1, <lucy>, <center>, <smile>%
-LUCILLE: Well. I'm glad I haven't offended you overly much.
+LUCILLE: Despite my better judgement, yeah. I guess I am.
 
-LUCILLE: What now?
+LUCILLE: Can we talk about something else now?
 
-[[Yes, there is.|Very well. Let's talk about something else.]]
+[[Sure.|else]]
 [[Actually, I have to leave.]]
 
 
-:: It must be nice to forget how hideous I am.
-#lucy_approval, -5#
+:: I was afraid I was getting rusty.
 %1, <lucy>, <center>, <smile>%
-LUCILLE: Yes. It is.
+LUCILLE: Right, right. Sad little prince all alone in a big empty castle. Sure. I get it. Just keep playing that pity card, you ponce.
 
-LUCILLE: Thank you, sire, for so conveniently concealing yourself from the women you might marry.
+LUCILLE: Can we talk about something else now?
 
-LUCILLE: Will there be anything else, then?
+[[Sure.|else]]
+[[Actually, I have to leave.]]
 
-[[Yes. I'd like to talk about something else.|Very well. Let's talk about something else.]]
+
+:: I can relate to that.
+#lucy_approval, +5#
+%1, <lucy>, <center>, <smile>%
+LUCILLE: Ah, right. Big scary beast likes to run around alone in his big empty castle, scaring people away.
+
+LUCILLE: I guess I don't really have any room to judge. Can we talk about something else now?
+
+[[Sure.|else]]
+[[Actually, I have to leave.]]
+
+
+:: Must be nice to have parents.
+#lucy_approval, -10#
+%1, <lucy>, <center>, <frown>%
+LUCILLE: Ugh. Spare me the pity party, will you? I don't have time for a poncy prince's tears.
+
+LUCILLE: Can we talk about something else now?
+
+[[Sure.|else]]
+[[Actually, I have to leave.]]
+
+
+:: %lucy_approval, -30, 0%Am I that bad to be around?
+%1, <lucy>, <center>, <frown>%
+LUCILLE: The short answer? Yes.
+
+LUCILLE: Can we talk about something else now?
+
+[[Sure.|else]]
+[[Actually, I have to leave.]]
+
+
+:: You have no idea.
+%1, <lucy>, <center>, <frown>%
+LUCILLE: Alright, so clearly there's some layered meaning there that I'm not touching with a ten-foot pole.
+
+LUCILLE: Can we talk about something else now?
+
+[[Sure.|else]]
+[[Actually, I have to leave.]]
+
+
+:: It's not the same as having...female company.
+%1, <lucy>, <center>, <smile>%
+LUCILLE: Ha! Was that supposed to be a line?
+
+LUCILLE: Besides, I'm not sure I qualify as "female company". None of the boys back home seemed to think so, anyway.
+
+[[They were very wrong.]]
+[[And you were alright with that?]]
+[[I can't imagine where they got that impression.]]
+
+
+:: He does make it easier.
+#lucy_approval, +5#
+%1, <lucy>, <center>, <frown>%
+LUCILLE: I can only hope he feels the same way about having to spend all his time with you.
+
+LUCILLE: Unlucky sod.
+
+[[I told him he could leave whenever he wanted.]]
+[[%lucy_approval, -30, 0%Am I that bad to be around?]]
+[[%lucy_approval, 1, 30%Am I that bad to be around?]]
+
+
+:: Beauregard has been my butler since birth.
+#lucy_approval, -5#
+%1, <lucy>, <center>, <frown>%
+LUCILLE: And I suppose that makes it all better?
+
+LUCILLE: I was raised to be a farmer, but look how well that turned out!
+
+LUCILLE: It doesn't matter what you were raised to do. You should still be able to make your own choices.
+
+[[I told him he could leave whenever he wanted.]]
+[[Why? I haven't been able to.]]
+
+
+:: No one objected?
+%1, <lucy>, <center>, <neutral>%
+LUCILLE: Not really.
+
+LUCILLE: Look, can we just talk about something else now?
+
+[[Sure.|else]]
+[[Actually, I have to leave.]]
+
+
+
+
+:: That's awfully altruistic.
+#lucy_approval, +5#
+%1, <lucy>, <center>, <neutral>%
+LUCILLE: Yeah, well, don't go telling anyone about it.
+
+LUCILLE: Can we talk about something else now?
+
+[[Sure.|else]]
+[[Actually, I have to leave.]]
+
+
+
+
+:: I'm not sure I could've done that.
+#lucy_approval, +5#
+%1, <lucy>, <center>, <neutral>%
+LUCILLE: It really wasn't a big deal. Someone had to go, and I was the best option.
+
+LUCILLE: Can we talk about something else now?
+
+[[Sure.|else]]
+[[Actually, I have to leave.]]
+
+
+
+
+:: So I do have a hope of impressing you, eventually.
+#lucy_approval, +5#
+%1, <lucy>, <center>, <neutral>%
+LUCILLE: Slow down, there, loverboy. I may have volunteered for this, but that doesn't mean I'm looking forward to getting married.
+
+LUCILLE: Can we talk about something else now?
+
+[[Sure.|else]]
 [[Actually, I have to leave.]]
 
 
@@ -517,75 +647,163 @@ LUCILLE: Will there be anything else, then?
 LUCILLE: Of course. I hope you have a pleasant day, sire.
 
 
-:: You have a point.
-#lucy_approval, +5#
-%1, <lucy>, <center>, <frown>%
-LUCILLE: Hm. Well. I suppose I do.
+:: And you were alright with that?
+%1, <lucy>, <center>, <neutral>%
+LUCILLE: Well, sure. I guess.
 
-LUCILLE: Men don't often concede to me. I have to admit, it's refreshing to hear.
+LUCILLE: I never knew anything different, anyway.
 
-%1, <lucy>, <center>, <frown>%
-LUCILLE: Could we talk about something else, now? I must admit I think we've exhausted this topic.
+LUCILLE: Can we talk about something else now?
 
-[[Very well. Let's talk about something else.]]
+[[Sure.|else]]
 [[Actually, I have to leave.]]
 
 
-:: I don't think it's the same at all. You aren't a monster.
+:: I can't imagine where they got that impression.
+#lucy_approval, -5#
+%1, <lucy>, <center>, <neutral>%
+LUCILLE: Ha ha. Yes, I know. I'm not exactly the most feminine person on the earth. Everyone in my life has made that <i>abundantly</i> clear already.
+
+LUCILLE: Can we talk about something else now?
+
+[[Sure.|else]]
+[[Actually, I have to leave.]]
+
+
+:: They were very wrong.
+#lucy_approval, +5#
+%1, <lucy>, <center>, <blush>%
+LUCILLE: Alright, calm down. There's no need for you to spout vapid flattery.
+
+LUCILLE: Can we talk about something else now?
+
+[[Sure.|else]]
+[[Actually, I have to leave.]]
+
+
+:: I told him he could leave whenever he wanted.
+#lucy_approval, +5#
+%1, <lucy>, <center>, <frown>%
+LUCILLE: And he chose to stay, hm?
+
+LUCILLE: Well. I guess there must be more to you than I thought.
+
+LUCILLE: Can we talk about something else now?
+
+[[Sure.|else]]
+[[Actually, I have to leave.]]
+
+
+:: Why? I haven't been able to.
 #lucy_approval, -5#
 %1, <lucy>, <center>, <frown>%
-LUCILLE: No. No, I suppose I'm not. 
+LUCILLE: Oh, lord. Please uninvite me from this pity party already.
 
-LUCILLE: Could we talk about something else now, sire? This subject is a bit too maudlin for my tastes.
+LUCILLE: Can we <i>please</i> talk about something other than your bruised ego now?
 
-[[Very well. Let's talk about something else.]]
+[[Sure.|else]]
 [[Actually, I have to leave.]]
 
 
-:: No, please, tell me more.
-#lucy_approval, +5#
+:: world
+#convo_points, -1#
 %1, <lucy>, <center>, <neutral>%
-LUCILLE: There isn't much to say, sire. Although it is...<i>nice</i> to be asked.
+LUCILLE: Are you kidding? Anywhere but here!
 
-LUCILLE: Could we talk about something else, now?
+LUCILLE: No offense. I just mean...well, exactly what I said.
 
-[[Very well. Let's talk about something else.]]
-[[Actually, I have to leave.]]
+LUCILLE: To be clear, though, "here" includes my farm, too.
 
+LUCILLE: If I had my way, I'd never go back there. Ever.
 
-:: Very well. Let's talk about something else.
-%1, <lucy>, <center>, <smile>%
-LUCILLE: Of course, sire. What would you like to talk about?
-
-[[I want to hear your opinion of the other women staying in the castle.|women]]
-[[%lucy_approval,-30,0%How are you enjoying your stay here?|stay1]]
-[[%lucy_approval,0,10%How are you enjoying your stay here?|stay2]]
-[[%lucy_approval,10,50%How are you enjoying your stay here?|stay3]]
-[[%lucy_approval,50,70%How are you enjoying your stay here?|stay4]]
-[[Let's talk about you.|you]]
+[[Really? You <i>never</i> want to go back?]]
+[[There must be somewhere specific you'd like to go.]]
+[[Such harsh words! I'm almost offended.]]
 
 
-:: I know that feeling very well myself.
-#lucy_approval, +5#
+:: Really? You <i>never</i> want to go back?
+
+
+
+:: There must be somewhere specific you'd like to go.
+
+
+
+:: Such harsh words! I'm almost offended.
+
+
+
+:: kid
+#convo_points, -1#
 %1, <lucy>, <center>, <neutral>%
-LUCILLE: Oh. I suppose you would.
+LUCILLE: Like what?
 
+[[Drunk.]]
+[[Rude.]]
+[[Sad.]]
+
+
+:: You look the same way I feel.
+
+
+
+:: friends
+
+
+
+:: Sad.
+%1, <lucy>, <center>, <angry>%
+LUCILLE: I'm not--!
+
+%1, <lucy>, <center>, <neutral>%
+LUCILLE: ...I mean, I'm not sad. Why would you think that?
+
+[[You look the same way I feel.]]
+[[Excuse me for trying to get personal.]]
+
+
+
+:: Rude.
 %1, <lucy>, <center>, <smile>%
-LUCILLE: Could we move on to another subject? I'm starting to feel a bit maudlin.
+LUCILLE: Ha! Good one.
 
-[[Very well. Let's talk about something else.]]
-[[Actually, I have to leave.]]
+LUCILLE: Can you even imagine? A tiny little kid, with all this sass? I'd have exploded!
 
-
-:: If you could go anywhere in the world, where would you go?
-
-
-
-:: You smile often, but it never seems to reach your eyes.
+[[I'm glad you didn't.]]
+[[That would've been a sight.]]
+[[How did you get this way, then?]]
 
 
+:: Drunk.
 
-:: What has your father done that's so unforgiveable?
+
+
+:: Excuse me for trying to get personal.
+%1, <lucy>, <center>, <angry>%
+LUCILLE: You're not excused. Not at all.
+
+[[I just want to get to know you.]]
+[[You want to push me away? Fine. You've done it.]]
+
+
+
+:: That would've been a sight.
+
+
+
+:: How did you get this way, then?
+
+
+
+:: I'm glad you didn't.
+
+
+
+:: I just want to get to know you.
+
+
+
+:: You want to push me away? Fine. You've done it.
 
 
 

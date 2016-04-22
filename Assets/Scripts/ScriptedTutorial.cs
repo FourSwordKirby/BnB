@@ -42,7 +42,7 @@ public class ScriptedTutorial : MonoBehaviour {
 	}
 
 	void Begin () {
-		GameManager.LoadRoom (bedroom);
+		GameManager.MoveToRoom (bedroom);
         previousRoom = GameManager.currentRoom;
 		GameManager.StartConversation (tutorialA);
 
@@ -122,7 +122,7 @@ public class ScriptedTutorial : MonoBehaviour {
         }
         else if (tutorialCompleted && GameManager.loveInterestControls.gameObject.activeSelf == true)
         {
-            GameManager.StartDay();
+            StartCoroutine(GameManager.EndDay());
             Destroy(this.gameObject);
         }
 

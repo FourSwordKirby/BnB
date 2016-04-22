@@ -1,39 +1,38 @@
 ﻿:: stay4
 %1, <john>, <center>, <smile>%
-JANE: Not sure how you managed it, but I'm...comfortable. Here, I mean.
+JANE: I don't know how you did it, but this place just feels so...cozy. Just...good. I don't know if I'll be able to leave. It feels like home.
 
-JANE: Feels wrong to image leaving, now. I suppose that's what you wanted, huh, you sly bastard?
-
-JANE: What now?
+JANE: Any other questions?
 
 [[I want to hear your opinion of the other women staying in the castle.|women]]
 [[Let's talk about you.|you]]
 
 
 :: stay3
-%1, <john>, <center>, <neutral>%
-JANE: It's honestly starting to feel a little cozy around here. Not something I'm used to, but I could see myself getting used to it. Maybe.
+%1, <john>, <center>, <smile>%
+JANE: The place has really grown on me. That one bust in the hallway? I wave to it every day!
 
-JANE: What now?
+JANE: Any other questions?
 
 [[I want to hear your opinion of the other women staying in the castle.|women]]
 [[Let's talk about you.|you]]
 
 
 :: stay2
-%1, <john>, <center>, <neutral>%
-JANE: I don't hate it as much as I thought I would. And that's as close to a compliment as you'll be getting from me.
+%1, <john>, <center>, <smile>%
+JANE: It's a big echo-y old place, isn't it? I don't know, I think it's growing on me.
 
-JANE: What now?
+JANE: Any other questions?
 
 [[I want to hear your opinion of the other women staying in the castle.|women]]
 [[Let's talk about you.|you]]
 
 
 :: stay1
-JANE: The place is certainly poncy enough for a prince to live in. I hate it.
+%1, <john>, <center>, <neutral>%
+JANE: Well, it's not exactly homey. But it could be worse.
 
-JANE: What now?
+JANE: Any other questions?
 
 [[I want to hear your opinion of the other women staying in the castle.|women]]
 [[Let's talk about you.|you]]
@@ -54,9 +53,9 @@ JANE: Hey there! Something you wanted?
 
 :: h1
 %1, <john>, <center>, <smile>%
-JANE: The cow? Hah! Yeah, like I spend a lot of time with her.
+JANE: Oh, you mean the cow! Good to know she has a name. It was getting weird just calling her "cow".
 
-JANE: What now?
+JANE: Any other questions?
 
 [[I want to hear your opinion of the other women staying in the castle.|women]]
 [[%john_approval,-30,0%How are you enjoying your stay here?|stay1]]
@@ -67,41 +66,10 @@ JANE: What now?
 
 
 :: h2
-%1, <john>, <center>, <neutral>%
-JANE: Hen's a good one. A cow, but a good one. Doesn't care how much I swear, unlike some other people I could name.
-
-JANE: What now?
-
-[[I want to hear your opinion of the other women staying in the castle.|women]]
-[[%john_approval,-30,0%How are you enjoying your stay here?|stay1]]
-[[%john_approval,0,10%How are you enjoying your stay here?|stay2]]
-[[%john_approval,10,50%How are you enjoying your stay here?|stay3]]
-[[%john_approval,50,70%How are you enjoying your stay here?|stay4]]
-[[Let's talk about you.|you]]
-
-
-:: j1
-%1, <john>, <center>, <neutral>%
-JANE: Jane and I haven't talked much yet, but I like her well enough. 
-
-JANE: What now?
-
-[[I want to hear your opinion of the other women staying in the castle.|women]]
-[[%john_approval,-30,0%How are you enjoying your stay here?|stay1]]
-[[%john_approval,0,10%How are you enjoying your stay here?|stay2]]
-[[%john_approval,10,50%How are you enjoying your stay here?|stay3]]
-[[%john_approval,50,70%How are you enjoying your stay here?|stay4]]
-[[Let's talk about you.|you]]
-
-
-:: j2
 %1, <john>, <center>, <smile>%
-JANE: Jane's great! She's someone who gets it. Really gets it. 
+JANE: I really like Hen. She just...gets it, y'know?
 
-%1, <john>, <center>, <neutral>%
-JANE: Too bad she doesn't have anything from home to remember her family by. Fuck knows I wouldn't want anything to remember mine by, but Jane's family is different. She misses them.
-
-JANE: What now?
+JANE: Any other questions?
 
 [[I want to hear your opinion of the other women staying in the castle.|women]]
 [[%john_approval,-30,0%How are you enjoying your stay here?|stay1]]
@@ -109,14 +77,47 @@ JANE: What now?
 [[%john_approval,10,50%How are you enjoying your stay here?|stay3]]
 [[%john_approval,50,70%How are you enjoying your stay here?|stay4]]
 [[Let's talk about you.|you]]
+
+
+:: l1
+%1, <john>, <center>, <smile>%
+JANE: Lucille and I haven't talked much yet, but she seems pretty interesting. 
+
+JANE: Any other questions?
+
+[[I want to hear your opinion of the other women staying in the castle.|women]]
+[[%john_approval,-30,0%How are you enjoying your stay here?|stay1]]
+[[%john_approval,0,10%How are you enjoying your stay here?|stay2]]
+[[%john_approval,10,50%How are you enjoying your stay here?|stay3]]
+[[%john_approval,50,70%How are you enjoying your stay here?|stay4]]
+[[Let's talk about you.|you]]
+
+
+:: l2
+%1, <john>, <center>, <smile>%
+JANE: Lucille's great! She's really, really funny, once you crack through that shell.
+
+JANE: Any other questions?
+
+[[I want to hear your opinion of the other women staying in the castle.|women]]
+[[%john_approval,-30,0%How are you enjoying your stay here?|stay1]]
+[[%john_approval,0,10%How are you enjoying your stay here?|stay2]]
+[[%john_approval,10,50%How are you enjoying your stay here?|stay3]]
+[[%john_approval,50,70%How are you enjoying your stay here?|stay4]]
+[[Let's talk about you.|you]]
+
+
+:: leave
+%1, <john>, <center>, <smile>%
+JANE: Alright! I'll see you later, then.
 
 
 :: women
 %1, <john>, <center>, <frown>%
 JANE: Sure, fine, whatever. Shoot.
 
-[[%day, 1, 2%Jane.|j1]]
-[[%day, 3, 6%Jane.|j2]]
+[[%day, 1, 2%Lucille.|l1]]
+[[%day, 3, 6%Lucille.|l2]]
 [[%day, 1, 2%Pat.|p1]]
 [[%day, 3, 6%Pat.|p2]]
 [[%day, 1, 2%Noelle.|n1]]
@@ -126,10 +127,10 @@ JANE: Sure, fine, whatever. Shoot.
 
 
 :: p1
-%1, <john>, <center>, <neutral>%
-JANE: Pat? She's alright, I guess. Haven't really seen her much. But she always <i>smiles</i> at me. It's...weird.
+%1, <john>, <center>, <smile>%
+JANE: Pat's so polite! I've never met anyone as courteous as her.
 
-JANE: What now?
+JANE: Any other questions?
 
 [[I want to hear your opinion of the other women staying in the castle.|women]]
 [[%john_approval,-30,0%How are you enjoying your stay here?|stay1]]
@@ -140,10 +141,10 @@ JANE: What now?
 
 
 :: p2
-%1, <john>, <center>, <neutral>%
-JANE: Pat's a good sort. Just...nice. She tries to mother me sometimes, though. I could do without that.
+%1, <john>, <center>, <smile>%
+JANE: Pat's great! She's like a second mom to me, although she's not nearly old enough for it. There's just something about her...
 
-JANE: What now?
+JANE: Any other questions?
 
 [[I want to hear your opinion of the other women staying in the castle.|women]]
 [[%john_approval,-30,0%How are you enjoying your stay here?|stay1]]
@@ -155,9 +156,9 @@ JANE: What now?
 
 :: n1
 %1, <john>, <center>, <frown>%
-JANE: Noelle smiles a lot, but she doesn't mean it. I don't trust her. And her face goes all sharp when I swear around her.
+JANE: Noelle's...very much a lady. She's intimidating, honestly.
 
-JANE: What now?
+JANE: Any other questions?
 
 [[I want to hear your opinion of the other women staying in the castle.|women]]
 [[%john_approval,-30,0%How are you enjoying your stay here?|stay1]]
@@ -169,11 +170,9 @@ JANE: What now?
 
 :: n2
 %1, <john>, <center>, <neutral>%
-JANE: Noelle's...I don't know. She's weird. Doesn't mean what she says half the time, but...
+JANE: Noelle's alright. I get the feeling something's bothering her, and she just tries to hide it by acting all uppity.
 
-JANE: I don't know. Nevermind.
-
-JANE: What now?
+JANE: Any other questions?
 
 [[I want to hear your opinion of the other women staying in the castle.|women]]
 [[%john_approval,-30,0%How are you enjoying your stay here?|stay1]]
@@ -183,409 +182,142 @@ JANE: What now?
 [[Let's talk about you.|you]]
 
 
-:: You don't seem to think very highly of your father.
-%1, <john>, <center>, <neutral>%
-JANE: It seems that way because it <i>is</i> that way.
+:: you
+JANE: Sure. What're you curious about?
 
-JANE: My father is a man like any other. He has flaws. More than most, perhaps.
+[[%john_convo, 0, 1%Where are you from?|from]]
+[[%john_convo, 0, 1%What's your family like?|fam]]
+[[%john_convo, 2, 3%If you could go anywhere in the world, where would you go?|world]]
+[[%john_convo, 2, 3%I've never met anyone who loves their sister as much as you do.|sister]]
+[[%john_convo, 4, 4%When did you start baking?|baking]]
+[[%john_convo, 5, 5%If you love your family so much, why did you come here?|boy]]
 
-[[What kind of flaws?]]
-[[You don't think very highly of men in general, then.]]
-[[Do human flaws really merit such disdain?]]
 
-
-:: I suppose it must be easier that way.
-#john_approval, -5#
-%1, <john>, <center>, <frown>%
-JANE: Yes. <i>Easier.</i> Of course.
-
+:: else
 %1, <john>, <center>, <smile>%
-JANE: Excuse me, sire, but I'd prefer we didn't discuss this any further. Could we move on to another topic?
+JANE: Right. What do you want to know?
 
-[[Very well. Let's talk about something else.]]
-[[I'd like to know more about this, actually.]]
-
-
-:: That doesn't mean it isn't awful.
-#john_approval, +5#
-%1, <john>, <center>, <scared>%
-JANE: I...yes. Yes, you're right. 
-
-%1, <john>, <center>, <smile>%
-JANE: Still, at least I have my father. He's always done his best to raise me. Or so he tells me.
-
-JANE: Now if you'll excuse me, sire, I'd prefer we didn't discuss this any further. Could we move on to another topic?
-
-[[Very well. Let's talk about something else.]]
-[[I'd like to know more about this, actually.]]
-
-
-:: At least you have your father.
-%1, <john>, <center>, <frown>%
-JANE: ...Yes. Yes, I suppose I've been...lucky, in that regard. Things could be...much worse.
-
-%1, <john>, <center>, <smile>%
-JANE: He's always done his best to raise me. Or so he tells me.
-
-%1, <john>, <center>, <smile>%
-JANE: Excuse me, sire, but I'd prefer we didn't discuss this any further. Could we move on to another topic?
-
-[[Very well. Let's talk about something else.]]
-[[I'd like to know more about this, actually.]]
+[[I want to hear your opinion of the other women staying in the castle.|women]]
+[[%john_approval,-30,0%How are you enjoying your stay here?|stay1]]
+[[%john_approval,0,10%How are you enjoying your stay here?|stay2]]
+[[%john_approval,10,50%How are you enjoying your stay here?|stay3]]
+[[%john_approval,50,70%How are you enjoying your stay here?|stay4]]
+[[Let's talk about you.|you]]
 
 
 :: fam
 #convo_points, -1#
-%1, <john>, <center>, <neutral>%
-JANE: There isn't much to tell. My mother died when I was very young, and my father's raised me ever since.
+%1, <john>, <center>, <smile>%
+JANE: My family's great! It's just my mom and my dad and my sister and me. We're really close.
 
-BEAST: I'm sorry.
+JANE: My sister and I are twins, but she got the beauty and the brains.
 
-JANE: Yes, well. Like I said, I was very young. I barely remember her.
-
-[[That doesn't mean it isn't awful.]]
-[[I suppose it must be easier that way.]]
-[[At least you have your father.]]
+[[I find that hard to believe.]]
+[[Is that why they sent you?]]
+[[Your family sounds wonderful.]]
 
 
-:: you
-JANE: Alright, fine. But make it quick.
-
-[[Where are you from?]]
-[[What's your family like?|fam]]
-[[If you could go anywhere in the world, where would you go?]]
-[[You don't seem to think very highly of your father.]]
-[[You smile often, but it never seems to reach your eyes.]]
-[[What has your father done that's so unforgiveable?]]
+:: You're right.
 
 
-:: I'd like to know more about this, actually.
-#john_approval, -5#
-JANE: ...Of course, your <i>highness</i>. I am at your disposal as always. We can discuss whatever you wish.
 
-[[Are you really happy with the way your father's raised you?]]
-[[How did your mother die?]]
-[[I know what it's like to lose your parents.]]
-
-
-:: You don't think very highly of men in general, then.
-%1, <john>, <center>, <neutral>%
-JANE: Is it so surprising that a woman such as myself might have a negative opinion of the members of your sex?
-
-JANE: I suppose, as a man yourself, you may not realize how often we women are at your mercy.
-
-[[I rather like having you at my mercy.]]
-[[I've never thought of it that way before.]]
-[[I'm certainly not doing a very good job of disproving your point, am I?]]
-
-
-:: What kind of flaws?
-%1, <john>, <center>, <frown>%
-JANE: The normal kind. Selfishness, callousness, ruthlessness.
-
-JANE: He's a very good businessman.
-
-[[But not a very good man.]]
-[[Shouldn't you be proud to have such a successful father?]]
-[[At least you have a father.]]
-
-
-:: Do human flaws really merit such disdain?
-%1, <john>, <center>, <frown>%
-JANE: I said the flaws of any <i>man</i>, not <i>human</i>. 
-
-JANE: I've found that very few <i>women</i> are so afflicted.
-
-
-:: Where are you from?
+:: from
 #convo_points, -1#
-JANE: I'm from Redding, a large town to the north. My father is a merchant, and often travels to the harbor several towns over.
-
-JANE: It's a beautiful town, Redding. Perfectly charming. Easy to get lost in.
-
-[[Why would you want to get lost?]]
-[[Have you always lived there?]]
-[[Have you ever wanted to live anywhere else?]]
-
-
-:: Are you really happy with the way your father's raised you?
-#john_approval, -5#
-%1, <john>, <center>, <frown>%
-JANE: I don't really think it's appropriate to ask me such a leading question when we've only just met.
-
-JANE: I won't be talking about this any more.
-
-[[Very well. Let's talk about something else.]]
-[[I'll be leaving, then.]]
 
 
 
-:: How did your mother die?
-#john_approval, -10#
-%1, <john>, <center>, <angry>%
-JANE: How <i>dare</i> you. 
-
-JANE: We've barely met, and you find it appropriate to ask me such a question?!
-
-JANE: Either ask me something else, or leave.
-
-[[Very well. Let's talk about something else.]]
-[[I'll be leaving, then.]]
+:: world
+#convo_points, -1#
 
 
-:: I know what it's like to lose your parents.
+
+:: I find that hard to believe.
+#john_approval, +5#
+%1, <john>, <center>, <smile>%
+JANE: Flatterer.
+
+JANE: It's true, though. Don't worry, I'm not cut up about it. I'm too proud of her to be jealous.
+
+[[That's very noble of you.]]
+[[Really? You aren't even a little jealous?]]
+
+
+:: Is that why they sent you?
+%1, <john>, <center>, <smile>%
+JANE: Ha!
+
+JANE: You got me. I'm the lesser twin, meant only as a distraction so that the prettier twin can make her escape.
+
+[[So I'm so awful I need to be escaped?]]
+[[How far do you think she's gotten?]]
+[[She can't get away that easily!]]
+
+
+:: Your family sounds wonderful.
 #john_approval, +10#
-%1, <john>, <center>, <scared>%
-JANE: O-oh. Well. I suppose that makes your invasion of privacy a little less insulting.
+%1, <john>, <center>, <smile>%
+JANE: They're as wonderful as they sound, and then some.
 
 %1, <john>, <center>, <neutral>%
-JANE: Please, could we discuss something else now?
+JANE: Is it just you and your butler in this castle? Where's your family?
 
-[[Very well. Let's talk about something else.]]
-[[Actually, I have to go.]]
-
-
-:: Have you ever wanted to live anywhere else?
-%1, <john>, <center>, <neutral>%
-JANE: ...
-
-JANE: Yes. Sometimes.
-
-JANE: Sometimes, I imagine myself somewhere completely different, surrounded by people who know nothing about me.
-
-%1, <john>, <center>, <smile>%
-JANE: ...But I suppose everyone must have dreams like that. Besides, my life is good enough as it is. I want for very little.
-
-[['Very little' is still something. What is it you want?]]
-[[I have the same dream. Every day.]]
-[[It must be nice, to live so comfortably.]]
+[[Gone. They were significantly less wonderful than yours.|gone]]
+[[They left. Not that I can blame them.|gone]]
 
 
-:: Have you always lived there?
-%1, <john>, <center>, <neutral>%
-JANE: When I was a child, we lived in Nimes, further east. It's a marger larger town--a city, really. I was very young, so I have very few memories of our time there.
 
-JANE: Will there be anything else, sire?
-
-[[Let's talk about something else.|Very well. Let's talk about something else.]]
-[[Actually, I have to leave.]]
-
-
-:: Why would you want to get lost?
-%1, <john>, <center>, <frown>%
-JANE: I didn't mean it like that, sire. It was just a--a figure of speech. 
+:: gone
+%1, <john>, <center>, <sad>%
+JANE: Oh. Wow, that's...I can't even imagine.
 
 %1, <john>, <center>, <neutral>%
-JANE: I just meant that it's nice to blend into crowds, and not be noticed by anyone. To just be one more face in a crowd.
+JANE: At least you have your butler, though, right? Beau...Beafont?
 
-[[That does sound nice.]]
-[[Why would you want to be one of many when you could stand out?]]
-[[I wouldn't know what that's like.]]
+BEAST: Beauregard.
 
+JANE: Right! Beauregard. At least you have him.
 
-:: I rather like having you at my mercy.
-#john_approval, -15#
-%1, <john>, <center>, <frown>%
-JANE: Of course you do. I don't know why I expected anything different. 
+[[You're right.]]
+[[It's nice to have all of you here now, too.]]
 
-JANE: It's good to know that no matter what he might look like, a man is always the same under the skin: selfish and totally unconcerned with the feelings of women.
 
 
-:: I've never thought of it that way before.
-JANE: And do you feel enlightened, now that you have?
+:: It's nice to have all of you here now, too.
 
 
-:: I'm certainly not doing a very good job of disproving your point, am I?
-%1, <john>, <center>, <smile>%
-JANE: No, you're not. But at least you're self-aware about it. I wish I could say as much for every other man I've met.
 
+:: Really? You aren't even a little jealous?
 
 
 
-:: Shouldn't you be proud to have such a successful father?
+:: That's very noble of you.
 
 
 
-:: But not a very good man.
+:: So I'm so awful I need to be escaped?
 
 
 
-:: At least you have a father.
+:: How far do you think she's gotten?
 
 
 
-:: I'll be leaving, then.
-JANE: Yes, I think that's for the best. We can both...clear our heads before speaking again.
+:: She can't get away that easily!
 
-JANE: Goodbye for now.
 
 
-:: Actually, I have to go.
-JANE: Very well. Goodbye for now.
+:: sister
+#convo_points, -1#
 
 
-:: I have the same dream. Every day.
-#john_approval, +5#
-%1, <john>, <center>, <scared>%
-JANE: I...suppose you must.
 
-JANE: Please, can we talk about something else? This topic is a bit too maudlin for my taste.
+:: baking
+#convo_points, -1#
 
-[[Very well. Let's talk about something else.]]
-[[Actually, I have to leave.]]
 
 
-:: It must be nice, to live so comfortably.
-#john_approval, -5#
-%1, <john>, <center>, <smile>%
-JANE: Yes. Of course. Not that your highness would know anything about that, living in an enormous castle as a prince.
-
-[[You have a point.]]
-[[I don't think it's the same at all. You aren't a monster.]]
-
-
-:: 'Very little' is still something. What is it you want?
-%1, <john>, <center>, <frown>%
-JANE: ...I don't know. To be someone else, I suppose.
-
-%1, <john>, <center>, <smile>%
-JANE: But this is just the silly wish of a sheltered little girl. Don't mind me, sire.
-
-[[No, please, tell me more.]]
-[[I know that feeling very well myself.]]
-[[Very well. Let's talk about something else.]]
-
-
-:: That does sound nice.
-#john_approval, +5#
-%1, <john>, <center>, <smile>%
-JANE: I'm glad you see it that way.
-
-JANE: What now?
-
-[[Yes, there is.|Very well. Let's talk about something else.]]
-[[Actually, I have to leave.]]
-
-
-:: Why would you want to be one of many when you could stand out?
-#john_approval, -5#
-%1, <john>, <center>, <smile>%
-JANE: An <i>excellent</i> question, sire. So astute. I see now that you have the wit of a philosopher.
-
-JANE: Will there be anything else, then?
-
-[[Yes. I'd like to talk about something else.|Very well. Let's talk about something else.]]
-[[Actually, I have to leave.]]
-
-
-:: I wouldn't know what that's like.
-%1, <john>, <center>, <scared>%
-JANE: ...Oh.
-
-JANE: Excuse me, sire. I didn't realize.
-
-[[It's alright.]]
-[[It must be nice to forget how hideous I am.]]
-
-
-:: It's alright.
-#john_approval, +5#
-%1, <john>, <center>, <smile>%
-JANE: Well. I'm glad I haven't offended you overly much.
-
-JANE: What now?
-
-[[Yes, there is.|Very well. Let's talk about something else.]]
-[[Actually, I have to leave.]]
-
-
-:: It must be nice to forget how hideous I am.
-#john_approval, -5#
-%1, <john>, <center>, <smile>%
-JANE: Yes. It is.
-
-JANE: Thank you, sire, for so conveniently concealing yourself from the women you might marry.
-
-JANE: Will there be anything else, then?
-
-[[Yes. I'd like to talk about something else.|Very well. Let's talk about something else.]]
-[[Actually, I have to leave.]]
-
-
-:: Actually, I have to leave.
-%1, <john>, <center>, <smile>%
-JANE: Of course. I hope you have a pleasant day, sire.
-
-
-:: You have a point.
-#john_approval, +5#
-%1, <john>, <center>, <frown>%
-JANE: Hm. Well. I suppose I do.
-
-JANE: Men don't often concede to me. I have to admit, it's refreshing to hear.
-
-%1, <john>, <center>, <frown>%
-JANE: Could we talk about something else, now? I must admit I think we've exhausted this topic.
-
-[[Very well. Let's talk about something else.]]
-[[Actually, I have to leave.]]
-
-
-:: I don't think it's the same at all. You aren't a monster.
-#john_approval, -5#
-%1, <john>, <center>, <frown>%
-JANE: No. No, I suppose I'm not. 
-
-JANE: Could we talk about something else now, sire? This subject is a bit too maudlin for my tastes.
-
-[[Very well. Let's talk about something else.]]
-[[Actually, I have to leave.]]
-
-
-:: No, please, tell me more.
-#john_approval, +5#
-%1, <john>, <center>, <neutral>%
-JANE: There isn't much to say, sire. Although it is...<i>nice</i> to be asked.
-
-JANE: Could we talk about something else, now?
-
-[[Very well. Let's talk about something else.]]
-[[Actually, I have to leave.]]
-
-
-:: Very well. Let's talk about something else.
-%1, <john>, <center>, <smile>%
-JANE: Of course, sire. What would you like to talk about?
-
-[[I want to hear your opinion of the other women staying in the castle.|women]]
-[[%john_approval,-30,0%How are you enjoying your stay here?|stay1]]
-[[%john_approval,0,10%How are you enjoying your stay here?|stay2]]
-[[%john_approval,10,50%How are you enjoying your stay here?|stay3]]
-[[%john_approval,50,70%How are you enjoying your stay here?|stay4]]
-[[Let's talk about you.|you]]
-
-
-:: I know that feeling very well myself.
-#john_approval, +5#
-%1, <john>, <center>, <neutral>%
-JANE: Oh. I suppose you would.
-
-%1, <john>, <center>, <smile>%
-JANE: Could we move on to another subject? I'm starting to feel a bit maudlin.
-
-[[Very well. Let's talk about something else.]]
-[[Actually, I have to leave.]]
-
-
-:: If you could go anywhere in the world, where would you go?
-
-
-
-:: You smile often, but it never seems to reach your eyes.
-
-
-
-:: What has your father done that's so unforgiveable?
+:: boy
+#convo_points, -1#
 
 
 

@@ -19,7 +19,7 @@ public class TestParsing : MonoBehaviour {
 	}
 
 	void Begin () {
-		GameManager.LoadRoom (bedroom);
+		//GameManager.MoveToRoom (bedroom);
 
 		//dialogController.StartConversation (testScript);
 

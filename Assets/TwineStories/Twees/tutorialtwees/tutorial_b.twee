@@ -1,0 +1,112 @@
+﻿:: Start [beauFROWN]
+%1, <beau>, <center>, <smile>%
+BEAUREGARD: There you are, sire! Excellent. Now we can get you ready to woo a fair maiden.
+
+BEAST: Look at me, Beauregard. I'm a monster. There's no way any of those women will want me.
+
+%1, <beau>, <center>, <frown>%
+BEAUREGARD: Well, not with that attitude. You'll have to be <b>significantly more well-mannered</b> if you want to win their affections. Come, practice on me.
+
+BEAST: What?
+
+%1, <beau>, <center>, <neutral>%
+BEAUREGARD: Like this. 
+
+%1, <beau>, <center>, <blush>%
+BEAUREGARD: <i>I'm a young woman from a small village, here to meet the man who could be my future husband...if he plays his cards right.</i>
+
+BEAST: Beau, this is ridiculous.
+
+%1, <beau>, <center>, <frown>%
+BEAUREGARD: We're running out of time, sire! Or would you rather face the women out there as you are now, having not spoken to a woman in ten years?
+
+BEAST: ...Fine.
+
+%1, <beau>, <center>, <neutral>%
+BEAUREGARD: Now then. 
+
+%1, <beau>, <center>, <blush>%
+BEAUREGARD: <i>My name's Olivia. What's yours?</i>
+
+[[Prince Adam.]]
+[[Adam. Just Adam.]]
+[[Beast.]]
+
+
+:: Beast. [beauANGRY]
+%1, <beau>, <center>, <angry>%
+BEAUREGARD: Don't be ridiculous, sire! I won't have you introducing yourself with that <i>silly</i> nickname you came up with. It's depressing.
+
+[[Fine. Prince Adam, then.|Prince Adam.]]
+[[Then my name is Adam. Just Adam.|Adam. Just Adam.]]
+[[Being like this is depressing. The name suits me.]]
+
+
+:: Prince Adam. [beauSMILE]
+%1, <beau>, <center>, <smile>%
+BEAUREGARD: 
+<i>A pleasure to meet you, your majesty!</i>
+
+%1, <beau>, <center>, <blush>%
+BEAUREGARD: 
+<i>So, what is it like, living in a castle?</i>
+
+[[I certainly enjoy it. I hope you will, too.]]
+[[It's alright. Better than living in a straw hut, I suppose.]]
+[[Living in a castle alone, because I'm too beastly for anyone to look at? It's fantastic.]]
+
+
+:: Adam. Just Adam. [beauSMILE]
+%1, <beau>, <center>, <smile>%
+BEAUREGARD: <i>Oh, so humble! A pleasure to meet you, Adam.</i> 
+
+%1, <beau>, <center>, <blush>%
+BEAUREGARD: <i>So, what is it like, living in a castle?</i>
+
+[[I certainly enjoy it. I hope you will, too.]]
+[[It's alright. Better than living in a straw hut, I suppose.]]
+[[Living in a castle alone, because I'm too beastly for anyone to look at? It's fantastic.]]
+
+
+:: Being like this is depressing. The name suits me. [beauFROWN]
+%1, <beau>, <center>, <frown>%
+BEAUREGARD: Ugh! You're impossible. Let's just keep going. 
+
+%1, <beau>, <center>, <neutral>%
+BEAUREGARD: Ahem. 
+
+%1, <beau>, <center>, <blush>%
+BEAUREGARD: <i>So, what is it like, living in a castle?</i>
+
+[[I certainly enjoy it. I hope you will, too.]]
+[[It's alright. Better than living in a straw hut, I suppose.]]
+[[Living in a castle alone, because I'm too beastly for anyone to look at? It's fantastic.]]
+
+
+:: I certainly enjoy it. I hope you will, too. [beauSMILE]
+%1, <beau>, <center>, <smile>%
+BEAUREGARD: Very good, sire! If I were a young lady, I'm sure I'd feel very charmed.
+
+BEAUREGARD: I'm quite sure you're ready to <b>face your suitors</b>. 
+
+BEAUREGARD: I'll go fetch them. They should be with you shortly.
+
+
+:: It's alright. Better than living in a straw hut, I suppose. [beauFROWN]
+%1, <beau>, <center>, <neutral>%
+BEAUREGARD: Please, sire, try to control your enthusiasm. 
+
+BEAUREGARD: Well, I'd say this is as good a time as any to face the ladies, don't you think? 
+
+BEAUREGARD: <b>I'll bring them in now.</b>
+
+
+:: Living in a castle alone, because I'm too beastly for anyone to look at? It's fantastic.
+%1, <beau>, <center>, <frown>%
+BEAUREGARD: Ugh! Fine. I don't know why I bother. 
+
+BEAUREGARD: There's no point in delaying it any longer, sire, foul mood or no. 
+
+BEAUREGARD: <b>I'll bring the ladies in. </b>Please at least <i>attempt</i> to be civil?
+
+

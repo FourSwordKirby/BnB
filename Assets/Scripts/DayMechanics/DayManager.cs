@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 using UnityTwine;
 
 public class DayManager : MonoBehaviour {
@@ -14,18 +15,23 @@ public class DayManager : MonoBehaviour {
 	public TwineStory morningBeauStory;
     public TwineStory eveningBeauStory;
 
-    //Hardcoded in noelle story
-    public TwineStory NoelleStory;
-    public TwineStory HenStory;
-    public TwineStory PatStory;
-    public TwineStory JohnStory;
+    public List<Sprite> daySprites;
 
-    public bool newDay;
+    //Hardcoded in stories
+    public TwineStory HenStory;
+    public TwineStory LucyStory;
+    public TwineStory JohnStory;
+    public TwineStory PatStory;
+    public TwineStory NoelleStory;
+
+    public bool endOfDay;
 
 	// Use this for initialization
 	void Start () {
-        if(newDay)
-            BeginDay();
+        /*if (endOfDay)
+        {
+            StartCoroutine(GameManager.EndDay());
+        }*/
 	}
 
 
@@ -52,22 +58,20 @@ public class DayManager : MonoBehaviour {
 	 */
 
 	public void BeginDay() {
-        //Currently hardcoding the fact that noelle appears in a room with the appropriate story
-        mansion.Rooms[(int)GameManager.RoomName.Library].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.Noelle));
-        mansion.Rooms[(int)GameManager.RoomName.Kitchen].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.John));
-        mansion.Rooms[(int)GameManager.RoomName.Parlor].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.Patrice));
-        mansion.Rooms[(int)GameManager.RoomName.Pasture].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.Henrietta));
-        /*
-        library.inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.Noelle));
-        library.inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.Noelle));
-        library.inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.Noelle));
-        */
-        
-        gameManager.getLoveInterest(GameManager.LoveInterestName.Noelle).currentStory = NoelleStory;
-        gameManager.getLoveInterest(GameManager.LoveInterestName.Henrietta).currentStory = HenStory;
-        gameManager.getLoveInterest(GameManager.LoveInterestName.Patrice).currentStory = PatStory;
-        gameManager.getLoveInterest(GameManager.LoveInterestName.John).currentStory = JohnStory;
+        endOfDay = false;
+        if (dayNumber == 1)
+        {
+            //Currently hardcoding the fact that noelle appears in a room with the appropriate story
+            mansion.Rooms[(int)GameManager.RoomName.Library].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.Noelle));
+            mansion.Rooms[(int)GameManager.RoomName.Kitchen].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.John));
+            mansion.Rooms[(int)GameManager.RoomName.Parlor].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.Patrice));
+            mansion.Rooms[(int)GameManager.RoomName.Pasture].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.Henrietta));
 
+            gameManager.getLoveInterest(GameManager.LoveInterestName.Noelle).currentStory = NoelleStory;
+            gameManager.getLoveInterest(GameManager.LoveInterestName.Henrietta).currentStory = HenStory;
+            gameManager.getLoveInterest(GameManager.LoveInterestName.Patrice).currentStory = PatStory;
+            gameManager.getLoveInterest(GameManager.LoveInterestName.John).currentStory = JohnStory;
+        }
 
 		/* Housekeeping for keeping track of info */
 		remainingConvoPts = 2;
@@ -78,17 +82,21 @@ public class DayManager : MonoBehaviour {
 	}
 
 	void StartDinner() {
-        GameManager.dialogControls.StartConversation(eveningBeauStory);
-		// gameManager.LoadRoom (dining);
-
-		//dialogController.StartConversation (<SuitorDinnerConvo>);
+        StartCoroutine(GameManager.BeginDinner(dining, eveningBeauStory));
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
 		if (GameManager.dialogControls.dialogUI.dialogBox.dialogField.text == "" && remainingConvoPts == 0) {
             StartDinner();
             remainingConvoPts --;
-		}	
+		}
+
+        if (endOfDay && GameManager.loveInterestControls.gameObject.activeSelf == true)
+        {
+            endOfDay = false;
+            dayNumber++;
+            StartCoroutine(GameManager.EndDay());
+        }
 	}
 }

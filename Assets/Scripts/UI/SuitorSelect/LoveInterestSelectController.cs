@@ -40,5 +40,6 @@ public class LoveInterestSelectController : MonoBehaviour {
     {
         //We are going to want to have the game manager display the story of this love interest?
         GameManager.StartConversation(loveInterest.currentStory);
+        GameManager.bgmManager.playTracks(loveInterest.designation);
     }
 }

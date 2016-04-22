@@ -10,7 +10,7 @@ NOELLE: Is there anything else you'd like to talk about?
 [[Let's talk about you.]]
 
 
-:: %noelle_approval,10,50%How are you enjoying your stay here?
+:: %noelle_approval,31,50%How are you enjoying your stay here?
 NOELLE: I must admit, this place seemed a bit intimidating when I first arrived. But it's starting to feel more...homey.
 
 NOELLE: Is there anything else you'd like to talk about?
@@ -19,7 +19,7 @@ NOELLE: Is there anything else you'd like to talk about?
 [[Let's talk about you.]]
 
 
-:: %noelle_approval,0,10%How are you enjoying your stay here?
+:: %noelle_approval,1,30%How are you enjoying your stay here?
 NOELLE: The castle is beautiful. I've never been anywhere so...<i>imposing</i> before.
 
 NOELLE: Is there anything else you'd like to talk about?
@@ -43,10 +43,11 @@ NOELLE: A pleasure to see you, sire. What would you like to talk about?
 
 [[One of the other women in the castle.]]
 [[%noelle_approval,-30,0%How are you enjoying your stay here?]]
-[[%noelle_approval,0,10%How are you enjoying your stay here?]]
-[[%noelle_approval,10,50%How are you enjoying your stay here?]]
+[[%noelle_approval,1,30%How are you enjoying your stay here?]]
+[[%noelle_approval,31,50%How are you enjoying your stay here?]]
 [[%noelle_approval,50,70%How are you enjoying your stay here?]]
 [[Let's talk about you.]]
+[[%noelle_gift, 3, 3%I have a gift for you.|GIFT]]
 
 
 
@@ -58,8 +59,8 @@ NOELLE: Is there anything else you'd like to talk about?
 
 [[One of the other women in the castle.]]
 [[%noelle_approval,-30,0%How are you enjoying your stay here?]]
-[[%noelle_approval,0,10%How are you enjoying your stay here?]]
-[[%noelle_approval,10,50%How are you enjoying your stay here?]]
+[[%noelle_approval,1,30%How are you enjoying your stay here?]]
+[[%noelle_approval,31,50%How are you enjoying your stay here?]]
 [[%noelle_approval,50,70%How are you enjoying your stay here?]]
 [[Let's talk about you.]]
 
@@ -72,8 +73,8 @@ NOELLE: Is there anything else you'd like to talk about?
 
 [[One of the other women in the castle.]]
 [[%noelle_approval,-30,0%How are you enjoying your stay here?]]
-[[%noelle_approval,0,10%How are you enjoying your stay here?]]
-[[%noelle_approval,10,50%How are you enjoying your stay here?]]
+[[%noelle_approval,1,30%How are you enjoying your stay here?]]
+[[%noelle_approval,31,50%How are you enjoying your stay here?]]
 [[%noelle_approval,50,70%How are you enjoying your stay here?]]
 [[Let's talk about you.]]
 
@@ -86,8 +87,8 @@ NOELLE: Is there anything else you'd like to talk about?
 
 [[One of the other women in the castle.]]
 [[%noelle_approval,-30,0%How are you enjoying your stay here?]]
-[[%noelle_approval,0,10%How are you enjoying your stay here?]]
-[[%noelle_approval,10,50%How are you enjoying your stay here?]]
+[[%noelle_approval,1,30%How are you enjoying your stay here?]]
+[[%noelle_approval,31,50%How are you enjoying your stay here?]]
 [[%noelle_approval,50,70%How are you enjoying your stay here?]]
 [[Let's talk about you.]]
 
@@ -100,8 +101,50 @@ NOELLE: Is there anything else you'd like to talk about?
 
 [[One of the other women in the castle.]]
 [[%noelle_approval,-30,0%How are you enjoying your stay here?]]
-[[%noelle_approval,0,10%How are you enjoying your stay here?]]
-[[%noelle_approval,10,50%How are you enjoying your stay here?]]
+[[%noelle_approval,1,30%How are you enjoying your stay here?]]
+[[%noelle_approval,31,50%How are you enjoying your stay here?]]
+[[%noelle_approval,50,70%How are you enjoying your stay here?]]
+[[Let's talk about you.]]
+
+
+:: %noelle_approval, 31, 70%What about me, then? What do you think of me?
+%1, <noelle>, <center>, <smile>%
+NOELLE: You're...<i>different</i> from most men I've met. And not just in appearance.
+
+NOELLE: Is there anything else you wanted to discuss?
+
+[[One of the other women in the castle.]]
+[[%noelle_approval,-30,0%How are you enjoying your stay here?]]
+[[%noelle_approval,1,30%How are you enjoying your stay here?]]
+[[%noelle_approval,31,50%How are you enjoying your stay here?]]
+[[%noelle_approval,50,70%How are you enjoying your stay here?]]
+[[Let's talk about you.]]
+
+
+:: %noelle_approval, 1, 30%What about me, then? What do you think of me?
+%1, <noelle>, <center>, <smile>%
+NOELLE: You're...not like most men I've met. But then, I suppose I should be expecting curtesy from you, given our current situation.
+
+NOELLE: Is there anything else you wanted to discuss?
+
+[[One of the other women in the castle.]]
+[[%noelle_approval,-30,0%How are you enjoying your stay here?]]
+[[%noelle_approval,1,30%How are you enjoying your stay here?]]
+[[%noelle_approval,31,50%How are you enjoying your stay here?]]
+[[%noelle_approval,50,70%How are you enjoying your stay here?]]
+[[Let's talk about you.]]
+
+
+:: %noelle_approval, -30, 0%What about me, then? What do you think of me?
+%1, <noelle>, <center>, <smile>%
+NOELLE: No matter what you look like, you're a man, just like any other. And you've already heard my opinion on men.
+
+NOELLE: Is there anything else you wanted to discuss?
+
+[[One of the other women in the castle.]]
+[[%noelle_approval,-30,0%How are you enjoying your stay here?]]
+[[%noelle_approval,1,30%How are you enjoying your stay here?]]
+[[%noelle_approval,31,50%How are you enjoying your stay here?]]
 [[%noelle_approval,50,70%How are you enjoying your stay here?]]
 [[Let's talk about you.]]
 
@@ -128,8 +171,8 @@ NOELLE: Is there anything else you'd like to talk about?
 
 [[One of the other women in the castle.]]
 [[%noelle_approval,-30,0%How are you enjoying your stay here?]]
-[[%noelle_approval,0,10%How are you enjoying your stay here?]]
-[[%noelle_approval,10,50%How are you enjoying your stay here?]]
+[[%noelle_approval,1,30%How are you enjoying your stay here?]]
+[[%noelle_approval,31,50%How are you enjoying your stay here?]]
 [[%noelle_approval,50,70%How are you enjoying your stay here?]]
 [[Let's talk about you.]]
 
@@ -146,8 +189,8 @@ NOELLE: Is there anything else you'd like to talk about?
 
 [[One of the other women in the castle.]]
 [[%noelle_approval,-30,0%How are you enjoying your stay here?]]
-[[%noelle_approval,0,10%How are you enjoying your stay here?]]
-[[%noelle_approval,10,50%How are you enjoying your stay here?]]
+[[%noelle_approval,1,30%How are you enjoying your stay here?]]
+[[%noelle_approval,31,50%How are you enjoying your stay here?]]
 [[%noelle_approval,50,70%How are you enjoying your stay here?]]
 [[Let's talk about you.]]
 
@@ -161,8 +204,8 @@ NOELLE: Is there anything else you'd like to talk about?
 
 [[One of the other women in the castle.]]
 [[%noelle_approval,-30,0%How are you enjoying your stay here?]]
-[[%noelle_approval,0,10%How are you enjoying your stay here?]]
-[[%noelle_approval,10,50%How are you enjoying your stay here?]]
+[[%noelle_approval,1,30%How are you enjoying your stay here?]]
+[[%noelle_approval,31,50%How are you enjoying your stay here?]]
 [[%noelle_approval,50,70%How are you enjoying your stay here?]]
 [[Let's talk about you.]]
 
@@ -178,13 +221,14 @@ NOELLE: Is there anything else you'd like to talk about?
 
 [[One of the other women in the castle.]]
 [[%noelle_approval,-30,0%How are you enjoying your stay here?]]
-[[%noelle_approval,0,10%How are you enjoying your stay here?]]
-[[%noelle_approval,10,50%How are you enjoying your stay here?]]
+[[%noelle_approval,1,30%How are you enjoying your stay here?]]
+[[%noelle_approval,31,50%How are you enjoying your stay here?]]
 [[%noelle_approval,50,70%How are you enjoying your stay here?]]
 [[Let's talk about you.]]
 
 
 :: men
+#convo_points, -1#
 %1, <noelle>, <center>, <neutral>%
 NOELLE: It seems that way because it <i>is</i> that way.
 
@@ -258,15 +302,7 @@ NOELLE: Certainly. What would you like to know?
 [[%noelle_convo, 2, 3%You don't seem to think very highly of your father.|men]]
 [[%noelle_convo, 4, 4%You smile often, but it never seems to reach your eyes.|unhappy]]
 [[%noelle_convo, 5, 5%What has your father done that's so unforgiveable?|father]]
-
-
-:: I'd like to know more about this, actually.
-#noelle_approval, -5#
-NOELLE: ...Of course, your <i>highness</i>. I am at your disposal as always. We can discuss whatever you wish.
-
-[[Are you really happy with the way your father's raised you?]]
-[[How did your mother die?]]
-[[I know what it's like to lose your parents.]]
+[[Let's talk about something else.|Very well. Let's talk about something else.]]
 
 
 :: You don't think very highly of men in general, then.
@@ -297,6 +333,19 @@ NOELLE: I said the flaws of any <i>man</i>, not <i>human</i>.
 
 NOELLE: I've found that very few <i>women</i> are so afflicted.
 
+[[Are women so much better than men?]]
+[[So men are sub-human, in your eyes.]]
+[[And what about me? Am I a man in your eyes?]]
+
+
+:: I'd like to know more about this, actually.
+#noelle_approval, -5#
+NOELLE: ...Of course, your <i>highness</i>. I am at your disposal as always. We can discuss whatever you wish.
+
+[[Are you really happy with the way your father's raised you?]]
+[[How did your mother die?]]
+[[I know what it's like to lose your parents.]]
+
 
 :: from
 #convo_points, -1#
@@ -307,6 +356,102 @@ NOELLE: It's a beautiful town, Redding. Perfectly charming. Easy to get lost in.
 [[Why would you want to get lost?]]
 [[Have you always lived there?]]
 [[Have you ever wanted to live anywhere else?]]
+
+
+:: I rather like having you at my mercy.
+#noelle_approval, -15#
+%1, <noelle>, <center>, <frown>%
+NOELLE: Of course you do. I don't know why I expected anything different. 
+
+NOELLE: It's good to know that no matter what he might look like, a man is always the same under the skin: selfish and totally unconcerned with the feelings of women.
+
+NOELLE: If you'll excuse me, I'd like to go now.
+
+
+:: I've never thought of it that way before.
+NOELLE: And do you feel enlightened, now that you have?
+
+[[I'm not sure I do.]]
+[[It's certainly something to think about.]]
+
+
+:: I'm certainly not doing a very good job of disproving your point, am I?
+#noelle_approval, +5#
+%1, <noelle>, <center>, <smile>%
+NOELLE: No, you're not. But at least you're self-aware about it. I wish I could say as much for every other man I've met.
+
+NOELLE: Is there anything else you wanted to discuss?
+
+[[One of the other women in the castle.]]
+[[%noelle_approval,-30,0%How are you enjoying your stay here?]]
+[[%noelle_approval,1,30%How are you enjoying your stay here?]]
+[[%noelle_approval,31,50%How are you enjoying your stay here?]]
+[[%noelle_approval,50,70%How are you enjoying your stay here?]]
+[[Let's talk about you.]]
+
+
+:: Shouldn't you be proud to have such a successful father?
+#noelle_approval, -5#
+%1, <noelle>, <center>, <smile>%
+NOELLE: Oh, yes. I suppose I should be. After all, a man's success is what determines the worth of his character, is it not? Never mind what he's like outside his office.
+
+[[I take it he's not very nice outside his office.]]
+[[His personal life doesn't invalidate his professional accomplishments.]]
+
+
+
+:: But not a very good man.
+#noelle_approval, +5#
+%1, <noelle>, <center>, <frown>%
+NOELLE: ...No. No, not a very good man at all. At least, not to me.
+
+[[I take it he's not very nice outside his office.]]
+[[His personal life doesn't invalidate his professional accomplishments.]]
+
+
+
+:: At least you have a father.
+%1, <noelle>, <center>, <neutral>%
+NOELLE: I'm not sure our two situations can really be compared, but if you'd prefer to think of yourself as suffering more than I am, please, by all means do so.
+
+NOELLE: Is there anything else you wanted to discuss?
+
+[[One of the other women in the castle.]]
+[[%noelle_approval,-30,0%How are you enjoying your stay here?]]
+[[%noelle_approval,1,30%How are you enjoying your stay here?]]
+[[%noelle_approval,31,50%How are you enjoying your stay here?]]
+[[%noelle_approval,50,70%How are you enjoying your stay here?]]
+[[Let's talk about you.]]
+
+
+:: So men are sub-human, in your eyes.
+#noelle_approval, -5#
+%1, <noelle>, <center>, <frown>%
+NOELLE: Oh, please. I said that not all people shared male flaws, not that men weren't human.
+
+NOELLE: You seem to be taking this rather personally, but I don't mean it to be a personal attack.
+
+[[So the offense in unintentional, then. That makes it all better.]]
+[[You're getting awfully defensive.]]
+[[%noelle_approval, -30, 0%What about me, then? What do you think of me?]]
+[[%noelle_approval, 1, 30%What about me, then? What do you think of me?]]
+[[%noelle_approval, 31, 70%What about me, then? What do you think of me?]]
+
+
+:: Are women so much better than men?
+%1, <noelle>, <center>, <smile>%
+NOELLE: I'm not sure you really want my honest opinion on that.
+
+[[I think I do, actually.]]
+[[You're probably right about that.]]
+
+
+:: And what about me? Am I a man in your eyes?
+%1, <noelle>, <center>, <smile>%
+NOELLE: No matter what you may think of yourself, yes, you are a man. I would be a fool to think of you otherwise.
+
+[[Not many people share your opinion.]]
+[[You seem unusually convinced there's a man under all of this.]]
 
 
 :: Are you really happy with the way your father's raised you?
@@ -384,37 +529,6 @@ NOELLE: I just meant that it's nice to blend into crowds, and not be noticed by 
 [[I wouldn't know what that's like.]]
 
 
-:: I rather like having you at my mercy.
-#noelle_approval, -15#
-%1, <noelle>, <center>, <frown>%
-NOELLE: Of course you do. I don't know why I expected anything different. 
-
-NOELLE: It's good to know that no matter what he might look like, a man is always the same under the skin: selfish and totally unconcerned with the feelings of women.
-
-
-:: I've never thought of it that way before.
-NOELLE: And do you feel enlightened, now that you have?
-
-
-:: I'm certainly not doing a very good job of disproving your point, am I?
-%1, <noelle>, <center>, <smile>%
-NOELLE: No, you're not. But at least you're self-aware about it. I wish I could say as much for every other man I've met.
-
-
-
-
-:: Shouldn't you be proud to have such a successful father?
-
-
-
-:: But not a very good man.
-
-
-
-:: At least you have a father.
-
-
-
 :: I'll be leaving, then.
 NOELLE: Yes, I think that's for the best. We can both...clear our heads before speaking again.
 
@@ -489,6 +603,162 @@ NOELLE: Excuse me, sire. I didn't realize.
 [[It must be nice to forget how hideous I am.]]
 
 
+:: It's certainly something to think about.
+#noelle_approval, +5#
+%1, <noelle>, <center>, <smile>%
+NOELLE: At least you'll think more about it, then.
+
+PATRICE: Is there anything else you wanted to discuss?
+
+[[One of the other women in the castle.]]
+[[%noelle_approval,-30,0%How are you enjoying your stay here?]]
+[[%noelle_approval,1,30%How are you enjoying your stay here?]]
+[[%noelle_approval,31,50%How are you enjoying your stay here?]]
+[[%noelle_approval,50,70%How are you enjoying your stay here?]]
+[[Let's talk about you.]]
+
+
+:: I'm not sure I do.
+#noelle_approval, -5#
+%1, <noelle>, <center>, <frown>%
+NOELLE: I don't know why I expected any different.
+
+NOELLE: Is there anything else you wanted to discuss?
+
+[[One of the other women in the castle.]]
+[[%noelle_approval,-30,0%How are you enjoying your stay here?]]
+[[%noelle_approval,1,30%How are you enjoying your stay here?]]
+[[%noelle_approval,31,50%How are you enjoying your stay here?]]
+[[%noelle_approval,50,70%How are you enjoying your stay here?]]
+[[Let's talk about you.]]
+
+
+:: I take it he's not very nice outside his office.
+%1, <noelle>, <center>, <frown>%
+NOELLE: I never said it did. 
+
+NOELLE: But the measure of a man can't be taken solely from his business practices.
+
+%1, <noelle>, <center>, <neutral>%
+NOELLE: This topic is wearing on me. Is there anything else you wanted to discuss?
+
+[[One of the other women in the castle.]]
+[[%noelle_approval,-30,0%How are you enjoying your stay here?]]
+[[%noelle_approval,1,30%How are you enjoying your stay here?]]
+[[%noelle_approval,31,50%How are you enjoying your stay here?]]
+[[%noelle_approval,50,70%How are you enjoying your stay here?]]
+[[Let's talk about you.]]
+
+
+:: His personal life doesn't invalidate his professional accomplishments.
+#noelle_approval, -5#
+%1, <noelle>, <center>, <frown>%
+NOELLE: I never said it did. 
+
+NOELLE: But the measure of a man can't be taken solely from his business practices.
+
+%1, <noelle>, <center>, <neutral>%
+NOELLE: This topic is wearing on me. Is there anything else you wanted to discuss?
+
+[[One of the other women in the castle.]]
+[[%noelle_approval,-30,0%How are you enjoying your stay here?]]
+[[%noelle_approval,1,30%How are you enjoying your stay here?]]
+[[%noelle_approval,31,50%How are you enjoying your stay here?]]
+[[%noelle_approval,50,70%How are you enjoying your stay here?]]
+[[Let's talk about you.]]
+
+
+:: So the offense in unintentional, then. That makes it all better.
+#noelle_approval, -5#
+%1, <noelle>, <center>, <frown>%
+NOELLE: You're the one who asked about my opinions on men. I wonder why you bothered to ask such questions, if you're so sensitive?
+
+%1, <noelle>, <center>, <neutral>%
+NOELLE: This topic is wearing on me. Is there anything else you wanted to discuss?
+
+[[One of the other women in the castle.]]
+[[%noelle_approval,-30,0%How are you enjoying your stay here?]]
+[[%noelle_approval,1,30%How are you enjoying your stay here?]]
+[[%noelle_approval,31,50%How are you enjoying your stay here?]]
+[[%noelle_approval,50,70%How are you enjoying your stay here?]]
+[[Let's talk about you.]]
+
+
+:: You're getting awfully defensive.
+#noelle_approval, -5#
+%1, <noelle>, <center>, <smile>%
+NOELLE: Am I? Well, I suppose that's natural, given the circumstances.
+
+NOELLE: This topic is wearing on me. Is there anything else you wanted to discuss?
+
+[[One of the other women in the castle.]]
+[[%noelle_approval,-30,0%How are you enjoying your stay here?]]
+[[%noelle_approval,1,30%How are you enjoying your stay here?]]
+[[%noelle_approval,31,50%How are you enjoying your stay here?]]
+[[%noelle_approval,50,70%How are you enjoying your stay here?]]
+[[Let's talk about you.]]
+
+
+:: I think I do, actually.
+#noelle_approval, +10#
+%1, <noelle>, <center>, <smile>%
+NOELLE: Well, then. I suppose I'll give it to you. 
+
+NOELLE: In my experience, yes, women have proven themselves time and time again to be of a higher caliber than men.
+
+[[Maybe you just haven't met the right men.]]
+[[I don't have much experience with women, myself.]]
+
+
+:: You're probably right about that.
+#noelle_approval, -5#
+%1, <noelle>, <center>, <frown>%
+NOELLE: I usually am.
+
+%1, <noelle>, <center>, <neutral>%
+NOELLE: Is there anything else you wanted to discuss?
+
+[[One of the other women in the castle.]]
+[[%noelle_approval,-30,0%How are you enjoying your stay here?]]
+[[%noelle_approval,1,30%How are you enjoying your stay here?]]
+[[%noelle_approval,31,50%How are you enjoying your stay here?]]
+[[%noelle_approval,50,70%How are you enjoying your stay here?]]
+[[Let's talk about you.]]
+
+
+:: Not many people share your opinion.
+%1, <noelle>, <center>, <smile>%
+NOELLE: As I said, I would be a fool to think otherwise.
+
+NOELLE: It's a simple matter of observation. No mere animal would dress and talk the way you do.
+
+NOELLE: Is there anything else you wanted to discuss?
+
+[[One of the other women in the castle.]]
+[[%noelle_approval,-30,0%How are you enjoying your stay here?]]
+[[%noelle_approval,1,30%How are you enjoying your stay here?]]
+[[%noelle_approval,31,50%How are you enjoying your stay here?]]
+[[%noelle_approval,50,70%How are you enjoying your stay here?]]
+[[Let's talk about you.]]
+
+
+:: You seem unusually convinced there's a man under all of this.
+#noelle_approval, +5#
+%1, <noelle>, <center>, <smile>%
+NOELLE: As I said, I would be a fool to think otherwise.
+
+NOELLE: It's a simple matter of observation. No mere animal would dress and talk the way you do.
+
+NOELLE: Is there anything else you wanted to discuss?
+
+[[One of the other women in the castle.]]
+[[%noelle_approval,-30,0%How are you enjoying your stay here?]]
+[[%noelle_approval,1,30%How are you enjoying your stay here?]]
+[[%noelle_approval,31,50%How are you enjoying your stay here?]]
+[[%noelle_approval,50,70%How are you enjoying your stay here?]]
+[[Let's talk about you.]]
+
+
 :: It's alright.
 #noelle_approval, +5#
 %1, <noelle>, <center>, <smile>%
@@ -511,6 +781,36 @@ NOELLE: Will there be anything else, then?
 
 [[Yes. I'd like to talk about something else.|Very well. Let's talk about something else.]]
 [[Actually, I have to leave.]]
+
+
+:: I don't have much experience with women, myself.
+%1, <noelle>, <center>, <smile>%
+NOELLE: I suppose being alone in a castle doesn't give you much opportunity to compare the sexes.
+
+NOELLE: Is there anything else you wanted to discuss?
+
+[[One of the other women in the castle.]]
+[[%noelle_approval,-30,0%How are you enjoying your stay here?]]
+[[%noelle_approval,1,30%How are you enjoying your stay here?]]
+[[%noelle_approval,31,50%How are you enjoying your stay here?]]
+[[%noelle_approval,50,70%How are you enjoying your stay here?]]
+[[Let's talk about you.]]
+
+
+:: Maybe you just haven't met the right men.
+%1, <noelle>, <center>, <neutral>%
+NOELLE: Hmm.
+
+NOELLE: ...Maybe.
+
+NOELLE: Is there anything else you wanted to discuss?
+
+[[One of the other women in the castle.]]
+[[%noelle_approval,-30,0%How are you enjoying your stay here?]]
+[[%noelle_approval,1,30%How are you enjoying your stay here?]]
+[[%noelle_approval,31,50%How are you enjoying your stay here?]]
+[[%noelle_approval,50,70%How are you enjoying your stay here?]]
+[[Let's talk about you.]]
 
 
 :: Actually, I have to leave.
@@ -560,8 +860,8 @@ NOELLE: Of course, sire. What would you like to talk about?
 
 [[One of the other women in the castle.]]
 [[%noelle_approval,-30,0%How are you enjoying your stay here?]]
-[[%noelle_approval,0,10%How are you enjoying your stay here?]]
-[[%noelle_approval,10,50%How are you enjoying your stay here?]]
+[[%noelle_approval,1,30%How are you enjoying your stay here?]]
+[[%noelle_approval,31,50%How are you enjoying your stay here?]]
 [[%noelle_approval,50,70%How are you enjoying your stay here?]]
 [[Let's talk about you.]]
 
@@ -578,15 +878,622 @@ NOELLE: Could we move on to another subject? I'm starting to feel a bit maudlin.
 [[Actually, I have to leave.]]
 
 
-:: world
-
-
-
-:: unhappy
+:: GIFT
 
 
 
 :: father
+#convo_points, -1#
+%1, <noelle>, <center>, <frown>%
+NOELLE: I should've known I wouldn't be able to keep you from asking for very long.
 
+NOELLE: To put it simply, he has controlled me for my entire life. I've never done anything that didn't involve him pulling the strings in some fashion.
+
+NOELLE: This...<i>event</i> is only the latest in a long line of his attempts to marry me off.
+
+[[Was it different when your mother was alive?]]
+[[Perhaps he's only acting out of fatherly concern.]]
+[[And yet you've never been married? I find that hard to believe.]]
+
+
+:: unhappy
+#convo_points, -1#
+%1, <noelle>, <center>, <smile>%
+NOELLE: I had no idea you were paying such close attention to my facial features.
+
+[[It's hard not to.]]
+[[The other women in the castle have noticed it as well.]]
+[[If you don't want to talk about it, you should just say so.]]
+
+
+:: world
+#convo_points, -1#
+%1, <noelle>, <center>, <frown>%
+NOELLE: I...I don't know.
+
+NOELLE: My father regularly takes trips across the sea to make deals with other merchants, but I've never gone with him. He's made it quite clear that's not an option.
+
+%1, <noelle>, <center>, <neutral>%
+NOELLE: But if I could...
+
+%1, <noelle>, <center>, <smile>%
+NOELLE: I'd go across the sea, to the New World. Everything I hear about it seems terribly exciting.
+
+NOELLE: Not to mention the chance to start fresh, and become someone entirely new.
+
+[[Are you not happy with the person you are now?]]
+[[I haven't heard about this land across the sea.|New World]]
+
+
+:: Perhaps he's only acting out of fatherly concern.
+#noelle_approval, -5#
+%1, <noelle>, <center>, <frown>%
+NOELLE: If he is, he's the most concerned father I've ever had the displeasure of knowing.
+
+NOELLE: But no, I assure you that's not it.
+
+NOELLE: He sees me as a pawn--someone to move around a chessboard. The men he's tried to match me with have all been blue-bloods.
+
+%1, <noelle>, <center>, <smile>%
+NOELLE: I've ensured that none of the engagements have ever worked out.
+
+[[That sounds...sinister.]]
+[[Have you never thought to marry for love?]]
+[[Surely none of them were that bad.]]
+
+
+:: Was it different when your mother was alive?
+%1, <noelle>, <center>, <neutral>%
+NOELLE: Yes. My mother was the kindest person I've ever known. I'm sure my father manipulated her into marrying him.
+
+%1, <noelle>, <center>, <frown>%
+NOELLE: My father only sees me as a pawn--someone to move around a chessboard. The men he's tried to match me with have all been blue-bloods.
+
+%1, <noelle>, <center>, <smile>%
+NOELLE: I've ensured that none of the engagements have ever worked out.
+
+[[That sounds...sinister.]]
+[[Have you never thought to marry for love?]]
+[[Surely none of them were that bad.]]
+
+
+:: And yet you've never been married? I find that hard to believe.
+%1, <noelle>, <center>, <neutral>%
+NOELLE: Why? Is it so unbelievable that I would resist marrying a series of strangers?
+
+NOELLE: Even if they hadn't been awful, I still would've done it, even if only to spite my father.
+
+%1, <noelle>, <center>, <frown>%
+NOELLE: He only sees me as a pawn--someone to move around a chessboard. The men he's tried to match me with have all been blue-bloods.
+
+%1, <noelle>, <center>, <smile>%
+NOELLE: I've ensured that none of the engagements have ever worked out.
+
+[[That sounds...sinister.]]
+[[Have you never thought to marry for love?]]
+[[Surely none of them were that bad.]]
+
+
+:: It's hard not to.
+#noelle_approval, -5#
+%1, <noelle>, <center>, <smile>%
+NOELLE: Ah. I suppose I should be flattered by that.
+
+NOELLE: But it does call into question how sincere your earlier inquiry about my feelings was.
+
+[[I just want to know if I can help.]]
+[[If you don't want to talk about it, you should just say so.]]
+[[Can't I ]]
+
+
+:: The other women in the castle have noticed it as well.
+%1, <noelle>, <center>, <frown>%
+NOELLE: I never realized there was anything strange about my facial expressions for anyone to notice, much less something so obvious that everyone in the castle would see it.
+
+[[If you don't want to talk about it, you should just say so.]]
+[[I just want to know if I can help.]]
+[[Fine. If you want to keep deflecting, we don't have to talk about it.]]
+
+
+:: If you don't want to talk about it, you should just say so.
+%1, <noelle>, <center>, <neutral>%
+NOELLE: I think you underestimate the magnitude of what "talking about it" might entail.
+
+[[I just want to know if I can help.]]
+[[Fine. If you want to keep deflecting, we don't have to talk about it.]]
+
+
+:: New World
+%1, <noelle>, <center>, <smile>%
+NOELLE: It's only just been discovered! A whole new continent, filled with strange and wonderful new things.
+
+%1, <noelle>, <center>, <neutral>%
+NOELLE: Or at least, it sounds that way to me.
+
+NOELLE: I suppose I might be romanticizing it a bit.
+
+[[I think that sounds very exciting, too.]]
+[[You certainly aren't thinking about it realistically, but that's not bad.]]
+[[Wouldn't it be better to not be so naive about new things?]]
+
+
+:: Are you not happy with the person you are now?
+%1, <noelle>, <center>, <neutral>%
+NOELLE: It's not that I'm unhappy with <i>myself</i>, more just...
+
+NOELLE: Oh, nevermind. I shouldn't be talking about this anyway.
+
+[[No, no, I want to hear more.]]
+[[Tell me about this New World then, instead.|New World]]
+
+
+:: That sounds...sinister.
+%1, <noelle>, <center>, <smile>%
+NOELLE: Oh, all the men are quite fine, I assure you. I simply made myself...unappealing as a candidate for marriage.
+
+%1, <noelle>, <center>, <frown>%
+NOELLE: None of that would have been necessary if I'd inherited mother's fortune. My father married her for her inheritance, I'm sure of it.
+
+NOELLE: But when she died, her will...disappeared.
+
+[[You don't sound as if you believe that.]]
+[[Do you think your father hid it?]]
+[[What was in the will?]]
+
+
+:: Have you never thought to marry for love?
+%1, <noelle>, <center>, <neutral>%
+NOELLE: A love marriage? Such a thing is nearly unheard of, even when one's parents are entirely loving and supportive. My father is not.
+
+NOELLE: Besides, I've given up on men entirely. 
+
+%1, <noelle>, <center>, <frown>%
+NOELLE: None of this would have been necessary if I'd inherited mother's fortune. My father married her for her inheritance, I'm sure of it.
+
+NOELLE: But when she died, her will...disappeared.
+
+[[You don't sound as if you believe that.]]
+[[Do you think your father hid it?]]
+[[What was in the will?]]
+
+
+:: Surely none of them were that bad.
+%1, <noelle>, <center>, <smile>%
+NOELLE: Ha! Right, yes. 
+
+NOELLE: Besides, I've given up on men entirely. 
+
+%1, <noelle>, <center>, <frown>%
+NOELLE: None of this would have been necessary if I'd inherited mother's fortune. My father married her for her inheritance, I'm sure of it.
+
+NOELLE: But when she died, her will...disappeared.
+
+[[You don't sound as if you believe that.]]
+[[Do you think your father hid it?]]
+[[What was in the will?]]
+
+
+:: I just want to know if I can help.
+#noelle_approval, +5#
+%1, <noelle>, <center>, <neutral>%
+NOELLE: So your concern was sincere after all.
+
+NOELLE: I'm sorry. I don't mean to be so harsh. It's just not something I enjoy talking about.
+
+[[We don't have to talk about it if you don't want to.]]
+[[You can tell me anything.]]
+
+
+:: Fine. If you want to keep deflecting, we don't have to talk about it.
+#noelle_approval, -5#
+%1, <noelle>, <center>, <smile>%
+NOELLE: How courteous of you.
+
+NOELLE: Is there anything else you wanted to discuss?
+
+[[One of the other women in the castle.]]
+[[%noelle_approval,-30,0%How are you enjoying your stay here?]]
+[[%noelle_approval,1,30%How are you enjoying your stay here?]]
+[[%noelle_approval,31,50%How are you enjoying your stay here?]]
+[[%noelle_approval,50,70%How are you enjoying your stay here?]]
+[[Let's talk about you.]]
+[[Actually, I have to go.]]
+
+
+:: Wouldn't it be better to not be so naive about new things?
+#noelle_approval, -5#
+%1, <noelle>, <center>, <frown>%
+NOELLE: I wouldn't call having hope for a better future naivete.
+
+NOELLE: This topic is wearing on me. Is there anything else you wanted to discuss?
+
+[[One of the other women in the castle.]]
+[[%noelle_approval,-30,0%How are you enjoying your stay here?]]
+[[%noelle_approval,1,30%How are you enjoying your stay here?]]
+[[%noelle_approval,31,50%How are you enjoying your stay here?]]
+[[%noelle_approval,50,70%How are you enjoying your stay here?]]
+[[Let's talk about you.]]
+[[Actually, I have to go.]]
+
+
+:: You certainly aren't thinking about it realistically, but that's not bad.
+#noelle_approval, +5#
+%1, <noelle>, <center>, <smile>%
+NOELLE: I'm glad you think so.
+
+NOELLE: This topic is wearing on me. Is there anything else you wanted to discuss?
+
+[[One of the other women in the castle.]]
+[[%noelle_approval,-30,0%How are you enjoying your stay here?]]
+[[%noelle_approval,1,30%How are you enjoying your stay here?]]
+[[%noelle_approval,31,50%How are you enjoying your stay here?]]
+[[%noelle_approval,50,70%How are you enjoying your stay here?]]
+[[Let's talk about you.]]
+[[Actually, I have to go.]]
+
+
+:: I think that sounds very exciting, too.
+#noelle_approval, +10#
+%1, <noelle>, <center>, <frown>%
+NOELLE: It's nice to find someone who agrees.
+
+NOELLE: Is there anything else you wanted to discuss?
+
+[[One of the other women in the castle.]]
+[[%noelle_approval,-30,0%How are you enjoying your stay here?]]
+[[%noelle_approval,1,30%How are you enjoying your stay here?]]
+[[%noelle_approval,31,50%How are you enjoying your stay here?]]
+[[%noelle_approval,50,70%How are you enjoying your stay here?]]
+[[Let's talk about you.]]
+[[Actually, I have to go.]]
+
+
+:: No, no, I want to hear more.
+%1, <noelle>, <center>, <neutral>%
+NOELLE: Oh. Well, then.
+
+NOELLE: It's nothing, really, I just...
+
+NOELLE: I've always felt...stifled, by my status and surroundings.
+
+[[Being a wealthy merchant's daughter is stifling?]]
+[[And you think that would be different in the New World?|New World2]]
+[[I feel the same way.]]
+
+
+:: You don't sound as if you believe that.
+#noelle_gift, +1#
+%1, <noelle>, <center>, <frown>%
+NOELLE: That would be because I don't.
+
+NOELLE: I'm almost certain my father hid it. Purposefully.
+
+NOELLE: And the only reason he would have hidden it is if there was something in it preventing him from inheriting my mother's fortune.
+
+NOELLE: So, naturally, that's what I suspect is in it. My mother hated my father, and would never have left him anything. If anyone was set to recieve her fortune, it would be...me.
+
+NOELLE: But without the will, I'll never know for sure.
+
+[[I'm sorry to hear that.]]
+[[If you marry me, you won't have to worry about money.]]
+[[Maybe I can get it for you.]]
+
+
+:: Do you think your father hid it?
+#noelle_gift, +1#
+%1, <noelle>, <center>, <frown>%
+NOELLE: The only reason he would have hidden it is if there was something in it preventing him from inheriting my mother's fortune.
+
+NOELLE: So, naturally, that's what I suspect is in it. My mother hated my father, and would never have left him anything. If anyone was set to recieve her fortune, it would be...me.
+
+NOELLE: But without the will, I'll never know for sure.
+
+[[I'm sorry to hear that.]]
+[[If you marry me, you won't have to worry about money.]]
+[[Maybe I can get it for you.]]
+
+
+:: What was in the will?
+#noelle_gift, +1#
+%1, <noelle>, <center>, <frown>%
+NOELLE: Who knows?
+
+NOELLE: ...My father, probably.
+
+NOELLE: The only reason he would have hidden it is if there was something in it preventing him from inheriting my mother's fortune.
+
+NOELLE: So, naturally, that's what I suspect is in it. My mother hated my father, and would never have left him anything. If anyone was set to recieve her fortune, it would be...me.
+
+NOELLE: But without the will, I'll never know for sure.
+
+[[I'm sorry to hear that.]]
+[[If you marry me, you won't have to worry about money.]]
+[[Maybe I can get it for you.]]
+
+
+:: You can tell me anything.
+#noelle_approval, -5#
+%1, <noelle>, <center>, <frown>%
+NOELLE: ...Right. And no one's ever used that line on me before. You'll have to excuse me for not believing you.
+
+NOELLE: Now, is there anything else you wanted to discuss?
+
+[[One of the other women in the castle.]]
+[[%noelle_approval,-30,0%How are you enjoying your stay here?]]
+[[%noelle_approval,1,30%How are you enjoying your stay here?]]
+[[%noelle_approval,31,50%How are you enjoying your stay here?]]
+[[%noelle_approval,50,70%How are you enjoying your stay here?]]
+[[Let's talk about you.]]
+[[Actually, I have to go.]]
+
+
+:: We don't have to talk about it if you don't want to.
+#noelle_approval, +5#
+%1, <noelle>, <center>, <neutral>%
+NOELLE: That's...good of you.
+
+NOELLE: I've been raised from birth to be polite, no matter the circumstances, and to keep my feelings to myself.
+
+NOELLE: So you can see why I have some trouble talking about myself so openly.
+
+NOELLE: ...As well as why I always make a point to smile.
+
+NOELLE: Now then. Is there anything else you wanted to discuss?
+
+[[One of the other women in the castle.]]
+[[%noelle_approval,-30,0%How are you enjoying your stay here?]]
+[[%noelle_approval,1,30%How are you enjoying your stay here?]]
+[[%noelle_approval,31,50%How are you enjoying your stay here?]]
+[[%noelle_approval,50,70%How are you enjoying your stay here?]]
+[[Let's talk about you.]]
+[[Actually, I have to go.]]
+
+
+:: New World2
+%1, <noelle>, <center>, <neutral>%
+NOELLE: I don't know. Maybe.
+
+NOELLE: It just seems like such a romantic notion--moving to a new place full of new people, becoming a new person yourself. 
+
+NOELLE: They say the New World is unlike anywhere else on Earth. That you can be anyone there.
+
+%1, <noelle>, <center>, <blush>%
+NOELLE: ...This is incredibly embarrassing to talk about. I've never said any of this out loud before.
+
+[[Don't stop on my account.]]
+[[Thank you for telling me.]]
+[[Do you think I could be someone else in the New World?]]
+
+
+:: Being a wealthy merchant's daughter is stifling?
+#noelle_approval, -5#
+%1, <noelle>, <center>, <frown>%
+NOELLE: You have no idea how difficult it is to be a woman. To have everything expected of you, and no agency in your own life.
+
+[[And you think that would be different in the New World?|New World2]]
+[[You'd be surprised what I know.]]
+[[Does your father not let you make your own decisions?]]
+
+
+:: I feel the same way.
+#noelle_approval, +5#
+%1, <noelle>, <center>, <blush>%
+NOELLE: O-oh. of course. I mean--I can see why--I mean...
+
+%1, <noelle>, <center>, <neutral>%
+NOELLE: I don't suppose you have much say in your own life, either. A prince must have an awful lot expected of him.
+
+[[I wouldn't know.]]
+[[Being a prince isn't the problem.]]
+
+
+:: I'm sorry to hear that.
+#noelle_approval, +5#
+%1, <noelle>, <center>, <smile>%
+NOELLE: Well. There's not much either of us can do about it, but it was still good to talk about it. Thank you for listening.
+
+NOELLE: Is there anything else you wanted to discuss?
+
+[[One of the other women in the castle.]]
+[[%noelle_approval,-30,0%How are you enjoying your stay here?]]
+[[%noelle_approval,1,30%How are you enjoying your stay here?]]
+[[%noelle_approval,31,50%How are you enjoying your stay here?]]
+[[%noelle_approval,50,70%How are you enjoying your stay here?]]
+[[Let's talk about you.]]
+[[Actually, I have to go.]]
+
+
+:: If you marry me, you won't have to worry about money.
+#noelle_approval, -5#
+%1, <noelle>, <center>, <neutral>%
+NOELLE: Right. Because the money is what I care about, not my mother's legacy, or getting away from my father.
+
+NOELLE: I think I'm done talking about this. Is there anything else you wanted to discuss?
+
+[[One of the other women in the castle.]]
+[[%noelle_approval,-30,0%How are you enjoying your stay here?]]
+[[%noelle_approval,1,30%How are you enjoying your stay here?]]
+[[%noelle_approval,31,50%How are you enjoying your stay here?]]
+[[%noelle_approval,50,70%How are you enjoying your stay here?]]
+[[Let's talk about you.]]
+[[Actually, I have to go.]]
+
+
+:: Maybe I can get it for you.
+#noelle_approval, +5#
+%1, <noelle>, <center>, <scared>%
+NOELLE: That's...
+
+NOELLE: I mean, I appreciate the offer, but it would be nearly impossible.
+
+NOELLE: Still. Thank you.
+
+NOELLE: Is there anything else you wanted to discuss?
+
+[[One of the other women in the castle.]]
+[[%noelle_approval,-30,0%How are you enjoying your stay here?]]
+[[%noelle_approval,1,30%How are you enjoying your stay here?]]
+[[%noelle_approval,31,50%How are you enjoying your stay here?]]
+[[%noelle_approval,50,70%How are you enjoying your stay here?]]
+[[Let's talk about you.]]
+[[Actually, I have to go.]]
+
+
+:: Someone handsome.
+%1, <noelle>, <center>, <smile>%
+NOELLE: I should have expected a similar answer, given your...affliction.
+
+NOELLE: I admit, I don't know much about your situation, but I can assure you that being beautiful isn't as rewarding as it's made out to be. I speak from experience.
+
+NOELLE: Is there anything else you wanted to discuss?
+
+[[One of the other women in the castle.]]
+[[%noelle_approval,-30,0%How are you enjoying your stay here?]]
+[[%noelle_approval,1,30%How are you enjoying your stay here?]]
+[[%noelle_approval,31,50%How are you enjoying your stay here?]]
+[[%noelle_approval,50,70%How are you enjoying your stay here?]]
+[[Let's talk about you.]]
+[[Actually, I have to go.]]
+
+
+:: Do you think I could be someone else in the New World?
+%1, <noelle>, <center>, <smile>%
+NOELLE: I suppose so.
+
+NOELLE: Who would you be, if given the chance?
+
+[[Someone handsome.]]
+[[Someone powerful.]]
+[[Someone ordinary.]]
+
+
+:: Don't stop on my account.
+#noelle_approval, +5#
+%1, <noelle>, <center>, <blush>%
+NOELLE: No, please, I couldn't possibly keep talking.
+
+[[Well, thank you for telling me all the same.|Thank you for telling me.]]
+[[Do you think I could be someone else in the New World?]]
+[[Very well. Let's talk about something else.]]
+[[Actually, I have to go.]]
+
+
+:: Thank you for telling me.
+#noelle_approval, +5#
+%1, <noelle>, <center>, <blush>%
+NOELLE: The pleasure was all mine. It's rare that I get to talk so openly, especially to a member of the opposite sex.
+
+NOELLE: Is there anything else you wanted to discuss?
+
+[[One of the other women in the castle.]]
+[[%noelle_approval,-30,0%How are you enjoying your stay here?]]
+[[%noelle_approval,1,30%How are you enjoying your stay here?]]
+[[%noelle_approval,31,50%How are you enjoying your stay here?]]
+[[%noelle_approval,50,70%How are you enjoying your stay here?]]
+[[Let's talk about you.]]
+[[Actually, I have to go.]]
+
+
+:: Does your father not let you make your own decisions?
+%1, <noelle>, <center>, <frown>%
+NOELLE: No.
+
+NOELLE: No, he doesn't.
+
+NOELLE: This topic is wearing on me. Is there anything else you wanted to discuss?
+
+[[One of the other women in the castle.]]
+[[%noelle_approval,-30,0%How are you enjoying your stay here?]]
+[[%noelle_approval,1,30%How are you enjoying your stay here?]]
+[[%noelle_approval,31,50%How are you enjoying your stay here?]]
+[[%noelle_approval,50,70%How are you enjoying your stay here?]]
+[[Let's talk about you.]]
+[[Actually, I have to go.]]
+
+
+:: You'd be surprised what I know.
+%1, <noelle>, <center>, <neutral>%
+NOELLE: I certainly would, if you're implying you think you know what it's like to be a woman.
+
+NOELLE: I know you must have...problems of your own to face due to your appearance, but the two aren't really comparable.
+
+NOELLE: This topic is wearing on me. Is there anything else you'd like to discuss?
+
+[[One of the other women in the castle.]]
+[[%noelle_approval,-30,0%How are you enjoying your stay here?]]
+[[%noelle_approval,1,30%How are you enjoying your stay here?]]
+[[%noelle_approval,31,50%How are you enjoying your stay here?]]
+[[%noelle_approval,50,70%How are you enjoying your stay here?]]
+[[Let's talk about you.]]
+[[Actually, I have to go.]]
+
+
+:: I wouldn't know.
+%1, <noelle>, <center>, <frown>%
+NOELLE: No, I suppose you wouldn't. It's not as if you have anyone to be responsible for, is there?
+
+NOELLE: I'm not sure what you meant by that, then. If it was a self-deprecating comment about how lonely you are, I have nothing to say in response.
+
+%1, <noelle>, <center>, <neutral>%
+NOELLE: Is there anything else you wanted to discuss?
+
+[[One of the other women in the castle.]]
+[[%noelle_approval,-30,0%How are you enjoying your stay here?]]
+[[%noelle_approval,1,30%How are you enjoying your stay here?]]
+[[%noelle_approval,31,50%How are you enjoying your stay here?]]
+[[%noelle_approval,50,70%How are you enjoying your stay here?]]
+[[Let's talk about you.]]
+[[Actually, I have to go.]]
+
+
+:: Being a prince isn't the problem.
+%1, <noelle>, <center>, <frown>%
+NOELLE: Then you must be referring to your...physical impairment.
+
+NOELLE: I admit, I don't know much about your situation, but I can assure you that being beautiful isn't as rewarding as it's made out to be. I speak from experience.
+
+NOELLE: This topic is wearing on me. Is there anything else you wanted to discuss?
+
+[[One of the other women in the castle.]]
+[[%noelle_approval,-30,0%How are you enjoying your stay here?]]
+[[%noelle_approval,1,30%How are you enjoying your stay here?]]
+[[%noelle_approval,31,50%How are you enjoying your stay here?]]
+[[%noelle_approval,50,70%How are you enjoying your stay here?]]
+[[Let's talk about you.]]
+[[Actually, I have to go.]]
+
+
+:: Someone powerful.
+#noelle_approval, -5#
+%1, <noelle>, <center>, <frown>%
+NOELLE: I suppose most men would answer as such.
+
+NOELLE: But surely, as a prince, you have enough power already.
+
+NOELLE: Is there anything else you wanted to discuss?
+
+[[One of the other women in the castle.]]
+[[%noelle_approval,-30,0%How are you enjoying your stay here?]]
+[[%noelle_approval,1,30%How are you enjoying your stay here?]]
+[[%noelle_approval,31,50%How are you enjoying your stay here?]]
+[[%noelle_approval,50,70%How are you enjoying your stay here?]]
+[[Let's talk about you.]]
+[[Actually, I have to go.]]
+
+
+:: Someone ordinary.
+#noelle_approval, +10#
+%1, <noelle>, <center>, <smile>%
+NOELLE: A wise choice.
+
+NOELLE: Is there anything else you wanted to discuss?
+
+[[One of the other women in the castle.]]
+[[%noelle_approval,-30,0%How are you enjoying your stay here?]]
+[[%noelle_approval,1,30%How are you enjoying your stay here?]]
+[[%noelle_approval,31,50%How are you enjoying your stay here?]]
+[[%noelle_approval,50,70%How are you enjoying your stay here?]]
+[[Let's talk about you.]]
+[[Actually, I have to go.]]
 
 

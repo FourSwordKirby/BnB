@@ -60,7 +60,7 @@ public class MapController : MonoBehaviour {
 
 	public void RoomClicked(Room room) {
 		if (room.unlocked) {
-			GameManager.LoadRoom (room);
+			StartCoroutine(GameManager.MoveToRoom (room));
 			hideMap();
 		} else {
 			// TODO: Some feedback to player telling them you can't do this

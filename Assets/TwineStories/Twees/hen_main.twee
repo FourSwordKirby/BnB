@@ -16,7 +16,7 @@ BEAST: Good to see you, too. Now, then...
 [[I'd like to hear your opinion of the other women staying in the castle.|women]]
 [[How are you enjoying your stay here?|stay1]]
 [[Let's talk about you.|you]]
-[[%hen_gift, 4, 4%I have a gift for you.|gift]]
+[[%hen_gift, 3, 3%I have a gift for you.|gift]]
 
 
 
@@ -61,6 +61,7 @@ BEAST: I was thinking we could talk about...
 [[One of the other women in the castle.|women]]
 [[How you feel about the castle.|stay1]]
 [[You.|you]]
+[[Actually, I have to go.]]
 
 
 :: women
@@ -118,6 +119,7 @@ HENRIETTA: MMMOOOOOOO.
 [[%hen_convo, 4, 4%What's your farm like?|farm]]
 [[%hen_convo, 5, 5%Have you ever been in love?|love]]
 [[Let's talk about something lighter.|light]]
+[[Actually, I have to go.]]
 
 
 :: cow
@@ -132,7 +134,21 @@ BEAST: Of course. I don't know why I expected anything different.
 
 
 :: gift
-#
+#convo_points, -1#
+#hen_gift, +1#
+#hen_approval, +60#
+BEAST: Here. I thought you might like a taste of home.
+
+HENRIETTA: ...!! 
+
+HENRIETTA: MOOOOOOOOOOOOO!
+
+BEAST: It was no trouble at all. A beautiful girl like you deserves gifts like this.
+
+%1, <hen>, <center>, <blush>%
+HENRIETTA: MMMmmoOOOOOOOOoooo....
+
+BEAST: You're very welcome.
 
 
 :: animal
@@ -176,5 +192,11 @@ BEAST: You're right. It's better to have loved and lost than never loved at all.
 
 [[Let's talk about something lighter.|light]]
 [[Let's talk more about you.|you]]
+
+
+:: Actually, I have to go.
+HENRIETTA: MMooOOOOoo.
+
+BEAST: Yes, of course I'll see you again soon.
 
 

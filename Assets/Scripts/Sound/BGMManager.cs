@@ -5,8 +5,8 @@ using System.Linq;
 public class BGMManager : MonoBehaviour {
 
     public List<AudioSource> BGMtracks;
-
-    public int index;
+    public int speakerIndex;
+    public int mood;
 
     //public static AudioSource currentAudioSource;
     public static AudioSource targetAudioSource;
@@ -22,7 +22,8 @@ public class BGMManager : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-        targetAudioSource = BGMtracks[index];
+
+        targetAudioSource = BGMtracks[(speakerIndex * 3 + 1)  + mood];
 
         if (BGMtracks.Where(x => x != targetAudioSource && x.volume > 0).Count() != 0)
         {
@@ -41,12 +42,20 @@ public class BGMManager : MonoBehaviour {
 
     public void changeAudioSource(string name, float newVolume)
     {
-        AudioSource newAudio = BGMtracks.Find(x => x.name == name);
+        if (targetAudioSource.name != name)
+        {
+            AudioSource newAudio = BGMtracks.Find(x => x.name == name);
 
-        targetAudioSource = newAudio;
-        targetVolume = newVolume;
+            targetAudioSource = newAudio;
+            targetVolume = newVolume;
 
-        targetAudioSource.gameObject.SetActive(true);
-        targetAudioSource.volume = 0;
+            targetAudioSource.gameObject.SetActive(true);
+            targetAudioSource.volume = 0;
+        }
+    }
+
+    public void playTracks(GameManager.LoveInterestName loveInterestName = GameManager.LoveInterestName.Beauregard)
+    {
+        speakerIndex = (int)loveInterestName;
     }
 }
