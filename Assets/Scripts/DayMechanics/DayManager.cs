@@ -59,18 +59,29 @@ public class DayManager : MonoBehaviour {
 
 	public void BeginDay() {
         endOfDay = false;
+
+        gameManager.getLoveInterest(GameManager.LoveInterestName.Noelle).currentStory = NoelleStory;
+        gameManager.getLoveInterest(GameManager.LoveInterestName.Henrietta).currentStory = HenStory;
+        gameManager.getLoveInterest(GameManager.LoveInterestName.Patrice).currentStory = PatStory;
+        gameManager.getLoveInterest(GameManager.LoveInterestName.John).currentStory = JohnStory;
+        gameManager.getLoveInterest(GameManager.LoveInterestName.Lucille).currentStory = LucyStory;
+
         if (dayNumber == 1)
         {
-            //Currently hardcoding the fact that noelle appears in a room with the appropriate story
-            mansion.Rooms[(int)GameManager.RoomName.Library].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.Noelle));
+            //mansion.Rooms[(int)GameManager.RoomName.Library].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.Noelle));
             mansion.Rooms[(int)GameManager.RoomName.Kitchen].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.John));
             mansion.Rooms[(int)GameManager.RoomName.Parlor].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.Patrice));
             mansion.Rooms[(int)GameManager.RoomName.Pasture].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.Henrietta));
+            mansion.Rooms[(int)GameManager.RoomName.WineCellar].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.Lucille));
+        }
 
-            gameManager.getLoveInterest(GameManager.LoveInterestName.Noelle).currentStory = NoelleStory;
-            gameManager.getLoveInterest(GameManager.LoveInterestName.Henrietta).currentStory = HenStory;
-            gameManager.getLoveInterest(GameManager.LoveInterestName.Patrice).currentStory = PatStory;
-            gameManager.getLoveInterest(GameManager.LoveInterestName.John).currentStory = JohnStory;
+        if (dayNumber == 2)
+        {
+            //mansion.Rooms[(int)GameManager.RoomName.Parlor].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.Noelle));
+            mansion.Rooms[(int)GameManager.RoomName.Kitchen].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.John));
+            mansion.Rooms[(int)GameManager.RoomName.Porch].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.Patrice));
+            mansion.Rooms[(int)GameManager.RoomName.Pasture].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.Henrietta));
+            mansion.Rooms[(int)GameManager.RoomName.WineCellar].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.Lucille));
         }
 
 		/* Housekeeping for keeping track of info */

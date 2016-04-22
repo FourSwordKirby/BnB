@@ -164,7 +164,6 @@ public class DialogController : MonoBehaviour
     private void DisplayOptions()
     {
 		List<string> optionsToDisplay = FilterValidOptions (currentStory.Links);
-
 		if (optionsToDisplay.Count > numMaxOptions)
 			Debug.Log ("ERROR: Cannot display all options");
 
@@ -174,6 +173,7 @@ public class DialogController : MonoBehaviour
 			dialogUI.enableOption (i);
 			//Debug.Log("Displaying option " + i + ": " + currentStory.Links[i].Text);
 			dialogUI.displayOption (optionsToDisplay[i], i);
+            Debug.Log(optionsToDisplay[i]);
 		}
     }
 

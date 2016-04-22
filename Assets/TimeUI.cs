@@ -9,7 +9,9 @@ public class TimeUI : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-        Vector2 desiredPosition = indicatorPositions[2-GameManager.dayControls.remainingConvoPts].transform.position;
+        int desiredIndex = Mathf.Clamp(2 - GameManager.dayControls.remainingConvoPts, 0, 2);
+
+        Vector2 desiredPosition = indicatorPositions[desiredIndex].transform.position;
         indicator.transform.position = Vector2.MoveTowards(indicator.transform.position, desiredPosition, 0.1f);
 	}
 }

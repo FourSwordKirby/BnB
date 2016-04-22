@@ -17,6 +17,7 @@ public class ForegroundController : MonoBehaviour {
     {
         foreground.gameObject.SetActive(true);
         foreground.sprite = screenSprite;
+        beginFadeOut = false;
     }
 
     public void hideScreen()

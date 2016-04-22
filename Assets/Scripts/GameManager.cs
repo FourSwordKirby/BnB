@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using UnityTwine;
 using System.Collections;
 using System.Collections.Generic;
@@ -171,9 +172,27 @@ public class GameManager : MonoBehaviour {
 		dayControls.BeginDay ();
 	}
 
+
+    public static GameObject titleScreen;
+
     public static IEnumerator EndDay()
     {
         screenFader.setFadeTime(2.0f);
+
+        //REALLY QUICK TEMP HACK FOR THE DEMO
+        //REMOVE IT ASAP
+        titleScreen = GameObject.Find("TitleScreen");
+
+        if(titleScreen != null)
+        {
+            foregroundControls.displayScreen(titleScreen.GetComponent<Image>().sprite);
+            while (!foregroundControls.beginFadeOut)
+            {
+                yield return new WaitForSeconds(0.1f);
+            }
+            Destroy(titleScreen);
+        }
+
 
         screenFader.FadeToBlack();
         while (!screenFader.finishedFade)
