@@ -5,6 +5,7 @@ BEAST: ...Right.
 
 [[I want to hear your opinion of the other women staying in the castle.|women]]
 [[%convo_points, 1, 2%Let's talk about you.|you]]
+[[I have to go now.|leave]]
 
 
 :: Start
@@ -17,7 +18,7 @@ BEAST: Good to see you, too. Now, then...
 [[How are you enjoying your stay here?|stay1]]
 [[%convo_points, 1, 2%Let's talk about you.|you]]
 [[%hen_gift, 3, 3%I have a gift for you.|gift]]
-[[Actually, I have to go.]]
+[[Actually, I have to go.|leave]]
 
 
 
@@ -29,6 +30,7 @@ BEAST: Of course. I completely agree. Now, let's discuss something else.
 [[I want to hear your opinion of the other women staying in the castle.|women]]
 [[How are you enjoying your stay here?|stay1]]
 [[%convo_points, 1, 2%Let's talk about you.|you]]
+[[I have to go now.|leave]]
 
 
 :: j1
@@ -39,6 +41,7 @@ BEAST: Really? Hm. I suppose so. Now, let's discuss something else.
 [[I want to hear your opinion of the other women staying in the castle.|women]]
 [[How are you enjoying your stay here?|stay1]]
 [[%convo_points, 1, 2%Let's talk about you.|you]]
+[[I have to go now.|leave]]
 
 
 :: fam
@@ -54,6 +57,7 @@ BEAST: Let's discuss something else.
 [[I want to hear your opinion of the other women staying in the castle.|women]]
 [[How are you enjoying your stay here?|stay1]]
 [[%convo_points, 1, 2%Let's talk about you.|you]]
+[[I have to go now.|leave]]
 
 
 :: light
@@ -62,7 +66,7 @@ BEAST: I was thinking we could talk about...
 [[One of the other women in the castle.|women]]
 [[How you feel about the castle.|stay1]]
 [[%convo_points, 1,2%Let's talk about you.|you]]
-[[Actually, I have to go.]]
+[[Actually, I have to go.|leave]]
 
 
 :: women
@@ -72,7 +76,7 @@ HENRIETTA: MMOOOOO.
 [[Pat.|p1]]
 [[Noelle.|n1]]
 [[Lucille.|l1]]
-[[Actually, I have to go.]]
+[[Actually, I have to go.|leave]]
 
 
 :: p1
@@ -83,6 +87,7 @@ HENRIETTA: ...Good to hear. Let's discuss something else.
 [[I want to hear your opinion of the other women staying in the castle.|women]]
 [[How are you enjoying your stay here?|stay1]]
 [[%convo_points, 1, 2%Let's talk about you.|you]]
+[[I have to go now.|leave]]
 
 
 :: n1
@@ -93,6 +98,7 @@ BEAST: Well. That's surprising. Now, let's discuss something else.
 [[I want to hear your opinion of the other women staying in the castle.|women]]
 [[How are you enjoying your stay here?|stay1]]
 [[%convo_points, 1, 2%Let's talk about you.|you]]
+[[I have to go now.|leave]]
 
 
 :: from
@@ -108,6 +114,7 @@ BEAST: No, no, I'll take your word for it.
 
 [[Let's talk about something lighter.|light]]
 [[%convo_points, 1, 2%Let's talk more about you.|you]]
+[[I have to go now.|leave]]
 
 
 :: you
@@ -132,6 +139,7 @@ BEAST: Of course. I don't know why I expected anything different.
 
 [[Let's talk about something lighter.|light]]
 [[%convo_points, 1, 2%Let's talk more about you.|you]]
+[[I have to go now.|leave]]
 
 
 :: gift
@@ -163,6 +171,7 @@ HENRIETTA: MMMOOOOOOO.
 
 [[Let's talk about something lighter.|light]]
 [[%convo_points, 1, 2%Let's talk more about you.|you]]
+[[I have to go now.|leave]]
 
 
 :: farm
@@ -178,6 +187,7 @@ BEAST: No, I'm not just saying that.
 
 [[Let's talk about something lighter.|light]]
 [[%convo_points, 1, 2%Let's talk more about you.|you]]
+[[I have to go now.|leave]]
 
 
 :: love
@@ -193,9 +203,10 @@ BEAST: You're right. It's better to have loved and lost than never loved at all.
 
 [[Let's talk about something lighter.|light]]
 [[%convo_points, 1, 2%Let's talk more about you.|you]]
+[[I have to go now.|leave]]
 
 
-:: Actually, I have to go.
+:: leave
 HENRIETTA: MMooOOOOoo.
 
 BEAST: Yes, of course I'll see you again soon.
