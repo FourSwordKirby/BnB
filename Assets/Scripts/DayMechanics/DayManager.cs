@@ -15,6 +15,7 @@ public class DayManager : MonoBehaviour {
     public GameManager gameManager;
 	public TwineStory morningBeauStory;
     public TwineStory eveningBeauStory;
+    public TwineStory beauPityStory;
 
     public List<Sprite> daySprites;
 
@@ -133,11 +134,17 @@ public class DayManager : MonoBehaviour {
             mansion.Rooms[(int)GameManager.RoomName.Parlor].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.Lucille));
         }
 
+        if (dayNumber == 8)
+        {
+            //Play beau's pity story
+            GameManager.StartConversation(beauPityStory);
+            return;
+        }
+
 		/* Housekeeping for keeping track of info */
 		remainingConvoPts = 2;
 		GameManager.LoadRoom (bedroom);
 
-		// TODO: Have day-starting convo with beau
 		GameManager.StartConversation (morningBeauStory);
 	}
 

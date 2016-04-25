@@ -98,6 +98,22 @@ public class GameManager : MonoBehaviour {
         dayControls.endOfDay = true;
     }
 
+    public static IEnumerator BeginMarriage(TwineStory marriageStory)
+    {
+        screenFader.setFadeTime(3.0f);
+        screenFader.FadeToBlack();
+
+        while (!screenFader.finishedFade)
+            yield return new WaitForSeconds(0.1f);
+
+        /***** THIS WILL BE CALLED TO START AN ENDING, IT INVOLVES ENDING THE CURRENT CONVERSATION AND TRANSITIONING INTO THE APPROPRIATE
+             * BACKGROUND/MUSIC etc. combination*****/        
+        /*Do this later I'm really done right now*/
+
+        GameManager.StartConversation(marriageStory);
+        screenFader.FadeToClear();
+    }
+
     public static IEnumerator MoveToRoom(Room room)
     {
         screenFader.setFadeTime(0.75f);
