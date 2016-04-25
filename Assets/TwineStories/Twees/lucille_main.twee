@@ -7,7 +7,7 @@ LUCILLE: Feels wrong to image leaving, now. I suppose that's what you wanted, hu
 LUCILLE: What now?
 
 [[I want to hear your opinion of the other women staying in the castle.|women]]
-[[convo_points, 1, 2%Let's talk about you.|you]]
+[[%convo_points, 1, 2%Let's talk about you.|you]]
 
 
 :: stay3
@@ -17,7 +17,7 @@ LUCILLE: It's honestly starting to feel a little cozy around here. Not something
 LUCILLE: What now?
 
 [[I want to hear your opinion of the other women staying in the castle.|women]]
-[[convo_points, 1, 2%Let's talk about you.|you]]
+[[%convo_points, 1, 2%Let's talk about you.|you]]
 
 
 :: stay2
@@ -27,7 +27,7 @@ LUCILLE: I don't hate it as much as I thought I would. And that's as close to a 
 LUCILLE: What now?
 
 [[I want to hear your opinion of the other women staying in the castle.|women]]
-[[convo_points, 1, 2%Let's talk about you.|you]]
+[[%convo_points, 1, 2%Let's talk about you.|you]]
 
 
 :: stay1
@@ -37,7 +37,7 @@ LUCILLE: The place is certainly poncy enough for a prince to live in. I hate it.
 LUCILLE: What now?
 
 [[I want to hear your opinion of the other women staying in the castle.|women]]
-[[convo_points, 1, 2%Let's talk about you.|you]]
+[[%convo_points, 1, 2%Let's talk about you.|you]]
 
 
 :: Start
@@ -49,7 +49,7 @@ LUCILLE: Alright, so you found me. What do you want?
 [[%lucy_approval,1,30%How are you enjoying your stay here?|stay2]]
 [[%lucy_approval,31,50%How are you enjoying your stay here?|stay3]]
 [[%lucy_approval,51,70%How are you enjoying your stay here?|stay4]]
-[[convo_points, 1, 2%Let's talk about you.|you]]
+[[%convo_points, 1, 2%Let's talk about you.|you]]
 [[Actually, I have to leave.]]
 
 
@@ -65,7 +65,7 @@ LUCILLE: What now?
 [[%lucy_approval,0,10%How are you enjoying your stay here?|stay2]]
 [[%lucy_approval,10,50%How are you enjoying your stay here?|stay3]]
 [[%lucy_approval,50,70%How are you enjoying your stay here?|stay4]]
-[[convo_points, 1, 2%Let's talk about you.|you]]
+[[%convo_points, 1, 2%Let's talk about you.|you]]
 
 
 :: h2
@@ -79,7 +79,7 @@ LUCILLE: What now?
 [[%lucy_approval,0,10%How are you enjoying your stay here?|stay2]]
 [[%lucy_approval,10,50%How are you enjoying your stay here?|stay3]]
 [[%lucy_approval,50,70%How are you enjoying your stay here?|stay4]]
-[[convo_points, 1, 2%Let's talk about you.|you]]
+[[%convo_points, 1, 2%Let's talk about you.|you]]
 
 
 :: j1
@@ -93,7 +93,7 @@ LUCILLE: What now?
 [[%lucy_approval,0,10%How are you enjoying your stay here?|stay2]]
 [[%lucy_approval,10,50%How are you enjoying your stay here?|stay3]]
 [[%lucy_approval,50,70%How are you enjoying your stay here?|stay4]]
-[[convo_points, 1, 2%Let's talk about you.|you]]
+[[%convo_points, 1, 2%Let's talk about you.|you]]
 
 
 :: j2
@@ -110,7 +110,7 @@ LUCILLE: What now?
 [[%lucy_approval,0,10%How are you enjoying your stay here?|stay2]]
 [[%lucy_approval,10,50%How are you enjoying your stay here?|stay3]]
 [[%lucy_approval,50,70%How are you enjoying your stay here?|stay4]]
-[[convo_points, 1, 2%Let's talk about you.|you]]
+[[%convo_points, 1, 2%Let's talk about you.|you]]
 
 
 :: women
@@ -139,7 +139,7 @@ LUCILLE: What now?
 [[%lucy_approval,0,10%How are you enjoying your stay here?|stay2]]
 [[%lucy_approval,10,50%How are you enjoying your stay here?|stay3]]
 [[%lucy_approval,50,70%How are you enjoying your stay here?|stay4]]
-[[convo_points, 1, 2%Let's talk about you.|you]]
+[[%convo_points, 1, 2%Let's talk about you.|you]]
 
 
 :: p2
@@ -153,7 +153,7 @@ LUCILLE: What now?
 [[%lucy_approval,0,10%How are you enjoying your stay here?|stay2]]
 [[%lucy_approval,10,50%How are you enjoying your stay here?|stay3]]
 [[%lucy_approval,50,70%How are you enjoying your stay here?|stay4]]
-[[convo_points, 1, 2%Let's talk about you.|you]]
+[[%convo_points, 1, 2%Let's talk about you.|you]]
 
 
 :: n1
@@ -167,7 +167,7 @@ LUCILLE: What now?
 [[%lucy_approval,0,10%How are you enjoying your stay here?|stay2]]
 [[%lucy_approval,10,50%How are you enjoying your stay here?|stay3]]
 [[%lucy_approval,50,70%How are you enjoying your stay here?|stay4]]
-[[convo_points, 1, 2%Let's talk about you.|you]]
+[[%convo_points, 1, 2%Let's talk about you.|you]]
 
 
 :: n2
@@ -183,7 +183,7 @@ LUCILLE: What now?
 [[%lucy_approval,0,10%How are you enjoying your stay here?|stay2]]
 [[%lucy_approval,10,50%How are you enjoying your stay here?|stay3]]
 [[%lucy_approval,50,70%How are you enjoying your stay here?|stay4]]
-[[convo_points, 1, 2%Let's talk about you.|you]]
+[[%convo_points, 1, 2%Let's talk about you.|you]]
 
 
 :: fam
@@ -389,7 +389,7 @@ LUCILLE: Of course, sire. What would you like to talk about?
 [[%lucy_approval,1,30%How are you enjoying your stay here?|stay2]]
 [[%lucy_approval,31,50%How are you enjoying your stay here?|stay3]]
 [[%lucy_approval,51,70%How are you enjoying your stay here?|stay4]]
-[[convo_points, 1, 2%Let's talk about you.|you]]
+[[%convo_points, 1, 2%Let's talk about you.|you]]
 [[Actually, I have to leave.]]
 
 
