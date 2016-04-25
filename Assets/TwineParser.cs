@@ -200,4 +200,9 @@ public class TwineParser : MonoBehaviour {
     {
         return option[0] == '$';
     }
+
+    internal bool IsEnding(string option)
+    {
+        return option[0] == '&';
+    }
 }

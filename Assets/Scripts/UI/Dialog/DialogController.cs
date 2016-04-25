@@ -80,6 +80,12 @@ public class DialogController : MonoBehaviour
                     ApplyBGM(instructions);
                     currentLine++;
                 }
+
+                if (twineParser.IsEnding(line))
+                {
+                    instructions = line.Substring(line.IndexOf("&") + 1, line.Substring(1).IndexOf("&"));
+                    ApplyEnding(instructions);
+                }
 			} while (instructions != "");
 
             string speakerName = "";
@@ -104,7 +110,6 @@ public class DialogController : MonoBehaviour
             	CleanupFunction = DisplayOptions;
         }
     }
-
 
 	private void ApplyInstructions(string instructions) {
 		string[] instrList = instructions.Split(',');
@@ -161,6 +166,8 @@ public class DialogController : MonoBehaviour
 				validOptionMap.Add (i);
 			}
 		}
+        validOptionMap.Reverse();
+        validOptions.Reverse();
 		return validOptions;
 	}
 
@@ -175,6 +182,12 @@ public class DialogController : MonoBehaviour
         GameManager.bgmManager.mood = mood;
     }
 
+    private void ApplyEnding(string instructions)
+    {
+        /***** THIS WILL BE CALLED TO START AN ENDING, IT INVOLVES ENDING THE CURRENT CONVERSATION AND TRANSITIONING INTO THE APPROPRIATE
+             * BACKGROUND/MUSIC etc. combination*****/
+    }
+
     private void DisplayOptions()
     {
 		List<string> optionsToDisplay = FilterValidOptions (currentStory.Links);
@@ -187,7 +200,6 @@ public class DialogController : MonoBehaviour
 			dialogUI.enableOption (i);
 			//Debug.Log("Displaying option " + i + ": " + currentStory.Links[i].Text);
 			dialogUI.displayOption (optionsToDisplay[i], i);
-            Debug.Log(optionsToDisplay[i]);
 		}
     }
 

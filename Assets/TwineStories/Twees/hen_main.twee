@@ -4,7 +4,7 @@ HENRIETTA: MMMMMMMMMMOOOOOOOOOOOO.
 BEAST: ...Right. 
 
 [[I want to hear your opinion of the other women staying in the castle.|women]]
-[[Let's talk about you.|you]]
+[[%convo_points, 1, 2%Let's talk about you.|you]]
 
 
 :: Start
@@ -15,8 +15,9 @@ BEAST: Good to see you, too. Now, then...
 
 [[I'd like to hear your opinion of the other women staying in the castle.|women]]
 [[How are you enjoying your stay here?|stay1]]
-[[Let's talk about you.|you]]
+[[%convo_points, 1, 2%Let's talk about you.|you]]
 [[%hen_gift, 3, 3%I have a gift for you.|gift]]
+[[Actually, I have to go.]]
 
 
 
@@ -27,7 +28,7 @@ BEAST: Of course. I completely agree. Now, let's discuss something else.
 
 [[I want to hear your opinion of the other women staying in the castle.|women]]
 [[How are you enjoying your stay here?|stay1]]
-[[Let's talk about you.|you]]
+[[%convo_points, 1, 2%Let's talk about you.|you]]
 
 
 :: j1
@@ -37,7 +38,7 @@ BEAST: Really? Hm. I suppose so. Now, let's discuss something else.
 
 [[I want to hear your opinion of the other women staying in the castle.|women]]
 [[How are you enjoying your stay here?|stay1]]
-[[Let's talk about you.|you]]
+[[%convo_points, 1, 2%Let's talk about you.|you]]
 
 
 :: fam
@@ -52,7 +53,7 @@ BEAST: Let's discuss something else.
 
 [[I want to hear your opinion of the other women staying in the castle.|women]]
 [[How are you enjoying your stay here?|stay1]]
-[[Let's talk about you.|you]]
+[[%convo_points, 1, 2%Let's talk about you.|you]]
 
 
 :: light
@@ -60,7 +61,7 @@ BEAST: I was thinking we could talk about...
 
 [[One of the other women in the castle.|women]]
 [[How you feel about the castle.|stay1]]
-[[You.|you]]
+[[%convo_points, 1,2%Let's talk about you.|you]]
 [[Actually, I have to go.]]
 
 
@@ -71,7 +72,7 @@ HENRIETTA: MMOOOOO.
 [[Pat.|p1]]
 [[Noelle.|n1]]
 [[Lucille.|l1]]
-
+[[Actually, I have to go.]]
 
 
 :: p1
@@ -81,7 +82,7 @@ HENRIETTA: ...Good to hear. Let's discuss something else.
 
 [[I want to hear your opinion of the other women staying in the castle.|women]]
 [[How are you enjoying your stay here?|stay1]]
-[[Let's talk about you.|you]]
+[[%convo_points, 1, 2%Let's talk about you.|you]]
 
 
 :: n1
@@ -91,7 +92,7 @@ BEAST: Well. That's surprising. Now, let's discuss something else.
 
 [[I want to hear your opinion of the other women staying in the castle.|women]]
 [[How are you enjoying your stay here?|stay1]]
-[[Let's talk about you.|you]]
+[[%convo_points, 1, 2%Let's talk about you.|you]]
 
 
 :: from
@@ -106,20 +107,20 @@ HENRIETTA: MMMMMOOOOOOOOOOOO!
 BEAST: No, no, I'll take your word for it.
 
 [[Let's talk about something lighter.|light]]
-[[Let's talk more about you.|you]]
+[[%convo_points, 1, 2%Let's talk more about you.|you]]
 
 
 :: you
 HENRIETTA: MMMOOOOOOO.
 
-[[%hen_convo, 0, 1%Where are you from?|from]]
-[[%hen_convo, 0, 1%What's your family like?|fam]]
-[[%hen_convo, 2, 3%Have you always been a cow?|cow]]
-[[%hen_convo, 2, 3%If you could be any other animal, what would you choose to be?|animal]]
+[[%hen_convo, 0, 0%Where are you from?|from]]
+[[%hen_convo, 1, 1%What's your family like?|fam]]
+[[%hen_convo, 2, 2%Have you always been a cow?|cow]]
+[[%hen_convo, 3, 3%If you could be any other animal, what would you choose to be?|animal]]
 [[%hen_convo, 4, 4%What's your farm like?|farm]]
 [[%hen_convo, 5, 5%Have you ever been in love?|love]]
 [[Let's talk about something lighter.|light]]
-[[Actually, I have to go.]]
+
 
 
 :: cow
@@ -130,7 +131,7 @@ HENRIETTA: MMMMOOOOOOOO.
 BEAST: Of course. I don't know why I expected anything different.
 
 [[Let's talk about something lighter.|light]]
-[[Let's talk more about you.|you]]
+[[%convo_points, 1, 2%Let's talk more about you.|you]]
 
 
 :: gift
@@ -161,7 +162,7 @@ BEAST: No, no, I'm sorry! I didn't mean to be insensitive.
 HENRIETTA: MMMOOOOOOO.
 
 [[Let's talk about something lighter.|light]]
-[[Let's talk more about you.|you]]
+[[%convo_points, 1, 2%Let's talk more about you.|you]]
 
 
 :: farm
@@ -176,7 +177,7 @@ HENRIETTA: MMMMMOOOO.
 BEAST: No, I'm not just saying that.
 
 [[Let's talk about something lighter.|light]]
-[[Let's talk more about you.|you]]
+[[%convo_points, 1, 2%Let's talk more about you.|you]]
 
 
 :: love
@@ -191,7 +192,7 @@ HENRIETTA: MMMMMOOOOOOOOOOOO.
 BEAST: You're right. It's better to have loved and lost than never loved at all.
 
 [[Let's talk about something lighter.|light]]
-[[Let's talk more about you.|you]]
+[[%convo_points, 1, 2%Let's talk more about you.|you]]
 
 
 :: Actually, I have to go.

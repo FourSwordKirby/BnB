@@ -7,7 +7,7 @@ NOELLE: I...I never thought I'd be so comfortable here. In a stranger's home. Bu
 NOELLE: Is there anything else you'd like to talk about?
 
 [[One of the other women in the castle.]]
-[[Let's talk about you.]]
+[[%convo_points, 1, 2%Let's talk about you.]]
 
 
 :: %noelle_approval,31,50%How are you enjoying your stay here?
@@ -16,7 +16,7 @@ NOELLE: I must admit, this place seemed a bit intimidating when I first arrived.
 NOELLE: Is there anything else you'd like to talk about?
 
 [[One of the other women in the castle.]]
-[[Let's talk about you.]]
+[[%convo_points, 1, 2%Let's talk about you.]]
 
 
 :: %noelle_approval,1,30%How are you enjoying your stay here?
@@ -25,7 +25,7 @@ NOELLE: The castle is beautiful. I've never been anywhere so...<i>imposing</i> b
 NOELLE: Is there anything else you'd like to talk about?
 
 [[One of the other women in the castle.]]
-[[Let's talk about you.]]
+[[%convo_points, 1, 2%Let's talk about you.]]
 
 
 :: %noelle_approval,-30,0%How are you enjoying your stay here?
@@ -34,7 +34,7 @@ NOELLE: ...I can't think of a <i>single</i> thing to complain about. Staying her
 NOELLE: Is there anything else you'd like to talk about?
 
 [[One of the other women in the castle.]]
-[[Let's talk about you.]]
+[[%convo_points, 1, 2%Let's talk about you.]]
 
 
 :: Start
@@ -46,8 +46,10 @@ NOELLE: A pleasure to see you, sire. What would you like to talk about?
 [[%noelle_approval,1,30%How are you enjoying your stay here?]]
 [[%noelle_approval,31,50%How are you enjoying your stay here?]]
 [[%noelle_approval,50,70%How are you enjoying your stay here?]]
-[[Let's talk about you.]]
+[[%convo_points, 1, 2%Let's talk about you.]]
 [[%noelle_gift, 3, 3%I have a gift for you.|GIFT]]
+[[%noelle_approval,70,170%Will you marry me?|marriage]]
+[[Actually, I have to go.]]
 
 
 
@@ -62,7 +64,7 @@ NOELLE: Is there anything else you'd like to talk about?
 [[%noelle_approval,1,30%How are you enjoying your stay here?]]
 [[%noelle_approval,31,50%How are you enjoying your stay here?]]
 [[%noelle_approval,50,70%How are you enjoying your stay here?]]
-[[Let's talk about you.]]
+[[%convo_points, 1, 2%Let's talk about you.]]
 
 
 :: h2
@@ -76,7 +78,7 @@ NOELLE: Is there anything else you'd like to talk about?
 [[%noelle_approval,1,30%How are you enjoying your stay here?]]
 [[%noelle_approval,31,50%How are you enjoying your stay here?]]
 [[%noelle_approval,50,70%How are you enjoying your stay here?]]
-[[Let's talk about you.]]
+[[%convo_points, 1, 2%Let's talk about you.]]
 
 
 :: j1
@@ -90,7 +92,7 @@ NOELLE: Is there anything else you'd like to talk about?
 [[%noelle_approval,1,30%How are you enjoying your stay here?]]
 [[%noelle_approval,31,50%How are you enjoying your stay here?]]
 [[%noelle_approval,50,70%How are you enjoying your stay here?]]
-[[Let's talk about you.]]
+[[%convo_points, 1, 2%Let's talk about you.]]
 
 
 :: j2
@@ -104,7 +106,7 @@ NOELLE: Is there anything else you'd like to talk about?
 [[%noelle_approval,1,30%How are you enjoying your stay here?]]
 [[%noelle_approval,31,50%How are you enjoying your stay here?]]
 [[%noelle_approval,50,70%How are you enjoying your stay here?]]
-[[Let's talk about you.]]
+[[%convo_points, 1, 2%Let's talk about you.]]
 
 
 :: %noelle_approval, 31, 70%What about me, then? What do you think of me?
@@ -118,7 +120,7 @@ NOELLE: Is there anything else you wanted to discuss?
 [[%noelle_approval,1,30%How are you enjoying your stay here?]]
 [[%noelle_approval,31,50%How are you enjoying your stay here?]]
 [[%noelle_approval,50,70%How are you enjoying your stay here?]]
-[[Let's talk about you.]]
+[[%convo_points, 1, 2%Let's talk about you.]]
 
 
 :: %noelle_approval, 1, 30%What about me, then? What do you think of me?
@@ -132,7 +134,7 @@ NOELLE: Is there anything else you wanted to discuss?
 [[%noelle_approval,1,30%How are you enjoying your stay here?]]
 [[%noelle_approval,31,50%How are you enjoying your stay here?]]
 [[%noelle_approval,50,70%How are you enjoying your stay here?]]
-[[Let's talk about you.]]
+[[%convo_points, 1, 2%Let's talk about you.]]
 
 
 :: %noelle_approval, -30, 0%What about me, then? What do you think of me?
@@ -146,7 +148,7 @@ NOELLE: Is there anything else you wanted to discuss?
 [[%noelle_approval,1,30%How are you enjoying your stay here?]]
 [[%noelle_approval,31,50%How are you enjoying your stay here?]]
 [[%noelle_approval,50,70%How are you enjoying your stay here?]]
-[[Let's talk about you.]]
+[[%convo_points, 1, 2%Let's talk about you.]]
 
 
 :: One of the other women in the castle.
@@ -161,6 +163,7 @@ NOELLE: Who did you have in mind?
 [[%day, 3, 6%Lucille.|l2]]
 [[%day, 1, 2%Henrietta.|h1]]
 [[%day, 3, 6%Henrietta.|h2]]
+[[Actually, I have to go.]]
 
 
 :: p1
@@ -174,7 +177,7 @@ NOELLE: Is there anything else you'd like to talk about?
 [[%noelle_approval,1,30%How are you enjoying your stay here?]]
 [[%noelle_approval,31,50%How are you enjoying your stay here?]]
 [[%noelle_approval,50,70%How are you enjoying your stay here?]]
-[[Let's talk about you.]]
+[[%convo_points, 1, 2%Let's talk about you.]]
 
 
 :: p2
@@ -192,7 +195,7 @@ NOELLE: Is there anything else you'd like to talk about?
 [[%noelle_approval,1,30%How are you enjoying your stay here?]]
 [[%noelle_approval,31,50%How are you enjoying your stay here?]]
 [[%noelle_approval,50,70%How are you enjoying your stay here?]]
-[[Let's talk about you.]]
+[[%convo_points, 1, 2%Let's talk about you.]]
 
 
 :: l1
@@ -207,7 +210,7 @@ NOELLE: Is there anything else you'd like to talk about?
 [[%noelle_approval,1,30%How are you enjoying your stay here?]]
 [[%noelle_approval,31,50%How are you enjoying your stay here?]]
 [[%noelle_approval,50,70%How are you enjoying your stay here?]]
-[[Let's talk about you.]]
+[[%convo_points, 1, 2%Let's talk about you.]]
 
 
 :: l2
@@ -224,7 +227,7 @@ NOELLE: Is there anything else you'd like to talk about?
 [[%noelle_approval,1,30%How are you enjoying your stay here?]]
 [[%noelle_approval,31,50%How are you enjoying your stay here?]]
 [[%noelle_approval,50,70%How are you enjoying your stay here?]]
-[[Let's talk about you.]]
+[[%convo_points, 1, 2%Let's talk about you.]]
 
 
 :: men
@@ -293,16 +296,17 @@ NOELLE: Yes, well. Like I said, I was very young. I barely remember her.
 [[At least you have your father.]]
 
 
-:: Let's talk about you.
+:: %convo_points, 1, 2%Let's talk about you.
 NOELLE: Certainly. What would you like to know?
 
-[[%noelle_convo, 0, 1%Where are you from?|from]]
-[[%noelle_convo, 0, 1%What is your family like?|family]]
-[[%noelle_convo, 2, 3%If you could go anywhere in the world, where would you go?|world]]
-[[%noelle_convo, 2, 3%You don't seem to think very highly of your father.|men]]
+[[%noelle_convo, 0, 0%Where are you from?|from]]
+[[%noelle_convo, 1, 1%What is your family like?|family]]
+[[%noelle_convo, 2, 2%If you could go anywhere in the world, where would you go?|world]]
+[[%noelle_convo, 3, 3%You don't seem to think very highly of your father.|men]]
 [[%noelle_convo, 4, 4%You smile often, but it never seems to reach your eyes.|unhappy]]
 [[%noelle_convo, 5, 5%What has your father done that's so unforgiveable?|father]]
 [[Let's talk about something else.|Very well. Let's talk about something else.]]
+[[Actually, I have to go.]]
 
 
 :: You don't think very highly of men in general, then.
@@ -387,7 +391,7 @@ NOELLE: Is there anything else you wanted to discuss?
 [[%noelle_approval,1,30%How are you enjoying your stay here?]]
 [[%noelle_approval,31,50%How are you enjoying your stay here?]]
 [[%noelle_approval,50,70%How are you enjoying your stay here?]]
-[[Let's talk about you.]]
+[[%convo_points, 1, 2%Let's talk about you.]]
 
 
 :: Shouldn't you be proud to have such a successful father?
@@ -421,7 +425,7 @@ NOELLE: Is there anything else you wanted to discuss?
 [[%noelle_approval,1,30%How are you enjoying your stay here?]]
 [[%noelle_approval,31,50%How are you enjoying your stay here?]]
 [[%noelle_approval,50,70%How are you enjoying your stay here?]]
-[[Let's talk about you.]]
+[[%convo_points, 1, 2%Let's talk about you.]]
 
 
 :: So men are sub-human, in your eyes.
@@ -529,6 +533,10 @@ NOELLE: I just meant that it's nice to blend into crowds, and not be noticed by 
 [[I wouldn't know what that's like.]]
 
 
+:: marriage
+TBD
+
+
 :: I'll be leaving, then.
 NOELLE: Yes, I think that's for the best. We can both...clear our heads before speaking again.
 
@@ -615,7 +623,7 @@ PATRICE: Is there anything else you wanted to discuss?
 [[%noelle_approval,1,30%How are you enjoying your stay here?]]
 [[%noelle_approval,31,50%How are you enjoying your stay here?]]
 [[%noelle_approval,50,70%How are you enjoying your stay here?]]
-[[Let's talk about you.]]
+[[%convo_points, 1, 2%Let's talk about you.]]
 
 
 :: I'm not sure I do.
@@ -630,7 +638,7 @@ NOELLE: Is there anything else you wanted to discuss?
 [[%noelle_approval,1,30%How are you enjoying your stay here?]]
 [[%noelle_approval,31,50%How are you enjoying your stay here?]]
 [[%noelle_approval,50,70%How are you enjoying your stay here?]]
-[[Let's talk about you.]]
+[[%convo_points, 1, 2%Let's talk about you.]]
 
 
 :: I take it he's not very nice outside his office.
@@ -647,7 +655,7 @@ NOELLE: This topic is wearing on me. Is there anything else you wanted to discus
 [[%noelle_approval,1,30%How are you enjoying your stay here?]]
 [[%noelle_approval,31,50%How are you enjoying your stay here?]]
 [[%noelle_approval,50,70%How are you enjoying your stay here?]]
-[[Let's talk about you.]]
+[[%convo_points, 1, 2%Let's talk about you.]]
 
 
 :: His personal life doesn't invalidate his professional accomplishments.
@@ -665,7 +673,7 @@ NOELLE: This topic is wearing on me. Is there anything else you wanted to discus
 [[%noelle_approval,1,30%How are you enjoying your stay here?]]
 [[%noelle_approval,31,50%How are you enjoying your stay here?]]
 [[%noelle_approval,50,70%How are you enjoying your stay here?]]
-[[Let's talk about you.]]
+[[%convo_points, 1, 2%Let's talk about you.]]
 
 
 :: So the offense in unintentional, then. That makes it all better.
@@ -681,7 +689,7 @@ NOELLE: This topic is wearing on me. Is there anything else you wanted to discus
 [[%noelle_approval,1,30%How are you enjoying your stay here?]]
 [[%noelle_approval,31,50%How are you enjoying your stay here?]]
 [[%noelle_approval,50,70%How are you enjoying your stay here?]]
-[[Let's talk about you.]]
+[[%convo_points, 1, 2%Let's talk about you.]]
 
 
 :: You're getting awfully defensive.
@@ -696,7 +704,7 @@ NOELLE: This topic is wearing on me. Is there anything else you wanted to discus
 [[%noelle_approval,1,30%How are you enjoying your stay here?]]
 [[%noelle_approval,31,50%How are you enjoying your stay here?]]
 [[%noelle_approval,50,70%How are you enjoying your stay here?]]
-[[Let's talk about you.]]
+[[%convo_points, 1, 2%Let's talk about you.]]
 
 
 :: I think I do, actually.
@@ -723,7 +731,7 @@ NOELLE: Is there anything else you wanted to discuss?
 [[%noelle_approval,1,30%How are you enjoying your stay here?]]
 [[%noelle_approval,31,50%How are you enjoying your stay here?]]
 [[%noelle_approval,50,70%How are you enjoying your stay here?]]
-[[Let's talk about you.]]
+[[%convo_points, 1, 2%Let's talk about you.]]
 
 
 :: Not many people share your opinion.
@@ -739,7 +747,7 @@ NOELLE: Is there anything else you wanted to discuss?
 [[%noelle_approval,1,30%How are you enjoying your stay here?]]
 [[%noelle_approval,31,50%How are you enjoying your stay here?]]
 [[%noelle_approval,50,70%How are you enjoying your stay here?]]
-[[Let's talk about you.]]
+[[%convo_points, 1, 2%Let's talk about you.]]
 
 
 :: You seem unusually convinced there's a man under all of this.
@@ -756,7 +764,7 @@ NOELLE: Is there anything else you wanted to discuss?
 [[%noelle_approval,1,30%How are you enjoying your stay here?]]
 [[%noelle_approval,31,50%How are you enjoying your stay here?]]
 [[%noelle_approval,50,70%How are you enjoying your stay here?]]
-[[Let's talk about you.]]
+[[%convo_points, 1, 2%Let's talk about you.]]
 
 
 :: It's alright.
@@ -794,7 +802,7 @@ NOELLE: Is there anything else you wanted to discuss?
 [[%noelle_approval,1,30%How are you enjoying your stay here?]]
 [[%noelle_approval,31,50%How are you enjoying your stay here?]]
 [[%noelle_approval,50,70%How are you enjoying your stay here?]]
-[[Let's talk about you.]]
+[[%convo_points, 1, 2%Let's talk about you.]]
 
 
 :: Maybe you just haven't met the right men.
@@ -810,7 +818,7 @@ NOELLE: Is there anything else you wanted to discuss?
 [[%noelle_approval,1,30%How are you enjoying your stay here?]]
 [[%noelle_approval,31,50%How are you enjoying your stay here?]]
 [[%noelle_approval,50,70%How are you enjoying your stay here?]]
-[[Let's talk about you.]]
+[[%convo_points, 1, 2%Let's talk about you.]]
 
 
 :: Actually, I have to leave.
@@ -863,7 +871,7 @@ NOELLE: Of course, sire. What would you like to talk about?
 [[%noelle_approval,1,30%How are you enjoying your stay here?]]
 [[%noelle_approval,31,50%How are you enjoying your stay here?]]
 [[%noelle_approval,50,70%How are you enjoying your stay here?]]
-[[Let's talk about you.]]
+[[%convo_points, 1, 2%Let's talk about you.]]
 
 
 :: I know that feeling very well myself.
@@ -982,8 +990,7 @@ NOELLE: Ah. I suppose I should be flattered by that.
 NOELLE: But it does call into question how sincere your earlier inquiry about my feelings was.
 
 [[I just want to know if I can help.]]
-[[If you don't want to talk about it, you should just say so.]]
-[[Can't I 
+[[If you don't want to talk about it, you should just say so.]] 
 
 
 :: The other women in the castle have noticed it as well.
@@ -1096,7 +1103,7 @@ NOELLE: Is there anything else you wanted to discuss?
 [[%noelle_approval,1,30%How are you enjoying your stay here?]]
 [[%noelle_approval,31,50%How are you enjoying your stay here?]]
 [[%noelle_approval,50,70%How are you enjoying your stay here?]]
-[[Let's talk about you.]]
+[[%convo_points, 1, 2%Let's talk about you.]]
 [[Actually, I have to go.]]
 
 
@@ -1112,7 +1119,7 @@ NOELLE: This topic is wearing on me. Is there anything else you wanted to discus
 [[%noelle_approval,1,30%How are you enjoying your stay here?]]
 [[%noelle_approval,31,50%How are you enjoying your stay here?]]
 [[%noelle_approval,50,70%How are you enjoying your stay here?]]
-[[Let's talk about you.]]
+[[%convo_points, 1, 2%Let's talk about you.]]
 [[Actually, I have to go.]]
 
 
@@ -1128,7 +1135,7 @@ NOELLE: This topic is wearing on me. Is there anything else you wanted to discus
 [[%noelle_approval,1,30%How are you enjoying your stay here?]]
 [[%noelle_approval,31,50%How are you enjoying your stay here?]]
 [[%noelle_approval,50,70%How are you enjoying your stay here?]]
-[[Let's talk about you.]]
+[[%convo_points, 1, 2%Let's talk about you.]]
 [[Actually, I have to go.]]
 
 
@@ -1144,7 +1151,7 @@ NOELLE: Is there anything else you wanted to discuss?
 [[%noelle_approval,1,30%How are you enjoying your stay here?]]
 [[%noelle_approval,31,50%How are you enjoying your stay here?]]
 [[%noelle_approval,50,70%How are you enjoying your stay here?]]
-[[Let's talk about you.]]
+[[%convo_points, 1, 2%Let's talk about you.]]
 [[Actually, I have to go.]]
 
 
@@ -1223,7 +1230,7 @@ NOELLE: Now, is there anything else you wanted to discuss?
 [[%noelle_approval,1,30%How are you enjoying your stay here?]]
 [[%noelle_approval,31,50%How are you enjoying your stay here?]]
 [[%noelle_approval,50,70%How are you enjoying your stay here?]]
-[[Let's talk about you.]]
+[[%convo_points, 1, 2%Let's talk about you.]]
 [[Actually, I have to go.]]
 
 
@@ -1245,7 +1252,7 @@ NOELLE: Now then. Is there anything else you wanted to discuss?
 [[%noelle_approval,1,30%How are you enjoying your stay here?]]
 [[%noelle_approval,31,50%How are you enjoying your stay here?]]
 [[%noelle_approval,50,70%How are you enjoying your stay here?]]
-[[Let's talk about you.]]
+[[%convo_points, 1, 2%Let's talk about you.]]
 [[Actually, I have to go.]]
 
 
@@ -1299,7 +1306,7 @@ NOELLE: Is there anything else you wanted to discuss?
 [[%noelle_approval,1,30%How are you enjoying your stay here?]]
 [[%noelle_approval,31,50%How are you enjoying your stay here?]]
 [[%noelle_approval,50,70%How are you enjoying your stay here?]]
-[[Let's talk about you.]]
+[[%convo_points, 1, 2%Let's talk about you.]]
 [[Actually, I have to go.]]
 
 
@@ -1315,7 +1322,7 @@ NOELLE: I think I'm done talking about this. Is there anything else you wanted t
 [[%noelle_approval,1,30%How are you enjoying your stay here?]]
 [[%noelle_approval,31,50%How are you enjoying your stay here?]]
 [[%noelle_approval,50,70%How are you enjoying your stay here?]]
-[[Let's talk about you.]]
+[[%convo_points, 1, 2%Let's talk about you.]]
 [[Actually, I have to go.]]
 
 
@@ -1335,7 +1342,7 @@ NOELLE: Is there anything else you wanted to discuss?
 [[%noelle_approval,1,30%How are you enjoying your stay here?]]
 [[%noelle_approval,31,50%How are you enjoying your stay here?]]
 [[%noelle_approval,50,70%How are you enjoying your stay here?]]
-[[Let's talk about you.]]
+[[%convo_points, 1, 2%Let's talk about you.]]
 [[Actually, I have to go.]]
 
 
@@ -1352,7 +1359,7 @@ NOELLE: Is there anything else you wanted to discuss?
 [[%noelle_approval,1,30%How are you enjoying your stay here?]]
 [[%noelle_approval,31,50%How are you enjoying your stay here?]]
 [[%noelle_approval,50,70%How are you enjoying your stay here?]]
-[[Let's talk about you.]]
+[[%convo_points, 1, 2%Let's talk about you.]]
 [[Actually, I have to go.]]
 
 
@@ -1390,7 +1397,7 @@ NOELLE: Is there anything else you wanted to discuss?
 [[%noelle_approval,1,30%How are you enjoying your stay here?]]
 [[%noelle_approval,31,50%How are you enjoying your stay here?]]
 [[%noelle_approval,50,70%How are you enjoying your stay here?]]
-[[Let's talk about you.]]
+[[%convo_points, 1, 2%Let's talk about you.]]
 [[Actually, I have to go.]]
 
 
@@ -1407,7 +1414,7 @@ NOELLE: This topic is wearing on me. Is there anything else you wanted to discus
 [[%noelle_approval,1,30%How are you enjoying your stay here?]]
 [[%noelle_approval,31,50%How are you enjoying your stay here?]]
 [[%noelle_approval,50,70%How are you enjoying your stay here?]]
-[[Let's talk about you.]]
+[[%convo_points, 1, 2%Let's talk about you.]]
 [[Actually, I have to go.]]
 
 
@@ -1424,7 +1431,7 @@ NOELLE: This topic is wearing on me. Is there anything else you'd like to discus
 [[%noelle_approval,1,30%How are you enjoying your stay here?]]
 [[%noelle_approval,31,50%How are you enjoying your stay here?]]
 [[%noelle_approval,50,70%How are you enjoying your stay here?]]
-[[Let's talk about you.]]
+[[%convo_points, 1, 2%Let's talk about you.]]
 [[Actually, I have to go.]]
 
 
@@ -1442,7 +1449,7 @@ NOELLE: Is there anything else you wanted to discuss?
 [[%noelle_approval,1,30%How are you enjoying your stay here?]]
 [[%noelle_approval,31,50%How are you enjoying your stay here?]]
 [[%noelle_approval,50,70%How are you enjoying your stay here?]]
-[[Let's talk about you.]]
+[[%convo_points, 1, 2%Let's talk about you.]]
 [[Actually, I have to go.]]
 
 
@@ -1459,7 +1466,7 @@ NOELLE: This topic is wearing on me. Is there anything else you wanted to discus
 [[%noelle_approval,1,30%How are you enjoying your stay here?]]
 [[%noelle_approval,31,50%How are you enjoying your stay here?]]
 [[%noelle_approval,50,70%How are you enjoying your stay here?]]
-[[Let's talk about you.]]
+[[%convo_points, 1, 2%Let's talk about you.]]
 [[Actually, I have to go.]]
 
 
@@ -1477,7 +1484,7 @@ NOELLE: Is there anything else you wanted to discuss?
 [[%noelle_approval,1,30%How are you enjoying your stay here?]]
 [[%noelle_approval,31,50%How are you enjoying your stay here?]]
 [[%noelle_approval,50,70%How are you enjoying your stay here?]]
-[[Let's talk about you.]]
+[[%convo_points, 1, 2%Let's talk about you.]]
 [[Actually, I have to go.]]
 
 
@@ -1493,7 +1500,7 @@ NOELLE: Is there anything else you wanted to discuss?
 [[%noelle_approval,1,30%How are you enjoying your stay here?]]
 [[%noelle_approval,31,50%How are you enjoying your stay here?]]
 [[%noelle_approval,50,70%How are you enjoying your stay here?]]
-[[Let's talk about you.]]
+[[%convo_points, 1, 2%Let's talk about you.]]
 [[Actually, I have to go.]]
 
 

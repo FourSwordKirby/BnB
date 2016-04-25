@@ -42,6 +42,7 @@ BEAUREGARD: Good morning, sire!
 BEAUREGARD: Is there anything you require of me this morning?
 
 [[I'd like to ask about one of the women in the castle.|women]]
+[[There's something I'd like you to get for me.|gift]]
 [[No, thank you Beauregard. You're free to go.|no]]
 
 
@@ -107,7 +108,7 @@ BEAUREGARD: Of course, sire. Who is it you'd like to talk about?
 BEAUREGARD: Very well, sire. I wish you a good day, and good luck!
 
 
-:: There's something I'd like you to get for me.
+:: gift
 BEAUREGARD: Of course, sire. What in particular did you have in mind?
 
 [[%noelle_gift, 1, 1%Noelle's mother's will. Her father is keeping it hidden somewhere.|n_i]]
@@ -160,7 +161,7 @@ BEAUREGARD: Is there anything else you'd like to talk about?
 BEAUREGARD: Very well, sire. Is there anything else I can help with?
 
 [[I'd like to ask about one of the women in the castle.|women]]
-[[There's something I'd like you to get for me.]]
+[[There's something I'd like you to get for me.|gift]]
 [[No, thank you Beauregard. You're free to go.|no]]
 
 

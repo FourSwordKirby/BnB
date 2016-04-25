@@ -50,7 +50,7 @@ PATRICE: Hello again, sire! Was there something you wanted to talk about?
 [[%pat_approval,31,50%How are you enjoying your stay here?|stay3]]
 [[%pat_approval,51,70%How are you enjoying your stay here?|stay4]]
 [[Let's talk about you.|you]]
-
+[[Actually, I have to leave.|leave]]
 
 
 :: h1
@@ -124,6 +124,7 @@ PATRICE: Sure, fine, whatever. Shoot.
 [[%day, 3, 6%Noelle.|n2]]
 [[%day, 1, 2%Henrietta.|h1]]
 [[%day, 3, 6%Henrietta.|h2]]
+[[Actually, I have to leave.|leave]]
 
 
 :: p1
@@ -229,12 +230,13 @@ PATRICE: I've been married once before.
 :: you
 PATRICE: Oh! Yes. Yes, right. What would you like to know?
 
-[[%pat_convo, 0, 1%Where are you from?|from]]
-[[%pat_convo, 0, 1%What's your family like?|fam]]
-[[%pat_convo, 2, 3%If you could go anywhere in the world, where would you go?|world]]
-[[%pat_convo, 2, 3%You don't seem to like to talk about your family.|secret]]
+[[%pat_convo, 0, 0%Where are you from?|from]]
+[[%pat_convo, 1, 1%What's your family like?|fam]]
+[[%pat_convo, 2, 2%If you could go anywhere in the world, where would you go?|world]]
+[[%pat_convo, 3, 3%You don't seem to like to talk about your family.|secret]]
 [[%pat_convo, 4, 4%Why are you always so polite?|polite]]
 [[%pat_convo, 5, 5%You seem unusually bothered. Is everything alright?|trouble]]
+[[Actually, I have to leave.|leave]]
 
 
 :: I'm so sorry.
