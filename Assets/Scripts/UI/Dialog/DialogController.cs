@@ -80,6 +80,12 @@ public class DialogController : MonoBehaviour
                     ApplyBGM(instructions);
                     currentLine++;
                 }
+
+                if (twineParser.IsEnding(line))
+                {
+                    instructions = line.Substring(line.IndexOf("&") + 1, line.Substring(1).IndexOf("&"));
+                    ApplyEnding(instructions);
+                }
 			} while (instructions != "");
 
             string speakerName = "";
@@ -104,7 +110,6 @@ public class DialogController : MonoBehaviour
             	CleanupFunction = DisplayOptions;
         }
     }
-
 
 	private void ApplyInstructions(string instructions) {
 		string[] instrList = instructions.Split(',');
@@ -173,6 +178,12 @@ public class DialogController : MonoBehaviour
     {
         int mood = int.Parse(instructions);
         GameManager.bgmManager.mood = mood;
+    }
+
+    private void ApplyEnding(string instructions)
+    {
+        /***** THIS WILL BE CALLED TO START AN ENDING, IT INVOLVES ENDING THE CURRENT CONVERSATION AND TRANSITIONING INTO THE APPROPRIATE
+             * BACKGROUND/MUSIC etc. combination*****/
     }
 
     private void DisplayOptions()
