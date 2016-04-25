@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityTwine;
 
 public class DayManager : MonoBehaviour {
@@ -59,6 +60,9 @@ public class DayManager : MonoBehaviour {
 
 	public void BeginDay() {
         endOfDay = false;
+
+        foreach(LoveInterest suitor in gameManager.loveInterests.Where(x => x.giftStatus == 3))
+            suitor.giftStatus++;
 
         gameManager.getLoveInterest(GameManager.LoveInterestName.Noelle).currentStory = NoelleStory;
         gameManager.getLoveInterest(GameManager.LoveInterestName.Henrietta).currentStory = HenStory;
