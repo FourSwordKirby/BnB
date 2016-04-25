@@ -68,7 +68,7 @@ public class DayManager : MonoBehaviour {
 
         if (dayNumber == 1)
         {
-            //mansion.Rooms[(int)GameManager.RoomName.Library].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.Noelle));
+            mansion.Rooms[(int)GameManager.RoomName.Library].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.Noelle));
             mansion.Rooms[(int)GameManager.RoomName.Kitchen].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.John));
             mansion.Rooms[(int)GameManager.RoomName.Parlor].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.Patrice));
             mansion.Rooms[(int)GameManager.RoomName.Pasture].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.Henrietta));
@@ -77,11 +77,56 @@ public class DayManager : MonoBehaviour {
 
         if (dayNumber == 2)
         {
-            //mansion.Rooms[(int)GameManager.RoomName.Parlor].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.Noelle));
+            mansion.Rooms[(int)GameManager.RoomName.Parlor].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.Noelle));
             mansion.Rooms[(int)GameManager.RoomName.Kitchen].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.John));
             mansion.Rooms[(int)GameManager.RoomName.Porch].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.Patrice));
             mansion.Rooms[(int)GameManager.RoomName.Pasture].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.Henrietta));
             mansion.Rooms[(int)GameManager.RoomName.WineCellar].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.Lucille));
+        }
+
+        if (dayNumber == 3)
+        {
+            mansion.Rooms[(int)GameManager.RoomName.Library].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.Noelle));
+            mansion.Rooms[(int)GameManager.RoomName.Kitchen].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.John));
+            mansion.Rooms[(int)GameManager.RoomName.Parlor].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.Patrice));
+            mansion.Rooms[(int)GameManager.RoomName.Pasture].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.Henrietta));
+            mansion.Rooms[(int)GameManager.RoomName.WineCellar].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.Lucille));
+        }
+
+        if (dayNumber == 4)
+        {
+            mansion.Rooms[(int)GameManager.RoomName.Parlor].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.Noelle));
+            mansion.Rooms[(int)GameManager.RoomName.Pasture].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.John));
+            mansion.Rooms[(int)GameManager.RoomName.Kitchen].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.Patrice));
+            mansion.Rooms[(int)GameManager.RoomName.Pasture].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.Henrietta));
+            mansion.Rooms[(int)GameManager.RoomName.Porch].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.Lucille));
+        }
+
+        if (dayNumber == 5)
+        {
+            mansion.Rooms[(int)GameManager.RoomName.Library].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.Noelle));
+            mansion.Rooms[(int)GameManager.RoomName.Kitchen].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.John));
+            mansion.Rooms[(int)GameManager.RoomName.Parlor].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.Patrice));
+            mansion.Rooms[(int)GameManager.RoomName.Pasture].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.Henrietta));
+            mansion.Rooms[(int)GameManager.RoomName.Kitchen].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.Lucille));
+        }
+
+        if (dayNumber == 6)
+        {
+            mansion.Rooms[(int)GameManager.RoomName.Parlor].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.Noelle));
+            mansion.Rooms[(int)GameManager.RoomName.Kitchen].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.John));
+            mansion.Rooms[(int)GameManager.RoomName.Porch].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.Patrice));
+            mansion.Rooms[(int)GameManager.RoomName.Pasture].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.Henrietta));
+            mansion.Rooms[(int)GameManager.RoomName.WineCellar].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.Lucille));
+        }
+
+        if (dayNumber == 7)
+        {
+            mansion.Rooms[(int)GameManager.RoomName.Library].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.Noelle));
+            mansion.Rooms[(int)GameManager.RoomName.Kitchen].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.John));
+            mansion.Rooms[(int)GameManager.RoomName.Porch].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.Patrice));
+            mansion.Rooms[(int)GameManager.RoomName.Pasture].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.Henrietta));
+            mansion.Rooms[(int)GameManager.RoomName.Parlor].inhabitants.Add(gameManager.getLoveInterest(GameManager.LoveInterestName.Lucille));
         }
 
 		/* Housekeeping for keeping track of info */
