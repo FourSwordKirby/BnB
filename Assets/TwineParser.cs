@@ -195,4 +195,9 @@ public class TwineParser : MonoBehaviour {
     {
         return option[0] == '$';
     }
+
+    public bool IsBGM(string option)
+    {
+        return option[0] == '$';
+    }
 }

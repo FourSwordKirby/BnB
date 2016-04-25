@@ -72,46 +72,46 @@ BEAUREGARD: You dinner for two will be ready momentarily, sire!
 
 :: hen1
 #hen_approval, +5#
-<i>The evening is calm, and pleasant. The dining room's comfortable silence is broken only by the rhythmic sounds of a cow chewing her cud.
+<i>The evening is calm, and pleasant. The dining room's comfortable silence is broken only by the rhythmic sounds of a cow chewing her cud.</i>
 
-You might be imagining it, but there seems to be a happy gleam to Miss Henrietta's eyes.
+<i>You might be imagining it, but there seems to be a happy gleam to Miss Henrietta's eyes.</i>
 
-You walk Henrietta back to the pastures outside as gallantly as a beast walking alongside a cow  can.</i>
+<i>You walk Henrietta back to the pastures outside as gallantly as a beast walking alongside a cow  can.</i>
 
 
 :: lucy1
 #lucy_approval, +5#
-<i>It's a good thing Beauregard provided plenty of wine--despite her daily excursions to the wine cellar, Lucille goes straight for the glass bottles and starts knocking back drink after drink.
+<i>It's a good thing Beauregard provided plenty of wine--despite her daily excursions to the wine cellar, Lucille goes straight for the glass bottles and starts knocking back drink after drink.</i>
 
-As expected, her conversation is dry and acerbic--at least, it is at the start of the night. As the courses progress, you find that her comments have lost their biting edge. Maybe it's just the wine that loosens the tight corners of her mouth, but you dare to think it might actually be your company.
+<i>As expected, her conversation is dry and acerbic--at least, it is at the start of the night. As the courses progress, you find that her comments have lost their biting edge. Maybe it's just the wine that loosens the tight corners of her mouth, but you dare to think it might actually be your company.</i>
 
-When you part ways for the night, her insults sound almost fond to your ears.</i>
+<i>When you part ways for the night, her insults sound almost fond to your ears.</i>
 
 
 :: noe1
 #noelle_approval, +5#
-<i>As usual, the lady Noelle is the very picture of grace and poise. She handles herself with the air of one graciously bestowing her presence upon unworthy surroundings.
+<i>As usual, the lady Noelle is the very picture of grace and poise. She handles herself with the air of one graciously bestowing her presence upon unworthy surroundings.</i>
 
-Nevertheless, you can't help but think she seems to become more comfortable over the course of the night. But then, you suppose making idle conversation about harmless topics while maintaining a comfortable physical distance would put anyone at ease. 
+<i>Nevertheless, you can't help but think she seems to become more comfortable over the course of the night. But then, you suppose making idle conversation about harmless topics while maintaining a comfortable physical distance would put anyone at ease. </i>
 
-At the end of the night, you bid her a gallant farewell, and her smile appears almost genuine.</i>
+<i>At the end of the night, you bid her a gallant farewell, and her smile appears almost genuine.</i>
 
 
 :: pat1
 #pat_approval, +5#
-<i>Pat is as kind and complimentary as always. Each course seems to amaze her more than the last, and it's clear that her pleased exclamations are sincere.
+<i>Pat is as kind and complimentary as always. Each course seems to amaze her more than the last, and it's clear that her pleased exclamations are sincere.</i>
 
-Pat always seems weighed down by something, distanced from the present by a problem no one else knows about. But tonight, bit by bit, her shoulders lift, and her expression lightens. When Beauregard's fancifully prepared dessert course makes her clap her hands and laugh delightedly, she looks years younger.
+<i>Pat always seems weighed down by something, distanced from the present by a problem no one else knows about. But tonight, bit by bit, her shoulders lift, and her expression lightens. When Beauregard's fancifully prepared dessert course makes her clap her hands and laugh delightedly, she looks years younger.</i>
 
-You bow to her before she leaves for bed, and the smile she gives you is that of a bashful young girl.</i>
+<i>You bow to her before she leaves for bed, and the smile she gives you is that of a bashful young girl.</i>
 
 
 :: john1
 #john_approval, +5#
-<i>Jane has the uncanny ability to make even the smallest of things into grand jokes, and over the course of the evening, this ability starts to rub off on you. 
+<i>Jane has the uncanny ability to make even the smallest of things into grand jokes, and over the course of the evening, this ability starts to rub off on you. </i>
 
-Eating with your ungainly claws becomes a source of laughter rather than embarrassment. Your struggle with a spoonful of soup makes both ends of the table turn red in the face from laughing--not that your skin is really visible under all the fur.
+<i>Eating with your ungainly claws becomes a source of laughter rather than embarrassment. Your struggle with a spoonful of soup makes both ends of the table turn red in the face from laughing--not that your skin is really visible under all the fur.</i>
 
-You're still laughing as you part ways.</i>
+<i>You're still laughing as you part ways.</i>
 
 

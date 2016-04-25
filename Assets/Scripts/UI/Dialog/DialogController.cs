@@ -73,6 +73,13 @@ public class DialogController : MonoBehaviour
                     ApplySound(instructions);
                     currentLine++;
                 }
+
+                if (twineParser.IsBGM(line))
+                {
+                    instructions = line.Substring(line.IndexOf("~") + 1, line.Substring(1).IndexOf("~"));
+                    ApplyBGM(instructions);
+                    currentLine++;
+                }
 			} while (instructions != "");
 
             string speakerName = "";
@@ -97,6 +104,7 @@ public class DialogController : MonoBehaviour
             	CleanupFunction = DisplayOptions;
         }
     }
+
 
 	private void ApplyInstructions(string instructions) {
 		string[] instrList = instructions.Split(',');
@@ -159,6 +167,12 @@ public class DialogController : MonoBehaviour
     private void ApplySound(string soundName)
     {
         GameManager.sfxManager.play(soundName);
+    }
+
+    private void ApplyBGM(string instructions)
+    {
+        int mood = int.Parse(instructions);
+        GameManager.bgmManager.mood = mood;
     }
 
     private void DisplayOptions()
