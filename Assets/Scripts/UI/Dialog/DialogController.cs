@@ -166,6 +166,8 @@ public class DialogController : MonoBehaviour
 				validOptionMap.Add (i);
 			}
 		}
+        validOptionMap.Reverse();
+        validOptions.Reverse();
 		return validOptions;
 	}
 
@@ -198,7 +200,6 @@ public class DialogController : MonoBehaviour
 			dialogUI.enableOption (i);
 			//Debug.Log("Displaying option " + i + ": " + currentStory.Links[i].Text);
 			dialogUI.displayOption (optionsToDisplay[i], i);
-            Debug.Log(optionsToDisplay[i]);
 		}
     }
 
