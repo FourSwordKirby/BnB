@@ -19,6 +19,7 @@ public class GameManager : MonoBehaviour {
     public static BGMManager bgmManager;
     public static DialogController dialogControls;
     public static MapController mapControls;
+	public static DiaryController diaryControls;
     public static BackgroundController backgroundControls;
     public static ForegroundController foregroundControls;
     public static LoveInterestSelectController loveInterestControls;
@@ -68,6 +69,7 @@ public class GameManager : MonoBehaviour {
         bgmManager = GameObject.FindObjectOfType<BGMManager>();
         dialogControls = GameObject.FindObjectOfType<DialogController>();
         mapControls = GameObject.FindObjectOfType<MapController>();
+		diaryControls = GameObject.FindObjectOfType<DiaryController> ();
         backgroundControls = GameObject.FindObjectOfType<BackgroundController>();
         foregroundControls = GameObject.FindObjectOfType<ForegroundController>();
         loveInterestControls = GameObject.FindObjectOfType<LoveInterestSelectController>();
@@ -155,6 +157,7 @@ public class GameManager : MonoBehaviour {
     {
         dialogControls.StartConversation(story);
         mapControls.hideControls();
+		diaryControls.hideControls ();
         loveInterestControls.hideLoveInterests();
     }
 
@@ -162,6 +165,7 @@ public class GameManager : MonoBehaviour {
     {
         dialogControls.CloseConversation();
         mapControls.displayControls();
+		diaryControls.displayControls ();
         loveInterestControls.displayLoveInterests();
 
         GameManager.bgmManager.playTracks();
