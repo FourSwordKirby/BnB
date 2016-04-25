@@ -48,7 +48,7 @@ JANE: Hey there! Something you wanted?
 [[%john_approval,10,50%How are you enjoying your stay here?|stay3]]
 [[%john_approval,50,70%How are you enjoying your stay here?|stay4]]
 [[Let's talk about you.|you]]
-
+[[Actually, I have to go.|leave]]
 
 
 :: h1
@@ -124,6 +124,7 @@ JANE: Sure, fine, whatever. Shoot.
 [[%day, 3, 6%Noelle.|n2]]
 [[%day, 1, 2%Henrietta.|h1]]
 [[%day, 3, 6%Henrietta.|h2]]
+[[Actually, I have to go.|leave]]
 
 
 :: p1
@@ -185,12 +186,13 @@ JANE: Any other questions?
 :: you
 JANE: Sure. What're you curious about?
 
-[[%john_convo, 0, 1%Where are you from?|from]]
-[[%john_convo, 0, 1%What's your family like?|fam]]
-[[%john_convo, 2, 3%If you could go anywhere in the world, where would you go?|world]]
-[[%john_convo, 2, 3%I've never met anyone who loves their sister as much as you do.|sister]]
+[[%john_convo, 0, 0%Where are you from?|from]]
+[[%john_convo, 1, 1%What's your family like?|fam]]
+[[%john_convo, 2, 2%If you could go anywhere in the world, where would you go?|world]]
+[[%john_convo, 3, 3%I've never met anyone who loves their sister as much as you do.|sister]]
 [[%john_convo, 4, 4%When did you start baking?|baking]]
 [[%john_convo, 5, 5%If you love your family so much, why did you come here?|boy]]
+[[Actually, I have to go.|leave]]
 
 
 :: else
