@@ -1,10 +1,13 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using System.Collections.Generic;
 
 public class DiaryController : MonoBehaviour {
 
 	public Image diaryDisplay;
+
+	public List<ApprovalDisplay> loveInterestApprovals;
 
 
 	// Use this for initialization
@@ -15,6 +18,12 @@ public class DiaryController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 	
+	}
+
+	void RefreshAllHeartDisplays() {
+		foreach (ApprovalDisplay approvalDisp in loveInterestApprovals) {
+			approvalDisp.RefreshHeartDisplay ();
+		}
 	}
 
 	public void displayControls()
