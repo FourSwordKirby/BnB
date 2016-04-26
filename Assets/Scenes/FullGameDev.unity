@@ -1162,7 +1162,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22460700, guid: bdab7ec851aeb4a88bb076902bee9087, type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: -130
+      value: -161
       objectReference: {fileID: 0}
     - target: {fileID: 22460700, guid: bdab7ec851aeb4a88bb076902bee9087, type: 2}
       propertyPath: m_AnchoredPosition.y
@@ -2508,7 +2508,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22460700, guid: bdab7ec851aeb4a88bb076902bee9087, type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: -130
+      value: -161
       objectReference: {fileID: 0}
     - target: {fileID: 22460700, guid: bdab7ec851aeb4a88bb076902bee9087, type: 2}
       propertyPath: m_AnchoredPosition.y
@@ -3988,7 +3988,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22460700, guid: bdab7ec851aeb4a88bb076902bee9087, type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: -130
+      value: -161
       objectReference: {fileID: 0}
     - target: {fileID: 22460700, guid: bdab7ec851aeb4a88bb076902bee9087, type: 2}
       propertyPath: m_AnchoredPosition.y
@@ -4951,6 +4951,10 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 764986227}
+    - target: {fileID: 108438, guid: f14574a473c2a2947879155cdd5862ab, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f14574a473c2a2947879155cdd5862ab, type: 2}
   m_IsPrefabParent: 0
