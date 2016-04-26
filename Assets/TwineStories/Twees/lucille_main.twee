@@ -724,6 +724,10 @@ LUCILLE: If I had my way, I'd never go back there. Ever.
 [[Such harsh words! I'm almost offended.]]
 
 
+:: We both know you don't look as bad as I do.
+
+
+
 :: Really? You <i>never</i> want to go back?
 
 
@@ -736,6 +740,20 @@ LUCILLE: If I had my way, I'd never go back there. Ever.
 
 
 
+:: At least I try to hide my feelings.
+
+
+
+:: You look the same way I feel.
+#lucy_approval, +5#
+%1, <lucy>, <center>, <neutral>%
+LUCILLE: I guess you must feel like a pretty miserable bastard, then, because I know I look it.
+
+[[Being a giant monster will do that to a man.]]
+[[We both know you don't look as bad as I do.]]
+[[At least I try to hide my feelings.]]
+
+
 :: kid
 #convo_points, -1#
 %1, <lucy>, <center>, <neutral>%
@@ -746,11 +764,20 @@ LUCILLE: Like what?
 [[Sad.]]
 
 
-:: You look the same way I feel.
-
-
-
 :: friends
+
+
+
+:: Being a giant monster will do that to a man.
+
+
+
+:: Excuse me for trying to get personal.
+%1, <lucy>, <center>, <angry>%
+LUCILLE: You're not excused. Not at all.
+
+[[I just want to get to know you.]]
+[[You want to push me away? Fine. You've done it.]]
 
 
 
@@ -781,12 +808,21 @@ LUCILLE: Can you even imagine? A tiny little kid, with all this sass? I'd have e
 
 
 
-:: Excuse me for trying to get personal.
-%1, <lucy>, <center>, <angry>%
-LUCILLE: You're not excused. Not at all.
+:: I just want to get to know you.
+#lucy_approval, +5#
+%1, <lucy>, <center>, <frown>%
+LUCILLE: You <i>really</i> want to break through this cranky drunk's hide, huh?
 
-[[I just want to get to know you.]]
-[[You want to push me away? Fine. You've done it.]]
+LUCILLE: How noble of you. Can we talk about something else now?
+
+[[Sure.|else]]
+[[Actually, I have to leave.]]
+
+
+:: You want to push me away? Fine. You've done it.
+#lucy_approval, -5#
+%1, <lucy>, <center>, <frown>%
+LUCILLE: Fine, then. Leave me be. It's what I'm used to, anyway.
 
 
 
@@ -799,14 +835,6 @@ LUCILLE: You're not excused. Not at all.
 
 
 :: I'm glad you didn't.
-
-
-
-:: I just want to get to know you.
-
-
-
-:: You want to push me away? Fine. You've done it.
 
 
 

@@ -1,33 +1,33 @@
 ﻿:: stay4
 %1, <pat>, <center>, <smile>%
-PATRICE: Not sure how you managed it, but I'm...comfortable. Here, I mean.
+PATRICE: Really, I can't believe I ever found the place intimidating. It seems so familiar now, I can't imagine ever being lonely here.
 
-PATRICE: Feels wrong to image leaving, now. I suppose that's what you wanted, huh, you sly bastard?
-
-PATRICE: What now?
+PATRICE: Did you have any other questions for me, sire?
 
 [[I want to hear your opinion of the other women staying in the castle.|women]]
-[[Let's talk about you.|you]]
+[[%convo_points, 1,2%Let's talk about you.|you]]
 
 
 :: stay3
-%1, <pat>, <center>, <neutral>%
-PATRICE: It's honestly starting to feel a little cozy around here. Not something I'm used to, but I could see myself getting used to it. Maybe.
+%1, <pat>, <center>, <smile>%
+PATRICE: I never imagined I'd feel so at home in such an enormous castle! I know it's silly, but it feels almost...cozy, in a way.
 
-PATRICE: What now?
+PATRICE: Did you have any other questions for me, sire?
 
 [[I want to hear your opinion of the other women staying in the castle.|women]]
-[[Let's talk about you.|you]]
+[[%convo_points, 1,2%Let's talk about you.|you]]
 
 
 :: stay2
-%1, <pat>, <center>, <neutral>%
-PATRICE: I don't hate it as much as I thought I would. And that's as close to a compliment as you'll be getting from me.
+%1, <pat>, <center>, <smile>%
+PATRICE: The castle is beautiful, sire. But...I can't imagine how you must feel, rattling around in this huge place with hardly any company.
 
-PATRICE: What now?
+PATRICE: It just seems very...lonely.
+
+PATRICE: Did you have any other questions for me, sire?
 
 [[I want to hear your opinion of the other women staying in the castle.|women]]
-[[Let's talk about you.|you]]
+[[%convo_points, 1,2%Let's talk about you.|you]]
 
 
 :: stay1
@@ -37,7 +37,7 @@ PATRICE: I don't...suppose castles are usually <i>inviting</i>. So I shouldn't b
 PATRICE: Anything else you'd like to talk about?
 
 [[I want to hear your opinion of the other women staying in the castle.|women]]
-[[Let's talk about you.|you]]
+[[%convo_points, 1,2%Let's talk about you.|you]]
 
 
 :: Start
@@ -49,140 +49,143 @@ PATRICE: Hello again, sire! Was there something you wanted to talk about?
 [[%pat_approval,1,30%How are you enjoying your stay here?|stay2]]
 [[%pat_approval,31,50%How are you enjoying your stay here?|stay3]]
 [[%pat_approval,51,70%How are you enjoying your stay here?|stay4]]
-[[Let's talk about you.|you]]
+[[%convo_points, 1,2%Let's talk about you.|you]]
 [[Actually, I have to leave.|leave]]
 
 
 :: h1
 %1, <pat>, <center>, <smile>%
-PATRICE: The cow? Hah! Yeah, like I spend a lot of time with her.
+PATRICE: Henrietta is wonderful company. She feels almost like an old friend from home.
 
-PATRICE: What now?
+PATRICE: If I'm correct, she's from Longbrooke. The grass there is so sweet, it's no wonder her disposition is. I wonder if she misses the taste?
+
+PATRICE: Was there anything else you wanted to ask me?
 
 [[I want to hear your opinion of the other women staying in the castle.|women]]
 [[%pat_approval,-30,0%How are you enjoying your stay here?|stay1]]
 [[%pat_approval,1,30%How are you enjoying your stay here?|stay2]]
 [[%pat_approval,31,50%How are you enjoying your stay here?|stay3]]
 [[%pat_approval,51,70%How are you enjoying your stay here?|stay4]]
-[[Let's talk about you.|you]]
+[[%convo_points, 1,2%Let's talk about you.|you]]
 
 
 :: h2
-%1, <pat>, <center>, <neutral>%
-PATRICE: Hen's a good one. A cow, but a good one. Doesn't care how much I swear, unlike some other people I could name.
+%1, <pat>, <center>, <smile>%
+PATRICE: Henrietta is such a beautiful cow. I've never seen a beast so fine.
 
-PATRICE: What now?
+%1, <pat>, <center>, <scared>%
+PATRICE: ...Oh, dear. Please pardon my word choice, sire.
+
+%1, <pat>, <center>, <neutral>%
+PATRICE: Was there anything else you wanted to ask me?
 
 [[I want to hear your opinion of the other women staying in the castle.|women]]
 [[%pat_approval,-30,0%How are you enjoying your stay here?|stay1]]
 [[%pat_approval,1,30%How are you enjoying your stay here?|stay2]]
 [[%pat_approval,31,50%How are you enjoying your stay here?|stay3]]
 [[%pat_approval,51,70%How are you enjoying your stay here?|stay4]]
-[[Let's talk about you.|you]]
+[[%convo_points, 1,2%Let's talk about you.|you]]
 
 
 :: j1
-%1, <pat>, <center>, <neutral>%
-PATRICE: Jane and I haven't talked much yet, but I like her well enough. 
+%1, <pat>, <center>, <smile>%
+PATRICE: Jane is such good company. I'm not sure how she does it, but I always find myself laughing in her company.
 
-PATRICE: What now?
+PATRICE: Was there anything else you wanted to ask me?
 
 [[I want to hear your opinion of the other women staying in the castle.|women]]
 [[%pat_approval,-30,0%How are you enjoying your stay here?|stay1]]
 [[%pat_approval,1,30%How are you enjoying your stay here?|stay2]]
 [[%pat_approval,31,50%How are you enjoying your stay here?|stay3]]
 [[%pat_approval,51,70%How are you enjoying your stay here?|stay4]]
-[[Let's talk about you.|you]]
+[[%convo_points, 1,2%Let's talk about you.|you]]
 
 
 :: j2
-%1, <pat>, <center>, <smile>%
-PATRICE: Jane's great! She's someone who gets it. Really gets it. 
-
 %1, <pat>, <center>, <neutral>%
-PATRICE: Too bad she doesn't have anything from home to remember her family by. Fuck knows I wouldn't want anything to remember mine by, but Jane's family is different. She misses them.
+PATRICE: The more time I spend with Jane, the more she reminds me of...
 
-PATRICE: What now?
+PATRICE: ...a, um. Well, nevermind!
+
+PATRICE: Was there anything else you wanted to ask me?
 
 [[I want to hear your opinion of the other women staying in the castle.|women]]
 [[%pat_approval,-30,0%How are you enjoying your stay here?|stay1]]
 [[%pat_approval,1,30%How are you enjoying your stay here?|stay2]]
 [[%pat_approval,31,50%How are you enjoying your stay here?|stay3]]
 [[%pat_approval,51,70%How are you enjoying your stay here?|stay4]]
-[[Let's talk about you.|you]]
+[[%convo_points, 1,2%Let's talk about you.|you]]
 
 
 :: women
 %1, <pat>, <center>, <frown>%
-PATRICE: Sure, fine, whatever. Shoot.
+PATRICE: The other women here are lovely! Who did you want to discuss?
 
 [[%day, 1, 2%Jane.|j1]]
 [[%day, 3, 6%Jane.|j2]]
-[[%day, 1, 2%Pat.|p1]]
-[[%day, 3, 6%Pat.|p2]]
+[[%day, 1, 2%Pat.|l1]]
+[[%day, 3, 6%Pat.|l2]]
 [[%day, 1, 2%Noelle.|n1]]
 [[%day, 3, 6%Noelle.|n2]]
-[[%day, 1, 2%Henrietta.|h1]]
-[[%day, 3, 6%Henrietta.|h2]]
+[[%hen_gift, 0, 0%Henrietta.|h1]]
+[[[[%hen_gift, 1, 5%Henrietta.|h2]]
 [[Actually, I have to leave.|leave]]
 
 
-:: p1
-%1, <pat>, <center>, <neutral>%
-PATRICE: Pat? She's alright, I guess. Haven't really seen her much. But she always <i>smiles</i> at me. It's...weird.
+:: l1
+%1, <pat>, <center>, <smile>%
+PATRICE: Lucille seems prickly, but I'm sure I just need to get to know her better.
 
-PATRICE: What now?
-
-[[I want to hear your opinion of the other women staying in the castle.|women]]
-[[%pat_approval,-30,0%How are you enjoying your stay here?|stay1]]
-[[%pat_approval,1,30%How are you enjoying your stay here?|stay2]]
-[[%pat_approval,31,50%How are you enjoying your stay here?|stay3]]
-[[%pat_approval,51,70%How are you enjoying your stay here?|stay4]]
-[[Let's talk about you.|you]]
-
-
-:: p2
-%1, <pat>, <center>, <neutral>%
-PATRICE: Pat's a good sort. Just...nice. She tries to mother me sometimes, though. I could do without that.
-
-PATRICE: What now?
+PATRICE: Was there anything else you wanted to ask me?
 
 [[I want to hear your opinion of the other women staying in the castle.|women]]
 [[%pat_approval,-30,0%How are you enjoying your stay here?|stay1]]
 [[%pat_approval,1,30%How are you enjoying your stay here?|stay2]]
 [[%pat_approval,31,50%How are you enjoying your stay here?|stay3]]
 [[%pat_approval,51,70%How are you enjoying your stay here?|stay4]]
-[[Let's talk about you.|you]]
+[[%convo_points, 1,2%Let's talk about you.|you]]
+
+
+:: l2
+%1, <pat>, <center>, <smile>%
+PATRICE: I'm so glad I've gotten the chance to know Lucille. She's so much more than she lets on.
+
+PATRICE: Was there anything else you wanted to ask me?
+
+[[I want to hear your opinion of the other women staying in the castle.|women]]
+[[%pat_approval,-30,0%How are you enjoying your stay here?|stay1]]
+[[%pat_approval,1,30%How are you enjoying your stay here?|stay2]]
+[[%pat_approval,31,50%How are you enjoying your stay here?|stay3]]
+[[%pat_approval,51,70%How are you enjoying your stay here?|stay4]]
+[[%convo_points, 1,2%Let's talk about you.|you]]
 
 
 :: n1
-%1, <pat>, <center>, <frown>%
-PATRICE: Noelle smiles a lot, but she doesn't mean it. I don't trust her. And her face goes all sharp when I swear around her.
+%1, <pat>, <center>, <smile>%
+PATRICE: Noelle is the most beautiful woman I've ever seen! It almost makes me afraid to speak to her. She has the most impeccable manners!
 
-PATRICE: What now?
+PATRICE: Was there anything else you wanted to ask me?
 
 [[I want to hear your opinion of the other women staying in the castle.|women]]
 [[%pat_approval,-30,0%How are you enjoying your stay here?|stay1]]
 [[%pat_approval,1,30%How are you enjoying your stay here?|stay2]]
 [[%pat_approval,31,50%How are you enjoying your stay here?|stay3]]
 [[%pat_approval,51,70%How are you enjoying your stay here?|stay4]]
-[[Let's talk about you.|you]]
+[[%convo_points, 1,2%Let's talk about you.|you]]
 
 
 :: n2
-%1, <pat>, <center>, <neutral>%
-PATRICE: Noelle's...I don't know. She's weird. Doesn't mean what she says half the time, but...
+%1, <pat>, <center>, <smile>%
+PATRICE: Noelle is a good friend. I hope you get the chance to know her better, sire, I really do. Knowing her is almost like having a daughter.
 
-PATRICE: I don't know. Nevermind.
-
-PATRICE: What now?
+PATRICE: Was there anything else you wanted to ask me?
 
 [[I want to hear your opinion of the other women staying in the castle.|women]]
 [[%pat_approval,-30,0%How are you enjoying your stay here?|stay1]]
 [[%pat_approval,1,30%How are you enjoying your stay here?|stay2]]
 [[%pat_approval,31,50%How are you enjoying your stay here?|stay3]]
 [[%pat_approval,51,70%How are you enjoying your stay here?|stay4]]
-[[Let's talk about you.|you]]
+[[%convo_points, 1,2%Let's talk about you.|you]]
 
 
 :: I'm assuming he's out of the picture now, or you wouldn't be here.
@@ -217,6 +220,7 @@ PATRICE: He died, your highness. Just after--um. He just died. I would've mentio
 
 :: fam
 #convo_points, -1#
+#pat_convo, +1#
 %1, <pat>, <center>, <neutral>%
 PATRICE: Oh. Um, well. I...I suppose this is as good a time as any to tell you.
 
@@ -228,13 +232,13 @@ PATRICE: I've been married once before.
 
 
 :: you
-PATRICE: Oh! Yes. Yes, right. What would you like to know?
+PATRICE: Oh! Yes. Yes, of course. What would you like to know?
 
 [[%pat_convo, 0, 0%Where are you from?|from]]
 [[%pat_convo, 1, 1%What's your family like?|fam]]
 [[%pat_convo, 2, 2%If you could go anywhere in the world, where would you go?|world]]
-[[%pat_convo, 3, 3%You don't seem to like to talk about your family.|secret]]
-[[%pat_convo, 4, 4%Why are you always so polite?|polite]]
+[[%pat_convo, 3, 3%Why are you always so polite?|polite]]
+[[%pat_convo, 4, 4%You don't seem to like talking about your family.|secret]]
 [[%pat_convo, 5, 5%You seem unusually bothered. Is everything alright?|trouble]]
 [[Actually, I have to leave.|leave]]
 
@@ -285,6 +289,7 @@ PATRICE: Would you please excuse me? I think I need some fresh air.
 
 :: from
 #convo_points, -1#
+#pat_convo, +1#
 PATRICE: I live in Westham. It's a lovely town, really. Very quiet, peaceful. Full of friendly people who are always eager to help you get back on your feet.
 
 [[It sounds like you fit in well there.]]
@@ -294,6 +299,7 @@ PATRICE: I live in Westham. It's a lovely town, really. Very quiet, peaceful. Fu
 
 :: world
 #convo_points, -1#
+#pat_convo, +1#
 %1, <pat>, <center>, <scared>%
 PATRICE: Oh, goodness.
 
@@ -310,6 +316,7 @@ PATRICE: Not that I'm not happy to be here! I'm just a homebody.
 
 :: polite
 #convo_points, -1#
+#pat_convo, +1#
 %1, <pat>, <center>, <scared>%
 PATRICE: I hadn't realized the way I behaved was strange.
 
@@ -372,8 +379,10 @@ PATRICE: Could we talk about something else, please?
 %1, <pat>, <center>, <blush>%
 PATRICE: I certainly try to. But it's not easy, what with...
 
-PATRICE: ...Well.
+%1, <pat>, <center>, <scared>%
+PATRICE: ...Um.
 
+%1, <pat>, <center>, <smile>%
 PATRICE: I hope you have people who make you feel like you belong somewhere, too.
 
 [[Just Beauregard.]]
@@ -456,9 +465,9 @@ PATRICE: I suppose that, after my husband died, I was trying to make up for alwa
 
 PATRICE: --my family--
 
-PATRICE: --I mean, my mother, of course--
+PATRICE: --I mean, my <i>mother</i>, of course--
 
-PATRICE: --I needed a lot of help from people to get by. In a way, my trip here is another part of that. I just feel so indebted to my home town.
+PATRICE: --I needed a lot of help from people to get by. In a way, my trip here is another part of that. More than anything, I'd like to pay back my debt.
 
 [[I didn't mean to make you self-conscious.]]
 [[I could learn a thing or two from you.]]
@@ -475,7 +484,9 @@ PATRICE: No, no, I'm fine! I'd just never thought about it before.
 %1, <pat>, <center>, <neutral>%
 PATRICE: I suppose, with the changing of the times, people are becoming less formal. Well, we common folk, at least.
 
-
+[[A prince can always stand to learn a great deal from his people.]]
+[[You should give yourself more credit.]]
+[[I suppose even a commoner has wisdom to share.]]
 
 
 :: I could learn a thing or two from you.
@@ -484,9 +495,11 @@ PATRICE: I suppose, with the changing of the times, people are becoming less for
 PATRICE: Oh, goodness.
 
 %1, <pat>, <center>, <smile>%
-PATRICE: I, um. That's very kind of you to say, sire, but I don't see how that could be true.
+PATRICE: That's very kind of you to say, sire, but I don't see how that could be true.
 
-
+[[A prince can always stand to learn a great deal from his people.]]
+[[You should give yourself more credit.]]
+[[I suppose even a commoner has wisdom to share.]]
 
 
 :: I look out for myself.
@@ -514,7 +527,7 @@ PATRICE: That's awful!
 
 PATRICE: If that's how it feels to live here all alone, then I think I can understand why you summoned us all here.
 
-[[I'm sorry about that.]]
+[[I'm sorry about that.|I'm sorry about that.]]
 [[Beauregard makes it easier.|He is.]]
 
 
@@ -555,6 +568,42 @@ PATRICE: Would you please excuse me? I think I need some fresh air.
 
 
 
+:: You should give yourself more credit.
+#pat_approval, +5#
+%1, <pat>, <center>, <blush>%
+PATRICE: You're too kind, sire, really.
+
+PATRICE: I'm no different from anyone else in my town. I'm sure any one of them would do the same, in my position.
+
+[[I've never met anyone as humble as you are. It's admirable.]]
+[[I don't think so. Commoners tend not to be well-mannered.]]
+[[Do you really think so highly of your village?]]
+
+
+:: A prince can always stand to learn a great deal from his people.
+#pat_approval, +10#
+%1, <pat>, <center>, <smile>%
+PATRICE: That's a wonderful sentiment, sire. It's good to know that there are those in high society who think so.
+
+PATRICE: I'm sure you could learn as much from any of my neighbors back home as you could from me, though. If not more!
+
+[[I've never met anyone as humble as you are. It's admirable.]]
+[[I don't think so. Commoners tend not to be well-mannered.]]
+[[Do you really think so highly of your village?]]
+
+
+
+
+:: I suppose even a commoner has wisdom to share.
+#pat_approval, -5#
+%1, <pat>, <center>, <neutral>%
+PATRICE: ...Yes. I suppose we do.
+
+PATRICE: Would you please excuse me? I think I need some fresh air.
+
+
+
+
 :: leave
 %1, <pat>, <center>, <smile>%
 PATRICE: Of course. I hope you have a pleasant day, sire.
@@ -572,8 +621,6 @@ PATRICE: Unless--Do you have any other questions for me, sire?
 
 :: He is.
 %1, <pat>, <center>, <smile>%
-PATRICE: That's so good to hear!
-
 PATRICE: I'm glad you have someone here to support you. It can't be easy, dealing with...the things you have to deal with.
 
 PATRICE: Did you have any other questions for me, sire?
@@ -590,7 +637,7 @@ PATRICE: Two men, rattling around in a big castle like this? You're bound to arg
 
 PATRICE: What's important is that you always come back to each other.
 
-PATRICE: Oh, listen to me rattle on. Did you have any other questions for me, sire?
+PATRICE: Oh, listen to me prattle on. Did you have any other questions for me, sire?
 
 [[Certainly.|else]]
 [[Actually, I have to leave.|leave]]
@@ -652,16 +699,387 @@ PATRICE: Of course, sire. What would you like to talk about?
 [[%pat_approval,1,30%How are you enjoying your stay here?|stay2]]
 [[%pat_approval,31,50%How are you enjoying your stay here?|stay3]]
 [[%pat_approval,51,70%How are you enjoying your stay here?|stay4]]
-[[Let's talk about you.|you]]
+[[%convo_points, 1, 2%Let's talk about you.|you]]
+
+
+:: Do you really think so highly of your village?
+%1, <pat>, <center>, <smile>%
+PATRICE: Of course I do!
+
+PATRICE: After everything they've done for me, I would be a fool not to.
+
+PATRICE: They're very good people, sire. I'm sure you'd agree, if you met them.
+
+[[I'll take your word for it.]]
+[[And yet they sent you here.]]
+
+
+:: I don't think so. Commoners tend not to be well-mannered.
+#pat_approval, -5#
+%1, <pat>, <center>, <frown>%
+PATRICE: Well. I suppose, compared to some people, our manners may be lacking. But we're good, working people. And a member of the moarchy shouldn't look down on their subjects.
+
+%1, <pat>, <center>, <neutral>%
+PATRICE: Did you have any other questions for me, sire?
+
+[[Certainly.|else]]
+[[Actually, I have to leave.|leave]]
+
+
+:: I've never met anyone as humble as you are. It's admirable.
+#pat_approval, +5#
+%1, <pat>, <center>, <blush>%
+PATRICE: Oh, please, sire, a woman like me can only handle so many compliments in a day before she starts to feel faint.
+
+%1, <pat>, <center>, <smile>%
+PATRICE: Did you have any other questions for me, sire?
+
+[[Certainly.|else]]
+[[Actually, I have to leave.|leave]]
+
+
+:: I'll take your word for it.
+%1, <pat>, <center>, <smile>%
+PATRICE: Thank you, sire.
+
+PATRICE: Did you have any other questions for me, sire?
+
+[[Certainly.|else]]
+[[Actually, I have to leave.|leave]]]
+
+
+:: And yet they sent you here.
+#pat_approval, -5#
+%1, <pat>, <center>, <frown>%
+PATRICE: ...Yes. I suppose they did.
+
+%1, <pat>, <center>, <smile>%
+PATRICE: But someone had to come, and I was more than happy to do it.
+
+[[Really? You were happy to go alone to a stranger's castle?]]
+[[You really do care about your village, then.]]
 
 
 :: secret
 #convo_points, -1#
+#pat_convo, +1#
+%1, <pat>, <center>, <scared>%
+PATRICE: Oh, dear. I...I'm not a very good liar, am I?
+
+PATRICE: It's nothing terrible, sire, I promise. It's just...something I wasn't sure you'd want in a potential wife.
+
+[[I'm not angry with you, but I'd like the truth now.]]
+[[I should've known I couldn't trust you to tell me the truth.]]
+[[I thought we were getting closer. Do you not trust me?]]
 
 
 
 :: trouble
 #convo_points, -1#
+#pat_convo, +1#
+%1, <pat>, <center>, <scared>%
+PATRICE: Oh, no. And here I was, hoping it wasn't obvious.
 
+PATRICE: It's alright, sire. Just a mother's worry. You don't need to concern yourself with it, really.
+
+[[Very well. If you insist.]]
+[[No, please. Tell me what's troubling you.]]
+[[I thought we agreed you wouldn't keep any more secrets?]]
+
+
+:: You really do care about your village, then.
+%1, <pat>, <center>, <smile>%
+PATRICE: I certainly do. As does everyone else who lives there, I'm sure.
+
+PATRICE: Did you have any other questions for me, sire?
+
+[[Certainly.|else]]
+[[Actually, I have to leave.|leave]]
+
+
+:: Really? You were happy to go alone to a stranger's castle?
+%1, <pat>, <center>, <frown>%
+PATRICE: Well--
+
+%1, <pat>, <center>, <neutral>%
+PATRICE: I mean, I was happy to do it for my friends. There was no one better suited to go than I was.
+
+%1, <pat>, <center>, <smile>%
+PATRICE: Can we please talk about something else now, sire?
+
+[[Certainly.|else]]
+[[Actually, I have to leave.|leave]]
+
+
+:: I thought we were getting closer. Do you not trust me?
+%1, <pat>, <center>, <scared>%
+PATRICE: Oh, no, sire, it isn't that at all!
+
+PATRICE: I was just...worried. That it would change your opinion of me.
+
+[[And lying to me wouldn't?]]
+[[Tell me, and then I'll decide.]]
+[[My opinion of you isn't so easily shaken.]]
+
+
+:: I should've known I couldn't trust you to tell me the truth.
+#pat_approval, -5#
+%1, <pat>, <center>, <scared>%
+PATRICE: I'm so sorry, sire!
+
+PATRICE: I didn't mean to keep it from you for so long.
+
+PATRICE: I was just...worried. That it would change your opinion of me.
+
+[[And lying to me wouldn't?]]
+[[Tell me, and then I'll decide.]]
+[[My opinion of you isn't so easily shaken.]]
+
+
+:: I'm not angry with you, but I'd like the truth now.
+#pat_approval, +5#
+%1, <pat>, <center>, <neutral>%
+PATRICE: Thank you for not being angry with me. I was so worried you would be, when you found out I'd kept it from you.
+
+%1, <pat>, <center>, <neutral>%
+PATRICE: I just...couldn't bring myself to tell you. I thought it would change your opinion of me.
+
+[[And lying to me wouldn't?]]
+[[Tell me, and then I'll decide.]]
+[[My opinion of you isn't so easily shaken.]]
+
+
+:: Very well. If you insist.
+%1, <pat>, <center>, <smile>%
+PATRICE: I do. I'll handle this on my own. ...Somehow.
+
+PATRICE: Was there something else you wanted to talk about?
+
+[[Certainly.|else]]
+[[Actually, I have to leave.|leave]]
+
+
+:: No, please. Tell me what's troubling you.
+#pat_approval, +5#
+#pat_gift, +1#
+%1, <pat>, <center>, <frown>%
+PATRICE: Well...if you must know, it's my son. I've been writing to him every day, but...
+
+PATRICE: He hasn't written back yet. It's probably nothing, but I can't help wondering if something might be wrong.
+
+[[Maybe he's just busy.]]
+[[Are you sure your letters are reaching him?]]
+[[Can he really read and write full letters at his age?]]
+
+
+:: I thought we agreed you wouldn't keep any more secrets?
+#pat_gift, +1#
+%1, <pat>, <center>, <frown>%
+PATRICE: Well...if you must know, it's my son. I've been writing to him every day, but...
+
+PATRICE: He hasn't written back yet. It's probably nothing, but I can't help wondering if something might be wrong.
+
+[[Maybe he's just busy.]]
+[[Are you sure your letters are reaching him?]]
+[[Can he really read and write full letters at his age?]]
+
+
+:: son
+#pat_approval, +10#
+%1, <pat>, <center>, <smile>%
+PATRICE: Oh, he's a wonderful boy! His name is Jean, and he's just turned six!
+
+PATRICE: Takes so much after his father. A good-hearted, brave little soldier. He gets taller and more self-assured by the day!
+
+%1, <pat>, <center>, <neutral>%
+PATRICE: ...I worry, sometimes, that he might be <i>too</i> much like his father. That he'll put himself in danger for someone else's sake and not come back from it.
+
+%1, <pat>, <center>, <sad>%
+PATRICE: To lose both my husband and my son...it would be too much to bear.
+
+%1, <pat>, <center>, <neutral>%
+PATRICE: Oh, listen to me prattle on. Did you have any other questions for me, sire?
+
+[[Certainly.|else]]
+[[Actually, I have to leave.|leave]]
+
+
+:: And lying to me wouldn't?
+#pat_approval, -5#
+%1, <pat>, <center>, <blush>%
+PATRICE: I'm so, so sorry. Truly, I never meant to deceive you. 
+
+%1, <pat>, <center>, <frown>%
+PATRICE: I just thought...
+
+%1, <pat>, <center>, <neutral>%
+PATRICE: Well, it doesn't matter now, does it? I'll tell you.
+
+PATRICE: The truth is, during my previous marriage, I had a son. He's currently at home with my mother.
+
+[[Why did you think I'd be upset about that?]]
+[[That's quite an enormous thing to lie about.]]
+[[I hope you were planning to leave him there, should we get married.]]
+
+
+:: Tell me, and then I'll decide.
+%1, <pat>, <center>, <neutral>%
+PATRICE: Of course, sire. I'll tell you immediately.
+
+PATRICE: The truth is, during my previous marriage, I had a son. He's currently at home with my mother.
+
+[[Why did you think I'd be upset about that?]]
+[[That's quite an enormous thing to lie about.]]
+[[I hope you were planning to leave him there, should we get married.]]
+
+
+:: My opinion of you isn't so easily shaken.
+#pat_approval, +10#
+%1, <pat>, <center>, <blush>%
+PATRICE: O-oh. Well, that's good to know.
+
+%1, <pat>, <center>, <neutral>%
+PATRICE: I suppose now I should tell you what I've been hiding.
+
+PATRICE: The truth is, during my previous marriage, I had a son. He's currently at home with my mother.
+
+[[Why did you think I'd be upset about that?]]
+[[That's quite an enormous thing to lie about.]]
+[[I hope you were planning to leave him there, should we get married.]]
+
+
+:: Are you sure your letters are reaching him?
+%1, <pat>, <center>, <frown>%
+PATRICE: That's just it--he hasn't written back even once, so I have no way of knowing. 
+
+PATRICE: I just can't help but worry about him. This is the first time I've been away from him for more than a day or two.
+
+[[Let me try to help.]]
+[[I'll make sure Beauregard keeps a close eye on all the post.]]
+[[I wish you the best of luck.]]
+
+
+:: Maybe he's just busy.
+%1, <pat>, <center>, <frown>%
+PATRICE: No, definitely not. He's only six. There's no work he could be doing, and he isn't enrolled in any schools.
+
+PATRICE: I just can't help but worry about him. This is the first time I've been away from him for more than a day or two.
+
+[[Let me try to help.]]
+[[I'll make sure Beauregard keeps a close eye on all the post.]]
+[[I wish you the best of luck.]]
+
+
+:: Can he really read and write full letters at his age?
+#pat_approval, -5#
+%1, <pat>, <center>, <frown>%
+PATRICE: Of course. I'm fully literate myself, and I passed the skill of reading and writing on to him as soon as I was able.
+
+PATRICE: He's a very bright young boy. I'm sure I wasn't as smart when I was his age.
+
+PATRICE: I just can't help but worry about him. This is the first time I've been away from him for more than a day or two.
+
+[[Let me try to help.]]
+[[I'll make sure Beauregard keeps a close eye on all the post.]]
+[[I wish you the best of luck.]]
+
+
+:: I wish you the best of luck.
+%1, <pat>, <center>, <smile>%
+PATRICE: Thank you, sire. I'll try to keep my spirits high.
+
+PATRICE: I'll start writing another letter right away. Just in case.
+
+PATRICE: Did you have any other questions for me, sire?
+
+[[Certainly.|else]]
+[[Actually, I have to leave.|leave]]
+
+
+:: I'll make sure Beauregard keeps a close eye on all the post.
+#pat_approval, +5#
+%1, <pat>, <center>, <smile>%
+PATRICE: Oh, thank you, sire. You can't know how much I appreciate this.
+
+PATRICE: I'll start writing another letter right away. Just in case.
+
+
+:: Let me try to help.
+#pat_approval, +5#
+%1, <pat>, <center>, <smile>%
+PATRICE: Oh, thank you, sire. You can't know how much I appreciate this.
+
+PATRICE: I'll start writing another letter right away. Just in case.
+
+
+:: Why did you think I'd be upset about that?
+#pat_approval, +5#
+%1, <pat>, <center>, <scared>%
+PATRICE: I...I just thought...
+
+%1, <pat>, <center>, <smile>%
+PATRICE: It seems silly now, after having told you.
+
+PATRICE: I really am sorry to have kept it fom you, sire. You deserved to know.
+
+[[Everyone's entitled to a secret or two.]]
+[[As long as you aren't hiding anything else, I think I can let this slide.]]
+[[Is there anything else you'd like to tell me?]]
+
+
+:: That's quite an enormous thing to lie about.
+%1, <pat>, <center>, <scared>%
+PATRICE: I know. I really am sorry to have kept it fom you, sire. You deserved to know.
+
+[[Everyone's entitled to a secret or two.]]
+[[As long as you aren't hiding anything else, I think I can let this slide.]]
+[[Is there anything else you'd like to tell me?]]
+
+
+:: I hope you were planning to leave him there, should we get married.
+#pat_approval, -70#
+%1, <pat>, <center>, <frown>%
+PATRICE: No.
+
+PATRICE: No, I was not planning on abandoning my son.
+
+PATRICE: And I doubt that it will become an issue, because it seems rather unlikely to me now that we will ever get married.
+
+PATRICE: Excuse me, sire. I'd like to be going now.
+
+
+:: As long as you aren't hiding anything else, I think I can let this slide.
+#pat_approval, +5#
+%1, <pat>, <center>, <smile>%
+PATRICE: Thank you, sire. I have no more secrets to keep, I promise.
+
+PATRICE: Did you have any other questions for me?
+
+[[What's your son like?|son]]
+[[Certainly.|else]]
+[[Actually, I have to leave.|leave]]
+
+
+:: Is there anything else you'd like to tell me?
+%1, <pat>, <center>, <smile>%
+PATRICE: No, sire. I have no more secrets to keep, I promise.
+
+PATRICE: Did you have any other questions for me?
+
+[[What's your son like?|son]]
+[[Certainly.|else]]
+[[Actually, I have to leave.|leave]]
+
+
+:: Everyone's entitled to a secret or two.
+#pat_approval, +5#
+%1, <pat>, <center>, <smile>%
+PATRICE: I suppose that's true. Thank you for understanding, sire.
+
+PATRICE: Did you have any other questions for me?
+
+[[What's your son like?|son]]
+[[Certainly.|else]]
+[[Actually, I have to leave.|leave]]
 
 
