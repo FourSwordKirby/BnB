@@ -62,6 +62,12 @@ public class DayManager : MonoBehaviour {
 	public void BeginDay() {
         endOfDay = false;
 
+        if (GameObject.FindObjectOfType<ScriptedTutorial>() != null)
+            Destroy(GameObject.FindObjectOfType<ScriptedTutorial>());
+
+        foreach(Room room in mansion.Rooms)
+            room.inhabitants = new List<LoveInterest>();
+
         foreach(LoveInterest suitor in gameManager.loveInterests.Where(x => x.giftStatus == 3))
             suitor.giftStatus++;
 
@@ -141,11 +147,16 @@ public class DayManager : MonoBehaviour {
             return;
         }
 
+        GameManager.loveInterestControls.clearLoveInterests();
+
 		/* Housekeeping for keeping track of info */
 		remainingConvoPts = 2;
-		GameManager.LoadRoom (bedroom);
+        if (dayNumber != 1)
+        {
+            GameManager.LoadRoom(bedroom);
 
-		GameManager.StartConversation (morningBeauStory);
+            GameManager.StartConversation(morningBeauStory);
+        }
 	}
 
 	void StartDinner() {

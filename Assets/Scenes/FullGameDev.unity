@@ -457,6 +457,12 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!114 &172370359 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11496798, guid: c7b9a94ddc8f45d43bf6fce2e3b48c60,
+    type: 2}
+  m_PrefabInternal: {fileID: 2102601702}
+  m_Script: {fileID: 11500000, guid: e18b4fb8b7c74e744b01b17fef4d9e8b, type: 3}
 --- !u!114 &209578718 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11485486, guid: c7b9a94ddc8f45d43bf6fce2e3b48c60,
@@ -1048,11 +1054,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22477094, guid: 88ed3aaaab6c0094080d9725cbd3b0e3, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -100
+      value: -37
       objectReference: {fileID: 0}
     - target: {fileID: 22477094, guid: 88ed3aaaab6c0094080d9725cbd3b0e3, type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: -449
+      value: -418
       objectReference: {fileID: 0}
     - target: {fileID: 22443008, guid: 88ed3aaaab6c0094080d9725cbd3b0e3, type: 2}
       propertyPath: m_AnchoredPosition.x
@@ -1072,19 +1078,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22419462, guid: 88ed3aaaab6c0094080d9725cbd3b0e3, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 32
+      value: 53
       objectReference: {fileID: 0}
     - target: {fileID: 22419462, guid: 88ed3aaaab6c0094080d9725cbd3b0e3, type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 298
+      value: 295
       objectReference: {fileID: 0}
     - target: {fileID: 22481336, guid: 88ed3aaaab6c0094080d9725cbd3b0e3, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -168
+      value: -100
       objectReference: {fileID: 0}
     - target: {fileID: 22481336, guid: 88ed3aaaab6c0094080d9725cbd3b0e3, type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 523
+      value: 425
       objectReference: {fileID: 0}
     - target: {fileID: 11477920, guid: 88ed3aaaab6c0094080d9725cbd3b0e3, type: 2}
       propertyPath: m_Sprite
@@ -1916,6 +1922,48 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!1 &854248404
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 854248405}
+  - 114: {fileID: 854248406}
+  m_Layer: 0
+  m_Name: Beau_scold3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &854248405
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 854248404}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1632717645}
+  m_RootOrder: 11
+--- !u!114 &854248406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 854248404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2215e545849c1e142ae4109a88cb7fb9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoPlay: 0
+  StartPassage: Start
+  AdditionalHooks: []
 --- !u!1 &857016997
 GameObject:
   m_ObjectHideFlags: 0
@@ -3041,7 +3089,7 @@ Prefab:
     - target: {fileID: 11440352, guid: e8c3591ee5acd57419b769e15cc8630b, type: 2}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 82b5b600ce782e64398f3a6f3b02a1ed,
+      objectReference: {fileID: 21300000, guid: 6462915b94c442140b8a761d12ffe546,
         type: 3}
     - target: {fileID: 133124, guid: e8c3591ee5acd57419b769e15cc8630b, type: 2}
       propertyPath: m_IsActive
@@ -3099,9 +3147,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bedroom: {fileID: 2141531993}
   mansion: {fileID: 747658263}
-  dining: {fileID: 0}
+  dining: {fileID: 172370359}
   remainingConvoPts: 2
-  dayNumber: 0
+  dayNumber: 1
   gameManager: {fileID: 1343823894}
   morningBeauStory: {fileID: 656819652}
   eveningBeauStory: {fileID: 1100236380}
@@ -3591,6 +3639,7 @@ Transform:
   - {fileID: 689035321}
   - {fileID: 1938997574}
   - {fileID: 1143652498}
+  - {fileID: 854248405}
   m_Father: {fileID: 1343823893}
   m_RootOrder: 0
 --- !u!114 &1632717646
@@ -3620,11 +3669,11 @@ MonoBehaviour:
   - {fileID: 689035320}
   - {fileID: 1938997573}
   TutorialCompletedIntros:
-  - {fileID: 1144533702}
-  - {fileID: 1144533702}
-  - {fileID: 1144533702}
-  - {fileID: 1144533702}
-  - {fileID: 1144533702}
+  - {fileID: 854248406}
+  - {fileID: 854248406}
+  - {fileID: 854248406}
+  - {fileID: 854248406}
+  - {fileID: 854248406}
   tutorialEnd: {fileID: 1143652499}
   firstTimeInParlor: 1
   wrongRoomCount: 0
@@ -4536,6 +4585,15 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 11496798, guid: c7b9a94ddc8f45d43bf6fce2e3b48c60, type: 2}
+      propertyPath: roomName
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 11496798, guid: c7b9a94ddc8f45d43bf6fce2e3b48c60, type: 2}
+      propertyPath: background
+      value: 
+      objectReference: {fileID: 21300000, guid: 84ff95abbd1cd2549864beb3e7e7501f,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c7b9a94ddc8f45d43bf6fce2e3b48c60, type: 2}
   m_IsPrefabParent: 0

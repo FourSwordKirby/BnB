@@ -88,6 +88,8 @@ public class GameManager : MonoBehaviour {
 
     public static IEnumerator BeginDinner(Room room, TwineStory dinnerStory)
     {
+        loveInterestControls.hideLoveInterests();
+
         screenFader.setFadeTime(0.75f);
         screenFader.FadeToBlack();
 
@@ -261,8 +263,16 @@ public class GameManager : MonoBehaviour {
             room.inhabitants = new List<LoveInterest>();
         }
 
-        dayControls.BeginDay();
-        screenFader.FadeToClear();
+        if (dayControls.dayNumber == 1)
+        {
+            GameObject.FindObjectOfType<ScriptedTutorial>().Begin();
+            screenFader.FadeToClear();
+        }
+        else
+        {
+            dayControls.BeginDay();
+            screenFader.FadeToClear();
+        }
     }
 }
 

@@ -36,12 +36,7 @@ public class ScriptedTutorial : MonoBehaviour {
     public int introsCompleted;// = 0;
 	public bool tutorialCompleted;// = true;
 
-	// Use this for initialization
-	void Start () {
-        Begin();
-	}
-
-	void Begin () {
+	public void Begin () {
 		GameManager.MoveToRoom (bedroom);
         previousRoom = GameManager.currentRoom;
 		GameManager.StartConversation (tutorialA);
@@ -122,7 +117,7 @@ public class ScriptedTutorial : MonoBehaviour {
         }
         else if (tutorialCompleted && GameManager.loveInterestControls.gameObject.activeSelf == true)
         {
-            StartCoroutine(GameManager.EndDay());
+            GameManager.dayControls.BeginDay();
             Destroy(this.gameObject);
         }
 

@@ -18,6 +18,9 @@ public class MapController : MonoBehaviour {
     {
         foreach (Room room in mansion.Rooms)
         {
+            if (room.roomName == GameManager.RoomName.Dining)
+                return;
+
             for(int i = 0; i < room.inhabitants.Count;i++)
             {
                 LoveInterest suitor = room.inhabitants[i];
