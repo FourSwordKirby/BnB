@@ -58,6 +58,22 @@ GameObject:
   - 4: {fileID: 499606}
   - 114: {fileID: 11452024}
   m_Layer: 0
+  m_Name: Chapel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &153310
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 437986}
+  - 114: {fileID: 11496798}
+  m_Layer: 0
   m_Name: Dining
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -202,6 +218,7 @@ Transform:
   - {fileID: 490102}
   - {fileID: 476160}
   - {fileID: 420082}
+  - {fileID: 437986}
   - {fileID: 499606}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -217,6 +234,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 434506}
   m_RootOrder: 2
+--- !u!4 &437986
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 153310}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 434506}
+  m_RootOrder: 8
 --- !u!4 &438736
 Transform:
   m_ObjectHideFlags: 1
@@ -288,7 +317,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 434506}
-  m_RootOrder: 8
+  m_RootOrder: 9
 --- !u!114 &11419572
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -354,6 +383,7 @@ MonoBehaviour:
   - {fileID: 11430658}
   - {fileID: 11491536}
   - {fileID: 11419572}
+  - {fileID: 11496798}
   - {fileID: 11452024}
 --- !u!114 &11460824
 MonoBehaviour:
@@ -443,6 +473,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inhabitants: []
   background: {fileID: 21300000, guid: 85a849322ab75a44bab0f468c73058ca, type: 3}
+  unlocked: 1
+  roomName: 0
+--- !u!114 &11496798
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 153310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e18b4fb8b7c74e744b01b17fef4d9e8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inhabitants: []
+  background: {fileID: 21300000, guid: c9569d7a3ce947544b7be0f75e6f38f4, type: 3}
   unlocked: 1
   roomName: 0
 --- !u!1001 &100100000
