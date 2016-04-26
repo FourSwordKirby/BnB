@@ -71,6 +71,7 @@ public class GameManager : MonoBehaviour {
         dialogControls = GameObject.FindObjectOfType<DialogController>();
         mapControls = GameObject.FindObjectOfType<MapController>();
 		diaryControls = GameObject.FindObjectOfType<DiaryController> ();
+        timeUI = GameObject.FindObjectOfType<TimeUI>();
         backgroundControls = GameObject.FindObjectOfType<BackgroundController>();
         foregroundControls = GameObject.FindObjectOfType<ForegroundController>();
         loveInterestControls = GameObject.FindObjectOfType<LoveInterestSelectController>();
@@ -114,7 +115,7 @@ public class GameManager : MonoBehaviour {
         /*Do this later I'm really done right now*/
         timeUI.gameObject.SetActive(false);
         loveInterestControls.clearLoveInterests();
-        backgroundControls.displayRoom(mansion.Rooms[9].background);
+        backgroundControls.displayRoom(mansion.Rooms[(int)GameManager.RoomName.GreatHall].background);
         GameManager.StartConversation(marriageStory);
         screenFader.FadeToClear();
     }
