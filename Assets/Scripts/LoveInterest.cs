@@ -11,10 +11,7 @@ public class LoveInterest : MonoBehaviour {
     //This is a collection of stories associated with this love interest.
     public TwineStory currentStory;
 
-	public TwineStory mainStory;
-
-	public TwineStory DinnerStory;
-
+    public TwineStory marriageStory;
 
 	public int approvalRaiting;
 	public int giftStatus;

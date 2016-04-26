@@ -48,8 +48,12 @@ public class DialogController : MonoBehaviour
             string instructions;
             do
             {
+
                 line = "";
                 instructions = "";
+
+                if (!(currentLine < lines.Count))
+                    break;
 
                 line = lines[currentLine];
 				                
@@ -85,6 +89,7 @@ public class DialogController : MonoBehaviour
                 {
                     instructions = line.Substring(line.IndexOf("&") + 1, line.Substring(1).IndexOf("&"));
                     ApplyEnding(instructions);
+                    currentLine++;
                 }
 			} while (instructions != "");
 
@@ -184,8 +189,9 @@ public class DialogController : MonoBehaviour
 
     private void ApplyEnding(string instructions)
     {
-        /***** THIS WILL BE CALLED TO START AN ENDING, IT INVOLVES ENDING THE CURRENT CONVERSATION AND TRANSITIONING INTO THE APPROPRIATE
-             * BACKGROUND/MUSIC etc. combination*****/
+        GameManager.LoveInterestName name = twineParser.ParseName(instructions);
+        GameManager.EndConversation();
+        StartCoroutine(GameManager.BeginMarriage(gameManager.loveInterests[(int)name].marriageStory));
     }
 
     private void DisplayOptions()
