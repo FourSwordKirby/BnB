@@ -15,8 +15,8 @@ public class DialogController : MonoBehaviour
     public TwineStory currentStory;
 
     public AudioClip clickSound;
-    
-    private bool storyCompleted;
+
+    public bool storyCompleted { get; private set; }
 
 	public bool IgnoreEmptyLines = true;
 

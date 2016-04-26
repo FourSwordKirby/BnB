@@ -3083,6 +3083,7 @@ Transform:
   - {fileID: 764885213}
   - {fileID: 1206905443}
   - {fileID: 1100236379}
+  - {fileID: 1777227327}
   m_Father: {fileID: 1343823893}
   m_RootOrder: 1
 --- !u!114 &1235006029
@@ -3104,7 +3105,7 @@ MonoBehaviour:
   gameManager: {fileID: 1343823894}
   morningBeauStory: {fileID: 656819652}
   eveningBeauStory: {fileID: 1100236380}
-  beauPityStory: {fileID: 0}
+  beauPityStory: {fileID: 1777227328}
   daySprites:
   - {fileID: 21300000, guid: 2432b625c09715043842503b2e78d812, type: 3}
   - {fileID: 21300000, guid: a6f883d2d0e3cfa4ca9781ec2727a527, type: 3}
@@ -3112,6 +3113,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: f3076142a043e684b98f6768d0d5fced, type: 3}
   - {fileID: 21300000, guid: 41c15c4f718b5f7408f6b875f51580a6, type: 3}
   - {fileID: 21300000, guid: ab3eed656071c9f4cbe72fadd2c26dcd, type: 3}
+  - {fileID: 21300000, guid: cb9e21d59c8557849a111b07164e5552, type: 3}
   - {fileID: 21300000, guid: cb9e21d59c8557849a111b07164e5552, type: 3}
   HenStory: {fileID: 3645617}
   LucyStory: {fileID: 1206905444}
@@ -3750,6 +3752,48 @@ RectTransform:
   m_PrefabParentObject: {fileID: 22454932, guid: e10c4fa56eb233444ae4c3247a0c9dec,
     type: 2}
   m_PrefabInternal: {fileID: 517424137}
+--- !u!1 &1777227326
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1777227327}
+  - 114: {fileID: 1777227328}
+  m_Layer: 0
+  m_Name: BeauPity
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1777227327
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1777227326}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -147.1042, y: -52.454964, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1235006028}
+  m_RootOrder: 7
+--- !u!114 &1777227328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1777227326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ec5e89ddcd7c734dabe219395c5db10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoPlay: 0
+  StartPassage: Start
+  AdditionalHooks: []
 --- !u!1001 &1784908451
 Prefab:
   m_ObjectHideFlags: 0

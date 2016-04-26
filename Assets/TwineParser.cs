@@ -77,6 +77,8 @@ public class TwineParser : MonoBehaviour {
             case "angry":
                 return LoveInterest.Emotion.Angry;
             case "frown":
+                return LoveInterest.Emotion.Angry;
+            case "sad":
                 return LoveInterest.Emotion.Sad;
             case "scared":
                 return LoveInterest.Emotion.Scared;

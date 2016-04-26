@@ -17,3 +17,5 @@ EditorBuildSettings:
     path: Assets/Scenes/TutorialDev.unity
   - enabled: 1
     path: Assets/Scenes/FullGameDev.unity
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity

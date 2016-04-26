@@ -102,8 +102,13 @@ public class GameManager : MonoBehaviour {
         dayControls.endOfDay = true;
     }
 
+    public static bool gameFinished;
     public static IEnumerator BeginMarriage(TwineStory marriageStory)
     {
+        mapControls.hideControls();
+        diaryControls.hideControls();
+        loveInterestControls.hideLoveInterests();
+
         screenFader.setFadeTime(3.0f);
         screenFader.FadeToBlack();
 
@@ -112,12 +117,24 @@ public class GameManager : MonoBehaviour {
 
         /***** THIS WILL BE CALLED TO START AN ENDING, IT INVOLVES ENDING THE CURRENT CONVERSATION AND TRANSITIONING INTO THE APPROPRIATE
              * BACKGROUND/MUSIC etc. combination*****/
+
         /*Do this later I'm really done right now*/
         timeUI.gameObject.SetActive(false);
         loveInterestControls.clearLoveInterests();
         backgroundControls.displayRoom(mansion.Rooms[(int)GameManager.RoomName.GreatHall].background);
         GameManager.StartConversation(marriageStory);
         screenFader.FadeToClear();
+
+        while (!dialogControls.storyCompleted)
+            yield return new WaitForSeconds(0.1f);
+
+        screenFader.setFadeTime(3.0f);
+        screenFader.FadeToBlack();
+
+        while (!screenFader.finishedFade)
+            yield return new WaitForSeconds(0.1f);
+
+        Application.LoadLevel("Credits");
     }
 
     public static IEnumerator MoveToRoom(Room room)

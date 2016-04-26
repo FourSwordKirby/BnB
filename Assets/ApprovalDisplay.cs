@@ -32,7 +32,7 @@ public class ApprovalDisplay : MonoBehaviour {
 	}
 
 	public void RefreshHeartDisplay() {
-		Debug.Log ("Refreshing hearts for " + loveInterestInfo.designation);
+		//Debug.Log ("Refreshing hearts for " + loveInterestInfo.designation);
 		int approval = loveInterestInfo.approvalRaiting;
 
 		int numHearts;
