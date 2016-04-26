@@ -8,8 +8,11 @@ public class ApprovalDisplay : MonoBehaviour {
 	public LoveInterest loveInterestInfo;
 	public List<Image> hearts;
 
+	static int maxHearts = 4;
+	static int approvalPerHeart = 100 / maxHearts;
+
 	// Use this for initialization
-	void Start () {
+	void Start () {	
 	
 	}
 	
@@ -19,8 +22,13 @@ public class ApprovalDisplay : MonoBehaviour {
 	}
 
 	void ShowHearts(int numHearts) {
+		for (int i = 0; i < maxHearts; i++) {
+			if (i < numHearts)
+				hearts [i].gameObject.SetActive (true);
+			else
+				hearts [i].gameObject.SetActive (false);
 
-
+		}
 	}
 
 	public void RefreshHeartDisplay() {
@@ -31,7 +39,7 @@ public class ApprovalDisplay : MonoBehaviour {
 		if (approval <= 0)
 			numHearts = 0;
 		else
-			numHearts = ((approval - 1) / 25) + 1;
+			numHearts = ((approval - 1) / approvalPerHeart) + 1;
 
 		ShowHearts (numHearts);
 
