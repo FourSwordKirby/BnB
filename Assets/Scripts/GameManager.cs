@@ -23,6 +23,7 @@ public class GameManager : MonoBehaviour {
     public static BackgroundController backgroundControls;
     public static ForegroundController foregroundControls;
     public static LoveInterestSelectController loveInterestControls;
+    public static TimeUI timeUI;
     public static ScreenFader screenFader;
 	public static DayManager dayControls;
 
@@ -109,9 +110,11 @@ public class GameManager : MonoBehaviour {
             yield return new WaitForSeconds(0.1f);
 
         /***** THIS WILL BE CALLED TO START AN ENDING, IT INVOLVES ENDING THE CURRENT CONVERSATION AND TRANSITIONING INTO THE APPROPRIATE
-             * BACKGROUND/MUSIC etc. combination*****/        
+             * BACKGROUND/MUSIC etc. combination*****/
         /*Do this later I'm really done right now*/
-
+        timeUI.gameObject.SetActive(false);
+        loveInterestControls.clearLoveInterests();
+        backgroundControls.displayRoom(mansion.Rooms[9].background);
         GameManager.StartConversation(marriageStory);
         screenFader.FadeToClear();
     }
