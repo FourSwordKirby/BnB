@@ -1,4 +1,5 @@
 ﻿:: Start
+$HenSmile$
 %1, <hen>, <center>, <neutral>%
 HENRIETTA: MOOOOOOOOOOOOOOOOOOOOOOO.
 
@@ -10,6 +11,7 @@ BEAST: Yes, um. Well, my name is...
 
 
 :: hen
+$HenSmile$
 HENRIETTA: MMMMMMOOOOOOOOOOOOOOOOO.
 
 BEAST: Er....right. Nice meeting you, too.

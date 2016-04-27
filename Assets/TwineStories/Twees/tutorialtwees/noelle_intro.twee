@@ -31,6 +31,7 @@ NOELLE: Thank you for inviting me to the castle. This is all so exciting!
 
 
 :: n3
+$NoelleScared$
 #noelle_approval, -5#
 %1, <noelle>, <center>, <scared>%
 NOELLE: O-oh. Alright. Um, yes. Yes, of course.
@@ -44,6 +45,7 @@ NOELLE: Thank you for inviting me to the castle. This is all so exciting!
 
 
 :: I hope you enjoy yourself.
+$NoelleSmile$
 #noelle_approval, +5#
 NOELLE: I'm sure I will, sire. Thank you.
 
@@ -66,6 +68,7 @@ NOELLE: I'm sure it gets exhausting having to constantly host suitors. Being a p
 
 
 :: I'm sorry to put you in this position.
+$NoelleScared$
 #noelle_approval, +5#
 %1, <noelle>, <center>, <scared>%
 NOELLE: .....
@@ -89,6 +92,7 @@ NOELLE: Now, if you'll excuse me, I'm feeling a bit tired and would like to sit 
 
 
 :: None, actually. I wish I'd been so lucky.
+$NoelleSmile$
 NOELLE: I must say I find that surprising, given the splendor of this castle. But I suppose not everyone has such good taste.
 
 NOELLE: Now, if you'll excuse me, I'm feeling a bit tired and would like to sit down. It's been a pleasure talking to you, sire.

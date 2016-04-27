@@ -23,11 +23,10 @@ public class ApprovalDisplay : MonoBehaviour {
 
 	void ShowHearts(int numHearts) {
 		for (int i = 0; i < maxHearts; i++) {
-			if (i < numHearts)
-				hearts [i].gameObject.SetActive (true);
-			else
-				hearts [i].gameObject.SetActive (false);
-
+            if (i < numHearts)
+                hearts[i].color = new Color(hearts[i].color.r, hearts[i].color.g, hearts[i].color.b, 1.0f);
+            else
+                hearts[i].color = new Color(hearts[i].color.r, hearts[i].color.g, hearts[i].color.b, 0.1f);
 		}
 	}
 

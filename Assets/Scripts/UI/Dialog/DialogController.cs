@@ -14,8 +14,6 @@ public class DialogController : MonoBehaviour
 
     public TwineStory currentStory;
 
-    public AudioClip clickSound;
-
     public bool storyCompleted { get; private set; }
 
 	public bool IgnoreEmptyLines = true;
@@ -228,7 +226,6 @@ public class DialogController : MonoBehaviour
 
         //Debug.Log("You chose " + currentStory.Links[option].Text);
 
-        AudioSource.PlayClipAtPoint(clickSound, Vector3.zero);
 		currentStory.Advance (currentStory.Links[twineOptionNum]);
     }
 

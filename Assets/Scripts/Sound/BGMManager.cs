@@ -10,9 +10,9 @@ public class BGMManager : MonoBehaviour {
 
     //public static AudioSource currentAudioSource;
     public static AudioSource targetAudioSource;
-    public static float targetVolume = 1.0f;
+    public static float targetVolume = 0.01f;
 
-    public static float audioAdjustRate = 0.01f;
+    public static float audioAdjustRate = 0.0005f;
 
     void Start()
     {
@@ -38,14 +38,14 @@ public class BGMManager : MonoBehaviour {
         {
             foreach (AudioSource bgm in BGMtracks)
             {
-                bgm.volume = Mathf.Clamp(bgm.volume - audioAdjustRate, 0.0f, 1.0f);
+                bgm.volume = Mathf.Clamp(bgm.volume - audioAdjustRate, 0.0f, targetVolume);
             }
             return;
         }
 
         if (targetAudioSource.volume < targetVolume)
         {
-            targetAudioSource.volume += audioAdjustRate;
+            targetAudioSource.volume = Mathf.Clamp(targetAudioSource.volume + audioAdjustRate, 0.0f, targetVolume);
         }
 	}
 

@@ -10,7 +10,7 @@ BEAST: You can call me...
 
 
 :: Prince Adam.
-%1, <pat>, <center>, <surprise>%
+%1, <pat>, <center>, <scared>%
 PATRICE: Oh, of course! I would never presume to call you otherwise.
 
 %1, <pat>, <center>, <smile>%
@@ -34,6 +34,7 @@ PATRICE: Thank you for sending me that invitation. Things like this don't often 
 
 
 :: The Beast.
+$PatScared$
 #pat_approval, -5#
 %1, <pat>, <center>, <scared>%
 PATRICE: ....Oh.
@@ -49,6 +50,7 @@ PATRICE: Thank you for sending me that invitation. Things like this don't often 
 
 
 :: Well, starting today, I hope to change that.
+$PatBlush$
 #pat_approval, +10#
 %1, <pat>, <center>, <blush>%
 PATRICE: Th-thank you, your highness. You'll never know how much your kindness means to me.
@@ -75,6 +77,7 @@ PATRICE: I hope it's not too much trouble, but I was wondering if you had any pa
 
 
 :: Of course. I've never found the lives of commoners to be particularly interesting.
+$PatAngry$
 #pat_approval, -5#
 %1, <pat>, <center>, <frown>%
 PATRICE: ...Of course, your majesty. I'm sure we must seem very dull in comparison.

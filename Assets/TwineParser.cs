@@ -200,7 +200,7 @@ public class TwineParser : MonoBehaviour {
 
     public bool IsBGM(string option)
     {
-        return option[0] == '$';
+        return option[0] == '~';
     }
 
     internal bool IsEnding(string option)

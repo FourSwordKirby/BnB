@@ -10,6 +10,8 @@ BEAST: Good morning. You can call me...
 
 
 :: l1
+~1~
+$LucySmile$
 #lucy_approval, +5#
 LUCILLE: Adam. Huh. Less poncy than I would've expected.
 
@@ -21,6 +23,8 @@ LUCILLE: So are us girls supposed to just stand around in this big echo-y hall a
 
 
 :: l2
+~-1~
+$LucyAngry$
 #lucy_approval, -5#
 %1, <lucy>, <center>, <frown>%
 LUCILLE: Hmpfh. Poncy as expected.
@@ -33,6 +37,8 @@ LUCILLE: So are us girls supposed to just stand around in this big echo-y hall a
 
 
 :: l3
+~1~
+$LucySmile$
 %1, <lucy>, <center>, <smile>%
 LUCILLE: 'The Beast'? Hah. You royal types are all so dramatic.
 
@@ -44,6 +50,7 @@ LUCILLE: So are us girls supposed to just stand around in this big echo-y hall a
 
 
 :: Of course. It's the least I can do.
+~0~
 %1, <lucy>, <center>, <neutral>%
 LUCILLE: Yes. It is.
 
@@ -57,6 +64,7 @@ LUCILLE: People aren't too happy with you right now. That tends to happen when y
 
 
 :: Didn't you eat before leaving home?
+~0~
 %1, <lucy>, <center>, <frown>%
 LUCILLE: Oh, sure, I ate before leaving home. Two days ago.
 
@@ -70,6 +78,8 @@ LUCILLE: People aren't too happy with you right now. That tends to happen when y
 
 
 :: Typical of a peasant to ask for charity.
+~1~
+$LucyAngry$
 #lucy_approval, -5#
 %1, <lucy>, <center>, <frown>%
 LUCILLE: Right. That's me. The girl making selfish requests after volunteering to travel to a creepy castle so no one else had to.
@@ -84,6 +94,8 @@ LUCILLE: People aren't too happy with you right now. That tends to happen when y
 
 
 :: My butler is the one who sent that summons.
+~-1~
+$LucyAngry$
 #lucy_approval, -5#
 %1, <lucy>, <center>, <frown>%
 LUCILLE: Oh, right. It's all the servant's fault. Typical.
@@ -94,6 +106,8 @@ LUCILLE: Excuse me. I've got some very important standing-around to get back to.
 
 
 :: I have as little choice in this as you do.
+~-1~
+$LucyAngry$
 #lucy_approval, -5#
 %1, <lucy>, <center>, <frown>%
 LUCILLE: Right. I should've expected as much. Cryptic and condescending seems to be the way things go around here.
@@ -104,6 +118,7 @@ LUCILLE: Excuse me. I've got some very important standing-around to get back to.
 
 
 :: I'm used to people being unhappy with me.
+~0~
 %1, <lucy>, <center>, <neutral>%
 LUCILLE: Hm. Well. Not much I can say in response to that, is there?
 
