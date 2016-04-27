@@ -28,7 +28,7 @@ public class GameManager : MonoBehaviour {
 	public static DayManager dayControls;
 
     public static GameManager instance;
-
+    
     public enum RoomName
     {
         GreatHall,
@@ -117,9 +117,6 @@ public class GameManager : MonoBehaviour {
         while (!screenFader.finishedFade)
             yield return new WaitForSeconds(0.1f);
 
-        /***** THIS WILL BE CALLED TO START AN ENDING, IT INVOLVES ENDING THE CURRENT CONVERSATION AND TRANSITIONING INTO THE APPROPRIATE
-             * BACKGROUND/MUSIC etc. combination*****/
-
         /*Do this later I'm really done right now*/
         timeUI.gameObject.SetActive(false);
         loveInterestControls.clearLoveInterests();
@@ -137,7 +134,24 @@ public class GameManager : MonoBehaviour {
         while (!screenFader.finishedFade)
             yield return new WaitForSeconds(0.1f);
 
-        Application.LoadLevel("Credits");
+        foregroundControls.displayScreen(dayControls.daySprites[8]);
+        screenFader.FadeToClear();
+        gameOver = true;
+    }
+    
+    private static bool gameOver;
+    private float delayTime = 1.5f;
+
+    void Update()
+    {
+        if(gameOver)
+        {
+            delayTime -= Time.deltaTime;
+            if (Input.GetMouseButtonDown(0) && delayTime < 0)
+            {
+                Application.LoadLevel("FullGameDev");
+            }
+        }
     }
 
     public static IEnumerator MoveToRoom(Room room)

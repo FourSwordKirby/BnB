@@ -10,7 +10,7 @@ public class ForegroundController : MonoBehaviour {
     public bool beginFadeOut;
 
 
-    private float waitLength = 1.0f;
+    private float waitLength = 2.0f;
     private float waitTimer;
 
     public void displayScreen(Sprite screenSprite)
@@ -27,13 +27,14 @@ public class ForegroundController : MonoBehaviour {
 
     void Update()
     {
+        /*
         if (Input.GetMouseButtonDown(0))
         {
             acknowledged = true;
         }
 
         if (acknowledged)
-        {
+        {*/
             waitTimer += Time.deltaTime;
 
             if (waitTimer > waitLength)
@@ -42,7 +43,7 @@ public class ForegroundController : MonoBehaviour {
                 beginFadeOut = true;
                 waitTimer = 0.0f;
             }
-        }
+        //}
     }
 
 }

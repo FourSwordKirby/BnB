@@ -1501,7 +1501,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22442694, guid: ebb83d0582f75e840859f6bf66ddd44f, type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 22442694, guid: ebb83d0582f75e840859f6bf66ddd44f, type: 2}
       propertyPath: m_AnchoredPosition.x
@@ -3261,7 +3261,7 @@ MonoBehaviour:
   mansion: {fileID: 747658263}
   dining: {fileID: 172370359}
   remainingConvoPts: 2
-  dayNumber: 1
+  dayNumber: 7
   gameManager: {fileID: 1343823894}
   morningBeauStory: {fileID: 656819652}
   eveningBeauStory: {fileID: 1100236380}
@@ -3274,7 +3274,8 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 41c15c4f718b5f7408f6b875f51580a6, type: 3}
   - {fileID: 21300000, guid: ab3eed656071c9f4cbe72fadd2c26dcd, type: 3}
   - {fileID: 21300000, guid: cb9e21d59c8557849a111b07164e5552, type: 3}
-  - {fileID: 21300000, guid: cb9e21d59c8557849a111b07164e5552, type: 3}
+  - {fileID: 21300000, guid: 33e05cf6bef420b45b5c607edfa9542b, type: 3}
+  - {fileID: 21300000, guid: 19b7d9c82f4172b4694018b096478a35, type: 3}
   HenStory: {fileID: 3645617}
   LucyStory: {fileID: 1206905444}
   JohnStory: {fileID: 764885214}
