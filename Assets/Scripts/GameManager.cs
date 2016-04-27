@@ -124,6 +124,7 @@ public class GameManager : MonoBehaviour {
         timeUI.gameObject.SetActive(false);
         loveInterestControls.clearLoveInterests();
         backgroundControls.displayRoom(mansion.Rooms[(int)GameManager.RoomName.GreatHall].background);
+        bgmManager.changeAudioSource("Marriage", 1.0f);
         GameManager.StartConversation(marriageStory);
         screenFader.FadeToClear();
 

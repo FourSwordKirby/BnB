@@ -188,6 +188,7 @@ LUCILLE: What now?
 
 :: fam
 #convo_points, -1#
+#lucy_convo, +1#
 %1, <lucy>, <center>, <neutral>%
 LUCILLE: Nothing interesting to say on that subject. I've got a mother and a father, same as most people.
 
@@ -241,6 +242,7 @@ LUCILLE: Sorry if that seems boring to you. But I haven't seen any other poncy g
 
 :: drink
 #convo_points, -1#
+#lucy_convo, +1#
 %1, <lucy>, <center>, <neutral>%
 LUCILLE: You mean other than the fact that I'm at the mercy of a complete stranger? No, none at all.
 
@@ -251,6 +253,7 @@ LUCILLE: You mean other than the fact that I'm at the mercy of a complete strang
 
 :: from
 #convo_points, -1#
+#lucy_convo, +1#
 %1, <lucy>, <center>, <neutral>%
 LUCILLE: Oldbridge. You probably haven't heard of it. It's mostly just a bunch of farms.
 
@@ -710,6 +713,7 @@ LUCILLE: Can we <i>please</i> talk about something other than your bruised ego n
 
 :: world
 #convo_points, -1#
+#lucy_convo, +1#
 %1, <lucy>, <center>, <neutral>%
 LUCILLE: Are you kidding? Anywhere but here!
 
@@ -725,11 +729,21 @@ LUCILLE: If I had my way, I'd never go back there. Ever.
 
 
 :: We both know you don't look as bad as I do.
+#lucy_approval, +5#
+%1, <lucy>, <center>, <blush>%
+LUCILLE: Right. Because so many people look worse than you. 
 
+LUCILLE: Can we talk about something else now?
+
+[[Sure.|else]]
+[[Actually, I have to leave.]]
 
 
 :: Really? You <i>never</i> want to go back?
+%1, <lucy>, <center>, <neutral>%
+LUCILLE: That's what I said, isn't it?
 
+LUCILLE: I haven't made any good memories in Oldbridge since I was a kid. I doubt that's going to change now that I'm older and meaner.
 
 
 :: There must be somewhere specific you'd like to go.
@@ -741,7 +755,16 @@ LUCILLE: If I had my way, I'd never go back there. Ever.
 
 
 :: At least I try to hide my feelings.
+#lucy_approval, -5#
+%1, <lucy>, <center>, <frown>%
+LUCILLE: Oh, sure! What a noble sacrifice you make, putting on a mask every day and parading around as if nothing's wrong!
 
+LUCILLE: The world would be better if we all just screamed and cried and fought when we needed to. The rest is just pretension.
+
+LUCILLE: Can we talk about something else now?
+
+[[Sure.|else]]
+[[Actually, I have to leave.]]
 
 
 :: You look the same way I feel.
@@ -756,6 +779,7 @@ LUCILLE: I guess you must feel like a pretty miserable bastard, then, because I 
 
 :: kid
 #convo_points, -1#
+#lucy_convo, +1#
 %1, <lucy>, <center>, <neutral>%
 LUCILLE: Like what?
 
@@ -769,7 +793,14 @@ LUCILLE: Like what?
 
 
 :: Being a giant monster will do that to a man.
+#lucy_approval, +5#
+%1, <lucy>, <center>, <smile>%
+LUCILLE: Yeah, alright, I get it. You're a big scary monster. Ooo.
 
+LUCILLE: Can we talk about something else now?
+
+[[Sure.|else]]
+[[Actually, I have to leave.]]
 
 
 :: Excuse me for trying to get personal.
@@ -805,13 +836,22 @@ LUCILLE: Can you even imagine? A tiny little kid, with all this sass? I'd have e
 
 
 :: Drunk.
+%1, <lucy>, <center>, <neutral>%
+LUCILLE: Oh, yeah, that was me. Tiny little girl stumbling around her parents' farm drinking wine.
 
+LUCILLE: If I'd started that early, I'd have the highest tolerance of anyone in recorded history. 
+
+LUCILLE: Or, more likely, I'd have died very, very young.
+
+[[I'm glad you didn't.]]
+[[That would've been a sight.]]
+[[How did you get this way, then?]]
 
 
 :: I just want to get to know you.
 #lucy_approval, +5#
 %1, <lucy>, <center>, <frown>%
-LUCILLE: You <i>really</i> want to break through this cranky drunk's hide, huh?
+LUCILLE: So you thought you could break through this cranky drunk's hide, hm?
 
 LUCILLE: How noble of you. Can we talk about something else now?
 
@@ -827,14 +867,116 @@ LUCILLE: Fine, then. Leave me be. It's what I'm used to, anyway.
 
 
 :: That would've been a sight.
+%1, <lucy>, <center>, <smile>%
+LUCILLE: Oh, sure, it would've been funny enough until a girl half your height started yelling at you.
 
+%1, <lucy>, <center>, <neutral>%
+LUCILLE: No, I wasn't always like this. I used to be very eager to please, if you can imagine.
+
+[[You? Eager to please?]]
+[[I'm sorry that changed.]]
+[[What happened?]]
 
 
 :: How did you get this way, then?
+%1, <lucy>, <center>, <neutral>%
+LUCILLE: The usual way, I suppose. I didn't fit in to begin with, and when I started really growing up and being expected to just...<i>settle down</i>, it all went sideways.
 
+LUCILLE: But, no, I wasn't always like this. I used to be very eager to please, if you can imagine.
+
+[[You? Eager to please?]]
+[[I'm sorry that changed.]]
+[[What happened?]]
 
 
 :: I'm glad you didn't.
+#lucy_approval, +5#
+%1, <lucy>, <center>, <neutral>%
+LUCILLE: Yeah, yeah, don't go laying it on too thick.
 
+LUCILLE: But no, I wasn't always like this. I used to be very eager to please, if you can imagine.
+
+[[You? Eager to please?]]
+[[I'm sorry that changed.]]
+[[What happened?]]
+
+
+:: You? Eager to please?
+%1, <lucy>, <center>, <neutral>%
+LUCILLE: Hard to believe, I know. But it's true.
+
+LUCILLE: I was a naive little girl once, same as you. Minus the, er, girl part. I assume.
+
+LUCILLE: Anyway, point is, I'm just like anyone else, only drunker. And meaner.
+
+[[And why is that?]]
+[[I can relate.]]
+[[I wish you weren't.]]
+
+
+:: I'm sorry that changed.
+#lucy_approval, -5#
+%1, <lucy>, <center>, <frown>%
+LUCILLE: Yeah? Well, I'm not.
+
+LUCILLE: I used to be a naive little girl. Young and stupid.
+
+LUCILLE: And now I've grown up to become drunker. And meaner.
+
+[[And why is that?]]
+[[I can relate.]]
+[[I wish you weren't.]]
+
+
+:: What happened?
+%1, <lucy>, <center>, <frown>%
+LUCILLE: Stop. Just stop.
+
+LUCILLE: All you need to know is that I used to be young and stupid, and that I finally wised up.
+
+LUCILLE: And now I'm drunker. And meaner.
+
+[[And why is that?]]
+[[I can relate.]]
+[[I wish you weren't.]]
+
+
+:: I can relate.
+#lucy_approval, +10#
+%1, <lucy>, <center>, <neutral>%
+LUCILLE: Oh, yeah? You drunk under all that fur, too?
+
+LUCILLE: ...
+
+LUCILLE: I'm sorry that you know the feeling.
+
+LUCILLE: Can we talk about something else now?
+
+[[Sure.|else]]
+[[Actually, I have to leave.]]
+
+
+:: I wish you weren't.
+#lucy_approval, -10#
+%1, <lucy>, <center>, <frown>%
+LUCILLE: Wow! Shocker!
+
+LUCILLE: We all wish for things, asshole. Most of us just don't involve <i>other people</i> in our stupid condescending fantasies.
+
+LUCILLE: Ask me something else, or leave.
+
+[[Sure.|else]]
+[[Actually, I have to leave.]]
+
+
+
+:: And why is that?
+%1, <lucy>, <center>, <neutral>%
+LUCILLE: None of your damn business, that's for sure.
+
+LUCILLE: Ask me something else, or leave.
+
+[[Sure.|else]]
+[[Actually, I have to leave.]]
 
 

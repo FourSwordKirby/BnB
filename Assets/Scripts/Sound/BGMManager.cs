@@ -25,6 +25,15 @@ public class BGMManager : MonoBehaviour {
 
         targetAudioSource = BGMtracks[(speakerIndex * 3 + 1)  + mood];
 
+        for (int i = 0; i < BGMtracks.Count; i++)
+        {
+            if (i / 3 == speakerIndex && !BGMtracks[i].isPlaying)
+                BGMtracks[i].Play();
+            else if (i / 3 != speakerIndex && BGMtracks[i].isPlaying && BGMtracks[i].volume == 0)
+                BGMtracks[i].Pause();
+        }
+
+
         if (BGMtracks.Where(x => x != targetAudioSource && x.volume > 0).Count() != 0)
         {
             foreach (AudioSource bgm in BGMtracks)
@@ -45,6 +54,8 @@ public class BGMManager : MonoBehaviour {
         if (targetAudioSource.name != name)
         {
             AudioSource newAudio = BGMtracks.Find(x => x.name == name);
+
+            speakerIndex = BGMtracks.FindIndex(x => x == newAudio)/3;
 
             targetAudioSource = newAudio;
             targetVolume = newVolume;

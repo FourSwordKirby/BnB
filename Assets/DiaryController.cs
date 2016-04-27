@@ -6,7 +6,7 @@ using System.Collections.Generic;
 public class DiaryController : MonoBehaviour {
 
 	public Image diaryDisplay;
-
+    public Button activationButton;
 	public List<ApprovalDisplay> loveInterestApprovals;
 
 
@@ -27,6 +27,29 @@ public class DiaryController : MonoBehaviour {
 		}
 	}
 
+    public void displayDiary()
+    {
+        diaryDisplay.gameObject.SetActive(true);
+        disableControls();
+        GameManager.mapControls.disableControls();
+    }
+
+    public void hideDiary()
+    {
+        diaryDisplay.gameObject.SetActive(false);
+        enableControls();
+        GameManager.mapControls.enableControls();
+    }
+
+    public void disableControls()
+    {
+        activationButton.interactable = false;
+    }
+    public void enableControls()
+    {
+        activationButton.interactable = true;
+    }
+
 	public void displayControls()
 	{
 		this.gameObject.SetActive(true);
@@ -34,15 +57,5 @@ public class DiaryController : MonoBehaviour {
 	public void hideControls()
 	{
 		this.gameObject.SetActive(false);
-	}
-
-	public void displayDiary()
-	{
-		diaryDisplay.gameObject.SetActive(true);
-	}
-
-	public void hideDiary()
-	{
-		diaryDisplay.gameObject.SetActive(false);
 	}
 }

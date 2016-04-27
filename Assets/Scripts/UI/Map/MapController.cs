@@ -37,10 +37,14 @@ public class MapController : MonoBehaviour {
     public void displayMap()
     {
         mapDisplay.gameObject.SetActive(true);
+        disableControls();
+        GameManager.diaryControls.disableControls();
     }
     public void hideMap()
     {
         mapDisplay.gameObject.SetActive(false);
+        enableControls();
+        GameManager.diaryControls.enableControls();
     }
 
     public void disableControls()
