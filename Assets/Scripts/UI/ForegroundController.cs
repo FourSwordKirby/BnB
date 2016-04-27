@@ -10,7 +10,7 @@ public class ForegroundController : MonoBehaviour {
     public bool beginFadeOut;
 
 
-    private float waitLength = 2.0f;
+    private float waitLength = 7.0f;
     private float waitTimer;
 
     public void displayScreen(Sprite screenSprite)

@@ -1424,6 +1424,22 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!114 &707312467
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3261,7 +3277,7 @@ MonoBehaviour:
   mansion: {fileID: 747658263}
   dining: {fileID: 172370359}
   remainingConvoPts: 2
-  dayNumber: 7
+  dayNumber: 0
   gameManager: {fileID: 1343823894}
   morningBeauStory: {fileID: 656819652}
   eveningBeauStory: {fileID: 1100236380}

@@ -172,9 +172,18 @@ public class DayManager : MonoBehaviour {
 
         if (endOfDay && GameManager.loveInterestControls.gameObject.activeSelf == true)
         {
-            endOfDay = false;
-            dayNumber++;
-            StartCoroutine(GameManager.EndDay());
+            if (dayNumber != 0)
+            {
+                endOfDay = false;
+                dayNumber++;
+                StartCoroutine(GameManager.EndDay());
+            }
+            else if (Input.GetMouseButtonDown(0))
+            {
+                endOfDay = false;
+                dayNumber++;
+                StartCoroutine(GameManager.EndDay());
+            }
         }
 	}
 }

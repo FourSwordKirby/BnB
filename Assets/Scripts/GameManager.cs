@@ -241,24 +241,18 @@ public class GameManager : MonoBehaviour {
         //REMOVE IT ASAP
         titleScreen = GameObject.Find("TitleScreen");
 
-        if(titleScreen != null)
-        {
-            foregroundControls.displayScreen(titleScreen.GetComponent<Image>().sprite);
-            while (!foregroundControls.beginFadeOut)
-            {
-                yield return new WaitForSeconds(0.1f);
-            }
-            Destroy(titleScreen);
-        }
-
-
         screenFader.FadeToBlack();
+
         while (!screenFader.finishedFade)
         {
             yield return new WaitForSeconds(0.1f);
         }
 
+        if(titleScreen != null)
+            Destroy(titleScreen);
+
         screenFader.FadeToClear();
+
         foregroundControls.displayScreen(dayControls.daySprites[dayControls.dayNumber - 1]);
         while (!foregroundControls.beginFadeOut)
         {
