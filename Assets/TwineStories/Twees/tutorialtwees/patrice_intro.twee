@@ -18,7 +18,7 @@ PATRICE: Thank you for sending me that invitation. Things like this don't often 
 
 [[Well, starting today, I hope to change that.]]
 [[Really? I find that surprising.]]
-[[Of course. I've never found the lives of commoners to be particularly interesting.]]
+[[The lives of commoners are rarely interesting.]]
 
 
 :: Adam.
@@ -30,7 +30,7 @@ PATRICE: Thank you for sending me that invitation. Things like this don't often 
 
 [[Well, starting today, I hope to change that.]]
 [[Really? I find that surprising.]]
-[[Of course. I've never found the lives of commoners to be particularly interesting.]]
+[[The lives of commoners are rarely interesting.]]
 
 
 :: The Beast.
@@ -46,7 +46,7 @@ PATRICE: Thank you for sending me that invitation. Things like this don't often 
 
 [[Well, starting today, I hope to change that.]]
 [[Really? I find that surprising.]]
-[[Of course. I've never found the lives of commoners to be particularly interesting.]]
+[[The lives of commoners are rarely interesting.]]
 
 
 :: Well, starting today, I hope to change that.
@@ -76,7 +76,7 @@ PATRICE: I hope it's not too much trouble, but I was wondering if you had any pa
 [[I'd prefer you didn't have any contact with the outside world.]]
 
 
-:: Of course. I've never found the lives of commoners to be particularly interesting.
+:: The lives of commoners are rarely interesting.
 $PatAngry$
 #pat_approval, -5#
 %1, <pat>, <center>, <frown>%
