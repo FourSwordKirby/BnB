@@ -8,8 +8,9 @@ public class SFXManager : MonoBehaviour {
 
     public void play(string name)
     {
-        float volume = 100;
+        float volume = 1.0f;
 
-        AudioSource.PlayClipAtPoint(soundEffects.Find(x => x.name == name), this.transform.position,volume);
+        this.GetComponent<AudioSource>().PlayOneShot(soundEffects.Find(x => x.name == name));
+        //AudioSource.PlayClipAtPoint(soundEffects.Find(x => x.name == name), this.transform.position,volume);
     }
 }
