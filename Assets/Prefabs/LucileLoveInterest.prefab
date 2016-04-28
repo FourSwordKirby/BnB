@@ -41,8 +41,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   designation: 2
   currentStory: {fileID: 0}
-  mainStory: {fileID: 0}
-  DinnerStory: {fileID: 0}
+  marriageStory: {fileID: 0}
   approvalRaiting: 0
   giftStatus: 0
   convoTracker: 0
@@ -54,6 +53,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: c77014f34958c5d42a5450018c5fb561, type: 3}
   - {fileID: 21300000, guid: d4371b8fb54598549acc8802c24ab7dd, type: 3}
   - {fileID: 21300000, guid: df97e359a501c7643ae5e4d8aee09e0b, type: 3}
+  - {fileID: 21300000, guid: d34568f167d47064a8b3babb5a6a7855, type: 3}
   loveInterestIcon: {fileID: 21300000, guid: da8c169e23b4d7a4492a48287284588d, type: 3}
 --- !u!1001 &100100000
 Prefab:
