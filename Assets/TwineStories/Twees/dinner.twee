@@ -25,49 +25,85 @@ BEAUREGARD: Now, choose a dining companion or I'll do it for you!
 
 
 :: Henrietta.
+#hen_dinner, +1#
 %1, <beau>, <center>, <frown>%
 BEAUREGARD: Oh. The...lovely Miss Henrietta. Right. 
 
 %1, <beau>, <center>, <neutral>%
 BEAUREGARD: Well, I'll, um. I suppose I'll set out some...hay? And remove the chair from the other end of the table...Oh, goodness.
 
-[[<i>The table is set.</i>|hen1]]
+[[%hen_dinner, 0, 0%<i>The table is set.</i>|hen1]]
+[[%hen_dinner, 1, 1%<i>The table is set.</i>|hen2]]
+[[%hen_dinner, 2, 2%<i>The table is set.</i>|hen3]]
+[[%hen_dinner, 3, 3%<i>The table is set.</i>|hen4]]
+[[%hen_dinner, 4, 4%<i>The table is set.</i>|hen5]]
+[[%hen_dinner, 5, 5%<i>The table is set.</i>|hen6]]
+[[%hen_dinner, 6, 6%<i>The table is set.</i>|hen7]]
 
 
 :: Lucille.
+#lucy_dinner, +1#
 %1, <beau>, <center>, <neutral>%
 BEAUREGARD: Miss Lucille. Well. That's certainly an...interesting choice.
 
 BEAUREGARD: I'll be sure to provide the table with plenty of wine tonight, sire. I hope the evening proves pleasant.
 
-[[<i>The table is set.</i>|lucy1]]
+[[%lucy_dinner, 0, 0%<i>The table is set.</i>|lucy1]]
+[[%lucy_dinner, 1, 1%<i>The table is set.</i>|lucy2]]
+[[%lucy_dinner, 2, 2%<i>The table is set.</i>|lucy3]]
+[[%lucy_dinner, 3, 3%<i>The table is set.</i>|lucy4]]
+[[%lucy_dinner, 4, 4%<i>The table is set.</i>|lucy5]]
+[[%lucy_dinner, 5, 5%<i>The table is set.</i>|lucy6]]
+[[%lucy_dinner, 6, 6%<i>The table is set.</i>|lucy7]]
 
 
 :: Noelle.
+#noelle_dinner, +1#
 %1, <beau>, <center>, <smile>%
 BEAUREGARD: Ah, Miss Noelle. Perfect.
 
 BEAUREGARD: I'll get everything ready for you two. I'm sure it will be a perfectly pleasant evening!
 
-[[<i>The table is set.</i>|noe1]]
+[[%noelle_dinner, 0, 0%<i>The table is set.</i>|noe1]]
+[[%noelle_dinner, 1, 1%<i>The table is set.</i>|noe2]]
+[[%noelle_dinner, 2, 2%<i>The table is set.</i>|noe3]]
+[[%noelle_dinner, 3, 3%<i>The table is set.</i>|noe4]]
+[[%noelle_dinner, 4, 4%<i>The table is set.</i>|noe5]]
+[[%noelle_dinner, 5, 5%<i>The table is set.</i>|noe6]]
+[[%noelle_dinner, 6, 6%<i>The table is set.</i>|noe7]]
+
 
 
 :: Patrice.
+#pat_dinner, +1#
 %1, <beau>, <center>, <smile>%
 BEAUREGARD: Miss Patrice. A fine choice, sire.
 
 BEAUREGARD: I'll make sure everything is just perfect for this evening!
 
-[[<i>The table is set.</i>|pat1]]
+[[%pat_dinner, 0, 0%<i>The table is set.</i>|pat1]]
+[[%pat_dinner, 1, 1%<i>The table is set.</i>|pat2]]
+[[%pat_dinner, 2, 2%<i>The table is set.</i>|pat3]]
+[[%pat_dinner, 3, 3%<i>The table is set.</i>|pat4]]
+[[%pat_dinner, 4, 4%<i>The table is set.</i>|pat5]]
+[[%pat_dinner, 5, 5%<i>The table is set.</i>|pat6]]
+[[%pat_dinner, 6, 6%<i>The table is set.</i>|pat7]]
 
 
 :: Jane.
+#john_dinner, +1#
 %1, <beau>, <center>, <smile>%
 BEAUREGARD: Miss Jane! Lovely.
 
 BEAUREGARD: You dinner for two will be ready momentarily, sire!
 
-[[<i>The table is set.</i>|john1]]
+[[%john_dinner, 0, 0%<i>The table is set.</i>|john1]]
+[[%john_dinner, 1, 1%<i>The table is set.</i>|john2]]
+[[%john_dinner, 2, 2%<i>The table is set.</i>|john3]]
+[[%john_dinner, 3, 3%<i>The table is set.</i>|john4]]
+[[%john_dinner, 4, 4%<i>The table is set.</i>|john5]]
+[[%john_dinner, 5, 5%<i>The table is set.</i>|john6]]
+[[%john_dinner, 6, 6%<i>The table is set.</i>|john7]]
 
 
 :: hen1
@@ -83,7 +119,7 @@ BEAUREGARD: You dinner for two will be ready momentarily, sire!
 :: lucy1
 #lucy_approval, +5#
 %1, <lucy>, <center>, <smile>%
-<i>It's a good thing Beauregard provided plenty of wine--despite her daily excursions to the wine cellar, Lucille goes straight for the glass bottles and starts knocking back drink after drink.</i>
+<i>It's a good thing Beauregard provided plenty of wine--Lucille goes straight for the glass bottles and starts knocking back drink after drink.</i>
 
 <i>As expected, her conversation is dry and acerbic--at least, it is at the start of the night. </i>
 
@@ -99,7 +135,9 @@ BEAUREGARD: You dinner for two will be ready momentarily, sire!
 %1, <noelle>, <center>, <smile>%
 <i>As usual, the lady Noelle is the very picture of grace and poise. She handles herself with the air of one graciously bestowing her presence upon unworthy surroundings.</i>
 
-<i>Nevertheless, you can't help but think she seems to become more comfortable over the course of the night. But then, you suppose making idle conversation about harmless topics while maintaining a comfortable physical distance would put anyone at ease. </i>
+<i>Nevertheless, you can't help but think she seems to become more comfortable over the course of the night.</i>
+
+<i>But then, you suppose making idle conversation about harmless topics while maintaining a comfortable physical distance would put anyone at ease. </i>
 
 <i>At the end of the night, you bid her a gallant farewell, and her smile appears almost genuine.</i>
 
@@ -117,6 +155,174 @@ BEAUREGARD: You dinner for two will be ready momentarily, sire!
 
 
 :: john1
+#john_approval, +5#
+%1, <john>, <center>, <smile>%
+<i>Jane has the uncanny ability to make even the smallest of things into grand jokes, and over the course of the evening, this ability starts to rub off on you. </i>
+
+<i>Eating with your ungainly claws becomes a source of laughter rather than embarrassment. </i>
+
+<i>Your struggle with a spoonful of soup makes both ends of the table turn red in the face from laughing--not that your skin is really visible under all the fur.</i>
+
+<i>You're still laughing as you part ways.</i>
+
+
+:: hen2
+
+
+
+:: lucy2
+
+
+
+:: noe2
+
+
+
+:: pat2
+
+
+
+:: john2
+#john_approval, +5#
+%1, <john>, <center>, <smile>%
+<i>Jane has the uncanny ability to make even the smallest of things into grand jokes, and over the course of the evening, this ability starts to rub off on you. </i>
+
+<i>Eating with your ungainly claws becomes a source of laughter rather than embarrassment. </i>
+
+<i>Your struggle with a spoonful of soup makes both ends of the table turn red in the face from laughing--not that your skin is really visible under all the fur.</i>
+
+<i>You're still laughing as you part ways.</i>
+
+
+:: hen3
+
+
+
+:: lucy3
+
+
+
+:: noe3
+
+
+
+:: pat3
+
+
+
+:: john3
+#john_approval, +5#
+%1, <john>, <center>, <smile>%
+<i>Jane has the uncanny ability to make even the smallest of things into grand jokes, and over the course of the evening, this ability starts to rub off on you. </i>
+
+<i>Eating with your ungainly claws becomes a source of laughter rather than embarrassment. </i>
+
+<i>Your struggle with a spoonful of soup makes both ends of the table turn red in the face from laughing--not that your skin is really visible under all the fur.</i>
+
+<i>You're still laughing as you part ways.</i>
+
+
+:: hen4
+
+
+
+:: lucy4
+
+
+
+:: noe4
+
+
+
+:: pat4
+
+
+
+:: john4
+#john_approval, +5#
+%1, <john>, <center>, <smile>%
+<i>Jane has the uncanny ability to make even the smallest of things into grand jokes, and over the course of the evening, this ability starts to rub off on you. </i>
+
+<i>Eating with your ungainly claws becomes a source of laughter rather than embarrassment. </i>
+
+<i>Your struggle with a spoonful of soup makes both ends of the table turn red in the face from laughing--not that your skin is really visible under all the fur.</i>
+
+<i>You're still laughing as you part ways.</i>
+
+
+:: hen5
+
+
+
+:: lucy5
+
+
+
+:: pat5
+
+
+
+:: noe5
+
+
+
+:: john5
+#john_approval, +5#
+%1, <john>, <center>, <smile>%
+<i>Jane has the uncanny ability to make even the smallest of things into grand jokes, and over the course of the evening, this ability starts to rub off on you. </i>
+
+<i>Eating with your ungainly claws becomes a source of laughter rather than embarrassment. </i>
+
+<i>Your struggle with a spoonful of soup makes both ends of the table turn red in the face from laughing--not that your skin is really visible under all the fur.</i>
+
+<i>You're still laughing as you part ways.</i>
+
+
+:: hen6
+
+
+
+:: pat6
+
+
+
+:: lucy6
+
+
+
+:: noe6
+
+
+
+:: john6
+#john_approval, +5#
+%1, <john>, <center>, <smile>%
+<i>Jane has the uncanny ability to make even the smallest of things into grand jokes, and over the course of the evening, this ability starts to rub off on you. </i>
+
+<i>Eating with your ungainly claws becomes a source of laughter rather than embarrassment. </i>
+
+<i>Your struggle with a spoonful of soup makes both ends of the table turn red in the face from laughing--not that your skin is really visible under all the fur.</i>
+
+<i>You're still laughing as you part ways.</i>
+
+
+:: hen7
+
+
+
+:: lucy7
+
+
+
+:: noe7
+
+
+
+:: pat7
+
+
+
+:: john7
 #john_approval, +5#
 %1, <john>, <center>, <smile>%
 <i>Jane has the uncanny ability to make even the smallest of things into grand jokes, and over the course of the evening, this ability starts to rub off on you. </i>

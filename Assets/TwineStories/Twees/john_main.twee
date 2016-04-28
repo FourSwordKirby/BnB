@@ -4,8 +4,8 @@ JANE: I don't know how you did it, but this place just feels so...cozy. Just...g
 
 JANE: Any other questions?
 
-[[I want to hear your opinion of the other women staying in the castle.|women]]
-[[Let's talk about you.|you]]
+[[What's your opinion of the other women staying in the castle?|women]]
+[[%convo_points, 1,2%Let's talk about you.|you]]
 
 
 :: stay3
@@ -14,8 +14,8 @@ JANE: The place has really grown on me. That one bust in the hallway? I wave to 
 
 JANE: Any other questions?
 
-[[I want to hear your opinion of the other women staying in the castle.|women]]
-[[Let's talk about you.|you]]
+[[What's your opinion of the other women staying in the castle?|women]]
+[[%convo_points, 1,2%Let's talk about you.|you]]
 
 
 :: stay2
@@ -24,8 +24,8 @@ JANE: It's a big echo-y old place, isn't it? I don't know, I think it's growing 
 
 JANE: Any other questions?
 
-[[I want to hear your opinion of the other women staying in the castle.|women]]
-[[Let's talk about you.|you]]
+[[What's your opinion of the other women staying in the castle?|women]]
+[[%convo_points, 1,2%Let's talk about you.|you]]
 
 
 :: stay1
@@ -34,20 +34,20 @@ JANE: Well, it's not exactly homey. But it could be worse.
 
 JANE: Any other questions?
 
-[[I want to hear your opinion of the other women staying in the castle.|women]]
-[[Let's talk about you.|you]]
+[[What's your opinion of the other women staying in the castle?|women]]
+[[%convo_points, 1,2%Let's talk about you.|you]]
 
 
 :: Start
 %1, <john>, <center>, <smile>%
 JANE: Hey there! Something you wanted?
 
-[[I want to hear your opinion of the other women staying in the castle.|women]]
+[[What's your opinion of the other women staying in the castle?|women]]
 [[%john_approval,-30,0%How are you enjoying your stay here?|stay1]]
-[[%john_approval,0,10%How are you enjoying your stay here?|stay2]]
-[[%john_approval,10,50%How are you enjoying your stay here?|stay3]]
-[[%john_approval,50,70%How are you enjoying your stay here?|stay4]]
-[[Let's talk about you.|you]]
+[[%john_approval,1,30%How are you enjoying your stay here?|stay2]]
+[[%john_approval,31,50%How are you enjoying your stay here?|stay3]]
+[[%john_approval,51,70%How are you enjoying your stay here?|stay4]]
+[[%convo_points, 1,2%Let's talk about you.|you]]
 [[Actually, I have to go.|leave]]
 
 
@@ -57,12 +57,12 @@ JANE: Oh, you mean the cow! Good to know she has a name. It was getting weird ju
 
 JANE: Any other questions?
 
-[[I want to hear your opinion of the other women staying in the castle.|women]]
+[[What's your opinion of the other women staying in the castle?|women]]
 [[%john_approval,-30,0%How are you enjoying your stay here?|stay1]]
-[[%john_approval,0,10%How are you enjoying your stay here?|stay2]]
-[[%john_approval,10,50%How are you enjoying your stay here?|stay3]]
-[[%john_approval,50,70%How are you enjoying your stay here?|stay4]]
-[[Let's talk about you.|you]]
+[[%john_approval,1,30%How are you enjoying your stay here?|stay2]]
+[[%john_approval,31,50%How are you enjoying your stay here?|stay3]]
+[[%john_approval,51,70%How are you enjoying your stay here?|stay4]]
+[[%convo_points, 1,2%Let's talk about you.|you]]
 
 
 :: h2
@@ -71,12 +71,12 @@ JANE: I really like Hen. She just...gets it, y'know?
 
 JANE: Any other questions?
 
-[[I want to hear your opinion of the other women staying in the castle.|women]]
+[[What's your opinion of the other women staying in the castle?|women]]
 [[%john_approval,-30,0%How are you enjoying your stay here?|stay1]]
-[[%john_approval,0,10%How are you enjoying your stay here?|stay2]]
-[[%john_approval,10,50%How are you enjoying your stay here?|stay3]]
-[[%john_approval,50,70%How are you enjoying your stay here?|stay4]]
-[[Let's talk about you.|you]]
+[[%john_approval,1,30%How are you enjoying your stay here?|stay2]]
+[[%john_approval,31,50%How are you enjoying your stay here?|stay3]]
+[[%john_approval,51,70%How are you enjoying your stay here?|stay4]]
+[[%convo_points, 1,2%Let's talk about you.|you]]
 
 
 :: l1
@@ -85,12 +85,12 @@ JANE: Lucille and I haven't talked much yet, but she seems pretty interesting.
 
 JANE: Any other questions?
 
-[[I want to hear your opinion of the other women staying in the castle.|women]]
+[[What's your opinion of the other women staying in the castle?|women]]
 [[%john_approval,-30,0%How are you enjoying your stay here?|stay1]]
-[[%john_approval,0,10%How are you enjoying your stay here?|stay2]]
-[[%john_approval,10,50%How are you enjoying your stay here?|stay3]]
-[[%john_approval,50,70%How are you enjoying your stay here?|stay4]]
-[[Let's talk about you.|you]]
+[[%john_approval,1,30%How are you enjoying your stay here?|stay2]]
+[[%john_approval,31,50%How are you enjoying your stay here?|stay3]]
+[[%john_approval,51,70%How are you enjoying your stay here?|stay4]]
+[[%convo_points, 1,2%Let's talk about you.|you]]
 
 
 :: l2
@@ -99,12 +99,12 @@ JANE: Lucille's great! She's really, really funny, once you crack through that s
 
 JANE: Any other questions?
 
-[[I want to hear your opinion of the other women staying in the castle.|women]]
+[[What's your opinion of the other women staying in the castle?|women]]
 [[%john_approval,-30,0%How are you enjoying your stay here?|stay1]]
-[[%john_approval,0,10%How are you enjoying your stay here?|stay2]]
-[[%john_approval,10,50%How are you enjoying your stay here?|stay3]]
-[[%john_approval,50,70%How are you enjoying your stay here?|stay4]]
-[[Let's talk about you.|you]]
+[[%john_approval,1,30%How are you enjoying your stay here?|stay2]]
+[[%john_approval,31,50%How are you enjoying your stay here?|stay3]]
+[[%john_approval,51,70%How are you enjoying your stay here?|stay4]]
+[[%convo_points, 1,2%Let's talk about you.|you]]
 
 
 :: leave
@@ -133,12 +133,12 @@ JANE: Pat's so polite! I've never met anyone as courteous as her.
 
 JANE: Any other questions?
 
-[[I want to hear your opinion of the other women staying in the castle.|women]]
+[[What's your opinion of the other women staying in the castle?|women]]
 [[%john_approval,-30,0%How are you enjoying your stay here?|stay1]]
-[[%john_approval,0,10%How are you enjoying your stay here?|stay2]]
-[[%john_approval,10,50%How are you enjoying your stay here?|stay3]]
-[[%john_approval,50,70%How are you enjoying your stay here?|stay4]]
-[[Let's talk about you.|you]]
+[[%john_approval,1,30%How are you enjoying your stay here?|stay2]]
+[[%john_approval,31,50%How are you enjoying your stay here?|stay3]]
+[[%john_approval,51,70%How are you enjoying your stay here?|stay4]]
+[[%convo_points, 1,2%Let's talk about you.|you]]
 
 
 :: p2
@@ -147,12 +147,12 @@ JANE: Pat's great! She's like a second mom to me, although she's not nearly old 
 
 JANE: Any other questions?
 
-[[I want to hear your opinion of the other women staying in the castle.|women]]
+[[What's your opinion of the other women staying in the castle?|women]]
 [[%john_approval,-30,0%How are you enjoying your stay here?|stay1]]
-[[%john_approval,0,10%How are you enjoying your stay here?|stay2]]
-[[%john_approval,10,50%How are you enjoying your stay here?|stay3]]
-[[%john_approval,50,70%How are you enjoying your stay here?|stay4]]
-[[Let's talk about you.|you]]
+[[%john_approval,1,30%How are you enjoying your stay here?|stay2]]
+[[%john_approval,31,50%How are you enjoying your stay here?|stay3]]
+[[%john_approval,51,70%How are you enjoying your stay here?|stay4]]
+[[%convo_points, 1,2%Let's talk about you.|you]]
 
 
 :: n1
@@ -161,12 +161,12 @@ JANE: Noelle's...very much a lady. She's intimidating, honestly.
 
 JANE: Any other questions?
 
-[[I want to hear your opinion of the other women staying in the castle.|women]]
+[[What's your opinion of the other women staying in the castle?|women]]
 [[%john_approval,-30,0%How are you enjoying your stay here?|stay1]]
-[[%john_approval,0,10%How are you enjoying your stay here?|stay2]]
-[[%john_approval,10,50%How are you enjoying your stay here?|stay3]]
-[[%john_approval,50,70%How are you enjoying your stay here?|stay4]]
-[[Let's talk about you.|you]]
+[[%john_approval,1,30%How are you enjoying your stay here?|stay2]]
+[[%john_approval,31,50%How are you enjoying your stay here?|stay3]]
+[[%john_approval,51,70%How are you enjoying your stay here?|stay4]]
+[[%convo_points, 1,2%Let's talk about you.|you]]
 
 
 :: n2
@@ -175,12 +175,12 @@ JANE: Noelle's alright. I get the feeling something's bothering her, and she jus
 
 JANE: Any other questions?
 
-[[I want to hear your opinion of the other women staying in the castle.|women]]
+[[What's your opinion of the other women staying in the castle?|women]]
 [[%john_approval,-30,0%How are you enjoying your stay here?|stay1]]
-[[%john_approval,0,10%How are you enjoying your stay here?|stay2]]
-[[%john_approval,10,50%How are you enjoying your stay here?|stay3]]
-[[%john_approval,50,70%How are you enjoying your stay here?|stay4]]
-[[Let's talk about you.|you]]
+[[%john_approval,1,30%How are you enjoying your stay here?|stay2]]
+[[%john_approval,31,50%How are you enjoying your stay here?|stay3]]
+[[%john_approval,51,70%How are you enjoying your stay here?|stay4]]
+[[%convo_points, 1,2%Let's talk about you.|you]]
 
 
 :: you
@@ -195,18 +195,6 @@ JANE: Sure. What're you curious about?
 [[Actually, I have to go.|leave]]
 
 
-:: else
-%1, <john>, <center>, <smile>%
-JANE: Right. What do you want to know?
-
-[[I want to hear your opinion of the other women staying in the castle.|women]]
-[[%john_approval,-30,0%How are you enjoying your stay here?|stay1]]
-[[%john_approval,0,10%How are you enjoying your stay here?|stay2]]
-[[%john_approval,10,50%How are you enjoying your stay here?|stay3]]
-[[%john_approval,50,70%How are you enjoying your stay here?|stay4]]
-[[Let's talk about you.|you]]
-
-
 :: fam
 #convo_points, -1#
 %1, <john>, <center>, <smile>%
@@ -219,18 +207,16 @@ JANE: My sister and I are twins, but she got the beauty and the brains.
 [[Your family sounds wonderful.]]
 
 
-:: You're right.
+:: else
+%1, <john>, <center>, <smile>%
+JANE: Right. What do you want to know?
 
-
-
-:: from
-#convo_points, -1#
-
-
-
-:: world
-#convo_points, -1#
-
+[[What's your opinion of the other women staying in the castle?|women]]
+[[%john_approval,-30,0%How are you enjoying your stay here?|stay1]]
+[[%john_approval,1,30%How are you enjoying your stay here?|stay2]]
+[[%john_approval,31,50%How are you enjoying your stay here?|stay3]]
+[[%john_approval,51,70%How are you enjoying your stay here?|stay4]]
+[[%convo_points, 1,2%Let's talk about you.|you]]
 
 
 :: I find that hard to believe.
@@ -284,7 +270,17 @@ JANE: Right! Beauregard. At least you have him.
 
 
 
-:: It's nice to have all of you here now, too.
+:: You're right.
+
+
+
+:: from
+#convo_points, -1#
+
+
+
+:: world
+#convo_points, -1#
 
 
 
@@ -305,6 +301,10 @@ JANE: Right! Beauregard. At least you have him.
 
 
 :: She can't get away that easily!
+
+
+
+:: It's nice to have all of you here now, too.
 
 
 

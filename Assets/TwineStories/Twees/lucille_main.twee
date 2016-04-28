@@ -6,7 +6,7 @@ LUCILLE: Feels wrong to image leaving, now. I suppose that's what you wanted, hu
 
 LUCILLE: What now?
 
-[[I want to hear your opinion of the other women staying in the castle.|women]]
+[[What's your opinion of the other women staying in the castle?|women]]
 [[%convo_points, 1, 2%Let's talk about you.|you]]
 
 
@@ -16,7 +16,7 @@ LUCILLE: It's honestly starting to feel a little cozy around here. Not something
 
 LUCILLE: What now?
 
-[[I want to hear your opinion of the other women staying in the castle.|women]]
+[[What's your opinion of the other women staying in the castle?|women]]
 [[%convo_points, 1, 2%Let's talk about you.|you]]
 
 
@@ -26,7 +26,7 @@ LUCILLE: I don't hate it as much as I thought I would. And that's as close to a 
 
 LUCILLE: What now?
 
-[[I want to hear your opinion of the other women staying in the castle.|women]]
+[[What's your opinion of the other women staying in the castle?|women]]
 [[%convo_points, 1, 2%Let's talk about you.|you]]
 
 
@@ -36,7 +36,7 @@ LUCILLE: The place is certainly poncy enough for a prince to live in. I hate it.
 
 LUCILLE: What now?
 
-[[I want to hear your opinion of the other women staying in the castle.|women]]
+[[What's your opinion of the other women staying in the castle?|women]]
 [[%convo_points, 1, 2%Let's talk about you.|you]]
 
 
@@ -44,13 +44,13 @@ LUCILLE: What now?
 %1, <lucy>, <center>, <frown>%
 LUCILLE: Alright, so you found me. What do you want?
 
-[[I want to hear your opinion of the other women staying in the castle.|women]]
+[[What's your opinion of the other women staying in the castle?|women]]
 [[%lucy_approval,-30,0%How are you enjoying your stay here?|stay1]]
 [[%lucy_approval,1,30%How are you enjoying your stay here?|stay2]]
 [[%lucy_approval,31,50%How are you enjoying your stay here?|stay3]]
 [[%lucy_approval,51,70%How are you enjoying your stay here?|stay4]]
 [[%convo_points, 1, 2%Let's talk about you.|you]]
-[[Actually, I have to leave.]]
+[[Actually, I have to leave.|leave]]
 
 
 
@@ -60,11 +60,11 @@ LUCILLE: The cow? Hah! Yeah, like I spend a lot of time with her.
 
 LUCILLE: What now?
 
-[[I want to hear your opinion of the other women staying in the castle.|women]]
+[[What's your opinion of the other women staying in the castle?|women]]
 [[%lucy_approval,-30,0%How are you enjoying your stay here?|stay1]]
-[[%lucy_approval,0,10%How are you enjoying your stay here?|stay2]]
-[[%lucy_approval,10,50%How are you enjoying your stay here?|stay3]]
-[[%lucy_approval,50,70%How are you enjoying your stay here?|stay4]]
+[[%lucy_approval,1,30%How are you enjoying your stay here?|stay2]]
+[[%lucy_approval,31,50%How are you enjoying your stay here?|stay3]]
+[[%lucy_approval,51,70%How are you enjoying your stay here?|stay4]]
 [[%convo_points, 1, 2%Let's talk about you.|you]]
 
 
@@ -74,11 +74,11 @@ LUCILLE: Hen's a good one. A cow, but a good one. Doesn't care how much I swear,
 
 LUCILLE: What now?
 
-[[I want to hear your opinion of the other women staying in the castle.|women]]
+[[What's your opinion of the other women staying in the castle?|women]]
 [[%lucy_approval,-30,0%How are you enjoying your stay here?|stay1]]
-[[%lucy_approval,0,10%How are you enjoying your stay here?|stay2]]
-[[%lucy_approval,10,50%How are you enjoying your stay here?|stay3]]
-[[%lucy_approval,50,70%How are you enjoying your stay here?|stay4]]
+[[%lucy_approval,1,30%How are you enjoying your stay here?|stay2]]
+[[%lucy_approval,31,50%How are you enjoying your stay here?|stay3]]
+[[%lucy_approval,51,70%How are you enjoying your stay here?|stay4]]
 [[%convo_points, 1, 2%Let's talk about you.|you]]
 
 
@@ -88,11 +88,11 @@ LUCILLE: Jane and I haven't talked much yet, but I like her well enough.
 
 LUCILLE: What now?
 
-[[I want to hear your opinion of the other women staying in the castle.|women]]
+[[What's your opinion of the other women staying in the castle?|women]]
 [[%lucy_approval,-30,0%How are you enjoying your stay here?|stay1]]
-[[%lucy_approval,0,10%How are you enjoying your stay here?|stay2]]
-[[%lucy_approval,10,50%How are you enjoying your stay here?|stay3]]
-[[%lucy_approval,50,70%How are you enjoying your stay here?|stay4]]
+[[%lucy_approval,1,30%How are you enjoying your stay here?|stay2]]
+[[%lucy_approval,31,50%How are you enjoying your stay here?|stay3]]
+[[%lucy_approval,51,70%How are you enjoying your stay here?|stay4]]
 [[%convo_points, 1, 2%Let's talk about you.|you]]
 
 
@@ -101,15 +101,15 @@ LUCILLE: What now?
 LUCILLE: Jane's great! She's someone who gets it. Really gets it. 
 
 %1, <lucy>, <center>, <neutral>%
-LUCILLE: Too bad she doesn't have anything from home to remember her family by. Fuck knows I wouldn't want anything to remember mine by, but Jane's family is different. She misses them.
+LUCILLE: Too bad she doesn't have anything from home to remember her family by. Lord knows I wouldn't want anything to remember mine by, but Jane's family is different. She misses them.
 
 LUCILLE: What now?
 
-[[I want to hear your opinion of the other women staying in the castle.|women]]
+[[What's your opinion of the other women staying in the castle?|women]]
 [[%lucy_approval,-30,0%How are you enjoying your stay here?|stay1]]
-[[%lucy_approval,0,10%How are you enjoying your stay here?|stay2]]
-[[%lucy_approval,10,50%How are you enjoying your stay here?|stay3]]
-[[%lucy_approval,50,70%How are you enjoying your stay here?|stay4]]
+[[%lucy_approval,1,30%How are you enjoying your stay here?|stay2]]
+[[%lucy_approval,31,50%How are you enjoying your stay here?|stay3]]
+[[%lucy_approval,51,70%How are you enjoying your stay here?|stay4]]
 [[%convo_points, 1, 2%Let's talk about you.|you]]
 
 
@@ -125,7 +125,7 @@ LUCILLE: Sure, fine, whatever. Shoot.
 [[%day, 3, 6%Noelle.|n2]]
 [[%day, 1, 2%Henrietta.|h1]]
 [[%day, 3, 6%Henrietta.|h2]]
-[[Actually, I have to leave.]]
+[[Actually, I have to leave.|leave]]
 
 
 :: p1
@@ -134,11 +134,11 @@ LUCILLE: Pat? She's alright, I guess. Haven't really seen her much. But she alwa
 
 LUCILLE: What now?
 
-[[I want to hear your opinion of the other women staying in the castle.|women]]
+[[What's your opinion of the other women staying in the castle?|women]]
 [[%lucy_approval,-30,0%How are you enjoying your stay here?|stay1]]
-[[%lucy_approval,0,10%How are you enjoying your stay here?|stay2]]
-[[%lucy_approval,10,50%How are you enjoying your stay here?|stay3]]
-[[%lucy_approval,50,70%How are you enjoying your stay here?|stay4]]
+[[%lucy_approval,1,30%How are you enjoying your stay here?|stay2]]
+[[%lucy_approval,31,50%How are you enjoying your stay here?|stay3]]
+[[%lucy_approval,51,70%How are you enjoying your stay here?|stay4]]
 [[%convo_points, 1, 2%Let's talk about you.|you]]
 
 
@@ -148,11 +148,11 @@ LUCILLE: Pat's a good sort. Just...nice. She tries to mother me sometimes, thoug
 
 LUCILLE: What now?
 
-[[I want to hear your opinion of the other women staying in the castle.|women]]
+[[What's your opinion of the other women staying in the castle?|women]]
 [[%lucy_approval,-30,0%How are you enjoying your stay here?|stay1]]
-[[%lucy_approval,0,10%How are you enjoying your stay here?|stay2]]
-[[%lucy_approval,10,50%How are you enjoying your stay here?|stay3]]
-[[%lucy_approval,50,70%How are you enjoying your stay here?|stay4]]
+[[%lucy_approval,1,30%How are you enjoying your stay here?|stay2]]
+[[%lucy_approval,31,50%How are you enjoying your stay here?|stay3]]
+[[%lucy_approval,51,70%How are you enjoying your stay here?|stay4]]
 [[%convo_points, 1, 2%Let's talk about you.|you]]
 
 
@@ -162,11 +162,11 @@ LUCILLE: Noelle smiles a lot, but she doesn't mean it. I don't trust her. And he
 
 LUCILLE: What now?
 
-[[I want to hear your opinion of the other women staying in the castle.|women]]
+[[What's your opinion of the other women staying in the castle?|women]]
 [[%lucy_approval,-30,0%How are you enjoying your stay here?|stay1]]
-[[%lucy_approval,0,10%How are you enjoying your stay here?|stay2]]
-[[%lucy_approval,10,50%How are you enjoying your stay here?|stay3]]
-[[%lucy_approval,50,70%How are you enjoying your stay here?|stay4]]
+[[%lucy_approval,1,30%How are you enjoying your stay here?|stay2]]
+[[%lucy_approval,31,50%How are you enjoying your stay here?|stay3]]
+[[%lucy_approval,51,70%How are you enjoying your stay here?|stay4]]
 [[%convo_points, 1, 2%Let's talk about you.|you]]
 
 
@@ -178,11 +178,11 @@ LUCILLE: I don't know. Nevermind.
 
 LUCILLE: What now?
 
-[[I want to hear your opinion of the other women staying in the castle.|women]]
+[[What's your opinion of the other women staying in the castle?|women]]
 [[%lucy_approval,-30,0%How are you enjoying your stay here?|stay1]]
-[[%lucy_approval,0,10%How are you enjoying your stay here?|stay2]]
-[[%lucy_approval,10,50%How are you enjoying your stay here?|stay3]]
-[[%lucy_approval,50,70%How are you enjoying your stay here?|stay4]]
+[[%lucy_approval,1,30%How are you enjoying your stay here?|stay2]]
+[[%lucy_approval,31,50%How are you enjoying your stay here?|stay3]]
+[[%lucy_approval,51,70%How are you enjoying your stay here?|stay4]]
 [[%convo_points, 1, 2%Let's talk about you.|you]]
 
 
@@ -206,7 +206,7 @@ LUCILLE: Alright, fine. But make it quick.
 [[%lucy_convo, 3, 3%Is there a reason you drink so much?|drink]]
 [[%lucy_convo, 4, 4%Were you like this as a kid?|kid]]
 [[%lucy_convo, 5, 5%What were your friends like, back home?|friends]]
-[[Actually, I have to leave.]]
+[[Actually, I have to leave.|leave]]
 
 
 :: Tell me about them.
@@ -384,16 +384,16 @@ LUCILLE: That's why I left home. Or, well, part of the reason.
 
 
 :: else
-%1, <lucy>, <center>, <smile>%
-LUCILLE: Of course, sire. What would you like to talk about?
+%1, <lucy>, <center>, <neutral>%
+LUCILLE: Alright, let's get this over with.
 
-[[I want to hear your opinion of the other women staying in the castle.|women]]
+[[What's your opinion of the other women staying in the castle?|women]]
 [[%lucy_approval,-30,0%How are you enjoying your stay here?|stay1]]
 [[%lucy_approval,1,30%How are you enjoying your stay here?|stay2]]
 [[%lucy_approval,31,50%How are you enjoying your stay here?|stay3]]
 [[%lucy_approval,51,70%How are you enjoying your stay here?|stay4]]
 [[%convo_points, 1, 2%Let's talk about you.|you]]
-[[Actually, I have to leave.]]
+[[Actually, I have to leave.|leave]]
 
 
 :: %lucy_approval, 1, 30%Am I that bad to be around?
@@ -404,8 +404,24 @@ LUCILLE: That doesn't mean I don't pity your butler.
 
 LUCILLE: Can we talk about something else now?
 
-[[Sure.|else]]
-[[Actually, I have to leave.]]
+[[Alright. Let's talk about something else.|else]]
+[[Actually, I have to leave.|leave]]
+
+
+:: It was his idea.
+#lucy_approval, -5#
+%1, <lucy>, <center>, <frown>%
+LUCILLE: Right, right! And you're just the lucky beneficiary. 
+
+LUCILLE: Give me a break.
+
+[[I'm grateful for Beauregard's company every day.|He does make it easier.]]
+[[I'm glad he made the decision to bring you here.|It's not the same as having...female company.]]
+
+
+
+
+
 
 
 :: What's the rest of the reason?
@@ -474,22 +490,6 @@ LUCILLE: Don't try to pull the tragic act when you've had another human literall
 [[It's not the same as having...female company.]]
 
 
-:: It was his idea.
-#lucy_approval, -5#
-%1, <lucy>, <center>, <frown>%
-LUCILLE: Right, right! And you're just the lucky beneficiary. 
-
-LUCILLE: Give me a break.
-
-[[I'm grateful for Beauregard's company every day.|He does make it easier.]]
-[[I'm glad he made the decision to bring you here.|It's not the same as having...female company.]]
-
-
-
-
-
-
-
 :: You mean all this time together isn't bringing us...closer?
 %1, <lucy>, <center>, <smile>%
 LUCILLE: Ha! No. And if that's your idea of a line, you've got a lot of work to do before you have a hope of impressing me.
@@ -507,8 +507,8 @@ LUCILLE: Despite my better judgement, yeah. I guess I am.
 
 LUCILLE: Can we talk about something else now?
 
-[[Sure.|else]]
-[[Actually, I have to leave.]]
+[[Alright. Let's talk about something else.|else]]
+[[Actually, I have to leave.|leave]]
 
 
 :: I was afraid I was getting rusty.
@@ -517,8 +517,8 @@ LUCILLE: Right, right. Sad little prince all alone in a big empty castle. Sure. 
 
 LUCILLE: Can we talk about something else now?
 
-[[Sure.|else]]
-[[Actually, I have to leave.]]
+[[Alright. Let's talk about something else.|else]]
+[[Actually, I have to leave.|leave]]
 
 
 :: I can relate to that.
@@ -528,8 +528,8 @@ LUCILLE: Ah, right. Big scary beast likes to run around alone in his big empty c
 
 LUCILLE: I guess I don't really have any room to judge. Can we talk about something else now?
 
-[[Sure.|else]]
-[[Actually, I have to leave.]]
+[[Alright. Let's talk about something else.|else]]
+[[Actually, I have to leave.|leave]]
 
 
 :: Must be nice to have parents.
@@ -539,8 +539,8 @@ LUCILLE: Ugh. Spare me the pity party, will you? I don't have time for a poncy p
 
 LUCILLE: Can we talk about something else now?
 
-[[Sure.|else]]
-[[Actually, I have to leave.]]
+[[Alright. Let's talk about something else.|else]]
+[[Actually, I have to leave.|leave]]
 
 
 :: %lucy_approval, -30, 0%Am I that bad to be around?
@@ -549,8 +549,8 @@ LUCILLE: The short answer? Yes.
 
 LUCILLE: Can we talk about something else now?
 
-[[Sure.|else]]
-[[Actually, I have to leave.]]
+[[Alright. Let's talk about something else.|else]]
+[[Actually, I have to leave.|leave]]
 
 
 :: You have no idea.
@@ -559,8 +559,8 @@ LUCILLE: Alright, so clearly there's some layered meaning there that I'm not tou
 
 LUCILLE: Can we talk about something else now?
 
-[[Sure.|else]]
-[[Actually, I have to leave.]]
+[[Alright. Let's talk about something else.|else]]
+[[Actually, I have to leave.|leave]]
 
 
 :: It's not the same as having...female company.
@@ -605,8 +605,8 @@ LUCILLE: Not really.
 
 LUCILLE: Look, can we just talk about something else now?
 
-[[Sure.|else]]
-[[Actually, I have to leave.]]
+[[Alright. Let's talk about something else.|else]]
+[[Actually, I have to leave.|leave]]
 
 
 
@@ -618,8 +618,8 @@ LUCILLE: Yeah, well, don't go telling anyone about it.
 
 LUCILLE: Can we talk about something else now?
 
-[[Sure.|else]]
-[[Actually, I have to leave.]]
+[[Alright. Let's talk about something else.|else]]
+[[Actually, I have to leave.|leave]]
 
 
 
@@ -631,8 +631,8 @@ LUCILLE: It really wasn't a big deal. Someone had to go, and I was the best opti
 
 LUCILLE: Can we talk about something else now?
 
-[[Sure.|else]]
-[[Actually, I have to leave.]]
+[[Alright. Let's talk about something else.|else]]
+[[Actually, I have to leave.|leave]]
 
 
 
@@ -644,11 +644,11 @@ LUCILLE: Slow down, there, loverboy. I may have volunteered for this, but that d
 
 LUCILLE: Can we talk about something else now?
 
-[[Sure.|else]]
-[[Actually, I have to leave.]]
+[[Alright. Let's talk about something else.|else]]
+[[Actually, I have to leave.|leave]]
 
 
-:: Actually, I have to leave.
+:: leave
 %1, <lucy>, <center>, <smile>%
 LUCILLE: Of course. I hope you have a pleasant day, sire.
 
@@ -661,8 +661,8 @@ LUCILLE: I never knew anything different, anyway.
 
 LUCILLE: Can we talk about something else now?
 
-[[Sure.|else]]
-[[Actually, I have to leave.]]
+[[Alright. Let's talk about something else.|else]]
+[[Actually, I have to leave.|leave]]
 
 
 :: I can't imagine where they got that impression.
@@ -672,8 +672,8 @@ LUCILLE: Ha ha. Yes, I know. I'm not exactly the most feminine person on the ear
 
 LUCILLE: Can we talk about something else now?
 
-[[Sure.|else]]
-[[Actually, I have to leave.]]
+[[Alright. Let's talk about something else.|else]]
+[[Actually, I have to leave.|leave]]
 
 
 :: They were very wrong.
@@ -683,8 +683,8 @@ LUCILLE: Alright, calm down. There's no need for you to spout vapid flattery.
 
 LUCILLE: Can we talk about something else now?
 
-[[Sure.|else]]
-[[Actually, I have to leave.]]
+[[Alright. Let's talk about something else.|else]]
+[[Actually, I have to leave.|leave]]
 
 
 :: I told him he could leave whenever he wanted.
@@ -696,8 +696,8 @@ LUCILLE: Well. I guess there must be more to you than I thought.
 
 LUCILLE: Can we talk about something else now?
 
-[[Sure.|else]]
-[[Actually, I have to leave.]]
+[[Alright. Let's talk about something else.|else]]
+[[Actually, I have to leave.|leave]]
 
 
 :: Why? I haven't been able to.
@@ -707,8 +707,8 @@ LUCILLE: Oh, lord. Please uninvite me from this pity party already.
 
 LUCILLE: Can we <i>please</i> talk about something other than your bruised ego now?
 
-[[Sure.|else]]
-[[Actually, I have to leave.]]
+[[Alright. Let's talk about something else.|else]]
+[[Actually, I have to leave.|leave]]
 
 
 :: world
@@ -725,7 +725,7 @@ LUCILLE: If I had my way, I'd never go back there. Ever.
 
 [[Really? You <i>never</i> want to go back?]]
 [[There must be somewhere specific you'd like to go.]]
-[[Such harsh words! I'm almost offended.]]
+[[I'm almost offended.]]
 
 
 :: We both know you don't look as bad as I do.
@@ -735,8 +735,20 @@ LUCILLE: Right. Because so many people look worse than you.
 
 LUCILLE: Can we talk about something else now?
 
-[[Sure.|else]]
-[[Actually, I have to leave.]]
+[[Alright. Let's talk about something else.|else]]
+[[Actually, I have to leave.|leave]]
+
+
+:: friends
+#convo_points, -1#
+%1, <lucy>, <center>, <neutral>%
+LUCILLE: You know, you'd think that after all this talking we've been doing, you'd have realized that I'm not exactly the kind of person who has friends.
+
+LUCILLE: Well, not in a long time, anyway.
+
+[[So you have had friends, then?]]
+[[That's not surprising.]]
+[[That can't be easy.]]
 
 
 :: Really? You <i>never</i> want to go back?
@@ -745,12 +757,33 @@ LUCILLE: That's what I said, isn't it?
 
 LUCILLE: I haven't made any good memories in Oldbridge since I was a kid. I doubt that's going to change now that I'm older and meaner.
 
+[[You never know.]]
+[[Why not just stay here?]]
+[[You should go back. It's your home.]]
+
+
+:: I'm almost offended.
+#lucy_approval, +5#
+%1, <lucy>, <center>, <smile>%
+LUCILLE: But not quite? Damn, I'll have to try harder.
+
+%1, <lucy>, <center>, <neutral>%
+LUCILLE: I wasn't kidding, though. There's nothing left for me in Oldbridge.
+
+[[You never know.]]
+[[Why not just stay here?]]
+[[You should go back. It's your home.]]
+
 
 :: There must be somewhere specific you'd like to go.
+%1, <lucy>, <center>, <frown>%
+LUCILLE: No, not really. I haven't been anywhere or seen anything outside of Oldbridge, so it's all the same to me.
 
+LUCILLE: I've heard of Paris, but it just sounds like some pretentious poncy nonsense.
 
-
-:: Such harsh words! I'm almost offended.
+[[You're not wrong.]]
+[[Paris is beautiful! The buildings, the culture, the river Seine...]]
+[[It has some of the best wine in the world, though.]]
 
 
 
@@ -763,8 +796,8 @@ LUCILLE: The world would be better if we all just screamed and cried and fought 
 
 LUCILLE: Can we talk about something else now?
 
-[[Sure.|else]]
-[[Actually, I have to leave.]]
+[[Alright. Let's talk about something else.|else]]
+[[Actually, I have to leave.|leave]]
 
 
 :: You look the same way I feel.
@@ -788,8 +821,106 @@ LUCILLE: Like what?
 [[Sad.]]
 
 
-:: friends
+:: So you have had friends, then?
+%1, <lucy>, <center>, <neutral>%
+LUCILLE: Yep. 
 
+LUCILLE Shockingly, I used to be someone people actually wanted to be friends with.
+
+LUCILLE: But, my one friend left Oldbridge years years ago to go to Paris, so
+
+
+:: That's not surprising.
+
+
+
+:: That can't be easy.
+
+
+
+:: You never know.
+#lucy_approval, -5#
+%1, <lucy>, <center>, <frown>%
+LUCILLE: And you do?
+
+LUCILLE: Save your condescension for someone who gets paid to hear it, you sanctimonous ass.
+
+LUCILLE: I may be a mess, but so are you. Why don't you try fixing yourself before you attempt to put someone else back together?
+
+LUCILLE: No, I know exactly what's going to happen. After all this, I'm never going home again. I'll explore the country, see new places, do new things. Drink new wine.
+
+LUCILLE: I'm sure everyone back home will just think you've killed me--maybe even eaten me--and that's fine by me.
+
+[[So you're just going to let me take the fall?]]
+[[You're assuming I won't marry you before then.]]
+[[I envy you.]]
+
+
+:: Why not just stay here?
+#lucy_approval, +5#
+%1, <lucy>, <center>, <neutral>%
+LUCILLE: Oh, sure. You'd like that, wouldn't you?
+
+LUCILLE: Nice try, but I'm not going to forgive you for forcing me to come here just because the place I came from was equally awful.
+
+LUCILLE: No, after all this I'm just going to go walk off into the sunset. Go see some new places, do new things. Drink new wine.
+
+LUCILLE: I'm sure everyone back home will just think you've killed me--maybe even eaten me--and that's fine by me.
+
+[[So you're just going to let me take the fall?]]
+[[You're assuming I won't marry you before then.]]
+[[I envy you.]]
+
+
+:: You should go back. It's your home.
+%1, <lucy>, <center>, <frown>%
+LUCILLE: Oh, yeah? And what's that mean, anyway?
+
+LUCILLE: That I have some obligation to stick around, just because I was born there? No thanks.
+
+LUCILLE: No, after all this I'm just going to go walk off into the sunset. Go see some new places, do new things. Drink new wine.
+
+LUCILLE: I'm sure everyone back home will just think you've killed me--maybe even eaten me--and that's fine by me.
+
+[[So you're just going to let me take the fall?]]
+[[You're assuming I won't marry you before then.]]
+[[I envy you.]]
+
+
+:: You're not wrong.
+#lucy_approval, +5#
+%1, <lucy>, <center>, <smile>%
+LUCILLE: Ha! I knew it. 
+
+LUCILLE: Everyone always talks about how amazing the city is, but I knew it couldn't be as great as all that.
+
+[[Does everyone really talk about Paris?]]
+[[Why doesn't your village just move to Paris, then?]]
+[[Why are you so cynical about it?]]
+
+
+:: Paris is beautiful! The buildings, the culture, the river Seine...
+%1, <lucy>, <center>, <frown>%
+LUCILLE: So you're one of them too, huh? The starry-eyed Paris-loving sort?
+
+LUCILLE: Even sounds like you've been there. But I won't be taken in that easily. If I can hate Paris when everyone in Oldbrooke talks about it constantly, I can hate it when one prince does.
+
+[[Does everyone really talk about Paris?]]
+[[Why doesn't your village just move to Paris, then?]]
+[[Why are you so cynical about it?]]
+
+
+:: It has some of the best wine in the world, though.
+#lucy_approval, +5#
+%1, <lucy>, <center>, <smile>%
+LUCILLE: That's a good point. Never thought of it that way.
+
+%1, <lucy>, <center>, <neutral>%
+LUCILLE: But no, I won't be taken in that easily. If I can hate Paris when everyone in Oldbrooke talks about it constantly, I can hate it when one prince does.
+
+[[Does everyone really talk about Paris?]]
+[[Why doesn't your village just move to Paris, then?]]
+[[Why are you so cynical about it?]]
 
 
 :: Being a giant monster will do that to a man.
@@ -799,8 +930,8 @@ LUCILLE: Yeah, alright, I get it. You're a big scary monster. Ooo.
 
 LUCILLE: Can we talk about something else now?
 
-[[Sure.|else]]
-[[Actually, I have to leave.]]
+[[Alright. Let's talk about something else.|else]]
+[[Actually, I have to leave.|leave]]
 
 
 :: Excuse me for trying to get personal.
@@ -848,6 +979,101 @@ LUCILLE: Or, more likely, I'd have died very, very young.
 [[How did you get this way, then?]]
 
 
+:: You're assuming I won't marry you before then.
+~1~
+#lucy_approval, +10#
+%1, <lucy>, <center>, <blush>%
+LUCILLE: ...Oh. Uh, yeah. I guess I am.
+
+%1, <lucy>, <center>, <neutral>%
+LUCILLE: Look, we both know I'm not the nicest or prettiest girl here. You don't have to pretend I'm a real contender in this...whatever this is.
+
+[[You underestimate your appeal.]]
+[[I was just trying to be nice.]]
+
+
+:: I envy you.
+~1~
+#lucy_approval, +5#
+%1, <lucy>, <center>, <scared>%
+LUCILLE: ...
+
+LUCILLE: ...Oh, right. You're pretty stuck here, huh?
+
+%1, <lucy>, <center>, <neutral>%
+LUCILLE: Well, if it makes you feel any better, I envy you, too.
+
+[[Me? Why?]]
+[[That's not a good idea.]]
+[[You want to be ugly and alone?]]
+
+
+:: So you're just going to let me take the fall?
+%1, <lucy>, <center>, <neutral>%
+LUCILLE: Sure. Don't worry, it's not like my village is going to come marching over here with torches and pitchforks. I think most of them thought I'd die here.
+
+LUCILLE: Still let me volunteer myself, though. They're pretty terrified of you, no matter how disgruntled they are. 
+
+LUCILLE: Although, if I hadn't been around, and they'd had to send someone else, you might have had a real problem on your hands. Oldbridge is a pretty close-knit community.
+
+LUCILLE: But enough about my plan to run away and let my village assume you ate me alive. Let's talk about something else.
+
+[[Alright. Let's talk about something else.|else]]
+[[Actually, I have to leave.|leave]]
+
+
+:: Does everyone really talk about Paris?
+%1, <lucy>, <center>, <neutral>%
+LUCILLE: No. They talk about how tall the wheat at the LeSelle farm is, or how it looks like it's going to rain. Again.
+
+LUCILLE: Yes, they talk about Paris!
+
+LUCILLE: Nothing happens in Oldbridge. Paris is a far-off fantastical place. So everyone competes to see who can seem like they know the most about it.
+
+LUCILLE: Who knows how much of what they say is true, but I think they're even starting to believe their own fabrications.
+
+LUCILLE: None of them really care about the topic. They just need something to gossip about, to distract them from their own dull lives.
+
+LUCILLE: Frankly, Paris is almost a nice change from having them gossip about <i>me</i> all the time.
+
+[[Oh? You don't like being the center of attention?]]
+[[Why would they gossip about you?]]
+[[You really don't like your neighbors, huh.]]
+
+
+
+
+:: Why doesn't your village just move to Paris, then?
+#lucy_approval, +5#
+%1, <lucy>, <center>, <neutral>%
+LUCILLE: Oh, believe me, I've suggested it. But they don't actually want to <i>go</i> to Paris.
+
+LUCILLE: They're too attached to their fields and their cows for that. They just need something to gossip about, to distract them from their own dull lives.
+
+LUCILLE: Frankly, Paris is almost a nice change from having them gossip about <i>me</i> all the time.
+
+[[Oh? You don't like being the center of attention?]]
+[[Why would they gossip about you?]]
+[[You really don't like your neighbors, huh.]]
+
+
+:: Why are you so cynical about it?
+~-1~
+#lucy_approval, -5#
+%1, <lucy>, <center>, <frown>%
+LUCILLE: Cynical? Me? Wow, you noticed. I'm sure you must be <i>so</i> surprised, at this point.
+
+LUCILLE: I'm cynical about this in particular because, despite all the time they spend talking about it, no one in my village actually cares about Paris.
+
+LUCILLE: They just need something to gossip about, to distract them from their own dull lives.
+
+LUCILLE: Frankly, Paris is almost a nice change from having them gossip about <i>me</i> all the time.
+
+[[Oh? You don't like being the center of attention?]]
+[[Why would they gossip about you?]]
+[[You really don't like your neighbors, huh.]]
+
+
 :: I just want to get to know you.
 #lucy_approval, +5#
 %1, <lucy>, <center>, <frown>%
@@ -855,8 +1081,8 @@ LUCILLE: So you thought you could break through this cranky drunk's hide, hm?
 
 LUCILLE: How noble of you. Can we talk about something else now?
 
-[[Sure.|else]]
-[[Actually, I have to leave.]]
+[[Alright. Let's talk about something else.|else]]
+[[Actually, I have to leave.|leave]]
 
 
 :: You want to push me away? Fine. You've done it.
@@ -901,6 +1127,61 @@ LUCILLE: But no, I wasn't always like this. I used to be very eager to please, i
 [[What happened?]]
 
 
+:: I was just trying to be nice.
+#lucy_approval, -5#
+%1, <lucy>, <center>, <frown>%
+LUCILLE: Great. Yeah. Should've known.
+
+LUCILLE: Now ask me something else, or leave.
+
+[[Alright. Let's talk about something else.|else]]
+[[Actually, I have to leave.|leave]]
+
+
+:: Me? Why?
+%1, <lucy>, <center>, <neutral>%
+LUCILLE: Well, you're rich. And you have this whole castle all to yourself. I think I could handle being ugly if it meant no one would ever bother me again.
+
+LUCILLE: Can we talk about something else now?
+
+[[Alright. Let's talk about something else.|else]]
+[[Actually, I have to leave.|leave]]
+
+
+:: Oh? You don't like being the center of attention?
+%1, <lucy>, <center>, <neutral>%
+LUCILLE: Why do you think I spend all my time in the wine cellar? Alone?
+
+LUCILLE: People are a hassle. Talking to people is a hassle.
+
+LUCILLE: Speaking of which, it'd be great if you'd either ask me something else, or leave.
+
+[[Alright. Let's talk about something else.|else]]
+[[Actually, I have to leave.|leave]]
+
+
+:: Why would they gossip about you?
+%1, <lucy>, <center>, <neutral>%
+LUCILLE: Oh, who knows. The wine? The lack of a husband? The general misbehavior? Take your pick.
+
+LUCILLE: Actually, how about you just either ask me something else, or leave.
+
+[[Alright. Let's talk about something else.|else]]
+[[Actually, I have to leave.|leave]]
+
+
+:: You really don't like your neighbors, huh.
+%1, <lucy>, <center>, <neutral>%
+LUCILLE: No. Surprisingly, I never felt close to eternally-sunny, hive-minded small town folk.
+
+LUCILLE: But then, I tend not to feel close to anyone. Not that I've met many other types of people.
+
+LUCILLE: Can we talk about something else now?
+
+[[Sure.|else]]
+[[Actually, I have to leave.|leave]]
+
+
 :: You? Eager to please?
 %1, <lucy>, <center>, <neutral>%
 LUCILLE: Hard to believe, I know. But it's true.
@@ -941,6 +1222,29 @@ LUCILLE: And now I'm drunker. And meaner.
 [[I wish you weren't.]]
 
 
+:: You underestimate your appeal.
+#lucy_approval, +15#
+%1, <lucy>, <center>, <blush>%
+LUCILLE: I. Um.
+
+LUCILLE: You don't--
+
+LUCILLE: Just ask me something else, or leave.
+
+[[I'd love to ask you something else.|else]]
+[[Actually, I have to leave.|leave]]
+
+
+:: That's not a good idea.
+%1, <lucy>, <center>, <neutral>%
+LUCILLE: Too bad.
+
+LUCILLE: Can we talk about something else now?
+
+[[Alright. Let's talk about something else.|else]]
+[[Actually, I have to leave.|leave]]
+
+
 :: I can relate.
 #lucy_approval, +10#
 %1, <lucy>, <center>, <neutral>%
@@ -952,8 +1256,8 @@ LUCILLE: I'm sorry that you know the feeling.
 
 LUCILLE: Can we talk about something else now?
 
-[[Sure.|else]]
-[[Actually, I have to leave.]]
+[[Alright. Let's talk about something else.|else]]
+[[Actually, I have to leave.|leave]]
 
 
 :: I wish you weren't.
@@ -965,8 +1269,8 @@ LUCILLE: We all wish for things, asshole. Most of us just don't involve <i>other
 
 LUCILLE: Ask me something else, or leave.
 
-[[Sure.|else]]
-[[Actually, I have to leave.]]
+[[Alright. Let's talk about something else.|else]]
+[[Actually, I have to leave.|leave]]
 
 
 
@@ -976,7 +1280,17 @@ LUCILLE: None of your damn business, that's for sure.
 
 LUCILLE: Ask me something else, or leave.
 
-[[Sure.|else]]
-[[Actually, I have to leave.]]
+[[Alright. Let's talk about something else.|else]]
+[[Actually, I have to leave.|leave]]
+
+
+:: You want to be ugly and alone?
+%1, <lucy>, <center>, <frown>%
+LUCILLE: Sure. Being alone is the good part of that. I think I could handle being ugly if it meant no one would ever bother me again.
+
+LUCILLE: Can we talk about something else now?
+
+[[Alright. Let's talk about something else.|else]]
+[[Actually, I have to leave.|leave]]
 
 

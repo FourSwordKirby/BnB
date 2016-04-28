@@ -1,5 +1,5 @@
 ﻿:: j1
-BEAUREGARD: She doesn't appear very impressed with you yet, sire, but I'm sure that'll change. Might I recommend trying a more humorous approach? <color=yellow">The lady Jane loves to laugh.</color>
+BEAUREGARD: She doesn't appear very impressed with you yet, sire, but I'm sure that'll change. Might I recommend trying a more humorous approach? <color=white">The lady Jane loves to laugh.</color>
 
 BEAUREGARD: Is there anyone else you'd like to talk about?
 
@@ -8,7 +8,7 @@ BEAUREGARD: Is there anyone else you'd like to talk about?
 
 
 :: n1
-BEAUREGARD: I dont think she likes you very much, sire. But I wouldn't take it to heart; she just seems to be that sort of person. Very guarded, behind that becoming smile. <color=yellow">A gentler touch might be help endear you to her.</color>
+BEAUREGARD: I dont think she likes you very much, sire. But I wouldn't take it to heart; she just seems to be that sort of person. Very guarded, behind that becoming smile. <color=white">A gentler touch might be help endear you to her.</color>
 
 BEAUREGARD: Is there anyone else you'd like to talk about?
 
@@ -17,7 +17,7 @@ BEAUREGARD: Is there anyone else you'd like to talk about?
 
 
 :: p1
-BEAUREGARD: I'm not sure how you've managed it, considering her gentle demeanor, but the lady Patrice doesn't seem particularly interested in you. <color=yellow">Please, just try not to scare her.</color> She's really very easy to get along with when she's not terrified.
+BEAUREGARD: I'm not sure how you've managed it, considering her gentle demeanor, but the lady Patrice doesn't seem particularly interested in you. <color=white">Please, just try not to scare her.</color> She's really very easy to get along with when she's not terrified.
 
 BEAUREGARD: Is there anyone else you'd like to talk about?
 
@@ -88,21 +88,21 @@ BEAUREGARD: Is there anything else you'd like to talk about?
 %1, <beau>, <center>, <smile>%
 BEAUREGARD: Of course, sire. Who is it you'd like to talk about?
 
-[[%noelle_approval,0,10%Noelle.|n1]]
-[[%noelle_approval,10,30%Noelle.|n2]]
-[[%noelle_approval,30,70%Noelle.|n3]]
-[[%jane_approval,0,10%Jane.|j1]]
-[[%jane_approval,10,30%Jane.|j2]]
-[[%jane_approval,30,70%Jane.|j3]]
-[[%pat_approval,0,10%Pat.|p1]]
-[[%pat_approval,10,30%Pat.|p2]]
-[[%pat_approval,30,70%Pat.|p3]]
-[[%lucy_approval,0,10%Lucille.|l1]]
-[[%lucy_approval,10,30%Lucille.|l2]]
-[[%lucy_approval,30,70%Lucille.|l3]]
-[[%hen_approval,0,10%Henrietta.|h1]]
-[[%hen_approval,10,30%Henrietta.|h2]]
-[[%hen_approval,30,70%Henrietta.|h3]]
+[[%noelle_approval,-2-20,10%Noelle.|n1]]
+[[%noelle_approval,11,30%Noelle.|n2]]
+[[%noelle_approval,31,70%Noelle.|n3]]
+[[%jane_approval,-20,10%Jane.|j1]]
+[[%jane_approval,11,30%Jane.|j2]]
+[[%jane_approval,31,70%Jane.|j3]]
+[[%pat_approval,-20,10%Pat.|p1]]
+[[%pat_approval,11,30%Pat.|p2]]
+[[%pat_approval,31,70%Pat.|p3]]
+[[%lucy_approval,-20,10%Lucille.|l1]]
+[[%lucy_approval,11,30%Lucille.|l2]]
+[[%lucy_approval,31,70%Lucille.|l3]]
+[[%hen_approval,-20,10%Henrietta.|h1]]
+[[%hen_approval,11,30%Henrietta.|h2]]
+[[%hen_approval,31,70%Henrietta.|h3]]
 
 
 :: no
@@ -178,7 +178,7 @@ BEAUREGARD: Is there anything else you'd like to talk about?
 
 
 :: l1
-BEAUREGARD: The lady Lucille is rather difficult to get along with, isn't she? Very prickly. Well, I'm sure you'll find a way soon enough. Personally, I've found <color=yellow">honesty</color> to be a particularly effective conversation tool when talking with her.
+BEAUREGARD: The lady Lucille is rather difficult to get along with, isn't she? Very prickly. Well, I'm sure you'll find a way soon enough. Personally, I've found <color=white">honesty</color> to be a particularly effective conversation tool when talking with her.
 
 BEAUREGARD: Is there anyone else you'd like to talk about?
 
