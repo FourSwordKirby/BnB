@@ -170,6 +170,10 @@ public class DayManager : MonoBehaviour {
             remainingConvoPts --;
 		}
 
+		if (Input.GetKeyDown("j")) {
+			remainingConvoPts = 2;
+		}
+
         if (endOfDay && GameManager.loveInterestControls.gameObject.activeSelf == true)
         {
             if (dayNumber != 0)
