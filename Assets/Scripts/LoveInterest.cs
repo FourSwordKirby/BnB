@@ -25,7 +25,8 @@ public class LoveInterest : MonoBehaviour {
         Flattered,
         Angry,
         Sad,
-        Scared
+        Scared,
+        Marriage
     }
     public Sprite fullBodySprite;
     public List<Sprite> loveInterestSprites;

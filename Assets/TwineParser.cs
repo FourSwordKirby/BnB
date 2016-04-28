@@ -82,6 +82,8 @@ public class TwineParser : MonoBehaviour {
                 return LoveInterest.Emotion.Sad;
             case "scared":
                 return LoveInterest.Emotion.Scared;
+            case "marriage":
+                return LoveInterest.Emotion.Marriage;
             default:
                 Debug.Log("ERROR: Malformed Tag Emotion input: " + tagEmotion);
                 break;
