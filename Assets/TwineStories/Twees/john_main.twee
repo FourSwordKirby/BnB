@@ -42,6 +42,7 @@ JANE: Any other questions?
 %1, <john>, <center>, <smile>%
 JANE: Hey there! Something you wanted?
 
+[[%john_approval,71,200%Will you marry me?|marriage]]
 [[What's your opinion of the other women staying in the castle?|women]]
 [[%john_approval,-30,0%How are you enjoying your stay here?|stay1]]
 [[%john_approval,1,30%How are you enjoying your stay here?|stay2]]
@@ -197,6 +198,7 @@ JANE: Sure. What're you curious about?
 
 :: fam
 #convo_points, -1#
+#john_convo, +1#
 %1, <john>, <center>, <smile>%
 JANE: My family's great! It's just my mom and my dad and my sister and me. We're really close.
 
@@ -207,10 +209,15 @@ JANE: My sister and I are twins, but she got the beauty and the brains.
 [[Your family sounds wonderful.]]
 
 
+:: marriage
+
+
+
 :: else
 %1, <john>, <center>, <smile>%
 JANE: Right. What do you want to know?
 
+[[%john_approval,71,200%Will you marry me?|marriage]]
 [[What's your opinion of the other women staying in the castle?|women]]
 [[%john_approval,-30,0%How are you enjoying your stay here?|stay1]]
 [[%john_approval,1,30%How are you enjoying your stay here?|stay2]]
@@ -267,59 +274,893 @@ JANE: Right! Beauregard. At least you have him.
 
 [[You're right.]]
 [[It's nice to have all of you here now, too.]]
+[[I still feel alone.]]
 
 
 
 :: You're right.
+#john_approval, +5#
+%1, <john>, <center>, <smile>%
+JANE: See? Things are never as bad as they seem.
 
+%1, <john>, <center>, <neutral>%
+JANE: Any other questions?
+
+[[Yes.|else]]
+[[Actually, I should be going.|leave]]
 
 
 :: from
 #convo_points, -1#
+#john_convo, +1#
+%1, <john>, <center>, <smile>%
+JANE: A charming little hamlet called Yellowfell. I doubt you've heard of it, but it's the most important place in the world to me.
 
+JANE: It's quiet, and peaceful, and its residents are real salt-of-the-earth types.
+
+[[Sounds nice.]]
+[[Don't you get bored?]]
+[[What is there to do there?]]
 
 
 :: world
 #convo_points, -1#
+#john_convo, +1#
+%1, <john>, <center>, <neutral>%
+JANE: Oh, wow. I've never really thought about it.
 
+JANE: I love my hometown more than anything, but honestly...
+
+JANE: I think if I could go anywhere right now, it'd be where my sister is.
+
+JANE: We've never been apart for so long before.
+
+[[That must be difficult.]]
+[[It's good for you to finally spend time apart.]]
+[[I'm sorry you're stuck here with me.]]
 
 
 :: Really? You aren't even a little jealous?
+%1, <john>, <center>, <smile>%
+JANE: Nope. She's just so great, you can't help but root for her. It's always been like that. And I love her, besides. She's my better half.
 
+JANE: Now she's even going off to university. She wants to be a doctor. And she will be one, someday soon.
+
+[[A female doctor?]]
+[[I wish her luck.]]
+[[You must be very proud.]]
 
 
 :: That's very noble of you.
+#john_approval, +5#
+%1, <john>, <center>, <smile>%
+JANE: Aw, it's not a big deal. Or a conscious choice, not really. She's just so great, you can't help but root for her. It's always been like that.
 
+JANE: Now she's even going off to university. She wants to be a doctor. And she will be one, someday soon.
+
+[[A female doctor?]]
+[[I wish her luck.]]
+[[You must be very proud.]]
 
 
 :: So I'm so awful I need to be escaped?
+#john_approval, -5#
+%1, <john>, <center>, <neutral>%
+JANE: ...Er. That was meant to be a joke.
 
+JANE: My sister's going off to university. It has nothing to do with you--she wants to be a doctor. And she will be one, someday soon.
+
+[[A female doctor?]]
+[[I wish her luck.]]
+[[You must be very proud.]]
 
 
 :: How far do you think she's gotten?
+#john_approval, +5#
+%1, <john>, <center>, <smile>%
+JANE: She's probably halfway to Paris by now.
 
+JANE: She's going off to university there to become a doctor. It's been her dream since she was little.
+
+[[A female doctor?]]
+[[I wish her luck.]]
+[[You must be very proud.]]
 
 
 :: She can't get away that easily!
+~1~
+#john_approval, +5#
+%1, <john>, <center>, <smile>%
+JANE: Ha!
 
+JANE: You're a good egg, your highness. It's good to know even royalty has a sense of humor.
+
+%1, <john>, <center>, <neutral>%
+JANE: Any other questions?
+
+[[Yes.|else]]
+[[Actually, I should be going.|leave]]
 
 
 :: It's nice to have all of you here now, too.
+#john_approval, +10#
+%1, <john>, <center>, <smile>%
+JANE: I'm glad you haven't gotten sick of us yet! 
 
+%1, <john>, <center>, <neutral>%
+JANE: Any other questions?
+
+[[Yes.|else]]
+[[Actually, I should be going.|leave]]
+
+
+:: Sounds nice.
+~1~
+#john_approval, +5#
+%1, <john>, <center>, <smile>%
+JANE: Oh, it is.
+
+JANE: I couldn't really imagine living anywhere else. But, then, I've never been the most imaginative sort, and I haven't really <i>been</i> anywhere else.
+
+JANE: My sister used to tell me I should get out more, but I never felt the need to.
+
+[[She was right.]]
+[[There's nothing wrong with being a homebody.]]
+[[And yet you came here.]]
+
+
+:: What is there to do there?
+%1, <john>, <center>, <smile>%
+JANE: The usual small-town acitivies. Helping neighbors with crops, tending your own farm, exchanging meaningless gossip.
+
+JANE: It might sound boring to you, but there's a certain comfort in the routine of it. I've never really been much of a one for the unexpected.
+
+JANE: My sister used to tell me I should get out more, but I never felt the need to.
+
+[[She was right.]]
+[[There's nothing wrong with being a homebody.]]
+[[And yet you came here.]]
+
+
+:: Don't you get bored?
+#john_approval, -5#
+%1, <john>, <center>, <smile>%
+JANE: No! Not hardly.
+
+JANE: There's plenty to do. Helping neighbors with crops, tending your own farm, exchanging meaningless gossip.
+
+JANE: It might sound boring to you, but there's a certain comfort in the routine of it. I've never really been much of a one for the unexpected.
+
+JANE: My sister used to tell me I should get out more, but I never felt the need to.
+
+[[She was right.]]
+[[There's nothing wrong with being a homebody.]]
+[[And yet you came here.]]
+
+
+:: It's good for you to finally spend time apart.
+~-1~
+#john_approval, -10#
+%1, <john>, <center>, <frown>%
+JANE: Wow. You really think so, huh?
+
+JANE: That just tells me that you don't really understand what it's like to love someone.
+
+JANE: My sister's my best friend. Being apart from her...it's lonely. I keep expecting her to just walk in the door, complaining about medical school.
+
+JANE: Don't you have anyone like that? Anyone you'd miss so badly it hurt?
+
+[[No.]]
+[[I have Beauregard.]]
+[[I had my parents, until they left.]]
+
+
+:: That must be difficult.
+#john_approval, +5#
+%1, <john>, <center>, <sad>%
+JANE: Yeah. It is.
+
+%1, <john>, <center>, <smile>%
+JANE: I'll be fine, though. All of this...castle business is really taking my mind off of it.
+
+[[Glad I could help.]]
+[[You're not upset about being stuck here?]]
+
+
+:: I'm sorry you're stuck here with me.
+%1, <john>, <center>, <frown>%
+JANE: Now, now, don't go getting all maudlin on me.
+
+JANE: If we both start going in sad spirals, this conversation will just be upsetting.
+
+%1, <john>, <center>, <smile>%
+JANE: I'll be fine, I know I will. And besides, all of this...castle business is really taking my mind off of it.
+
+[[Glad I could help.]]
+[[You're not upset about being stuck here?]]
+
+
+:: I wish her luck.
+#john_approval, +5#
+%1, <john>, <center>, <smile>%
+JANE: I'm sure she'd appreciate the sentiment.
+
+JANE: I'd pass it on to her, but...
+
+%1, <john>, <center>, <sad>%
+JANE: ...I don't really know if I'll ever see her again.
+
+%1, <john>, <center>, <neutral>%
+JANE: ...Ahem. Any other questions for me?
+
+[[Yes.|else]]
+[[Actually, I should be going.|leave]]
+
+
+:: A female doctor?
+#john_approval, -5#
+%1, <john>, <center>, <neutral>%
+JANE: Don't tell me you're one of those backwards-thinking types.
+
+JANE: It's a new century! Get with the times!
+
+JANE: My sister would laugh in your face if she knew you were doubting her. I'd tell her about it, but...
+
+%1, <john>, <center>, <sad>%
+JANE: ...I don't really know if I'll ever see her again.
+
+%1, <john>, <center>, <neutral>%
+JANE: ...Ahem. Any other questions for me?
+
+[[Yes.|else]]
+[[Actually, I should be going.|leave]]
+
+
+:: You must be very proud.
+#john_approval, +5#
+%1, <john>, <center>, <smile>%
+JANE: Oh, I am! Maybe even prouder than our parents.
+
+JANE: I used to tell her that every day, before she left.
+
+%1, <john>, <center>, <sad>%
+JANE: I hope she'll find other people to tell her, now that she's away at university.
+
+%1, <john>, <center>, <neutral>%
+JANE: ...Ahem. Any other questions for me?
+
+[[Yes.|else]]
+[[Actually, I should be going.|leave]]
+
+
+:: I still feel alone.
+%1, <john>, <center>, <neutral>%
+JANE: Well. I'm sorry to hear that. Maybe having all us new folk around will help? I certainly hope it will.
+
+JANE: Any other questions?
+
+[[Yes.|else]]
+[[Actually, I should be going.|leave]]
+
+
+:: There's nothing wrong with being a homebody.
+~1~
+#john_approval, +5#
+%1, <john>, <center>, <smile>%
+JANE: See, that's what I said! 
+
+JANE: It's not for everyone, though, and I know it can be stifling. It certainly was for my sister.
+
+JANE: Did you have any other questions for me?
+
+[[Yes.|else]]
+[[Actually, I should be going.|leave]]
+
+
+:: She was right.
+~-1~
+#john_approval, -10#
+%1, <john>, <center>, <frown>%
+JANE: Wow. Okay.
+
+JANE: You know, stuff like that sounds a lot different coming from a sister who knows and loves you than it does from a complete stranger. 
+
+JANE: Any other questions for me?
+
+[[Yes.|else]]
+[[Actually, I should be going.|leave]]
+
+
+:: And yet you came here.
+%1, <john>, <center>, <neutral>%
+JANE: ...Huh. I guess I did.
+
+%1, <john>, <center>, <smile>%
+JANE: Just goes to show you that anyone can surprise themselves, I suppose.
+
+JANE: Any other questions for me?
+
+[[Yes.|else]]
+[[Actually, I should be going.|leave]]
+
+
+:: No.
+~-1~
+#john_approval, -5#
+%1, <john>, <center>, <frown>%
+JANE: Of course you don't. You don't want to.
+
+JANE: Pitying yourself is just a way to push other people away.
+
+JANE: Did you have any other questions for me?
+
+[[Yes.|else]]
+[[Actually, I should be going.|leave]]
+
+
+:: I have Beauregard.
+~1~
+#john_approval, +5#
+%1, <john>, <center>, <smile>%
+JANE: See, there you go!
+
+JANE: Everyone has somebody, even if they try not to, like you do.
+
+JANE: Did you have any other questions for me?
+
+[[Yes.|else]]
+[[Actually, I should be going.|leave]]
+
+
+:: I had my parents, until they left.
+~0~
+%1, <john>, <center>, <neutral>%
+JANE: ...Oh. Right. I guess I hit another sore spot, huh?
+
+JANE: Why don't we talk about something else? You choose the topic. I don't want to accidentally say something awful again.
+
+[[Alright.|else]]
+[[Actually, I should be going.|leave]]
+
+
+:: Glad I could help.
+~1~
+#john_approval, +5#
+%1, <john>, <center>, <smile>%
+JANE: Me too. You're an okay guy, you know that?
+
+%1, <john>, <center>, <blush>%
+JANE: Not that--
+
+JANE: --I just mean--
+
+JANE: Did you have any other questions for me?
+
+[[Yes.|else]]
+[[Actually, I should be going.|leave]]
+
+
+:: You're not upset about being stuck here?
+%1, <john>, <center>, <neutral>%
+JANE: Should I be?
+
+%1, <john>, <center>, <smile>%
+JANE: As far as I can tell, you're just a lonely man who wanted some company. 
+
+JANE: Forcing five women to come to your castle for a week so you can marry one of them isn't the most conventional solution, but people do crazy things when they're lonely.
+
+[[You're too forgiving for your own good.]]
+[[Thank you for seeing my side of things.]]
 
 
 :: sister
 #convo_points, -1#
+#john_convo, +1#
+%1, <john>, <center>, <smile>%
+JANE: Yeah, I get that a lot.
 
+JANE: But honestly, it just makes me feel sorry for other people's sisters. Everyone should be supportive of their family members. That's what family is about.
+
+[[My family wasn't.]]
+[[You make me wish I was a part of your family.]]
+[[That's a little idealistic, don't you think?]]
 
 
 :: baking
 #convo_points, -1#
+#john_convo, +1#
+%1, <john>, <center>, <smile>%
+JANE: Oh, wow. I don't even know.
 
+JANE: I've always loved baking, as long as I can remember. Some of my earliest memories are of helping out my mother in the kitchen.
+
+$JohnSmile$
+JANE: Not that I was much of a help back then! I'm sure I mostly just got in the way. Still, it made me feel important, to be able to help out like that.
+
+%1, <john>, <center>, <neutral>%
+JANE: My sister, though--she hated working in the kitchen. 
+
+JANE: We always used to joke about how weird it was that I was the more domestic of the two of us, even though I'm--
+
+%1, <john>, <center>, <scared>%
+JANE: ...Um.
+
+%1, <john>, <center>, <smile>%
+JANE: Have you ever made anything in the kitchen before?
+
+[[Certainly not. That's servants' work.]]
+[[No. Beau won't let me. He says princes don't cook.]]
+[[I snuck in to try it once. I wasn't good at it.]]
 
 
 :: boy
 #convo_points, -1#
+#john_convo, +1#
+%1, <john>, <center>, <neutral>%
+JANE: Getting down to the tough questions now, huh?
+
+JANE: Actually, I came here <i>for</i> my family. 
+
+JANE: My parents wanted to send my sister, but I couldn't let that happen. She had dreams, and I didn't. It just made sense for me to come instead.
+
+[[And they didn't try to stop you?]]
+[[Why her instead of you?]]
+[[You volunteered?]]
+
+
+
+:: Thank you for seeing my side of things.
+~1~
+#john_approval, +5#
+%1, <john>, <center>, <smile>%
+JANE: You're very welcome. 
+
+JANE: Did you have any other questions for me?
+
+[[Yes.|else]]
+[[Actually, I should be going.|leave]]
+
+
+:: You're too forgiving for your own good.
+~-1~
+#john_approval, -5#
+%1, <john>, <center>, <neutral>%
+JANE: It's lucky for I am, so I wouldn't go looking a gift horse in the mouth, buster.
+
+JANE: Did you have any other questions for me?
+
+[[Yes.|else]]
+[[Actually, I should be going.|leave]]
+
+
+:: My family wasn't.
+~-1~
+#john_approval, -5#
+%1, <john>, <center>, <frown>%
+JANE: Oh. Right. I guess that's why you're all alone in this empty castle, huh?
+
+JANE: Did they just leave you here?
+
+[[Yes. Not that I blame them.]]
+[[Yes, but I agreed they should.]]
+[[Yes. They were selfish, and afraid.]]
+
+
+:: You make me wish I was a part of your family.
+~+1~
+#john_approval, +10#
+%1, <john>, <center>, <blush>%
+JANE: Oh. Um.
+
+JANE: That's...
+
+JANE: I mean, I don't know you that well yet, but thank you. I, um. It's very flattering.
+
+%1, <john>, <center>, <neutral>%
+JANE: What about your parents?
+
+[[They abandoned me here. Not that I can blame them.|Yes. Not that I blame them.]]
+[[They and I agreed that they should leave me here.|Yes, but I agreed they should.]]
+[[They were selfish and afraid, and they ran away.|Yes. They were selfish, and afraid.]]
+
+
+:: That's a little idealistic, don't you think?
+~-1~
+#john_approval, -10#
+%1, <john>, <center>, <frown>%
+JANE: Maybe it seems that way to you, but based on my experiences, it's the only way to live.
+
+JANE: Did your parents leave you, or something? is that why you're so bitter?
+
+[[They abandoned me here. Not that I can blame them.|Yes. Not that I blame them.]]
+[[They and I agreed that they should leave me here.|Yes, but I agreed they should.]]
+[[Yes. They were selfish, and afraid.|Yes. They were selfish, and afraid.]]
+
+
+:: Certainly not. That's servants' work.
+~-1~
+$JohnAngry$
+#john_approval, -15#
+%1, <john>, <center>, <frown>%
+JANE: Oh. Well. I guess you wouldn't be interested in learning, then.
+
+JANE: Did you have any other questions for me?
+
+[[Yes.|else]]
+[[Actually, I should be going.|leave]]
+
+
+:: No. Beau won't let me. He says princes don't cook.
+%1, <john>, <center>, <neutral>%
+JANE: Huh.
+
+JANE: I'm surprised your butler doesn't see the value in you knowing how to cook.
+
+JANE: There's just something about cooking for people...
+
+JANE: Food brings people together, and when it's something you've made...It just makes me feel so proud to see people enjoy what I've made.
+
+[[I'd be happy to learn, if you're willing to teach me.]]
+[[I'd love to try something you've made.]]
+[[It's just food.]] 
+
+
+:: I snuck in to try it once. I wasn't good at it.
+~1~
+$JohnSmile$
+#john_approval, +5#
+%1, <john>, <center>, <smile>%
+JANE: Ha! That's always how it starts. I bet you didn't even use a recipe, did you?
+
+JANE: I almost burned down the kitchen at home more than a couple times when I was a kid, but I kept coming back.
+
+JANE: There's just something about cooking for people...
+
+JANE: Food brings people together, and when it's something you've made...It just makes me feel so proud to see people enjoy what I've made.
+
+[[I'd be happy to learn, if you're willing to teach me.]]
+[[I'd love to try something you've made.]]
+[[It's just food.]] 
+
+
+:: And they didn't try to stop you?
+~-1~
+%1, <john>, <center>, <scared>%
+JANE: Well, uh.
+
+JANE: They...don't exactly know I'm here.
+
+JANE: Because, um...
+
+%1, <john>, <center>, <frown>%
+JANE: Damn, this is harder than I thought.
+
+[[What is?]]
+
+
+
+:: You volunteered?
+%1, <john>, <center>, <neutral>%
+JANE: Sure. I couldn't let my little sister give up on her dreams just because of some prince's summons.
+
+JANE: Um, no offense.
+
+JANE: She just has more to offer the world than I do. This is what I can do for her, and my town.
+
+[[And your parents were alright with you coming instead?|And they didn't try to stop you?]]
+[[Then why did your parents want her to come?|Why her instead of you?]]
+
+
+
+:: Why her instead of you?
+~-1~
+%1, <john>, <center>, <scared>%
+JANE: Well, uh. That would be because--
+
+JANE: --because--
+
+JANE: --um.
+
+%1, <john>, <center>, <frown>%
+JANE: Damn, this is harder than I thought.
+
+[[What is?]]
+
+
+
+:: Yes. Not that I blame them.
+~-1~
+%1, <john>, <center>, <frown>%
+JANE: Jeez. That's awful.
+
+JANE: I can't imagine having parents like that. Mine have always been so supportive. Or, well, as supportive as they can be, with old-fashioned small-town opinions.
+
+JANE: Still, I know that they'll always be there for me and my sister when things get rough. 
+
+JANE: Maybe if you had a sibling of your own, things would be different for you.
+
+[[Maybe you're right.]]
+[[I doubt it.]]
+[[Beauregard is like a sibling to me.]]
+
+
+
+:: Yes, but I agreed they should.
+~-1~
+%1, <john>, <center>, <frown>%
+JANE: That's--
+
+JANE: Why would you do that? Agree that they should leave? 
+
+JANE: And they were in favor of them leaving, too?
+
+JANE: Man. I can't imagine having parents like that. Mine have always been so supportive. Or, well, as supportive as they can be, with old-fashioned small-town opinions.
+
+JANE: Still, I know that they'll always be there for me and my sister when things get rough. 
+
+JANE: Maybe if you had a sibling of your own, things would be different for you.
+
+[[Maybe you're right.]]
+[[I doubt it.]]
+[[Beauregard is like a sibling to me.]]
+
+
+
+:: Yes. They were selfish, and afraid.
+~-1~
+%1, <john>, <center>, <frown>%
+JANE: God, that's awful.
+
+JANE: I can't imagine having parents like that. Mine have always been so supportive. Or, well, as supportive as they can be, with old-fashioned small-town opinions.
+
+JANE: Still, I know that they'll always be there for me and my sister when things get rough. 
+
+JANE: Maybe if you had a sibling of your own, things would be different for you.
+
+[[Maybe you're right.]]
+[[I doubt it.]]
+[[Beauregard is like a sibling to me.]]
+
+
+
+:: It's just food.
+~-1~
+$JohnAngry$
+#john_approval, -10#
+%1, <john>, <center>, <frown>%
+JANE: ...Right. Well then.
+
+JANE: Did you have any other questions for me?
+
+[[Yes.|else]]
+[[Actually, I should be going.|leave]]
+
+
+:: I'd love to try something you've made.
+~1~
+$JohnBlush$
+#john_approval, +5#
+%1, <john>, <center>, <blush>%
+JANE: Of course! I'd be happy to share.
+
+%1, <john>, <center>, <smile>%
+JANE: I don't have anything right now, but maybe later?
+
+BEAST: I'd like that.
+
+%1, <john>, <center>, <blush>%
+JOHN: Right. Later, then.
+
+JANE: In the meantime, did you have any other questions for me?
+
+[[Yes.|else]]
+[[Actually, I should be going.|leave]]
+
+
+:: I'd be happy to learn, if you're willing to teach me.
+~1~
+#john_approval, +10#
+%1, <john>, <center>, <smile>%
+JANE: Of course! I'd be happy to teach you.
+
+JANE: I don't think now is such a good time, but maybe later?
+
+BEAST: I'd like that.
+
+%1, <john>, <center>, <blush>%
+JOHN: Right. Later, then.
+
+JANE: In the meantime, did you have any other questions for me?
+
+[[Yes.|else]]
+[[Actually, I should be going.|leave]]
+
+
+:: What is?
+%1, <john>, <center>, <frown>%
+JANE: Telling you about, um.
+
+JANE: Damn it. I'm sorry, I'm just much more nervous than I thought I'd be.
+
+[[You can tell me anything.]]
+[[Spit it out.]]
+
+
+:: I doubt it.
+#john_approval, -10#
+%1, <john>, <center>, <frown>%
+JANE: Jeez, you're a real pessimist when it comes to family, huh?
+
+JANE: I guess we'd better not talk about it anymore. I don't want to poke any more sore spots under all that fur.
+
+JANE: Did you have any other questions for me?
+
+[[Yes.|else]]
+[[Actually, I should be going.|leave]]
+
+
+:: Maybe you're right.
+~+1~
+#john_approval, +5#
+%1, <john>, <center>, <smile>%
+JANE: Of course I am! Siblings make everything better. No matter what, they're always on your side.
+
+JANE: Did you have any other questions for me?
+
+[[Yes.|else]]
+[[Actually, I should be going.|leave]]
+
+
+:: Beauregard is like a sibling to me.
+~+1~
+#john_approval, +5#
+%1, <john>, <center>, <smile>%
+JANE: See! I knew it couldn't be all that bad.
+
+JANE: No matter what, there's always someone who'll have your back.
+
+JANE: Did you have any other questions for me?
+
+[[Yes.|else]]
+[[Actually, I should be going.|leave]]
+
+
+:: You can tell me anything.
+#john_approval, +10#
+%1, <john>, <center>, <smile>%
+JANE: Thanks. That makes this a little easier.
+
+%1, <john>, <center>, <scared>%
+JANE: The truth is, I'm. Um.
+
+JANE: ...I'm a man.
+
+JANE: I'm so sorry for lying to you! 
+
+JANE: I didn't think it'd go this far--I thought I'd just be here a week, then head home and break the news to my parents that my sister was off at medical school.
+
+JANE: I didn't think I'd actually--get <i>close</i> to you, much less...
+
+%1, <john>, <center>, <blush>%
+JANE: Um.
+
+JANE: Look, I'm really sorry. And I completely understand if you're upset.
+
+[[I'm not mad.]]
+[[Of course I'm upset!]]
+[[I'm not sure how I feel, honestly.]]
+
+
+:: Spit it out.
+#john_approval, -5#
+%1, <john>, <center>, <scared>%
+JANE: I'm trying, I swear!
+
+JANE: Okay, so, the truth is, I'm. Um.
+
+JANE: ...I'm a man.
+
+JANE: I'm so sorry for lying to you! 
+
+JANE: I didn't think it'd go this far--I thought I'd just be here a week, then head home and break the news to my parents that my sister was off at medical school.
+
+JANE: I didn't think I'd actually--get <i>close</i> to you, much less...
+
+%1, <john>, <center>, <blush>%
+JANE: Um.
+
+JANE: Look, I'm really sorry. And I completely understand if you're upset.
+
+[[I'm not mad.]]
+[[Of course I'm upset!]]
+[[I'm not sure how I feel, honestly.]]
+
+
+:: I'm not mad.
+#john_approval, +5#
+%1, <john>, <center>, <scared>%
+JANE: You're not?
+
+JANE: You're not just saying that?
+
+%1, <john>, <center>, <frown>%
+JANE: Look, if you're disgusted, you can just say so.
+
+JANE: I know you sent out for five women. This can't have been what you wanted.
+
+[[It's unexpected, but not unwelcome.]]
+[[You're still the same person I've been getting to know.]]
+[[You're right. And I still don't want this.]]
+
+
+:: Of course I'm upset!
+#john_approval, -5#
+%1, <john>, <center>, <sad>%
+JANE: ...Yeah. 
+
+JANE: I guess I really can't blame you for that.
+
+JANE: I know you sent out for five women. This can't have been what you wanted.
+
+[[It's unexpected, but not unwelcome.]]
+[[You're still the same person I've been getting to know.]]
+[[You're right. And I still don't want this.]]
+
+
+:: I'm not sure how I feel, honestly.
+%1, <john>, <center>, <neutral>%
+JANE: That's...better than I was hoping for, as far as responses go.
+
+JANE: But I'll understand if you're upset.
+
+JANE: I know you sent out for five women. This can't have been what you wanted.
+
+[[It's unexpected, but not unwelcome.]]
+[[You're still the same person I've been getting to know.]]
+[[You're right. And I still don't want this.]]
+
+
+:: You're still the same person I've been getting to know.
+~1~
+#john_approval, +30#
+%1, <john>, <center>, <blush>%
+JANE: I...honestly, I can't believe you're alright with this. But I'm glad. So, so glad.
+
+JANE: Never, in a million years, did I expect anything like this to happen.
+
+%1, <john>, <center>, <smile>%
+JANE: The past week has been such a rollercoaster, but I wouldn't trade it for anything.
+
+JANE: Did you want to talk about anything else?
+
+[[Yes.|else]]
+[[Actually, I should be going.|leave]]
+
+
+:: You're right. And I still don't want this.
+~-1~
+#john_approval, -100#
+%1, <john>, <center>, <sad>%
+JANE: I expected as much.
+
+JANE: I'm sorry again for everything. I'll be gone by morning.
+
+
+:: It's unexpected, but not unwelcome.
+~1~
+#john_approval, +25#
+%1, <john>, <center>, <sad>%
+JANE: You...I...
+
+JANE: I can't believe you're alright with this. Never, in a million years, did I expect anything like this to happen.
+
+%1, <john>, <center>, <blush>%
+JANE: The past week has been such a rollercoaster, but I wouldn't trade it for anything.
+
+JANE: Did you want to talk about anything else?
+
+[[Yes.|else]]
+[[Actually, I should be going.|leave]]
 
 
 

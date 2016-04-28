@@ -825,16 +825,45 @@ LUCILLE: Like what?
 %1, <lucy>, <center>, <neutral>%
 LUCILLE: Yep. 
 
-LUCILLE Shockingly, I used to be someone people actually wanted to be friends with.
+LUCILLE: Shockingly, I used to be someone people actually wanted to be friends with.
 
-LUCILLE: But, my one friend left Oldbridge years years ago to go to Paris, so
+LUCILLE: But then my one friend left Oldbridge, so for the past few years I've just been on my own.
+
+[[I thought no one ever left Oldbridge.]]
+[[Why did your friend leave?]]
+[[Don't you prefer it that way?]]
+
 
 
 :: That's not surprising.
+#lucy_approval, -5#
+%1, <lucy>, <center>, <neutral>%
+LUCILLE: Har har. I get it. I'm not the friendliest person. I know. 
+
+LUCILLE: But, shockingly, I used to be someone people actually wanted to be friends with.
+
+LUCILLE: Of course, then my one friend left Oldbridge, so for the past few years I've just been on my own.
+
+[[I thought no one ever left Oldbridge.]]
+[[Why did your friend leave?]]
+[[Don't you prefer it that way?]]
 
 
 
 :: That can't be easy.
+#lucy_approval, +10#
+%1, <lucy>, <center>, <neutral>%
+LUCILLE: ...Well. I mean, in some ways it is, some ways it isn't. 
+
+LUCILLE: I'm used to it now, and I'm pretty sure no one in Oldbridge is keen on changing that, myself included.
+
+LUCILLE: But, once upon a time, I used to be someone people actually wanted to be friends with.
+
+LUCILLE: Of course, then my one friend left Oldbridge, so for the past few years I've just been on my own.
+
+[[I thought no one ever left Oldbridge.]]
+[[Why did your friend leave?]]
+[[Don't you prefer it that way?]]
 
 
 
@@ -977,6 +1006,43 @@ LUCILLE: Or, more likely, I'd have died very, very young.
 [[I'm glad you didn't.]]
 [[That would've been a sight.]]
 [[How did you get this way, then?]]
+
+
+:: I thought no one ever left Oldbridge.
+%1, <lucy>, <center>, <neutral>%
+LUCILLE: They don't usually. But Genieveve was...different.
+
+LUCILLE: She wasn't like everyone else in Oldbridge. She was more...alive, somehow.
+
+LUCILLE: She never wanted to stick around her family's farm forever, and eventually all the talk about Paris got to her. She just...left.
+
+[[Without saying goodbye?]]
+[[So that's why you hate Paris so much.]]
+[[Why didn't you go with her?]]
+
+
+:: Don't you prefer it that way?
+%1, <lucy>, <center>, <neutral>%
+LUCILLE: I do now. There's no one in Oldbridge like Genieveve anymore.
+
+LUCILLE: She wasn't like everyone else in Oldbridge. She was more...alive, somehow.
+
+LUCILLE: She never wanted to stick around her family's farm forever, and eventually all the talk about Paris got to her. She just...left.
+
+[[Without saying goodbye?]]
+[[So that's why you hate Paris so much.]]
+[[Why didn't you go with her?]]
+
+
+:: Why did your friend leave?
+%1, <lucy>, <center>, <neutral>%
+LUCILLE: Genieveve wasn't like everyone else in Oldbridge. She was more...alive, somehow.
+
+LUCILLE: She never wanted to stick around her family's farm forever, and eventually all the talk about Paris got to her. She just...left.
+
+[[Without saying goodbye?]]
+[[So that's why you hate Paris so much.]]
+[[Why didn't you go with her?]]
 
 
 :: You're assuming I won't marry you before then.
@@ -1127,6 +1193,50 @@ LUCILLE: But no, I wasn't always like this. I used to be very eager to please, i
 [[What happened?]]
 
 
+:: Why didn't you go with her?
+%1, <lucy>, <center>, <neutral>%
+LUCILLE: I don't know.
+
+LUCILLE: I was scared, I guess.
+
+LUCILLE: She told me to pack up and meet her at the bridge after my parents were asleep. And I just...didn't. The next morning, she was gone.
+
+LUCILLE: I wanted to go with her, but...
+
+[[It seems like you regret it.]]
+[[You made the right decision.]]
+[[Sounds like you were a coward.]]
+
+
+
+:: So that's why you hate Paris so much.
+%1, <lucy>, <center>, <neutral>%
+LUCILLE: Yeah. I guess so.
+
+LUCILLE: It was all just so sudden. She told me to pack up and meet her at the bridge after my parents were asleep. And I just...didn't. The next morning, she was gone.
+
+LUCILLE: I wanted to go with her, but...
+
+[[It seems like you regret it.]]
+[[You made the right decision.]]
+[[Sounds like you were a coward.]]
+
+
+
+:: Without saying goodbye?
+%1, <lucy>, <center>, <neutral>%
+LUCILLE: ...No. At least, not for lack of trying on her part.
+
+LUCILLE: She told me to pack up and meet her at the bridge after my parents were asleep. And I just...didn't. The next morning, she was gone.
+
+LUCILLE: I wanted to go with her, but...
+
+[[It seems like you regret it.]]
+[[You made the right decision.]]
+[[Sounds like you were a coward.]]
+
+
+
 :: I was just trying to be nice.
 #lucy_approval, -5#
 %1, <lucy>, <center>, <frown>%
@@ -1220,6 +1330,59 @@ LUCILLE: And now I'm drunker. And meaner.
 [[And why is that?]]
 [[I can relate.]]
 [[I wish you weren't.]]
+
+
+:: You made the right decision.
+~-1~
+#lucy_approval, -15#
+#lucy_gift, +1#
+%1, <lucy>, <center>, <angry>%
+LUCILLE: No. I didn't.
+
+%1, <lucy>, <center>, <neutral>%
+LUCILLE: I don't even know if she actually made it to Paris. For all I know, she's dead in a ditch somewhere. <color="white">If I could just know she's okay...</color>
+
+LUCILLE: ...Can we talk about something else now?
+
+[[Alright. Let's talk about something else.|else]]
+[[Actually, I have to leave.|leave]]
+
+
+
+
+
+:: Sounds like you were a coward.
+~-1~
+#lucy_gift, +1#
+%1, <lucy>, <center>, <neutral>%
+LUCILLE: ...Yeah. I guess I was.
+
+LUCILLE: I don't even know if she actually made it to Paris. For all I know, she's dead in a ditch somewhere. <color="white">If I could just know she's okay...</color>
+
+LUCILLE: ...Can we talk about something else now?
+
+[[Alright. Let's talk about something else.|else]]
+[[Actually, I have to leave.|leave]]
+
+
+
+
+
+:: It seems like you regret it.
+#lucy_approval, +5#
+#lucy_gift, +1#
+%1, <lucy>, <center>, <neutral>%
+LUCILLE: I do. Every day. 
+
+LUCILLE: I don't even know if she actually made it to Paris. For all I know, she's dead in a ditch somewhere. <color="white">If I could just know she's okay...</color>
+
+LUCILLE: ...Can we talk about something else now?
+
+[[Alright. Let's talk about something else.|else]]
+[[Actually, I have to leave.|leave]]
+
+
+
 
 
 :: You underestimate your appeal.

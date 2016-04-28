@@ -4,7 +4,7 @@ PATRICE: Really, I can't believe I ever found the place intimidating. It seems s
 
 PATRICE: Did you have any other questions for me, sire?
 
-[[I want to hear your opinion of the other women staying in the castle.|women]]
+[[What's your opinion of the other women staying in the castle?|women]]
 [[%convo_points, 1,2%Let's talk about you.|you]]
 
 
@@ -14,7 +14,7 @@ PATRICE: I never imagined I'd feel so at home in such an enormous castle! I know
 
 PATRICE: Did you have any other questions for me, sire?
 
-[[I want to hear your opinion of the other women staying in the castle.|women]]
+[[What's your opinion of the other women staying in the castle?|women]]
 [[%convo_points, 1,2%Let's talk about you.|you]]
 
 
@@ -26,7 +26,7 @@ PATRICE: It just seems very...lonely.
 
 PATRICE: Did you have any other questions for me, sire?
 
-[[I want to hear your opinion of the other women staying in the castle.|women]]
+[[What's your opinion of the other women staying in the castle?|women]]
 [[%convo_points, 1,2%Let's talk about you.|you]]
 
 
@@ -36,7 +36,7 @@ PATRICE: I don't...suppose castles are usually <i>inviting</i>. So I shouldn't b
 
 PATRICE: Anything else you'd like to talk about?
 
-[[I want to hear your opinion of the other women staying in the castle.|women]]
+[[What's your opinion of the other women staying in the castle?|women]]
 [[%convo_points, 1,2%Let's talk about you.|you]]
 
 
@@ -44,7 +44,7 @@ PATRICE: Anything else you'd like to talk about?
 %1, <pat>, <center>, <smile>%
 PATRICE: Hello again, sire! Was there something you wanted to talk about?
 
-[[I want to hear your opinion of the other women staying in the castle.|women]]
+[[What's your opinion of the other women staying in the castle?|women]]
 [[%pat_approval,-30,0%How are you enjoying your stay here?|stay1]]
 [[%pat_approval,1,30%How are you enjoying your stay here?|stay2]]
 [[%pat_approval,31,50%How are you enjoying your stay here?|stay3]]
@@ -54,14 +54,15 @@ PATRICE: Hello again, sire! Was there something you wanted to talk about?
 
 
 :: h1
+#hen_gift, +1#
 %1, <pat>, <center>, <smile>%
 PATRICE: Henrietta is wonderful company. She feels almost like an old friend from home.
 
-PATRICE: If I'm correct, she's from Longbrooke. The grass there is so sweet, it's no wonder her disposition is. I wonder if she misses the taste?
+PATRICE: If I'm correct, she's from Longbrooke. The grass there is so sweet, it's no wonder her disposition is. <color="white">I wonder if she misses the taste?</color>
 
 PATRICE: Was there anything else you wanted to ask me?
 
-[[I want to hear your opinion of the other women staying in the castle.|women]]
+[[What's your opinion of the other women staying in the castle?|women]]
 [[%pat_approval,-30,0%How are you enjoying your stay here?|stay1]]
 [[%pat_approval,1,30%How are you enjoying your stay here?|stay2]]
 [[%pat_approval,31,50%How are you enjoying your stay here?|stay3]]
@@ -79,7 +80,7 @@ PATRICE: ...Oh, dear. Please pardon my word choice, sire.
 %1, <pat>, <center>, <neutral>%
 PATRICE: Was there anything else you wanted to ask me?
 
-[[I want to hear your opinion of the other women staying in the castle.|women]]
+[[What's your opinion of the other women staying in the castle?|women]]
 [[%pat_approval,-30,0%How are you enjoying your stay here?|stay1]]
 [[%pat_approval,1,30%How are you enjoying your stay here?|stay2]]
 [[%pat_approval,31,50%How are you enjoying your stay here?|stay3]]
@@ -93,7 +94,7 @@ PATRICE: Jane is such good company. I'm not sure how she does it, but I always f
 
 PATRICE: Was there anything else you wanted to ask me?
 
-[[I want to hear your opinion of the other women staying in the castle.|women]]
+[[What's your opinion of the other women staying in the castle?|women]]
 [[%pat_approval,-30,0%How are you enjoying your stay here?|stay1]]
 [[%pat_approval,1,30%How are you enjoying your stay here?|stay2]]
 [[%pat_approval,31,50%How are you enjoying your stay here?|stay3]]
@@ -109,7 +110,7 @@ PATRICE: ...a, um. Well, nevermind!
 
 PATRICE: Was there anything else you wanted to ask me?
 
-[[I want to hear your opinion of the other women staying in the castle.|women]]
+[[What's your opinion of the other women staying in the castle?|women]]
 [[%pat_approval,-30,0%How are you enjoying your stay here?|stay1]]
 [[%pat_approval,1,30%How are you enjoying your stay here?|stay2]]
 [[%pat_approval,31,50%How are you enjoying your stay here?|stay3]]
@@ -128,7 +129,7 @@ PATRICE: The other women here are lovely! Who did you want to discuss?
 [[%day, 1, 2%Noelle.|n1]]
 [[%day, 3, 6%Noelle.|n2]]
 [[%hen_gift, 0, 0%Henrietta.|h1]]
-[[[[%hen_gift, 1, 5%Henrietta.|h2]]
+[[%hen_gift, 1, 5%Henrietta.|h2]]
 [[Actually, I have to leave.|leave]]
 
 
@@ -138,7 +139,7 @@ PATRICE: Lucille seems prickly, but I'm sure I just need to get to know her bett
 
 PATRICE: Was there anything else you wanted to ask me?
 
-[[I want to hear your opinion of the other women staying in the castle.|women]]
+[[What's your opinion of the other women staying in the castle?|women]]
 [[%pat_approval,-30,0%How are you enjoying your stay here?|stay1]]
 [[%pat_approval,1,30%How are you enjoying your stay here?|stay2]]
 [[%pat_approval,31,50%How are you enjoying your stay here?|stay3]]
@@ -152,7 +153,7 @@ PATRICE: I'm so glad I've gotten the chance to know Lucille. She's so much more 
 
 PATRICE: Was there anything else you wanted to ask me?
 
-[[I want to hear your opinion of the other women staying in the castle.|women]]
+[[What's your opinion of the other women staying in the castle?|women]]
 [[%pat_approval,-30,0%How are you enjoying your stay here?|stay1]]
 [[%pat_approval,1,30%How are you enjoying your stay here?|stay2]]
 [[%pat_approval,31,50%How are you enjoying your stay here?|stay3]]
@@ -166,7 +167,7 @@ PATRICE: Noelle is the most beautiful woman I've ever seen! It almost makes me a
 
 PATRICE: Was there anything else you wanted to ask me?
 
-[[I want to hear your opinion of the other women staying in the castle.|women]]
+[[What's your opinion of the other women staying in the castle?|women]]
 [[%pat_approval,-30,0%How are you enjoying your stay here?|stay1]]
 [[%pat_approval,1,30%How are you enjoying your stay here?|stay2]]
 [[%pat_approval,31,50%How are you enjoying your stay here?|stay3]]
@@ -180,7 +181,7 @@ PATRICE: Noelle is a good friend. I hope you get the chance to know her better, 
 
 PATRICE: Was there anything else you wanted to ask me?
 
-[[I want to hear your opinion of the other women staying in the castle.|women]]
+[[What's your opinion of the other women staying in the castle?|women]]
 [[%pat_approval,-30,0%How are you enjoying your stay here?|stay1]]
 [[%pat_approval,1,30%How are you enjoying your stay here?|stay2]]
 [[%pat_approval,31,50%How are you enjoying your stay here?|stay3]]
@@ -250,9 +251,9 @@ PATRICE: Yes, well. Thank you for understanding. It's been very difficult to mov
 
 PATRICE: Oh! But, I mean, I'm ready now. I mean--I'm here because--oh, goodness. I'm sorry. I get so flustered.
 
-[[Relax. I know this isn't an ideal situation.]]
+[[Really? It seems that way.|Really? It seems that way.]]
 [[Well, despite the tragedy of the event, I'm glad you're here.|Frankly, I'm glad you're here at all.]]
-[[No, please. It's nice to hear a new voice.]]
+[[No, please. It's nice to hear a new voice.|No, please. It's nice to hear a new voice.]]
 
 
 
@@ -263,9 +264,9 @@ PATRICE: A few years ago, now. Although, sometimes, it feels like it happened ju
 %1, <pat>, <center>, <smile>%
 PATRICE: Please excuse me. I didn't mean to go prattling on.
 
-[[Really? It seems that way.]]
+[[Really? It seems that way.|Really? It seems that way.]]
 [[Well, despite the tragedy of the event, I'm glad you're here.|Frankly, I'm glad you're here at all.]]
-[[No, please. It's nice to hear a new voice.]]
+[[No, please. It's nice to hear a new voice.|No, please. It's nice to hear a new voice.]]
 
 
 :: And you haven't moved on since then?
@@ -694,7 +695,7 @@ PATRICE: Could we talk about something else now, please?
 %1, <pat>, <center>, <smile>%
 PATRICE: Of course, sire. What would you like to talk about?
 
-[[I want to hear your opinion of the other women staying in the castle.|women]]
+[[What's your opinion of the other women staying in the castle?|women]]
 [[%pat_approval,-30,0%How are you enjoying your stay here?|stay1]]
 [[%pat_approval,1,30%How are you enjoying your stay here?|stay2]]
 [[%pat_approval,31,50%How are you enjoying your stay here?|stay3]]
