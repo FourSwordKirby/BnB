@@ -57,7 +57,7 @@ BEAUREGARD:
 
 [[I certainly enjoy it. I hope you will, too.]]
 [[It's alright. Better than living in a straw hut, I suppose.]]
-[[Living in a castle alone, because I'm too beastly for anyone to look at? It's fantastic.]]
+[[Because I'm too beastly for anyone to look at? It's fantastic.]]
 
 
 :: Adam. Just Adam. [beauSMILE]
@@ -69,7 +69,7 @@ BEAUREGARD: <i>So, what is it like, living in a castle?</i>
 
 [[I certainly enjoy it. I hope you will, too.]]
 [[It's alright. Better than living in a straw hut, I suppose.]]
-[[Living in a castle alone, because I'm too beastly for anyone to look at? It's fantastic.]]
+[[Because I'm too beastly for anyone to look at? It's fantastic.]]
 
 
 :: Being like this is depressing. The name suits me. [beauFROWN]
@@ -85,7 +85,7 @@ BEAUREGARD: <i>So, what is it like, living in a castle?</i>
 
 [[I certainly enjoy it. I hope you will, too.]]
 [[It's alright. Better than living in a straw hut, I suppose.]]
-[[Living in a castle alone, because I'm too beastly for anyone to look at? It's fantastic.]]
+[[Because I'm too beastly for anyone to look at? It's fantastic.]]
 
 
 :: I certainly enjoy it. I hope you will, too. [beauSMILE]
@@ -107,7 +107,7 @@ BEAUREGARD: Well, I'd say this is as good a time as any to face the ladies, don'
 BEAUREGARD: <color="white">I'll bring them in now.</color>
 
 
-:: Living in a castle alone, because I'm too beastly for anyone to look at? It's fantastic.
+:: Because I'm too beastly for anyone to look at? It's fantastic.
 $BeauAngry$
 %1, <beau>, <center>, <frown>%
 BEAUREGARD: Ugh! Fine. I don't know why I bother. 
