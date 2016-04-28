@@ -16,6 +16,7 @@ public class LoveInterest : MonoBehaviour {
 	public int approvalRaiting;
 	public int giftStatus;
     public int convoTracker;
+	public int dinner;
 
     //These describe emotions which the love interest will display
     public enum Emotion

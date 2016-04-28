@@ -14,6 +14,7 @@ public class Cheatz : MonoBehaviour {
 
 	public ScriptedTutorial scriptedTutorial;
 	public DayManager dayManager;
+	public GameManager gameManager;
 
 	void Start() {
 		// Code is "idkfa", user needs to input this in the right order
@@ -34,7 +35,6 @@ public class Cheatz : MonoBehaviour {
 		if (Input.anyKeyDown) {
 			// Check if the next key in the code is pressed
 			for (int i = 0; i< cheatCodes.Length; i++) {
-				Debug.Log ("Index for cheat " + i + " is: " + indices [i]);
 				if (indices [i] >= cheatCodes [i].Length) {
 					indices [i] = 0;
 				}
