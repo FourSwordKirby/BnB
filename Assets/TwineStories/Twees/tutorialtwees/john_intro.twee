@@ -56,7 +56,7 @@ JANE: I can't wait to see your kitchen. It must be huge compared to the one we h
 
 [[I'd be happy to show it to you.]]
 [[The kitchen is for servants, not potential princesses.]]
-[[I'm sure the kitchen at your house must have been much cozier, though.]]
+[[I'm sure the kitchen at your house was much cozier, though.]]
 
 
 
@@ -70,7 +70,7 @@ JANE: I can't wait to see your kitchen. It must be huge compared to the one we h
 
 [[I'd be happy to show it to you.]]
 [[The kitchen is for servants, not potential princesses.]]
-[[I'm sure the kitchen at your house must have been much cozier, though.]]
+[[I'm sure the kitchen at your house was much cozier, though.]]
 
 
 
@@ -83,7 +83,7 @@ JANE: I can't wait to see your kitchen. It must be huge compared to the one we h
 
 [[I'd be happy to show it to you.]]
 [[The kitchen is for servants, not potential princesses.]]
-[[I'm sure the kitchen at your house must have been much cozier, though.]]
+[[I'm sure the kitchen at your house was much cozier, though.]]
 
 
 :: I'd be happy to show it to you.
@@ -103,7 +103,7 @@ JANE: I guess that doesn't make me much of a potential princess then, does it?
 JANE: Well, I won't keep you from your other ladies-in-waiting any longer. It was nice to meet you.
 
 
-:: I'm sure the kitchen at your house must have been much cozier, though.
+:: I'm sure the kitchen at your house was much cozier, though.
 $JohnSmile$
 #john_approval, +5#
 %1, <john>, <center>, <blush>%
