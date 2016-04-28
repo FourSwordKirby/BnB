@@ -58,9 +58,9 @@ PATRICE: Th-thank you, your highness. You'll never know how much your kindness m
 %1, <pat>, <center>, <neutral>%
 PATRICE: I hope it's not too much trouble, but I was wondering if you had any paper and ink I could use? There are some letters I'd like to write to people back home.
 
-[[Of course. You'll find a writing desk in the sitting parlor. It's just behind you.]]
-[[I've never much seen the point in writing letters, but you're welcome to occupy yourself however you like.]]
-[[I'd prefer you didn't have any contact with the outside world. It might be...distracting.]]
+[[Of course. You'll find a writing desk in the sitting parlor.]]
+[[You're welcome to occupy yourself however you like.]]
+[[I'd prefer you didn't have any contact with the outside world.]]
 
 
 :: Really? I find that surprising.
@@ -71,9 +71,9 @@ PATRICE: That's very kind of you to say, sire, but I'm afraid my life compared t
 %1, <pat>, <center>, <neutral>%
 PATRICE: I hope it's not too much trouble, but I was wondering if you had any paper and ink I could use? There are some letters I'd like to write to people back home.
 
-[[Of course. You'll find a writing desk in the sitting parlor. It's just behind you.]]
-[[I've never much seen the point in writing letters, but you're welcome to occupy yourself however you like.]]
-[[I'd prefer you didn't have any contact with the outside world. It might be...distracting.]]
+[[Of course. You'll find a writing desk in the sitting parlor.]]
+[[You're welcome to occupy yourself however you like.]]
+[[I'd prefer you didn't have any contact with the outside world.]]
 
 
 :: Of course. I've never found the lives of commoners to be particularly interesting.
@@ -85,12 +85,12 @@ PATRICE: ...Of course, your majesty. I'm sure we must seem very dull in comparis
 %1, <pat>, <center>, <neutral>%
 PATRICE: I hope it's not too much trouble, but I was wondering if you had any paper and ink I could use? There are some letters I'd like to write to people back home.
 
-[[Of course. You'll find a writing desk in the sitting parlor. It's just behind you.]]
-[[I've never much seen the point in writing letters, but you're welcome to occupy yourself however you like.]]
-[[I'd prefer you didn't have any contact with the outside world. It might be...distracting.]]
+[[Of course. You'll find a writing desk in the sitting parlor.]]
+[[You're welcome to occupy yourself however you like.]]
+[[I'd prefer you didn't have any contact with the outside world.]]
 
 
-:: Of course. You'll find a writing desk in the sitting parlor. It's just behind you.
+:: Of course. You'll find a writing desk in the sitting parlor.
 #pat_approval, +5#
 %1, <pat>, <center>, <smile>%
 PATRICE: Thank you, sire. I really do appreciate it. I promise I'll leave everything just as I found it.
@@ -100,7 +100,7 @@ PATRICE: This castle is so beautiful. I've never seen anything like it!
 PATRICE: I really am glad to be here, sire. Thank you. I won't keep you any longer.
 
 
-:: I've never much seen the point in writing letters, but you're welcome to occupy yourself however you like.
+:: You're welcome to occupy yourself however you like.
 %1, <pat>, <center>, <neutral>%
 PATRICE: ...Oh. Well, to each their own, I suppose.
 
@@ -110,7 +110,7 @@ PATRICE: Personally, I can't imagine living in such a grand castle. It's all a b
 PATRICE: I really am glad to be here, sire. Thank you. I won't keep you any longer.
 
 
-:: I'd prefer you didn't have any contact with the outside world. It might be...distracting.
+:: I'd prefer you didn't have any contact with the outside world.
 #pat_approval, -5#
 %1, <pat>, <center>, <frown>%
 PATRICE: That's...
