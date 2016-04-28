@@ -151,6 +151,12 @@ public class TwineParser : MonoBehaviour {
         if (value == "approval")
         {
             LoveInterest loveInterest = gameManager.getLoveInterest(ParseName(name));
+
+            if (loveInterest.approvalRaiting > loveVal)
+                GameManager.sfxManager.play("LoseApproval");
+            else
+                GameManager.sfxManager.play("GainApproval");
+
             loveInterest.approvalRaiting = loveVal;
         }
         else if (value == "gift")
