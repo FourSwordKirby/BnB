@@ -7,7 +7,7 @@ BEAST: Look at me, Beauregard. I'm a monster. There's no way any of those women 
 
 $BeauSad$
 %1, <beau>, <center>, <frown>%
-BEAUREGARD: Well, not with that attitude. You'll have to be <color="yellow">significantly more well-mannered</color> if you want to win their affections. Come, practice on me.
+BEAUREGARD: Well, not with that attitude. You'll have to be <color="white">significantly more well-mannered</color> if you want to win their affections. Come, practice on me.
 
 BEAST: What?
 
@@ -93,7 +93,7 @@ $BeauSmile$
 %1, <beau>, <center>, <smile>%
 BEAUREGARD: Very good, sire! If I were a young lady, I'm sure I'd feel very charmed.
 
-BEAUREGARD: I'm quite sure you're ready to <color="yellow">face your suitors</color>. 
+BEAUREGARD: I'm quite sure you're ready to <color="white">face your suitors</color>. 
 
 BEAUREGARD: I'll go fetch them. They should be with you shortly.
 
@@ -104,7 +104,7 @@ BEAUREGARD: Please, sire, try to control your enthusiasm.
 
 BEAUREGARD: Well, I'd say this is as good a time as any to face the ladies, don't you think? 
 
-BEAUREGARD: <color="yellow">I'll bring them in now.</color>
+BEAUREGARD: <color="white">I'll bring them in now.</color>
 
 
 :: Living in a castle alone, because I'm too beastly for anyone to look at? It's fantastic.
@@ -114,6 +114,6 @@ BEAUREGARD: Ugh! Fine. I don't know why I bother.
 
 BEAUREGARD: There's no point in delaying it any longer, sire, foul mood or no. 
 
-BEAUREGARD: <color="yellow">I'll bring the ladies in. </color>Please at least <i>attempt</i> to be civil?
+BEAUREGARD: <color="white">I'll bring the ladies in. </color>Please at least <i>attempt</i> to be civil?
 
 

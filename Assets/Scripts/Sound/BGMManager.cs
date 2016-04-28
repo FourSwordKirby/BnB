@@ -10,9 +10,9 @@ public class BGMManager : MonoBehaviour {
 
     //public static AudioSource currentAudioSource;
     public static AudioSource targetAudioSource;
-    public static float targetVolume = 0.1f;
+    public static float targetVolume = 0.5f;
 
-    public static float audioAdjustRate = 0.005f;
+    public static float audioAdjustRate = 0.01f;
 
     void Start()
     {
