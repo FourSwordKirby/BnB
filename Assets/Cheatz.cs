@@ -54,6 +54,10 @@ public class Cheatz : MonoBehaviour {
 					switch (i) {
 					case WIN_IDX:
 						Debug.Log ("Unlocked win cheat!");
+						foreach (LoveInterest loveInterest in gameManager.loveInterests) {
+							loveInterest.approvalRaiting = 90;
+		
+						}
 						break;
 					case TUT_IDX:
 						Debug.Log ("Unlocked tut cheat!");
