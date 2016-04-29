@@ -310,6 +310,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11416248, guid: fea20f6881a127243a2ca5793fe43dab, type: 2}
+      propertyPath: loveInterestSprites.Array.data[6]
+      value: 
+      objectReference: {fileID: 21300000, guid: caf9274212841494dbb56105a994c694,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fea20f6881a127243a2ca5793fe43dab, type: 2}
   m_IsPrefabParent: 0
@@ -563,6 +568,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 11416248, guid: 64b96987d1306a3408e993543ae7b44c, type: 2}
+      propertyPath: loveInterestSprites.Array.data[6]
+      value: 
+      objectReference: {fileID: 21300000, guid: e71f54e3f6cd54ea28bf1a55fffd71cd,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 64b96987d1306a3408e993543ae7b44c, type: 2}
   m_IsPrefabParent: 0
@@ -862,6 +872,11 @@ Prefab:
       propertyPath: leavingStory
       value: 
       objectReference: {fileID: 1777227328}
+    - target: {fileID: 11455622, guid: 0fb91179f0dae6147ba737397e951169, type: 2}
+      propertyPath: loveInterestSprites.Array.data[6]
+      value: 
+      objectReference: {fileID: 21300000, guid: f5c98883820f549c0966697111b25310,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0fb91179f0dae6147ba737397e951169, type: 2}
   m_IsPrefabParent: 0
@@ -1002,6 +1017,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 11416248, guid: d456c70dbf4922a498a7a4e99ec02b1c, type: 2}
+      propertyPath: loveInterestSprites.Array.data[6]
+      value: 
+      objectReference: {fileID: 21300000, guid: fec2f7a60f0e4462b85e6ebf6f381e56,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d456c70dbf4922a498a7a4e99ec02b1c, type: 2}
   m_IsPrefabParent: 0
@@ -1052,6 +1072,11 @@ Prefab:
       propertyPath: leavingStory
       value: 
       objectReference: {fileID: 1144533702}
+    - target: {fileID: 11416248, guid: ea5be72ed3642a34eb937a56c36050e2, type: 2}
+      propertyPath: loveInterestSprites.Array.data[6]
+      value: 
+      objectReference: {fileID: 21300000, guid: 34f379741982443b5bd200cb7f987640,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ea5be72ed3642a34eb937a56c36050e2, type: 2}
   m_IsPrefabParent: 0
@@ -4134,6 +4159,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 11416248, guid: 1a18c5d4aa19c47b792b5a2f6eb919f4, type: 2}
+      propertyPath: loveInterestSprites.Array.data[6]
+      value: 
+      objectReference: {fileID: 21300000, guid: 482a55fea9cfd471c9a42c2417bb8529,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1a18c5d4aa19c47b792b5a2f6eb919f4, type: 2}
   m_IsPrefabParent: 0
