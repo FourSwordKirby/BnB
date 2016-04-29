@@ -70,7 +70,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   designation: 0
   currentStory: {fileID: 0}
-  marriageStory: {fileID: 0}
+  marriageStory: {fileID: 11427560}
   leavingStory: {fileID: 0}
   approvalRaiting: 0
   giftStatus: 0

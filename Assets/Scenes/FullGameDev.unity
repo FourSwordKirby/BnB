@@ -310,9 +310,19 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11416248, guid: fea20f6881a127243a2ca5793fe43dab, type: 2}
+      propertyPath: marriageStory
+      value: 
+      objectReference: {fileID: 70924742}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fea20f6881a127243a2ca5793fe43dab, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &70924742 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11427560, guid: fea20f6881a127243a2ca5793fe43dab,
+    type: 2}
+  m_PrefabInternal: {fileID: 70924741}
+  m_Script: {fileID: 11500000, guid: 092a5dc0d192ae34dbfdb2deb719d8f8, type: 3}
 --- !u!1 &93912639
 GameObject:
   m_ObjectHideFlags: 0
