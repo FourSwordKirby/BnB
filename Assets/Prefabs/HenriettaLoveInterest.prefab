@@ -115,7 +115,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 2c0f46f89cee6e64db9c06d9cf836763, type: 3}
   - {fileID: 21300000, guid: 2c0f46f89cee6e64db9c06d9cf836763, type: 3}
   - {fileID: 21300000, guid: fec2f7a60f0e4462b85e6ebf6f381e56, type: 3}
-  loveInterestIcon: {fileID: 21300000, guid: 2c0f46f89cee6e64db9c06d9cf836763, type: 3}
+  loveInterestIcon: {fileID: 21300000, guid: 7f7ca860ac08e824cb9610dd26a264be, type: 3}
 --- !u!114 &11473756
 MonoBehaviour:
   m_ObjectHideFlags: 1
