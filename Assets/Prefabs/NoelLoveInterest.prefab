@@ -16,6 +16,50 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &123642
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 441618}
+  - 114: {fileID: 11414924}
+  m_Layer: 0
+  m_Name: NoelMarriage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &163250
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 499430}
+  - 114: {fileID: 11478136}
+  m_Layer: 0
+  m_Name: NoelDepart
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &441618
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 123642}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 459734}
+  m_RootOrder: 0
 --- !u!4 &459734
 Transform:
   m_ObjectHideFlags: 1
@@ -23,11 +67,39 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 108008}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 134.3958, y: 34.045036, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 441618}
+  - {fileID: 499430}
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!4 &499430
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 163250}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 459734}
+  m_RootOrder: 1
+--- !u!114 &11414924
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 123642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61e600109cd614282b65424315d5ffe0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoPlay: 0
+  StartPassage: Start
+  AdditionalHooks: []
 --- !u!114 &11416248
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -41,10 +113,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   designation: 5
   currentStory: {fileID: 0}
-  marriageStory: {fileID: 0}
+  marriageStory: {fileID: 11414924}
+  leavingStory: {fileID: 11478136}
   approvalRaiting: 0
   giftStatus: 0
+  departed: 0
   convoTracker: 0
+  dinner: 0
   fullBodySprite: {fileID: 21300000, guid: 87a85408e8830d944972ee44087c3d82, type: 3}
   loveInterestSprites:
   - {fileID: 21300000, guid: 7a21329a797da41979a11c85bb50020c, type: 3}
@@ -53,8 +128,22 @@ MonoBehaviour:
   - {fileID: 21300000, guid: b479bbacbce7840e9820065a9e0d6552, type: 3}
   - {fileID: 21300000, guid: 9f2530b7c555c4b839ed4774872e967f, type: 3}
   - {fileID: 21300000, guid: b4c53e33cba4a664b8b8cfc59dcba005, type: 3}
-  - {fileID: 21300000, guid: b1e42c3735f155d4ab538279ee188a98, type: 3}
+  - {fileID: 0}
   loveInterestIcon: {fileID: 21300000, guid: da5dab6cd68a3814db0fe66500a7836b, type: 3}
+--- !u!114 &11478136
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 163250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a75dda5111125f04b9a7b47716d5496a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoPlay: 0
+  StartPassage: Start
+  AdditionalHooks: []
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
