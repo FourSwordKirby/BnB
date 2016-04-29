@@ -42,7 +42,7 @@ JANE: Any other questions?
 %1, <john>, <center>, <smile>%
 JANE: Hey there! Something you wanted?
 
-[[%john_approval,71,200%Will you marry me?|marriage]]
+[[%john_approval,71,150%Will you marry me?|marriage]]
 [[%John_gift,3,3%I have a gift for you.|gift]]
 [[What's your opinion of the other women staying in the castle?|women]]
 [[%john_approval,-30,0%How are you enjoying your stay here?|stay1]]
@@ -210,6 +210,31 @@ JANE: My sister and I are twins, but she got the beauty and the brains.
 [[Your family sounds wonderful.]]
 
 
+:: gift
+#convo_points, -1#
+#john_approval, +15#
+#john_gift, +1#
+%1, <john>, <center>, <neutral>%
+JANE: What do you mean you have a--
+
+%1, <john>, <center>, <scared>%
+JANE: Oh my goodness.
+
+JANE: How did you...
+
+$JohnSmile$
+%1, <john>, <center>, <smile>%
+JANE: Nevermind! I don't care how you got this. I'm just so grateful you did.
+
+JANE: My sister says she's doing very well at university, and earning higher marks than most of the men in her classes.
+
+JANE: Ha! I knew she would.
+
+JANE: Really, truly, thank you. I don't know how I could possibly repay you.
+
+JANE: If you'll excuse me, I've got to go read the rest of this!
+
+
 :: marriage
 %1, <john>, <center>, <smile>%
 JANE: Yes! Yes, of course! I'd love to!
@@ -225,7 +250,7 @@ JANE: Yes yes yes yes!
 %1, <john>, <center>, <smile>%
 JANE: Right. What do you want to know?
 
-[[%john_approval,71,200%Will you marry me?|marriage]]
+[[%john_approval,71,150%Will you marry me?|marriage]]
 [[What's your opinion of the other women staying in the castle?|women]]
 [[%john_approval,-30,0%How are you enjoying your stay here?|stay1]]
 [[%john_approval,1,30%How are you enjoying your stay here?|stay2]]
@@ -236,6 +261,7 @@ JANE: Right. What do you want to know?
 
 :: I find that hard to believe.
 #john_approval, +5#
+$JohnSmile$
 %1, <john>, <center>, <smile>%
 JANE: Flatterer.
 
@@ -246,6 +272,7 @@ JANE: It's true, though. Don't worry, I'm not cut up about it. I'm too proud of 
 
 
 :: Is that why they sent you?
+$JohnSmile$
 %1, <john>, <center>, <smile>%
 JANE: Ha!
 
@@ -257,7 +284,7 @@ JANE: You got me. I'm the lesser twin, meant only as a distraction so that the p
 
 
 :: Your family sounds wonderful.
-#john_approval, +10#
+#john_approval, +5#
 %1, <john>, <center>, <smile>%
 JANE: They're as wonderful as they sound, and then some.
 
@@ -378,6 +405,7 @@ JANE: She's going off to university there to become a doctor. It's been her drea
 :: She can't get away that easily!
 ~1~
 #john_approval, +5#
+$JohnSmile$
 %1, <john>, <center>, <smile>%
 JANE: Ha!
 
@@ -391,7 +419,8 @@ JANE: Any other questions?
 
 
 :: It's nice to have all of you here now, too.
-#john_approval, +10#
+#john_approval, +5#
+$JohnSmile$
 %1, <john>, <center>, <smile>%
 JANE: I'm glad you haven't gotten sick of us yet! 
 
@@ -432,6 +461,7 @@ JANE: My sister used to tell me I should get out more, but I never felt the need
 
 :: Don't you get bored?
 #john_approval, -5#
+$JohnSmile$
 %1, <john>, <center>, <smile>%
 JANE: No! Not hardly.
 
@@ -448,7 +478,8 @@ JANE: My sister used to tell me I should get out more, but I never felt the need
 
 :: It's good for you to finally spend time apart.
 ~-1~
-#john_approval, -10#
+#john_approval, -5#
+$JohnAngry$
 %1, <john>, <center>, <frown>%
 JANE: Wow. You really think so, huh?
 
@@ -465,6 +496,7 @@ JANE: Don't you have anyone like that? Anyone you'd miss so badly it hurt?
 
 :: That must be difficult.
 #john_approval, +5#
+$JohnSad$
 %1, <john>, <center>, <sad>%
 JANE: Yeah. It is.
 
@@ -507,6 +539,7 @@ JANE: ...Ahem. Any other questions for me?
 
 :: A female doctor?
 #john_approval, -5#
+$JohnAngry$
 %1, <john>, <center>, <neutral>%
 JANE: Don't tell me you're one of those backwards-thinking types.
 
@@ -567,7 +600,8 @@ JANE: Did you have any other questions for me?
 
 :: She was right.
 ~-1~
-#john_approval, -10#
+#john_approval, -5#
+$JohnAngry$
 %1, <john>, <center>, <frown>%
 JANE: Wow. Okay.
 
@@ -609,6 +643,7 @@ JANE: Did you have any other questions for me?
 :: I have Beauregard.
 ~1~
 #john_approval, +5#
+$JohnSmile$
 %1, <john>, <center>, <smile>%
 JANE: See, there you go!
 
@@ -677,6 +712,7 @@ JANE: But honestly, it just makes me feel sorry for other people's sisters. Ever
 :: baking
 #convo_points, -1#
 #john_convo, +1#
+$JohnSmile$
 %1, <john>, <center>, <smile>%
 JANE: Oh, wow. I don't even know.
 
@@ -756,7 +792,8 @@ JANE: Did they just leave you here?
 
 :: You make me wish I was a part of your family.
 ~+1~
-#john_approval, +10#
+#john_approval, +5#
+$JohnBlush$
 %1, <john>, <center>, <blush>%
 JANE: Oh. Um.
 
@@ -774,7 +811,7 @@ JANE: What about your parents?
 
 :: That's a little idealistic, don't you think?
 ~-1~
-#john_approval, -10#
+#john_approval, -5#
 %1, <john>, <center>, <frown>%
 JANE: Maybe it seems that way to you, but based on my experiences, it's the only way to live.
 
@@ -788,7 +825,7 @@ JANE: Did your parents leave you, or something? is that why you're so bitter?
 :: Certainly not. That's servants' work.
 ~-1~
 $JohnAngry$
-#john_approval, -15#
+#john_approval, -10#
 %1, <john>, <center>, <frown>%
 JANE: Oh. Well. I guess you wouldn't be interested in learning, then.
 
@@ -876,29 +913,6 @@ JANE: Damn, this is harder than I thought.
 
 
 
-:: gift
-#convo_points, -1#
-#john_approval, +20#
-%1, <john>, <center>, <neutral>%
-JANE: What do you mean you have a--
-
-%1, <john>, <center>, <scared>%
-JANE: Oh my goodness.
-
-JANE: How did you...
-
-%1, <john>, <center>, <smile>%
-JANE: Nevermind! I don't care how you got this. I'm just so grateful you did.
-
-JANE: My sister says she's doing very well at university, and earning higher marks than most of the men in her classes.
-
-JANE: Ha! I knew she would.
-
-JANE: Really, truly, thank you. I don't know how I could possibly repay you.
-
-JANE: If you'll excuse me, I've got to go read the rest of this!
-
-
 :: Yes. Not that I blame them.
 ~-1~
 %1, <john>, <center>, <frown>%
@@ -957,7 +971,7 @@ JANE: Maybe if you had a sibling of your own, things would be different for you.
 :: It's just food.
 ~-1~
 $JohnAngry$
-#john_approval, -10#
+#john_approval, -5#
 %1, <john>, <center>, <frown>%
 JANE: ...Right. Well then.
 
@@ -990,7 +1004,8 @@ JANE: In the meantime, did you have any other questions for me?
 
 :: I'd be happy to learn, if you're willing to teach me.
 ~1~
-#john_approval, +10#
+#john_approval, +5#
+$JohnBlush$
 %1, <john>, <center>, <smile>%
 JANE: Of course! I'd be happy to teach you.
 
@@ -1018,7 +1033,8 @@ JANE: Damn it. I'm sorry, I'm just much more nervous than I thought I'd be.
 
 
 :: I doubt it.
-#john_approval, -10#
+#john_approval, -5#
+$JohnAngry$
 %1, <john>, <center>, <frown>%
 JANE: Jeez, you're a real pessimist when it comes to family, huh?
 
@@ -1057,7 +1073,7 @@ JANE: Did you have any other questions for me?
 
 
 :: You can tell me anything.
-#john_approval, +10#
+#john_approval, +5#
 %1, <john>, <center>, <smile>%
 JANE: Thanks. That makes this a little easier.
 
@@ -1084,6 +1100,7 @@ JANE: Look, I'm really sorry. And I completely understand if you're upset.
 
 :: Spit it out.
 #john_approval, -5#
+$JohnAngry$
 %1, <john>, <center>, <scared>%
 JANE: I'm trying, I swear!
 
@@ -1126,6 +1143,7 @@ JANE: I know you sent out for five women. This can't have been what you wanted.
 
 :: Of course I'm upset!
 #john_approval, -5#
+$JohnSad$
 %1, <john>, <center>, <sad>%
 JANE: ...Yeah. 
 
@@ -1154,6 +1172,7 @@ JANE: I know you sent out for five women. This can't have been what you wanted.
 :: You're still the same person I've been getting to know.
 ~1~
 #john_approval, +30#
+$JohnSmile$
 %1, <john>, <center>, <blush>%
 JANE: I...honestly, I can't believe you're alright with this. But I'm glad. So, so glad.
 
@@ -1170,7 +1189,8 @@ JANE: Did you want to talk about anything else?
 
 :: You're right. And I still don't want this.
 ~-1~
-#john_approval, -100#
+#john_approval, -50#
+$JohnSad$
 %1, <john>, <center>, <sad>%
 JANE: I expected as much.
 
@@ -1179,7 +1199,7 @@ JANE: I'm sorry again for everything. I'll be gone by morning.
 
 :: It's unexpected, but not unwelcome.
 ~1~
-#john_approval, +25#
+#john_approval, +15#
 %1, <john>, <center>, <sad>%
 JANE: You...I...
 
