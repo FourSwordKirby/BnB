@@ -34,6 +34,18 @@ public class TwineParser : MonoBehaviour {
                 return GameManager.LoveInterestName.Patrice;
             case "noelle":
                 return GameManager.LoveInterestName.Noelle;
+            case "Beau":
+                return GameManager.LoveInterestName.Beauregard;
+            case "Hen":
+                return GameManager.LoveInterestName.Henrietta;
+            case "John":
+                return GameManager.LoveInterestName.John;
+            case "Lucy":
+                return GameManager.LoveInterestName.Lucille;
+            case "Pat":
+                return GameManager.LoveInterestName.Patrice;
+            case "Noelle":
+                return GameManager.LoveInterestName.Noelle;
             default:
                 Debug.Log("ERROR: Malformed Tag Name input: " + tagName);
                 break;
