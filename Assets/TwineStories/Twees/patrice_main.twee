@@ -44,6 +44,8 @@ PATRICE: Anything else you'd like to talk about?
 %1, <pat>, <center>, <smile>%
 PATRICE: Hello again, sire! Was there something you wanted to talk about?
 
+[[%pat_approval,71,200%Will you marry me?|marriage]]
+[[%pat_gift,3,3%I have a gift for you.|gift]]
 [[What's your opinion of the other women staying in the castle?|women]]
 [[%pat_approval,-30,0%How are you enjoying your stay here?|stay1]]
 [[%pat_approval,1,30%How are you enjoying your stay here?|stay2]]
@@ -116,6 +118,41 @@ PATRICE: Was there anything else you wanted to ask me?
 [[%pat_approval,31,50%How are you enjoying your stay here?|stay3]]
 [[%pat_approval,51,70%How are you enjoying your stay here?|stay4]]
 [[%convo_points, 1,2%Let's talk about you.|you]]
+
+
+:: gift
+#convo_points, -1#
+#pat_approval, +30#
+#pat_gift, +1#
+%1, <pat>, <center>, <shocked>%
+PATRICE: A letter? From my son?
+
+PATRICE: How did you--He says he's fine!
+
+%1, <pat>, <center>, <sad>%
+PATRICE: Oh, thank god. He's alright.
+
+PATRICE: I was starting to make myself sick worrying about him.
+
+%1, <pat>, <center>, <smile>%
+PATRICE: I can't tell you how grateful I am for this, sire, I really can't.
+
+PATRICE: No one, not even the people in my village, have gone so far to help me. And over something so small!
+
+PATRICE: I am truly in your debt, sire.
+
+PATRICE: Now, if you'll excuse me, I have to write back right away!
+
+
+:: marriage
+%1, <pat>, <center>, <sad>%
+PATRICE: Oh, goodness, sire.
+
+PATRICE: I--I didn't think--
+
+PATRICE: Yes, of course I'll marry you! Nothing would make me happier!
+
+&Pat&
 
 
 :: women
@@ -472,7 +509,7 @@ PATRICE: --I needed a lot of help from people to get by. In a way, my trip here 
 
 [[I didn't mean to make you self-conscious.]]
 [[I could learn a thing or two from you.]]
-[[This is the second time you've been uncomfortable discussing your family.]]
+[[You seem uncomfortable discussing your family.]]
 
 
 
@@ -557,7 +594,7 @@ PATRICE: How did you manage it, looking like--um. Well. Nevermind!
 
 
 
-:: This is the second time you've been uncomfortable discussing your family.
+:: You seem uncomfortable discussing your family.
 #pat_approval, -5#
 %1, <pat>, <center>, <scared>%
 PATRICE: Oh! Um?
@@ -691,18 +728,6 @@ PATRICE: Could we talk about something else now, please?
 [[Actually, I have to leave.|leave]]
 
 
-:: else
-%1, <pat>, <center>, <smile>%
-PATRICE: Of course, sire. What would you like to talk about?
-
-[[What's your opinion of the other women staying in the castle?|women]]
-[[%pat_approval,-30,0%How are you enjoying your stay here?|stay1]]
-[[%pat_approval,1,30%How are you enjoying your stay here?|stay2]]
-[[%pat_approval,31,50%How are you enjoying your stay here?|stay3]]
-[[%pat_approval,51,70%How are you enjoying your stay here?|stay4]]
-[[%convo_points, 1, 2%Let's talk about you.|you]]
-
-
 :: Do you really think so highly of your village?
 %1, <pat>, <center>, <smile>%
 PATRICE: Of course I do!
@@ -737,6 +762,18 @@ PATRICE: Did you have any other questions for me, sire?
 
 [[Certainly.|else]]
 [[Actually, I have to leave.|leave]]
+
+
+:: else
+%1, <pat>, <center>, <smile>%
+PATRICE: Of course, sire. What would you like to talk about?
+
+[[What's your opinion of the other women staying in the castle?|women]]
+[[%pat_approval,-30,0%How are you enjoying your stay here?|stay1]]
+[[%pat_approval,1,30%How are you enjoying your stay here?|stay2]]
+[[%pat_approval,31,50%How are you enjoying your stay here?|stay3]]
+[[%pat_approval,51,70%How are you enjoying your stay here?|stay4]]
+[[%convo_points, 1, 2%Let's talk about you.|you]]
 
 
 :: I'll take your word for it.

@@ -41,14 +41,14 @@ NOELLE: Is there anything else you'd like to talk about?
 %1, <noelle>, <center>, <smile>%
 NOELLE: A pleasure to see you, sire. What would you like to talk about?
 
+[[%noelle_approval,71,200%Will you marry me?|marriage]]
+[[%noelle_gift,4,4%I have a gift for you.|gift]]
 [[One of the other women in the castle.|women]]
 [[%noelle_approval,-30,0%How are you enjoying your stay here?|stay1]]
 [[%noelle_approval,1,30%How are you enjoying your stay here?|stay2]]
 [[%noelle_approval,31,50%How are you enjoying your stay here?|stay3]]
 [[%noelle_approval,50,70%How are you enjoying your stay here?|stay4]]
 [[%convo_points, 1, 2%Let's talk about you.|you]]
-[[%noelle_gift, 3, 3%I have a gift for you.|GIFT]]
-[[%noelle_approval,70,170%Will you marry me?|marriage]]
 [[Actually, I have to go.|leave]]
 
 
@@ -151,6 +151,34 @@ NOELLE: Is there anything else you wanted to discuss?
 [[%convo_points, 1, 2%Let's talk about you.|you]]
 
 
+:: gift
+#convo_points, -1#
+#noelle_approval, +50#
+#noelle_gift, +1#
+%1, <noelle>, <center>, <scared>%
+NOELLE: But this--
+
+NOELLE: --this is--
+
+NOELLE: How on earth did you get my mother's will?
+
+%1, <noelle>, <center>, <frown>%
+NOELLE: You got it from my father, didn't you? Oh, I <i>knew</i> he was hiding it from me!
+
+NOELLE: See, right here, it says that my mother left all her worldly possessions, all her wealth, to me! That I might be free of my father!
+
+NOELLE: I'll ruin him with this, I swear it.
+
+%1, <noelle>, <center>, <smile>%
+NOELLE: ...Thank you. You've helped me in a way I never expected anyone to want to, much less be capable of.
+
+NOELLE: You may be the finest man I've ever met.
+
+%1, <noelle>, <center>, <neutral>%
+NOELLE: Now, please excuse me for a moment. I need to read over this thoroughly.
+
+
+
 :: women
 %1, <noelle>, <center>, <smile>%
 NOELLE: Who did you have in mind?
@@ -232,6 +260,7 @@ NOELLE: Is there anything else you'd like to talk about?
 
 :: men
 #convo_points, -1#
+#noelle_convo, +1#
 %1, <noelle>, <center>, <neutral>%
 NOELLE: It seems that way because it <i>is</i> that way.
 
@@ -284,6 +313,7 @@ NOELLE: Excuse me, sire, but I'd prefer we didn't discuss this any further. Coul
 
 :: family
 #convo_points, -1#
+#noelle_convo, +1#
 %1, <noelle>, <center>, <neutral>%
 NOELLE: There isn't much to tell. My mother died when I was very young, and my father's raised me ever since.
 
@@ -353,6 +383,7 @@ NOELLE: ...Of course, your <i>highness</i>. I am at your disposal as always. We 
 
 :: from
 #convo_points, -1#
+#noelle_convo, +1#
 NOELLE: I'm from Redding, a large town to the north. My father is a merchant, and often travels to the harbor several towns over.
 
 NOELLE: It's a beautiful town, Redding. Perfectly charming. Easy to get lost in.
@@ -360,6 +391,17 @@ NOELLE: It's a beautiful town, Redding. Perfectly charming. Easy to get lost in.
 [[Why would you want to get lost?]]
 [[Have you always lived there?]]
 [[Have you ever wanted to live anywhere else?]]
+
+
+:: marriage
+%1, <noelle>, <center>, <blush>%
+NOELLE: I never, ever thought I would say yes to a marriage proposal.
+
+NOELLE: But somehow, you managed to make me love you, in a way I never thought I could love a man.
+
+NOELLE: Yes, I will gladly marry you!
+
+&Noelle&
 
 
 :: I rather like having you at my mercy.
@@ -531,10 +573,6 @@ NOELLE: I just meant that it's nice to blend into crowds, and not be noticed by 
 [[That does sound nice.]]
 [[Why would you want to be one of many when you could stand out?]]
 [[I wouldn't know what that's like.]]
-
-
-:: marriage
-TBD
 
 
 :: I'll be leaving, then.
@@ -888,12 +926,9 @@ NOELLE: Could we move on to another subject? I'm starting to feel a bit maudlin.
 [[Actually, I have to leave.]]
 
 
-:: GIFT
-
-
-
 :: father
 #convo_points, -1#
+#noelle_convo, +1#
 %1, <noelle>, <center>, <frown>%
 NOELLE: I should've known I wouldn't be able to keep you from asking for very long.
 
@@ -908,6 +943,7 @@ NOELLE: This...<i>event</i> is only the latest in a long line of his attempts to
 
 :: unhappy
 #convo_points, -1#
+#noelle_convo, +1#
 %1, <noelle>, <center>, <smile>%
 NOELLE: I had no idea you were paying such close attention to my facial features.
 
@@ -918,6 +954,7 @@ NOELLE: I had no idea you were paying such close attention to my facial features
 
 :: world
 #convo_points, -1#
+#noelle_convo, +1#
 %1, <noelle>, <center>, <frown>%
 NOELLE: I...I don't know.
 

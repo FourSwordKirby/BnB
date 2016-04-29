@@ -1,23 +1,26 @@
 ﻿:: stay1
+$HenSmile$
 HENRIETTA: MMMMMMMMMMOOOOOOOOOOOO.
 
 BEAST: ...Right. 
 
-[[What's your opinion of the other women staying in the castle?|women]]
+[[What do you think of the other women in the castle?|women]]
 [[%convo_points, 1, 2%Let's talk about you.|you]]
 [[I have to go now.|leave]]
 
 
 :: Start
 %1, <hen>, <center>, <neutral>%
+$HenSmile$
 HENRIETTA: MMMMMOOOOOOOOOOOOO.
 
 BEAST: Good to see you, too. Now, then...
 
-[[I'd like to hear your opinion of the other women staying in the castle.|women]]
+[[%hen_approval,71,200%Will you marry me?|marriage]]
+[[%hen_gift,3,3%I have a gift for you.|gift]]
+[[What do you think of the other women in the castle?|women]]
 [[How are you enjoying your stay here?|stay1]]
 [[%convo_points, 1, 2%Let's talk about you.|you]]
-[[%hen_gift, 3, 3%I have a gift for you.|gift]]
 [[Actually, I have to go.|leave]]
 
 
@@ -27,7 +30,7 @@ HENRIETTA: MMOOOOOO.
 
 BEAST: Of course. I completely agree. Now, let's discuss something else.
 
-[[What's your opinion of the other women staying in the castle?|women]]
+[[What do you think of the other women in the castle?|women]]
 [[How are you enjoying your stay here?|stay1]]
 [[%convo_points, 1, 2%Let's talk about you.|you]]
 [[I have to go now.|leave]]
@@ -38,15 +41,29 @@ HENRIETTA: MMMMMMMMMOOOOOO.
 
 BEAST: Really? Hm. I suppose so. Now, let's discuss something else.
 
-[[What's your opinion of the other women staying in the castle?|women]]
+[[What do you think of the other women in the castle?|women]]
 [[How are you enjoying your stay here?|stay1]]
 [[%convo_points, 1, 2%Let's talk about you.|you]]
 [[I have to go now.|leave]]
 
 
+:: women
+$HenSmile$
+HENRIETTA: MMOOOOO.
+
+BEAST: Oh, good. Specifically, I'm interested in your thoughts on...
+
+[[Jane.|j1]]
+[[Pat.|p1]]
+[[Noelle.|n1]]
+[[Lucille.|l1]]
+[[Actually, I have to go.|leave]]
+
+
 :: fam
 #convo_points, -1#
 #hen_convo, +1#
+$HenSmile$
 %1, <hen>, <center>, <neutral>%
 HENRIETTA: MMMOOOOO. MMMMMMMMMMOOOOOOOOOOOOO.
 
@@ -54,7 +71,7 @@ BEAST: Well. Yes, I suppose I should've assumed they'd all be cows, too.
 
 BEAST: Let's discuss something else.
 
-[[What's your opinion of the other women staying in the castle?|women]]
+[[What do you think of the other women in the castle?|women]]
 [[How are you enjoying your stay here?|stay1]]
 [[%convo_points, 1, 2%Let's talk about you.|you]]
 [[I have to go now.|leave]]
@@ -69,24 +86,12 @@ BEAST: I was thinking we could talk about...
 [[Actually, I have to go.|leave]]
 
 
-:: women
-HENRIETTA: MMOOOOO.
-
-BEAST: Oh, good. Specifically, I'm interested in your thoughts on...
-
-[[Jane.|j1]]
-[[Pat.|p1]]
-[[Noelle.|n1]]
-[[Lucille.|l1]]
-[[Actually, I have to go.|leave]]
-
-
 :: p1
 HENRIETTA: MMMMMMMMMOOOO.
 
 HENRIETTA: ...Good to hear. Let's discuss something else.
 
-[[What's your opinion of the other women staying in the castle?|women]]
+[[What do you think of the other women in the castle?|women]]
 [[How are you enjoying your stay here?|stay1]]
 [[%convo_points, 1, 2%Let's talk about you.|you]]
 [[I have to go now.|leave]]
@@ -97,14 +102,34 @@ HENRIETTA: MMMMMOOOOOOOO.
 
 BEAST: Well. That's surprising. Now, let's discuss something else.
 
-[[What's your opinion of the other women staying in the castle?|women]]
+[[What do you think of the other women in the castle?|women]]
 [[How are you enjoying your stay here?|stay1]]
 [[%convo_points, 1, 2%Let's talk about you.|you]]
 [[I have to go now.|leave]]
 
 
+:: gift
+#convo_points, -1#
+$HenSmile$
+#hen_gift, +1#
+#hen_approval, +60#
+BEAST: Here. I thought you might like a taste of home.
+
+HENRIETTA: ...!! 
+
+HENRIETTA: MOOOOOOOOOOOOO!
+
+BEAST: It was no trouble at all. A beautiful girl like you deserves gifts like this.
+
+%1, <hen>, <center>, <blush>%
+HENRIETTA: MMMmmoOOOOOOOOoooo....
+
+BEAST: You're very welcome. I'll leave you to it.
+
+
 :: from
 #convo_points, -1#
+$HenSmile$
 #hen_convo, +1#
 HENRIETTA: MMMMOOOOOOOOOO.
 
@@ -144,26 +169,19 @@ BEAST: Of course. I don't know why I expected anything different.
 [[I have to go now.|leave]]
 
 
-:: gift
-#convo_points, -1#
-#hen_gift, +1#
-#hen_approval, +60#
-BEAST: Here. I thought you might like a taste of home.
+:: marriage
+$HenSmile$
+%1, <hen>, <center>, <smile>%
+HENRIETTA: MMMMMMMMMMOOOOOOOOOOOOOOOOOOOOOOOOOOO!
 
-HENRIETTA: ...!! 
+BEAST: Wonderful! We'll be married straightaway.
 
-HENRIETTA: MOOOOOOOOOOOOO!
-
-BEAST: It was no trouble at all. A beautiful girl like you deserves gifts like this.
-
-%1, <hen>, <center>, <blush>%
-HENRIETTA: MMMmmoOOOOOOOOoooo....
-
-BEAST: You're very welcome.
+&John&
 
 
 :: animal
 #convo_points, -1#
+$HenSmile$
 #hen_convo, +1#
 HENRIETTA: MMMMOOOOOOO.
 
@@ -178,6 +196,7 @@ HENRIETTA: MMMOOOOOOO.
 
 :: farm
 #convo_points, -1#
+$HenSmile$
 #hen_convo, +1#
 HENRIETTA: MMMMOOOOOOOOOO.
 
@@ -209,6 +228,7 @@ BEAST: You're right. It's better to have loved and lost than never loved at all.
 
 
 :: leave
+$HenSad$
 HENRIETTA: MMooOOOOoo.
 
 BEAST: Yes, of course I'll see you again soon.

@@ -44,6 +44,8 @@ LUCILLE: What now?
 %1, <lucy>, <center>, <frown>%
 LUCILLE: Alright, so you found me. What do you want?
 
+[[%lucy_approval,71,200%Will you marry me?|marriage]]
+[[%lucy_gift,3,3%I have a gift for you.|gift]]
 [[What's your opinion of the other women staying in the castle?|women]]
 [[%lucy_approval,-30,0%How are you enjoying your stay here?|stay1]]
 [[%lucy_approval,1,30%How are you enjoying your stay here?|stay2]]
@@ -101,7 +103,7 @@ LUCILLE: What now?
 LUCILLE: Jane's great! She's someone who gets it. Really gets it. 
 
 %1, <lucy>, <center>, <neutral>%
-LUCILLE: Too bad she doesn't have anything from home to remember her family by. Lord knows I wouldn't want anything to remember mine by, but Jane's family is different. She misses them.
+LUCILLE: <color>Too bad she doesn't have anything from home to remember her family by.</color> Lord knows I wouldn't want anything to remember mine by, but Jane's family is different. She misses them.
 
 LUCILLE: What now?
 
@@ -111,6 +113,49 @@ LUCILLE: What now?
 [[%lucy_approval,31,50%How are you enjoying your stay here?|stay3]]
 [[%lucy_approval,51,70%How are you enjoying your stay here?|stay4]]
 [[%convo_points, 1, 2%Let's talk about you.|you]]
+
+
+:: gift
+#convo_points, -1#
+#lucy_approval, +60#
+#lucy_gift, +1#
+%1, <lucy>, <center>, <frown>%
+LUCILLE: What, a letter? From my parents, I suppose.
+
+LUCILLE: Why would you think I'd want--
+
+%1, <lucy>, <center>, <scared>%
+LUCILLE: ...
+
+LUCILLE: Oh, hell.
+
+LUCILLE: This--this is from Gen!
+
+%1, <lucy>, <center>, <neutral>%
+LUCILLE: She says she's in Paris, working at a flower shop.
+
+LUCILLE: She's safe, and happy. Oh, thank god.
+
+%1, <lucy>, <center>, <smile>%
+LUCILLE: I can't thank you enough for this. You've given me answers to questions I've had for years.
+
+LUCILLE: I'm going to go finish reading this.
+
+LUCILLE: ...Just don't go telling people I have a friend, alright?
+
+
+:: marriage
+%1, <lucy>, <center>, <shocked>%
+LUCILLE: You...
+
+LUCILLE: You want to marry me? <i>Me?</i>
+
+LUCILLE: I just never thought--
+
+%1, <lucy>, <center>, <blush>%
+LUCILLE: I mean, yes! Yes!  
+
+&Lucy&
 
 
 :: women
@@ -321,7 +366,7 @@ LUCILLE: It has the added effect of keeping people the hell away from me.
 %1, <lucy>, <center>, <smile>%
 LUCILLE: Hah. So there's a sense of humor under all that fur after all.
 
-[[Making jokes about my fur, now? Seems like you're getting comfortable.]]
+[[Making jokes about my fur? Seems like you're getting comfy.]]
 [[I was afraid I was getting rusty.]]
 
 
@@ -330,7 +375,7 @@ LUCILLE: Hah. So there's a sense of humor under all that fur after all.
 %1, <lucy>, <center>, <frown>%
 LUCILLE: Wow. You're a real buzzkill, huh? My mom'd love you. Well, maybe she would without all the fur.
 
-[[Making jokes about my fur, now? Seems like you're getting comfortable.]]
+[[Making jokes about my fur? Seems like you're getting comfy.]]
 [[I'm not used to talking to people.|I was afraid I was getting rusty.]]
 
 
@@ -500,7 +545,7 @@ LUCILLE: It has the added effect of keeping people the hell away from me.
 [[So I do have a hope of impressing you, eventually.]]
 
 
-:: Making jokes about my fur, now? Seems like you're getting comfortable.
+:: Making jokes about my fur? Seems like you're getting comfy.
 #lucy_approval, +5#
 %1, <lucy>, <center>, <smile>%
 LUCILLE: Despite my better judgement, yeah. I guess I am.
