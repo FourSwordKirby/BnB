@@ -159,7 +159,7 @@ public class TwineParser : MonoBehaviour {
 
             loveInterest.approvalRaiting = loveVal;
         }
-        else if (value == "gift")
+        else if (value == "gift" || value == "item")
         {
             LoveInterest loveInterest = gameManager.getLoveInterest(ParseName(name));
             loveInterest.giftStatus = loveVal;
