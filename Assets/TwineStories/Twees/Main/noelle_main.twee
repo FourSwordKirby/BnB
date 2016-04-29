@@ -577,7 +577,7 @@ NOELLE: I didn't mean it like that, sire. It was just a--a figure of speech.
 NOELLE: I just meant that it's nice to blend into crowds, and not be noticed by anyone. To just be one more face in a crowd.
 
 [[That does sound nice.]]
-[[Why would you want to be one of many when you could stand out?]]
+[[Why be one of many when you could stand out?]]
 [[I wouldn't know what that's like.]]
 
 
@@ -635,7 +635,7 @@ NOELLE: Is there anything else you'd like to talk about?
 [[Actually, I have to leave.]]
 
 
-:: Why would you want to be one of many when you could stand out?
+:: Why be one of many when you could stand out?
 #noelle_approval, -5#
 %1, <noelle>, <center>, <smile>%
 NOELLE: An <i>excellent</i> question, sire. So astute. I see now that you have the wit of a philosopher.

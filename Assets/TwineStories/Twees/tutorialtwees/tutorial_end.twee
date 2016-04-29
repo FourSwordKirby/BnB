@@ -3,7 +3,7 @@ $BeauSmile$
 %1, <beau>, <center>, <smile>%
 BEAUREGARD: Well then! Now that you've all been acquainted with his highness, I think you ought to make yourselves at home. 
 
-BEAUREGARD: Please, feel free to <b>go wherever you like</b>. The castle is your home now, at least for this week.
+BEAUREGARD: Please, feel free to <color="white">go wherever you like</color>. The castle is your home now, at least for this week.
 
 %1, <beau>, <center>, <neutral>%
 BEAUREGARD: I think that went well, sire! Better than expected, at least. None of them have left yet!
@@ -16,7 +16,7 @@ BEAUREGARD: Oh, really, sire. You musn't take it so personally. Everyone needs a
 %1, <beau>, <center>, <neutral>%
 BEAUREGARD: Now, before you go out and catch yourself a bride, there's something you should know.
 
-BEAUREGARD: Light conversation is all well and good, but should you talk to your suitors about something more personal, you may lose track of time. <color="yellow">Two deeper conversations</color>, and poof! You'll find that it's <b>dinnertime</b> already.
+BEAUREGARD: Light conversation is all well and good, but should you talk to your suitors about something more personal, you may lose track of time. <color="white">Two deeper conversations</color>, and poof! You'll find that it's <color="white">dinnertime</color> already.
 
 %1, <beau>, <center>, <smile>%
 BEAUREGARD: Now go forth and woo yourself a fair maiden! 

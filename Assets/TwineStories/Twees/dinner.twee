@@ -4,11 +4,11 @@ BEAUREGARD: I'm so sorry to interrupt, but it's time for dinner, sire!
 
 BEAUREGARD: Oh, how the time flies! Who woud you like to dine with this evening, sire?
 
-[[Noelle.]]
-[[Jane.]]
-[[Patrice.]]
-[[Lucille.]]
-[[Henrietta.]]
+[[%noelle_approval, -30, 150%Noelle.|Noelle.]]
+[[%jane_approval, -30, 150%Jane.|Jane.]]
+[[%pat_approval, -30, 150%Patrice.|Patrice.]]
+[[%lucy_approval, -30, 150%Lucille.|Lucille.]]
+[[%hen_approval, -30, 150%Henrietta.|Henrietta.]]
 
 
 :: No one.

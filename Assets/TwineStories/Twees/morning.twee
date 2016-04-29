@@ -212,8 +212,12 @@ BEAUREGARD: Very well, sire. Is there anything else I can help with?
 [[%pat_gift, 1, 1%Could you retrieve a gift for Patrice?|p_i]]
 [[%lucy_gift, 1, 1%Could you retrieve a gift for Lucille?|l_i]]
 [[%hen_gift, 1, 1%Could you retrieve a gift for Henrietta?|h_i]]
+[[%noelle_gift, 3,3%Do you have the gift I asked you for?|n_ii]]
+[[%john_gift, 3,3%Do you have the gift I asked you for?|j_ii]]
+[[%pat_gift, 3,3%Do you have the gift I asked you for?|p_ii]]
+[[%lucy_gift, 3,3%Do you have the gift I asked you for?|l_ii]]
+[[%hen_gift,3,3%Do you have the gift I asked you for?|h_ii]]
 [[No, thank you Beauregard. You're free to go.|no]]
-
 
 
 :: l_i

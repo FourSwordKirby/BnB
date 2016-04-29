@@ -55,7 +55,6 @@ public class LoveInterest : MonoBehaviour {
     /// </summary>
     private int affinityRating;
 
-
     public Sprite getEmotionSprite(Emotion emotion)
     {
         return loveInterestSprites[(int)emotion];

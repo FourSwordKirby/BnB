@@ -55,7 +55,9 @@ public class DialogController : MonoBehaviour
                     break;
 
                 line = lines[currentLine];
-				                
+
+                Debug.Log(line);
+        
 				if (twineParser.IsInstruction(line))
                 {
                     instructions = line.Substring(line.IndexOf("%"), line.Substring(1).IndexOf("%")+1);
@@ -265,6 +267,7 @@ public class DialogController : MonoBehaviour
 
 		Debug.Log ("Starting story: " + story);
 
+        currentLine = 0;
 		this.currentStory = story;
 
         closed = false;
