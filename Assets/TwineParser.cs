@@ -118,7 +118,7 @@ public class TwineParser : MonoBehaviour {
             LoveInterest loveInterest = gameManager.getLoveInterest(ParseName(name));
             return loveInterest.approvalRaiting;
         }
-        else if (value == "gift")
+        else if (value == "gift" || value== "item")
         {
             LoveInterest loveInterest = gameManager.getLoveInterest(ParseName(name));
             return loveInterest.giftStatus;
