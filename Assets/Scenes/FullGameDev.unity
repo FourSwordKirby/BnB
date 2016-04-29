@@ -355,20 +355,10 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1632717645}
   m_RootOrder: 6
---- !u!4 &113452938
+--- !u!4 &113452938 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 485024, guid: 0fb91179f0dae6147ba737397e951169, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 577164663}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1828054785}
-  - {fileID: 503656938}
-  m_Father: {fileID: 629012136}
-  m_RootOrder: 1
+  m_PrefabInternal: {fileID: 1416182428}
 --- !u!1 &145241168
 GameObject:
   m_ObjectHideFlags: 0
@@ -891,48 +881,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!1 &503656937
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 503656938}
-  - 114: {fileID: 503656939}
-  m_Layer: 0
-  m_Name: lucilleDepart
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &503656938
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 503656937}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 113452938}
-  m_RootOrder: 1
---- !u!114 &503656939
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 503656937}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 31bf07e0d334e194ebb87881fd48080b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AutoPlay: 1
-  StartPassage: Start
-  AdditionalHooks: []
 --- !u!114 &508403659 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11469088, guid: bdab7ec851aeb4a88bb076902bee9087,
@@ -1173,22 +1121,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d456c70dbf4922a498a7a4e99ec02b1c, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &577164663
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 107422, guid: 0fb91179f0dae6147ba737397e951169, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 113452938}
-  - 114: {fileID: 1976199280}
-  m_Layer: 0
-  m_Name: LucileLoveInterest
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1001 &628843119
 Prefab:
   m_ObjectHideFlags: 0
@@ -4583,6 +4515,48 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1399382090}
+--- !u!1001 &1416182428
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 629012136}
+    m_Modifications:
+    - target: {fileID: 485024, guid: 0fb91179f0dae6147ba737397e951169, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 485024, guid: 0fb91179f0dae6147ba737397e951169, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 485024, guid: 0fb91179f0dae6147ba737397e951169, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 485024, guid: 0fb91179f0dae6147ba737397e951169, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 485024, guid: 0fb91179f0dae6147ba737397e951169, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 485024, guid: 0fb91179f0dae6147ba737397e951169, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 485024, guid: 0fb91179f0dae6147ba737397e951169, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 485024, guid: 0fb91179f0dae6147ba737397e951169, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 0fb91179f0dae6147ba737397e951169, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &1466857352
 Prefab:
   m_ObjectHideFlags: 0
@@ -5432,48 +5406,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!1 &1828054784
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1828054785}
-  - 114: {fileID: 1828054786}
-  m_Layer: 0
-  m_Name: lucilleMarriage
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1828054785
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1828054784}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 113452938}
-  m_RootOrder: 0
---- !u!114 &1828054786
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1828054784}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3e507b8c091a845cebddf0a6f077356d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AutoPlay: 1
-  StartPassage: Start
-  AdditionalHooks: []
 --- !u!224 &1850603301
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5782,37 +5714,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1632717645}
   m_RootOrder: 9
---- !u!114 &1976199280
+--- !u!114 &1976199280 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 11455622, guid: 0fb91179f0dae6147ba737397e951169,
     type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 577164663}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
+  m_PrefabInternal: {fileID: 1416182428}
   m_Script: {fileID: 11500000, guid: ba2c38a12153b634f9316c3554c898ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  designation: 2
-  currentStory: {fileID: 0}
-  marriageStory: {fileID: 1828054786}
-  leavingStory: {fileID: 503656939}
-  approvalRaiting: 0
-  giftStatus: 0
-  departed: 0
-  convoTracker: 0
-  dinner: 0
-  fullBodySprite: {fileID: 21300000, guid: cd165f095acbd984e97f62dec14ee5db, type: 3}
-  loveInterestSprites:
-  - {fileID: 21300000, guid: 2ed9237b45d529f4696445b7ff22ae7c, type: 3}
-  - {fileID: 21300000, guid: a4825280b7c2708408fe7220ba6d040a, type: 3}
-  - {fileID: 21300000, guid: 2782a2b21e09652489c88ef17efd79a4, type: 3}
-  - {fileID: 21300000, guid: c77014f34958c5d42a5450018c5fb561, type: 3}
-  - {fileID: 21300000, guid: d4371b8fb54598549acc8802c24ab7dd, type: 3}
-  - {fileID: 21300000, guid: df97e359a501c7643ae5e4d8aee09e0b, type: 3}
-  - {fileID: 0}
-  loveInterestIcon: {fileID: 21300000, guid: da8c169e23b4d7a4492a48287284588d, type: 3}
 --- !u!114 &2004415356 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11469088, guid: bdab7ec851aeb4a88bb076902bee9087,
