@@ -52,7 +52,6 @@ BEAUREGARD: Is there anything you require of me this morning?
 [[%pat_gift, 1, 1%Could you retrieve a gift for Patrice?|p_i]]
 [[%lucy_gift, 1, 1%Could you retrieve a gift for Lucille?|l_i]]
 [[%hen_gift, 1, 1%Could you retrieve a gift for Henrietta?|h_i]]
-[[Nevermind.|No.]]
 [[No, thank you Beauregard. You're free to go.|no]]
 
 

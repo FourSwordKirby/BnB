@@ -15,6 +15,7 @@ public class DialogController : MonoBehaviour
     public TwineStory currentStory;
 
     public bool storyCompleted { get; private set; }
+    public bool closed;
 
 	public bool IgnoreEmptyLines = true;
 
@@ -266,6 +267,7 @@ public class DialogController : MonoBehaviour
 
 		this.currentStory = story;
 
+        closed = false;
 		storyCompleted = false;
 		
 		/* Register UnityTwine callback functions */
@@ -276,6 +278,8 @@ public class DialogController : MonoBehaviour
 	}
     public void CloseConversation()
     {
+        closed = true;
+
         //Used to ensure we don't screw up and throw an error going to a previous story
         currentStory.Reset();
         currentStory.OnOutput -= Story_OnOutput;

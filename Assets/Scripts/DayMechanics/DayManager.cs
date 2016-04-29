@@ -15,6 +15,7 @@ public class DayManager : MonoBehaviour {
     public GameManager gameManager;
     public TwineStory morningBeauStory;
     public TwineStory leavingBeauStory;
+    public TwineStory leavingBeauEnd;
     public TwineStory eveningBeauStory;
     public TwineStory beauPityStory;
 
@@ -29,7 +30,7 @@ public class DayManager : MonoBehaviour {
 
 
     //Used to keep track of if the leaving convo has been activated
-    public bool convoActivated;
+    public int convoActivated;
     public bool endOfDay;
 
 	// Use this for initialization
@@ -64,7 +65,7 @@ public class DayManager : MonoBehaviour {
 	 */
 
 	public void BeginDay() {
-        convoActivated = false;
+        convoActivated = 0;
         endOfDay = false;
 
         if (GameObject.FindObjectOfType<ScriptedTutorial>() != null)
@@ -207,12 +208,12 @@ public class DayManager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         //Used to trigger leaving stories at the start of the day
-        if (GameManager.dialogControls.storyCompleted && remainingConvoPts == 2)
+        if (GameManager.dialogControls.closed && remainingConvoPts == 2)
         {
-            if (gameManager.loveInterests.Where(x => x.approvalRaiting < -30 && !x.departed).ToList().Count > 0 && !convoActivated)
+            if (gameManager.loveInterests.Where(x => x.approvalRaiting < -30 && !x.departed).ToList().Count > 0 && convoActivated == 0)
             {
                 GameManager.StartConversation(leavingBeauStory);
-                convoActivated = true;
+                convoActivated = 1;
                 return;
             }
             if (gameManager.getLoveInterest(GameManager.LoveInterestName.Noelle).approvalRaiting < -30
@@ -248,6 +249,12 @@ public class DayManager : MonoBehaviour {
             {
                 gameManager.getLoveInterest(GameManager.LoveInterestName.Lucille).departed = true;
                 GameManager.StartConversation(gameManager.getLoveInterest(GameManager.LoveInterestName.Lucille).leavingStory);
+                return;
+            }
+            if (convoActivated == 1)
+            {
+                GameManager.StartConversation(leavingBeauEnd);
+                convoActivated = 2;
                 return;
             }
         }

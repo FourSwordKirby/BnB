@@ -16,6 +16,50 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &183406
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 437530}
+  - 114: {fileID: 11418220}
+  m_Layer: 0
+  m_Name: patMarriage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &187448
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 481188}
+  - 114: {fileID: 11483486}
+  m_Layer: 0
+  m_Name: patDepart
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &437530
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 183406}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 459734}
+  m_RootOrder: 0
 --- !u!4 &459734
 Transform:
   m_ObjectHideFlags: 1
@@ -23,11 +67,25 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 108008}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 134.3958, y: 34.045036, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 437530}
+  - {fileID: 481188}
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!4 &481188
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 187448}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 459734}
+  m_RootOrder: 1
 --- !u!114 &11416248
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -41,10 +99,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   designation: 4
   currentStory: {fileID: 0}
-  marriageStory: {fileID: 0}
+  marriageStory: {fileID: 11418220}
+  leavingStory: {fileID: 11483486}
   approvalRaiting: 0
   giftStatus: 0
+  departed: 0
   convoTracker: 0
+  dinner: 0
   fullBodySprite: {fileID: 21300000, guid: f1d8cd2eb0156c74f8255e3bdd2bf84d, type: 3}
   loveInterestSprites:
   - {fileID: 21300000, guid: 09c1d5bfde2417247940a733b8d11b27, type: 3}
@@ -53,8 +114,36 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 719f432e20cd2bb4cbaa1ebe13fce8ad, type: 3}
   - {fileID: 21300000, guid: fc6388645d07d944db198db13e6d24a3, type: 3}
   - {fileID: 21300000, guid: 30c8996b019667649b9705a2e98cecd3, type: 3}
-  - {fileID: 21300000, guid: 98d831a04b364ad44bee32b780535729, type: 3}
+  - {fileID: 21300000, guid: e71f54e3f6cd54ea28bf1a55fffd71cd, type: 3}
   loveInterestIcon: {fileID: 21300000, guid: 37783f1d096f82b40809981d24a208a0, type: 3}
+--- !u!114 &11418220
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 183406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bc62f9a7d31a41b3823b3f18159337d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoPlay: 0
+  StartPassage: Start
+  AdditionalHooks: []
+--- !u!114 &11483486
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 187448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f334e4063a814d4eaec9a96848a1f48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoPlay: 0
+  StartPassage: Start
+  AdditionalHooks: []
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
