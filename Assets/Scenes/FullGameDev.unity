@@ -4116,7 +4116,7 @@ MonoBehaviour:
   mansion: {fileID: 747658263}
   dining: {fileID: 172370359}
   remainingConvoPts: 2
-  dayNumber: 1
+  dayNumber: 0
   gameManager: {fileID: 1343823894}
   morningBeauStory: {fileID: 656819652}
   leavingBeauStory: {fileID: 1644074987}
