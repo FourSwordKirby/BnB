@@ -100,7 +100,7 @@ MonoBehaviour:
   designation: 3
   currentStory: {fileID: 0}
   marriageStory: {fileID: 11424248}
-  leavingStory: {fileID: 0}
+  leavingStory: {fileID: 11496820}
   approvalRaiting: 0
   giftStatus: 0
   departed: 0
