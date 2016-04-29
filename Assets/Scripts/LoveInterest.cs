@@ -12,9 +12,11 @@ public class LoveInterest : MonoBehaviour {
     public TwineStory currentStory;
 
     public TwineStory marriageStory;
+    public TwineStory leavingStory;
 
 	public int approvalRaiting;
 	public int giftStatus;
+    public bool departed;
     public int convoTracker;
 	public int dinner;
 

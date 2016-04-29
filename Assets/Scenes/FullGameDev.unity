@@ -854,6 +854,14 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11455622, guid: 0fb91179f0dae6147ba737397e951169, type: 2}
+      propertyPath: approvalRaiting
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11455622, guid: 0fb91179f0dae6147ba737397e951169, type: 2}
+      propertyPath: leavingStory
+      value: 
+      objectReference: {fileID: 1777227328}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0fb91179f0dae6147ba737397e951169, type: 2}
   m_IsPrefabParent: 0
@@ -1036,6 +1044,14 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 11416248, guid: ea5be72ed3642a34eb937a56c36050e2, type: 2}
+      propertyPath: approvalRaiting
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11416248, guid: ea5be72ed3642a34eb937a56c36050e2, type: 2}
+      propertyPath: leavingStory
+      value: 
+      objectReference: {fileID: 1144533702}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ea5be72ed3642a34eb937a56c36050e2, type: 2}
   m_IsPrefabParent: 0
@@ -3456,9 +3472,10 @@ MonoBehaviour:
   mansion: {fileID: 747658263}
   dining: {fileID: 172370359}
   remainingConvoPts: 2
-  dayNumber: 0
+  dayNumber: 1
   gameManager: {fileID: 1343823894}
   morningBeauStory: {fileID: 656819652}
+  leavingBeauStory: {fileID: 1268921657}
   eveningBeauStory: {fileID: 1100236380}
   beauPityStory: {fileID: 1777227328}
   daySprites:
@@ -3476,6 +3493,7 @@ MonoBehaviour:
   JohnStory: {fileID: 764885214}
   PatStory: {fileID: 293256111}
   NoelleStory: {fileID: 867184827}
+  convoActivated: 0
   endOfDay: 1
 --- !u!114 &1265463713 stripped
 MonoBehaviour:
@@ -4651,6 +4669,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scriptedTutorial: {fileID: 1632717646}
   dayManager: {fileID: 1235006029}
+  gameManager: {fileID: 0}
 --- !u!4 &2007896272
 Transform:
   m_ObjectHideFlags: 0
