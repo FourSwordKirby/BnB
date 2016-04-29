@@ -16,6 +16,33 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &107682
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 481326}
+  m_Layer: 0
+  m_Name: Marriage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &481326
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 107682}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 485024}
+  m_RootOrder: 0
 --- !u!4 &485024
 Transform:
   m_ObjectHideFlags: 1
@@ -23,9 +50,10 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 107422}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 134.3958, y: 34.045036, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 481326}
   m_Father: {fileID: 0}
   m_RootOrder: 0
 --- !u!114 &11455622
@@ -42,9 +70,12 @@ MonoBehaviour:
   designation: 2
   currentStory: {fileID: 0}
   marriageStory: {fileID: 0}
+  leavingStory: {fileID: 0}
   approvalRaiting: 0
   giftStatus: 0
+  departed: 0
   convoTracker: 0
+  dinner: 0
   fullBodySprite: {fileID: 21300000, guid: cd165f095acbd984e97f62dec14ee5db, type: 3}
   loveInterestSprites:
   - {fileID: 21300000, guid: 2ed9237b45d529f4696445b7ff22ae7c, type: 3}
@@ -53,7 +84,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: c77014f34958c5d42a5450018c5fb561, type: 3}
   - {fileID: 21300000, guid: d4371b8fb54598549acc8802c24ab7dd, type: 3}
   - {fileID: 21300000, guid: df97e359a501c7643ae5e4d8aee09e0b, type: 3}
-  - {fileID: 21300000, guid: d34568f167d47064a8b3babb5a6a7855, type: 3}
+  - {fileID: 0}
   loveInterestIcon: {fileID: 21300000, guid: da8c169e23b4d7a4492a48287284588d, type: 3}
 --- !u!1001 &100100000
 Prefab:
