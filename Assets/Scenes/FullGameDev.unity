@@ -364,7 +364,9 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1828054785}
+  - {fileID: 503656938}
   m_Father: {fileID: 629012136}
   m_RootOrder: 1
 --- !u!1 &145241168
@@ -889,6 +891,48 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!1 &503656937
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 503656938}
+  - 114: {fileID: 503656939}
+  m_Layer: 0
+  m_Name: lucilleDepart
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &503656938
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 503656937}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 113452938}
+  m_RootOrder: 1
+--- !u!114 &503656939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 503656937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31bf07e0d334e194ebb87881fd48080b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoPlay: 1
+  StartPassage: Start
+  AdditionalHooks: []
 --- !u!114 &508403659 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11469088, guid: bdab7ec851aeb4a88bb076902bee9087,
@@ -1185,16 +1229,18 @@ Prefab:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 11416248, guid: ea5be72ed3642a34eb937a56c36050e2, type: 2}
-      propertyPath: approvalRaiting
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11416248, guid: ea5be72ed3642a34eb937a56c36050e2, type: 2}
       propertyPath: leavingStory
       value: 
-      objectReference: {fileID: 1144533702}
+      objectReference: {fileID: 628843120}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ea5be72ed3642a34eb937a56c36050e2, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &628843120 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11496820, guid: ea5be72ed3642a34eb937a56c36050e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 628843119}
+  m_Script: {fileID: 11500000, guid: 0a39aab092837f34488ad48b2edfa4f3, type: 3}
 --- !u!1 &629012135
 GameObject:
   m_ObjectHideFlags: 0
@@ -4140,6 +4186,7 @@ MonoBehaviour:
   gameManager: {fileID: 1343823894}
   morningBeauStory: {fileID: 656819652}
   leavingBeauStory: {fileID: 1268921657}
+  leavingBeauEnd: {fileID: 0}
   eveningBeauStory: {fileID: 1100236380}
   beauPityStory: {fileID: 1777227328}
   daySprites:
@@ -5385,6 +5432,48 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!1 &1828054784
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1828054785}
+  - 114: {fileID: 1828054786}
+  m_Layer: 0
+  m_Name: lucilleMarriage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1828054785
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1828054784}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 113452938}
+  m_RootOrder: 0
+--- !u!114 &1828054786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1828054784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e507b8c091a845cebddf0a6f077356d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoPlay: 1
+  StartPassage: Start
+  AdditionalHooks: []
 --- !u!224 &1850603301
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5707,8 +5796,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   designation: 2
   currentStory: {fileID: 0}
-  marriageStory: {fileID: 0}
-  leavingStory: {fileID: 962748809}
+  marriageStory: {fileID: 1828054786}
+  leavingStory: {fileID: 503656939}
   approvalRaiting: 0
   giftStatus: 0
   departed: 0
