@@ -2973,10 +2973,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 11455622, guid: 0fb91179f0dae6147ba737397e951169, type: 2}
-      propertyPath: approvalRaiting
-      value: -31
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0fb91179f0dae6147ba737397e951169, type: 2}
   m_IsPrefabParent: 0
@@ -3546,7 +3542,7 @@ MonoBehaviour:
   mansion: {fileID: 747658263}
   dining: {fileID: 172370359}
   remainingConvoPts: 2
-  dayNumber: 1
+  dayNumber: 0
   gameManager: {fileID: 1343823894}
   morningBeauStory: {fileID: 656819652}
   leavingBeauStory: {fileID: 235834428}
@@ -4315,6 +4311,10 @@ Prefab:
       propertyPath: loveInterestInfo
       value: 
       objectReference: {fileID: 1671855392}
+    - target: {fileID: 145642, guid: 5be722bbcb5410b418debb3903e7d79c, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5be722bbcb5410b418debb3903e7d79c, type: 2}
   m_IsPrefabParent: 0

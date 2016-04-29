@@ -25,7 +25,6 @@ BEAUREGARD: Now, choose a dining companion or I'll do it for you!
 
 
 :: Henrietta.
-#hen_dinner, +1#
 %1, <beau>, <center>, <frown>%
 BEAUREGARD: Oh. The...lovely Miss Henrietta. Right. 
 
@@ -36,13 +35,9 @@ BEAUREGARD: Well, I'll, um. I suppose I'll set out some...hay? And remove the ch
 [[%hen_dinner, 1, 1%<i>The table is set.</i>|hen2]]
 [[%hen_dinner, 2, 2%<i>The table is set.</i>|hen3]]
 [[%hen_dinner, 3, 3%<i>The table is set.</i>|hen4]]
-[[%hen_dinner, 4, 4%<i>The table is set.</i>|hen5]]
-[[%hen_dinner, 5, 5%<i>The table is set.</i>|hen6]]
-[[%hen_dinner, 6, 6%<i>The table is set.</i>|hen7]]
 
 
 :: Lucille.
-#lucy_dinner, +1#
 %1, <beau>, <center>, <neutral>%
 BEAUREGARD: Miss Lucille. Well. That's certainly an...interesting choice.
 
@@ -52,13 +47,9 @@ BEAUREGARD: I'll be sure to provide the table with plenty of wine tonight, sire.
 [[%lucy_dinner, 1, 1%<i>The table is set.</i>|lucy2]]
 [[%lucy_dinner, 2, 2%<i>The table is set.</i>|lucy3]]
 [[%lucy_dinner, 3, 3%<i>The table is set.</i>|lucy4]]
-[[%lucy_dinner, 4, 4%<i>The table is set.</i>|lucy5]]
-[[%lucy_dinner, 5, 5%<i>The table is set.</i>|lucy6]]
-[[%lucy_dinner, 6, 6%<i>The table is set.</i>|lucy7]]
 
 
 :: Noelle.
-#noelle_dinner, +1#
 %1, <beau>, <center>, <smile>%
 BEAUREGARD: Ah, Miss Noelle. Perfect.
 
@@ -68,14 +59,9 @@ BEAUREGARD: I'll get everything ready for you two. I'm sure it will be a perfect
 [[%noelle_dinner, 1, 1%<i>The table is set.</i>|noe2]]
 [[%noelle_dinner, 2, 2%<i>The table is set.</i>|noe3]]
 [[%noelle_dinner, 3, 3%<i>The table is set.</i>|noe4]]
-[[%noelle_dinner, 4, 4%<i>The table is set.</i>|noe5]]
-[[%noelle_dinner, 5, 5%<i>The table is set.</i>|noe6]]
-[[%noelle_dinner, 6, 6%<i>The table is set.</i>|noe7]]
-
 
 
 :: Patrice.
-#pat_dinner, +1#
 %1, <beau>, <center>, <smile>%
 BEAUREGARD: Miss Patrice. A fine choice, sire.
 
@@ -85,13 +71,9 @@ BEAUREGARD: I'll make sure everything is just perfect for this evening!
 [[%pat_dinner, 1, 1%<i>The table is set.</i>|pat2]]
 [[%pat_dinner, 2, 2%<i>The table is set.</i>|pat3]]
 [[%pat_dinner, 3, 3%<i>The table is set.</i>|pat4]]
-[[%pat_dinner, 4, 4%<i>The table is set.</i>|pat5]]
-[[%pat_dinner, 5, 5%<i>The table is set.</i>|pat6]]
-[[%pat_dinner, 6, 6%<i>The table is set.</i>|pat7]]
 
 
 :: Jane.
-#john_dinner, +1#
 %1, <beau>, <center>, <smile>%
 BEAUREGARD: Miss Jane! Lovely.
 
@@ -101,22 +83,21 @@ BEAUREGARD: You dinner for two will be ready momentarily, sire!
 [[%john_dinner, 1, 1%<i>The table is set.</i>|john2]]
 [[%john_dinner, 2, 2%<i>The table is set.</i>|john3]]
 [[%john_dinner, 3, 3%<i>The table is set.</i>|john4]]
-[[%john_dinner, 4, 4%<i>The table is set.</i>|john5]]
-[[%john_dinner, 5, 5%<i>The table is set.</i>|john6]]
-[[%john_dinner, 6, 6%<i>The table is set.</i>|john7]]
 
 
 :: hen1
+#hen_dinner, +1#
 #hen_approval, +5#
 %1, <hen>, <center>, <neutral>%
 <i>The evening is calm, and pleasant. The dining room's comfortable silence is broken only by the rhythmic sounds of a cow chewing her cud.</i>
 
 <i>You might be imagining it, but there seems to be a happy gleam to Miss Henrietta's eyes.</i>
 
-<i>You walk Henrietta back to the pastures outside as gallantly as a beast walking alongside a cow  can.</i>
+<i>You walk Henrietta back to the pastures outside as gallantly as a beast walking alongside a cow can.</i>
 
 
 :: lucy1
+#lucy_dinner, +1#
 #lucy_approval, +5#
 %1, <lucy>, <center>, <smile>%
 <i>It's a good thing Beauregard provided plenty of wine--Lucille goes straight for the glass bottles and starts knocking back drink after drink.</i>
@@ -131,6 +112,7 @@ BEAUREGARD: You dinner for two will be ready momentarily, sire!
 
 
 :: noe1
+#noelle_dinner, +1#
 #noelle_approval, +5#
 %1, <noelle>, <center>, <smile>%
 <i>As usual, the lady Noelle is the very picture of grace and poise. She handles herself with the air of one graciously bestowing her presence upon unworthy surroundings.</i>
@@ -143,6 +125,7 @@ BEAUREGARD: You dinner for two will be ready momentarily, sire!
 
 
 :: pat1
+#pat_dinner, +1#
 #pat_approval, +5#
 %1, <pat>, <center>, <smile>%
 <i>Pat is as kind and complimentary as always. Each course seems to amaze her more than the last, and it's clear that her pleased exclamations are sincere.</i>
@@ -155,6 +138,7 @@ BEAUREGARD: You dinner for two will be ready momentarily, sire!
 
 
 :: john1
+#john_dinner, +1#
 #john_approval, +5#
 %1, <john>, <center>, <smile>%
 <i>Jane has the uncanny ability to make even the smallest of things into grand jokes, and over the course of the evening, this ability starts to rub off on you. </i>
@@ -167,170 +151,172 @@ BEAUREGARD: You dinner for two will be ready momentarily, sire!
 
 
 :: hen2
+#hen_dinner, +1#
+#hen_approval, +5#
+%1, <hen>, <center>, <neutral>%
+<i>The evening is calm, and pleasant. The dining room's comfortable silence is broken only by the rhythmic sounds of a cow chewing her cud.</i>
 
+<i>Henrietta gives a soft, grateful moo when you pile more hay and oats onto her plate.</i>
+
+<i>Without Beauregard watching, you dare to pat her on the head before bidding her goodnight.</i>
 
 
 :: lucy2
+#lucy_dinner, +1#
+#lucy_approval, +5#
+%1, <lucy>, <center>, <smile>%
+<i>As expected, Lucille heads straight for the wine again. This time, at least, she pours it into a glass instead of drinking straight from the bottle.</i>
 
+<i>The conversation this time is much less biting on her end--maybe even something approaching casual, or fond.</i>
+
+<i>She might just be happily drunk, but the smile she gives you when you part ways is fond enough to make you feel pleasantly warm inside anyway.</i>
 
 
 :: noe2
+#noelle_dinner, +1#
+#noelle_approval, +5#
+%1, <noelle>, <center>, <smile>%
+<i>Noelle's curtsy is a little less frosty tonight.</i>
 
+<i>You imagine it must be easier to smile at a monster the more you look at it, and during your last dinner together she looked at you quite a lot.</i>
+
+<i>Her gaze tonight is curious, even confused. Maybe she expects your manners to be more heathenish, or for you to make more difficult conversation. But you strive to be a gentleman.</i>
+
+<i>Your efforts pay off when she offers you a cautious but genuine smile at the end of the night.</i>
 
 
 :: pat2
+#pat_dinner, +1#
+#pat_approval, +5#
+%1, <pat>, <center>, <smile>%
+<i>This time, with one dinner with you already under her belt, Pat is more comfortable at the start of the evening.</i>
 
+<i>She makes light but polite conversation during the whole of dinner, occasionally interrupting herself to marvel at the food. </i>
+
+<i>You bow to her before she leaves for bed, and the smile she gives you this time is shy and sweet.</i>
 
 
 :: john2
+#john_dinner, +1#
 #john_approval, +5#
 %1, <john>, <center>, <smile>%
-<i>Jane has the uncanny ability to make even the smallest of things into grand jokes, and over the course of the evening, this ability starts to rub off on you. </i>
+<i>Your second dinner with Jane is as entertaining as the first.</i>
 
-<i>Eating with your ungainly claws becomes a source of laughter rather than embarrassment. </i>
+<i>You're prepared this time; it doesn't take long to slip back into the increasingly-familiar routine of hamming up your inability to eat with grace like a normal, claw-less human.</i>
 
-<i>Your struggle with a spoonful of soup makes both ends of the table turn red in the face from laughing--not that your skin is really visible under all the fur.</i>
-
-<i>You're still laughing as you part ways.</i>
+<i>Jane's hysterical laughter follows you all the way back to your room.</i>
 
 
 :: hen3
+#hen_dinner, +1#
+#hen_approval, +5#
+%1, <hen>, <center>, <neutral>%
+<i>Henrietta eats with a grace and delicacy you can only dream of possessing. You wish, not for the first time, that you could cut out the middle man and eat straight from your plate, as she does.</i>
 
+<i>Henrietta carries a conversation with you as well as any cow can--maybe even better than some humans. Her coy moos are music to your ears.</i>
+
+<i>It's a shame Henrietta can't take your arm as you walk her back to the pastures. You rest your hand on her back instead. She doesn't seem to mind.</i>
 
 
 :: lucy3
+#lucy_dinner, +1#
+#lucy_approval, +5#
+%1, <lucy>, <center>, <smile>%
+<i>The wine you've put out tonight is a white rather than the red she prefers, but aside from a raised eyebrow, Lucille downs it without complaint. You take this as a good sign.</i>
 
+<i>If you didn't know better, you'd say Lucille was almost glad to be dining with you. But you do know better, and so you know to take the pleasant conversation at face value.</i>
+
+<i>Still, no matter the reason, the night is incredibly pleasant. You aren't even offended when she calls you a "big lug" during her farewell.</i>
 
 
 :: noe3
+#noelle_dinner, +1#
+#noelle_approval, +5#
+%1, <noelle>, <center>, <smile>%
+<i>Noelle seems almost comfortable, now. Sharing two dinners with you has done wonders for her tolerance of your appearance.</i>
 
+<i>Still, you take care to keep the conversation light and easy; manners and formalities are clearly where Noelle feels most comfortable, and you would hate to ruin the mood.</i>
+
+<i>The low, exaggerated bow you give her while parting ways is received by a genuine, eye-sparkling smile.</i>
 
 
 :: pat3
+#pat_dinner, +1#
+#pat_approval, +5#
+%1, <pat>, <center>, <smile>%
+<i>Patrice smiles at you at the start of the evening, and when you give her a toothy smile in return, she doesn't recoil even a little bit. It's a startling indicator of process.</i>
 
+<i>Conversation through dinner is warm and comfortable, but it's also very clear that you're both keeping the topics light so as not to hit upon any touchy subjects.</i>
+
+<i>When you part ways for the night, Patrice surprises you by dipping into a low curtsy before you can bow. Her smile is almost cheeky as she turns to leave.</i>
 
 
 :: john3
+#john_dinner, +1#
 #john_approval, +5#
 %1, <john>, <center>, <smile>%
-<i>Jane has the uncanny ability to make even the smallest of things into grand jokes, and over the course of the evening, this ability starts to rub off on you. </i>
+<i>Jane has a particularly playful spark in her eyes this evening, and as the courses are brought out, you understand why.</i>
 
-<i>Eating with your ungainly claws becomes a source of laughter rather than embarrassment. </i>
+<i>It seems that tonight, Jane has made it her business to compete with you for the title of messiest eater. Loud slurps and chewing sounds fill the room.</i>
 
-<i>Your struggle with a spoonful of soup makes both ends of the table turn red in the face from laughing--not that your skin is really visible under all the fur.</i>
-
-<i>You're still laughing as you part ways.</i>
-
-
-:: hen4
-
-
-
-:: lucy4
-
-
-
-:: noe4
-
-
-
-:: pat4
-
-
-
-:: john4
-#john_approval, +5#
-%1, <john>, <center>, <smile>%
-<i>Jane has the uncanny ability to make even the smallest of things into grand jokes, and over the course of the evening, this ability starts to rub off on you. </i>
-
-<i>Eating with your ungainly claws becomes a source of laughter rather than embarrassment. </i>
-
-<i>Your struggle with a spoonful of soup makes both ends of the table turn red in the face from laughing--not that your skin is really visible under all the fur.</i>
-
-<i>You're still laughing as you part ways.</i>
-
-
-:: hen5
-
-
-
-:: lucy5
-
-
-
-:: pat5
-
-
-
-:: noe5
-
+<i>Beauregard's face is dripping with distaste at your lack of manners, but with Jane's laughter filling your ears, you can't bring yourself to care.</i>
 
 
 :: john5
 #john_approval, +5#
 %1, <john>, <center>, <smile>%
-<i>Jane has the uncanny ability to make even the smallest of things into grand jokes, and over the course of the evening, this ability starts to rub off on you. </i>
+<i>By now, eating with Jane is as comfortable as eating by yourself. She isn't disgusted by your lack of table manners, or put off by your appetite for meat.</i>
 
-<i>Eating with your ungainly claws becomes a source of laughter rather than embarrassment. </i>
-
-<i>Your struggle with a spoonful of soup makes both ends of the table turn red in the face from laughing--not that your skin is really visible under all the fur.</i>
-
-<i>You're still laughing as you part ways.</i>
+<i>She treats you as an equal at the dinner table, and you couldn't hope for anything better.</i>
 
 
-:: hen6
+:: hen4
+#hen_approval, +5#
+%1, <hen>, <center>, <neutral>%
+<i>How did you even manage when you were unable to have dinner with Henrietta? You can't even imagine how awful it would be to return to such a life.<i>
+
+<i>You feel, once again, that you're the luckiest man in the world to get to enjoy such peaceful and cozy dinners. And with such a polite dinner guest, too.</i>
+
+<i>Your goodbye to Henrietta is a paw softly combing through the hair at the back of her neck. She bats her eyes at you, and you force yourself to part from her and return to your room.</i>
 
 
+:: lucy4
+#lucy_approval, +5#
+%1, <lucy>, <center>, <smile>%
+<i>Lucille goes so far as to tip the wine bottle in your direction tonight, silently offering you the first drink. You decline--alcohol wreaks havoc on your cursed digestive system.</i>
 
-:: pat6
+<i>Tonight, Lucille is as light-hearted as you've ever heard her be. She laughs easily, makes several ridiculous toasts, and is generally good company.</i>
 
-
-
-:: lucy6
-
-
-
-:: noe6
+<i>You dare to think, as you head back to your room, that it wasn't because of the wine.</i>
 
 
+:: noe4
+#noelle_approval, +5#
+%1, <noelle>, <center>, <smile>%
+<i>The Noelle at dinner tonight is almost unrecognizeable when compared to the Noelle you dined with for the first time. She smiles, makes light but witty conversation, and even laughs.</i>
 
-:: john6
+<i>Your careful motions while eating do not go unnoticed; by now Noelle knows that your claws make it difficult for you to eat normally, and that you're making the effort for her.</i>
+
+<i>Your toothy smile at the end of the night doesn't seem to bother her in the least, and that, more than anything, feels like a victory.</i>
+
+
+:: pat4
+#pat_approval, +5#
+%1, <pat>, <center>, <smile>%
+<i>Patrice smiles, and you smile back as the first course is brought out. Beauregard glances between the two of you in what he probably thinks is a sly manner.</i>
+
+<i>By now, Patrice is completely at ease during dinner, and you manage to discuss more personal and political topics. She listens and responds with a startling amount of thought.</i>
+
+<i>Parting ways is comfortable, and easy--so comfortable that you go so far as to kiss her hand, in as gentlemanly a fashion as you can manage with a mouthful of fangs.</i>
+
+
+:: john4
 #john_approval, +5#
 %1, <john>, <center>, <smile>%
-<i>Jane has the uncanny ability to make even the smallest of things into grand jokes, and over the course of the evening, this ability starts to rub off on you. </i>
+<i>It's easy to forget your beastly appearance during the hours you spend at the dinner table with Jane.</i>
 
-<i>Eating with your ungainly claws becomes a source of laughter rather than embarrassment. </i>
+<i>As usual, she is completely unfazed by your looks, and you find yourself playing up the growls and slurps you make while eating just to amuse her.</i>
 
-<i>Your struggle with a spoonful of soup makes both ends of the table turn red in the face from laughing--not that your skin is really visible under all the fur.</i>
-
-<i>You're still laughing as you part ways.</i>
-
-
-:: hen7
-
-
-
-:: lucy7
-
-
-
-:: noe7
-
-
-
-:: pat7
-
-
-
-:: john7
-#john_approval, +5#
-%1, <john>, <center>, <smile>%
-<i>Jane has the uncanny ability to make even the smallest of things into grand jokes, and over the course of the evening, this ability starts to rub off on you. </i>
-
-<i>Eating with your ungainly claws becomes a source of laughter rather than embarrassment. </i>
-
-<i>Your struggle with a spoonful of soup makes both ends of the table turn red in the face from laughing--not that your skin is really visible under all the fur.</i>
-
-<i>You're still laughing as you part ways.</i>
+<i>When you go to bed that night, your cheeks hurt from smiling.</i>
 
 
