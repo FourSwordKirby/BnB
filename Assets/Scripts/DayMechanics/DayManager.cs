@@ -74,7 +74,7 @@ public class DayManager : MonoBehaviour {
         foreach(Room room in mansion.Rooms)
             room.inhabitants = new List<LoveInterest>();
 
-        foreach(LoveInterest suitor in gameManager.loveInterests.Where(x => x.giftStatus == 3))
+        foreach(LoveInterest suitor in gameManager.loveInterests.Where(x => x.giftStatus == 2))
             suitor.giftStatus++;
 
         gameManager.getLoveInterest(GameManager.LoveInterestName.Noelle).currentStory = NoelleStory;
