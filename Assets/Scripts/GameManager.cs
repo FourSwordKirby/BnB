@@ -88,6 +88,7 @@ public class GameManager : MonoBehaviour {
 
     public static IEnumerator BeginDinner(Room room, TwineStory dinnerStory)
     {
+        sfxManager.play("DinnerChime");
         loveInterestControls.hideLoveInterests();
 
         screenFader.setFadeTime(0.75f);
@@ -156,6 +157,7 @@ public class GameManager : MonoBehaviour {
 
     public static IEnumerator MoveToRoom(Room room)
     {
+        sfxManager.play("RoomTransition");
         screenFader.setFadeTime(0.75f);
         screenFader.FadeToBlack();
 

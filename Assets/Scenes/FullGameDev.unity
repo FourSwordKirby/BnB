@@ -861,7 +861,7 @@ Prefab:
     - target: {fileID: 11455622, guid: 0fb91179f0dae6147ba737397e951169, type: 2}
       propertyPath: leavingStory
       value: 
-      objectReference: {fileID: 1777227328}
+      objectReference: {fileID: 962748809}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0fb91179f0dae6147ba737397e951169, type: 2}
   m_IsPrefabParent: 0
@@ -1474,8 +1474,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 87e4a9d6c6a5aa94e8d1ee23fe26642e, type: 3}
   - {fileID: 8300000, guid: af4b9093a832fbd498e963b6ea71806c, type: 3}
   - {fileID: 8300000, guid: bfcdff8647498bb4396e9fd826eab61a, type: 3}
-  - {fileID: 8300000, guid: d27028db320404b40a39139876030bfb, type: 3}
-  - {fileID: 8300000, guid: d27028db320404b40a39139876030bfb, type: 3}
+  - {fileID: 8300000, guid: 4a35c3d41c4d2704ca15c62af588b50d, type: 3}
+  - {fileID: 8300000, guid: 16c6de1f6260f264ab84b7e652b75c1a, type: 3}
   - {fileID: 8300000, guid: d27028db320404b40a39139876030bfb, type: 3}
 --- !u!114 &707312467
 MonoBehaviour:
