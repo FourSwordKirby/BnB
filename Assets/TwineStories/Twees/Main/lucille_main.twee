@@ -309,6 +309,7 @@ LUCILLE: Oldbridge. You probably haven't heard of it. It's mostly just a bunch o
 
 :: At least my wine cellar is being put to good use.
 #lucy_approval, +5#
+$LucySmile$
 %1, <lucy>, <center>, <smile>%
 LUCILLE: You're telling me! There are some great vintages in here. 
 
@@ -336,6 +337,7 @@ LUCILLE: If you want to blame someone for my being here, you should try looking 
 
 :: A straight answer would be nice.
 #lucy_approval, -5#
+$LucyAngry$
 %1, <lucy>, <center>, <neutral>%
 LUCILLE: We all want things. Most of us just get used to disappointment.
 
@@ -362,20 +364,22 @@ LUCILLE: It has the added effect of keeping people the hell away from me.
 
 
 :: sarcasm1
+$LucySmile$
 #lucy_approval, +5#
 %1, <lucy>, <center>, <smile>%
 LUCILLE: Hah. So there's a sense of humor under all that fur after all.
 
-[[Making jokes about my fur? Seems like you're getting comfy.]]
+[[Making jokes about my fur? You're getting comfy.]]
 [[I was afraid I was getting rusty.]]
 
 
 :: That wasn't an attack. I was just curious.
+$LucyAngry$
 #lucy_approval, -5#
 %1, <lucy>, <center>, <frown>%
 LUCILLE: Wow. You're a real buzzkill, huh? My mom'd love you. Well, maybe she would without all the fur.
 
-[[Making jokes about my fur? Seems like you're getting comfy.]]
+[[Making jokes about my fur? You're getting comfy.]]
 [[I'm not used to talking to people.|I was afraid I was getting rusty.]]
 
 
@@ -455,6 +459,7 @@ LUCILLE: Can we talk about something else now?
 
 :: It was his idea.
 #lucy_approval, -5#
+$LucyAngry$
 %1, <lucy>, <center>, <frown>%
 LUCILLE: Right, right! And you're just the lucky beneficiary. 
 
@@ -483,6 +488,7 @@ LUCILLE: Our town had to send a girl, and I volunteered. Seemed like the best th
 
 
 :: So you <i>never</i> enjoyed life on a farm?
+$LucySmile$
 %1, <lucy>, <center>, <frown>%
 LUCILLE: Well...
 
@@ -545,7 +551,7 @@ LUCILLE: It has the added effect of keeping people the hell away from me.
 [[So I do have a hope of impressing you, eventually.]]
 
 
-:: Making jokes about my fur? Seems like you're getting comfy.
+:: Making jokes about my fur? You're getting comfy.
 #lucy_approval, +5#
 %1, <lucy>, <center>, <smile>%
 LUCILLE: Despite my better judgement, yeah. I guess I am.
@@ -578,6 +584,7 @@ LUCILLE: I guess I don't really have any room to judge. Can we talk about someth
 
 
 :: Must be nice to have parents.
+$LucyAngry$
 #lucy_approval, -10#
 %1, <lucy>, <center>, <frown>%
 LUCILLE: Ugh. Spare me the pity party, will you? I don't have time for a poncy prince's tears.
@@ -670,6 +677,7 @@ LUCILLE: Can we talk about something else now?
 
 
 :: I'm not sure I could've done that.
+$LucySmile$
 #lucy_approval, +5#
 %1, <lucy>, <center>, <neutral>%
 LUCILLE: It really wasn't a big deal. Someone had to go, and I was the best option.
@@ -683,6 +691,7 @@ LUCILLE: Can we talk about something else now?
 
 
 :: So I do have a hope of impressing you, eventually.
+$LucySmile$
 #lucy_approval, +5#
 %1, <lucy>, <center>, <neutral>%
 LUCILLE: Slow down, there, loverboy. I may have volunteered for this, but that doesn't mean I'm looking forward to getting married.
@@ -723,6 +732,7 @@ LUCILLE: Can we talk about something else now?
 
 :: They were very wrong.
 #lucy_approval, +5#
+$LucyBlush$
 %1, <lucy>, <center>, <blush>%
 LUCILLE: Alright, calm down. There's no need for you to spout vapid flattery.
 
@@ -733,6 +743,7 @@ LUCILLE: Can we talk about something else now?
 
 
 :: I told him he could leave whenever he wanted.
+$LucySmile$
 #lucy_approval, +5#
 %1, <lucy>, <center>, <frown>%
 LUCILLE: And he chose to stay, hm?
@@ -746,6 +757,7 @@ LUCILLE: Can we talk about something else now?
 
 
 :: Why? I haven't been able to.
+$LucyAngry$
 #lucy_approval, -5#
 %1, <lucy>, <center>, <frown>%
 LUCILLE: Oh, lord. Please uninvite me from this pity party already.
@@ -775,6 +787,7 @@ LUCILLE: If I had my way, I'd never go back there. Ever.
 
 :: We both know you don't look as bad as I do.
 #lucy_approval, +5#
+$LucySmile$
 %1, <lucy>, <center>, <blush>%
 LUCILLE: Right. Because so many people look worse than you. 
 
@@ -809,6 +822,7 @@ LUCILLE: I haven't made any good memories in Oldbridge since I was a kid. I doub
 
 :: I'm almost offended.
 #lucy_approval, +5#
+$LucySmile$
 %1, <lucy>, <center>, <smile>%
 LUCILLE: But not quite? Damn, I'll have to try harder.
 
@@ -896,6 +910,7 @@ LUCILLE: Of course, then my one friend left Oldbridge, so for the past few years
 
 
 :: That can't be easy.
+$LucySmile$
 #lucy_approval, +10#
 %1, <lucy>, <center>, <neutral>%
 LUCILLE: ...Well. I mean, in some ways it is, some ways it isn't. 
@@ -963,6 +978,7 @@ LUCILLE: I'm sure everyone back home will just think you've killed me--maybe eve
 
 :: You're not wrong.
 #lucy_approval, +5#
+$LucySmile$
 %1, <lucy>, <center>, <smile>%
 LUCILLE: Ha! I knew it. 
 
@@ -974,6 +990,7 @@ LUCILLE: Everyone always talks about how amazing the city is, but I knew it coul
 
 
 :: Paris is beautiful! The buildings, the culture, the river Seine...
+$LucyAngry$
 %1, <lucy>, <center>, <frown>%
 LUCILLE: So you're one of them too, huh? The starry-eyed Paris-loving sort?
 
@@ -986,6 +1003,7 @@ LUCILLE: Even sounds like you've been there. But I won't be taken in that easily
 
 :: It has some of the best wine in the world, though.
 #lucy_approval, +5#
+$LucySmile$
 %1, <lucy>, <center>, <smile>%
 LUCILLE: That's a good point. Never thought of it that way.
 
@@ -1009,6 +1027,7 @@ LUCILLE: Can we talk about something else now?
 
 
 :: Excuse me for trying to get personal.
+$LucyAngry$
 %1, <lucy>, <center>, <angry>%
 LUCILLE: You're not excused. Not at all.
 
@@ -1204,6 +1223,7 @@ LUCILLE: Fine, then. Leave me be. It's what I'm used to, anyway.
 
 
 :: That would've been a sight.
+$LucySmile$
 %1, <lucy>, <center>, <smile>%
 LUCILLE: Oh, sure, it would've been funny enough until a girl half your height started yelling at you.
 
@@ -1228,6 +1248,7 @@ LUCILLE: But, no, I wasn't always like this. I used to be very eager to please, 
 
 :: I'm glad you didn't.
 #lucy_approval, +5#
+$LucySmile$
 %1, <lucy>, <center>, <neutral>%
 LUCILLE: Yeah, yeah, don't go laying it on too thick.
 
@@ -1284,6 +1305,7 @@ LUCILLE: I wanted to go with her, but...
 
 :: I was just trying to be nice.
 #lucy_approval, -5#
+$LucyAngry$
 %1, <lucy>, <center>, <frown>%
 LUCILLE: Great. Yeah. Should've known.
 
@@ -1365,6 +1387,7 @@ LUCILLE: And now I've grown up to become drunker. And meaner.
 
 
 :: What happened?
+$LucyAngry$
 %1, <lucy>, <center>, <frown>%
 LUCILLE: Stop. Just stop.
 
@@ -1432,6 +1455,7 @@ LUCILLE: ...Can we talk about something else now?
 
 :: You underestimate your appeal.
 #lucy_approval, +15#
+$LucyBlush$
 %1, <lucy>, <center>, <blush>%
 LUCILLE: I. Um.
 
@@ -1455,6 +1479,7 @@ LUCILLE: Can we talk about something else now?
 
 :: I can relate.
 #lucy_approval, +10#
+$LucySmile$
 %1, <lucy>, <center>, <neutral>%
 LUCILLE: Oh, yeah? You drunk under all that fur, too?
 

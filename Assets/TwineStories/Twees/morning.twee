@@ -39,6 +39,16 @@ BEAUREGARD: Is there anything else you'd like to talk about?
 [[No.|no]]
 
 
+:: n_ii
+#noelle_item, +1#
+BEAUREGARD: Of course, sire. Here it is!
+
+BEAUREGARD: Is there anything else you'd like to discuss?
+
+[[Yes. One of the women in the castle.|women]]
+[[No.|no]]
+
+
 :: Start
 #convo_points, +2#
 %1, <beau>, <center>, <smile>%
@@ -52,6 +62,11 @@ BEAUREGARD: Is there anything you require of me this morning?
 [[%pat_gift, 1, 1%Could you retrieve a gift for Patrice?|p_i]]
 [[%lucy_gift, 1, 1%Could you retrieve a gift for Lucille?|l_i]]
 [[%hen_gift, 1, 1%Could you retrieve a gift for Henrietta?|h_i]]
+[[%noelle_gift, 3,3%Do you have the gift I asked you for?|n_ii]]
+[[%john_gift, 3,3%Do you have the gift I asked you for?|j_ii]]
+[[%pat_gift, 3,3%Do you have the gift I asked you for?|p_ii]]
+[[%lucy_gift, 3,3%Do you have the gift I asked you for?|l_ii]]
+[[%hen_gift,3,3%Do you have the gift I asked you for?|h_ii]]
 [[No, thank you Beauregard. You're free to go.|no]]
 
 
@@ -97,7 +112,18 @@ BEAUREGARD: Is there anything else you'd like to talk about?
 [[No.|no]]
 
 
+:: p_ii
+#pat_gift, +1#
+BEAUREGARD: Of course, sire. Here it is!
+
+BEAUREGARD: Is there anything else you'd like to discuss?
+
+[[Yes. One of the women in the castle.|women]]
+[[No.|no]]
+
+
 :: women
+$BeauSmile$
 %1, <beau>, <center>, <smile>%
 BEAUREGARD: Of course, sire. Who is it you'd like to talk about?
 
@@ -119,6 +145,7 @@ BEAUREGARD: Of course, sire. Who is it you'd like to talk about?
 
 
 :: no
+$BeauSmile$
 BEAUREGARD: Very well, sire. I wish you a good day, and good luck!
 
 
@@ -164,7 +191,18 @@ BEAUREGARD: Is there anything else you'd like to talk about?
 [[No.|no]]
 
 
+:: j_ii
+#john_item, +1#
+BEAUREGARD: Of course, sire. Here it is!
+
+BEAUREGARD: Is there anything else you'd like to discuss?
+
+[[Yes. One of the women in the castle.|women]]
+[[No.|no]]
+
+
 :: No.
+$BeauSmile$
 %1, <beau>, <center>, <smile>%
 BEAUREGARD: Very well, sire. Is there anything else I can help with?
 
@@ -188,6 +226,16 @@ BEAST: Lucille hasn't seen her best friend in years. Could you find out whatever
 BEAUREGARD: As you wish. I should have it for you tomorrow morning.
 
 BEAUREGARD: Is there anything else you'd like to talk about?
+
+[[Yes. One of the women in the castle.|women]]
+[[No.|no]]
+
+
+:: l_ii
+#lucy_item, +1#
+BEAUREGARD: Of course, sire. Here it is!
+
+BEAUREGARD: Is there anything else you'd like to discuss?
 
 [[Yes. One of the women in the castle.|women]]
 [[No.|no]]
@@ -221,6 +269,16 @@ BEAST: Henrietta's old home had pastures with a sweeter type of grass. Would you
 BEAUREGARD: As you wish. I should have it for you tomorrow morning.
 
 BEAUREGARD: Is there anything else you'd like to talk about?
+
+[[Yes. One of the women in the castle.|women]]
+[[No.|no]]
+
+
+:: h_ii
+#hen_item, +1#
+BEAUREGARD: Of course, sire. Here it is!
+
+BEAUREGARD: Is there anything else you'd like to discuss?
 
 [[Yes. One of the women in the castle.|women]]
 [[No.|no]]
