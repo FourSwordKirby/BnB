@@ -209,6 +209,7 @@ NOELLE: Is there anything else you'd like to talk about?
 
 
 :: p2
+$NoelleSmile$
 %1, <noelle>, <center>, <smile>%
 NOELLE: Pat is a wonderful friend. I've rarely felt so safe and comfortable with another person.
 
@@ -273,6 +274,7 @@ NOELLE: My father is a man like any other. He has flaws. More than most, perhaps
 
 :: I suppose it must be easier that way.
 #noelle_approval, -5#
+$NoelleAngry$
 %1, <noelle>, <center>, <frown>%
 NOELLE: Yes. <i>Easier.</i> Of course.
 
@@ -285,6 +287,7 @@ NOELLE: Excuse me, sire, but I'd prefer we didn't discuss this any further. Coul
 
 :: That doesn't mean it isn't awful.
 #noelle_approval, +5#
+$NoelleScared$
 %1, <noelle>, <center>, <scared>%
 NOELLE: I...yes. Yes, you're right. 
 
@@ -502,6 +505,7 @@ NOELLE: No matter what you may think of yourself, yes, you are a man. I would be
 
 :: Are you really happy with the way your father's raised you?
 #noelle_approval, -5#
+$NoelleAngry$
 %1, <noelle>, <center>, <frown>%
 NOELLE: I don't really think it's appropriate to ask me such a leading question when we've only just met.
 
@@ -527,6 +531,7 @@ NOELLE: Either ask me something else, or leave.
 
 :: I know what it's like to lose your parents.
 #noelle_approval, +10#
+$NoelleScared$
 %1, <noelle>, <center>, <scared>%
 NOELLE: O-oh. Well. I suppose that makes your invasion of privacy a little less insulting.
 
@@ -548,7 +553,7 @@ NOELLE: Sometimes, I imagine myself somewhere completely different, surrounded b
 %1, <noelle>, <center>, <smile>%
 NOELLE: ...But I suppose everyone must have dreams like that. Besides, my life is good enough as it is. I want for very little.
 
-[['Very little' is still something. What is it you want?]]
+[['Very little' is still something. What do you want?]]
 [[I have the same dream. Every day.]]
 [[It must be nice, to live so comfortably.]]
 
@@ -564,6 +569,7 @@ NOELLE: Will there be anything else, sire?
 
 
 :: Why would you want to get lost?
+$NoelleAngry$
 %1, <noelle>, <center>, <frown>%
 NOELLE: I didn't mean it like that, sire. It was just a--a figure of speech. 
 
@@ -587,6 +593,7 @@ NOELLE: Very well. Goodbye for now.
 
 :: I have the same dream. Every day.
 #noelle_approval, +5#
+$NoelleScared$
 %1, <noelle>, <center>, <scared>%
 NOELLE: I...suppose you must.
 
@@ -605,7 +612,7 @@ NOELLE: Yes. Of course. Not that your highness would know anything about that, l
 [[I don't think it's the same at all. You aren't a monster.]]
 
 
-:: 'Very little' is still something. What is it you want?
+:: 'Very little' is still something. What do you want?
 %1, <noelle>, <center>, <frown>%
 NOELLE: ...I don't know. To be someone else, I suppose.
 
@@ -640,6 +647,7 @@ NOELLE: Will there be anything else, then?
 
 
 :: I wouldn't know what that's like.
+$NoelleScared$
 %1, <noelle>, <center>, <scared>%
 NOELLE: ...Oh.
 
@@ -666,6 +674,7 @@ PATRICE: Is there anything else you wanted to discuss?
 
 :: I'm not sure I do.
 #noelle_approval, -5#
+$NoelleAngry$
 %1, <noelle>, <center>, <frown>%
 NOELLE: I don't know why I expected any different.
 
@@ -747,6 +756,7 @@ NOELLE: This topic is wearing on me. Is there anything else you wanted to discus
 
 :: I think I do, actually.
 #noelle_approval, +10#
+$NoelleSmile$
 %1, <noelle>, <center>, <smile>%
 NOELLE: Well, then. I suppose I'll give it to you. 
 
@@ -1180,7 +1190,8 @@ NOELLE: This topic is wearing on me. Is there anything else you wanted to discus
 
 :: I think that sounds very exciting, too.
 #noelle_approval, +10#
-%1, <noelle>, <center>, <frown>%
+$NoelleSmile$
+%1, <noelle>, <center>, <smile>%
 NOELLE: It's nice to find someone who agrees.
 
 NOELLE: Is there anything else you wanted to discuss?
@@ -1218,7 +1229,7 @@ NOELLE: And the only reason he would have hidden it is if there was something in
 
 NOELLE: So, naturally, that's what I suspect is in it. My mother hated my father, and would never have left him anything. If anyone was set to recieve her fortune, it would be...me.
 
-NOELLE: But without the will, I'll never know for sure.
+NOELLE: <color="white">But without the will, I'll never know for sure.</color>
 
 [[I'm sorry to hear that.]]
 [[If you marry me, you won't have to worry about money.]]
@@ -1232,7 +1243,7 @@ NOELLE: The only reason he would have hidden it is if there was something in it 
 
 NOELLE: So, naturally, that's what I suspect is in it. My mother hated my father, and would never have left him anything. If anyone was set to recieve her fortune, it would be...me.
 
-NOELLE: But without the will, I'll never know for sure.
+NOELLE: <color="white">But without the will, I'll never know for sure.</color>
 
 [[I'm sorry to hear that.]]
 [[If you marry me, you won't have to worry about money.]]
@@ -1250,7 +1261,7 @@ NOELLE: The only reason he would have hidden it is if there was something in it 
 
 NOELLE: So, naturally, that's what I suspect is in it. My mother hated my father, and would never have left him anything. If anyone was set to recieve her fortune, it would be...me.
 
-NOELLE: But without the will, I'll never know for sure.
+NOELLE: <color="white">But without the will, I'll never know for sure.</color>
 
 [[I'm sorry to hear that.]]
 [[If you marry me, you won't have to worry about money.]]
@@ -1303,6 +1314,7 @@ NOELLE: It just seems like such a romantic notion--moving to a new place full of
 
 NOELLE: They say the New World is unlike anywhere else on Earth. That you can be anyone there.
 
+$NoelleBlush$
 %1, <noelle>, <center>, <blush>%
 NOELLE: ...This is incredibly embarrassing to talk about. I've never said any of this out loud before.
 
@@ -1323,6 +1335,7 @@ NOELLE: You have no idea how difficult it is to be a woman. To have everything e
 
 :: I feel the same way.
 #noelle_approval, +5#
+$NoelleBlush$
 %1, <noelle>, <center>, <blush>%
 NOELLE: O-oh. of course. I mean--I can see why--I mean...
 
@@ -1367,6 +1380,7 @@ NOELLE: I think I'm done talking about this. Is there anything else you wanted t
 
 :: Maybe I can get it for you.
 #noelle_approval, +5#
+$NoelleScared$
 %1, <noelle>, <center>, <scared>%
 NOELLE: That's...
 
@@ -1415,6 +1429,7 @@ NOELLE: Who would you be, if given the chance?
 
 :: Don't stop on my account.
 #noelle_approval, +5#
+$NoelleBlush$
 %1, <noelle>, <center>, <blush>%
 NOELLE: No, please, I couldn't possibly keep talking.
 
@@ -1426,6 +1441,7 @@ NOELLE: No, please, I couldn't possibly keep talking.
 
 :: Thank you for telling me.
 #noelle_approval, +5#
+$NoelleSmile$
 %1, <noelle>, <center>, <blush>%
 NOELLE: The pleasure was all mine. It's rare that I get to talk so openly, especially to a member of the opposite sex.
 
@@ -1529,6 +1545,7 @@ NOELLE: Is there anything else you wanted to discuss?
 
 :: Someone ordinary.
 #noelle_approval, +10#
+$NoelleSmile$
 %1, <noelle>, <center>, <smile>%
 NOELLE: A wise choice.
 

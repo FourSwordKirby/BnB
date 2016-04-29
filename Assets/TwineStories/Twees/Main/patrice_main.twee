@@ -77,6 +77,7 @@ PATRICE: Was there anything else you wanted to ask me?
 PATRICE: Henrietta is such a beautiful cow. I've never seen a beast so fine.
 
 %1, <pat>, <center>, <scared>%
+$PatScared$
 PATRICE: ...Oh, dear. Please pardon my word choice, sire.
 
 %1, <pat>, <center>, <neutral>%
@@ -135,6 +136,7 @@ PATRICE: Oh, thank god. He's alright.
 PATRICE: I was starting to make myself sick worrying about him.
 
 %1, <pat>, <center>, <smile>%
+$PatSmile$
 PATRICE: I can't tell you how grateful I am for this, sire, I really can't.
 
 PATRICE: No one, not even the people in my village, have gone so far to help me. And over something so small!
@@ -150,6 +152,7 @@ PATRICE: Oh, goodness, sire.
 
 PATRICE: I--I didn't think--
 
+$PatSmile$
 PATRICE: Yes, of course I'll marry you! Nothing would make me happier!
 
 &Pat&
@@ -228,6 +231,7 @@ PATRICE: Was there anything else you wanted to ask me?
 
 :: I'm assuming he's out of the picture now, or you wouldn't be here.
 %1, <pat>, <center>, <neutral>%
+$PatSad$
 PATRICE: ...Yes. He died.
 
 [[I'm so sorry.]]
@@ -249,6 +253,7 @@ PATRICE: Well...no. It didn't really seem...important.
 %1, <pat>, <center>, <neutral>%
 PATRICE: Oh, it just, um.
 
+$PatSad$
 PATRICE: He died, your highness. Just after--um. He just died. I would've mentioned it earlier if I thought it was important.
 
 [[You should have.|You were wrong.]]
@@ -286,6 +291,7 @@ PATRICE: Oh! Yes. Yes, of course. What would you like to know?
 %1, <pat>, <center>, <neutral>%
 PATRICE: Yes, well. Thank you for understanding. It's been very difficult to move on.
 
+$PatBlush$
 PATRICE: Oh! But, I mean, I'm ready now. I mean--I'm here because--oh, goodness. I'm sorry. I get so flustered.
 
 [[Really? It seems that way.|Really? It seems that way.]]
@@ -296,6 +302,7 @@ PATRICE: Oh! But, I mean, I'm ready now. I mean--I'm here because--oh, goodness.
 
 :: How long ago was that?
 %1, <pat>, <center>, <neutral>%
+$PatSad$
 PATRICE: A few years ago, now. Although, sometimes, it feels like it happened just yesterday.
 
 %1, <pat>, <center>, <smile>%
@@ -310,6 +317,7 @@ PATRICE: Please excuse me. I didn't mean to go prattling on.
 %1, <pat>, <center>, <neutral>%
 PATRICE: I'm afraid not. There hasn't really been much opportunity to, I'm afraid.
 
+$PatBlush$
 PATRICE: Not--not that I'm here as a last resort!
 
 [[Really? It seems that way.]]
@@ -356,6 +364,7 @@ PATRICE: Not that I'm not happy to be here! I'm just a homebody.
 #convo_points, -1#
 #pat_convo, +1#
 %1, <pat>, <center>, <scared>%
+$PatScared$
 PATRICE: I hadn't realized the way I behaved was strange.
 
 %1, <pat>, <center>, <neutral>%
@@ -371,6 +380,7 @@ PATRICE: I was just raised to behave politely, I suppose.
 %1, <pat>, <center>, <blush>%
 PATRICE: Right. I suppose I should've known you wouldn't be getting many new people through the castle, what with...
 
+$PatBlush$
 PATRICE: Oh, lord. Please, excuse me. Could we talk about something else, please?
 
 [[Certainly.|else]]
@@ -382,6 +392,7 @@ PATRICE: Oh, lord. Please, excuse me. Could we talk about something else, please
 %1, <pat>, <center>, <blush>%
 PATRICE: Oh! Well, that's good. Thank you, sire. 
 
+$PatBlush$
 PATRICE: Could we talk about something else now, please?
 
 [[Certainly.|else]]
@@ -517,6 +528,7 @@ PATRICE: --I needed a lot of help from people to get by. In a way, my trip here 
 :: I didn't mean to make you self-conscious.
 #pat_approval, +5#
 %1, <pat>, <center>, <smile>%
+$PatSmile$
 PATRICE: No, no, I'm fine! I'd just never thought about it before.
 
 %1, <pat>, <center>, <neutral>%
@@ -530,6 +542,7 @@ PATRICE: I suppose, with the changing of the times, people are becoming less for
 :: I could learn a thing or two from you.
 #pat_approval, +10#
 %1, <pat>, <center>, <blush>%
+$PatBlush$
 PATRICE: Oh, goodness.
 
 %1, <pat>, <center>, <smile>%
@@ -561,6 +574,7 @@ PATRICE: Well, Beauregard certainly seems like a good person to have by your sid
 :: Even with him here, I still feel alone.
 #pat_approval, +5#
 %1, <pat>, <center>, <sad>%
+$PatSad$
 PATRICE: That's awful!
 
 PATRICE: If that's how it feels to live here all alone, then I think I can understand why you summoned us all here.
@@ -597,6 +611,7 @@ PATRICE: How did you manage it, looking like--um. Well. Nevermind!
 :: You seem uncomfortable discussing your family.
 #pat_approval, -5#
 %1, <pat>, <center>, <scared>%
+$PatScared$
 PATRICE: Oh! Um?
 
 PATRICE: I'm--I'm not sure I know what you're talking about--
@@ -609,6 +624,7 @@ PATRICE: Would you please excuse me? I think I need some fresh air.
 :: You should give yourself more credit.
 #pat_approval, +5#
 %1, <pat>, <center>, <blush>%
+$PatBlush$
 PATRICE: You're too kind, sire, really.
 
 PATRICE: I'm no different from anyone else in my town. I'm sure any one of them would do the same, in my position.
@@ -621,6 +637,7 @@ PATRICE: I'm no different from anyone else in my town. I'm sure any one of them 
 :: A prince can always stand to learn a great deal from his people.
 #pat_approval, +10#
 %1, <pat>, <center>, <smile>%
+$PatSmile$
 PATRICE: That's a wonderful sentiment, sire. It's good to know that there are those in high society who think so.
 
 PATRICE: I'm sure you could learn as much from any of my neighbors back home as you could from me, though. If not more!
@@ -649,6 +666,7 @@ PATRICE: Of course. I hope you have a pleasant day, sire.
 
 :: I prefer to be alone.
 %1, <pat>, <center>, <neutral>%
+$PatSad$
 PATRICE: ...Oh. I suppose I should be going, then.
 
 PATRICE: Unless--Do you have any other questions for me, sire?
@@ -659,6 +677,7 @@ PATRICE: Unless--Do you have any other questions for me, sire?
 
 :: He is.
 %1, <pat>, <center>, <smile>%
+$PatSmile$
 PATRICE: I'm glad you have someone here to support you. It can't be easy, dealing with...the things you have to deal with.
 
 PATRICE: Did you have any other questions for me, sire?
@@ -686,6 +705,7 @@ PATRICE: Oh, listen to me prattle on. Did you have any other questions for me, s
 %1, <pat>, <center>, <smile>%
 PATRICE: No, no, it's alright! I can't speak for the other ladies, but personally I feel very...glad to be here. 
 
+$PatSmile$
 PATRICE: I've never even <i>seen</i> a castle before. So this is all terribly exciting for me!
 
 PATRICE: Did you have any other questions for me, sire?
@@ -697,6 +717,7 @@ PATRICE: Did you have any other questions for me, sire?
 :: I don't need your pity.
 #pat_approval, -5#
 %1, <pat>, <center>, <scared>%
+$PatScared$
 PATRICE: No, please, I didn't mean--I mean, I--
 
 PATRICE: Could we talk about something else now, please?
@@ -789,6 +810,7 @@ PATRICE: Did you have any other questions for me, sire?
 :: And yet they sent you here.
 #pat_approval, -5#
 %1, <pat>, <center>, <frown>%
+$PatSad$
 PATRICE: ...Yes. I suppose they did.
 
 %1, <pat>, <center>, <smile>%
@@ -802,8 +824,10 @@ PATRICE: But someone had to come, and I was more than happy to do it.
 #convo_points, -1#
 #pat_convo, +1#
 %1, <pat>, <center>, <scared>%
+$PatScared$
 PATRICE: Oh, dear. I...I'm not a very good liar, am I?
 
+$PatSad$
 PATRICE: It's nothing terrible, sire, I promise. It's just...something I wasn't sure you'd want in a potential wife.
 
 [[I'm not angry with you, but I'd like the truth now.]]
@@ -816,6 +840,7 @@ PATRICE: It's nothing terrible, sire, I promise. It's just...something I wasn't 
 #convo_points, -1#
 #pat_convo, +1#
 %1, <pat>, <center>, <scared>%
+$PatScared$
 PATRICE: Oh, no. And here I was, hoping it wasn't obvious.
 
 PATRICE: It's alright, sire. Just a mother's worry. You don't need to concern yourself with it, really.
@@ -827,6 +852,7 @@ PATRICE: It's alright, sire. Just a mother's worry. You don't need to concern yo
 
 :: You really do care about your village, then.
 %1, <pat>, <center>, <smile>%
+$PatSmile$
 PATRICE: I certainly do. As does everyone else who lives there, I'm sure.
 
 PATRICE: Did you have any other questions for me, sire?
@@ -851,6 +877,7 @@ PATRICE: Can we please talk about something else now, sire?
 
 :: I thought we were getting closer. Do you not trust me?
 %1, <pat>, <center>, <scared>%
+$PatScared$
 PATRICE: Oh, no, sire, it isn't that at all!
 
 PATRICE: I was just...worried. That it would change your opinion of me.
@@ -863,6 +890,7 @@ PATRICE: I was just...worried. That it would change your opinion of me.
 :: I should've known I couldn't trust you to tell me the truth.
 #pat_approval, -5#
 %1, <pat>, <center>, <scared>%
+$PatScared$
 PATRICE: I'm so sorry, sire!
 
 PATRICE: I didn't mean to keep it from you for so long.
@@ -903,6 +931,7 @@ PATRICE: Was there something else you wanted to talk about?
 %1, <pat>, <center>, <frown>%
 PATRICE: Well...if you must know, it's my son. I've been writing to him every day, but...
 
+$PatFrown$
 PATRICE: He hasn't written back yet. It's probably nothing, but I can't help wondering if something might be wrong.
 
 [[Maybe he's just busy.]]
@@ -915,6 +944,7 @@ PATRICE: He hasn't written back yet. It's probably nothing, but I can't help won
 %1, <pat>, <center>, <frown>%
 PATRICE: Well...if you must know, it's my son. I've been writing to him every day, but...
 
+$PatSad$
 PATRICE: He hasn't written back yet. It's probably nothing, but I can't help wondering if something might be wrong.
 
 [[Maybe he's just busy.]]
@@ -925,6 +955,7 @@ PATRICE: He hasn't written back yet. It's probably nothing, but I can't help won
 :: son
 #pat_approval, +10#
 %1, <pat>, <center>, <smile>%
+$PatSmile$
 PATRICE: Oh, he's a wonderful boy! His name is Jean, and he's just turned six!
 
 PATRICE: Takes so much after his father. A good-hearted, brave little soldier. He gets taller and more self-assured by the day!
@@ -933,6 +964,7 @@ PATRICE: Takes so much after his father. A good-hearted, brave little soldier. H
 PATRICE: ...I worry, sometimes, that he might be <i>too</i> much like his father. That he'll put himself in danger for someone else's sake and not come back from it.
 
 %1, <pat>, <center>, <sad>%
+$PatSad$
 PATRICE: To lose both my husband and my son...it would be too much to bear.
 
 %1, <pat>, <center>, <neutral>%
@@ -945,6 +977,7 @@ PATRICE: Oh, listen to me prattle on. Did you have any other questions for me, s
 :: And lying to me wouldn't?
 #pat_approval, -5#
 %1, <pat>, <center>, <blush>%
+$PatSad$
 PATRICE: I'm so, so sorry. Truly, I never meant to deceive you. 
 
 %1, <pat>, <center>, <frown>%
@@ -974,6 +1007,7 @@ PATRICE: The truth is, during my previous marriage, I had a son. He's currently 
 :: My opinion of you isn't so easily shaken.
 #pat_approval, +10#
 %1, <pat>, <center>, <blush>%
+$PatScared$
 PATRICE: O-oh. Well, that's good to know.
 
 %1, <pat>, <center>, <neutral>%
@@ -988,6 +1022,7 @@ PATRICE: The truth is, during my previous marriage, I had a son. He's currently 
 
 :: Are you sure your letters are reaching him?
 %1, <pat>, <center>, <frown>%
+$PatSad$
 PATRICE: That's just it--he hasn't written back even once, so I have no way of knowing. 
 
 PATRICE: I just can't help but worry about him. This is the first time I've been away from him for more than a day or two.
@@ -999,6 +1034,7 @@ PATRICE: I just can't help but worry about him. This is the first time I've been
 
 :: Maybe he's just busy.
 %1, <pat>, <center>, <frown>%
+$PatSad$
 PATRICE: No, definitely not. He's only six. There's no work he could be doing, and he isn't enrolled in any schools.
 
 PATRICE: I just can't help but worry about him. This is the first time I've been away from him for more than a day or two.
@@ -1015,6 +1051,7 @@ PATRICE: Of course. I'm fully literate myself, and I passed the skill of reading
 
 PATRICE: He's a very bright young boy. I'm sure I wasn't as smart when I was his age.
 
+$PatSad$
 PATRICE: I just can't help but worry about him. This is the first time I've been away from him for more than a day or two.
 
 [[Let me try to help.]]
@@ -1024,6 +1061,7 @@ PATRICE: I just can't help but worry about him. This is the first time I've been
 
 :: I wish you the best of luck.
 %1, <pat>, <center>, <smile>%
+$PatSmile$
 PATRICE: Thank you, sire. I'll try to keep my spirits high.
 
 PATRICE: I'll start writing another letter right away. Just in case.
@@ -1037,6 +1075,7 @@ PATRICE: Did you have any other questions for me, sire?
 :: I'll make sure Beauregard keeps a close eye on all the post.
 #pat_approval, +5#
 %1, <pat>, <center>, <smile>%
+$PatSmile$
 PATRICE: Oh, thank you, sire. You can't know how much I appreciate this.
 
 PATRICE: I'll start writing another letter right away. Just in case.
@@ -1045,6 +1084,7 @@ PATRICE: I'll start writing another letter right away. Just in case.
 :: Let me try to help.
 #pat_approval, +5#
 %1, <pat>, <center>, <smile>%
+$PatSmile$
 PATRICE: Oh, thank you, sire. You can't know how much I appreciate this.
 
 PATRICE: I'll start writing another letter right away. Just in case.
@@ -1056,6 +1096,7 @@ PATRICE: I'll start writing another letter right away. Just in case.
 PATRICE: I...I just thought...
 
 %1, <pat>, <center>, <smile>%
+$PatSmile$
 PATRICE: It seems silly now, after having told you.
 
 PATRICE: I really am sorry to have kept it fom you, sire. You deserved to know.
@@ -1077,18 +1118,21 @@ PATRICE: I know. I really am sorry to have kept it fom you, sire. You deserved t
 :: I hope you were planning to leave him there, should we get married.
 #pat_approval, -70#
 %1, <pat>, <center>, <frown>%
+$PatAngry$
 PATRICE: No.
 
 PATRICE: No, I was not planning on abandoning my son.
 
 PATRICE: And I doubt that it will become an issue, because it seems rather unlikely to me now that we will ever get married.
 
+$PatAngry$
 PATRICE: Excuse me, sire. I'd like to be going now.
 
 
 :: As long as you aren't hiding anything else, I think I can let this slide.
 #pat_approval, +5#
 %1, <pat>, <center>, <smile>%
+$PatSmile$
 PATRICE: Thank you, sire. I have no more secrets to keep, I promise.
 
 PATRICE: Did you have any other questions for me?
@@ -1100,6 +1144,7 @@ PATRICE: Did you have any other questions for me?
 
 :: Is there anything else you'd like to tell me?
 %1, <pat>, <center>, <smile>%
+$PatSmile$
 PATRICE: No, sire. I have no more secrets to keep, I promise.
 
 PATRICE: Did you have any other questions for me?
@@ -1112,6 +1157,7 @@ PATRICE: Did you have any other questions for me?
 :: Everyone's entitled to a secret or two.
 #pat_approval, +5#
 %1, <pat>, <center>, <smile>%
+$PatSmile$
 PATRICE: I suppose that's true. Thank you for understanding, sire.
 
 PATRICE: Did you have any other questions for me?
