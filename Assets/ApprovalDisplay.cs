@@ -34,12 +34,14 @@ public class ApprovalDisplay : MonoBehaviour {
 
 	void ShowGift(int giftKey) {
 		// 1 and 2 are greyed out and 3 is fully displaying
-		if (giftKey == 1 || giftKey == 2)
+		if (giftKey == 1 || giftKey == 2) {
 			giftIcon.color = new Color (giftIcon.color.r, giftIcon.color.g, giftIcon.color.b, 0.1f);
-		else if (giftKey >= 3)
+		} else if (giftKey >= 3) {
 			giftIcon.color = new Color (giftIcon.color.r, giftIcon.color.g, giftIcon.color.b, 1f);
-		else
+		} else {
+			//Debug.Log ("Doing 0 color for gift icon");
 			giftIcon.color = new Color (giftIcon.color.r, giftIcon.color.g, giftIcon.color.b, 0f);
+		}
 
 	}
 
