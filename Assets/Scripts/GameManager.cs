@@ -126,7 +126,7 @@ public class GameManager : MonoBehaviour {
         GameManager.StartConversation(marriageStory);
         screenFader.FadeToClear();
 
-        while (!dialogControls.storyCompleted)
+        while (!dialogControls.closed)
             yield return new WaitForSeconds(0.1f);
 
         screenFader.setFadeTime(3.0f);
