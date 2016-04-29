@@ -6,11 +6,12 @@ using System.Collections;
 public class Cheatz : MonoBehaviour {
 	private string[][] cheatCodes;
 	private int[] indices;
-	private int NUM_CHEATS = 3;
+	private int NUM_CHEATS = 4;
 
 	private const int WIN_IDX = 0;
 	private const int TUT_IDX = 1;
 	private const int DIN_IDX = 2;
+	private const int GIFT_IDX = 3;
 
 	public ScriptedTutorial scriptedTutorial;
 	public DayManager dayManager;
@@ -22,6 +23,7 @@ public class Cheatz : MonoBehaviour {
 		cheatCodes [WIN_IDX ] = new string[] { "w", "i", "n" };
 		cheatCodes [TUT_IDX ] = new string[] { "t", "u", "t" };
 		cheatCodes [DIN_IDX ] = new string[] { "d", "i", "n" };
+		cheatCodes [GIFT_IDX ] = new string[] { "g", "i", "f", "t"};
 
 		indices = new int[NUM_CHEATS];
 		for (int i = 0; i < indices.Length; i++) {
@@ -56,7 +58,6 @@ public class Cheatz : MonoBehaviour {
 						Debug.Log ("Unlocked win cheat!");
 						foreach (LoveInterest loveInterest in gameManager.loveInterests) {
 							loveInterest.approvalRaiting = 90;
-		
 						}
 						break;
 					case TUT_IDX:
@@ -67,10 +68,19 @@ public class Cheatz : MonoBehaviour {
 						Debug.Log ("Unlocked din cheat!");
 						dayManager.remainingConvoPts = 0;
 						break;
+					case GIFT_IDX:
+						Debug.Log ("Unlocked gift cheat!");
+						foreach (LoveInterest loveInterest in gameManager.loveInterests) {
+							if (loveInterest.designation == GameManager.LoveInterestName.Henrietta)
+								loveInterest.giftStatus = 1;
+						}
+						break;
 					}
+				
+				}
 					// Cheat code successfully inputted!
 					// Unlock crazy cheat code stuff
-				}
+
 			}
 		}
 

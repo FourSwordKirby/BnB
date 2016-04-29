@@ -27,7 +27,11 @@ BEAUREGARD: Is there anyone else you'd like to talk about?
 
 :: n_i
 #noelle_item, +1#
-BEAUREGARD: As you wish. Everything should be ready tomorrow morning.
+BEAUREGARD: Of course, sire. What in particular did you have in mind?
+
+BEAST: Noelle's mother's will. Her father is keeping it hidden somewhere.
+
+BEAUREGARD: As you wish. I should have it for you tomorrow morning.
 
 BEAUREGARD: Is there anything else you'd like to talk about?
 
@@ -43,7 +47,12 @@ BEAUREGARD: Good morning, sire!
 BEAUREGARD: Is there anything you require of me this morning?
 
 [[I'd like to ask about one of the women in the castle.|women]]
-[[There's something I'd like you to get for me.|gift]]
+[[%noelle_gift, 1, 1%Could you retrieve a gift for Noelle?|n_i]]
+[[%john_gift, 1, 1%Could you retrieve a gift for Jane?|j_i]]
+[[%pat_gift, 1, 1%Could you retrieve a gift for Patrice?|p_i]]
+[[%lucy_gift, 1, 1%Could you retrieve a gift for Lucille?|l_i]]
+[[%hen_gift, 1, 1%Could you retrieve a gift for Henrietta?|h_i]]
+[[Nevermind.|No.]]
 [[No, thank you Beauregard. You're free to go.|no]]
 
 
@@ -76,7 +85,12 @@ BEAUREGARD: Is there anyone else you'd like to talk about?
 
 :: p_i
 #pat_item, +1#
-BEAUREGARD: As you wish. Everything should be ready tomorrow morning.
+
+BEAUREGARD: Of course, sire. What in particular did you have in mind?
+
+BEAST: Patrice's son is staying with his grandmother, and no letters seem to be getting through. Could you check on them? Patrice would love a letter from her son.
+
+BEAUREGARD: As you wish. I should have it for you tomorrow morning.
 
 BEAUREGARD: Is there anything else you'd like to talk about?
 
@@ -88,36 +102,25 @@ BEAUREGARD: Is there anything else you'd like to talk about?
 %1, <beau>, <center>, <smile>%
 BEAUREGARD: Of course, sire. Who is it you'd like to talk about?
 
-[[%noelle_approval,-2-20,10%Noelle.|n1]]
+[[%noelle_approval,-30,10%Noelle.|n1]]
 [[%noelle_approval,11,30%Noelle.|n2]]
 [[%noelle_approval,31,70%Noelle.|n3]]
-[[%jane_approval,-20,10%Jane.|j1]]
-[[%jane_approval,11,30%Jane.|j2]]
-[[%jane_approval,31,70%Jane.|j3]]
-[[%pat_approval,-20,10%Pat.|p1]]
+[[%john_approval,-30,10%john.|j1]]
+[[%john_approval,11,30%john.|j2]]
+[[%john_approval,31,70%john.|j3]]
+[[%pat_approval,-30,10%Pat.|p1]]
 [[%pat_approval,11,30%Pat.|p2]]
 [[%pat_approval,31,70%Pat.|p3]]
-[[%lucy_approval,-20,10%Lucille.|l1]]
+[[%lucy_approval,-30,10%Lucille.|l1]]
 [[%lucy_approval,11,30%Lucille.|l2]]
 [[%lucy_approval,31,70%Lucille.|l3]]
-[[%hen_approval,-20,10%Henrietta.|h1]]
+[[%hen_approval,-30,10%Henrietta.|h1]]
 [[%hen_approval,11,30%Henrietta.|h2]]
 [[%hen_approval,31,70%Henrietta.|h3]]
 
 
 :: no
 BEAUREGARD: Very well, sire. I wish you a good day, and good luck!
-
-
-:: gift
-BEAUREGARD: Of course, sire. What in particular did you have in mind?
-
-[[%noelle_gift, 1, 1%Noelle's mother's will. Her father is keeping it hidden somewhere.|n_i]]
-[[%jane_gift, 1, 1%A picture of Jane's family.|j_i]]
-[[%pat_gift, 1, 1%Patrice's son is staying with his grandmother, and no letters seem to be getting through. Could you check on them? Patrice wold love a letter from her son.|p_i]]
-[[%lucy_gift, 1, 1%Lucille had a fight with her best friend before leaving home. Could you persuade her to forgive Lucille? Perhaps in letter form?|l_i]]
-[[%hen_gift, 1, 1%Henrietta's old home had pastures with a sweeter type of grass. Would you bring some back to the castle for her?|h_i]]
-[[Nevermind.|No.]]
 
 
 :: j3
@@ -149,6 +152,11 @@ BEAUREGARD: Is there anyone else you'd like to talk about?
 
 :: j_i
 #john_item, +1#
+
+BEAUREGARD: Of course, sire. What in particular did you have in mind?
+
+BEAST: A letter from Jane's sister. She misses her terribly and has nothing to remember her by.
+
 BEAUREGARD: As you wish. Everything should be ready tomorrow morning.
 
 BEAUREGARD: Is there anything else you'd like to talk about?
@@ -162,14 +170,23 @@ BEAUREGARD: Is there anything else you'd like to talk about?
 BEAUREGARD: Very well, sire. Is there anything else I can help with?
 
 [[I'd like to ask about one of the women in the castle.|women]]
-[[There's something I'd like you to get for me.|gift]]
+[[%noelle_gift, 1, 1%Could you retrieve a gift for Noelle?|n_i]]
+[[%john_gift, 1, 1%Could you retrieve a gift for Jane?|j_i]]
+[[%pat_gift, 1, 1%Could you retrieve a gift for Patrice?|p_i]]
+[[%lucy_gift, 1, 1%Could you retrieve a gift for Lucille?|l_i]]
+[[%hen_gift, 1, 1%Could you retrieve a gift for Henrietta?|h_i]]
 [[No, thank you Beauregard. You're free to go.|no]]
 
 
 
 :: l_i
 #lucy_item, +1#
-BEAUREGARD: As you wish. Everything should be ready tomorrow morning.
+
+BEAUREGARD: Of course, sire. What in particular did you have in mind?
+
+BEAST: Lucille hasn't seen her best friend in years. Could you find out whatever you can about her whereabouts? Lucille said she went to Paris.
+
+BEAUREGARD: As you wish. I should have it for you tomorrow morning.
 
 BEAUREGARD: Is there anything else you'd like to talk about?
 
@@ -197,7 +214,12 @@ BEAUREGARD: Is there anyone else you'd like to talk about?
 
 :: h_i
 #hen_item, +1#
-BEAUREGARD: As you wish. Everything should be ready tomorrow morning.
+
+BEAUREGARD: Of course, sire. What in particular did you have in mind?
+
+BEAST: Henrietta's old home had pastures with a sweeter type of grass. Would you bring some back to the castle for her?
+
+BEAUREGARD: As you wish. I should have it for you tomorrow morning.
 
 BEAUREGARD: Is there anything else you'd like to talk about?
 
