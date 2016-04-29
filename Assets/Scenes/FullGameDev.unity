@@ -310,10 +310,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 131312, guid: fea20f6881a127243a2ca5793fe43dab, type: 2}
-      propertyPath: m_Name
-      value: ButlerMarriage
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fea20f6881a127243a2ca5793fe43dab, type: 2}
   m_IsPrefabParent: 0
@@ -3556,7 +3552,7 @@ MonoBehaviour:
   leavingBeauStory: {fileID: 235834428}
   leavingBeauEnd: {fileID: 644009010}
   eveningBeauStory: {fileID: 1100236380}
-  beauPityStory: {fileID: 1777227328}
+  beauPityStory: {fileID: 0}
   daySprites:
   - {fileID: 21300000, guid: 2432b625c09715043842503b2e78d812, type: 3}
   - {fileID: 21300000, guid: a6f883d2d0e3cfa4ca9781ec2727a527, type: 3}
@@ -4168,7 +4164,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1777227326}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ec5e89ddcd7c734dabe219395c5db10, type: 3}
+  m_Script: {fileID: 11500000, guid: d4042d6c4a7afd747ac5f0154c08c52c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   AutoPlay: 0

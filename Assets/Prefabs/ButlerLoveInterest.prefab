@@ -24,9 +24,9 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 464364}
-  - 114: {fileID: 11425474}
+  - 114: {fileID: 11427560}
   m_Layer: 0
-  m_Name: MarriageStory
+  m_Name: ButlerMarriage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39,7 +39,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 108008}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 415.8958, y: 120.54504, z: 1}
+  m_LocalPosition: {x: 281.5, y: 86.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 464364}
@@ -70,10 +70,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   designation: 0
   currentStory: {fileID: 0}
-  marriageStory: {fileID: 11425474}
+  marriageStory: {fileID: 0}
+  leavingStory: {fileID: 0}
   approvalRaiting: 0
   giftStatus: 0
+  departed: 0
   convoTracker: 0
+  dinner: 0
   fullBodySprite: {fileID: 21300000, guid: e05ff827387c1624eb3fa5a2e2ef2555, type: 3}
   loveInterestSprites:
   - {fileID: 21300000, guid: a61f1b2246e86484782d7a9ab2dac6cf, type: 3}
@@ -82,9 +85,9 @@ MonoBehaviour:
   - {fileID: 21300000, guid: e05ff827387c1624eb3fa5a2e2ef2555, type: 3}
   - {fileID: 21300000, guid: 1f490f6e5680d09418aaa59b79852e24, type: 3}
   - {fileID: 21300000, guid: 910ed28a065c7024ba6c62183264f56b, type: 3}
-  - {fileID: 21300000, guid: 81673008448ad1e4bbbdc1ca4b4e6c0f, type: 3}
+  - {fileID: 0}
   loveInterestIcon: {fileID: 21300000, guid: f910c0d3cadec1f49a3ca38fba99922e, type: 3}
---- !u!114 &11425474
+--- !u!114 &11427560
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -92,7 +95,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 131312}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2ed634738a492942a4680ec63646160, type: 3}
+  m_Script: {fileID: 11500000, guid: 092a5dc0d192ae34dbfdb2deb719d8f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   AutoPlay: 0

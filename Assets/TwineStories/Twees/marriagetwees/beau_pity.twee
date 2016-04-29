@@ -1,0 +1,32 @@
+﻿:: Start
+$BeauSad$
+%1, <beau>, <center>, <sad>%
+BEAUREGARD: Oh, sire. I'm so sorry.
+
+BEAUREGARD: I thought you might have a chance, I really did. But maybe I just got your hopes up for nothing.
+
+BEAST: It's alright, Beau. 
+
+BEAST: You did everything you could. I'm the one who failed here. Please, go and find your own happy ending.
+
+$BeauAngry$
+%1, <beau>, <center>, <angry>%
+BEAUREGARD: Don't be ridiculous, sire! As if my happy ending could be anywhere but here! With you!
+
+BEAUREGARD: I didn't stay with you all these years without good reason.
+
+BEAUREGARD: I've loved you since we were children, Adam. And I'm not about to give up on you now.
+
+BEAST: You...love me?
+
+%1, <beau>, <center>, <neutral>%
+BEAUREGARD: ...You mean you didn't know?
+
+BEAUREGARD: I...All this time I thought you just didn't want to be with me. But if you didn't even realize that I--
+
+%1, <beau>, <center>, <smile>%
+BEAUREGARD: I love you, Adam. And I would be happy to spend the rest of my life with you.
+
+&Beau&
+
+
