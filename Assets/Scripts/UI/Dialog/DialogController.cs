@@ -292,7 +292,7 @@ public class DialogController : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+		if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return))
         {
 			if (storyCompleted && dialogUI.dialogCompleted()) {
                 GameManager.EndConversation();
